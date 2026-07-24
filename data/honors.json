@@ -1,0 +1,472 @@
+[
+  {
+    "id": "2008-ballon-dor",
+    "name": "Ballon d'Or",
+    "category": "Global Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2013-ballon-dor",
+    "name": "Ballon d'Or",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2013/14",
+    "year": 2013,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2014-ballon-dor",
+    "name": "Ballon d'Or",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2014/15",
+    "year": 2014,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-ballon-dor",
+    "name": "Ballon d'Or",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2017-ballon-dor",
+    "name": "Ballon d'Or",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2017,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2008-fifa-world-player",
+    "name": "FIFA World Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-the-best-fifa-player",
+    "name": "The Best FIFA Men's Player",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2017-the-best-fifa-player",
+    "name": "The Best FIFA Men's Player",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2017,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2021-the-best-fifa-special-award",
+    "name": "The Best FIFA Special Award for Outstanding Career Achievement",
+    "category": "Global Individual Award",
+    "club": "Manchester United",
+    "season": "2021/22",
+    "year": 2021,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2008-uefa-club-footballer",
+    "name": "UEFA Club Footballer of the Year",
+    "category": "Continental Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2014-uefa-mens-player",
+    "name": "UEFA Men's Player of the Year Award",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2013/14",
+    "year": 2014,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-uefa-mens-player",
+    "name": "UEFA Men's Player of the Year Award",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2015/16",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2017-uefa-mens-player",
+    "name": "UEFA Men's Player of the Year Award",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2017,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2024-uefa-cl-all-time-top-scorer",
+    "name": "The Best Special Award of UEFA Champions League All-Time Top Scorer",
+    "category": "Continental Individual Award",
+    "club": "Al-Nassr",
+    "season": "2024/25",
+    "year": 2024,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2009-fifa-puskas-award",
+    "name": "FIFA Puskás Award",
+    "category": "Global Individual Award",
+    "club": "Manchester United",
+    "season": "2008/09",
+    "year": 2009,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-fifa-cwc-golden-ball",
+    "name": "FIFA Club World Cup Golden Ball",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2008-uefa-cl-top-scorer",
+    "name": "UEFA Champions League top scorer",
+    "category": "Continental Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2013-uefa-cl-top-scorer",
+    "name": "UEFA Champions League top scorer",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2012/13",
+    "year": 2013,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2014-uefa-cl-top-scorer",
+    "name": "UEFA Champions League top scorer",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2013/14",
+    "year": 2014,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2015-uefa-cl-top-scorer",
+    "name": "UEFA Champions League top scorer",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2014/15",
+    "year": 2015,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-uefa-cl-top-scorer",
+    "name": "UEFA Champions League top scorer",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2015/16",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2017-uefa-cl-top-scorer",
+    "name": "UEFA Champions League top scorer",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2017,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2018-uefa-cl-top-scorer",
+    "name": "UEFA Champions League top scorer",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2018,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2008-european-golden-shoe",
+    "name": "European Golden Shoe",
+    "category": "Continental Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2011-european-golden-shoe",
+    "name": "European Golden Shoe",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2010/11",
+    "year": 2011,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2014-european-golden-shoe",
+    "name": "European Golden Shoe",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2013/14",
+    "year": 2014,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2015-european-golden-shoe",
+    "name": "European Golden Shoe",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2014/15",
+    "year": 2015,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-uefa-euro-all-time-xi",
+    "name": "UEFA European Championship All-Time XI",
+    "category": "Continental Individual Award",
+    "club": "Portugal National Team",
+    "season": "2015/16",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2020-uefa-euro-golden-boot",
+    "name": "UEFA European Championship Golden Boot",
+    "category": "Continental Individual Award",
+    "club": "Portugal National Team",
+    "season": "2020/21",
+    "year": 2021,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2019-uefa-nl-top-scorer",
+    "name": "UEFA Nations League Finals Top Scorer",
+    "category": "Continental Individual Award",
+    "club": "Portugal National Team",
+    "season": "2018/19",
+    "year": 2019,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2025-uefa-nl-top-scorer",
+    "name": "UEFA Nations League Finals Top Scorer",
+    "category": "Continental Individual Award",
+    "club": "Portugal National Team",
+    "season": "2024/25",
+    "year": 2025,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2007-pl-player-of-the-season",
+    "name": "Premier League Player of the Season",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2006/07",
+    "year": 2007,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2008-pl-player-of-the-season",
+    "name": "Premier League Player of the Season",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2014-la-liga-best-player",
+    "name": "La Liga Best Player",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2013/14",
+    "year": 2014,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2019-serie-a-footballer",
+    "name": "Serie A Footballer of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2018/19",
+    "year": 2019,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2020-serie-a-footballer",
+    "name": "Serie A Footballer of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2019/20",
+    "year": 2020,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2008-pl-golden-boot",
+    "name": "Premier League Golden Boot",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2011-pichichi-trophy",
+    "name": "Pichichi Trophy",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2010/11",
+    "year": 2011,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2014-pichichi-trophy",
+    "name": "Pichichi Trophy",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2013/14",
+    "year": 2014,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2015-pichichi-trophy",
+    "name": "Pichichi Trophy",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2014/15",
+    "year": 2015,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2021-capocannoniere",
+    "name": "Capocannoniere",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2020/21",
+    "year": 2021,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2024-spl-golden-boot",
+    "name": "Saudi Pro League Golden Boot",
+    "category": "Domestic Individual Award",
+    "club": "Al-Nassr",
+    "season": "2023/24",
+    "year": 2024,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2025-spl-golden-boot",
+    "name": "Saudi Pro League Golden Boot",
+    "category": "Domestic Individual Award",
+    "club": "Al-Nassr",
+    "season": "2024/25",
+    "year": 2025,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2020-golden-foot",
+    "name": "Golden Foot",
+    "category": "Global Individual Award",
+    "club": "Juventus",
+    "season": "2020/21",
+    "year": 2020,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2020-globe-soccer-21st-century",
+    "name": "21st Century Awards",
+    "category": "Global Individual Award",
+    "club": "Juventus",
+    "season": "2020/21",
+    "year": 2020,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2025-primeira-liga-best-player-all-time",
+    "name": "Primeira Liga Best Player of All Time Award",
+    "category": "Domestic Individual Award",
+    "club": "Al-Nassr",
+    "season": "2024/25",
+    "year": 2025,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2020-ballon-dor-dream-team",
+    "name": "Ballon d'Or Dream Team",
+    "category": "Global Individual Award",
+    "club": "Juventus",
+    "season": "2020/21",
+    "year": 2020,
+    "domestic": false,
+    "notes": ""
+  }
+]

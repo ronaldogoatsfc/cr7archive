@@ -1,0 +1,21 @@
+export const metadata = {
+  title: "Records — The CR7 Archive",
+};
+
+export default function RecordsPage() {
+  return (
+    <div className="mx-auto max-w-3xl px-6 py-16">
+      <p className="font-mono text-xl uppercase tracking-[0.3em] text-gold">
+        Records
+      </p>
+      <h1 className="mt-2 font-display text-4xl font-semibold text-paper">
+        Coming soon
+      </h1>
+      <p className="mt-4 max-w-xl text-paper-dim">
+        This section will cover career milestones and standout numbers —
+        goal-scoring records, appearance streaks, and similar marks pulled
+        from the match ledger as the dataset grows.
+      </p>
+    </div>
+  );
+}

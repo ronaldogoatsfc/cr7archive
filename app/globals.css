@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --pitch: #0b0e0f;
+  --pitch-raised: #12171a;
+  --paper: #f2f0ea;
+  --paper-dim: #b9b6ad;
+  --gold: #c9a227;
+  --gold-bright: #e2bd45;
+  --turf: #2e4c3b;
+  --turf-bright: #4a7a5f;
+  --goal-red: #8b3a3a;
+  --line: rgba(242, 240, 234, 0.12);
+}
+
+@theme inline {
+  --color-pitch: var(--pitch);
+  --color-pitch-raised: var(--pitch-raised);
+  --color-paper: var(--paper);
+  --color-paper-dim: var(--paper-dim);
+  --color-gold: var(--gold);
+  --color-gold-bright: var(--gold-bright);
+  --color-turf: var(--turf);
+  --color-turf-bright: var(--turf-bright);
+  --color-goal-red: var(--goal-red);
+  --color-line: var(--line);
+  --font-display: var(--font-oswald);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains);
+}
+
+body {
+  background: var(--pitch);
+  color: var(--paper);
+  font-family: var(--font-inter);
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--pitch);
+}
+
+.stat-number {
+  font-family: var(--font-oswald);
+  font-variant-numeric: tabular-nums;
+}
+
+.data-mono {
+  font-family: var(--font-jetbrains);
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker-track {
+  animation: ticker-scroll 45s linear infinite;
+}
+
+.ticker-track:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track {
+    animation: none;
+  }
+}
