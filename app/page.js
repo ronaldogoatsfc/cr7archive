@@ -10,23 +10,30 @@ const sections = [
   {
     title: "Match Logs",
     description:
-      "Every match Cristiano Ronaldo has played, filterable by season, competition, club, result, venue, and performance statistics.",
+      "Explore a complete, searchable database of every official and unofficial appearance—filterable by season, competition, venue, and detailed performance metrics",
     href: "/match-logs",
-    cta: "Open the match logs",
+    cta: "Open match logs",
+  },
+  {
+    title: "Articles",
+    description:
+      "Original writing on Ronaldo's game — tactics, technique, and how his career has evolved over time.",
+    href: "/articles",
+    cta: "Read the articles",
   },
   {
     title: "Visualizations",
     description:
-      "Data representations of Cristiano Ronaldo's statistics: season-by-season breakdowns, competition splits, and efficiency trends.",
+      "Interactive statistical breakdowns detailing goal trends, efficiency metrics, and more.",
     href: "/visualizations",
-    cta: "See the visualizations",
+    cta: "See visualizations",
   },
   {
     title: "Trophies",
     description:
-      "Every title lifted with club and country.",
+      "Every piece of silverware lifted with club and country.",
     href: "/trophies",
-    cta: "View the trophy cabinet",
+    cta: "View trophy cabinet",
   },
   {
     title: "Individual Honors & Awards",
@@ -38,9 +45,9 @@ const sections = [
   {
     title: "Records",
     description:
-      "Career milestones and numbers that stand out, from goal tallies to appearance streaks.",
+      "'I don't follow the records, the records follow me.' - Cristiano Ronaldo",
     href: "/records",
-    cta: "Browse the records",
+    cta: "Browse records",
   },
   {
     title: "About",
@@ -60,10 +67,10 @@ export default function Home() {
     <div>
       <section className="mx-auto max-w-6xl px-6 pt-16 pb-12 text-center">
         <h2 className="font-display text-4xl font-semibold text-paper sm:text-5xl md:text-6xl">
-          Welcome to The CR7 Archive
+          Welcome to The CR7 Archive.
         </h2>
         <p className="mt-6 font-mono text-xl uppercase tracking-[0.3em] text-gold">
-          The race to 1,000 is on.
+          The race to 1,000 is on
         </p>
         <h1 className="stat-number mt-4 text-[clamp(4rem,14vw,10rem)] font-semibold leading-none text-paper">
           {totals.goals}

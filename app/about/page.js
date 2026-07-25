@@ -17,7 +17,7 @@ export default function AboutPage() {
       <div className="mt-8 space-y-5 text-paper-dim">
         <p>
           The CR7 Archive is a fan-made project built to log Cristiano
-          Ronaldo&apos;s career match by match. It&apos;s a place where
+          Ronaldo&apos;s career match by match. It is a place where
           fans can explore every appearance, goal, assist, and trophy, 
           filterable and visualized in one place. The goal is to 
           provide a comprehensive, accurate, and accessible record of 
@@ -31,16 +31,17 @@ export default function AboutPage() {
           than an official source.
         </p>
         <p>
-          This site is <span className="text-paper">not affiliated with, endorsed by, or
-          connected to</span> Cristiano Ronaldo, any club, league, or
-          federation he has played for. It is an independent, non-commercial
-          fan project. No copyright is claimed over any underlying match
-          footage, competition names, or club and federation marks referenced
-          here; they remain the property of their respective owners.
+          This site is <span className="text-paper">not affiliated with, 
+          endorsed by, or connected to</span> Cristiano Ronaldo, any club, 
+          league, or federation he has played for. It is an independent, 
+          non-commercial fan project. No copyright is claimed over any 
+          underlying match footage, competition names, or club and 
+          federation marks referenced here; they remain the property of 
+          their respective owners.
         </p>
         <p>
-          Spotted an error in the data, or have footage or a correction to
-          suggest? Get in touch:
+          If you spot an error, have footage for a match, or have a 
+          correction to suggest, please get in touch:
         </p>
         <p>
           <a
@@ -50,8 +51,51 @@ export default function AboutPage() {
             ronaldogoatsfc@gmail.com
           </a>
         </p>
-
-        <p>Follow along or drop a suggestion on social:</p>
+        <h1 className="mt-2 font-display text-4xl font-semibold text-paper">
+          What&apos;s next?
+        </h1>
+          <p>
+            Here are some additional features that we are considering on 
+            implementing in the near future:
+          </p>
+          <p>
+            <span className="text-paper">Official & Unofficial Match Logs: </span>
+            There are many games where statistics were not recorded. 
+            If this changes, we will add them. There are also hundreds of 
+            games that do not have footage linked. If we find footage, we 
+            will add it. Other things such as goal types, minute scored in, 
+            assist types, and opponent rankings will be added in the near future.
+          </p>
+          <p>
+            <span className="text-paper">Visualizations: </span>
+            We plan on building more interactive data visualizations covering 
+            various aspects of Cristiano Ronaldo's game.
+          </p>
+          <p>
+            <span className="text-paper">Individual Honors: </span>
+            Detailed breakdown of the awards received, including voting breakdown, 
+            criteria, etc.
+          </p>
+          <p>
+            <span className="text-paper">Records: </span>
+            This page is yet to be built, but will contain currently held records 
+            alongside previously held records.
+          </p>
+          <p>
+            <span className="text-paper">Articles: </span>
+            Deep dives and tactical analyses that explore narratives throughout 
+            Cristiano Ronaldo's career.
+          </p>
+          <p>
+            <span className="text-paper">Comparisons: </span>
+            We plan on building a comparison tool that users can use to compare 
+            across seasons, clubs, years, and more.
+          </p>
+          <p>
+            <span className="text-paper">Mobile Compatibility: </span>
+            We are looking into enhancing the mobile user's experience.
+          </p>
+        <p>Follow along or drop a suggestion on social media:</p>
         <SocialLinks />
       </div>
     </div>

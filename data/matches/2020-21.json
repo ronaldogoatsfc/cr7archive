@@ -66,8 +66,8 @@
       "rating": 7.5,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://vimeo.com/654954244",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -544,8 +544,8 @@
       "rating": 8.0,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=_Rb10l2Hc9A",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -580,8 +580,8 @@
       "rating": 7.7,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://vimeo.com/710904298",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -616,8 +616,8 @@
       "rating": 6.5,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://vimeo.com/710942617",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -760,8 +760,8 @@
       "rating": 7.4,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://vimeo.com/710833620",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -832,8 +832,8 @@
       "rating": 8.5,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=bKbRvr8VyvI",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -868,8 +868,8 @@
       "rating": 7.5,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=sxxudqFt8P0",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -940,8 +940,8 @@
       "rating": 6.7,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://vimeo.com/862911493",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
