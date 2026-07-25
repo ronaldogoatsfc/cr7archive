@@ -724,8 +724,8 @@
       "rating": 9.4,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=Et2LT1V1MKI",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/real-madrid-deportivo-alaves-liga-1-division-2017-2018"
   },
@@ -760,8 +760,8 @@
       "rating": 8.8,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=W7kiZnADy6o",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/real-betis-real-madrid-liga-1-division-2017-2018"
   },
@@ -832,8 +832,8 @@
       "rating": 10.0,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=BQliDDaC3cM",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/real-madrid-real-sociedad-liga-1-division-2017-2018"
   },
@@ -868,8 +868,8 @@
       "rating": 6.7,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=Nxo3p3DE1zw",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/levante-ud-real-madrid-liga-1-division-2017-2018"
   },
@@ -1048,8 +1048,8 @@
       "rating": 6.5,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=dVFUcaoXRtM",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/real-madrid-fc-barcelona-liga-1-division-2017-2018"
   },
@@ -1670,8 +1670,8 @@
       "rating": 8.1,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://vimeo.com/294400007",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/borussia-dortmund-real-madrid-champions-league-2017-2018"
   },
@@ -1706,8 +1706,8 @@
       "rating": 8.0,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=vusqjRsYLos",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/deportivo-alaves-real-madrid"
   },

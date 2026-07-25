@@ -748,8 +748,8 @@
       "rating": 7.8,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=C0hKHeSFIIk",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/real-madrid-ud-las-palmas-liga-1-division"
   },
@@ -820,8 +820,8 @@
       "rating": 7.4,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=o4CDbaMfcAM",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/valencia-cf-real-madrid-liga-1-division-2016-2017"
   },
@@ -1871,8 +1871,8 @@
       "rating": 7.6,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=nXdo3KpPM1g",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/real-madrid-ca-osasuna-liga-1-division-2016-2017"
   }

@@ -1074,8 +1074,8 @@
       "rating": 6.8,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=O_r2sB3rfCY",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/granada-cf-real-madrid-liga-1-division-2015-2016"
   },
@@ -1830,8 +1830,8 @@
       "rating": 6.8,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=jq-bHUE6c6Q",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-liga-1-division-2015-2016"
   },

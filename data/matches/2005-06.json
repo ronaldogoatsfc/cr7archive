@@ -322,7 +322,7 @@
     "minutesPlayed": 64,
     "goals": 0,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     
     "hasMatchComp": true,
@@ -411,7 +411,7 @@
     "minutesPlayed": 90,
     "goals": 0,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=AwTD7kLIIl8",
@@ -569,7 +569,7 @@
     "minutesPlayed": 73,
     "goals": 1,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     
     "hasMatchComp": true,
@@ -683,7 +683,7 @@
     "goals": 0,
     "assists": 0,
     "yellowCard": null,
-    "redCard": null,
+    "redCard": true,
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=JQmb-Jlyzmg",
     "hasFullMatch": false,
@@ -772,7 +772,7 @@
     "minutesPlayed": 90,
     "goals": 2,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     
     "hasMatchComp": true,
@@ -863,7 +863,7 @@
     "minutesPlayed": 20,
     "goals": 0,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     
     "hasMatchComp": true,
@@ -909,7 +909,7 @@
     "minutesPlayed": 67,
     "goals": 0,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     "stats": {
       "shots": 3,
@@ -1096,7 +1096,7 @@
     "minutesPlayed": 90,
     "goals": 0,
     "assists": 1,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     
     "hasMatchComp": true,
@@ -1237,7 +1237,7 @@
     "minutesPlayed": 89,
     "goals": 0,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     
     "hasMatchComp": true,
@@ -1365,7 +1365,7 @@
     "minutesPlayed": 90,
     "goals": 0,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     
     "hasMatchComp": true,
@@ -1493,7 +1493,7 @@
     "minutesPlayed": 85,
     "goals": 0,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     
     "hasMatchComp": true,

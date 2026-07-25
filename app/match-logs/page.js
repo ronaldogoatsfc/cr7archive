@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState, Fragment } from "react";
-import { ChevronRight, ChevronDown, Film, Video } from "lucide-react";
+import { ChevronRight, ChevronDown, Film, Video, Info } from "lucide-react";
 import matches from "@/data/all-matches";
 import {
   filterMatches,
@@ -62,12 +62,21 @@ const STAT_FIELDS = [
   { key: "rating", label: "Rating", decimals: 1 },
 ];
 
-function Select({ label, value, onChange, options, allLabel = "All" }) {
+function Select({ label, value, onChange, options, allLabel = "All", infoTitle, infoContent }) {
   return (
     <label className="flex flex-col gap-1">
-      <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
-        {label}
-      </span>
+      {/* Align the label text and info button horizontally */}
+      <div className="flex items-center gap-1.5">
+        <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+          {label}
+        </span>
+        {infoTitle && (
+          <InfoButton title={infoTitle}>
+            {infoContent}
+          </InfoButton>
+        )}
+      </div>
+
       <select
         value={value}
         onChange={(e) => onChange(e.target.value)}
@@ -84,12 +93,19 @@ function Select({ label, value, onChange, options, allLabel = "All" }) {
   );
 }
 
-function MinSelect({ label, value, onChange, options }) {
+function MinSelect({ label, value, onChange, options, infoTitle, infoContent }) {
   return (
     <label className="flex flex-col gap-1">
-      <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
-        {label}
-      </span>
+      <div className="flex items-center gap-1.5">
+        <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+          {label}
+        </span>
+        {infoTitle && (
+          <InfoButton title={infoTitle}>
+            {infoContent}
+          </InfoButton>
+        )}
+      </div>
       <select
         value={value}
         onChange={(e) => onChange(e.target.value)}
@@ -128,6 +144,46 @@ function StatTile({ label, value }) {
         {label}
       </p>
       <p className="data-mono mt-1 text-lg text-gold">{value}</p>
+    </div>
+  );
+}
+
+function InfoButton({ title, children }) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div className="relative">
+      <button
+        type="button"
+        onClick={() => setOpen((prev) => !prev)}
+        aria-label={`Information about ${title}`}
+        className="flex h-5 w-5 items-center justify-center rounded-full text-paper-dim transition hover:bg-pitch hover:text-gold"
+      >
+        <Info size={14} />
+      </button>
+
+      {open && (
+        <div className="absolute right-0 top-7 z-50 w-72 rounded-xl border border-line bg-pitch-raised p-4 shadow-xl">
+          <div className="flex items-start justify-between gap-3">
+            <h4 className="font-display text-sm font-semibold text-paper">
+              {title}
+            </h4>
+
+            <button
+              type="button"
+              onClick={() => setOpen(false)}
+              className="text-paper-dim transition hover:text-paper"
+              aria-label="Close information"
+            >
+              ×
+            </button>
+          </div>
+
+          <div className="mt-2 text-xs leading-5 text-paper-dim">
+            {children}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -368,6 +424,8 @@ export default function MatchLogsPage() {
                 value={filters.minKeyPasses}
                 onChange={(v) => updateFilter("minKeyPasses", v)}
                 options={COUNT_THRESHOLDS}
+                infoTitle="Key Passes"
+                infoContent="The final pass leading to a shot on goal by a teammate."
               />
               <MinSelect
                 label="Big Chances Created"
@@ -404,6 +462,10 @@ export default function MatchLogsPage() {
                 value={filters.minXG}
                 onChange={(v) => updateFilter("minXG", v)}
                 options={XG_THRESHOLDS}
+                infoTitle="Expected Goals"
+                infoContent="Measures the quality of a shot based on variables like distance, angle, phase of play, 
+                and type of assist. An xG of 0.75 means a player would be expected to score that chance 75% of the 
+                time."
               />
               <MinSelect
                 label="Match Rating"
@@ -416,6 +478,11 @@ export default function MatchLogsPage() {
                 value={filters.motm}
                 onChange={(v) => updateFilter("motm", v)}
                 options={["Yes", "No"]}
+                infoTitle="Man of the Match Awards"
+                infoContent="These are counted by the number of instances Cristiano Ronaldo was the Man of the Match, 
+                as chosen by rating apps. Different rating apps were used in various cases, such as an app not having 
+                a rating for that specific game, while another one did. Fan-voted Man of the Match awards also exist, 
+                but they were not used in the total as to remain consistent with the other data."
               />
             </FilterSection>
 
@@ -425,12 +492,20 @@ export default function MatchLogsPage() {
                 value={filters.hasMatchComp}
                 onChange={(v) => updateFilter("hasMatchComp", v)}
                 options={["Yes", "No"]}
+                infoTitle="Match Compilations"
+                infoContent="'Yes' if there is a match compilation link for that game and 'No' if there is not. If 
+                you find one, please send us a link to it. The match compilation should be in 720p or better. It 
+                should not be cropped. Watermarks are okay."
               />
               <Select
                 label="Has Full Match"
                 value={filters.hasFullMatch}
                 onChange={(v) => updateFilter("hasFullMatch", v)}
                 options={["Yes", "No"]}
+                infoTitle="Full Match"
+                infoContent="'Yes' if there is a full match link for that game and 'No' if there is not. If you 
+                find one, please send us a link to it. The full match should be in 720p or better. It should not be 
+                cropped. Watermarks are okay."                
               />
             </FilterSection>
           </>

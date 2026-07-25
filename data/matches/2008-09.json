@@ -333,8 +333,8 @@
       "rating": 6.2,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://vimeo.com/170313033",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/manchester-united-fc-porto"
   },

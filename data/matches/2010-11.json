@@ -30,8 +30,8 @@
       "rating": null,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=XvB4fLWHpY4",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },

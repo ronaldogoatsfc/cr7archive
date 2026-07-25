@@ -572,8 +572,8 @@
       "rating": 6.0,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://vimeo.com/434009532",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/olympique-lyonnais-juventus-fc-champions-league"
   },
@@ -1473,8 +1473,8 @@
       "rating": 8.6,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://vimeo.com/451092712",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/ukraine-portugal-euro-qualification"
   },

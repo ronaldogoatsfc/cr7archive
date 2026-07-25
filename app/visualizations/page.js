@@ -24,6 +24,14 @@ import {
   ratingDistribution,
   resultsBreakdown,
   goalsByKnockoutPhase,
+  goalsByOpponent,
+  goalsByVenue,
+  goalsByMonth,
+  goalsByAge,
+  goalsPer90BySeason,
+  winPercentageByCompetition,
+  appearancesByClub,
+  goalsAndAssistsByClub,
 } from "@/lib/stats";
 
 const GOLD = "#c9a227";
@@ -68,6 +76,14 @@ export default function VisualizationsPage() {
   const ratings = ratingDistribution(matches);
   const results = resultsBreakdown(matches);
   const knockoutGoals = goalsByKnockoutPhase(matches);
+  const byOpponent = goalsByOpponent(matches);
+  const byVenue = goalsByVenue(matches);
+  const byMonth = goalsByMonth(matches);
+  const byAge = goalsByAge(matches);
+  const per90 = goalsPer90BySeason(matches);
+  const winRates = winPercentageByCompetition(matches);
+  const appearancesClub = appearancesByClub(matches);
+  const clubContributions = goalsAndAssistsByClub(matches);
   const RESULT_COLORS = { Wins: TURF, Draws: PAPER_DIM, Losses: "#8b3a3a" };
 
   return (
@@ -217,12 +233,305 @@ export default function VisualizationsPage() {
               <XAxis
                 dataKey="name"
                 stroke={PAPER_DIM}
-                fontSize={11}
+                fontSize={10}
                 tickLine={false}
+                interval={0}
+                angle={-25}
+                textAnchor="end"
+                height={70}
               />
               <YAxis stroke={PAPER_DIM} fontSize={11} tickLine={false} allowDecimals={false} />
               <Tooltip contentStyle={tooltipStyle} cursor={{ fill: LINE }} />
               <Bar dataKey="goals" fill={GOLD_BRIGHT} radius={[4, 4, 0, 0]} />
+            </BarChart>
+          </ResponsiveContainer>
+        </ChartCard>
+        <ChartCard
+          title="Most goals against"
+          description="The 15 opponents against whom the most goals were logged."
+          height="h-[28rem]"
+        >
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart
+              data={byOpponent}
+              layout="vertical"
+              margin={{ left: 20, right: 20 }}
+            >
+              <CartesianGrid stroke={LINE} horizontal={false} />
+              <XAxis
+                type="number"
+                stroke={PAPER_DIM}
+                fontSize={11}
+                allowDecimals={false}
+              />
+              <YAxis
+                type="category"
+                dataKey="name"
+                stroke={PAPER_DIM}
+                fontSize={10}
+                width={120}
+                tickLine={false}
+              />
+              <Tooltip contentStyle={tooltipStyle} cursor={{ fill: LINE }} />
+              <Bar
+                dataKey="goals"
+                fill={GOLD}
+                radius={[0, 4, 4, 0]}
+              />
+            </BarChart>
+          </ResponsiveContainer>
+        </ChartCard>
+        <ChartCard
+          title="Goals by venue"
+          description="Goals scored at home, away, and at neutral venues."
+        >
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={byVenue}>
+              <CartesianGrid stroke={LINE} vertical={false} />
+              <XAxis
+                dataKey="name"
+                stroke={PAPER_DIM}
+                fontSize={11}
+                tickLine={false}
+              />
+              <YAxis
+                stroke={PAPER_DIM}
+                fontSize={11}
+                tickLine={false}
+                allowDecimals={false}
+              />
+              <Tooltip contentStyle={tooltipStyle} cursor={{ fill: LINE }} />
+              <Bar
+                dataKey="goals"
+                fill={TURF}
+                radius={[4, 4, 0, 0]}
+              />
+            </BarChart>
+          </ResponsiveContainer>
+        </ChartCard>
+        <ChartCard
+          title="Goals by month"
+          description="Career goals grouped by calendar month."
+        >
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={byMonth}>
+              <CartesianGrid stroke={LINE} vertical={false} />
+              <XAxis
+                dataKey="name"
+                stroke={PAPER_DIM}
+                fontSize={10}
+                tickLine={false}
+                interval={0}
+                angle={-25}
+                textAnchor="end"
+                height={60}
+              />
+              <YAxis
+                stroke={PAPER_DIM}
+                fontSize={11}
+                tickLine={false}
+                allowDecimals={false}
+              />
+              <Tooltip contentStyle={tooltipStyle} cursor={{ fill: LINE }} />
+              <Bar
+                dataKey="goals"
+                fill={GOLD}
+                radius={[4, 4, 0, 0]}
+              />
+            </BarChart>
+          </ResponsiveContainer>
+        </ChartCard>
+        <ChartCard
+          title="Goals by age"
+          description="Career scoring output by Ronaldo's age at the time of each match."
+        >
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={byAge}>
+              <CartesianGrid stroke={LINE} vertical={false} />
+              <XAxis
+                dataKey="age"
+                stroke={PAPER_DIM}
+                fontSize={11}
+                tickLine={false}
+                interval={0}
+                height={40}
+              />
+              <YAxis
+                stroke={PAPER_DIM}
+                fontSize={11}
+                tickLine={false}
+                allowDecimals={false}
+              />
+              <Tooltip
+                contentStyle={tooltipStyle}
+                cursor={{ fill: LINE }}
+                formatter={(value) => [value, "Goals"]}
+                labelFormatter={(label) => `Age ${label}`}
+              />
+              <Bar
+                dataKey="goals"
+                fill={GOLD_BRIGHT}
+                radius={[4, 4, 0, 0]}
+              />
+            </BarChart>
+          </ResponsiveContainer>
+        </ChartCard>
+        <ChartCard
+          title="Goals per 90 by season"
+          description="Scoring efficiency adjusted for minutes played."
+          height="h-80"
+        >
+          <ResponsiveContainer width="100%" height="100%">
+            <LineChart data={per90}>
+              <CartesianGrid stroke={LINE} vertical={false} />
+              <XAxis
+                dataKey="season"
+                stroke={PAPER_DIM}
+                fontSize={10}
+                tickLine={false}
+                interval={0}
+                angle={-35}
+                textAnchor="end"
+                height={65}
+              />
+              <YAxis
+                stroke={PAPER_DIM}
+                fontSize={11}
+                tickLine={false}
+                domain={[0, "auto"]}
+              />
+              <Tooltip
+                contentStyle={tooltipStyle}
+                formatter={(value) => [value, "Goals per 90"]}
+              />
+              <Line
+                type="monotone"
+                dataKey="goalsPer90"
+                stroke={GOLD_BRIGHT}
+                strokeWidth={3}
+                dot={{ r: 4 }}
+                activeDot={{ r: 6 }}
+              />
+            </LineChart>
+          </ResponsiveContainer>
+        </ChartCard>
+        <ChartCard
+          title="Win percentage by competition"
+          description="Win rate in competitions with at least five logged matches."
+          height="h-[28rem]"
+        >
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart
+              data={winRates}
+              layout="vertical"
+              margin={{ left: 20, right: 20 }}
+            >
+              <CartesianGrid stroke={LINE} horizontal={false} />
+              <XAxis
+                type="number"
+                domain={[0, 100]}
+                stroke={PAPER_DIM}
+                fontSize={11}
+                tickLine={false}
+                tickFormatter={(value) => `${value}%`}
+              />
+              <YAxis
+                type="category"
+                dataKey="name"
+                stroke={PAPER_DIM}
+                fontSize={10}
+                width={140}
+                tickLine={false}
+              />
+              <Tooltip
+                contentStyle={tooltipStyle}
+                cursor={{ fill: LINE }}
+                formatter={(value) => [`${value}%`, "Win rate"]}
+              />
+              <Bar
+                dataKey="winPercentage"
+                fill={TURF}
+                radius={[0, 4, 4, 0]}
+              />
+            </BarChart>
+          </ResponsiveContainer>
+        </ChartCard>
+        <ChartCard
+          title="Appearances by club"
+          description="Logged competitive appearances for each club."
+        >
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart
+              data={appearancesClub}
+              layout="vertical"
+              margin={{ left: 20, right: 20 }}
+            >
+              <CartesianGrid stroke={LINE} horizontal={false} />
+              <XAxis
+                type="number"
+                stroke={PAPER_DIM}
+                fontSize={11}
+                allowDecimals={false}
+              />
+              <YAxis
+                type="category"
+                dataKey="name"
+                stroke={PAPER_DIM}
+                fontSize={10}
+                width={120}
+                tickLine={false}
+              />
+              <Tooltip
+                contentStyle={tooltipStyle}
+                cursor={{ fill: LINE }}
+              />
+              <Bar
+                dataKey="appearances"
+                fill={GOLD}
+                radius={[0, 4, 4, 0]}
+              />
+            </BarChart>
+          </ResponsiveContainer>
+        </ChartCard>
+        <ChartCard
+          title="Goals + assists by club"
+          description="Attacking contributions logged for each club."
+        >
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart
+              data={clubContributions}
+              layout="vertical"
+              margin={{ left: 20, right: 20 }}
+            >
+              <CartesianGrid stroke={LINE} horizontal={false} />
+              <XAxis
+                type="number"
+                stroke={PAPER_DIM}
+                fontSize={11}
+                allowDecimals={false}
+              />
+              <YAxis
+                type="category"
+                dataKey="name"
+                stroke={PAPER_DIM}
+                fontSize={10}
+                width={120}
+                tickLine={false}
+              />
+              <Tooltip contentStyle={tooltipStyle} cursor={{ fill: LINE }} />
+              <Legend wrapperStyle={{ fontSize: 12, color: PAPER_DIM }} />
+              <Bar
+                dataKey="goals"
+                fill={GOLD}
+                name="Goals"
+                radius={[0, 4, 4, 0]}
+              />
+              <Bar
+                dataKey="assists"
+                fill={TURF}
+                name="Assists"
+                radius={[0, 4, 4, 0]}
+              />
             </BarChart>
           </ResponsiveContainer>
         </ChartCard>

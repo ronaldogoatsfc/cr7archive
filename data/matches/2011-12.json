@@ -908,9 +908,9 @@
       "rating": 8.8,
       "motm": false
     },
-    "hasMatchComp": false,
+    "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=_OIFhh9jJyk",
-    "hasFullMatch": false,
+    "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/real-madrid-rcd-espanyol-liga-1-division-2011-2012"
   },
   {

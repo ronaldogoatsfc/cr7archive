@@ -903,8 +903,8 @@
       "rating": 6.9,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=0QxqufkDi-k",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/rcd-espanyol-real-madrid-copa-del-rey-2013-2014"
   },

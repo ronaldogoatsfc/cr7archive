@@ -1182,8 +1182,8 @@
       "rating": 8.4,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=_kUIJTGTZLA",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/ac-milan-juventus-fc-serie-a-2018-2019"
   },
@@ -1326,8 +1326,8 @@
       "rating": 7.1,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://vimeo.com/448182478",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/manchester-united-juventus-fc-champions-league-2018-2019"
   },
@@ -1470,8 +1470,8 @@
       "rating": 7.6,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=R9NQOT8SCvI",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/juventus-fc-bologna-fc-serie-a-2018-2019"
   },
@@ -1542,8 +1542,8 @@
       "rating": 5.3,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://vimeo.com/300934671",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/valencia-cf-juventus-fc"
   },
