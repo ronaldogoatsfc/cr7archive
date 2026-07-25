@@ -8,17 +8,45 @@ import {
   careerTotals,
   getSeasonsSorted,
   getUniqueValues,
+  getStageOptions,
 } from "@/lib/stats";
 import StatCard from "@/components/StatCard";
 
 const DEFAULT_FILTERS = {
+  // basic
   season: "All",
   competition: "All",
   team: "All",
   result: "All",
   venue: "All",
   search: "",
+  // match details
+  stage: "All",
+  leg: "All",
+  // goal involvement
+  minGoals: "Any",
+  minAssists: "Any",
+  minGoalContributions: "Any",
+  // performance stats
+  minShots: "Any",
+  minShotsOnTarget: "Any",
+  minKeyPasses: "Any",
+  minBigChancesCreated: "Any",
+  minDribbles: "Any",
+  minAerialDuelsWon: "Any",
+  minFreeKickAttempts: "Any",
+  minThroughballs: "Any",
+  minXG: "Any",
+  minRating: "Any",
+  motm: "All",
+  // footage
+  hasMatchComp: "All",
+  hasFullMatch: "All",
 };
+
+const COUNT_THRESHOLDS = ["1+", "2+", "3+", "4+", "5+"];
+const XG_THRESHOLDS = ["0.5+", "1+", "1.5+", "2+"];
+const RATING_THRESHOLDS = ["6+", "7+", "7.5+", "8+", "9+"];
 
 const STAT_FIELDS = [
   { key: "shots", label: "Shots" },
@@ -34,7 +62,7 @@ const STAT_FIELDS = [
   { key: "rating", label: "Rating", decimals: 1 },
 ];
 
-function Select({ label, value, onChange, options }) {
+function Select({ label, value, onChange, options, allLabel = "All" }) {
   return (
     <label className="flex flex-col gap-1">
       <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
@@ -45,7 +73,7 @@ function Select({ label, value, onChange, options }) {
         onChange={(e) => onChange(e.target.value)}
         className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
       >
-        <option value="All">All</option>
+        <option value="All">{allLabel}</option>
         {options.map((opt) => (
           <option key={opt} value={opt}>
             {opt}
@@ -53,6 +81,41 @@ function Select({ label, value, onChange, options }) {
         ))}
       </select>
     </label>
+  );
+}
+
+function MinSelect({ label, value, onChange, options }) {
+  return (
+    <label className="flex flex-col gap-1">
+      <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+        {label}
+      </span>
+      <select
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+      >
+        <option value="Any">Any</option>
+        {options.map((opt) => (
+          <option key={opt} value={opt}>
+            {opt}
+          </option>
+        ))}
+      </select>
+    </label>
+  );
+}
+
+function FilterSection({ title, children }) {
+  return (
+    <div className="border-t border-line pt-4 first:border-t-0 first:pt-0">
+      <p className="mb-3 font-mono text-[10px] uppercase tracking-widest text-gold">
+        {title}
+      </p>
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+        {children}
+      </div>
+    </div>
   );
 }
 
@@ -153,6 +216,7 @@ function MatchDetail({ match }) {
 export default function MatchLogsPage() {
   const [filters, setFilters] = useState(DEFAULT_FILTERS);
   const [expandedId, setExpandedId] = useState(null);
+  const [showAdvanced, setShowAdvanced] = useState(false);
 
   const seasons = useMemo(() => getSeasonsSorted(matches), []);
   const competitions = useMemo(
@@ -161,6 +225,7 @@ export default function MatchLogsPage() {
   );
   const teams = useMemo(() => getUniqueValues(matches, "team"), []);
   const venues = useMemo(() => getUniqueValues(matches, "venue"), []);
+  const stages = useMemo(() => getStageOptions(matches), []);
 
   const filtered = useMemo(
     () =>
@@ -189,58 +254,193 @@ export default function MatchLogsPage() {
         Every match, filtered your way
       </h1>
       <p className="mt-2 max-w-2xl text-paper-dim">
-        Slice the log by season, competition, club, result, or venue. Click
-        any row for detailed match stats and footage.
+        Slice the log by season, competition, club, result, or venue — or dig
+        into performance filters below. Click any row for detailed match
+        stats and footage.
       </p>
 
-      <div className="mt-8 grid grid-cols-2 gap-3 rounded-2xl border border-line bg-pitch-raised p-5 sm:grid-cols-3 lg:grid-cols-6">
-        <Select
-          label="Season"
-          value={filters.season}
-          onChange={(v) => updateFilter("season", v)}
-          options={seasons}
-        />
-        <Select
-          label="Competition"
-          value={filters.competition}
-          onChange={(v) => updateFilter("competition", v)}
-          options={competitions}
-        />
-        <Select
-          label="Club / Team"
-          value={filters.team}
-          onChange={(v) => updateFilter("team", v)}
-          options={teams}
-        />
-        <Select
-          label="Result"
-          value={filters.result}
-          onChange={(v) => updateFilter("result", v)}
-          options={["W", "D", "L"]}
-        />
-        <Select
-          label="Venue"
-          value={filters.venue}
-          onChange={(v) => updateFilter("venue", v)}
-          options={venues}
-        />
-        <label className="flex flex-col gap-1">
-          <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
-            Search opponent
-          </span>
-          <input
-            type="text"
-            value={filters.search}
-            onChange={(e) => updateFilter("search", e.target.value)}
-            placeholder="e.g. Barcelona"
-            className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper placeholder:text-paper-dim/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+      <div className="mt-8 space-y-5 rounded-2xl border border-line bg-pitch-raised p-5">
+        <FilterSection title="Basic">
+          <Select
+            label="Season"
+            value={filters.season}
+            onChange={(v) => updateFilter("season", v)}
+            options={seasons}
           />
-        </label>
+          <Select
+            label="Competition"
+            value={filters.competition}
+            onChange={(v) => updateFilter("competition", v)}
+            options={competitions}
+          />
+          <Select
+            label="Club / Team"
+            value={filters.team}
+            onChange={(v) => updateFilter("team", v)}
+            options={teams}
+          />
+          <Select
+            label="Result"
+            value={filters.result}
+            onChange={(v) => updateFilter("result", v)}
+            options={["W", "D", "L"]}
+          />
+          <Select
+            label="Venue"
+            value={filters.venue}
+            onChange={(v) => updateFilter("venue", v)}
+            options={venues}
+          />
+          <label className="flex flex-col gap-1">
+            <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+              Search opponent
+            </span>
+            <input
+              type="text"
+              value={filters.search}
+              onChange={(e) => updateFilter("search", e.target.value)}
+              placeholder="e.g. Barcelona"
+              className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper placeholder:text-paper-dim/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+            />
+          </label>
+        </FilterSection>
+
+        <button
+          onClick={() => setShowAdvanced((v) => !v)}
+          className="font-mono text-xs uppercase tracking-widest text-gold hover:text-gold-bright"
+        >
+          {showAdvanced ? "Hide advanced filters ▲" : "Show advanced filters ▼"}
+        </button>
+
+        {showAdvanced && (
+          <>
+            <FilterSection title="Match details">
+              <Select
+                label="Stage"
+                value={filters.stage}
+                onChange={(v) => updateFilter("stage", v)}
+                options={stages}
+              />
+              <Select
+                label="Leg"
+                value={filters.leg}
+                onChange={(v) => updateFilter("leg", v)}
+                options={["1st Leg", "2nd Leg"]}
+              />
+            </FilterSection>
+
+            <FilterSection title="Goal involvement">
+              <MinSelect
+                label="Goals"
+                value={filters.minGoals}
+                onChange={(v) => updateFilter("minGoals", v)}
+                options={COUNT_THRESHOLDS}
+              />
+              <MinSelect
+                label="Assists"
+                value={filters.minAssists}
+                onChange={(v) => updateFilter("minAssists", v)}
+                options={COUNT_THRESHOLDS}
+              />
+              <MinSelect
+                label="Goal Contributions"
+                value={filters.minGoalContributions}
+                onChange={(v) => updateFilter("minGoalContributions", v)}
+                options={COUNT_THRESHOLDS}
+              />
+            </FilterSection>
+
+            <FilterSection title="Performance stats">
+              <MinSelect
+                label="Shots"
+                value={filters.minShots}
+                onChange={(v) => updateFilter("minShots", v)}
+                options={COUNT_THRESHOLDS}
+              />
+              <MinSelect
+                label="Shots on Target"
+                value={filters.minShotsOnTarget}
+                onChange={(v) => updateFilter("minShotsOnTarget", v)}
+                options={COUNT_THRESHOLDS}
+              />
+              <MinSelect
+                label="Key Passes"
+                value={filters.minKeyPasses}
+                onChange={(v) => updateFilter("minKeyPasses", v)}
+                options={COUNT_THRESHOLDS}
+              />
+              <MinSelect
+                label="Big Chances Created"
+                value={filters.minBigChancesCreated}
+                onChange={(v) => updateFilter("minBigChancesCreated", v)}
+                options={COUNT_THRESHOLDS}
+              />
+              <MinSelect
+                label="Dribbles"
+                value={filters.minDribbles}
+                onChange={(v) => updateFilter("minDribbles", v)}
+                options={COUNT_THRESHOLDS}
+              />
+              <MinSelect
+                label="Aerial Duels Won"
+                value={filters.minAerialDuelsWon}
+                onChange={(v) => updateFilter("minAerialDuelsWon", v)}
+                options={COUNT_THRESHOLDS}
+              />
+              <MinSelect
+                label="Free Kick Attempts"
+                value={filters.minFreeKickAttempts}
+                onChange={(v) => updateFilter("minFreeKickAttempts", v)}
+                options={COUNT_THRESHOLDS}
+              />
+              <MinSelect
+                label="Throughballs"
+                value={filters.minThroughballs}
+                onChange={(v) => updateFilter("minThroughballs", v)}
+                options={COUNT_THRESHOLDS}
+              />
+              <MinSelect
+                label="xG"
+                value={filters.minXG}
+                onChange={(v) => updateFilter("minXG", v)}
+                options={XG_THRESHOLDS}
+              />
+              <MinSelect
+                label="Match Rating"
+                value={filters.minRating}
+                onChange={(v) => updateFilter("minRating", v)}
+                options={RATING_THRESHOLDS}
+              />
+              <Select
+                label="Man of the Match"
+                value={filters.motm}
+                onChange={(v) => updateFilter("motm", v)}
+                options={["Yes", "No"]}
+              />
+            </FilterSection>
+
+            <FilterSection title="Match footage">
+              <Select
+                label="Has Compilation"
+                value={filters.hasMatchComp}
+                onChange={(v) => updateFilter("hasMatchComp", v)}
+                options={["Yes", "No"]}
+              />
+              <Select
+                label="Has Full Match"
+                value={filters.hasFullMatch}
+                onChange={(v) => updateFilter("hasFullMatch", v)}
+                options={["Yes", "No"]}
+              />
+            </FilterSection>
+          </>
+        )}
+
         <button
           onClick={() => setFilters(DEFAULT_FILTERS)}
-          className="col-span-2 rounded-lg border border-line px-3 py-2 text-sm text-paper-dim transition hover:bg-pitch hover:text-paper sm:col-span-1"
+          className="rounded-lg border border-line px-4 py-2 text-sm text-paper-dim transition hover:bg-pitch hover:text-paper"
         >
-          Reset filters
+          Reset all filters
         </button>
       </div>
 
