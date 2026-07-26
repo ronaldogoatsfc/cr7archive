@@ -2,8 +2,8 @@
 // Do NOT import _template.js here — that file is just a copy-paste starting
 // point, not a real article.
 
-import offBallMovement from "./off-ball-movement";
+import playmaking from "./playmaking";
 
-const articles = [offBallMovement];
+const articles = [playmaking];
 
 export default articles;
