@@ -32,8 +32,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/belgium-portugal-euro"
   },
   {
     "id": "2021-06-23",
@@ -68,8 +68,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/654954244",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/portugal-france-euro-2020"
   },
   {
     "id": "2021-06-19",
@@ -104,8 +104,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/portugal-germany-euro-2020"
   },
   {
     "id": "2021-06-15",
@@ -140,8 +140,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/hungary-portugal-euro-2020"
   },
   {
     "id": "2021-06-09",
@@ -163,8 +163,8 @@
     
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/portugal-israel-2021"
   },
   {
     "id": "2021-06-04",
@@ -186,8 +186,8 @@
     
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/spain-portugal-friendly"
   },
   {
     "id": "2021-05-19",
@@ -222,8 +222,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=3klixAWSQmE",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/atalanta-bc-juventus-fc-coppa-italia-2020-2021"
   },
   {
     "id": "2021-05-15",
@@ -258,8 +258,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=h6BNd8aBw6Y",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-fc-internazionale-serie-a-2020-2021"
   },
   {
     "id": "2021-05-12",
@@ -330,8 +330,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=E5dR1mKRibc",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ac-milan-serie-a-2020-2021"
   },
   {
     "id": "2021-05-02",
@@ -402,8 +402,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ISxMY4GXyfc",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/acf-fiorentina-juventus-fc-serie-a-2020-2021"
   },
   {
     "id": "2021-04-21",
@@ -510,8 +510,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=k6VTwB2jdzM",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ssc-napoli-serie-a-2020-2021"
   },
   {
     "id": "2021-04-03",
@@ -546,8 +546,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=_Rb10l2Hc9A",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/torino-fc-juventus-fc-serie-a-2020-2021"
   },
   {
     "id": "2021-03-30",
@@ -582,8 +582,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/710904298",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/luxembourg-portugal-world-cup-qualification"
   },
   {
     "id": "2021-03-27",
@@ -618,8 +618,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/710942617",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/serbia-portugal-world-cup-qualification"
   },
   {
     "id": "2021-03-24",
@@ -654,8 +654,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/portugal-azerbaijan-world-cup-qualification"
   },
   {
     "id": "2021-03-21",
@@ -690,8 +690,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=jC2m_4j64Bs",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-benevento-calcio-serie-a"
   },
   {
     "id": "2021-03-14",
@@ -726,8 +726,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=4NtogTDXlSI",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/cagliari-calcio-juventus-fc-serie-a-2020-2021"
   },
   {
     "id": "2021-03-09",
@@ -762,8 +762,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/710833620",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-fc-porto-champions-league-2020-2021"
   },
   {
     "id": "2021-03-06",
@@ -798,8 +798,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=l3RRjcHny6A",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ss-lazio-serie-a-2020-2021"
   },
   {
     "id": "2021-03-02",
@@ -942,8 +942,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/862911493",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/fc-porto-juventus-fc-champions-league-2020-2021"
   },
   {
     "id": "2021-02-13",
@@ -978,8 +978,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=PZeoTnx4WLc",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/ssc-napoli-juventus-fc-serie-a-2020-2021"
   },
   {
     "id": "2021-02-09",
@@ -1014,8 +1014,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=59Gz6Qs5vsU",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-fc-internazionale-coppa-italia-2020-2021"
   },
   {
     "id": "2021-02-06",
@@ -1086,8 +1086,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=59Gz6Qs5vsU",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/fc-internazionale-juventus-fc-coppa-italia-2020-2021"
   },
   {
     "id": "2021-01-30",
@@ -1194,8 +1194,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=e0WOy1F1jJY",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ssc-napoli-supercoppa-2020"
   },
   {
     "id": "2021-01-17",
@@ -1230,8 +1230,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=1dvhkw3_jYA",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/fc-internazionale-juventus-fc-serie-a-2020-2021"
   },
   {
     "id": "2021-01-13",
@@ -1266,8 +1266,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=D8iAakiJfjA",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-genoa-cfc-coppa-italia-2020-2021"
   },
   {
     "id": "2021-01-10",
@@ -1302,8 +1302,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=iyVuxIoqSM0",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-us-sassuolo-serie-a-2020-2021"
   },
   {
     "id": "2021-01-06",
@@ -1338,8 +1338,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=HOcwpIRjZX0",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/ac-milan-juventus-fc-serie-a-2020-2021"
   },
   {
     "id": "2021-01-03",
@@ -1374,8 +1374,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=LCUFvfr-ySs",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-udinese-serie-a-2020-2021"
   },
   {
     "id": "2020-12-22",
@@ -1410,8 +1410,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=-8Iq4_i5PA8",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-acf-fiorentina-serie-a-2020-2021"
   },
   {
     "id": "2020-12-19",
@@ -1446,8 +1446,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=y87d1q__eB0",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/parma-calcio-juventus-fc-serie-a-2020-2021"
   },
   {
     "id": "2020-12-16",
@@ -1482,8 +1482,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Bua2VSrrgnk",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-atalanta-bc-serie-a-2020-2021"
   },
   {
     "id": "2020-12-13",
@@ -1518,8 +1518,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=F3nwPX8ZrOc",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/genoa-cfc-juventus-fc-serie-a-2020-2021"
   },
   {
     "id": "2020-12-08",
@@ -1554,8 +1554,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/710871281",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-juventus-fc-champions-league-2020-2021"
   },
   {
     "id": "2020-12-05",
@@ -1590,8 +1590,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=eN_YNxkwfDs",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-torino-fc-serie-a-2020-2021"
   },
   {
     "id": "2020-12-02",
@@ -1626,8 +1626,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/710870187",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-dynamo-kyiv-champions-league"
   },
   {
     "id": "2020-11-24",
@@ -1662,8 +1662,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/710832495",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ferencvarosi-tc"
   },
   {
     "id": "2020-11-21",
@@ -1698,8 +1698,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=mnUvjtFy1HI",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-cagliari-calcio-serie-a"
   },
   {
     "id": "2020-11-17",
@@ -1770,8 +1770,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/portugal-france-nations-league-a"
   },
   {
     "id": "2020-11-11",
@@ -1793,8 +1793,8 @@
     
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/713790117",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/portugal-andorra-friendly"
   },
   {
     "id": "2020-11-08",
@@ -1829,8 +1829,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=383Iw7LLWFw",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/ss-lazio-juventus-fc-serie-a-2020-2021"
   },
   {
     "id": "2020-11-04",
@@ -1865,8 +1865,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/ferencvarosi-tc-juventus-fc"
   },
   {
     "id": "2020-11-01",
@@ -1901,8 +1901,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=LK41wMjUsAg",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/spezia-calcio-juventus-fc-serie-a"
   },
   {
     "id": "2020-10-11",
@@ -1937,8 +1937,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/france-portugal-nations-league-a"
   },
   {
     "id": "2020-10-07",
@@ -1971,8 +1971,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/portugal-spain-friendly-2020"
   },
   {
     "id": "2020-09-27",
@@ -2007,8 +2007,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=GWoTu2va__E",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/as-roma-juventus-fc-serie-a-2020-2021"
   },
   {
     "id": "2020-09-20",
@@ -2043,8 +2043,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ybiokyNAiO8",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-uc-sampdoria-serie-a-2020-2021"
   },
   {
     "id": "2020-09-08",
@@ -2079,7 +2079,7 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/sweden-portugal-nations-league-a"
   }
 ]

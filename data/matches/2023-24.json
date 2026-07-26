@@ -32,8 +32,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/portugal-france-euro-2024"
   },
   {
     "id": "2024-07-01",
@@ -68,8 +68,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/portugal-slovenia"
   },
   {
     "id": "2024-06-26",
@@ -104,8 +104,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/georgia-portugal-euro"
   },
   {
     "id": "2024-06-22",
@@ -140,8 +140,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/turkey-portugal-euro"
   },
   {
     "id": "2024-06-18",
@@ -176,8 +176,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/portugal-czech-republic-euro"
   },
   {
     "id": "2024-06-11",
@@ -212,8 +212,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/portugal-ireland-friendly"
   },
   {
     "id": "2024-05-31",
@@ -246,10 +246,10 @@
       "rating": 7.3,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=t1iRceYCFFA",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-hilal-fc-al-nassr-fc-king-s-cup-saudi-arabia"
   },
   {
     "id": "2024-05-27",
@@ -282,10 +282,10 @@
       "rating": 8.5,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=0olm1VFSI_c",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-ittihad-club"
   },
   {
     "id": "2024-05-23",
@@ -318,10 +318,10 @@
       "rating": 6.1,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=mZOVjjJW_xo",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-riyadh-sc-al-nassr-fc"
   },
   {
     "id": "2024-05-17",
@@ -354,10 +354,10 @@
       "rating": 6.5,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=abVg_CR_q7U",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-hilal-fc-saudi-league"
   },
   {
     "id": "2024-05-09",
@@ -390,10 +390,10 @@
       "rating": 7.5,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=A8cfsqKmkdo",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-okhdood-al-nassr-fc"
   },
   {
     "id": "2024-05-04",
@@ -426,10 +426,10 @@
       "rating": 8.8,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=2e--Iztuvy0",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-wehda-fc"
   },
   {
     "id": "2024-05-01",
@@ -462,10 +462,10 @@
       "rating": 8.7,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=1jN4YfcZkdQ",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-khaleej"
   },
   {
     "id": "2024-04-27",
@@ -498,10 +498,10 @@
       "rating": 6.1,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=5UdIoZRm8N4",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-khaleej-al-nassr-fc"
   },
   {
     "id": "2024-04-08",
@@ -534,10 +534,10 @@
       "rating": 6.6,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=_HsUN8W1RX0",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-hilal-fc-al-nassr-fc-saudi-super-cup"
   },
   {
     "id": "2024-04-06",
@@ -570,10 +570,10 @@
       "rating": 6.6,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=h6ukcPt-VEQ",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/damac-fc-al-nassr-fc"
   },
   {
     "id": "2024-04-02",
@@ -608,8 +608,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/abha-fc-al-nassr-fc"
   },
   {
     "id": "2024-03-30",
@@ -642,10 +642,10 @@
       "rating": 9.4,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=Xg00-53A4lc",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-tai-fc"
   },
   {
     "id": "2024-03-26",
@@ -680,8 +680,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/slovenia-portugal"
   },
   {
     "id": "2024-03-15",
@@ -714,10 +714,10 @@
       "rating": 7.1,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=BwIhwHDNNzs",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-ahli-saudi-fc-al-nassr-fc"
   },
   {
     "id": "2024-03-11",
@@ -787,8 +787,8 @@
       "rating": 6.9,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=wtdI-GgrUAk",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -826,8 +826,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-ain-fc-al-nassr-fc"
   },
   {
     "id": "2024-02-25",
@@ -860,10 +860,10 @@
       "rating": 7.0,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=7-bW3dalDIM",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-shabab-fc-al-nassr-fc"
   },
   {
     "id": "2024-02-21",
@@ -899,8 +899,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-fayha-fc"
   },
   {
     "id": "2024-02-17",
@@ -933,8 +933,8 @@
       "rating": 7.8,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=fRJiun0EsWM",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -972,8 +972,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-fayha-fc-al-nassr-fc"
   },
   {
     "id": "2023-12-30",
@@ -1006,8 +1006,8 @@
       "rating": 7.8,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=yZiwAykYXbI",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -1042,10 +1042,10 @@
       "rating": 8.2,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=DRpSnc3h81c",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-ittihad-club-al-nassr-fc"
   },
   {
     "id": "2023-12-22",
@@ -1078,8 +1078,8 @@
       "rating": 7.5,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=w-hbMjQl1eo",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -1114,8 +1114,8 @@
       "rating": 8.0,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=dY6lt8cxDxo",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -1150,8 +1150,8 @@
       "rating": 8.5,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=fsB0YwgizXQ",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -1186,8 +1186,8 @@
       "rating": 6.6,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=ZiSOfQkb8qI",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -1224,8 +1224,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-persepolis-fc"
   },
   {
     "id": "2023-11-24",
@@ -1258,8 +1258,8 @@
       "rating": 8.6,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=PeoqK-KsYYI",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -1366,8 +1366,8 @@
       "rating": 7.9,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=R-1Eej_cJRk",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -1402,8 +1402,8 @@
       "rating": 8.6,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=b-Y5iHggzY4",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -1438,8 +1438,8 @@
       "rating": 7.0,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=lp6VGX9Qevc",
     "hasFullMatch": false,
     "fullMatchUrl": ""
   },
@@ -1474,10 +1474,10 @@
       "rating": 6.8,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=3pp3gfITD_s",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-fayha-fc-al-nassr-fc-saudi-league"
   },
   {
     "id": "2023-10-24",
@@ -1512,8 +1512,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-duhail-sc"
   },
   {
     "id": "2023-10-21",
@@ -1546,10 +1546,10 @@
       "rating": 7.5,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=b--0lpPspTg",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-damac-fc"
   },
   {
     "id": "2023-10-16",
@@ -1584,8 +1584,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/bosnia-and-herzegovina-portugal-euro-qualification"
   },
   {
     "id": "2023-10-13",
@@ -1620,8 +1620,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/portugal-slovakia-euro-qualification"
   },
   {
     "id": "2023-10-06",
@@ -1654,10 +1654,10 @@
       "rating": 7.4,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=vAJYPTNSnaI",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-abha-fc"
   },
   {
     "id": "2023-10-02",
@@ -1692,8 +1692,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-istiklol-dushanbe"
   },
   {
     "id": "2023-09-29",
@@ -1726,10 +1726,10 @@
       "rating": 7.6,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=TSStcrOxAPQ",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-tae-e-al-nassr-fc"
   },
   {
     "id": "2023-09-22",
@@ -1762,10 +1762,10 @@
       "rating": 8.2,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=Y20xRycO0rE",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-ahli-saudi-fc"
   },
   {
     "id": "2023-09-19",
@@ -1834,10 +1834,10 @@
       "rating": 7.8,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=YWvRPxppPRk",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-raed-al-nassr-fc"
   },
   {
     "id": "2023-09-08",
@@ -1906,10 +1906,10 @@
       "rating": 9.1,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=6ES2JWmgcug",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-hazem-fc-al-nassr-fc"
   },
   {
     "id": "2023-08-29",
@@ -1942,10 +1942,10 @@
       "rating": 9.1,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=krEufa60dA0",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-shabab-fc"
   },
   {
     "id": "2023-08-25",
@@ -1978,10 +1978,10 @@
       "rating": 10,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=zjCQqXL52Ss",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-fateh-sc-al-nassr-fc-saudi-league"
   },
   {
     "id": "2023-08-22",
@@ -2001,10 +2001,10 @@
     "yellowCard": null,
     "redCard": null,
     
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=VBzw1N3VbdQ",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-shabab-al-ahli"
   },
   {
     "id": "2023-08-18",
@@ -2037,10 +2037,10 @@
       "rating": 6.8,
       "motm": false
     },
-    "hasMatchComp": false,
-    "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasMatchComp": true,
+    "matchCompUrl": "https://www.youtube.com/watch?v=CuZguoqJx7o",
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-taawoun-fc"
   },
   {
     "id": "2023-08-12",
@@ -2075,8 +2075,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-hilal-fc-al-nassr-fc"
   },
   {
     "id": "2023-08-09",
@@ -2111,8 +2111,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-shorta-sc-irak"
   },
   {
     "id": "2023-08-06",
@@ -2147,8 +2147,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/raja-ca-al-nassr-fc"
   },
   {
     "id": "2023-08-03",
@@ -2219,8 +2219,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/us-monastir-al-nassr-fc"
   },
   {
     "id": "2023-07-28",
@@ -2255,7 +2255,7 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-shabab-fc-arab-club-champions-cup"
   }
 ]

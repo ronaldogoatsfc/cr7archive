@@ -7,8 +7,9 @@ export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
 }
 
-export function generateMetadata({ params }) {
-  const article = getArticleBySlug(articles, params.slug);
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const article = getArticleBySlug(articles, slug);
   if (!article) return { title: "Article not found — The CR7 Archive" };
   return { title: `${article.title} — The CR7 Archive` };
 }
@@ -33,8 +34,9 @@ function ArticleBlock({ block }) {
   );
 }
 
-export default function ArticlePage({ params }) {
-  const article = getArticleBySlug(articles, params.slug);
+export default async function ArticlePage({ params }) {
+  const { slug } = await params;
+  const article = getArticleBySlug(articles, slug);
   if (!article) notFound();
 
   return (

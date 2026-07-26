@@ -1,7 +1,8 @@
-# The Archive — Ronaldo Career Ledger
+# The CR7 Archive
 
-An unofficial, fan-made stats site: a filterable match ledger + data
-visualizations, built with Next.js (App Router), Tailwind CSS, and Recharts.
+An unofficial, fan-made website with filterable match logs, articles, data
+visualizations, trophies, individual honors, and records, built with 
+Next.js (App Router), Tailwind CSS, and Recharts.
 
 ## Run it locally
 
@@ -22,8 +23,9 @@ app/
   visualizations/page.js      -> Charts (recharts)
   trophies/page.js            -> Trophy cabinet
   honors/page.js              -> Individual honors & awards (placeholder)
-  records/page.js              -> Records (placeholder)
-  about/page.js                -> About / fan-made disclaimer / contact
+  records/page.js             -> Records (placeholder)
+  articles/[slug]
+  about/page.js               -> About / fan-made disclaimer / contact
 data/
   matches.json             -> ALL your match data lives here
 lib/
@@ -73,6 +75,11 @@ Notes:
   to Supabase later, only `data/matches.json` (and how it's imported in
   `app/page.js`, `app/match-logs/page.js`, `app/visualizations/page.js`) would
   need to change — the rest of the app is unaffected.
+- 818 games with 3+ shots, figure out why your data has 817 games.
+- Modify functions such that the maximum value for a filter is the maximum 
+  value found in the data.
+- Re-check match rating and Man of the Match statistics.
+- Complete the README.md
 
 ## Deploying to Vercel
 

@@ -1,11 +1,11 @@
 const article = {
   slug: "off-ball-movement-explained",
 
-  title: "The Underrated Skill: Ronaldo's Off-Ball Movement",
+  title: "Cristiano Ronaldo's Off-Ball Movement Explained",
 
-  author: "Your Name",
+  author: "Soham",
 
-  datePublished: "2026-01-15",
+  datePublished: "2026-07-26",
 
   description:
     "Goals get the headlines, but a huge share of Ronaldo's output comes from what he does in the ten seconds before the ball ever reaches him.",
