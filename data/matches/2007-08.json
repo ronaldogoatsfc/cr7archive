@@ -204,7 +204,7 @@
     "minutesPlayed": 64,
     "goals": 2,
     "assists": 1,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     
     "hasMatchComp": true,
@@ -227,7 +227,7 @@
     "minutesPlayed": 90,
     "goals": 0,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     "stats": {
       "shots": 1,
@@ -993,7 +993,7 @@
     "minutesPlayed": 90,
     "goals": 2,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     
     "hasMatchComp": true,
@@ -1016,7 +1016,7 @@
     "minutesPlayed": 90,
     "goals": 1,
     "assists": 1,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     "stats": {
       "shots": 9,
@@ -1098,7 +1098,7 @@
     "minutesPlayed": 90,
     "goals": 2,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     
     "hasMatchComp": true,
@@ -1540,7 +1540,7 @@
     "goals": 0,
     "assists": 0,
     "yellowCard": null,
-    "redCard": null,
+    "redCard": true,
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=O0Q86INSStQ",
     "hasFullMatch": false,

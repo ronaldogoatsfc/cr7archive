@@ -144,7 +144,7 @@
     "minutesPlayed": 120,
     "goals": 1,
     "assists": 1,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     "stats": {
       "shots": 9,
@@ -468,7 +468,7 @@
     "minutesPlayed": 90,
     "goals": 1,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     "stats": {
       "shots": 3,
@@ -707,7 +707,7 @@
     "minutesPlayed": 75,
     "goals": 2,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     "stats": {
       "shots": 5,
@@ -780,7 +780,7 @@
     "goals": 0,
     "assists": 1,
     "yellowCard": null,
-    "redCard": null,
+    "redCard": true,
     "stats": {
       "shots": 3,
       "shotsOnTarget": 0,
@@ -815,7 +815,7 @@
     "minutesPlayed": 90,
     "goals": 0,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     "stats": {
       "shots": 8,
@@ -1463,7 +1463,7 @@
     "minutesPlayed": 90,
     "goals": 0,
     "assists": 1,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     "stats": {
       "shots": 1,
@@ -1593,7 +1593,7 @@
     "minutesPlayed": 90,
     "goals": 1,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     "stats": {
       "shots": 9,
@@ -1701,7 +1701,7 @@
     "minutesPlayed": 90,
     "goals": 2,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     "stats": {
       "shots": 7,
