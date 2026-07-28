@@ -1429,7 +1429,7 @@
     "minutesPlayed": 45,
     "goals": 0,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     "stats": {
       "shots": null,

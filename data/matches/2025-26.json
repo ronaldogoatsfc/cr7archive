@@ -1203,7 +1203,7 @@
     "goals": 0,
     "assists": 0,
     "yellowCard": null,
-    "redCard": null,
+    "redCard": true,
     "stats": {
       "shots": 5,
       "shotsOnTarget": 1,

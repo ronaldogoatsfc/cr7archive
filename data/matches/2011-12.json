@@ -122,7 +122,7 @@
     "minutesPlayed": 90,
     "goals": 0,
     "assists": 0,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     "stats": {
       "shots": 6,
@@ -2168,7 +2168,7 @@
     "minutesPlayed": 90,
     "goals": 2,
     "assists": 1,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=7gxBSskOT1A",

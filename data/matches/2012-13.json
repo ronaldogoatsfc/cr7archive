@@ -492,7 +492,7 @@
     "minutesPlayed": 90,
     "goals": 0,
     "assists": 1,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     
     "hasMatchComp": true,
@@ -1899,7 +1899,7 @@
     "minutesPlayed": 90,
     "goals": 0,
     "assists": 1,
-    "yellowCard": null,
+    "yellowCard": true,
     "redCard": null,
     
     "hasMatchComp": true,
