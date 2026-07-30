@@ -276,7 +276,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.1,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=L-Ea2jN_WCI",
@@ -384,7 +384,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.1,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=U_d5JzpeDMk",
@@ -420,7 +420,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.2,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=2-hH6UlcPhc",
@@ -528,7 +528,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.0,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=K2rUnQf--mc",
@@ -600,7 +600,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.6,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=qDgsYlRgwQQ",
@@ -709,7 +709,7 @@
       "xG": null,
       "xA": null,
       "rating": 8.8,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/149513026",
@@ -745,7 +745,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.3,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=SrGJmSTwgag",
@@ -1128,7 +1128,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.6,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/220686319",
@@ -1164,7 +1164,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.2,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=1vpRyePw8mo",
@@ -1294,7 +1294,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.6,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/164401222",
@@ -1402,7 +1402,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.3,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Nfb8KGru0N8",
@@ -1438,7 +1438,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.6,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/649897609",
@@ -1555,7 +1555,7 @@
       "xG": null,
       "xA": null,
       "rating": 8.8,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=6cVL0ExPD7s",

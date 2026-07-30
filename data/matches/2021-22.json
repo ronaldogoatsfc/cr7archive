@@ -64,7 +64,7 @@
       "xG": null,
       "xA": null,
       "rating": 8.9,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -280,7 +280,7 @@
       "xG": 0.84,
       "xA": 0.02,
       "rating": 9.7,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -461,7 +461,7 @@
       "xG": 0.91,
       "xA": 0.0,
       "rating": 9.9,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -1002,7 +1002,7 @@
       "xG": 1.44,
       "xA": 0.0,
       "rating": 8.5,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -1074,7 +1074,7 @@
       "xG": null,
       "xA": null,
       "rating": 8.1,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -1254,7 +1254,7 @@
       "xG": null,
       "xA": null,
       "rating": 8.9,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -1290,7 +1290,7 @@
       "xG": 0.13,
       "xA": 0.58,
       "rating": 8.5,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -1434,7 +1434,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.9,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -1673,7 +1673,7 @@
       "xG": 1.42,
       "xA": 0.02,
       "rating": 8.6,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -1709,7 +1709,7 @@
       "xG": null,
       "xA": null,
       "rating": 8.3,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",

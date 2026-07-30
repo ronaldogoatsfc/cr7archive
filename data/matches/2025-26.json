@@ -136,7 +136,7 @@
       "xG": 1.33,
       "xA": 0.03,
       "rating": 9.0,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -460,7 +460,7 @@
       "xG": 0.26,
       "xA": 0.08,
       "rating": 7.7,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=erX94sXztqU",

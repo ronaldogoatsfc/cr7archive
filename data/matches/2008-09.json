@@ -157,7 +157,7 @@
       "xG": null,
       "xA": null,
       "rating": 8.8,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/182005332",
@@ -1271,7 +1271,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.0,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=_k63soUJu7w",

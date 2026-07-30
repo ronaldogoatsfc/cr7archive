@@ -208,7 +208,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.2,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -280,7 +280,7 @@
       "xG": 0.97,
       "xA": 0.02,
       "rating": 8.5,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=0olm1VFSI_c",
@@ -460,7 +460,7 @@
       "xG": null,
       "xA": null,
       "rating": 8.7,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=1jN4YfcZkdQ",
@@ -604,7 +604,7 @@
       "xG": 0.4,
       "xA": 0.68,
       "rating": 10,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -640,7 +640,7 @@
       "xG": 0.94,
       "xA": 0.69,
       "rating": 9.4,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Xg00-53A4lc",
@@ -749,7 +749,7 @@
       "xG": null,
       "xA": null,
       "rating": 8.3,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -1256,7 +1256,7 @@
       "xG": 0.83,
       "xA": 0.12,
       "rating": 8.6,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=PeoqK-KsYYI",
@@ -1364,7 +1364,7 @@
       "xG": 0.98,
       "xA": 0.04,
       "rating": 7.9,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=R-1Eej_cJRk",
@@ -1400,7 +1400,7 @@
       "xG": 0.23,
       "xA": 0.1,
       "rating": 8.6,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=b-Y5iHggzY4",
@@ -1508,7 +1508,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.5,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -1904,7 +1904,7 @@
       "xG": 0.7,
       "xA": 0.66,
       "rating": 9.1,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=6ES2JWmgcug",
@@ -1940,7 +1940,7 @@
       "xG": 2.45,
       "xA": 0.25,
       "rating": 9.1,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=krEufa60dA0",
@@ -1976,7 +1976,7 @@
       "xG": 3.29,
       "xA": 0.66,
       "rating": 10,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=zjCQqXL52Ss",
@@ -2071,7 +2071,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.0,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -2143,7 +2143,7 @@
       "xG": null,
       "xA": null,
       "rating": 7.9,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",

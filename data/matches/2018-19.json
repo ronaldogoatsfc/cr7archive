@@ -208,7 +208,7 @@
       "xG": 0.41,
       "xA": 0.02,
       "rating": 7.9,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=CAMiR9PXOM8",
@@ -572,7 +572,7 @@
       "xG": 0.32,
       "xA": 0.45,
       "rating": 8.9,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=rB9buqrSnhQ",
@@ -608,7 +608,7 @@
       "xG": 0.5,
       "xA": 0.1,
       "rating": 9.1,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=0gnttWDcGx8",
@@ -644,7 +644,7 @@
       "xG": 0.9,
       "xA": 0.65,
       "rating": 9.9,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=d_gvuDTWSbU",
@@ -716,7 +716,7 @@
       "xG": 0.76,
       "xA": 0.06,
       "rating": 7.9,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=GWKO0AM5B8M",
@@ -860,7 +860,7 @@
       "xG": 0.9,
       "xA": 0.02,
       "rating": 8.3,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=h2uxHkpcp7o",
@@ -968,7 +968,7 @@
       "xG": 1.05,
       "xA": 0.0,
       "rating": 7.7,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=9K1WCV2eW0M",
@@ -1220,7 +1220,7 @@
       "xG": null,
       "xA": null,
       "rating": 7.6,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -1508,7 +1508,7 @@
       "xG": 1.59,
       "xA": 0.09,
       "rating": 8.2,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=IqD2uOdSgkg",
@@ -1580,7 +1580,7 @@
       "xG": 2.35,
       "xA": 0.0,
       "rating": 8.5,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=aHV4hH9H668",
@@ -1652,7 +1652,7 @@
       "xG": 0.21,
       "xA": 0.56,
       "rating": 8.2,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=1UOA1SAy3kk",

@@ -29,7 +29,7 @@
       "xG": null,
       "xA": null,
       "rating": 8.2,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -317,7 +317,7 @@
       "xG": 0.33,
       "xA": 0.3,
       "rating": 8.9,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=k6h0NmqqZZs",
@@ -607,7 +607,7 @@
       "xG": 1.07,
       "xA": 0,
       "rating": 8.2,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=p7lQGT6viJQ",
@@ -716,7 +716,7 @@
       "xG": 1.66,
       "xA": 0.12,
       "rating": 8.4,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=pGZjhUbhdoQ",
@@ -824,7 +824,7 @@
       "xG": 0.93,
       "xA": 0.19,
       "rating": 9.1,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=5GkBX5L9sug",
@@ -896,7 +896,7 @@
       "xG": 2.11,
       "xA": 0.12,
       "rating": 10,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=9US8iE42aVw",
@@ -968,7 +968,7 @@
       "xG": 0.32,
       "xA": 0,
       "rating": 8.3,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=4xGDbeQQxqc",
@@ -1004,7 +1004,7 @@
       "xG": 0.86,
       "xA": 0.15,
       "rating": 9.3,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=13M0AwIrDRQ",
@@ -1220,7 +1220,7 @@
       "xG": null,
       "xA": null,
       "rating": 9.3,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -1436,7 +1436,7 @@
       "xG": 0.38,
       "xA": 0.79,
       "rating": 8.6,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=wFX8QtsFejg",
@@ -1472,7 +1472,7 @@
       "xG": null,
       "xA": null,
       "rating": 8.6,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/451092712",
@@ -1544,7 +1544,7 @@
       "xG": 0.41,
       "xA": 0.08,
       "rating": 8.2,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=sW5tUe0SQFY",
@@ -1580,7 +1580,7 @@
       "xG": null,
       "xA": null,
       "rating": 8.2,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
@@ -1616,7 +1616,7 @@
       "xG": 0.68,
       "xA": 0.94,
       "rating": 9.2,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=7rYdpcIJzZ0",
@@ -1760,7 +1760,7 @@
       "xG": null,
       "xA": null,
       "rating": 10,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
