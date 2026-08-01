@@ -310,26 +310,6 @@
     "notes": ""
   },
   {
-    "id": "2007-pl-player-of-the-season",
-    "name": "Premier League Player of the Season",
-    "category": "Domestic Individual Award",
-    "club": "Manchester United",
-    "season": "2006/07",
-    "year": 2007,
-    "domestic": true,
-    "notes": ""
-  },
-  {
-    "id": "2008-pl-player-of-the-season",
-    "name": "Premier League Player of the Season",
-    "category": "Domestic Individual Award",
-    "club": "Manchester United",
-    "season": "2007/08",
-    "year": 2008,
-    "domestic": true,
-    "notes": ""
-  },
-  {
     "id": "2014-la-liga-best-player",
     "name": "La Liga Best Player",
     "category": "Domestic Individual Award",
@@ -468,5 +448,695 @@
     "year": 2020,
     "domestic": false,
     "notes": ""
+  },
+  {
+    "id": "2008-fifpro-world-poty",
+    "name": "FIFPRO World Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Manchester United",
+    "season": "2008/09",
+    "year": 2008,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2008-uefa-club-foty",
+    "name": "UEFA Club Forward of the Year",
+    "category": "Continental Individual Award",
+    "club": "Manchester United",
+    "season": "2008/09",
+    "year": 2008,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2004-05-fifpro-sypoty",
+    "name": "FIFPRO Special Young Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Manchester United",
+    "season": "2004/05",
+    "year": 2005,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2003-04-fifpro-sypoty",
+    "name": "FIFPRO Special Young Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Manchester United",
+    "season": "2003/04",
+    "year": 2004,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2017-ws-poty",
+    "name": "World Soccer World Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2017,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-ws-poty",
+    "name": "World Soccer World Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2014-ws-poty",
+    "name": "World Soccer World Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2014/15",
+    "year": 2014,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2013-ws-poty",
+    "name": "World Soccer World Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2013/14",
+    "year": 2013,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2008-ws-poty",
+    "name": "World Soccer World Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Manchester United",
+    "season": "2008/09",
+    "year": 2008,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2019-gsa-bpoty",
+    "name": "Globe Soccer Awards Best Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Juventus",
+    "season": "2019/20",
+    "year": 2019,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2018-gsa-bpoty",
+    "name": "Globe Soccer Awards Best Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Juventus",
+    "season": "2018/19",
+    "year": 2018,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2017-gsa-bpoty",
+    "name": "Globe Soccer Awards Best Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2017,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-gsa-bpoty",
+    "name": "Globe Soccer Awards Best Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2014-gsa-bpoty",
+    "name": "Globe Soccer Awards Best Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2014/15",
+    "year": 2014,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2013-gsa-bpoty",
+    "name": "Globe Soccer Awards Best Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2013/14",
+    "year": 2013,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2011-gsa-bpoty",
+    "name": "Globe Soccer Awards Best Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2011/12",
+    "year": 2011,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2020-gsa-potc",
+    "name": "Globe Soccer Awards Player of the Century (2001-2020)",
+    "category": "Global Individual Award",
+    "club": "Juventus",
+    "season": "2020/21",
+    "year": 2020,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-17-onze-mondial",
+    "name": "Onze Mondial Award",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2017,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2008-onze-mondial",
+    "name": "Onze Mondial Award",
+    "category": "Global Individual Award",
+    "club": "Manchester United",
+    "season": "2008/09",
+    "year": 2008,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2004-bravo-award",
+    "name": "Guerin Sportivo Bravo Award",
+    "category": "Global Individual Award",
+    "club": "Manchester United",
+    "season": "2003/04",
+    "year": 2004,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2021-espy-best-int-mens-player",
+    "name": "ESPY Awards Best International Men's Player",
+    "category": "Global Individual Award",
+    "club": "Juventus",
+    "season": "2020/21",
+    "year": 2021,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2018-espy-best-int-mens-player",
+    "name": "ESPY Awards Best International Men's Player",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2018,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2017-goal-50",
+    "name": "Goal 50",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2017,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-goal-50",
+    "name": "Goal 50",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2014-goal-50",
+    "name": "Goal 50",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2014/15",
+    "year": 2014,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2012-goal-50",
+    "name": "Goal 50",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2012/13",
+    "year": 2012,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2008-goal-50",
+    "name": "Goal 50",
+    "category": "Global Individual Award",
+    "club": "Manchester United",
+    "season": "2008/09",
+    "year": 2008,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-tg-bmfitw",
+    "name": "The Guardian Best Male Footballer in the World",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2014-tg-bmfitw",
+    "name": "The Guardian Best Male Footballer in the World",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2014/15",
+    "year": 2014,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-442-bpoty",
+    "name": "FourFourTwo Best Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2014-442-bpoty",
+    "name": "FourFourTwo Best Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2014/15",
+    "year": 2014,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2013-442-bpoty",
+    "name": "FourFourTwo Best Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2013/14",
+    "year": 2013,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2008-442-bpoty",
+    "name": "FourFourTwo Best Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Manchester United",
+    "season": "2008/09",
+    "year": 2008,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2017-dongqiudi-poty",
+    "name": "Dongqiudi Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2017,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-dongqiudi-poty",
+    "name": "Dongqiudi Player of the Year",
+    "category": "Global Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2017-18-ucl-fots",
+    "name": "UEFA Champions League Forward of the Season",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2018,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-17-ucl-fots",
+    "name": "UEFA Champions League Forward of the Season",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2017,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2019-20-r16-2l-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2019/20",
+    "year": 2020,
+    "domestic": false,
+    "notes": "Round of 16, 2nd Leg vs Lyon"
+  },
+  {
+    "id": "2018-19-r16-2l-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Juventus",
+    "season": "2018/19",
+    "year": 2019,
+    "domestic": false,
+    "notes": "Round of 16, 2nd Leg vs Atletico Madrid"
+  },
+  {
+    "id": "2017-18-r16-2l-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2018,
+    "domestic": false,
+    "notes": "Round of 16, 2nd Leg vs Paris Saint-Germain"
+  },
+  {
+    "id": "2017-18-md6-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2017,
+    "domestic": false,
+    "notes": "Matchday 6 vs Borussia Dortmund"
+  },
+  {
+    "id": "2017-18-md5-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2017,
+    "domestic": false,
+    "notes": "Matchday 5 vs APOEL"
+  },
+  {
+    "id": "2017-18-md2-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2017,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-17-f-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2017,
+    "domestic": false,
+    "notes": "Final vs Juventus"
+  },
+  {
+    "id": "2016-17-sf-1l-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2017,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2016-17-qf-1l-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2017,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2015-16-sf-2l-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2015/16",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2015-16-qf-1l-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2015/16",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2015-16-r16-1l-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2015/16",
+    "year": 2016,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2015-16-md6-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2015/16",
+    "year": 2015,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2015-16-md2-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2015/16",
+    "year": 2015,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2015-16-md1-ucl-potw",
+    "name": "UEFA Champions League Player of the Week",
+    "category": "Continental Individual Award",
+    "club": "Real Madrid",
+    "season": "2015/16",
+    "year": 2015,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2020-iffhs-uefa-bmpotd",
+    "name": "IFFHS UEFA Best Man Player of the Decade (2011-2020)",
+    "category": "Continental Individual Award",
+    "club": "Juventus",
+    "season": "2020/21",
+    "year": 2020,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2015-qdoa-bppoat",
+    "name": "Quina d'Ouro Awards Best Portuguese Player of All Time",
+    "category": "National Team Award",
+    "club": "Portugal National Team",
+    "season": "2014/15",
+    "year": 2015,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2006-07-pfa-ypoty",
+    "name": "PFA Young Player of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2006/07",
+    "year": 2007,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2006-07-pfa-ppoty",
+    "name": "PFA Players' Player of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2006/07",
+    "year": 2007,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2007-08-pfa-ppoty",
+    "name": "PFA Players' Player of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2006-07-pfa-fpoty",
+    "name": "PFA Fans' Player of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2006/07",
+    "year": 2007,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2007-08-pfa-fpoty",
+    "name": "PFA Fans' Player of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2006-07-fwa-foty",
+    "name": "FWA Footballer of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2006/07",
+    "year": 2007,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2007-08-fwa-foty",
+    "name": "FWA Footballer of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2006-07-pl-pots",
+    "name": "Premier League Player of the Season",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2006/07",
+    "year": 2007,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2007-08-pl-pots",
+    "name": "Premier League Player of the Season",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2006-nov-pl-potm",
+    "name": "Premier League Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2006/07",
+    "year": 2006,
+    "domestic": true,
+    "notes": "November 2006"
+  },
+  {
+    "id": "2006-dec-pl-potm",
+    "name": "Premier League Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2006/07",
+    "year": 2006,
+    "domestic": true,
+    "notes": "December 2006"
+  },
+  {
+    "id": "2008-jan-pl-potm",
+    "name": "Premier League Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": true,
+    "notes": "January 2008"
+  },
+  {
+    "id": "2008-mar-pl-potm",
+    "name": "Premier League Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": true,
+    "notes": "March 2008"
+  },
+  {
+    "id": "2021-sep-pl-potm",
+    "name": "Premier League Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2021/22",
+    "year": 2021,
+    "domestic": true,
+    "notes": "September 2021"
+  },
+  {
+    "id": "2022-apr-pl-potm",
+    "name": "Premier League Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2021/22",
+    "year": 2022,
+    "domestic": true,
+    "notes": "April 2022"
   }
 ]
