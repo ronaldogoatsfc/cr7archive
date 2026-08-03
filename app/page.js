@@ -10,7 +10,7 @@ const sections = [
   {
     title: "Match Logs",
     description:
-      "Explore a complete, searchable database of every official and unofficial appearance—filterable by season, competition, venue, and detailed performance metrics",
+      "Explore a complete, searchable database of every official and unofficial appearance—filterable by season, competition, venue, and detailed performance metrics.",
     href: "/match-logs",
     cta: "Open match logs",
   },
@@ -38,21 +38,21 @@ const sections = [
   {
     title: "Individual Honors & Awards",
     description:
-      "Ballon d'Or placements, Golden Boots, and player-of-the-year recognitions across two decades.",
+      "Ballon d'Or placements, Golden Boots, and other recognition awards across two decades.",
     href: "/honors",
     cta: "See honors & awards",
   },
   {
     title: "Records",
     description:
-      "'I don't follow the records, the records follow me.' - Cristiano Ronaldo",
+      "I don't follow the records, the records follow me. - Cristiano Ronaldo",
     href: "/records",
     cta: "Browse records",
   },
   {
     title: "About",
     description:
-      "Why this archive exists, how it's maintained, and how to get in touch.",
+      "Why this archive exists, future plans, and how to get in touch.",
     href: "/about",
     cta: "Read more",
   },

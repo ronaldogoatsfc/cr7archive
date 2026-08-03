@@ -92,11 +92,12 @@ export default function VisualizationsPage() {
         Visualizations
       </p>
       <h1 className="mt-2 font-display text-4xl font-semibold text-paper">
-        The numbers, charted
+        The numbers, visualized
       </h1>
       <p className="mt-2 max-w-2xl text-paper-dim">
-        Career output broken down by season, competition, and club — built
-        from the same match log as the ledger.
+        Data visualizations of Ronaldo's career stats, including goals, assists, 
+        appearances, and other performance metrics. Explore the charts below to 
+        see how his career has evolved over time and across competitions.
       </p>
 
       <div className="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-2">

@@ -60,11 +60,10 @@ export default function AboutPage() {
           </p>
           <p>
             <span className="text-paper">Official & Unofficial Match Logs: </span>
-            There are many games where statistics were not recorded. 
-            If this changes, we will add them. There are also hundreds of 
-            games that do not have footage linked. If we find footage, we 
-            will add it. Other things such as goal types, minute scored in, 
-            assist types, and opponent rankings will be added in the near future.
+            There are many games where statistics and footage were not 
+            found. If this changes, we will add them. Other things such as goal 
+            types, minute scored in, assist types, and opponent rankings will 
+            be added in the future.
           </p>
           <p>
             <span className="text-paper">Visualizations: </span>
@@ -73,8 +72,8 @@ export default function AboutPage() {
           </p>
           <p>
             <span className="text-paper">Individual Honors: </span>
-            Detailed breakdown of the awards received, including voting breakdown, 
-            criteria, etc.
+            Clear and concise breakdown of the awards received, including 
+            voting breakdown, criteria, etc.
           </p>
           <p>
             <span className="text-paper">Records: </span>
@@ -83,8 +82,8 @@ export default function AboutPage() {
           </p>
           <p>
             <span className="text-paper">Articles: </span>
-            Deep dives and tactical analyses that explore narratives throughout 
-            Cristiano Ronaldo's career.
+            If you have an article or analysis piece that you would like to submit,
+            please reach out to us and we will consider adding it to the site.
           </p>
           <p>
             <span className="text-paper">Comparisons: </span>

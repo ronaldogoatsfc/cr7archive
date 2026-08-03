@@ -12,9 +12,8 @@ export default function RecordsPage() {
         Coming soon
       </h1>
       <p className="mt-4 max-w-xl text-paper-dim">
-        This section will cover career milestones and standout numbers —
-        goal-scoring records, appearance streaks, and similar marks pulled
-        from the match ledger as the dataset grows.
+        Career milestones and standout numbers. This section will be updated 
+        as new records are set.
       </p>
     </div>
   );
