@@ -212,8 +212,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ztu24Tvo9LE",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://www.youtube.com/watch?v=d6CgR_Ept88"
   },
   {
     "id": "2026-06-06",
@@ -248,8 +248,8 @@
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=hy6IZc3n4jw",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://www.youtube.com/watch?v=Q4l8uqpEEZA"
   },
   {
     "id": "2026-05-21",
@@ -320,8 +320,8 @@
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
-    "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "hasFullMatch": true,
+    "fullMatchUrl": "https://www.youtube.com/watch?v=wyKftTv03Ag"
   },
   {
     "id": "2026-05-12",

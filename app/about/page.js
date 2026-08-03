@@ -94,6 +94,11 @@ export default function AboutPage() {
             <span className="text-paper">Mobile Compatibility: </span>
             We are looking into enhancing the mobile user's experience.
           </p>
+          <p>
+            <span className="text-paper">Timeline: </span>
+            We are looking to add a chronological view of Ronaldo's career, 
+            covering the milestones and achievements throughout his journey.
+          </p>
         <p>Follow along or drop a suggestion on social media:</p>
         <SocialLinks />
       </div>
