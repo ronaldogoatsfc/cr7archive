@@ -10,8 +10,8 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const article = getArticleBySlug(articles, slug);
-  if (!article) return { title: "Article not found — The CR7 Archive" };
-  return { title: `${article.title} — The CR7 Archive` };
+  if (!article) return { title: "Article not found — The Ronaldo Archive" };
+  return { title: `${article.title} — The Ronaldo Archive` };
 }
 
 function ArticleBlock({ block }) {

@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Records — The CR7 Archive",
+  title: "Records — The Ronaldo Archive",
 };
 
 export default function RecordsPage() {

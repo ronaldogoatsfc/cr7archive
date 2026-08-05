@@ -1,7 +1,7 @@
 import SocialLinks from "@/components/SocialLinks";
 
 export const metadata = {
-  title: "About — The CR7 Archive",
+  title: "About — The Ronaldo Archive",
 };
 
 export default function AboutPage() {
@@ -16,7 +16,7 @@ export default function AboutPage() {
 
       <div className="mt-8 space-y-5 text-paper-dim">
         <p>
-          The CR7 Archive is a fan-made project built to log Cristiano
+          The Ronaldo Archive is a fan-made project built to log Cristiano
           Ronaldo&apos;s career match by match. It is a place where
           fans can explore every appearance, goal, assist, and trophy, 
           filterable and visualized in one place. The goal is to 

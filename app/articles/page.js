@@ -3,7 +3,7 @@ import { sortByDateDesc } from "@/lib/articles";
 import ArticleCard from "@/components/ArticleCard";
 
 export const metadata = {
-  title: "Articles — The CR7 Archive",
+  title: "Articles — The Ronaldo Archive",
 };
 
 export default function ArticlesPage() {

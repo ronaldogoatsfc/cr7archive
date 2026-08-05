@@ -2,6 +2,7 @@ import { Oswald, Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import CookieConsent from "@/components/CookieConsent";
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -20,9 +21,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "The CR7 Archive",
+  title: "The Ronaldo Archive",
   description:
-    "An unofficial, fan-made statistical archive of Cristiano Ronaldo's career: match logs, footage, visualizations, trophies, honors, and records.",
+    "An fan-made statistical archive of Cristiano Ronaldo's career: match logs, footage, visualizations, trophies, honors, and records.",
 };
 
 export default function RootLayout({ children }) {
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
         <NavBar />
         <main className="flex-1">{children}</main>
         <Footer />
+        <CookieConsent />
       </body>
     </html>
   );

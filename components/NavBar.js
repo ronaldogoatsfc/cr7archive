@@ -39,7 +39,7 @@ export default function NavBar() {
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-y-2 px-6 py-4">
         <Link href="/" className="flex items-baseline gap-2">
           <span className="font-display text-2xl font-semibold tracking-tight text-paper">
-            THE CR7 ARCHIVE
+            THE RONALDO ARCHIVE
           </span>
         </Link>
 

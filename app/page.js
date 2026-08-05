@@ -67,7 +67,7 @@ export default function Home() {
     <div>
       <section className="mx-auto max-w-6xl px-6 pt-16 pb-12 text-center">
         <h2 className="font-display text-4xl font-semibold text-paper sm:text-5xl md:text-6xl">
-          Welcome to The CR7 Archive.
+          Welcome to The Ronaldo Archive.
         </h2>
         <p className="mt-6 font-mono text-xl uppercase tracking-[0.3em] text-gold">
           The race to 1,000 is on
