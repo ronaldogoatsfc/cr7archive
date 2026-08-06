@@ -24,6 +24,11 @@ export const metadata = {
   title: "The Ronaldo Archive",
   description:
     "An fan-made statistical archive of Cristiano Ronaldo's career: match logs, footage, visualizations, trophies, honors, and records.",
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
