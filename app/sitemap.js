@@ -6,7 +6,6 @@ export default function sitemap() {
   const staticRoutes = [
     { path: "", priority: 1.0, changeFrequency: "weekly" },
     { path: "/match-logs", priority: 0.9, changeFrequency: "weekly" },
-    { path: "/match-logs/footage", priority: 0.6, changeFrequency: "weekly" },
     { path: "/match-logs/unofficial", priority: 0.5, changeFrequency: "monthly" },
     { path: "/visualizations", priority: 0.8, changeFrequency: "weekly" },
     { path: "/trophies", priority: 0.7, changeFrequency: "monthly" },
