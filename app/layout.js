@@ -3,6 +3,7 @@ import "./globals.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import CookieConsent from "@/components/CookieConsent";
+import Script from "next/script";
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -33,11 +34,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en"
-      className={`${oswald.variable} ${inter.variable} ${jetbrainsMono.variable} h-full`}
-    >
-      <body className="min-h-full flex flex-col bg-pitch text-paper antialiased">
+    <html lang="en" className="...">
+      <body className="...">
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7138974962991411"
+          crossOrigin="anonymous"
+          strategy="beforeInteractive"
+        />
         <NavBar />
         <main className="flex-1">{children}</main>
         <Footer />
