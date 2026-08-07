@@ -34,14 +34,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="...">
-      <body className="...">
-        <Script
+    <html
+      lang="en"
+      className={`${oswald.variable} ${inter.variable} ${jetbrainsMono.variable} h-full`}
+    >
+      <body className="min-h-full flex flex-col bg-pitch text-paper antialiased">
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7138974962991411"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+          strategy="afterInteractive">
+        </script>
         <NavBar />
         <main className="flex-1">{children}</main>
         <Footer />
