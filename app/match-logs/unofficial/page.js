@@ -20,10 +20,6 @@ const DEFAULT_FILTERS = {
   search: "",
 };
 
-export const metadata = {
-  title: "Unofficial Match Logs — The Ronaldo Archive",
-};
-
 const STAT_FIELDS = [
   { key: "shots", label: "Shots" },
   { key: "shotsOnTarget", label: "Shots on Target" },

@@ -2,10 +2,6 @@ import articles from "@/data/articles";
 import { sortByDateDesc } from "@/lib/articles";
 import ArticleCard from "@/components/ArticleCard";
 
-export const metadata = {
-  title: "Articles — The Ronaldo Archive",
-};
-
 export default function ArticlesPage() {
   const sorted = sortByDateDesc(articles);
 

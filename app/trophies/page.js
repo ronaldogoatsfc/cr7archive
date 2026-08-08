@@ -19,10 +19,6 @@ const DEFAULT_FILTERS = {
   includeFriendlies: false,
 };
 
-export const metadata = {
-  title: "Trophies — The Ronaldo Archive",
-};
-
 function Select({ label, value, onChange, options }) {
   return (
     <label className="flex flex-col gap-1">
