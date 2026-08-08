@@ -50,6 +50,10 @@ const tooltipStyle = {
   fontSize: 12,
 };
 
+export const metadata = {
+  title: "Visualizations — The Ronaldo Archive",
+};
+
 function topCompetitions(data, limit = 6) {
   if (data.length <= limit) return data;
   const top = data.slice(0, limit);

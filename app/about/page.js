@@ -66,14 +66,8 @@ export default function AboutPage() {
             be added in the future.
           </p>
           <p>
-            <span className="text-paper">Visualizations: </span>
-            We plan on building more interactive data visualizations covering 
-            various aspects of Cristiano Ronaldo's game.
-          </p>
-          <p>
             <span className="text-paper">Individual Honors: </span>
-            Clear and concise breakdown of the awards received, including 
-            voting breakdown, criteria, etc.
+            Complete the listing of individual honors and awards.
           </p>
           <p>
             <span className="text-paper">Records: </span>

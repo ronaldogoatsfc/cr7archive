@@ -17,6 +17,10 @@ const DEFAULT_FILTERS = {
   domestic: "All",
 };
 
+export const metadata = {
+  title: "Individual Honors — The Ronaldo Archive",
+};
+
 function Select({ label, value, onChange, options }) {
   return (
     <label className="flex flex-col gap-1">

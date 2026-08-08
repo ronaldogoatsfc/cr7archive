@@ -44,6 +44,10 @@ const DEFAULT_FILTERS = {
   hasFullMatch: "All",
 };
 
+export const metadata = {
+  title: "Match Logs — The Ronaldo Archive",
+};
+
 const COUNT_THRESHOLDS = ["1+", "2+", "3+", "4+", "5+"];
 const XG_THRESHOLDS = ["0.5+", "1+", "1.5+", "2+"];
 const RATING_THRESHOLDS = ["6+", "7+", "7.5+", "8+", "9+"];
