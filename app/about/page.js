@@ -66,11 +66,6 @@ export default function AboutPage() {
             be added in the future.
           </p>
           <p>
-            <span className="text-paper">Records: </span>
-            This page is yet to be built, but will contain currently held records 
-            alongside previously held records.
-          </p>
-          <p>
             <span className="text-paper">Articles: </span>
             If you have an article or analysis piece that you would like to submit,
             please reach out to us and we will consider adding it to the site.
