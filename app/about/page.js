@@ -66,10 +66,6 @@ export default function AboutPage() {
             be added in the future.
           </p>
           <p>
-            <span className="text-paper">Individual Honors: </span>
-            Complete the listing of individual honors and awards.
-          </p>
-          <p>
             <span className="text-paper">Records: </span>
             This page is yet to be built, but will contain currently held records 
             alongside previously held records.

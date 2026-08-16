@@ -1138,5 +1138,595 @@
     "year": 2022,
     "domestic": true,
     "notes": "April 2022"
+  },
+  {
+    "id": "2003-04-smbpoty",
+    "name": "Sir Matt Busby Player of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2003/04",
+    "year": 2004,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2006-07-smbpoty",
+    "name": "Sir Matt Busby Player of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2006/07",
+    "year": 2007,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2007-08-smbpoty",
+    "name": "Sir Matt Busby Player of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2021-22-smbpoty",
+    "name": "Sir Matt Busby Player of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2021/22",
+    "year": 2022,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2006-07-mu-ppoty",
+    "name": "Manchester United Players' Player of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2006/07",
+    "year": 2007,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2007-08-mu-ppoty",
+    "name": "Manchester United Players' Player of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2007/08",
+    "year": 2008,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2021-sep-mu-potm",
+    "name": "Manchester United Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2021/22",
+    "year": 2021,
+    "domestic": true,
+    "notes": "September 2021"
+  },
+  {
+    "id": "2021-oct-mu-potm",
+    "name": "Manchester United Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2021/22",
+    "year": 2021,
+    "domestic": true,
+    "notes": "October 2021"
+  },
+  {
+    "id": "2022-mar-mu-potm",
+    "name": "Manchester United Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2021/22",
+    "year": 2022,
+    "domestic": true,
+    "notes": "March 2022"
+  },
+  {
+    "id": "2022-apr-mu-potm",
+    "name": "Manchester United Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2021/22",
+    "year": 2022,
+    "domestic": true,
+    "notes": "April 2022"
+  },
+  {
+    "id": "2022-may-mu-potm",
+    "name": "Manchester United Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Manchester United",
+    "season": "2021/22",
+    "year": 2022,
+    "domestic": true,
+    "notes": "May 2022"
+  },
+  {
+    "id": "2013-14-ll-best-player",
+    "name": "La Liga Best Player",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2013/14",
+    "year": 2014,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2013-14-ll-best-forward",
+    "name": "La Liga Best Forward",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2013/14",
+    "year": 2014,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2012-13-ll-mvp",
+    "name": "La Liga Most Valuable Player",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2012/13",
+    "year": 2013,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2011-12-trofeo-alfredo-di-stefano",
+    "name": "Trofeo Alfredo Di Stéfano",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2011/12",
+    "year": 2012,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2012-13-trofeo-alfredo-di-stefano",
+    "name": "Trofeo Alfredo Di Stéfano",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2012/13",
+    "year": 2013,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2013-14-trofeo-alfredo-di-stefano",
+    "name": "Trofeo Alfredo Di Stéfano",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2013/14",
+    "year": 2014,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2015-16-trofeo-alfredo-di-stefano",
+    "name": "Trofeo Alfredo Di Stéfano",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2015/16",
+    "year": 2016,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2016-facebook-football-awards-player-of-the-year",
+    "name": "Facebook Football Awards La Liga Player of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2015/16",
+    "year": 2016,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2016-facebook-football-awards-best-striker",
+    "name": "Facebook Football Awards La Liga Best Striker",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2015/16",
+    "year": 2016,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2013-nov-lla-potm",
+    "name": "La Liga Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2013/14",
+    "year": 2013,
+    "domestic": true,
+    "notes": "November 2013"
+  },
+  {
+    "id": "2015-may-lla-potm",
+    "name": "La Liga Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2014/15",
+    "year": 2015,
+    "domestic": true,
+    "notes": "May 2015"
+  },
+  {
+    "id": "2017-may-lla-potm",
+    "name": "La Liga Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2016/17",
+    "year": 2017,
+    "domestic": true,
+    "notes": "May 2017"
+  },
+  {
+    "id": "2012-13-trofeo-efe",
+    "name": "Trofeo EFE",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2012/13",
+    "year": 2013,
+    "domestic": true,
+    "notes": "Best Latin-American Player in La Liga"
+  },
+  {
+    "id": "2017-dec-mahou-5sp",
+    "name": "Mahou Five Star Player",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2017,
+    "domestic": true,
+    "notes": "December 2017"
+  },
+  {
+    "id": "2018-mar-mahou-5sp",
+    "name": "Mahou Five Star Player",
+    "category": "Domestic Individual Award",
+    "club": "Real Madrid",
+    "season": "2017/18",
+    "year": 2018,
+    "domestic": true,
+    "notes": "March 2018"
+  },
+  {
+    "id": "2018-19-serie-a-mvp",
+    "name": "Serie A Most Valuable Player",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2018/19",
+    "year": 2019,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2020-21-serie-a-best-striker",
+    "name": "Serie A Best Striker",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2020/21",
+    "year": 2021,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2019-serie-a-footballer-of-the-year",
+    "name": "Serie A Footballer of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2018/19",
+    "year": 2019,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2020-serie-a-footballer-of-the-year",
+    "name": "Serie A Footballer of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2019/20",
+    "year": 2020,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2020-jan-serie-a-potm",
+    "name": "Serie A Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2019/20",
+    "year": 2020,
+    "domestic": true,
+    "notes": "January 2020"
+  },
+  {
+    "id": "2020-nov-serie-a-potm",
+    "name": "Serie A Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2020/21",
+    "year": 2020,
+    "domestic": true,
+    "notes": "November 2020"
+  },
+  {
+    "id": "2020-supercoppa-italiana-best-player",
+    "name": "Supercoppa Italiana Best Player",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2020/21",
+    "year": 2020,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2019-20-juventus-mvp-of-the-year",
+    "name": "Juventus MVP of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2019/20",
+    "year": 2020,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2020-21-juventus-mvp-of-the-year",
+    "name": "Juventus MVP of the Year",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2020/21",
+    "year": 2021,
+    "domestic": true,
+    "notes": ""
+  },
+  {
+    "id": "2018-sep-juventus-mvp",
+    "name": "Juventus MVP of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2018/19",
+    "year": 2018,
+    "domestic": true,
+    "notes": "September 2018"
+  },
+  {
+    "id": "2018-nov-juventus-mvp",
+    "name": "Juventus MVP of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2018/19",
+    "year": 2018,
+    "domestic": true,
+    "notes": "November 2018"
+  },
+  {
+    "id": "2018-dec-juventus-mvp",
+    "name": "Juventus MVP of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2018/19",
+    "year": 2018,
+    "domestic": true,
+    "notes": "December 2018"
+  },
+  {
+    "id": "2019-jan-juventus-mvp",
+    "name": "Juventus MVP of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2018/19",
+    "year": 2019,
+    "domestic": true,
+    "notes": "January 2019"
+  },
+  {
+    "id": "2019-mar-juventus-mvp",
+    "name": "Juventus MVP of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2018/19",
+    "year": 2019,
+    "domestic": true,
+    "notes": "March 2019"
+  },
+  {
+    "id": "2019-apr-juventus-mvp",
+    "name": "Juventus MVP of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2018/19",
+    "year": 2019,
+    "domestic": true,
+    "notes": "April 2019"
+  },
+  {
+    "id": "2019-dec-juventus-mvp",
+    "name": "Juventus MVP of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2019/20",
+    "year": 2019,
+    "domestic": true,
+    "notes": "December 2019"
+  },
+  {
+    "id": "2020-jan-juventus-mvp",
+    "name": "Juventus MVP of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2019/20",
+    "year": 2020,
+    "domestic": true,
+    "notes": "January 2020"
+  },
+  {
+    "id": "2020-feb-juventus-mvp",
+    "name": "Juventus MVP of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2019/20",
+    "year": 2020,
+    "domestic": true,
+    "notes": "February 2020"
+  },
+  {
+    "id": "2020-sep-juventus-mvp",
+    "name": "Juventus MVP of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2020/21",
+    "year": 2020,
+    "domestic": true,
+    "notes": "September 2020"
+  },
+  {
+    "id": "2020-nov-juventus-mvp",
+    "name": "Juventus MVP of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2020/21",
+    "year": 2020,
+    "domestic": true,
+    "notes": "November 2020"
+  },
+  {
+    "id": "2021-feb-juventus-mvp",
+    "name": "Juventus MVP of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Juventus",
+    "season": "2020/21",
+    "year": 2021,
+    "domestic": true,
+    "notes": "February 2021"
+  },
+  {
+    "id": "2023-globe-soccer-best-middle-east-player",
+    "name": "Globe Soccer Best Middle East Player",
+    "category": "Individual Award",
+    "club": "Al-Nassr",
+    "season": "2022/23",
+    "year": 2023,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2024-globe-soccer-best-middle-east-player",
+    "name": "Globe Soccer Best Middle East Player",
+    "category": "Individual Award",
+    "club": "Al-Nassr",
+    "season": "2023/24",
+    "year": 2024,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2025-globe-soccer-best-middle-east-player",
+    "name": "Globe Soccer Best Middle East Player",
+    "category": "Individual Award",
+    "club": "Al-Nassr",
+    "season": "2024/25",
+    "year": 2025,
+    "domestic": false,
+    "notes": ""
+  },
+  {
+    "id": "2025-26-md7-saudi-pro-league-potw",
+    "name": "Saudi Pro League Player of the Week",
+    "category": "Domestic Individual Award",
+    "club": "Al-Nassr",
+    "season": "2025/26",
+    "year": 2025,
+    "domestic": true,
+    "notes": "Matchday 7"
+  },
+  {
+    "id": "2025-26-md9-saudi-pro-league-potw",
+    "name": "Saudi Pro League Player of the Week",
+    "category": "Domestic Individual Award",
+    "club": "Al-Nassr",
+    "season": "2025/26",
+    "year": 2025,
+    "domestic": true,
+    "notes": "Matchday 9"
+  },
+  {
+    "id": "2023-feb-saudi-pro-league-potm",
+    "name": "Saudi Pro League Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Al-Nassr",
+    "season": "2022/23",
+    "year": 2023,
+    "domestic": true,
+    "notes": "February 2023"
+  },
+  {
+    "id": "2023-aug-saudi-pro-league-potm",
+    "name": "Saudi Pro League Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Al-Nassr",
+    "season": "2023/24",
+    "year": 2023,
+    "domestic": true,
+    "notes": "August 2023"
+  },
+  {
+    "id": "2023-sep-saudi-pro-league-potm",
+    "name": "Saudi Pro League Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Al-Nassr",
+    "season": "2023/24",
+    "year": 2023,
+    "domestic": true,
+    "notes": "September 2023"
+  },
+  {
+    "id": "2023-dec-saudi-pro-league-potm",
+    "name": "Saudi Pro League Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Al-Nassr",
+    "season": "2023/24",
+    "year": 2023,
+    "domestic": true,
+    "notes": "December 2023"
+  },
+  {
+    "id": "2024-mar-saudi-pro-league-potm",
+    "name": "Saudi Pro League Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Al-Nassr",
+    "season": "2023/24",
+    "year": 2024,
+    "domestic": true,
+    "notes": "March 2024"
+  },
+  {
+    "id": "2024-may-saudi-pro-league-potm",
+    "name": "Saudi Pro League Player of the Month",
+    "category": "Domestic Individual Award",
+    "club": "Al-Nassr",
+    "season": "2023/24",
+    "year": 2024,
+    "domestic": true,
+    "notes": "May 2024"
+  },
+  {
+    "id": "2013-icc-best-player",
+    "name": "International Champions Cup Best Player",
+    "category": "Friendly Competition Award",
+    "club": "Real Madrid",
+    "season": "2013/14",
+    "year": 2013,
+    "domestic": false,
+    "notes": "Friendly competition"
   }
 ]
