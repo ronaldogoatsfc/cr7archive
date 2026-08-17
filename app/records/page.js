@@ -93,7 +93,7 @@ export default function RecordsPage() {
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-16">
-      <p className="font-mono text-xs uppercase tracking-[0.3em] text-gold">
+      <p className="font-mono text-xl uppercase tracking-[0.3em] text-gold">
         Records
       </p>
       <h1 className="mt-2 font-display text-4xl font-semibold text-paper">

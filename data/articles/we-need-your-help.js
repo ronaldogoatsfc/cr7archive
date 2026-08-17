@@ -31,19 +31,15 @@ const article = {
     },
     {
       type: "paragraph",
-      text: "Articles: We are looking for people to write articles on our website. We are primarily interested in-depth analyses of Cristiano Ronaldo's career and performances.",
+      text: "Articles: We are looking for people to write articles on our website. We are primarily interested in in-depth analyses of Cristiano Ronaldo's career and performances.",
     },
     {
       type: "paragraph",
-      text: "Data Visualizations: We want to create interactive charts and graphs to better represent Ronaldo's performance data. Things such as heat maps, shot maps, and other visualizations will be added. We will need a lot of data to create these visualizations.",
+      text: "Data Visualizations: We want to create interactive charts and graphs to better represent Ronaldo's performance data. We will need a lot of data to create these visualizations.",
     },
     {
       type: "paragraph",
-      text: "Individual Honors: We are looking to find and document all of Ronaldo's individual honors and awards.",
-    },
-    {
-      type: "paragraph",
-      text: "Records: We are looking to find and document all of Ronaldo's records.",
+      text: "Records: We are looking to find and document all of Ronaldo's current and previous records.",
     },
     {
       type: "paragraph",

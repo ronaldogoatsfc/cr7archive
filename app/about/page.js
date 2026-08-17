@@ -33,8 +33,8 @@ export default function AboutPage() {
         <p>
           This site is <span className="text-paper">not affiliated with, 
           endorsed by, or connected to</span> Cristiano Ronaldo, any club, 
-          league, or federation he has played for. It is an independent, 
-          non-commercial fan project. No copyright is claimed over any 
+          league, or federation he has played for, but rather an 
+          independent fan project. No copyright is claimed over any 
           underlying match footage, competition names, or club and 
           federation marks referenced here; they remain the property of 
           their respective owners.
@@ -76,13 +76,13 @@ export default function AboutPage() {
             across seasons, clubs, years, and more.
           </p>
           <p>
-            <span className="text-paper">Mobile Compatibility: </span>
-            We are looking into enhancing the mobile user's experience.
-          </p>
-          <p>
             <span className="text-paper">Timeline: </span>
             We are looking to add a chronological view of Ronaldo's career, 
             covering the milestones and achievements throughout his journey.
+          </p>
+          <p>
+            <span className="text-paper">Mobile Compatibility: </span>
+            We are looking into enhancing the mobile user's experience.
           </p>
         <p>Follow along or drop a suggestion on social media:</p>
         <SocialLinks />
