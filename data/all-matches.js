@@ -22,6 +22,7 @@ import s2022 from "./matches/2022-23.json";
 import s2023 from "./matches/2023-24.json";
 import s2024 from "./matches/2024-25.json";
 import s2025 from "./matches/2025-26.json";
+import s2026 from "./matches/2026-27.json";
 
 const allMatches = [
   ...s2002,
@@ -47,7 +48,8 @@ const allMatches = [
   ...s2022,
   ...s2023,
   ...s2024,
-  ...s2025
+  ...s2025,
+  ...s2026
 ];
 
 export default allMatches;
