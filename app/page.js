@@ -16,13 +16,6 @@ const GOAL_TARGET = 1000;
 
 const sections = [
   {
-    title: "Visualizations",
-    description:
-      "Explore interactive breakdowns of Ronaldo's goals, assists, scoring efficiency, results, ratings, opponents, clubs, and competitions.",
-    href: "/visualizations",
-    cta: "See visualizations",
-  },
-  {
     title: "Articles",
     description:
       "Original analysis of Ronaldo's career, performances, statistics, and evolution as a player.",
