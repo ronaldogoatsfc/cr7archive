@@ -1,6 +1,8 @@
 import Link from "next/link";
 import matches from "@/data/all-matches";
 import trophies from "@/data/trophies.json";
+import honors from "@/data/honors.json";
+import records from "@/data/records.json";
 import {
   careerTotals,
   trophyTotal,
@@ -21,27 +23,6 @@ const sections = [
     cta: "See visualizations",
   },
   {
-    title: "Trophies",
-    description:
-      "Browse Ronaldo's major team trophies across his club and international career, from his first title to the present day.",
-    href: "/trophies",
-    cta: "View trophy cabinet",
-  },
-  {
-    title: "Individual Honors & Awards",
-    description:
-      "Explore Ronaldo's individual achievements, including Ballon d'Or wins and placements, Golden Boots, and other major honors.",
-    href: "/honors",
-    cta: "See honors & awards",
-  },
-  {
-    title: "Records",
-    description:
-      "Explore notable career records and milestones achieved by Ronaldo at club and international level.",
-    href: "/records",
-    cta: "Browse records",
-  },
-  {
     title: "Articles",
     description:
       "Original analysis of Ronaldo's career, performances, statistics, and evolution as a player.",
@@ -60,6 +41,30 @@ const sections = [
 export default function Home() {
   const totals = careerTotals(matches);
   const trophyCount = trophyTotal(trophies);
+  const ballonDorWins = honors.filter(
+    (h) => h.name === "Ballon d'Or"
+  ).length;
+
+  const fifaBestWins = honors.filter(
+    (h) => h.name === "The Best FIFA Men's Player"
+  ).length;
+
+  const championsLeagueTopScorerWins = honors.filter(
+    (h) => h.name === "UEFA Champions League top scorer"
+  ).length;
+
+  const europeanGoldenShoes = honors.filter(
+    (h) => h.name === "European Golden Shoe"
+  ).length;
+  const featuredRecordIds = [
+    "most-mens-international-caps",
+    "most-goals-uefa-champions-league",
+    "most-goals-single-saudi-pro-league-season",
+  ];
+
+  const featuredRecords = featuredRecordIds.map((id) =>
+    records.find((record) => record.id === id)
+  );
   const trophyCounts = {
     championsLeague: trophies.filter(
       (t) => !t.isFriendly && t.name === "UEFA Champions League"
@@ -394,6 +399,137 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Honors and awards */}
+      <section className="border-t border-line px-6 py-12">
+        <div className="mx-auto max-w-6xl">
+          <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
+            <div>
+              <p className="font-mono text-xs uppercase tracking-[0.25em] text-gold">
+                Individual excellence
+              </p>
+              <h2 className="mt-2 font-display text-2xl font-semibold text-paper">
+                Honors &amp; Awards
+              </h2>
+              <p className="mt-2 max-w-2xl text-paper-dim">
+                From football&apos;s biggest individual prizes to sustained
+                dominance in Europe&apos;s premier club competition.
+              </p>
+            </div>
+
+            <Link
+              href="/honors"
+              className="text-sm font-semibold text-gold transition hover:text-gold-bright"
+            >
+              Explore all honors →
+            </Link>
+          </div>
+
+          <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-2xl border border-line bg-pitch-raised p-6">
+              <p className="font-display text-4xl font-semibold text-gold">
+                {ballonDorWins}
+              </p>
+              <h3 className="mt-3 font-semibold text-paper">Ballon d&apos;Or</h3>
+              <p className="mt-1 text-sm text-paper-dim">
+                Wins of football&apos;s renowned individual award.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-line bg-pitch-raised p-6">
+              <p className="font-display text-4xl font-semibold text-gold">
+                {fifaBestWins}
+              </p>
+              <h3 className="mt-3 font-semibold text-paper">
+                The Best FIFA Men&apos;s Player
+              </h3>
+              <p className="mt-1 text-sm text-paper-dim">
+                Wins of FIFA&apos;s individual player award.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-line bg-pitch-raised p-6">
+              <p className="font-display text-4xl font-semibold text-gold">
+                {championsLeagueTopScorerWins}
+              </p>
+              <h3 className="mt-3 font-semibold text-paper">
+                Champions League Top Scorer
+              </h3>
+              <p className="mt-1 text-sm text-paper-dim">
+                Seasons finishing as the competition&apos;s leading scorer.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-line bg-pitch-raised p-6">
+              <p className="font-display text-4xl font-semibold text-gold">
+                {europeanGoldenShoes}
+              </p>
+              <h3 className="mt-3 font-semibold text-paper">
+                European Golden Shoe
+              </h3>
+              <p className="mt-1 text-sm text-paper-dim">
+                Wins recognizing Europe&apos;s leading league goalscorer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+{/* Featured records */}
+      <section className="border-t border-line px-6 py-12">
+        <div className="mx-auto max-w-6xl">
+          <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
+            <div>
+              <p className="font-mono text-xs uppercase tracking-[0.25em] text-gold">
+                A career of records
+              </p>
+              <h2 className="mt-2 font-display text-2xl font-semibold text-paper">
+                Records that define a career
+              </h2>
+              <p className="mt-2 max-w-2xl text-paper-dim">
+                From international longevity to European dominance and
+                record-breaking scoring in Saudi Arabia.
+              </p>
+            </div>
+
+            <Link
+              href="/records"
+              className="text-sm font-semibold text-gold transition hover:text-gold-bright"
+            >
+              Explore all records →
+            </Link>
+          </div>
+
+          <div className="mt-6 grid gap-4 md:grid-cols-3">
+            {featuredRecords.map((record) => (
+              <div
+                key={record.id}
+                className="rounded-2xl border border-line bg-pitch-raised p-6"
+              >
+                <p className="font-mono text-xs uppercase tracking-[0.2em] text-gold">
+                  {record.category}
+                </p>
+
+                <p className="mt-4 font-display text-5xl font-semibold text-paper">
+                  {record.id === "most-mens-international-caps"
+                    ? "233"
+                    : record.id === "most-goals-uefa-champions-league"
+                      ? "140"
+                      : "35"}
+                </p>
+
+                <h3 className="mt-3 font-semibold leading-snug text-paper">
+                  {record.name}
+                </h3>
+
+                <p className="mt-2 text-sm leading-6 text-paper-dim">
+                  {record.notes}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Archive sections */}
       {sections.map((section) => (
         <section

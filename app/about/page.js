@@ -1,9 +1,5 @@
 import SocialLinks from "@/components/SocialLinks";
 
-export const metadata = {
-  title: "About — The Ronaldo Archive",
-};
-
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-16">
