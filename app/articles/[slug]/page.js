@@ -22,6 +22,7 @@ function ArticleBlock({ block }) {
       </h2>
     );
   }
+
   if (block.type === "quote") {
     return (
       <blockquote className="my-6 border-l-2 border-gold pl-4 font-display text-xl text-gold">
@@ -29,8 +30,29 @@ function ArticleBlock({ block }) {
       </blockquote>
     );
   }
+
+  if (block.type === "image") {
+    return (
+      <figure className="my-8">
+        <img
+          src={block.src}
+          alt={block.alt || ""}
+          className="h-auto w-full rounded-xl border border-line"
+          loading="lazy"
+        />
+        {block.caption && (
+          <figcaption className="mt-3 text-center text-sm text-paper-dim">
+            {block.caption}
+          </figcaption>
+        )}
+      </figure>
+    );
+  }
+
   return (
-    <p className="mt-4 leading-relaxed text-paper-dim">{block.text}</p>
+    <p className="mt-4 leading-relaxed text-paper-dim">
+      {block.text}
+    </p>
   );
 }
 

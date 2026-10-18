@@ -224,7 +224,7 @@ export default function Home() {
 
           <div className="rounded-2xl border border-line bg-pitch-raised p-5">
             <p className="font-mono text-xs uppercase tracking-[0.2em] text-paper-dim">
-              G+A / Match
+              G/A / Match
             </p>
             <p className="mt-3 font-display text-3xl font-semibold text-paper">
               {totals.matches > 0
