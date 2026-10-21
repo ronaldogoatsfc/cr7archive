@@ -4,6 +4,7 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import CookieConsent from "@/components/CookieConsent";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next"
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -49,6 +50,7 @@ export default function RootLayout({ children }) {
         <main className="flex-1">{children}</main>
         <Footer />
         <CookieConsent />
+        <Analytics />
       </body>
     </html>
   );
