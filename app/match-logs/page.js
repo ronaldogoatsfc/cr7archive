@@ -285,9 +285,11 @@ export default function MatchLogsPage() {
 
   const filtered = useMemo(
     () =>
-      filterMatches(matches, filters).sort((a, b) =>
-        b.date.localeCompare(a.date)
-      ),
+      filterMatches(matches, filters).sort((a, b) => {
+        const dateA = a.date || '';
+        const dateB = b.date || '';
+        return dateB.localeCompare(dateA);
+      }),
     [filters]
   );
 
