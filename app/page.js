@@ -325,26 +325,53 @@ export default function Home() {
       {/* Career comparisons */}
       <section className="border-t border-line px-6 py-12">
         <div className="mx-auto max-w-6xl">
-          <div className="grid gap-8 rounded-3xl border border-line bg-pitch-raised p-7 sm:p-10 md:grid-cols-[1fr_auto] md:items-center">
-            <div className="max-w-2xl">
+          <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
+            <div>
               <p className="font-mono text-xs uppercase tracking-[0.25em] text-gold">
                 Explore the numbers
               </p>
-              <h2 className="mt-2 font-display text-2xl font-semibold text-paper sm:text-3xl">
+              <h2 className="mt-2 font-display text-2xl font-semibold text-paper">
                 Compare Ronaldo&apos;s career
               </h2>
-              <p className="mt-3 leading-7 text-paper-dim">
-                Put different seasons, teams, competitions, or periods of
-                Cristiano Ronaldo&apos;s career side by side. Compare appearances,
-                goals, assists, scoring rates, and detailed performance statistics.
+              <p className="mt-2 max-w-2xl text-paper-dim">
+                Compare different seasons, teams, competitions, or periods of
+                Ronaldo&apos;s career using appearances, goals, assists, scoring
+                rates, and detailed performance statistics.
               </p>
             </div>
+
             <Link
               href="/comparisons"
-              className="inline-flex w-fit shrink-0 items-center justify-center rounded-full bg-gold px-7 py-3 text-sm font-semibold text-pitch transition hover:bg-gold-bright"
+              className="shrink-0 text-sm font-semibold text-gold transition hover:text-gold-bright"
             >
               Open Comparisons →
             </Link>
+          </div>
+
+          <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
+            <div className="rounded-2xl border border-line bg-pitch-raised p-5">
+              <p className="font-display text-3xl font-semibold text-gold">01</p>
+              <h3 className="mt-2 font-semibold text-paper">Compare seasons</h3>
+              <p className="mt-1 text-sm text-paper-dim">
+                See how different campaigns stack up against each other.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-line bg-pitch-raised p-5">
+              <p className="font-display text-3xl font-semibold text-gold">02</p>
+              <h3 className="mt-2 font-semibold text-paper">Compare teams &amp; competitions</h3>
+              <p className="mt-1 text-sm text-paper-dim">
+                Explore how his numbers changed across clubs and tournaments.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-line bg-pitch-raised p-5">
+              <p className="font-display text-3xl font-semibold text-gold">03</p>
+              <h3 className="mt-2 font-semibold text-paper">Choose a time period</h3>
+              <p className="mt-1 text-sm text-paper-dim">
+                Compare calendar years or set custom date ranges.
+              </p>
+            </div>
           </div>
         </div>
       </section>
