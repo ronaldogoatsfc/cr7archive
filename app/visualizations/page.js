@@ -149,7 +149,9 @@ function ChartCard({ chart }) {
                 stroke={PAPER_DIM}
                 fontSize={11}
                 tickLine={false}
-                allowDecimals={false}
+                allowDecimals
+                domain={chart.yDomain ?? ["auto", "auto"]}
+                tickCount={chart.yTickCount}
               />
               <Tooltip contentStyle={tooltipStyle} />
               <Legend
@@ -286,7 +288,10 @@ export default function VisualizationsPage() {
   const byMonth = goalsByMonth(matches);
   const byAge = goalsByAge(matches);
   const per90 = goalsPer90BySeason(matches);
-  const winRates = winPercentageByCompetition(matches);
+  const winRates = winPercentageByCompetition(matches)
+    .slice()
+    .sort((a, b) => b.winPercentage - a.winPercentage)
+    .slice(0, 7);
   const appearancesClub = appearancesByClub(matches);
   const clubContributions = goalsAndAssistsByClub(matches);
 
@@ -413,14 +418,14 @@ export default function VisualizationsPage() {
     },
     {
       title: "Most goals against",
-      description: "The 15 opponents against whom the most goals were logged.",
-      data: byOpponent,
+      description: "The 10 opponents against whom the most goals were logged.",
+      data: byOpponent.slice(0, 10),
       xKey: "name",
       horizontal: true,
       height: "h-[28rem]",
       explanation: {
         shows: "The opponents against whom Ronaldo has the highest recorded goal totals in this dataset.",
-        calculation: "Goals are grouped by opponent, sorted from highest to lowest, and limited to 15 opponents.",
+        calculation: "Goals are grouped by opponent, sorted from highest to lowest, and limited to the top 10 opponents.",
         interpretation: "Longer bars indicate more recorded goals against that opponent.",
         limitation: "Opponent names and totals depend on the completeness and consistency of match records.",
       },
@@ -468,6 +473,8 @@ export default function VisualizationsPage() {
       title: "Goals per 90 by season",
       description: "Scoring efficiency adjusted for recorded minutes played.",
       type: "line",
+      yDomain: [0, 1.5],
+      yTickCount: 4,
       data: per90,
       xKey: "season",
       keys: [{ key: "goalsPer90", name: "Goals per 90", color: GOLD_BRIGHT }],
@@ -490,7 +497,7 @@ export default function VisualizationsPage() {
       keys: [{ key: "winPercentage", name: "Win rate (%)", color: TURF }],
       explanation: {
         shows: "The percentage of logged matches won in each displayed competition.",
-        calculation: "Wins divided by logged matches, multiplied by 100. Only competitions with at least five logged matches are included; the chart shows up to ten.",
+        calculation: "Wins divided by logged matches, multiplied by 100. Only competitions with at least five logged matches are included; this chart shows the seven competitions with the highest win rates.",
         interpretation: "Higher percentages indicate a larger share of logged matches ending in wins.",
         limitation: "This is a team result statistic for matches involving Ronaldo, not a measure of his individual performance. Competition sample sizes differ.",
       },
@@ -560,6 +567,8 @@ export default function VisualizationsPage() {
       title: "Goal contributions per match by season",
       description: "Average recorded goals plus assists per logged match in each season.",
       type: "line",
+      yDomain: [0, 2],
+      yTickCount: 5,
       data: contributionsPerMatch,
       xKey: "season",
       keys: [
