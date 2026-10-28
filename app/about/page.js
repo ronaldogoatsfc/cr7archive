@@ -176,13 +176,6 @@ export default function AboutPage() {
         </p>
 
         <p>
-          <span className="text-paper">Articles: </span>
-          If you have an article or analysis piece that you would like to
-          submit, please reach out to us and we will consider adding it to the
-          site.
-        </p>
-
-        <p>
           <span className="text-paper">Comparisons: </span>
           We plan on building a comparison tool that users can use to compare
           across seasons, clubs, years, and more.

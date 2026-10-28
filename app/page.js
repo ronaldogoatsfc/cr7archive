@@ -16,13 +16,6 @@ const GOAL_TARGET = 1000;
 
 const sections = [
   {
-    title: "Articles",
-    description:
-      "Original analysis of Ronaldo's career, performances, statistics, and evolution as a player.",
-    href: "/articles",
-    cta: "Read the articles",
-  },
-  {
     title: "About",
     description:
       "Learn how The Ronaldo Archive is researched, maintained, and built, along with information about its sources and methodology.",
