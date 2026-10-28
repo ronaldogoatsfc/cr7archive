@@ -135,7 +135,19 @@ function FilterSection({ title, children }) {
   );
 }
 
-const resultDot = { W: "bg-turf-bright", D: "bg-paper-dim", L: "bg-goal-red" };
+function getRatingColor(rating) {
+  if (rating <= 5.9) return "bg-goal-red text-white";
+  if (rating < 7) return "bg-orange-500 text-white";
+  if (rating < 8) return "bg-green-600 text-white";
+  if (rating < 9) return "bg-sky-300 text-slate-950";
+  return "bg-blue-600 text-white";
+}
+
+function getScoreColor(result) {
+  if (result === "W") return "text-turf-bright";
+  if (result === "L") return "text-goal-red";
+  return "text-paper-dim";
+}
 
 function StatTile({ label, value }) {
   return (
@@ -542,17 +554,22 @@ export default function MatchLogsPage() {
               <th className="px-4 py-3">Club</th>
               <th className="px-4 py-3">Opponent</th>
               <th className="px-4 py-3">Venue</th>
-              <th className="px-4 py-3 text-center">Result</th>
               <th className="px-4 py-3 text-center">Score</th>
               <th className="px-4 py-3 text-center">Mins</th>
               <th className="px-4 py-3 text-center">G</th>
               <th className="px-4 py-3 text-center">A</th>
+              <th className="px-4 py-3 text-center">Rating</th>
             </tr>
           </thead>
           <tbody>
             {filtered.map((m) => {
               const isOpen = expandedId === m.id;
               const hasFootage = m.hasMatchComp || m.hasFullMatch;
+              const rating = m.stats?.rating;
+              const hasRating =
+                rating !== undefined &&
+                rating !== null &&
+                Number.isFinite(Number(rating));
               return (
                 <Fragment key={m.id}>
                   <tr
@@ -580,15 +597,20 @@ export default function MatchLogsPage() {
                     <td className="px-4 py-3 text-paper-dim">{m.team}</td>
                     <td className="px-4 py-3 text-paper">{m.opponent}</td>
                     <td className="px-4 py-3 text-paper-dim">{m.venue}</td>
-                    <td className="px-4 py-3 text-center">
-                      <span
-                        className={`inline-block h-2.5 w-2.5 rounded-full ${
-                          resultDot[m.result]
-                        }`}
-                        title={m.result}
-                      />
-                    </td>
-                    <td className="data-mono px-4 py-3 text-center text-paper">
+                    <td
+                      className={`data-mono px-4 py-3 text-center font-semibold ${getScoreColor(
+                        m.result
+                      )}`}
+                      title={
+                        m.result === "W"
+                          ? "Win"
+                          : m.result === "D"
+                            ? "Draw"
+                            : m.result === "L"
+                              ? "Loss"
+                              : "Result unavailable"
+                      }
+                    >
                       {m.scoreFor}–{m.scoreAgainst}
                     </td>
                     <td className="data-mono px-4 py-3 text-center text-paper-dim">
@@ -599,6 +621,29 @@ export default function MatchLogsPage() {
                     </td>
                     <td className="data-mono px-4 py-3 text-center text-turf-bright">
                       {m.assists}
+                    </td>
+                    <td className="px-3 py-3">
+                      <div className="flex items-center justify-center gap-1.5">
+                        {hasRating && (
+                          <span
+                            className={`inline-flex h-8 min-w-8 items-center justify-center rounded-sm px-1.5 font-mono text-xs font-bold ${getRatingColor(
+                              Number(rating)
+                            )}`}
+                            title={`Match rating: ${Number(rating).toFixed(1)}`}
+                          >
+                            {Number(rating).toFixed(1)}
+                          </span>
+                        )}
+                        {m.stats?.motm && (
+                          <span
+                            className="inline-flex h-8 w-8 items-center justify-center rounded-sm border border-gold bg-gold font-mono text-xs font-bold text-pitch"
+                            title="Man of the Match"
+                            aria-label="Man of the Match"
+                          >
+                            M
+                          </span>
+                        )}
+                      </div>
                     </td>
                   </tr>
                   {isOpen && <MatchDetail match={m} />}
