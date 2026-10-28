@@ -322,6 +322,33 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Career comparisons */}
+      <section className="border-t border-line px-6 py-12">
+        <div className="mx-auto max-w-6xl">
+          <div className="grid gap-8 rounded-3xl border border-line bg-pitch-raised p-7 sm:p-10 md:grid-cols-[1fr_auto] md:items-center">
+            <div className="max-w-2xl">
+              <p className="font-mono text-xs uppercase tracking-[0.25em] text-gold">
+                Explore the numbers
+              </p>
+              <h2 className="mt-2 font-display text-2xl font-semibold text-paper sm:text-3xl">
+                Compare Ronaldo&apos;s career
+              </h2>
+              <p className="mt-3 leading-7 text-paper-dim">
+                Put different seasons, teams, competitions, or periods of
+                Cristiano Ronaldo&apos;s career side by side. Compare appearances,
+                goals, assists, scoring rates, and detailed performance statistics.
+              </p>
+            </div>
+            <Link
+              href="/comparisons"
+              className="inline-flex w-fit shrink-0 items-center justify-center rounded-full bg-gold px-7 py-3 text-sm font-semibold text-pitch transition hover:bg-gold-bright"
+            >
+              Open Comparisons →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Trophy cabinet */}
       <section className="border-t border-line px-6 py-12">
         <div className="mx-auto max-w-6xl">
