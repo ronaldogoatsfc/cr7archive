@@ -209,7 +209,7 @@ export default function ComparisonsPage() {
   return (
     <div className="mx-auto max-w-6xl px-6 py-10 sm:py-14">
       <div className="mb-8 max-w-3xl">
-        <p className="font-mono text-xs uppercase tracking-widest text-gold">Explore the numbers</p>
+        <p className="font-mono text-xl uppercase tracking-widest text-gold">Explore the numbers</p>
         <h1 className="mt-2 font-display text-4xl font-semibold tracking-tight text-paper sm:text-5xl">Career Comparisons</h1>
         <p className="mt-4 text-base leading-7 text-paper-dim">Compare Cristiano Ronaldo across seasons, clubs, competitions, calendar years, or custom date ranges. Choose any combination of filters to build each comparison.</p>
       </div>

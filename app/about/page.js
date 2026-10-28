@@ -21,13 +21,6 @@ export default function AboutPage() {
         </p>
 
         <p>
-          This website is maintained by hand: match data is added and corrected
-          manually, rather than pulled automatically from a live feed. Accuracy
-          therefore depends on ongoing research, review, and upkeep rather than
-          an official source.
-        </p>
-
-        <p>
           This site is{" "}
           <span className="text-paper">
             not affiliated with, endorsed by, or connected to
@@ -97,7 +90,8 @@ export default function AboutPage() {
 
         <p>
           Match footage and match compilations are sourced from{" "}
-          <span className="text-paper">Footballia</span> when available.
+          <span className="text-paper">Footballia</span> and {" "}
+          <span className="text-paper">YouTube</span> when available.
           Footage availability varies by match, particularly for older games,
           so not every match in the archive has a corresponding video.
         </p>
@@ -108,10 +102,11 @@ export default function AboutPage() {
 
         <p>
           Trophy information is researched using{" "}
-          <span className="text-paper">Transfermarkt</span>,{" "}
-          <span className="text-paper">Wikipedia</span>, and Messi vs Ronaldo.
+          <span className="text-paper">Transfermarkt</span> and {" "}
+          <span className="text-paper">Wikipedia</span>.
           Individual honors and awards are primarily researched using
-          Wikipedia and Messi vs Ronaldo.
+          Wikipedia and {" "}
+          <span className="text-paper">Messi vs Ronaldo</span>.
         </p>
 
         <h3 className="pt-2 font-display text-xl font-semibold text-paper">
@@ -173,12 +168,6 @@ export default function AboutPage() {
           this changes, we will add them. Other things such as goal types,
           minute scored in, assist types, and opponent rankings will be added
           in the future.
-        </p>
-
-        <p>
-          <span className="text-paper">Comparisons: </span>
-          We plan on building a comparison tool that users can use to compare
-          across seasons, clubs, years, and more.
         </p>
 
         <p>
