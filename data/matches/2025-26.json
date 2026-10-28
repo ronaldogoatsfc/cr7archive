@@ -69,7 +69,17 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-croatia-world-cup"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-croatia-world-cup",
+    "goalEvents": [
+      {
+        "id": "ronaldo-croatia-2026-68",
+        "minute": 68,
+        "goalType": "Penalty",
+        "bodyPart": "Right foot",
+        "assistedBy": "None",
+        "gameState": "Equalizer"
+      }
+    ]
   },
   {
     "id": "2026-06-27",
@@ -135,7 +145,7 @@
       "accurateThroughballs": 0,
       "xG": 1.33,
       "xA": 0.03,
-      "rating": 9.0,
+      "rating": 9,
       "motm": true
     },
     "hasMatchComp": false,
@@ -386,7 +396,7 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": null,
       "xG": 0.76,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 7.1,
       "motm": false
     },
@@ -1107,7 +1117,7 @@
       "accurateThroughballs": null,
       "xG": 1.63,
       "xA": 0.07,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": false,
@@ -1215,7 +1225,7 @@
       "accurateThroughballs": 0,
       "xG": 0.35,
       "xA": 0.06,
-      "rating": 5.0,
+      "rating": 5,
       "motm": false
     },
     "hasMatchComp": false,
@@ -1395,7 +1405,7 @@
       "accurateThroughballs": null,
       "xG": 1.27,
       "xA": 0.03,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": true,
@@ -1431,7 +1441,7 @@
       "accurateThroughballs": 0,
       "xG": 1.83,
       "xA": 0.03,
-      "rating": 8.0,
+      "rating": 8,
       "motm": false
     },
     "hasMatchComp": false,
@@ -1610,7 +1620,7 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 1.14,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 7.3,
       "motm": false
     },
