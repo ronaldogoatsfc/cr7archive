@@ -149,6 +149,67 @@ function getScoreColor(result) {
   return "text-paper-dim";
 }
 
+function detailedStatsTotals(matches) {
+  const fields = [
+    ["shots", "Shots"],
+    ["shotsOnTarget", "Shots on Target"],
+    ["keyPasses", "Key Passes"],
+    ["bigChancesCreated", "Big Chances Created"],
+    ["successfulDribbles", "Successful Dribbles"],
+    ["aerialDuelsWon", "Aerial Duels Won"],
+    ["freeKickAttempts", "Free Kick Attempts"],
+    ["accurateThroughballs", "Accurate Throughballs"],
+  ];
+
+  const sumMetric = (key) => {
+    let value = 0;
+    let recorded = 0;
+    for (const match of matches) {
+      const raw = match.stats?.[key];
+      if (typeof raw === "number" && Number.isFinite(raw)) {
+        value += raw;
+        recorded += 1;
+      }
+    }
+    return { value, recorded };
+  };
+
+  const totals = fields.map(([key, label]) => ({
+    key,
+    label,
+    ...sumMetric(key),
+  }));
+  const xG = sumMetric("xG");
+  const xA = sumMetric("xA");
+  const ratings = sumMetric("rating");
+
+  return {
+    totals,
+    xG: { ...xG, value: xG.value.toFixed(2) },
+    xA: { ...xA, value: xA.value.toFixed(2) },
+    averageRating: {
+      value: ratings.recorded ? (ratings.value / ratings.recorded).toFixed(2) : "—",
+      recorded: ratings.recorded,
+    },
+    motm: matches.filter((match) => match.stats?.motm === true).length,
+    matchesWithStats: matches.filter(
+      (match) => match.stats && typeof match.stats === "object"
+    ).length,
+  };
+}
+
+function SummaryStatCard({ label, value, detail }) {
+  return (
+    <div className="rounded-xl border border-line bg-pitch-raised p-4">
+      <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+        {label}
+      </p>
+      <p className="data-mono mt-2 text-2xl font-semibold text-gold">{value}</p>
+      {detail && <p className="mt-1 text-xs text-paper-dim">{detail}</p>}
+    </div>
+  );
+}
+
 function StatTile({ label, value }) {
   return (
     <div className="rounded-lg border border-line bg-pitch px-3 py-2">
@@ -306,6 +367,7 @@ export default function MatchLogsPage() {
   );
 
   const totals = useMemo(() => careerTotals(filtered), [filtered]);
+  const detailedTotals = useMemo(() => detailedStatsTotals(filtered), [filtered]);
 
   function updateFilter(key, value) {
     setFilters((prev) => ({ ...prev, [key]: value }));
@@ -543,6 +605,54 @@ export default function MatchLogsPage() {
           accent="turf"
         />
       </div>
+
+      <section className="mt-8">
+        <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
+          <div>
+            <h2 className="font-display text-2xl font-semibold text-paper">
+              Detailed Stats Summary
+            </h2>
+            <p className="mt-2 max-w-3xl text-sm text-paper-dim">
+              Totals for the matches currently selected by your filters. Only recorded values are included;
+              missing stats are excluded rather than treated as zero.
+            </p>
+          </div>
+          <p className="font-mono text-xs text-paper-dim">
+            Detailed stats recorded for {detailedTotals.matchesWithStats} of {filtered.length} matches
+          </p>
+        </div>
+
+        <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+          {detailedTotals.totals.map((stat) => (
+            <SummaryStatCard
+              key={stat.key}
+              label={stat.label}
+              value={stat.value.toLocaleString()}
+              detail={`Recorded for ${stat.recorded} matches`}
+            />
+          ))}
+          <SummaryStatCard
+            label="Expected Goals (xG)"
+            value={detailedTotals.xG.value}
+            detail={`Recorded for ${detailedTotals.xG.recorded} matches`}
+          />
+          <SummaryStatCard
+            label="Expected Assists (xA)"
+            value={detailedTotals.xA.value}
+            detail={`Recorded for ${detailedTotals.xA.recorded} matches`}
+          />
+          <SummaryStatCard
+            label="Average Rating"
+            value={detailedTotals.averageRating.value}
+            detail={`Rated appearances: ${detailedTotals.averageRating.recorded}`}
+          />
+          <SummaryStatCard
+            label="Man of the Match"
+            value={detailedTotals.motm.toLocaleString()}
+            detail="Recorded awards"
+          />
+        </div>
+      </section>
 
       <div className="mt-8 overflow-x-auto rounded-2xl border border-line">
         <table className="w-full min-w-[860px] border-collapse text-sm">
