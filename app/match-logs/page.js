@@ -731,7 +731,7 @@ export default function MatchLogsPage() {
         <StatCard label="Assists" value={totals.assists} />
         <div className="rounded-2xl border border-line bg-pitch-raised p-6">
           <p className="font-mono text-xs uppercase tracking-widest text-paper-dim">Record (W-D-L)</p>
-          <p className="stat-number mt-2 flex flex-wrap items-baseline gap-x-2 text-4xl font-semibold">
+          <p className="stat-number mt-2 flex items-baseline gap-1 text-4xl font-semibold tabular-nums">
             <span className="text-turf-bright">{totals.wins}</span>
             <span className="text-paper-dim">-</span>
             <span className="text-paper-dim">{totals.draws}</span>
