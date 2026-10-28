@@ -68,41 +68,6 @@ function topCompetitions(data, limit = 6) {
   return [...top, { name: "Other", goals: otherGoals }];
 }
 
-function downloadCSV(title, data) {
-  if (!data?.length) return;
-
-  const headers = [...new Set(data.flatMap((row) => Object.keys(row)))];
-
-  const escapeCSV = (value) => {
-    const text = value == null ? "" : String(value);
-    return `"${text.replace(/"/g, '""')}"`;
-  };
-
-  const csv = [
-    headers.map(escapeCSV).join(","),
-    ...data.map((row) =>
-      headers.map((header) => escapeCSV(row[header])).join(",")
-    ),
-  ].join("\r\n");
-
-  const blob = new Blob(["\uFEFF" + csv], {
-    type: "text/csv;charset=utf-8;",
-  });
-
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement("a");
-  link.href = url;
-  link.download = `${title
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "")}.csv`;
-
-  document.body.appendChild(link);
-  link.click();
-  link.remove();
-  URL.revokeObjectURL(url);
-}
-
 function ChartCard({ chart }) {
   const {
     title,
@@ -271,16 +236,6 @@ function ChartCard({ chart }) {
             </BarChart>
           )}
         </ResponsiveContainer>
-      </div>
-
-      <div className="mt-4 flex flex-wrap gap-2">
-        <button
-          type="button"
-          onClick={() => downloadCSV(title, data)}
-          className="inline-flex items-center gap-2 rounded-lg border border-line px-3 py-2 text-sm text-paper transition hover:border-gold hover:text-gold"
-        >
-          <span aria-hidden="true">↓</span> Download CSV
-        </button>
       </div>
 
       <details className="mt-5 border-t border-line pt-4">
@@ -666,8 +621,8 @@ export default function VisualizationsPage() {
         Explore Cristiano Ronaldo's recorded career statistics through
         interactive charts covering goals, assists, clubs, competitions,
         match results, and scoring efficiency. Every chart includes an
-        explanation of its calculation and limitations, and its data can
-        be downloaded for further analysis.
+        explanation of its calculation and limitations to help you interpret
+        the data.
       </p>
 
       <section className="mt-10">
@@ -748,7 +703,6 @@ export default function VisualizationsPage() {
         Data note: Visualizations are generated from The Ronaldo Archive's
         current match log. Missing matches, playing-time data, assists, ratings,
         or inconsistent source classifications can affect the results.
-        Downloads contain the data used by each chart.
       </p>
     </main>
   );
