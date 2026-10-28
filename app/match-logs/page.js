@@ -206,7 +206,7 @@ function MatchDetail({ match }) {
 
   return (
     <tr className="border-b border-line/60 bg-pitch">
-      <td colSpan={10} className="px-4 py-5">
+      <td colSpan={11} className="px-4 py-5">
         {hasStats ? (
           <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
             {STAT_FIELDS.map((f) => {
