@@ -8,12 +8,6 @@ const COLORS = [
   { name: "A", label: "Comparison A", bar: "#e05260", soft: "border-[#e05260]/40", text: "text-[#e05260]", panel: "bg-[#351e25]" },
   { name: "B", label: "Comparison B", bar: "#5599ed", soft: "border-[#5599ed]/40", text: "text-[#5599ed]", panel: "bg-[#192d47]" },
 ];
-const FILTERS = [
-  { key: "team", label: "Team" },
-  { key: "competition", label: "Competition" },
-  { key: "season", label: "Season" },
-  { key: "year", label: "Calendar year" },
-];
 const STAT_GROUPS = [
   { title: "Scoring & appearances", stats: [
     { key: "matches", label: "Appearances", type: "count" },
