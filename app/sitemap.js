@@ -8,6 +8,7 @@ export default function sitemap() {
     { path: "/match-logs", priority: 0.9, changeFrequency: "weekly" },
     { path: "/match-logs/unofficial", priority: 0.5, changeFrequency: "monthly" },
     { path: "/visualizations", priority: 0.8, changeFrequency: "weekly" },
+    { path: "/comparisons", priority: 0.8, changeFrequency: "weekly" },
     { path: "/trophies", priority: 0.7, changeFrequency: "monthly" },
     { path: "/honors", priority: 0.7, changeFrequency: "monthly" },
     { path: "/records", priority: 0.7, changeFrequency: "monthly" },
