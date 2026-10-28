@@ -494,7 +494,7 @@ export default function Home() {
                 {championsLeagueTopScorerWins}
               </p>
               <h3 className="mt-3 font-semibold text-paper">
-                Champions League Top Scorer
+                UCL Top Scorer
               </h3>
               <p className="mt-1 text-sm text-paper-dim">
                 Seasons finishing as the competition&apos;s leading scorer.
@@ -563,9 +563,6 @@ export default function Home() {
                   {record.name}
                 </h3>
 
-                <p className="mt-2 text-sm leading-6 text-paper-dim">
-                  {record.notes}
-                </p>
               </div>
             ))}
           </div>
