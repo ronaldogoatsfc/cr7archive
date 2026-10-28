@@ -550,6 +550,8 @@ export default function MatchLogsPage() {
             value={filters.venue}
             onChange={(v) => updateFilter("venue", v)}
             options={venues}
+            infoTitle="Venue"
+            infoContent="Home means the match was played at Ronaldo's team's home ground, and away means it was played at the opponent's ground. Neutral means the match was played at a venue that was not considered either team's home ground, such as a tournament venue or a final at a neutral stadium."
           />
           <label className="flex flex-col gap-1">
             <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
@@ -726,12 +728,19 @@ export default function MatchLogsPage() {
       <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
         <StatCard label="Matches" value={totals.matches} />
         <StatCard label="Goals" value={totals.goals} />
-        <StatCard label="Assists" value={totals.assists} accent="turf" />
-        <StatCard
-          label="Record"
-          value={`${totals.wins}-${totals.draws}-${totals.losses}`}
-          accent="turf"
-        />
+        <StatCard label="Assists" value={totals.assists} />
+        <div className="rounded-2xl border border-line bg-pitch-raised p-6">
+          <p className="font-mono text-xs uppercase tracking-widest text-paper-dim">Wins</p>
+          <p className="stat-number mt-2 text-4xl font-semibold text-turf-bright">{totals.wins}</p>
+        </div>
+        <div className="rounded-2xl border border-line bg-pitch-raised p-6">
+          <p className="font-mono text-xs uppercase tracking-widest text-paper-dim">Draws</p>
+          <p className="stat-number mt-2 text-4xl font-semibold text-paper-dim">{totals.draws}</p>
+        </div>
+        <div className="rounded-2xl border border-line bg-pitch-raised p-6">
+          <p className="font-mono text-xs uppercase tracking-widest text-paper-dim">Losses</p>
+          <p className="stat-number mt-2 text-4xl font-semibold text-goal-red">{totals.losses}</p>
+        </div>
       </div>
 
       <section className="mt-8">
@@ -810,7 +819,14 @@ export default function MatchLogsPage() {
               <th className="px-4 py-3 text-center">Mins</th>
               <th className="px-4 py-3 text-center">G</th>
               <th className="px-4 py-3 text-center">A</th>
-              <th className="px-4 py-3 text-center">Rating</th>
+              <th className="px-4 py-3 text-center">
+                <div className="flex items-center justify-center gap-1.5">
+                  <span>Rating</span>
+                  <InfoButton title="Match Ratings">
+                    Match ratings are collected from rating platforms such as SofaScore and WhoScored. The platform used can vary by match, depending on data availability, so ratings may not be perfectly comparable across every game.
+                  </InfoButton>
+                </div>
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -875,24 +891,19 @@ export default function MatchLogsPage() {
                       {m.assists}
                     </td>
                     <td className="px-3 py-3">
-                      <div className="flex items-center justify-center gap-1.5">
-                        {hasRating && (
+                      <div className="flex items-center justify-center">
+                        {(hasRating || m.stats?.motm) && (
                           <span
-                            className={`inline-flex h-8 min-w-8 items-center justify-center rounded-sm px-1.5 font-mono text-xs font-bold ${getRatingColor(
-                              Number(rating)
-                            )}`}
-                            title={`Match rating: ${Number(rating).toFixed(1)}`}
+                            className={`relative inline-flex h-8 min-w-8 items-center justify-center rounded-sm px-1.5 font-mono text-xs font-bold ${hasRating ? getRatingColor(Number(rating)) : "border border-gold bg-gold text-pitch"}`}
+                            title={`${hasRating ? `Match rating: ${Number(rating).toFixed(1)}` : "No match rating recorded"}${m.stats?.motm ? " · Man of the Match" : ""}`}
+                            aria-label={`${hasRating ? `Match rating ${Number(rating).toFixed(1)}` : ""}${m.stats?.motm ? " Man of the Match" : ""}`}
                           >
-                            {Number(rating).toFixed(1)}
-                          </span>
-                        )}
-                        {m.stats?.motm && (
-                          <span
-                            className="inline-flex h-8 w-8 items-center justify-center rounded-sm border border-gold bg-gold font-mono text-xs font-bold text-pitch"
-                            title="Man of the Match"
-                            aria-label="Man of the Match"
-                          >
-                            M
+                            {hasRating ? Number(rating).toFixed(1) : "M"}
+                            {hasRating && m.stats?.motm && (
+                              <span className="absolute -right-1.5 -top-1.5 flex h-4 w-4 items-center justify-center rounded-full border border-pitch bg-gold text-[9px] font-black text-pitch" aria-hidden="true">
+                                M
+                              </span>
+                            )}
                           </span>
                         )}
                       </div>
