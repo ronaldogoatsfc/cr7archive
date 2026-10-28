@@ -11,6 +11,8 @@ import {
   goalsPer90BySeason,
 } from "@/lib/stats";
 import StatCard from "@/components/StatCard";
+import articles from "@/data/articles";
+import ArticleCard from "@/components/ArticleCard";
 
 const GOAL_TARGET = 1000;
 
@@ -512,6 +514,46 @@ export default function Home() {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Featured articles */}
+      <section className="border-t border-line px-6 py-12">
+        <div className="mx-auto max-w-6xl">
+          <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
+            <div>
+              <p className="font-mono text-xs uppercase tracking-[0.25em] text-gold">
+                From the archive
+              </p>
+              <h2 className="mt-2 font-display text-2xl font-semibold text-paper">
+                Featured Articles
+              </h2>
+              <p className="mt-2 max-w-2xl text-paper-dim">
+                Original statistical analysis exploring Ronaldo&apos;s scoring,
+                creativity, and Champions League career.
+              </p>
+            </div>
+
+            <Link
+              href="/articles"
+              className="text-sm font-semibold text-gold transition hover:text-gold-bright"
+            >
+              Explore all articles →
+            </Link>
+          </div>
+
+          <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
+            {[
+              "ronaldo-scoring-rate",
+              "ronaldo-ucl-analysis",
+              "ronaldo-assists",
+            ]
+              .map((slug) => articles.find((article) => article.slug === slug))
+              .filter(Boolean)
+              .map((article) => (
+                <ArticleCard key={article.slug} article={article} />
+              ))}
           </div>
         </div>
       </section>
