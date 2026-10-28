@@ -189,8 +189,8 @@ export default function Home() {
         <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
           <StatCard label="Matches" value={totals.matches} />
           <StatCard label="Goals" value={totals.goals} />
-          <StatCard label="Assists" value={totals.assists} accent="turf" />
-          <StatCard label="Trophies" value={trophyCount} accent="turf" />
+          <StatCard label="Assists" value={totals.assists} />
+          <StatCard label="Trophies" value={trophyCount} />
         </div>
 
         {/* Derived career statistics */}
@@ -242,17 +242,25 @@ export default function Home() {
       </section>
       <section className="border-t border-line px-6 py-12">
         <div className="mx-auto max-w-6xl">
-          <div className="max-w-2xl">
-            <p className="font-mono text-xs uppercase tracking-[0.25em] text-gold">
-              Explore the numbers
-            </p>
-            <h2 className="mt-2 font-display text-2xl font-semibold text-paper">
-              What the data reveals
-            </h2>
-            <p className="mt-2 text-paper-dim">
-              A closer look at some of the biggest statistical trends in
-              Ronaldo's career, calculated from the archive's match data.
-            </p>
+          <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
+            <div className="max-w-2xl">
+              <p className="font-mono text-xs uppercase tracking-[0.25em] text-gold">
+                Explore the numbers
+              </p>
+              <h2 className="mt-2 font-display text-2xl font-semibold text-paper">
+                What the data reveals
+              </h2>
+              <p className="mt-2 text-paper-dim">
+                A closer look at some of the biggest statistical trends in
+                Ronaldo's career, calculated from the archive's match data.
+              </p>
+            </div>
+            <Link
+              href="/visualizations"
+              className="shrink-0 text-sm font-semibold text-gold transition hover:text-gold-bright"
+            >
+              Explore the full visualizations →
+            </Link>
           </div>
 
           <div className="mt-6 grid gap-4 md:grid-cols-3">
@@ -312,14 +320,6 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-5">
-            <Link
-              href="/visualizations"
-              className="text-sm font-semibold text-gold transition hover:text-gold-bright"
-            >
-              Explore the full visualizations →
-            </Link>
-          </div>
         </div>
       </section>
       {/* Career comparisons */}
