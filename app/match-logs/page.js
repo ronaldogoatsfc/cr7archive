@@ -261,6 +261,113 @@ function InfoButton({ title, children }) {
   );
 }
 
+function EventSection({ title, count, events, type }) {
+  const [open, setOpen] = useState(false);
+  const hasEvents = Array.isArray(events) && events.length > 0;
+  const fields =
+    type === "goal"
+      ? [
+          ["goalType", "Goal type"],
+          ["bodyPart", "Finish"],
+          ["assistedBy", "Assisted by"],
+          ["gameState", "Game state"],
+          ["description", "Notes"],
+        ]
+      : [
+          ["assistedPlayer", "Scorer"],
+          ["assistType", "Assist type"],
+          ["passType", "Delivery"],
+          ["gameState", "Game state"],
+          ["description", "Notes"],
+        ];
+
+  if (!count) return null;
+
+  return (
+    <div className="overflow-hidden rounded-xl border border-line">
+      <button
+        type="button"
+        onClick={() => setOpen((value) => !value)}
+        aria-expanded={open}
+        className="flex w-full items-center justify-between gap-3 bg-pitch-raised px-4 py-3 text-left transition hover:bg-pitch-raised/70"
+      >
+        <span className="flex items-center gap-2 font-display text-sm font-semibold text-paper">
+          {open ? <ChevronDown size={16} /> : <ChevronRight size={16} />}
+          {title}
+          <span className="font-mono text-xs text-paper-dim">({count})</span>
+        </span>
+        <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+          {open ? "Hide" : "View"}
+        </span>
+      </button>
+
+      {open && (
+        <div className="space-y-3 p-4">
+          {hasEvents ? (
+            <>
+              {events.map((event, index) => {
+                const visibleFields = fields.filter(
+                  ([key]) =>
+                    event[key] !== undefined &&
+                    event[key] !== null &&
+                    event[key] !== ""
+                );
+
+                return (
+                  <div
+                    key={event.id || `${event.minute || "event"}-${index}`}
+                    className="rounded-lg border border-line/70 bg-pitch p-3"
+                  >
+                    <div className="mb-2 flex flex-wrap items-center gap-2">
+                      <span className="font-mono text-xs font-semibold text-gold">
+                        {type === "goal" ? "Goal" : "Assist"} {index + 1}
+                      </span>
+                      {event.minute !== undefined && event.minute !== null && (
+                        <span className="rounded-full bg-pitch-raised px-2 py-0.5 font-mono text-xs text-paper-dim">
+                          {event.minute}'
+                        </span>
+                      )}
+                    </div>
+                    {visibleFields.length > 0 ? (
+                      <dl className="grid gap-x-4 gap-y-2 sm:grid-cols-2">
+                        {visibleFields.map(([key, label]) => (
+                          <div key={key}>
+                            <dt className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+                              {label}
+                            </dt>
+                            <dd className="mt-0.5 text-sm text-paper">
+                              {event[key]}
+                            </dd>
+                          </div>
+                        ))}
+                      </dl>
+                    ) : (
+                      <p className="text-sm text-paper-dim">
+                        Event recorded; additional details have not been added yet.
+                      </p>
+                    )}
+                  </div>
+                );
+              })}
+              {events.length < count && (
+                <p className="text-xs text-paper-dim">
+                  {count - events.length} {type === "goal" ? "goal" : "assist"}
+                  {count - events.length === 1 ? "" : "s"} still need event details.
+                </p>
+              )}
+            </>
+          ) : (
+            <p className="text-sm leading-6 text-paper-dim">
+              Event-by-event details have not been added for this match yet.
+              The match totals above remain the source for the recorded goal and assist counts.
+            </p>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function MatchDetail({ match }) {
   const hasStats = Boolean(match.stats);
   const hasFootage = match.hasMatchComp || match.hasFullMatch;
@@ -268,6 +375,26 @@ function MatchDetail({ match }) {
   return (
     <tr className="border-b border-line/60 bg-pitch">
       <td colSpan={11} className="px-4 py-5">
+        {(match.goals > 0 || match.assists > 0) && (
+          <div className="mb-5 space-y-2">
+            <p className="mb-2 font-mono text-[10px] uppercase tracking-widest text-gold">
+              Goal involvement
+            </p>
+            <EventSection
+              title="Goals"
+              count={match.goals || 0}
+              events={match.goalEvents}
+              type="goal"
+            />
+            <EventSection
+              title="Assists"
+              count={match.assists || 0}
+              events={match.assistEvents}
+              type="assist"
+            />
+          </div>
+        )}
+
         {hasStats ? (
           <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
             {STAT_FIELDS.map((f) => {
