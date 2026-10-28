@@ -730,16 +730,14 @@ export default function MatchLogsPage() {
         <StatCard label="Goals" value={totals.goals} />
         <StatCard label="Assists" value={totals.assists} />
         <div className="rounded-2xl border border-line bg-pitch-raised p-6">
-          <p className="font-mono text-xs uppercase tracking-widest text-paper-dim">Wins</p>
-          <p className="stat-number mt-2 text-4xl font-semibold text-turf-bright">{totals.wins}</p>
-        </div>
-        <div className="rounded-2xl border border-line bg-pitch-raised p-6">
-          <p className="font-mono text-xs uppercase tracking-widest text-paper-dim">Draws</p>
-          <p className="stat-number mt-2 text-4xl font-semibold text-paper-dim">{totals.draws}</p>
-        </div>
-        <div className="rounded-2xl border border-line bg-pitch-raised p-6">
-          <p className="font-mono text-xs uppercase tracking-widest text-paper-dim">Losses</p>
-          <p className="stat-number mt-2 text-4xl font-semibold text-goal-red">{totals.losses}</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-paper-dim">Record (W-D-L)</p>
+          <p className="stat-number mt-2 flex flex-wrap items-baseline gap-x-2 text-4xl font-semibold">
+            <span className="text-turf-bright">{totals.wins}</span>
+            <span className="text-paper-dim">-</span>
+            <span className="text-paper-dim">{totals.draws}</span>
+            <span className="text-paper-dim">-</span>
+            <span className="text-goal-red">{totals.losses}</span>
+          </p>
         </div>
       </div>
 
@@ -895,13 +893,13 @@ export default function MatchLogsPage() {
                         {(hasRating || m.stats?.motm) && (
                           <span
                             className={`relative inline-flex h-8 min-w-8 items-center justify-center rounded-sm px-1.5 font-mono text-xs font-bold ${hasRating ? getRatingColor(Number(rating)) : "border border-gold bg-gold text-pitch"}`}
-                            title={`${hasRating ? `Match rating: ${Number(rating).toFixed(1)}` : "No match rating recorded"}${m.stats?.motm ? " · Man of the Match" : ""}`}
+                            title={`${hasRating ? `Match rating: ${Number(rating).toFixed(1)}` : "No match rating recorded"}${m.stats?.motm ? " · Man of the Match (★)" : ""}`}
                             aria-label={`${hasRating ? `Match rating ${Number(rating).toFixed(1)}` : ""}${m.stats?.motm ? " Man of the Match" : ""}`}
                           >
                             {hasRating ? Number(rating).toFixed(1) : "M"}
                             {hasRating && m.stats?.motm && (
-                              <span className="absolute -right-1.5 -top-1.5 flex h-4 w-4 items-center justify-center rounded-full border border-pitch bg-gold text-[9px] font-black text-pitch" aria-hidden="true">
-                                M
+                              <span className="absolute -right-1.5 -top-1.5 flex h-4 w-4 items-center justify-center rounded-full border border-pitch bg-gold text-[10px] font-black leading-none text-pitch" aria-hidden="true">
+                                ★
                               </span>
                             )}
                           </span>
