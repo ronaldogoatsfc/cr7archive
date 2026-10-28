@@ -37,7 +37,7 @@ export default function NavBar() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-pitch/90 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-3 gap-y-2 px-6 py-4 xl:flex-nowrap">
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-3 gap-y-2 px-6 py-4 xl:flex-nowrap">
         <Link href="/" className="flex shrink-0 items-baseline gap-2 whitespace-nowrap">
           <span className="font-display text-xl font-semibold tracking-tight text-paper xl:text-2xl">
             THE RONALDO ARCHIVE
@@ -99,7 +99,7 @@ export default function NavBar() {
             <Link
               key={link.href}
               href={link.href}
-              className="rounded-full px-4 py-2 text-sm text-paper-dim transition hover:bg-pitch-raised hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+              className="whitespace-nowrap rounded-full px-2 py-2 text-sm text-paper-dim transition hover:bg-pitch-raised hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
             >
               {link.label}
             </Link>
