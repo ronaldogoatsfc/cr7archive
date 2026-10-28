@@ -473,6 +473,7 @@ export default function MatchLogsPage() {
   const [filters, setFilters] = useState(DEFAULT_FILTERS);
   const [expandedId, setExpandedId] = useState(null);
   const [showAdvanced, setShowAdvanced] = useState(false);
+  const [showDetailedStats, setShowDetailedStats] = useState(false);
 
   const seasons = useMemo(() => getSeasonsSorted(matches), []);
   const competitions = useMemo(
@@ -734,22 +735,34 @@ export default function MatchLogsPage() {
       </div>
 
       <section className="mt-8">
-        <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
-          <div>
-            <h2 className="font-display text-2xl font-semibold text-paper">
+        <button
+          type="button"
+          onClick={() => setShowDetailedStats((value) => !value)}
+          aria-expanded={showDetailedStats}
+          className="flex w-full flex-col justify-between gap-3 text-left sm:flex-row sm:items-center"
+        >
+          <span className="flex items-center gap-2">
+            {showDetailedStats ? (
+              <ChevronDown size={20} className="shrink-0 text-gold" />
+            ) : (
+              <ChevronRight size={20} className="shrink-0 text-gold" />
+            )}
+            <span className="font-display text-2xl font-semibold text-paper">
               Detailed Stats Summary
-            </h2>
+            </span>
+          </span>
+          <span className="font-mono text-xs text-paper-dim sm:text-right">
+            Detailed stats recorded for {detailedTotals.matchesWithStats} of {filtered.length} matches
+          </span>
+        </button>
+
+        {showDetailedStats && (
+          <>
             <p className="mt-2 max-w-3xl text-sm text-paper-dim">
               Totals for the matches currently selected by your filters. Only recorded values are included;
               missing stats are excluded rather than treated as zero.
             </p>
-          </div>
-          <p className="font-mono text-xs text-paper-dim">
-            Detailed stats recorded for {detailedTotals.matchesWithStats} of {filtered.length} matches
-          </p>
-        </div>
-
-        <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+            <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
           {detailedTotals.totals.map((stat) => (
             <SummaryStatCard
               key={stat.key}
@@ -773,12 +786,14 @@ export default function MatchLogsPage() {
             value={detailedTotals.averageRating.value}
             detail={`Rated appearances: ${detailedTotals.averageRating.recorded}`}
           />
-          <SummaryStatCard
-            label="Man of the Match"
-            value={detailedTotals.motm.toLocaleString()}
-            detail="Recorded awards"
-          />
-        </div>
+              <SummaryStatCard
+                label="Man of the Match"
+                value={detailedTotals.motm.toLocaleString()}
+                detail="Recorded awards"
+              />
+            </div>
+          </>
+        )}
       </section>
 
       <div className="mt-8 overflow-x-auto rounded-2xl border border-line">
