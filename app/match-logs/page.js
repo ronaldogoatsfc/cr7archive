@@ -439,7 +439,7 @@ function MatchDetail({ match }) {
                       {fields.map((field) => (
                         <div key={field.key} className="flex items-start justify-between gap-2">
                           <dt className="min-w-0 text-xs leading-5 text-paper-dim">{field.label}</dt>
-                          <dd className="data-mono shrink-0 text-sm font-medium text-paper">{field.value}</dd>
+                          <dd className="data-mono shrink-0 pr-2 text-sm font-medium text-paper">{field.value}</dd>
                         </div>
                       ))}
                     </dl>
