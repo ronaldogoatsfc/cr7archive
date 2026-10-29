@@ -5,7 +5,6 @@ import { Plus, X, CalendarRange, Info } from "lucide-react";
 import matches from "@/data/all-matches";
 import trophies from "@/data/trophies.json";
 import honors from "@/data/honors.json";
-import records from "@/data/records.json";
 
 const COLORS = [
   { name: "A", label: "Comparison A", bar: "#e05260", soft: "border-[#e05260]/40", text: "text-[#e05260]", panel: "bg-[#351e25]" },
@@ -318,8 +317,8 @@ export default function ComparisonsPage() {
           </div>
           <section className="mt-10">
             <div className="mb-5">
-              <h2 className="font-display text-2xl font-semibold text-paper">Trophies, individual honors & records</h2>
-              <p className="mt-2 max-w-3xl text-sm leading-6 text-paper-dim">Explore the specific achievements associated with each selection. Lists use club, season, year and date filters where the source data supports them; the competition filter applies to match statistics, not achievement lists. Record periods are used where available.</p>
+              <h2 className="font-display text-2xl font-semibold text-paper">Trophies & individual honors</h2>
+              <p className="mt-2 max-w-3xl text-sm leading-6 text-paper-dim">Explore the specific trophies and individual honors associated with each selection. Lists use club, season, year and date filters where the source data supports them; the competition filter applies to match statistics, not achievement lists.</p>
             </div>
             <div className="space-y-4">
               {selections.map((selection, index) => (
@@ -328,7 +327,6 @@ export default function ComparisonsPage() {
                   <div className="space-y-4">
                     <AchievementList title="Trophies" items={trophies} kind="trophy" selection={selection} showAll={showAll} />
                     <AchievementList title="Individual honors" items={honors} kind="honor" selection={selection} showAll={showAll} />
-                    <AchievementList title="Records" items={records} kind="record" selection={selection} showAll={showAll} />
                   </div>
                 </section>
               ))}
