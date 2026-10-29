@@ -3,6 +3,9 @@
 import { useMemo, useState } from "react";
 import { Plus, X, CalendarRange, Info } from "lucide-react";
 import matches from "@/data/all-matches";
+import trophies from "@/data/trophies.json";
+import honors from "@/data/honors.json";
+import records from "@/data/records.json";
 
 const COLORS = [
   { name: "A", label: "Comparison A", bar: "#e05260", soft: "border-[#e05260]/40", text: "text-[#e05260]", panel: "bg-[#351e25]" },
@@ -94,6 +97,59 @@ function aggregate(selection) {
   values.ratingRecorded = rating.recorded;
   values.motmRecorded = coverage.matchesWithStats;
   return { matches: selectedMatches, values, coverage };
+}
+
+function achievementMatchesSelection(item, selection, kind) {
+  if (kind !== "record" && selection.team !== "All" && item.club && item.club !== selection.team) return false;
+  if (selection.season !== "All" && item.season && item.season !== selection.season) return false;
+
+  const selectedYears = [];
+  if (selection.year !== "All") selectedYears.push(Number(selection.year));
+  if (selection.startDate) selectedYears.push(Number(selection.startDate.slice(0, 4)));
+  if (selection.endDate) selectedYears.push(Number(selection.endDate.slice(0, 4)));
+  const hasTimeFilter = selection.year !== "All" || selection.season !== "All" || selection.startDate || selection.endDate;
+
+  if (kind === "record") {
+    if (!hasTimeFilter) return true;
+    const years = (item.period || "").match(/(?:19|20)\\d{2}/g)?.map(Number) || [];
+    if (!years.length) return false;
+    const periodStart = Math.min(...years);
+    const periodEnd = Math.max(...years);
+    if (selection.year !== "All" && (Number(selection.year) < periodStart || Number(selection.year) > periodEnd)) return false;
+    if (selection.startDate && periodEnd < Number(selection.startDate.slice(0, 4))) return false;
+    if (selection.endDate && periodStart > Number(selection.endDate.slice(0, 4))) return false;
+    return true;
+  }
+
+  if (!hasTimeFilter) return true;
+  const itemYear = Number(item.year);
+  if (!Number.isFinite(itemYear)) return false;
+  if (selection.year !== "All" && itemYear !== Number(selection.year)) {
+    const seasonYears = (item.season || "").match(/(?:19|20)\\d{2}/g)?.map(Number) || [];
+    if (!seasonYears.includes(Number(selection.year))) return false;
+  }
+  if (selection.startDate && itemYear < Number(selection.startDate.slice(0, 4))) return false;
+  if (selection.endDate && itemYear > Number(selection.endDate.slice(0, 4))) return false;
+  return true;
+}
+
+function AchievementList({ title, items, kind, selection, showAll }) {
+  const filtered = items.filter((item) => achievementMatchesSelection(item, selection, kind));
+  return (
+    <details open={showAll} className="overflow-hidden rounded-2xl border border-line bg-pitch-raised">
+      <summary className="cursor-pointer list-none px-5 py-4 font-display text-lg font-semibold text-paper marker:hidden">{title} <span className="ml-2 font-mono text-xs font-normal text-paper-dim">({filtered.length})</span></summary>
+      <div className="grid gap-3 px-5 pb-5 sm:grid-cols-2">
+        {filtered.length ? filtered.map((item) => (
+          <article key={item.id} className="rounded-xl border border-line/70 bg-pitch p-3">
+            <h4 className="text-sm font-medium leading-5 text-paper">{item.name}</h4>
+            <p className="mt-1 text-xs leading-5 text-paper-dim">
+              {[item.club, item.season, item.year, item.category, item.period].filter(Boolean).join(" · ")}
+            </p>
+          </article>
+        )) : <p className="text-sm text-paper-dim">No listed {title.toLowerCase()} match these time and club filters.</p>}
+      </div>
+    </details>
+  );
 }
 
 function formatValue(value, stat) {
@@ -264,6 +320,24 @@ export default function ComparisonsPage() {
           <div className="mt-6 rounded-xl border border-line bg-pitch-raised p-4">
             <div className="flex items-start gap-2"><Info size={16} className="mt-0.5 shrink-0 text-gold" /><div><h3 className="text-sm font-semibold text-paper">Detailed-statistics coverage</h3><p className="mt-1 text-sm leading-6 text-paper-dim">Ronaldo A: detailed stats recorded for {aggregates[0].coverage.matchesWithStats.toLocaleString()} of {aggregates[0].coverage.totalMatches.toLocaleString()} appearances. Ronaldo B: detailed stats recorded for {aggregates[1].coverage.matchesWithStats.toLocaleString()} of {aggregates[1].coverage.totalMatches.toLocaleString()} appearances. Missing statistics are left blank rather than counted as zero. Individual statistics may have different coverage.</p></div></div>
           </div>
+          <section className="mt-10">
+            <div className="mb-5">
+              <h2 className="font-display text-2xl font-semibold text-paper">Trophies, individual honors & records</h2>
+              <p className="mt-2 max-w-3xl text-sm leading-6 text-paper-dim">Explore the specific achievements associated with each selection. Lists use club, season, year and date filters where the source data supports them; the competition filter applies to match statistics, not achievement lists. Record periods are used where available.</p>
+            </div>
+            <div className="space-y-4">
+              {selections.map((selection, index) => (
+                <section key={index} className={`rounded-2xl border ${COLORS[index].soft} p-4 sm:p-5`}>
+                  <h3 className={`mb-4 font-display text-xl font-semibold ${COLORS[index].text}`}>Ronaldo {index === 0 ? "A" : "B"} · {describeSelection(selection)}</h3>
+                  <div className="space-y-4">
+                    <AchievementList title="Trophies" items={trophies} kind="trophy" selection={selection} showAll={showAll} />
+                    <AchievementList title="Individual honors" items={honors} kind="honor" selection={selection} showAll={showAll} />
+                    <AchievementList title="Records" items={records} kind="record" selection={selection} showAll={showAll} />
+                  </div>
+                </section>
+              ))}
+            </div>
+          </section>
         </>
       )}
       <p className="mt-8 text-xs leading-5 text-paper-dim">Comparisons are calculated from the match data currently recorded in The Ronaldo Archive. Custom date ranges are inclusive of both selected dates. Per-90 rates use recorded minutes played. Incomplete match records may affect totals and comparisons.</p>
