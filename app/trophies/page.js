@@ -155,10 +155,7 @@ export default function TrophiesPage() {
               <p className="mt-0.5 text-sm text-paper-dim">
                 {t.club} · {t.season}
               </p>
-              {t.notes && (
-                <p className="mt-1 text-xs text-paper-dim/80">{t.notes}</p>
-              )}
-            </div>
+</div>
             <span className="stat-number text-2xl text-gold">{t.year}</span>
           </div>
         ))}
