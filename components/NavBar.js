@@ -15,6 +15,7 @@ const secondaryLinks = [
   { href: "/articles", label: "Articles" },
   { href: "/visualizations", label: "Visualizations" },
   { href: "/comparisons", label: "Comparisons" },
+  { href: "/community", label: "Community" },
   { href: "/trophies", label: "Trophies" },
   { href: "/honors", label: "Individual Honors" },
   { href: "/records", label: "Records" },
