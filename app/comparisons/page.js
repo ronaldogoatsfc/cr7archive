@@ -103,15 +103,11 @@ function achievementMatchesSelection(item, selection, kind) {
   if (kind !== "record" && selection.team !== "All" && item.club && item.club !== selection.team) return false;
   if (selection.season !== "All" && item.season && item.season !== selection.season) return false;
 
-  const selectedYears = [];
-  if (selection.year !== "All") selectedYears.push(Number(selection.year));
-  if (selection.startDate) selectedYears.push(Number(selection.startDate.slice(0, 4)));
-  if (selection.endDate) selectedYears.push(Number(selection.endDate.slice(0, 4)));
   const hasTimeFilter = selection.year !== "All" || selection.season !== "All" || selection.startDate || selection.endDate;
 
   if (kind === "record") {
     if (!hasTimeFilter) return true;
-    const years = (item.period || "").match(/(?:19|20)\\d{2}/g)?.map(Number) || [];
+    const years = (item.period || "").match(/(?:19|20)\d{2}/g)?.map(Number) || [];
     if (!years.length) return false;
     const periodStart = Math.min(...years);
     const periodEnd = Math.max(...years);
@@ -125,7 +121,7 @@ function achievementMatchesSelection(item, selection, kind) {
   const itemYear = Number(item.year);
   if (!Number.isFinite(itemYear)) return false;
   if (selection.year !== "All" && itemYear !== Number(selection.year)) {
-    const seasonYears = (item.season || "").match(/(?:19|20)\\d{2}/g)?.map(Number) || [];
+    const seasonYears = (item.season || "").match(/(?:19|20)\d{2}/g)?.map(Number) || [];
     if (!seasonYears.includes(Number(selection.year))) return false;
   }
   if (selection.startDate && itemYear < Number(selection.startDate.slice(0, 4))) return false;
