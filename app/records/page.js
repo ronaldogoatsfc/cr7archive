@@ -2,7 +2,43 @@
 
 import { useMemo, useState } from "react";
 import records from "@/data/records.json";
+import matches from "@/data/all-matches";
 import { filterRecords, getUniqueValues } from "@/lib/stats";
+
+function goalsAfterAge(matches, minimumAge) {
+  const birthYear = 1985;
+  return matches.reduce((total, match) => {
+    if (!match.date) return total;
+    const [year, month, day] = match.date.split("-").map(Number);
+    let age = year - birthYear;
+    if (month < 2 || (month === 2 && day < 5)) age -= 1;
+    return age >= minimumAge ? total + (match.goals || 0) : total;
+  }, 0);
+}
+
+function countGoals(matches, predicate = () => true) {
+  return matches.reduce(
+    (total, match) => total + (predicate(match) ? match.goals || 0 : 0),
+    0
+  );
+}
+
+function getDynamicRecordNotes(record) {
+  switch (record.id) {
+    case "most-goals-official":
+      return `${countGoals(matches).toLocaleString("en-US")} goals scored in official senior matches`;
+    case "most-goals-after-turning-30":
+      return `${goalsAfterAge(matches, 30).toLocaleString("en-US")} goals scored after turning 30 years old`;
+    case "most-mens-international-goals-scored":
+      return `${countGoals(matches, (match) => match.team === "Portugal").toLocaleString("en-US")} international goals`;
+    case "real-madrid-all-time-top-goalscorer":
+      return `${countGoals(matches, (match) => match.team === "Real Madrid").toLocaleString("en-US")} goals`;
+    case "most-goals-uefa-champions-league":
+      return `${countGoals(matches, (match) => /champions league|european cup/i.test(match.competition || "") && !/qualifying/i.test(match.competition || "")).toLocaleString("en-US")} goals`;
+    default:
+      return record.notes;
+  }
+}
 
 const DEFAULT_FILTERS = {
   category: "All",
@@ -43,7 +79,7 @@ function RecordRow({ record }) {
         </span>
       </div>
       <p className="mt-1 text-sm text-paper-dim">
-        {record.club} · {record.period}
+        {[record.club, record.period].filter(Boolean).join(" · ")}
       </p>
       {record.notes && (
         <p className="mt-1 text-xs text-paper-dim/80">{record.notes}</p>
@@ -82,7 +118,19 @@ export default function RecordsPage() {
   const categories = useMemo(() => getUniqueValues(records, "category"), []);
   const clubs = useMemo(() => getUniqueValues(records, "club"), []);
 
-  const filtered = useMemo(() => filterRecords(records, filters), [filters]);
+  const recordsWithLiveCounts = useMemo(
+    () =>
+      records.map((record) => ({
+        ...record,
+        notes: getDynamicRecordNotes(record),
+      })),
+    []
+  );
+
+  const filtered = useMemo(
+    () => filterRecords(recordsWithLiveCounts, filters),
+    [filters, recordsWithLiveCounts]
+  );
 
   const current = filtered.filter((r) => r.status === "Current");
   const former = filtered.filter((r) => r.status === "Former");
