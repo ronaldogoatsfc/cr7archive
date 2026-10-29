@@ -48,18 +48,32 @@ const COUNT_THRESHOLDS = ["1+", "2+", "3+", "4+", "5+"];
 const XG_THRESHOLDS = ["0.5+", "1+", "1.5+", "2+"];
 const RATING_THRESHOLDS = ["6+", "7+", "7.5+", "8+", "9+"];
 
-const STAT_FIELDS = [
-  { key: "shots", label: "Shots" },
-  { key: "shotsOnTarget", label: "Shots on Target" },
-  { key: "keyPasses", label: "Key Passes" },
-  { key: "bigChancesCreated", label: "Big Chances Created" },
-  { key: "successfulDribbles", label: "Dribbles" },
-  { key: "aerialDuelsWon", label: "Aerial Duels Won" },
-  { key: "freeKickAttempts", label: "Free Kick Attempts" },
-  { key: "accurateThroughballs", label: "Throughballs" },
-  { key: "xG", label: "xG", decimals: 2 },
-  { key: "xA", label: "xA", decimals: 2 },
-  { key: "rating", label: "Rating", decimals: 1 },
+const STAT_GROUPS = [
+  {
+    title: "Shooting",
+    fields: [
+      { key: "shots", label: "Shots" },
+      { key: "shotsOnTarget", label: "On target" },
+      { key: "xG", label: "xG", decimals: 2 },
+      { key: "freeKickAttempts", label: "FK attempts" },
+    ],
+  },
+  {
+    title: "Creation",
+    fields: [
+      { key: "keyPasses", label: "Key passes" },
+      { key: "bigChancesCreated", label: "Big chances created" },
+      { key: "xA", label: "xA", decimals: 2 },
+      { key: "accurateThroughballs", label: "Throughballs" },
+    ],
+  },
+  {
+    title: "Other",
+    fields: [
+      { key: "successfulDribbles", label: "Dribbles" },
+      { key: "aerialDuelsWon", label: "Aerial duels won" },
+    ],
+  },
 ];
 
 function Select({ label, value, onChange, options, allLabel = "All", infoTitle, infoContent }) {
@@ -396,23 +410,59 @@ function MatchDetail({ match }) {
         )}
 
         {hasStats ? (
-          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
-            {STAT_FIELDS.map((f) => {
-              const raw = match.stats[f.key];
-              if (raw === undefined || raw === null) return null;
-              const value =
-                typeof raw === "number" && f.decimals
-                  ? raw.toFixed(f.decimals)
-                  : raw;
-              return <StatTile key={f.key} label={f.label} value={value} />;
-            })}
-            {match.stats.motm && (
-              <div className="flex items-center justify-center rounded-lg border border-gold bg-pitch px-3 py-2">
-                <span className="font-mono text-xs uppercase tracking-widest text-gold">
-                  Man of the Match
-                </span>
-              </div>
-            )}
+          <div className="rounded-xl border border-line/70 bg-pitch-raised p-3 sm:p-4">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-0">
+              {STAT_GROUPS.map((group, index) => {
+                const fields = group.fields
+                  .map((field) => {
+                    const raw = match.stats[field.key];
+                    if (raw === undefined || raw === null) return null;
+                    return {
+                      ...field,
+                      value:
+                        typeof raw === "number" && field.decimals
+                          ? raw.toFixed(field.decimals)
+                          : raw,
+                    };
+                  })
+                  .filter(Boolean);
+
+                if (group.title === "Other") {
+                  if (match.yellowCard !== undefined && match.yellowCard !== null) {
+                    fields.push({ key: "yellowCard", label: "Yellow cards", value: match.yellowCard ? 1 : 0 });
+                  }
+                  if (match.redCard !== undefined && match.redCard !== null) {
+                    fields.push({ key: "redCard", label: "Red cards", value: match.redCard ? 1 : 0 });
+                  }
+                }
+
+                if (fields.length === 0 && !(group.title === "Other" && match.stats.motm)) return null;
+
+                return (
+                  <section
+                    key={group.title}
+                    className={`min-w-0 ${index > 0 ? "sm:border-l sm:border-line sm:pl-4" : ""} `}
+                  >
+                    <h3 className="mb-2 border-b border-gold/60 pb-2 font-mono text-[10px] uppercase tracking-widest text-gold">
+                      {group.title}
+                    </h3>
+                    <dl className="space-y-2">
+                      {fields.map((field) => (
+                        <div key={field.key} className="flex items-start justify-between gap-2">
+                          <dt className="min-w-0 text-xs leading-5 text-paper-dim">{field.label}</dt>
+                          <dd className="data-mono shrink-0 text-sm font-medium text-paper">{field.value}</dd>
+                        </div>
+                      ))}
+                    </dl>
+                    {group.title === "Other" && match.stats.motm && (
+                      <p className="mt-3 border-t border-line pt-2 font-mono text-[10px] uppercase tracking-wider text-gold">
+                        ★ Man of the Match
+                      </p>
+                    )}
+                  </section>
+                );
+              })}
+            </div>
           </div>
         ) : (
           <p className="text-sm text-paper-dim">
