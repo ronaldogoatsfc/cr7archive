@@ -224,17 +224,6 @@ function SummaryStatCard({ label, value, detail }) {
   );
 }
 
-function StatTile({ label, value }) {
-  return (
-    <div className="rounded-lg border border-line bg-pitch px-3 py-2">
-      <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
-        {label}
-      </p>
-      <p className="data-mono mt-1 text-lg text-gold">{value}</p>
-    </div>
-  );
-}
-
 function InfoButton({ title, children }) {
   const [open, setOpen] = useState(false);
 
