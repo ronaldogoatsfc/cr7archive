@@ -237,5 +237,125 @@
         "explanation": "Ronaldo scored 105 UEFA Champions League goals for Real Madrid."
       }
     ]
+  },
+  {
+    "id": "ronaldo-ucl-career",
+    "title": "Ronaldo's Champions League Career",
+    "category": "Champions League",
+    "difficulty": "Hard",
+    "description": "Test your knowledge of Ronaldo's records, goals, and defining moments in Europe's biggest club competition.",
+    "questionCount": 10,
+    "questions": [
+      {
+        "question": "How many goals did Cristiano Ronaldo score in the UEFA Champions League?",
+        "options": [
+          "125",
+          "130",
+          "140",
+          "145"
+        ],
+        "answer": "140",
+        "explanation": "Ronaldo finished his Champions League career with 140 goals, making him the competition's all-time leading scorer."
+      },
+      {
+        "question": "How many times did Ronaldo win the UEFA Champions League?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5",
+        "explanation": "Ronaldo won the Champions League five times: once with Manchester United and four times with Real Madrid."
+      },
+      {
+        "question": "How many Champions League goals did Ronaldo score in the knockout stages?",
+        "options": [
+          "58",
+          "62",
+          "67",
+          "72"
+        ],
+        "answer": "67",
+        "explanation": "Ronaldo scored 67 goals in the Champions League knockout stages, a competition record."
+      },
+      {
+        "question": "How many goals did Ronaldo score in UEFA Champions League finals?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "explanation": "Ronaldo scored four goals in Champions League finals, including one for Manchester United and three for Real Madrid."
+      },
+      {
+        "question": "Against which club did Ronaldo score his award-winning free kick to claim the 2009 FIFA Puskás Award?",
+        "options": [
+          "Porto",
+          "Arsenal",
+          "Chelsea",
+          "Aston Villa"
+        ],
+        "answer": "Porto",
+        "explanation": "Ronaldo won the inaugural FIFA Puskás Award for his long-range free kick against Porto in the 2009 Champions League quarter-final."
+      },
+      {
+        "question": "In which knockout round did Ronaldo score his famous bicycle kick against Juventus in 2018?",
+        "options": [
+          "Round of 16",
+          "Quarter-finals",
+          "Semi-finals",
+          "Final"
+        ],
+        "answer": "Quarter-finals",
+        "explanation": "Ronaldo's spectacular bicycle kick came in the first leg of Real Madrid's 2017–18 Champions League quarter-final against Juventus."
+      },
+      {
+        "question": "After scoring a hat-trick against Bayern Munich in the 2017 quarter-finals, which team did Ronaldo score another knockout-stage hat-trick against in the next round?",
+        "options": [
+          "Atlético Madrid",
+          "Borussia Dortmund",
+          "Juventus",
+          "Paris Saint-Germain"
+        ],
+        "answer": "Atlético Madrid",
+        "explanation": "Ronaldo followed his hat-trick against Bayern Munich with another against Atlético Madrid in the 2016–17 semi-final first leg."
+      },
+      {
+        "question": "How many times did Ronaldo finish a Champions League season as the competition's top scorer?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7",
+        "explanation": "Ronaldo finished as the Champions League's top scorer in seven different seasons."
+      },
+      {
+        "question": "Which club has Ronaldo scored the most Champions League goals against?",
+        "options": [
+          "Bayern Munich",
+          "Atlético Madrid",
+          "Juventus",
+          "Ajax"
+        ],
+        "answer": "Juventus",
+        "explanation": "Ronaldo scored 10 Champions League goals against Juventus, more than against any other opponent."
+      },
+      {
+        "question": "How many goals did Ronaldo score in the 2013–14 Champions League season, setting a single-season record?",
+        "options": [
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        "answer": "17",
+        "explanation": "Ronaldo scored a record 17 goals in the 2013–14 Champions League campaign as Real Madrid won La Décima."
+      }
+    ]
   }
 ]
