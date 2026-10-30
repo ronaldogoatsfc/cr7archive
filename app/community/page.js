@@ -48,7 +48,9 @@ function hasEnoughUniqueSeasons(seasons) {
 }
 
 function getGuessSeasonFilters() {
-  const competitions = [...new Set(allMatches.map((match) => match.competition).filter(Boolean))].sort();
+  const competitions = [...new Set(allMatches.map((match) => match.competition).filter(Boolean))]
+    .filter((competition) => competition !== "Copa del Rey")
+    .sort();
   const filters = [
     {
       id: "all",
