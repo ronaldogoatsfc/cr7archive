@@ -357,5 +357,92 @@
         "explanation": "Ronaldo scored a record 17 goals in the 2013–14 Champions League campaign as Real Madrid won La Décima."
       }
     ]
+  },
+  {
+    "id": "ronaldo-uefa-euro",
+    "title": "Ronaldo's UEFA Euro Quiz",
+    "category": "International",
+    "difficulty": "Medium",
+    "description": "Explore Ronaldo's records, milestones, and achievements across six European Championship tournaments.",
+    "questionCount": 7,
+    "questions": [
+      {
+        "question": "How many goals has Cristiano Ronaldo scored at UEFA European Championship final tournaments?",
+        "options": [
+          "11",
+          "12",
+          "14",
+          "16"
+        ],
+        "answer": "14",
+        "explanation": "Ronaldo has scored 14 goals at the UEFA European Championship, making him the tournament's all-time leading scorer."
+      },
+      {
+        "question": "According to UEFA's statistics, how many assists has Ronaldo recorded at the European Championship?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "10"
+        ],
+        "answer": "8",
+        "explanation": "UEFA credits Ronaldo with eight assists at the European Championship."
+      },
+      {
+        "question": "How many times has Ronaldo finished as a top scorer at the European Championship?",
+        "options": [
+          "Once",
+          "Twice",
+          "Three times",
+          "Four times"
+        ],
+        "answer": "Twice",
+        "explanation": "Ronaldo finished as a tournament top scorer in 2012 and at Euro 2020, which was played in 2021."
+      },
+      {
+        "question": "Against which country did Ronaldo score his first European Championship goal?",
+        "options": [
+          "Greece",
+          "England",
+          "Netherlands",
+          "Czech Republic"
+        ],
+        "answer": "Greece",
+        "explanation": "Ronaldo scored his first European Championship goal against Greece at Euro 2004."
+      },
+      {
+        "question": "How many European Championship tournaments has Ronaldo played in?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6",
+        "explanation": "Ronaldo has appeared at six editions: 2004, 2008, 2012, 2016, 2020, and 2024."
+      },
+      {
+        "question": "At which European Championship did Ronaldo win his first major international trophy with Portugal?",
+        "options": [
+          "Euro 2004",
+          "Euro 2008",
+          "Euro 2012",
+          "Euro 2016"
+        ],
+        "answer": "Euro 2016",
+        "explanation": "Portugal won Euro 2016, defeating France in the final to claim the country's first major international trophy."
+      },
+      {
+        "question": "How many matches has Ronaldo won at European Championship final tournaments? Matches decided by penalty shootouts count as draws.",
+        "options": [
+          "10",
+          "12",
+          "14",
+          "16"
+        ],
+        "answer": "14",
+        "explanation": "Ronaldo has won 14 matches at the European Championship. Matches decided by penalty shootouts are counted as draws for this question."
+      }
+    ]
   }
 ]
