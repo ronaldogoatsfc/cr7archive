@@ -95,6 +95,7 @@ export default function RonaldoVsWhoGame({ opponents }) {
       goals: opponent.goals,
       assists: opponent.assists,
       country: opponent.country,
+      correct: opponent.team === target.team,
       feedback: {
         country: opponent.country && target.country
           ? opponent.country === target.country
@@ -319,7 +320,7 @@ export default function RonaldoVsWhoGame({ opponents }) {
                       <>
                         <div className="flex flex-wrap items-center justify-between gap-2">
                           <span className="font-semibold text-paper">{guess.team}</span>
-                          <span className="font-mono text-[10px] uppercase tracking-wider text-goal-red">Incorrect</span>
+                          <span className={`font-mono text-[10px] uppercase tracking-wider ${guess.correct ? "text-turf-bright" : "text-goal-red"}`}>{guess.correct ? "Correct" : "Incorrect"}</span>
                         </div>
                         <div className="mt-3 flex flex-wrap gap-2">
                           {guess.feedback.country !== null && (
