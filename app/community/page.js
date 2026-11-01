@@ -3,10 +3,11 @@ import { ArrowRight, Brain, ChartNoAxesColumn, Trophy } from "lucide-react";
 import quizzes from "@/data/quizzes.json";
 import allMatches from "@/data/all-matches";
 import GuessSeasonGame from "@/components/GuessSeasonGame";
+import HigherLowerGame from "@/components/HigherLowerGame";
 
 export const metadata = {
   title: "Community Quizzes & Games | The Ronaldo Archive",
-  description: "Test your knowledge of Cristiano Ronaldo with career quizzes and interactive season-guessing challenges.",
+  description: "Test your knowledge of Cristiano Ronaldo with career quizzes and interactive statistical mini-games.",
 };
 
 const difficultyStyles = {
@@ -27,6 +28,7 @@ function buildSeasonStats(matches) {
         appearances: 0,
         goals: 0,
         assists: 0,
+        minutesPlayed: 0,
       });
     }
 
@@ -34,6 +36,10 @@ function buildSeasonStats(matches) {
     totals.appearances += 1;
     totals.goals += Number(match.goals) || 0;
     totals.assists += Number(match.assists) || 0;
+    const minutes = Number(match.minutesPlayed);
+    if (match.minutesPlayed !== null && match.minutesPlayed !== undefined && Number.isFinite(minutes)) {
+      totals.minutesPlayed += minutes;
+    }
   });
 
   return [...seasons.values()].sort((a, b) => b.season.localeCompare(a.season));
@@ -138,10 +144,13 @@ export default function CommunityPage() {
           <p className="font-mono text-xs uppercase tracking-[0.25em] text-gold">Play something different</p>
           <h2 className="mt-2 font-display text-2xl font-semibold text-paper sm:text-3xl">Mini-games</h2>
           <p className="mt-2 max-w-2xl text-sm leading-6 text-paper-dim">
-            Identify seasons from Ronaldo's statistics. Choose a competition and see how well you know his numbers.
+            Test your knowledge of Ronaldo's career statistics with interactive challenges built from his match data.
           </p>
         </div>
-        <GuessSeasonGame seasonData={seasonData} />
+        <div className="space-y-6">
+          <GuessSeasonGame seasonData={seasonData} />
+          <HigherLowerGame seasonData={buildSeasonStats(allMatches)} />
+        </div>
       </section>
     </div>
   );
