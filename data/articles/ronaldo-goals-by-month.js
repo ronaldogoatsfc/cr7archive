@@ -2,7 +2,7 @@
 const ronaldo_goals_by_month = {
   slug: "ronaldo-goals-by-month",
   title: "Cristiano Ronaldo's Goals by Month",
-  author: "Soham Ranade",
+  author: "Soham",
   datePublished: "2026-10-20",
   description:
     "An analysis of Cristiano Ronaldo's monthly scoring rates, competition breakdowns, and consistency across the calendar year.",
