@@ -17,15 +17,6 @@ const STAT_OPTIONS = [
   { key: "assists", label: "Assists", shortLabel: "Assists", unit: "" },
 ];
 
-function shuffle(items) {
-  const result = [...items];
-  for (let index = result.length - 1; index > 0; index -= 1) {
-    const swapIndex = Math.floor(Math.random() * (index + 1));
-    [result[index], result[swapIndex]] = [result[swapIndex], result[index]];
-  }
-  return result;
-}
-
 function pairKey(first, second) {
   return [first.season, second.season].sort().join("::");
 }
