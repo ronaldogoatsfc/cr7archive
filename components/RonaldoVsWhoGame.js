@@ -45,7 +45,6 @@ export default function RonaldoVsWhoGame({ opponents }) {
   const [revealedClues, setRevealedClues] = useState(0);
   const [gameOver, setGameOver] = useState(false);
   const [won, setWon] = useState(false);
-  const [notice, setNotice] = useState("");
 
   const usedNames = useMemo(() => new Set(guesses.map((guess) => guess.team)), [guesses]);
   const guessesUsed = guesses.length;
@@ -84,7 +83,6 @@ export default function RonaldoVsWhoGame({ opponents }) {
     setRevealedClues(0);
     setGameOver(false);
     setWon(false);
-    setNotice("");
     setSuggestionsOpen(false);
   }
 
@@ -142,7 +140,6 @@ export default function RonaldoVsWhoGame({ opponents }) {
     setRevealedClues((current) => Math.min(3, current + 1));
     setQuery("");
     setSuggestionsOpen(false);
-    setNotice("You used a guess to reveal a clue.");
 
     if (nextUsed >= MAX_GUESSES) {
       setGameOver(true);
