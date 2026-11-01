@@ -4,11 +4,148 @@ import quizzes from "@/data/quizzes.json";
 import allMatches from "@/data/all-matches";
 import GuessSeasonGame from "@/components/GuessSeasonGame";
 import HigherLowerGame from "@/components/HigherLowerGame";
+import RonaldoVsWhoGame from "@/components/RonaldoVsWhoGame";
 
 export const metadata = {
   title: "Community Quizzes & Games | The Ronaldo Archive",
   description: "Test your knowledge of Cristiano Ronaldo with career quizzes and interactive statistical mini-games.",
 };
+
+
+const COMPETITION_COUNTRIES = {
+  "Premier League": "England",
+  "FA Cup": "England",
+  "EFL Cup": "England",
+  "League Cup": "England",
+  "Carabao Cup": "England",
+  "Community Shield": "England",
+  "La Liga": "Spain",
+  "Copa del Rey": "Spain",
+  "Supercopa de España": "Spain",
+  "Serie A": "Italy",
+  "Coppa Italia": "Italy",
+  "Supercoppa Italiana": "Italy",
+  "Primeira Liga": "Portugal",
+  "Liga Portugal": "Portugal",
+  "Taça de Portugal": "Portugal",
+  "Taca de Portugal": "Portugal",
+  "Supertaça Cândido de Oliveira": "Portugal",
+  "Bundesliga": "Germany",
+  "DFB-Pokal": "Germany",
+  "Ligue 1": "France",
+  "Coupe de France": "France",
+  "Eredivisie": "Netherlands",
+  "KNVB Cup": "Netherlands",
+  "Saudi Pro League": "Saudi Arabia",
+  "King Cup": "Saudi Arabia",
+  "King's Cup": "Saudi Arabia",
+  "Major League Soccer": "United States",
+  "MLS": "United States",
+};
+
+const OPPONENT_COUNTRIES = {
+  "Ajax": "Netherlands",
+  "Anderlecht": "Belgium",
+  "APOEL": "Cyprus",
+  "Basel": "Switzerland",
+  "Bayern Munich": "Germany",
+  "Borussia Dortmund": "Germany",
+  "Celtic": "Scotland",
+  "Club Brugge": "Belgium",
+  "CSKA Moscow": "Russia",
+  "Fenerbahçe": "Turkey",
+  "Galatasaray": "Turkey",
+  "Lyon": "France",
+  "Malmö": "Sweden",
+  "Malmö FF": "Sweden",
+  "Monaco": "Monaco",
+  "Olympique Marseille": "France",
+  "Paris Saint-Germain": "France",
+  "PSG": "France",
+  "Porto": "Portugal",
+  "FC Porto": "Portugal",
+  "Roma": "Italy",
+  "Shakhtar Donetsk": "Ukraine",
+  "Schalke 04": "Germany",
+  "Sporting CP": "Portugal",
+  "VfL Wolfsburg": "Germany",
+  "Wolfsburg": "Germany",
+};
+
+function buildOpponentStats(matches) {
+  const opponents = new Map();
+
+  matches.forEach((match) => {
+    if (!match.opponent) return;
+
+    if (!opponents.has(match.opponent)) {
+      opponents.set(match.opponent, {
+        team: match.opponent,
+        games: 0,
+        goals: 0,
+        assists: 0,
+        competitions: new Map(),
+        countries: new Map(),
+        firstAppearanceDate: null,
+        firstAppearanceSeason: null,
+        firstGoalDate: null,
+        firstGoalSeason: null,
+      });
+    }
+
+    const opponent = opponents.get(match.opponent);
+    opponent.games += 1;
+    opponent.goals += Number(match.goals) || 0;
+    opponent.assists += Number(match.assists) || 0;
+
+    if (match.competition) {
+      opponent.competitions.set(
+        match.competition,
+        (opponent.competitions.get(match.competition) || 0) + 1
+      );
+    }
+
+    // Portugal's opponents in international matches are national teams.
+    const country = match.team === "Portugal"
+      ? match.opponent
+      : COMPETITION_COUNTRIES[match.competition] || OPPONENT_COUNTRIES[match.opponent];
+
+    if (country) {
+      opponent.countries.set(country, (opponent.countries.get(country) || 0) + 1);
+    }
+
+    if (match.date && (!opponent.firstAppearanceDate || match.date < opponent.firstAppearanceDate)) {
+      opponent.firstAppearanceDate = match.date;
+      opponent.firstAppearanceSeason = match.season || null;
+    }
+
+    if ((Number(match.goals) || 0) > 0 && match.date &&
+      (!opponent.firstGoalDate || match.date < opponent.firstGoalDate)) {
+      opponent.firstGoalDate = match.date;
+      opponent.firstGoalSeason = match.season || null;
+    }
+  });
+
+  return [...opponents.values()]
+    .map((opponent) => {
+      const mostPlayedCompetition = [...opponent.competitions.entries()]
+        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0]?.[0] || "Unknown";
+      const country = [...opponent.countries.entries()]
+        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0]?.[0] || null;
+
+      return {
+        team: opponent.team,
+        games: opponent.games,
+        goals: opponent.goals,
+        assists: opponent.assists,
+        country,
+        mostPlayedCompetition,
+        firstGoalSeason: opponent.firstGoalSeason,
+        firstAppearanceSeason: opponent.firstAppearanceSeason,
+      };
+    })
+    .sort((a, b) => a.team.localeCompare(b.team));
+}
 
 const difficultyStyles = {
   Easy: "text-turf-bright",
@@ -86,6 +223,7 @@ function getGuessSeasonFilters() {
 
 export default function CommunityPage() {
   const seasonData = getGuessSeasonFilters();
+  const opponentData = buildOpponentStats(allMatches);
 
   return (
     <div className="min-h-screen">
@@ -150,6 +288,7 @@ export default function CommunityPage() {
         <div className="space-y-6">
           <GuessSeasonGame seasonData={seasonData} />
           <HigherLowerGame seasonData={buildSeasonStats(allMatches)} />
+          <RonaldoVsWhoGame opponents={opponentData} />
         </div>
       </section>
     </div>
