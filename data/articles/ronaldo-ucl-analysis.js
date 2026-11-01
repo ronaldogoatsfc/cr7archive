@@ -1,7 +1,7 @@
 const ronaldoUclAnalysis = {
   slug: "ronaldo-ucl-analysis",
   title: "Cristiano Ronaldo's Champions League Career: A Statistical Analysis",
-  author: "Soham Ranade",
+  author: "Soham",
   datePublished: "2026-10-23",
   description:
     "An analysis of Cristiano Ronaldo's UEFA Champions League career, exploring his goals by round and opponent, individual performances, home and away scoring, and results across competition stages.",
