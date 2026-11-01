@@ -101,11 +101,9 @@ export default function HigherLowerGame({ seasonData }) {
     setSelectedAnswer(answer);
 
     if (correct) {
-      setScore((current) => {
-        const nextScore = current + 1;
-        setBestScore((best) => Math.max(best, nextScore));
-        return nextScore;
-      });
+      const nextScore = score + 1;
+      setScore(nextScore);
+      setBestScore((best) => Math.max(best, nextScore));
     } else {
       setGameOver(true);
     }
