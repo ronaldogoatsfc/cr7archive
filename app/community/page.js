@@ -12,66 +12,6 @@ export const metadata = {
 };
 
 
-const COMPETITION_COUNTRIES = {
-  "Premier League": "England",
-  "FA Cup": "England",
-  "EFL Cup": "England",
-  "League Cup": "England",
-  "Carabao Cup": "England",
-  "Community Shield": "England",
-  "La Liga": "Spain",
-  "Copa del Rey": "Spain",
-  "Supercopa de España": "Spain",
-  "Serie A": "Italy",
-  "Coppa Italia": "Italy",
-  "Supercoppa Italiana": "Italy",
-  "Primeira Liga": "Portugal",
-  "Liga Portugal": "Portugal",
-  "Taça de Portugal": "Portugal",
-  "Taca de Portugal": "Portugal",
-  "Supertaça Cândido de Oliveira": "Portugal",
-  "Bundesliga": "Germany",
-  "DFB-Pokal": "Germany",
-  "Ligue 1": "France",
-  "Coupe de France": "France",
-  "Eredivisie": "Netherlands",
-  "KNVB Cup": "Netherlands",
-  "Saudi Pro League": "Saudi Arabia",
-  "King Cup": "Saudi Arabia",
-  "King's Cup": "Saudi Arabia",
-  "Major League Soccer": "United States",
-  "MLS": "United States",
-};
-
-const OPPONENT_COUNTRIES = {
-  "Ajax": "Netherlands",
-  "Anderlecht": "Belgium",
-  "APOEL": "Cyprus",
-  "Basel": "Switzerland",
-  "Bayern Munich": "Germany",
-  "Borussia Dortmund": "Germany",
-  "Celtic": "Scotland",
-  "Club Brugge": "Belgium",
-  "CSKA Moscow": "Russia",
-  "Fenerbahçe": "Turkey",
-  "Galatasaray": "Turkey",
-  "Lyon": "France",
-  "Malmö": "Sweden",
-  "Malmö FF": "Sweden",
-  "Monaco": "Monaco",
-  "Olympique Marseille": "France",
-  "Paris Saint-Germain": "France",
-  "PSG": "France",
-  "Porto": "Portugal",
-  "FC Porto": "Portugal",
-  "Roma": "Italy",
-  "Shakhtar Donetsk": "Ukraine",
-  "Schalke 04": "Germany",
-  "Sporting CP": "Portugal",
-  "VfL Wolfsburg": "Germany",
-  "Wolfsburg": "Germany",
-};
-
 function buildOpponentStats(matches) {
   const opponents = new Map();
 
@@ -85,7 +25,6 @@ function buildOpponentStats(matches) {
         goals: 0,
         assists: 0,
         competitions: new Map(),
-        countries: new Map(),
         firstAppearanceDate: null,
         firstAppearanceSeason: null,
         firstGoalDate: null,
@@ -105,15 +44,6 @@ function buildOpponentStats(matches) {
       );
     }
 
-    // Portugal's opponents in international matches are national teams.
-    const country = match.team === "Portugal"
-      ? match.opponent
-      : COMPETITION_COUNTRIES[match.competition] || OPPONENT_COUNTRIES[match.opponent];
-
-    if (country) {
-      opponent.countries.set(country, (opponent.countries.get(country) || 0) + 1);
-    }
-
     if (match.date && (!opponent.firstAppearanceDate || match.date < opponent.firstAppearanceDate)) {
       opponent.firstAppearanceDate = match.date;
       opponent.firstAppearanceSeason = match.season || null;
@@ -130,15 +60,11 @@ function buildOpponentStats(matches) {
     .map((opponent) => {
       const mostPlayedCompetition = [...opponent.competitions.entries()]
         .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0]?.[0] || "Unknown";
-      const country = [...opponent.countries.entries()]
-        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0]?.[0] || null;
-
       return {
         team: opponent.team,
         games: opponent.games,
         goals: opponent.goals,
         assists: opponent.assists,
-        country,
         mostPlayedCompetition,
         firstGoalSeason: opponent.firstGoalSeason,
         firstAppearanceSeason: opponent.firstAppearanceSeason,
