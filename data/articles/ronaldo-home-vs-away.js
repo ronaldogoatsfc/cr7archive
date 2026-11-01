@@ -2,7 +2,7 @@
 const ronaldoHomeVsAway = {
   slug: "ronaldo-home-vs-away",
   title: "Cristiano Ronaldo's Home vs. Away Scoring Efficiency",
-  author: "Soham Ranade",
+  author: "Soham",
   datePublished: "2026-10-21",
   description:
     "An analysis of Cristiano Ronaldo's goals and scoring rates across home, away, and neutral venues, competitions, and teams.",
