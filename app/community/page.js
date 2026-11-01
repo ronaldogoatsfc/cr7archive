@@ -170,6 +170,14 @@ export default function CommunityPage() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-6xl px-6 pt-12 sm:pt-14">
+        <div className="mb-7">
+          <p className="font-mono text-xs uppercase tracking-[0.25em] text-gold">Come back tomorrow for a new opponent</p>
+          <h2 className="mt-2 font-display text-2xl font-semibold text-paper sm:text-3xl">Daily Challenge</h2>
+        </div>
+        <RonaldoVsWhoGame opponents={opponentData} />
+      </section>
+
       <section className="mx-auto max-w-6xl px-6 py-12 sm:py-14">
         <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
           <div>
@@ -214,7 +222,6 @@ export default function CommunityPage() {
         <div className="space-y-6">
           <GuessSeasonGame seasonData={seasonData} />
           <HigherLowerGame seasonData={buildSeasonStats(allMatches)} />
-          <RonaldoVsWhoGame opponents={opponentData} />
         </div>
       </section>
     </div>
