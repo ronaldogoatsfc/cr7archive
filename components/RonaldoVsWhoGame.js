@@ -87,7 +87,7 @@ export default function RonaldoVsWhoGame({ opponents }) {
         if (typeof state.won === "boolean") setWon(state.won);
       }
     } catch {
-      window.localStorage.removeItem(storageKey);
+      // The challenge still loads if browser storage is unavailable or invalid.
     }
 
     setReady(true);
