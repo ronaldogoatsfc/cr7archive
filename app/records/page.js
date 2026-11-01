@@ -47,6 +47,18 @@ const DEFAULT_FILTERS = {
   search: "",
 };
 
+const CATEGORY_ORDER = [
+  "World Record",
+  "European Record",
+  "English Record",
+  "Spanish Record",
+  "Italian Record",
+  "Saudi Record",
+  "Portuguese Record",
+  "Club Record",
+  "Former Record",
+];
+
 function Select({ label, value, onChange, options }) {
   return (
     <label className="flex flex-col gap-1">
@@ -95,20 +107,52 @@ function RecordRow({ record }) {
 
 function RecordGroup({ title, items, emptyLabel }) {
   return (
-    <div className="mt-10">
-      <h2 className="font-display text-xl font-semibold text-paper">
-        {title}
-      </h2>
-      <div className="mt-4 divide-y divide-line rounded-2xl border border-line bg-pitch-raised">
+    <section className="mt-8">
+      <div className="mb-3 flex items-baseline justify-between gap-4">
+        <h3 className="font-display text-xl font-semibold text-paper">{title}</h3>
+        <span className="font-mono text-xs uppercase tracking-wider text-paper-dim">
+          {items.length} {items.length === 1 ? "record" : "records"}
+        </span>
+      </div>
+      <div className="divide-y divide-line rounded-2xl border border-line bg-pitch-raised">
         {items.length > 0 ? (
           items.map((r) => <RecordRow key={r.id} record={r} />)
         ) : (
-          <p className="px-5 py-8 text-center text-paper-dim">
-            {emptyLabel}
-          </p>
+          <p className="px-5 py-8 text-center text-paper-dim">{emptyLabel}</p>
         )}
       </div>
-    </div>
+    </section>
+  );
+}
+
+function RecordStatusSection({ title, items, emptyLabel }) {
+  const grouped = useMemo(() => {
+    const groups = new Map();
+    for (const record of items) {
+      if (!groups.has(record.category)) groups.set(record.category, []);
+      groups.get(record.category).push(record);
+    }
+    return [...groups.entries()].sort(([a], [b]) => {
+      const aIndex = CATEGORY_ORDER.indexOf(a);
+      const bIndex = CATEGORY_ORDER.indexOf(b);
+      return (aIndex === -1 ? CATEGORY_ORDER.length : aIndex) -
+        (bIndex === -1 ? CATEGORY_ORDER.length : bIndex);
+    });
+  }, [items]);
+
+  return (
+    <section className="mt-10">
+      <h2 className="font-display text-2xl font-semibold text-paper">{title}</h2>
+      {grouped.length > 0 ? (
+        grouped.map(([category, categoryItems]) => (
+          <RecordGroup key={category} title={category} items={categoryItems} />
+        ))
+      ) : (
+        <div className="mt-4 rounded-2xl border border-line bg-pitch-raised px-5 py-8 text-center text-paper-dim">
+          {emptyLabel}
+        </div>
+      )}
+    </section>
   );
 }
 
@@ -148,33 +192,16 @@ export default function RecordsPage() {
         Career milestones & standout numbers
       </h1>
       <p className="mt-2 max-w-2xl text-paper-dim">
-        Filter by category or club. Currently held and previously held
-        records are listed separately below.
+        Filter by category or club. Records are organized by record level,
+        with currently held and previously held records kept separate.
       </p>
 
       <div className="mt-8 grid grid-cols-2 gap-3 rounded-2xl border border-line bg-pitch-raised p-5 sm:grid-cols-4">
-        <Select
-          label="Category"
-          value={filters.category}
-          onChange={(v) => updateFilter("category", v)}
-          options={categories}
-        />
-        <Select
-          label="Club"
-          value={filters.club}
-          onChange={(v) => updateFilter("club", v)}
-          options={clubs}
-        />
-        <Select
-          label="Status"
-          value={filters.status}
-          onChange={(v) => updateFilter("status", v)}
-          options={["Current", "Former"]}
-        />
+        <Select label="Category" value={filters.category} onChange={(v) => updateFilter("category", v)} options={categories} />
+        <Select label="Club" value={filters.club} onChange={(v) => updateFilter("club", v)} options={clubs} />
+        <Select label="Status" value={filters.status} onChange={(v) => updateFilter("status", v)} options={["Current", "Former"]} />
         <label className="flex flex-col gap-1">
-          <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
-            Search
-          </span>
+          <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">Search</span>
           <input
             type="text"
             value={filters.search}
@@ -185,12 +212,12 @@ export default function RecordsPage() {
         </label>
       </div>
 
-      <RecordGroup
+      <RecordStatusSection
         title="Currently Held Records"
         items={current}
         emptyLabel="No current records match these filters."
       />
-      <RecordGroup
+      <RecordStatusSection
         title="Previously Held Records"
         items={former}
         emptyLabel="No former records match these filters."

@@ -17,6 +17,15 @@ const DEFAULT_FILTERS = {
   domestic: "All",
 };
 
+const CATEGORY_ORDER = [
+  "Global Individual Award",
+  "Continental Individual Award",
+  "Domestic Individual Award",
+  "National Team Award",
+  "Individual Award",
+  "Friendly Competition Award",
+];
+
 function Select({ label, value, onChange, options }) {
   return (
     <label className="flex flex-col gap-1">
@@ -39,6 +48,43 @@ function Select({ label, value, onChange, options }) {
   );
 }
 
+function HonorGroup({ category, items }) {
+  return (
+    <section className="mt-10">
+      <div className="mb-3 flex items-baseline justify-between gap-4">
+        <h2 className="font-display text-2xl font-semibold text-paper">
+          {category}
+        </h2>
+        <span className="font-mono text-xs uppercase tracking-wider text-paper-dim">
+          {items.length} {items.length === 1 ? "honor" : "honors"}
+        </span>
+      </div>
+      <div className="divide-y divide-line rounded-2xl border border-line bg-pitch-raised">
+        {items.map((h) => (
+          <div
+            key={h.id}
+            className="flex flex-col gap-1 px-5 py-4 sm:flex-row sm:items-center sm:justify-between"
+          >
+            <div>
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="text-paper">{h.name}</span>
+                <span className="rounded-full bg-pitch px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
+                  {h.domestic ? "Domestic" : "International"}
+                </span>
+              </div>
+              <p className="mt-0.5 text-sm text-paper-dim">
+                {h.club} · {h.season}
+              </p>
+              {h.notes && <p className="mt-1 text-xs text-paper-dim/80">{h.notes}</p>}
+            </div>
+            <span className="stat-number text-2xl text-gold">{h.year}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 export default function HonorsPage() {
   const [filters, setFilters] = useState(DEFAULT_FILTERS);
 
@@ -57,6 +103,20 @@ export default function HonorsPage() {
     [filters]
   );
 
+  const grouped = useMemo(() => {
+    const groups = new Map();
+    for (const honor of filtered) {
+      if (!groups.has(honor.category)) groups.set(honor.category, []);
+      groups.get(honor.category).push(honor);
+    }
+    return [...groups.entries()].sort(([a], [b]) => {
+      const aIndex = CATEGORY_ORDER.indexOf(a);
+      const bIndex = CATEGORY_ORDER.indexOf(b);
+      return (aIndex === -1 ? CATEGORY_ORDER.length : aIndex) -
+        (bIndex === -1 ? CATEGORY_ORDER.length : bIndex);
+    });
+  }, [filtered]);
+
   function updateFilter(key, value) {
     setFilters((prev) => ({ ...prev, [key]: value }));
   }
@@ -71,40 +131,15 @@ export default function HonorsPage() {
       </h1>
       <p className="mt-2 max-w-2xl text-paper-dim">
         Filter by year, season, club, award, or domestic vs. international
-        recognition.
+        recognition. Honors are organized by award level.
       </p>
 
       <div className="mt-8 grid grid-cols-2 gap-3 rounded-2xl border border-line bg-pitch-raised p-5 sm:grid-cols-3 lg:grid-cols-5">
-        <Select
-          label="Year"
-          value={filters.year}
-          onChange={(v) => updateFilter("year", v)}
-          options={years}
-        />
-        <Select
-          label="Season"
-          value={filters.season}
-          onChange={(v) => updateFilter("season", v)}
-          options={seasons}
-        />
-        <Select
-          label="Club"
-          value={filters.club}
-          onChange={(v) => updateFilter("club", v)}
-          options={clubs}
-        />
-        <Select
-          label="Award"
-          value={filters.award}
-          onChange={(v) => updateFilter("award", v)}
-          options={awards}
-        />
-        <Select
-          label="Domestic"
-          value={filters.domestic}
-          onChange={(v) => updateFilter("domestic", v)}
-          options={["Domestic", "International"]}
-        />
+        <Select label="Year" value={filters.year} onChange={(v) => updateFilter("year", v)} options={years} />
+        <Select label="Season" value={filters.season} onChange={(v) => updateFilter("season", v)} options={seasons} />
+        <Select label="Club" value={filters.club} onChange={(v) => updateFilter("club", v)} options={clubs} />
+        <Select label="Award" value={filters.award} onChange={(v) => updateFilter("award", v)} options={awards} />
+        <Select label="Domestic" value={filters.domestic} onChange={(v) => updateFilter("domestic", v)} options={["Domestic", "International"]} />
         <button
           onClick={() => setFilters(DEFAULT_FILTERS)}
           className="col-span-2 rounded-lg border border-line px-3 py-2 text-sm text-paper-dim transition hover:bg-pitch hover:text-paper sm:col-span-1"
@@ -113,38 +148,13 @@ export default function HonorsPage() {
         </button>
       </div>
 
-      <div className="mt-6 divide-y divide-line rounded-2xl border border-line bg-pitch-raised">
-        {filtered.map((h) => (
-          <div
-            key={h.id}
-            className="flex flex-col gap-1 px-5 py-4 sm:flex-row sm:items-center sm:justify-between"
-          >
-            <div>
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="text-paper">{h.name}</span>
-                <span className="rounded-full bg-pitch px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
-                  {h.category}
-                </span>
-                <span className="rounded-full bg-pitch px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
-                  {h.domestic ? "Domestic" : "International"}
-                </span>
-              </div>
-              <p className="mt-0.5 text-sm text-paper-dim">
-                {h.club} · {h.season}
-              </p>
-              {h.notes && (
-                <p className="mt-1 text-xs text-paper-dim/80">{h.notes}</p>
-              )}
-            </div>
-            <span className="stat-number text-2xl text-gold">{h.year}</span>
-          </div>
-        ))}
-        {filtered.length === 0 && (
-          <p className="px-5 py-10 text-center text-paper-dim">
-            No honors fit these filters. Try resetting them.
-          </p>
-        )}
-      </div>
+      {grouped.length > 0 ? (
+        grouped.map(([category, items]) => <HonorGroup key={category} category={category} items={items} />)
+      ) : (
+        <div className="mt-6 rounded-2xl border border-line bg-pitch-raised px-5 py-10 text-center text-paper-dim">
+          No honors fit these filters. Try resetting them.
+        </div>
+      )}
     </div>
   );
 }
