@@ -553,7 +553,7 @@ export default function Home() {
 
                 <p className="mt-4 font-display text-5xl font-semibold text-paper">
                   {record.id === "most-mens-international-caps"
-                    ? "233"
+                    ? "234"
                     : record.id === "most-goals-uefa-champions-league"
                       ? "140"
                       : "35"}
