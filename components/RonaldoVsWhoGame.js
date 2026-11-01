@@ -5,7 +5,6 @@ import {
   CheckCircle2,
   ChevronDown,
   ChevronUp,
-  CircleHelp,
   Lightbulb,
   RotateCcw,
   Search,
@@ -59,7 +58,6 @@ export default function RonaldoVsWhoGame({ opponents }) {
     return opponents
       .filter((opponent) => (
         normalize(opponent.team).includes(search) &&
-        opponent.team !== target.team &&
         !usedNames.has(opponent.team)
       ))
       .slice(0, 7);
