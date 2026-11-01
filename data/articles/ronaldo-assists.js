@@ -2,7 +2,7 @@
 const ronaldo_assists = {
   slug: "ronaldo-assists",
   title: "Cristiano Ronaldo's Assists Analysis",
-  author: "Soham Ranade",
+  author: "Soham",
   datePublished: "2026-10-27",
   description:
     "An analysis of Cristiano Ronaldo's career assists and an explanation of his total tally and why it decreased.",
