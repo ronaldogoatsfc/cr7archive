@@ -1,18 +1,18 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   CheckCircle2,
   ChevronDown,
   ChevronUp,
   Lightbulb,
-  RotateCcw,
   Search,
   Trophy,
   XCircle,
 } from "lucide-react";
 
 const MAX_GUESSES = 4;
+const STORAGE_PREFIX = "ronaldo-vs-who-daily-";
 
 function normalize(value) {
   return value.trim().toLocaleLowerCase();
@@ -21,6 +21,27 @@ function normalize(value) {
 function compareStat(guessValue, targetValue) {
   if (guessValue === targetValue) return "equal";
   return guessValue > targetValue ? "higher" : "lower";
+}
+
+function hashTeamName(value) {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+}
+
+function getDailyOpponent(opponents, date) {
+  const pool = opponents
+    .filter((opponent) => opponent.team)
+    .slice()
+    .sort((a, b) => hashTeamName(a.team) - hashTeamName(b.team));
+
+  if (!pool.length) return null;
+
+  const dayNumber = Math.floor(Date.parse(`${date}T00:00:00Z`) / 86400000);
+  return pool[((dayNumber % pool.length) + pool.length) % pool.length];
 }
 
 function FeedbackMark({ result, label }) {
@@ -39,6 +60,8 @@ function FeedbackMark({ result, label }) {
 
 export default function RonaldoVsWhoGame({ opponents }) {
   const [target, setTarget] = useState(null);
+  const [dailyDate, setDailyDate] = useState(null);
+  const [ready, setReady] = useState(false);
   const [query, setQuery] = useState("");
   const [suggestionsOpen, setSuggestionsOpen] = useState(false);
   const [guesses, setGuesses] = useState([]);
@@ -46,13 +69,48 @@ export default function RonaldoVsWhoGame({ opponents }) {
   const [gameOver, setGameOver] = useState(false);
   const [won, setWon] = useState(false);
 
-  const usedNames = useMemo(() => new Set(guesses.map((guess) => guess.team)), [guesses]);
+  useEffect(() => {
+    const today = new Date().toISOString().slice(0, 10);
+    const dailyOpponent = getDailyOpponent(opponents, today);
+    const storageKey = `${STORAGE_PREFIX}${today}`;
+
+    setTarget(dailyOpponent);
+    setDailyDate(today);
+
+    try {
+      const saved = window.localStorage.getItem(storageKey);
+      if (saved) {
+        const state = JSON.parse(saved);
+        if (Array.isArray(state.guesses)) setGuesses(state.guesses);
+        if (Number.isInteger(state.revealedClues)) setRevealedClues(Math.min(2, state.revealedClues));
+        if (typeof state.gameOver === "boolean") setGameOver(state.gameOver);
+        if (typeof state.won === "boolean") setWon(state.won);
+      }
+    } catch {
+      // The challenge still loads if browser storage is unavailable or invalid.
+    }
+
+    setReady(true);
+  }, [opponents]);
+
+  useEffect(() => {
+    if (!ready || !dailyDate || !target) return;
+
+    const state = { guesses, revealedClues, gameOver, won };
+    try {
+      window.localStorage.setItem(`${STORAGE_PREFIX}${dailyDate}`, JSON.stringify(state));
+    } catch {
+      // The game remains playable if browser storage is unavailable.
+    }
+  }, [ready, dailyDate, target, guesses, revealedClues, gameOver, won]);
+
+  const usedNames = useMemo(() => new Set(guesses.map((guess) => guess.team).filter(Boolean)), [guesses]);
   const guessesUsed = guesses.length;
   const guessesRemaining = MAX_GUESSES - guessesUsed;
 
   const suggestions = useMemo(() => {
     const search = normalize(query);
-    if (!search || !target || gameOver) return [];
+    if (!search || !target || gameOver || !ready) return [];
 
     return opponents
       .filter((opponent) => (
@@ -60,46 +118,29 @@ export default function RonaldoVsWhoGame({ opponents }) {
         !usedNames.has(opponent.team)
       ))
       .slice(0, 7);
-  }, [opponents, query, target, gameOver, usedNames]);
+  }, [opponents, query, target, gameOver, ready, usedNames]);
 
   const clues = target
     ? [
-        { label: "Country", value: target.country || "Not available in the match data" },
         { label: "Most-played competition", value: target.mostPlayedCompetition },
         {
           label: target.firstGoalSeason ? "Season of first goal" : "Season of first appearance",
-          value: target.firstGoalSeason || target.firstAppearanceSeason,
+          value: target.firstGoalSeason || target.firstAppearanceSeason || "Not available",
         },
       ]
     : [];
 
-  function startGame() {
-    if (!opponents.length) return;
-    const pool = opponents.filter((opponent) => opponent.team);
-    const next = pool[Math.floor(Math.random() * pool.length)];
-    setTarget(next);
-    setQuery("");
-    setGuesses([]);
-    setRevealedClues(0);
-    setGameOver(false);
-    setWon(false);
-    setSuggestionsOpen(false);
-  }
-
   function submitGuess(opponent) {
     if (!target || gameOver || guessesUsed >= MAX_GUESSES || usedNames.has(opponent.team)) return;
 
+    const correct = opponent.team === target.team;
     const guess = {
       team: opponent.team,
       games: opponent.games,
       goals: opponent.goals,
       assists: opponent.assists,
-      country: opponent.country,
-      correct: opponent.team === target.team,
+      correct,
       feedback: {
-        country: opponent.country && target.country
-          ? opponent.country === target.country
-          : null,
         games: compareStat(opponent.games, target.games),
         goals: compareStat(opponent.goals, target.goals),
         assists: compareStat(opponent.assists, target.assists),
@@ -107,12 +148,9 @@ export default function RonaldoVsWhoGame({ opponents }) {
     };
 
     const nextGuesses = [...guesses, guess];
-    const correct = opponent.team === target.team;
-
     setGuesses(nextGuesses);
     setQuery("");
     setSuggestionsOpen(false);
-    setNotice("");
 
     if (correct) {
       setWon(true);
@@ -120,14 +158,14 @@ export default function RonaldoVsWhoGame({ opponents }) {
       return;
     }
 
-    setRevealedClues(Math.min(3, nextGuesses.length));
+    setRevealedClues(Math.min(2, revealedClues + 1));
     if (nextGuesses.length >= MAX_GUESSES) {
       setGameOver(true);
     }
   }
 
   function useHint() {
-    if (!target || gameOver || guessesUsed >= MAX_GUESSES || revealedClues >= 3) return;
+    if (!target || gameOver || guessesUsed >= MAX_GUESSES || revealedClues >= 2) return;
 
     const nextUsed = guessesUsed + 1;
     setGuesses((current) => [
@@ -138,7 +176,7 @@ export default function RonaldoVsWhoGame({ opponents }) {
         hintNumber: revealedClues + 1,
       },
     ]);
-    setRevealedClues((current) => Math.min(3, current + 1));
+    setRevealedClues((current) => Math.min(2, current + 1));
     setQuery("");
     setSuggestionsOpen(false);
 
@@ -147,54 +185,31 @@ export default function RonaldoVsWhoGame({ opponents }) {
     }
   }
 
-  const canUseHint = target && !gameOver && guessesUsed < MAX_GUESSES && revealedClues < 3;
+  const canUseHint = target && !gameOver && guessesUsed < MAX_GUESSES && revealedClues < 2;
 
   return (
     <div className="overflow-hidden rounded-2xl border border-line bg-pitch-raised">
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line px-5 py-4 sm:px-7">
         <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-gold">
-          Mini-game 03
+          Daily mini-game
         </div>
         <div className="inline-flex items-center gap-2 rounded-full border border-line bg-pitch px-3 py-1.5 font-mono text-xs text-paper-dim">
           <Trophy size={13} className="text-gold" />
-          {guessesRemaining} / {MAX_GUESSES} guesses left
+          {ready ? `${guessesRemaining} / ${MAX_GUESSES} guesses left` : "Loading today's game"}
         </div>
       </div>
 
       <div className="p-5 sm:p-7">
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-          <div>
-            <h3 className="font-display text-2xl font-semibold text-paper sm:text-3xl">Ronaldo vs. Who?</h3>
-            <p className="mt-2 max-w-2xl text-sm leading-6 text-paper-dim">
-              Identify the opponent from Ronaldo's career statistics. Every incorrect guess reveals another clue, but you only get four guesses.
-            </p>
-          </div>
-          {target && (
-            <button
-              type="button"
-              onClick={startGame}
-              className="inline-flex shrink-0 items-center gap-1.5 text-xs text-paper-dim transition hover:text-gold"
-            >
-              <RotateCcw size={13} /> New opponent
-            </button>
-          )}
+        <div>
+          <h3 className="font-display text-2xl font-semibold text-paper sm:text-3xl">Ronaldo vs. Who?</h3>
+          <p className="mt-2 max-w-2xl text-sm leading-6 text-paper-dim">
+            Identify today's opponent from Ronaldo's career statistics. You get four guesses, and the mystery opponent changes daily.
+          </p>
         </div>
 
-        {!target ? (
+        {!ready || !target ? (
           <div className="mt-6 rounded-xl border border-dashed border-line bg-pitch/70 px-5 py-8 text-center">
-            <p className="font-display text-lg font-semibold text-paper">Can you identify the opponent?</p>
-            <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-paper-dim">
-              Use the games, goals, and assists to work out which club or national team Ronaldo faced.
-            </p>
-            <button
-              type="button"
-              onClick={startGame}
-              disabled={opponents.length === 0}
-              className="mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-gold px-6 py-3 text-sm font-semibold text-pitch transition hover:bg-gold-bright disabled:cursor-not-allowed disabled:opacity-40"
-            >
-              Start guessing
-            </button>
-            <p className="mt-3 text-xs text-paper-dim">{opponents.length} opponents in the game pool</p>
+            <p className="text-sm text-paper-dim">{ready ? "Today's opponent could not be loaded." : "Preparing today's challenge..."}</p>
           </div>
         ) : (
           <>
@@ -218,7 +233,7 @@ export default function RonaldoVsWhoGame({ opponents }) {
             <div className="mt-5 rounded-xl border border-line bg-pitch p-4 sm:p-5">
               <div className="flex items-center justify-between gap-3">
                 <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-gold">Clues</p>
-                <span className="text-xs text-paper-dim">{revealedClues} / 3 revealed</span>
+                <span className="text-xs text-paper-dim">{revealedClues} / 2 revealed</span>
               </div>
               {revealedClues === 0 ? (
                 <p className="mt-3 text-sm text-paper-dim">No clues revealed yet. Make a guess or spend a guess to reveal a hint.</p>
@@ -282,7 +297,6 @@ export default function RonaldoVsWhoGame({ opponents }) {
                           className="flex w-full items-center justify-between rounded-lg px-3 py-2.5 text-left text-sm text-paper transition hover:bg-pitch hover:text-gold"
                         >
                           <span>{opponent.team}</span>
-                          <span className="text-xs text-paper-dim">{opponent.country || "Opponent"}</span>
                         </button>
                       ))}
                     </div>
@@ -323,11 +337,6 @@ export default function RonaldoVsWhoGame({ opponents }) {
                           <span className={`font-mono text-[10px] uppercase tracking-wider ${guess.correct ? "text-turf-bright" : "text-goal-red"}`}>{guess.correct ? "Correct" : "Incorrect"}</span>
                         </div>
                         <div className="mt-3 flex flex-wrap gap-2">
-                          {guess.feedback.country !== null && (
-                            <span className={`inline-flex items-center gap-1.5 rounded-lg border border-line bg-pitch-raised px-2.5 py-1.5 text-xs ${guess.feedback.country ? "text-turf-bright" : "text-paper-dim"}`}>
-                              Country {guess.feedback.country ? "✓ Match" : "✕ Different"}
-                            </span>
-                          )}
                           <FeedbackMark label="Games" result={guess.feedback.games} />
                           <FeedbackMark label="Goals" result={guess.feedback.goals} />
                           <FeedbackMark label="Assists" result={guess.feedback.assists} />
@@ -348,15 +357,12 @@ export default function RonaldoVsWhoGame({ opponents }) {
                 <p className="mt-2 text-sm leading-6 text-paper-dim">
                   The mystery opponent was <strong className="text-paper">{target.team}</strong>. Ronaldo faced them {target.games} times, scoring {target.goals} goals and recording {target.assists} assists.
                 </p>
-                <button
-                  type="button"
-                  onClick={startGame}
-                  className="mt-4 inline-flex items-center gap-2 rounded-full bg-gold px-5 py-2.5 text-sm font-semibold text-pitch transition hover:bg-gold-bright"
-                >
-                  <RotateCcw size={15} /> Play again
-                </button>
+                <p className="mt-3 text-xs text-paper-dim">Come back tomorrow for a new opponent.</p>
               </div>
             )}
+            <p className="mt-5 text-center font-mono text-[10px] uppercase tracking-[0.16em] text-paper-dim">
+              Daily challenge · {dailyDate}
+            </p>
           </>
         )}
       </div>
