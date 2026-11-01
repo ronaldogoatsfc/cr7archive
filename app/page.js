@@ -18,6 +18,13 @@ const GOAL_TARGET = 1000;
 
 const sections = [
   {
+    title: "Community",
+    description:
+      "Challenge yourself with Ronaldo quizzes and interactive mini-games built around his career statistics and achievements.",
+    href: "/community",
+    cta: "Explore the community",
+  },
+  {
     title: "About",
     description:
       "Learn how The Ronaldo Archive is researched, maintained, and built, along with information about its sources and methodology.",
