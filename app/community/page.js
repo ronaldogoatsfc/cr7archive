@@ -7,7 +7,7 @@ import HigherLowerGame from "@/components/HigherLowerGame";
 
 export const metadata = {
   title: "Community Quizzes & Games | The Ronaldo Archive",
-  description: "Test your knowledge of Cristiano Ronaldo with career quizzes and interactive season-guessing challenges.",
+  description: "Test your knowledge of Cristiano Ronaldo with career quizzes and interactive statistical mini-games.",
 };
 
 const difficultyStyles = {
