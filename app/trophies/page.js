@@ -52,6 +52,19 @@ function Select({ label, value, onChange, options }) {
 }
 
 function TrophyGroup({ club, items }) {
+  const groupedTrophies = [...items.reduce((groups, trophy) => {
+    const key = [trophy.name, trophy.competitionType, trophy.domestic, trophy.isFriendly].join("|");
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(trophy);
+    return groups;
+  }, new Map()).values()].map((group) => ({
+    ...group[0],
+    years: [...new Set(group.map((trophy) => trophy.year))].sort((a, b) => a - b),
+    seasons: [...new Set(group.map((trophy) => trophy.season))].sort(),
+    articleSlug: group.find((trophy) => trophy.articleSlug)?.articleSlug,
+    count: group.length,
+  }));
+
   return (
     <section className="mt-10">
       <div className="mb-4 flex items-baseline justify-between gap-4">
@@ -63,7 +76,7 @@ function TrophyGroup({ club, items }) {
         </span>
       </div>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {items.map((t) => (
+        {groupedTrophies.map((t) => (
           <article
             key={t.id}
             className="flex min-h-44 flex-col rounded-2xl border border-line bg-pitch-raised p-5 transition hover:border-gold/50"
@@ -72,9 +85,16 @@ function TrophyGroup({ club, items }) {
               <span className="font-display text-lg font-semibold leading-snug text-paper">
                 {t.name}
               </span>
-              <span className="stat-number shrink-0 text-xl text-gold">{t.year}</span>
+              {t.count > 1 && (
+                <span className="shrink-0 rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-gold">
+                  {t.count} titles
+                </span>
+              )}
             </div>
-            <p className="mt-2 text-sm text-paper-dim">{t.season}</p>
+            <p className="stat-number mt-3 text-xl leading-relaxed text-gold">
+              {t.years.join(" · ")}
+            </p>
+            <p className="mt-1 text-xs text-paper-dim">{t.seasons.join(" · ")}</p>
             <div className="mt-4 flex flex-wrap items-center gap-2">
               {t.isFriendly && (
                 <span className="rounded-full border border-goal-red px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-goal-red">
