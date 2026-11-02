@@ -819,7 +819,7 @@ export default function VisualizationsPage() {
         </div>
       </section>
 
-      <div className="mt-8 space-y-12">
+      <div className="mt-8 space-y-4">
         {chartCategories.map((category) => {
           const visibleCharts = charts.filter(
             (chart) =>
@@ -830,21 +830,32 @@ export default function VisualizationsPage() {
           if (visibleCharts.length === 0) return null;
 
           return (
-            <section key={category} aria-label={category}>
-              <div className="mb-5 border-b border-line pb-3">
-                <h2 className="font-display text-2xl font-semibold text-paper">
-                  {category}
-                </h2>
-                <p className="mt-1 text-sm text-paper-dim">
-                  {visibleCharts.length} {visibleCharts.length === 1 ? "visualization" : "visualizations"}
-                </p>
-              </div>
-              <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
+            <details
+              key={category}
+              className="group rounded-2xl border border-line bg-pitch-raised"
+            >
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 p-5 sm:px-6 [&::-webkit-details-marker]:hidden">
+                <div>
+                  <h2 className="font-display text-xl font-semibold text-paper transition group-hover:text-gold">
+                    {category}
+                  </h2>
+                  <p className="mt-1 text-sm text-paper-dim">
+                    {visibleCharts.length} {visibleCharts.length === 1 ? "visualization" : "visualizations"}
+                  </p>
+                </div>
+                <span
+                  aria-hidden="true"
+                  className="text-xl text-gold transition-transform group-open:rotate-45"
+                >
+                  +
+                </span>
+              </summary>
+              <div className="grid grid-cols-1 gap-5 border-t border-line p-5 lg:grid-cols-2 sm:p-6">
                 {visibleCharts.map((chart) => (
                   <ChartCard key={chart.title} chart={chart} />
                 ))}
               </div>
-            </section>
+            </details>
           );
         })}
       </div>
