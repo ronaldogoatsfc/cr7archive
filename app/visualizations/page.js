@@ -16,6 +16,8 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
+import { useState } from "react";
+
 import matches from "@/data/all-matches";
 import {
   goalsAndAssistsBySeason,
@@ -274,7 +276,29 @@ function ChartCard({ chart }) {
   );
 }
 
+const chartCategories = [
+  "Scoring",
+  "Playmaking",
+  "Contributions",
+  "Appearances",
+  "Match Performance",
+];
+
+const breakdownOptions = [
+  "All",
+  "Season",
+  "Competition",
+  "Club",
+  "Opponent",
+  "Venue",
+  "Month",
+  "Age",
+  "Knockout Phase",
+];
+
 export default function VisualizationsPage() {
+  const [categoryFilter, setCategoryFilter] = useState("All");
+  const [breakdownFilter, setBreakdownFilter] = useState("All");
   const bySeason = goalsAndAssistsBySeason(matches);
   const competitionGoals = goalsByCompetition(matches);
   const byCompetition = topCompetitions(competitionGoals);
@@ -333,6 +357,8 @@ export default function VisualizationsPage() {
   const charts = [
     {
       title: "Goals & assists by season",
+      category: "Contributions",
+      breakdown: "Season",
       description: "Season-by-season output across all competitions.",
       data: bySeason,
       xKey: "season",
@@ -349,6 +375,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Goals by competition",
+      category: "Scoring",
+      breakdown: "Competition",
       description: "Where the goals in this log were scored.",
       type: "pie",
       data: byCompetition,
@@ -363,6 +391,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Goals by club",
+      category: "Scoring",
+      breakdown: "Club",
       description: "Total goals logged per club represented in this data.",
       data: byClub,
       xKey: "name",
@@ -377,6 +407,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Match rating distribution",
+      category: "Match Performance",
+      breakdown: "General",
       description: "How often each performance level appears across logged matches.",
       data: ratings,
       xKey: "label",
@@ -390,6 +422,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Results breakdown",
+      category: "Match Performance",
+      breakdown: "General",
       description: "Every logged match, by result.",
       type: "pie",
       data: results,
@@ -405,6 +439,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Goals by knockout phase",
+      category: "Scoring",
+      breakdown: "Knockout Phase",
       description: "Goals in cup and tournament knockout rounds.",
       data: knockoutGoals,
       xKey: "name",
@@ -418,6 +454,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Most goals against",
+      category: "Scoring",
+      breakdown: "Opponent",
       description: "The 10 opponents against whom the most goals were logged.",
       data: byOpponent.slice(0, 10),
       xKey: "name",
@@ -432,6 +470,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Goals by venue",
+      category: "Scoring",
+      breakdown: "Venue",
       description: "Goals scored at home, away, and at neutral venues.",
       data: byVenue,
       xKey: "name",
@@ -445,6 +485,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Goals by month",
+      category: "Scoring",
+      breakdown: "Month",
       description: "Career goals grouped by calendar month.",
       data: byMonth,
       xKey: "name",
@@ -458,6 +500,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Goals by age",
+      category: "Scoring",
+      breakdown: "Age",
       description: "Scoring output by Ronaldo's age at the time of each match.",
       data: byAge,
       xKey: "age",
@@ -471,6 +515,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Goals per 90 by season",
+      category: "Scoring",
+      breakdown: "Season",
       description: "Scoring efficiency adjusted for recorded minutes played.",
       type: "line",
       yDomain: [0, 1.5],
@@ -489,6 +535,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Win percentage by competition",
+      category: "Match Performance",
+      breakdown: "Competition",
       description: "Win rate in competitions with at least five logged matches.",
       data: winRates,
       xKey: "name",
@@ -504,6 +552,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Appearances by club",
+      category: "Appearances",
+      breakdown: "Club",
       description: "Logged competitive appearances for each club.",
       data: appearancesClub,
       xKey: "name",
@@ -518,6 +568,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Goals + assists by club",
+      category: "Contributions",
+      breakdown: "Club",
       description: "Attacking contributions logged for each club.",
       data: clubContributions,
       xKey: "name",
@@ -536,6 +588,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Goals per appearance by club",
+      category: "Scoring",
+      breakdown: "Club",
       description: "Recorded goals relative to the number of logged matches for each club.",
       data: goalsPerAppearance,
       xKey: "name",
@@ -551,6 +605,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Assists by club",
+      category: "Playmaking",
+      breakdown: "Club",
       description: "Recorded assists grouped by club.",
       data: assistsClub,
       xKey: "name",
@@ -565,6 +621,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Goal contributions per match by season",
+      category: "Contributions",
+      breakdown: "Season",
       description: "Average recorded goals plus assists per logged match in each season.",
       type: "line",
       yDomain: [0, 2],
@@ -589,6 +647,8 @@ export default function VisualizationsPage() {
     },
     {
       title: "Minutes per goal by season",
+      category: "Scoring",
+      breakdown: "Season",
       description: "How many recorded minutes it took to score each goal, on average.",
       type: "line",
       data: efficiency,
@@ -702,10 +762,91 @@ export default function VisualizationsPage() {
         </div>
       </section>
 
-      <div className="mt-10 grid grid-cols-1 gap-5 lg:grid-cols-2">
-        {charts.map((chart) => (
-          <ChartCard key={chart.title} chart={chart} />
-        ))}
+      <section className="mt-12" aria-label="Visualization filters">
+        <div className="flex flex-col gap-5 rounded-2xl border border-line bg-pitch-raised p-5 sm:p-6">
+          <div>
+            <h2 className="font-display text-xl font-semibold text-paper">
+              Explore visualizations
+            </h2>
+            <p className="mt-1 text-sm leading-6 text-paper-dim">
+              Filter the charts by statistical category or the way the data is broken down.
+            </p>
+          </div>
+
+          <div className="grid gap-4 sm:grid-cols-2">
+            <label className="flex flex-col gap-2 text-xs font-mono uppercase tracking-wider text-paper-dim">
+              Category
+              <select
+                value={categoryFilter}
+                onChange={(event) => setCategoryFilter(event.target.value)}
+                className="w-full rounded-lg border border-line bg-pitch px-3 py-3 font-sans text-sm normal-case tracking-normal text-paper outline-none transition focus:border-gold"
+              >
+                <option value="All">All categories</option>
+                {chartCategories.map((category) => (
+                  <option key={category} value={category}>{category}</option>
+                ))}
+              </select>
+            </label>
+
+            <label className="flex flex-col gap-2 text-xs font-mono uppercase tracking-wider text-paper-dim">
+              Breakdown
+              <select
+                value={breakdownFilter}
+                onChange={(event) => setBreakdownFilter(event.target.value)}
+                className="w-full rounded-lg border border-line bg-pitch px-3 py-3 font-sans text-sm normal-case tracking-normal text-paper outline-none transition focus:border-gold"
+              >
+                {breakdownOptions.map((option) => (
+                  <option key={option} value={option}>
+                    {option === "All" ? "All breakdowns" : option}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
+
+          {(categoryFilter !== "All" || breakdownFilter !== "All") && (
+            <button
+              type="button"
+              onClick={() => {
+                setCategoryFilter("All");
+                setBreakdownFilter("All");
+              }}
+              className="self-start text-sm font-medium text-gold transition hover:text-paper"
+            >
+              Clear filters
+            </button>
+          )}
+        </div>
+      </section>
+
+      <div className="mt-8 space-y-12">
+        {chartCategories.map((category) => {
+          const visibleCharts = charts.filter(
+            (chart) =>
+              (categoryFilter === "All" || chart.category === category) &&
+              (breakdownFilter === "All" || chart.breakdown === breakdownFilter)
+          );
+
+          if (visibleCharts.length === 0) return null;
+
+          return (
+            <section key={category} aria-label={category}>
+              <div className="mb-5 border-b border-line pb-3">
+                <h2 className="font-display text-2xl font-semibold text-paper">
+                  {category}
+                </h2>
+                <p className="mt-1 text-sm text-paper-dim">
+                  {visibleCharts.length} {visibleCharts.length === 1 ? "visualization" : "visualizations"}
+                </p>
+              </div>
+              <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
+                {visibleCharts.map((chart) => (
+                  <ChartCard key={chart.title} chart={chart} />
+                ))}
+              </div>
+            </section>
+          );
+        })}
       </div>
 
       <p className="mt-8 text-xs leading-5 text-paper-dim">
