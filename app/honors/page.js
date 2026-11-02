@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import honors from "@/data/honors.json";
 import {
   filterHonors,
@@ -49,9 +50,32 @@ function Select({ label, value, onChange, options }) {
 }
 
 function HonorGroup({ category, items }) {
+  const groupedHonors = [...items.reduce((groups, honor) => {
+    if (!groups.has(honor.name)) groups.set(honor.name, []);
+    groups.get(honor.name).push(honor);
+    return groups;
+  }, new Map()).values()].map((group) => {
+    const entries = group.sort((a, b) => {
+      const aKey = a.date || `${a.year}-01-01`;
+      const bKey = b.date || `${b.year}-01-01`;
+      return aKey.localeCompare(bKey);
+    });
+
+    return {
+      ...entries[0],
+      entries,
+      years: [...new Set(entries.map((honor) => honor.year))].sort((a, b) => a - b),
+      clubs: [...new Set(entries.map((honor) => honor.club))],
+      seasons: [...new Set(entries.map((honor) => honor.season))],
+      notes: [...new Set(entries.map((honor) => honor.notes).filter(Boolean))],
+      articleSlug: entries.find((honor) => honor.articleSlug)?.articleSlug,
+      count: entries.length,
+    };
+  });
+
   return (
     <section className="mt-10">
-      <div className="mb-3 flex items-baseline justify-between gap-4">
+      <div className="mb-4 flex items-baseline justify-between gap-4">
         <h2 className="font-display text-2xl font-semibold text-paper">
           {category}
         </h2>
@@ -59,26 +83,45 @@ function HonorGroup({ category, items }) {
           {items.length} {items.length === 1 ? "honor" : "honors"}
         </span>
       </div>
-      <div className="divide-y divide-line rounded-2xl border border-line bg-pitch-raised">
-        {items.map((h) => (
-          <div
-            key={h.id}
-            className="flex flex-col gap-1 px-5 py-4 sm:flex-row sm:items-center sm:justify-between"
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {groupedHonors.map((honor) => (
+          <article
+            key={honor.name}
+            className="flex min-h-48 flex-col rounded-2xl border border-line bg-pitch-raised p-5 transition hover:border-gold/50"
           >
-            <div>
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="text-paper">{h.name}</span>
-                <span className="rounded-full bg-pitch px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
-                  {h.domestic ? "Domestic" : "International"}
+            <div className="flex items-start justify-between gap-3">
+              <span className="font-display text-lg font-semibold leading-snug text-paper">
+                {honor.name}
+              </span>
+              {honor.count > 1 && (
+                <span className="shrink-0 rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-gold">
+                  {honor.count} wins
                 </span>
-              </div>
-              <p className="mt-0.5 text-sm text-paper-dim">
-                {h.club} · {h.season}
-              </p>
-              {h.notes && <p className="mt-1 text-xs text-paper-dim/80">{h.notes}</p>}
+              )}
             </div>
-            <span className="stat-number text-2xl text-gold">{h.year}</span>
-          </div>
+            <p className="stat-number mt-3 text-xl leading-relaxed text-gold">
+              {honor.years.join(" · ")}
+            </p>
+            {honor.notes.length > 0 && (
+              <p className="mt-2 text-xs leading-relaxed text-paper-dim">
+                {honor.notes.join(" · ")}
+              </p>
+            )}
+            <div className="mt-3 border-t border-line pt-3">
+              <p className="text-xs text-paper-dim">{honor.clubs.join(" · ")}</p>
+              <p className="mt-1 text-xs text-paper-dim/80">{honor.seasons.join(" · ")}</p>
+            </div>
+            {honor.articleSlug && (
+              <div className="mt-auto border-t border-line pt-4">
+                <Link
+                  href={`/articles/${honor.articleSlug}`}
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-gold transition hover:text-gold-bright"
+                >
+                  Read article <span aria-hidden="true">→</span>
+                </Link>
+              </div>
+            )}
+          </article>
         ))}
       </div>
     </section>
@@ -122,7 +165,7 @@ export default function HonorsPage() {
   }
 
   return (
-    <div className="mx-auto max-w-4xl px-6 py-16">
+    <div className="mx-auto max-w-6xl px-6 py-16">
       <p className="font-mono text-xl uppercase tracking-[0.3em] text-gold">
         Individual honors & awards
       </p>
@@ -131,7 +174,7 @@ export default function HonorsPage() {
       </h1>
       <p className="mt-2 max-w-2xl text-paper-dim">
         Filter by year, season, club, award, or domestic vs. international
-        recognition. Honors are organized by award level.
+        recognition. Honors are grouped by award type within global, continental, and domestic award levels.
       </p>
 
       <div className="mt-8 grid grid-cols-2 gap-3 rounded-2xl border border-line bg-pitch-raised p-5 sm:grid-cols-3 lg:grid-cols-5">
