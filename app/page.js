@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CalendarDays, Layers3, TrendingUp } from "lucide-react";
 import matches from "@/data/all-matches";
 import trophies from "@/data/trophies.json";
 import honors from "@/data/honors.json";
@@ -622,23 +623,79 @@ export default function Home() {
           key={section.href}
           className="border-t border-line px-6 py-12"
         >
-          <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
-            <div className="max-w-xl">
-              <h2 className="font-display text-xl font-semibold text-paper">
-                {section.title}
-              </h2>
+          <div className="mx-auto max-w-6xl">
+            <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
+              <div className="max-w-xl">
+                <h2 className="font-display text-xl font-semibold text-paper">
+                  {section.title}
+                </h2>
 
-              <p className="mt-2 text-paper-dim">
-                {section.description}
-              </p>
+                <p className="mt-2 text-paper-dim">
+                  {section.description}
+                </p>
+              </div>
+
+              <Link
+                href={section.href}
+                className="shrink-0 rounded-full border border-line px-5 py-2.5 text-sm font-semibold text-paper transition hover:border-gold hover:bg-pitch-raised"
+              >
+                {section.cta}
+              </Link>
             </div>
 
-            <Link
-              href={section.href}
-              className="shrink-0 rounded-full border border-line px-5 py-2.5 text-sm font-semibold text-paper transition hover:border-gold hover:bg-pitch-raised"
-            >
-              {section.cta}
-            </Link>
+            {section.title === "Community" && (
+              <div className="mt-7 grid gap-4 md:grid-cols-3">
+                {[
+                  {
+                    title: "Daily Challenge",
+                    description: "Identify the mystery opponent using clues from Ronaldo's career.",
+                    detail: "A new opponent every day",
+                    icon: CalendarDays,
+                    number: "01",
+                  },
+                  {
+                    title: "Guess the Season",
+                    description: "Use appearances, goals, and assists to work out the season.",
+                    detail: "Test your career knowledge",
+                    icon: Layers3,
+                    number: "02",
+                  },
+                  {
+                    title: "Higher or Lower",
+                    description: "Compare seasonal statistics and see how long you can keep your streak alive.",
+                    detail: "Build your best streak",
+                    icon: TrendingUp,
+                    number: "03",
+                  },
+                ].map((game) => {
+                  const GameIcon = game.icon;
+
+                  return (
+                    <Link
+                      key={game.title}
+                      href="/community"
+                      className="group rounded-2xl border border-line bg-pitch-raised p-6 transition hover:-translate-y-1 hover:border-gold/60"
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="font-display text-3xl font-semibold text-gold">
+                          {game.number}
+                        </span>
+                        <GameIcon className="text-paper-dim transition group-hover:text-gold" size={22} />
+                      </div>
+                      <h3 className="mt-5 font-display text-xl font-semibold text-paper">
+                        {game.title}
+                      </h3>
+                      <p className="mt-2 min-h-12 text-sm leading-6 text-paper-dim">
+                        {game.description}
+                      </p>
+                      <p className="mt-5 border-t border-line pt-4 text-xs font-mono uppercase tracking-wider text-gold">
+                        {game.detail} <span aria-hidden="true">→</span>
+                      </p>
+                    </Link>
+                  );
+                })}
+              </div>
+            )}
           </div>
         </section>
       ))}
