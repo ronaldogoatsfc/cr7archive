@@ -15,6 +15,9 @@ import StatCard from "@/components/StatCard";
 const DEFAULT_FILTERS = {
   // basic
   season: "All",
+  year: "All",
+  dateFrom: "",
+  dateTo: "",
   competition: "All",
   team: "All",
   result: "All",
@@ -44,7 +47,28 @@ const DEFAULT_FILTERS = {
   hasFullMatch: "All",
 };
 
-const COUNT_THRESHOLDS = ["1+", "2+", "3+", "4+", "5+"];
+function getCountThresholds(getValue) {
+  const maximum = matches.reduce((max, match) => {
+    const value = Number(getValue(match));
+    return Number.isFinite(value) ? Math.max(max, Math.floor(value)) : max;
+  }, 0);
+
+  return Array.from({ length: maximum }, (_, index) => `${index + 1}+`);
+}
+
+const GOAL_THRESHOLDS = getCountThresholds((match) => match.goals);
+const ASSIST_THRESHOLDS = getCountThresholds((match) => match.assists);
+const CONTRIBUTION_THRESHOLDS = getCountThresholds(
+  (match) => (Number(match.goals) || 0) + (Number(match.assists) || 0)
+);
+const SHOT_THRESHOLDS = getCountThresholds((match) => match.stats?.shots);
+const SHOTS_ON_TARGET_THRESHOLDS = getCountThresholds((match) => match.stats?.shotsOnTarget);
+const KEY_PASS_THRESHOLDS = getCountThresholds((match) => match.stats?.keyPasses);
+const BIG_CHANCE_THRESHOLDS = getCountThresholds((match) => match.stats?.bigChancesCreated);
+const DRIBBLE_THRESHOLDS = getCountThresholds((match) => match.stats?.successfulDribbles);
+const AERIAL_DUEL_THRESHOLDS = getCountThresholds((match) => match.stats?.aerialDuelsWon);
+const FREE_KICK_THRESHOLDS = getCountThresholds((match) => match.stats?.freeKickAttempts);
+const THROUGHBALL_THRESHOLDS = getCountThresholds((match) => match.stats?.accurateThroughballs);
 const XG_THRESHOLDS = ["0.5+", "1+", "1.5+", "2+"];
 const RATING_THRESHOLDS = ["6+", "7+", "7.5+", "8+", "9+"];
 
@@ -515,6 +539,10 @@ export default function MatchLogsPage() {
   const [showDetailedStats, setShowDetailedStats] = useState(false);
 
   const seasons = useMemo(() => getSeasonsSorted(matches), []);
+  const years = useMemo(
+    () => [...new Set(matches.map((match) => match.date?.slice(0, 4)).filter(Boolean))].sort((a, b) => b.localeCompare(a)),
+    []
+  );
   const competitions = useMemo(
     () => getUniqueValues(matches, "competition"),
     []
@@ -566,6 +594,36 @@ export default function MatchLogsPage() {
             onChange={(v) => updateFilter("season", v)}
             options={seasons}
           />
+          <Select
+            label="Year"
+            value={filters.year}
+            onChange={(v) => updateFilter("year", v)}
+            options={years}
+          />
+          <label className="flex flex-col gap-1">
+            <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+              Date from
+            </span>
+            <input
+              type="date"
+              value={filters.dateFrom}
+              max={filters.dateTo || undefined}
+              onChange={(e) => updateFilter("dateFrom", e.target.value)}
+              className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+            />
+          </label>
+          <label className="flex flex-col gap-1">
+            <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+              Date to
+            </span>
+            <input
+              type="date"
+              value={filters.dateTo}
+              min={filters.dateFrom || undefined}
+              onChange={(e) => updateFilter("dateTo", e.target.value)}
+              className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+            />
+          </label>
           <Select
             label="Competition"
             value={filters.competition}
@@ -635,19 +693,19 @@ export default function MatchLogsPage() {
                 label="Goals"
                 value={filters.minGoals}
                 onChange={(v) => updateFilter("minGoals", v)}
-                options={COUNT_THRESHOLDS}
+                options={GOAL_THRESHOLDS}
               />
               <MinSelect
                 label="Assists"
                 value={filters.minAssists}
                 onChange={(v) => updateFilter("minAssists", v)}
-                options={COUNT_THRESHOLDS}
+                options={ASSIST_THRESHOLDS}
               />
               <MinSelect
                 label="Goal Contributions"
                 value={filters.minGoalContributions}
                 onChange={(v) => updateFilter("minGoalContributions", v)}
-                options={COUNT_THRESHOLDS}
+                options={CONTRIBUTION_THRESHOLDS}
               />
             </FilterSection>
 
@@ -656,19 +714,19 @@ export default function MatchLogsPage() {
                 label="Shots"
                 value={filters.minShots}
                 onChange={(v) => updateFilter("minShots", v)}
-                options={COUNT_THRESHOLDS}
+                options={SHOT_THRESHOLDS}
               />
               <MinSelect
                 label="Shots on Target"
                 value={filters.minShotsOnTarget}
                 onChange={(v) => updateFilter("minShotsOnTarget", v)}
-                options={COUNT_THRESHOLDS}
+                options={SHOTS_ON_TARGET_THRESHOLDS}
               />
               <MinSelect
                 label="Key Passes"
                 value={filters.minKeyPasses}
                 onChange={(v) => updateFilter("minKeyPasses", v)}
-                options={COUNT_THRESHOLDS}
+                options={KEY_PASS_THRESHOLDS}
                 infoTitle="Key Passes"
                 infoContent="The final pass leading to a shot on goal by a teammate."
               />
@@ -676,31 +734,31 @@ export default function MatchLogsPage() {
                 label="Big Chances Created"
                 value={filters.minBigChancesCreated}
                 onChange={(v) => updateFilter("minBigChancesCreated", v)}
-                options={COUNT_THRESHOLDS}
+                options={BIG_CHANCE_THRESHOLDS}
               />
               <MinSelect
                 label="Dribbles"
                 value={filters.minDribbles}
                 onChange={(v) => updateFilter("minDribbles", v)}
-                options={COUNT_THRESHOLDS}
+                options={DRIBBLE_THRESHOLDS}
               />
               <MinSelect
                 label="Aerial Duels Won"
                 value={filters.minAerialDuelsWon}
                 onChange={(v) => updateFilter("minAerialDuelsWon", v)}
-                options={COUNT_THRESHOLDS}
+                options={AERIAL_DUEL_THRESHOLDS}
               />
               <MinSelect
                 label="Free Kick Attempts"
                 value={filters.minFreeKickAttempts}
                 onChange={(v) => updateFilter("minFreeKickAttempts", v)}
-                options={COUNT_THRESHOLDS}
+                options={FREE_KICK_THRESHOLDS}
               />
               <MinSelect
                 label="Throughballs"
                 value={filters.minThroughballs}
                 onChange={(v) => updateFilter("minThroughballs", v)}
-                options={COUNT_THRESHOLDS}
+                options={THROUGHBALL_THRESHOLDS}
               />
               <MinSelect
                 label="xG"
