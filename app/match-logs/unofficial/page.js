@@ -294,11 +294,18 @@ export default function UnofficialMatchesPage() {
         <StatCard label="Matches" value={totals.matches} />
         <StatCard label="Goals" value={totals.goals} />
         <StatCard label="Assists" value={totals.assists} />
-        <StatCard
-          label="Record"
-          value={`${totals.wins}-${totals.draws}-${totals.losses}`}
-          accent="turf"
-        />
+        <div className="rounded-2xl border border-line bg-pitch-raised p-6">
+          <p className="font-mono text-xs uppercase tracking-widest text-paper-dim">
+            Record
+          </p>
+          <p className="data-mono mt-2 text-4xl font-semibold">
+            <span className="text-turf-bright">{totals.wins}</span>
+            <span className="text-paper-dim">-</span>
+            <span className="text-paper-dim">{totals.draws}</span>
+            <span className="text-paper-dim">-</span>
+            <span className="text-goal-red">{totals.losses}</span>
+          </p>
+        </div>
       </div>
 
       <div className="mt-8 overflow-x-auto rounded-2xl border border-line">
@@ -311,7 +318,7 @@ export default function UnofficialMatchesPage() {
               <th className="px-4 py-3">Club</th>
               <th className="px-4 py-3">Opponent</th>
               <th className="px-4 py-3">Venue</th>
-              <th className="px-4 py-3 text-center">Score / Result</th>
+              <th className="px-4 py-3 text-center">Score</th>
               <th className="px-4 py-3 text-center">Mins</th>
               <th className="px-4 py-3 text-center">G</th>
               <th className="px-4 py-3 text-center">A</th>
