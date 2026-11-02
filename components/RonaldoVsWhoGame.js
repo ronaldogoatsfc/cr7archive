@@ -11,7 +11,7 @@ import {
   XCircle,
 } from "lucide-react";
 
-const MAX_GUESSES = 4;
+const MAX_GUESSES = 5;
 const STORAGE_PREFIX = "ronaldo-vs-who-daily-";
 
 function normalize(value) {
@@ -83,8 +83,16 @@ export default function RonaldoVsWhoGame({ opponents }) {
         const state = JSON.parse(saved);
         if (Array.isArray(state.guesses)) setGuesses(state.guesses);
         if (Number.isInteger(state.revealedClues)) setRevealedClues(Math.min(2, state.revealedClues));
-        if (typeof state.gameOver === "boolean") setGameOver(state.gameOver);
         if (typeof state.won === "boolean") setWon(state.won);
+        if (typeof state.gameOver === "boolean") {
+          // Give players who already used all four guesses today their newly added fifth guess.
+          const canContinueWithNewGuess =
+            state.gameOver &&
+            state.won !== true &&
+            Array.isArray(state.guesses) &&
+            state.guesses.length === 4;
+          setGameOver(canContinueWithNewGuess ? false : state.gameOver);
+        }
       }
     } catch {
       // The challenge still loads if browser storage is unavailable or invalid.
@@ -203,7 +211,7 @@ export default function RonaldoVsWhoGame({ opponents }) {
         <div>
           <h3 className="font-display text-2xl font-semibold text-paper sm:text-3xl">Ronaldo vs. Who?</h3>
           <p className="mt-2 max-w-2xl text-sm leading-6 text-paper-dim">
-            Identify today's opponent from Ronaldo's career statistics. You get four guesses, and the mystery opponent changes daily.
+            Identify today's opponent from Ronaldo's career statistics. You get five guesses, and the mystery opponent changes daily.
           </p>
         </div>
 
