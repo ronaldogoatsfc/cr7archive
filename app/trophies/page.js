@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import trophies from "@/data/trophies.json";
 import {
   filterTrophies,
@@ -53,7 +54,7 @@ function Select({ label, value, onChange, options }) {
 function TrophyGroup({ club, items }) {
   return (
     <section className="mt-10">
-      <div className="mb-3 flex items-baseline justify-between gap-4">
+      <div className="mb-4 flex items-baseline justify-between gap-4">
         <h2 className="font-display text-2xl font-semibold text-paper">
           {club}
         </h2>
@@ -61,28 +62,40 @@ function TrophyGroup({ club, items }) {
           {items.length} {items.length === 1 ? "trophy" : "trophies"}
         </span>
       </div>
-      <div className="divide-y divide-line rounded-2xl border border-line bg-pitch-raised">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {items.map((t) => (
-          <div
+          <article
             key={t.id}
-            className="flex flex-col gap-1 px-5 py-4 sm:flex-row sm:items-center sm:justify-between"
+            className="flex min-h-44 flex-col rounded-2xl border border-line bg-pitch-raised p-5 transition hover:border-gold/50"
           >
-            <div>
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="text-paper">{t.name}</span>
-                {t.isFriendly && (
-                  <span className="rounded-full border border-goal-red px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-goal-red">
-                    Friendly — not counted
-                  </span>
-                )}
-                <span className="rounded-full bg-pitch px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
-                  {t.domestic ? "Domestic" : "International"}
-                </span>
-              </div>
-              <p className="mt-0.5 text-sm text-paper-dim">{t.season}</p>
+            <div className="flex items-start justify-between gap-3">
+              <span className="font-display text-lg font-semibold leading-snug text-paper">
+                {t.name}
+              </span>
+              <span className="stat-number shrink-0 text-xl text-gold">{t.year}</span>
             </div>
-            <span className="stat-number text-2xl text-gold">{t.year}</span>
-          </div>
+            <p className="mt-2 text-sm text-paper-dim">{t.season}</p>
+            <div className="mt-4 flex flex-wrap items-center gap-2">
+              {t.isFriendly && (
+                <span className="rounded-full border border-goal-red px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-goal-red">
+                  Friendly — not counted
+                </span>
+              )}
+              <span className="rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
+                {t.domestic ? "Domestic" : "International"}
+              </span>
+            </div>
+            {t.articleSlug && (
+              <div className="mt-auto border-t border-line pt-4">
+                <Link
+                  href={`/articles/${t.articleSlug}`}
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-gold transition hover:text-gold-bright"
+                >
+                  Read article <span aria-hidden="true">→</span>
+                </Link>
+              </div>
+            )}
+          </article>
         ))}
       </div>
     </section>
@@ -124,7 +137,7 @@ export default function TrophiesPage() {
   }
 
   return (
-    <div className="mx-auto max-w-4xl px-6 py-16">
+    <div className="mx-auto max-w-6xl px-6 py-16">
       <p className="font-mono text-xl uppercase tracking-[0.3em] text-gold">
         Trophy cabinet
       </p>
