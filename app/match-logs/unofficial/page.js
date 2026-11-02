@@ -298,7 +298,7 @@ export default function UnofficialMatchesPage() {
           <p className="font-mono text-xs uppercase tracking-widest text-paper-dim">
             Record
           </p>
-          <p className="data-mono mt-2 text-4xl font-semibold">
+          <p className="stat-number mt-2 text-4xl font-semibold text-paper">
             <span className="text-turf-bright">{totals.wins}</span>
             <span className="text-paper-dim">-</span>
             <span className="text-paper-dim">{totals.draws}</span>
