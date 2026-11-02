@@ -823,7 +823,8 @@ export default function VisualizationsPage() {
         {chartCategories.map((category) => {
           const visibleCharts = charts.filter(
             (chart) =>
-              (categoryFilter === "All" || chart.category === category) &&
+              chart.category === category &&
+              (categoryFilter === "All" || chart.category === categoryFilter) &&
               (breakdownFilter === "All" || chart.breakdown === breakdownFilter)
           );
 
