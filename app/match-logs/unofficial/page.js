@@ -13,6 +13,9 @@ import StatCard from "@/components/StatCard";
 
 const DEFAULT_FILTERS = {
   season: "All",
+  year: "All",
+  dateFrom: "",
+  dateTo: "",
   competition: "All",
   team: "All",
   result: "All",
@@ -56,7 +59,11 @@ function Select({ label, value, onChange, options }) {
   );
 }
 
-const resultDot = { W: "bg-turf-bright", D: "bg-paper-dim", L: "bg-goal-red" };
+function getScoreColor(result) {
+  if (result === "W") return "text-turf-bright";
+  if (result === "L") return "text-goal-red";
+  return "text-paper-dim";
+}
 
 function StatTile({ label, value }) {
   return (
@@ -155,6 +162,10 @@ export default function UnofficialMatchesPage() {
   const [expandedId, setExpandedId] = useState(null);
 
   const seasons = useMemo(() => getSeasonsSorted(matches), []);
+  const years = useMemo(
+    () => [...new Set(matches.map((match) => match.date?.slice(0, 4)).filter(Boolean))].sort((a, b) => b.localeCompare(a)),
+    []
+  );
   const competitions = useMemo(
     () => getUniqueValues(matches, "competition"),
     []
@@ -192,7 +203,7 @@ export default function UnofficialMatchesPage() {
         Pre-season friendlies, exhibition tours, youth-level games, and similar
         matches that don&apos;t count toward official career totals — kept
         here separately so the main match logs page stays accurate. Filter by
-        season, competition, club, result, or venue.
+        season, year, date range, competition, club, result, or venue.
       </p>
       <p className="mt-2 max-w-2xl font-mono text-xs uppercase tracking-widest text-goal-red">
         Not counted toward official career stats
@@ -205,6 +216,36 @@ export default function UnofficialMatchesPage() {
           onChange={(v) => updateFilter("season", v)}
           options={seasons}
         />
+        <Select
+          label="Year"
+          value={filters.year}
+          onChange={(v) => updateFilter("year", v)}
+          options={years}
+        />
+        <label className="flex flex-col gap-1">
+          <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+            Date from
+          </span>
+          <input
+            type="date"
+            value={filters.dateFrom}
+            max={filters.dateTo || undefined}
+            onChange={(e) => updateFilter("dateFrom", e.target.value)}
+            className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+          />
+        </label>
+        <label className="flex flex-col gap-1">
+          <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+            Date to
+          </span>
+          <input
+            type="date"
+            value={filters.dateTo}
+            min={filters.dateFrom || undefined}
+            onChange={(e) => updateFilter("dateTo", e.target.value)}
+            className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+          />
+        </label>
         <Select
           label="Competition"
           value={filters.competition}
@@ -252,7 +293,7 @@ export default function UnofficialMatchesPage() {
       <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
         <StatCard label="Matches" value={totals.matches} />
         <StatCard label="Goals" value={totals.goals} />
-        <StatCard label="Assists" value={totals.assists} accent="turf" />
+        <StatCard label="Assists" value={totals.assists} />
         <StatCard
           label="Record"
           value={`${totals.wins}-${totals.draws}-${totals.losses}`}
@@ -270,8 +311,7 @@ export default function UnofficialMatchesPage() {
               <th className="px-4 py-3">Club</th>
               <th className="px-4 py-3">Opponent</th>
               <th className="px-4 py-3">Venue</th>
-              <th className="px-4 py-3 text-center">Result</th>
-              <th className="px-4 py-3 text-center">Score</th>
+              <th className="px-4 py-3 text-center">Score / Result</th>
               <th className="px-4 py-3 text-center">Mins</th>
               <th className="px-4 py-3 text-center">G</th>
               <th className="px-4 py-3 text-center">A</th>
@@ -308,15 +348,20 @@ export default function UnofficialMatchesPage() {
                     <td className="px-4 py-3 text-paper-dim">{m.team}</td>
                     <td className="px-4 py-3 text-paper">{m.opponent}</td>
                     <td className="px-4 py-3 text-paper-dim">{m.venue}</td>
-                    <td className="px-4 py-3 text-center">
-                      <span
-                        className={`inline-block h-2.5 w-2.5 rounded-full ${
-                          resultDot[m.result]
-                        }`}
-                        title={m.result}
-                      />
-                    </td>
-                    <td className="data-mono px-4 py-3 text-center text-paper">
+                    <td
+                      className={`data-mono px-4 py-3 text-center font-semibold ${getScoreColor(
+                        m.result
+                      )}`}
+                      title={
+                        m.result === "W"
+                          ? "Win"
+                          : m.result === "D"
+                            ? "Draw"
+                            : m.result === "L"
+                              ? "Loss"
+                              : "Result unavailable"
+                      }
+                    >
                       {m.scoreFor}–{m.scoreAgainst}
                     </td>
                     <td className="data-mono px-4 py-3 text-center text-paper-dim">
@@ -325,7 +370,7 @@ export default function UnofficialMatchesPage() {
                     <td className="data-mono px-4 py-3 text-center font-semibold text-gold">
                       {m.goals}
                     </td>
-                    <td className="data-mono px-4 py-3 text-center text-turf-bright">
+                    <td className="data-mono px-4 py-3 text-center font-semibold text-gold">
                       {m.assists}
                     </td>
                   </tr>
@@ -336,7 +381,7 @@ export default function UnofficialMatchesPage() {
             {filtered.length === 0 && (
               <tr>
                 <td
-                  colSpan={11}
+                  colSpan={10}
                   className="px-4 py-10 text-center text-paper-dim"
                 >
                   No unofficial matches logged yet.
