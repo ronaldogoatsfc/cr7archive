@@ -256,7 +256,14 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=I8Rs_2AvMYY",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "stats": {
+      "shots": 8,
+      "shotsOnTarget": 3,
+      "successfulDribbles": 1
+    },
+    "statsSource": "manual",
+    "statsStatus": "unofficial"
   },
   {
     "id": "2010-05-16",
@@ -1027,7 +1034,16 @@
         "assistedPlayer": "Hugo Almeida",
         "optaAssist": true
       }
-    ]
+    ],
+    "stats": {
+      "shots": 2,
+      "shotsOnTarget": 1,
+      "successfulDribbles": 1,
+      "bigChancesCreated": 1,
+      "keyPasses": 1
+    },
+    "statsSource": "manual",
+    "statsStatus": "unofficial"
   },
   {
     "id": "2010-02-27",
