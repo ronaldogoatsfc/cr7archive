@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, CalendarDays, Clock3 } from "lucide-react";
 import { getTimelineEvents, getEventPresentation, getTimelineMatch } from "@/lib/timeline";
 import TimelinePerformanceCard from "@/components/TimelinePerformanceCard";
+import TimelineMomentCard from "@/components/TimelineMomentCard";
 
 export const metadata = {
   title: "Career Timeline | The Ronaldo Archive",
@@ -19,40 +20,7 @@ function TimelineEvent({ event }) {
     return <TimelinePerformanceCard event={event} match={match} presentation={presentation} />;
   }
 
-  return (
-    <article className="group relative grid gap-3 sm:grid-cols-[104px_minmax(0,1fr)] sm:gap-6">
-      <div className="relative z-10 flex items-center gap-3 sm:flex-col sm:items-end sm:gap-1 sm:pt-5">
-        <span className="font-mono text-xs uppercase tracking-[0.2em] text-paper-dim">
-          {month}
-        </span>
-        <span className="stat-number text-3xl font-semibold leading-none text-paper sm:text-4xl">
-          {day}
-        </span>
-      </div>
-
-      <div className="rounded-2xl border border-line bg-pitch-raised/80 p-5 transition duration-300 group-hover:border-gold/40 group-hover:bg-pitch-raised sm:p-6">
-        <div className="mb-3 flex flex-wrap items-center gap-2">
-          <span className="rounded-full border border-gold/30 bg-gold/10 px-3 py-1 font-mono text-[10px] uppercase tracking-[0.15em] text-gold">
-            {presentation.category}
-          </span>
-          {presentation.highlights.map((highlight) => (
-            <span
-              key={highlight.label}
-              className="rounded-full border border-line px-3 py-1 font-mono text-[10px] uppercase tracking-wide text-paper-dim"
-            >
-              <span className="text-paper">{highlight.value}</span>{" "}
-              {highlight.label}
-            </span>
-          ))}
-        </div>
-        <p className="text-sm leading-7 text-paper sm:text-[15px]">
-          {event.description}
-        </p>
-      </div>
-
-      <span className="absolute left-[7px] top-0 hidden h-full w-px bg-gradient-to-b from-gold/50 via-line to-transparent sm:block" />
-    </article>
-  );
+  return <TimelineMomentCard event={event} presentation={presentation} month={month} day={day} />;
 }
 
 export default function TimelinePage() {
