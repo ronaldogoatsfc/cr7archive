@@ -20,7 +20,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/312097381",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-fc-internazionale-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-fc-internazionale-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2002-09-19",
@@ -43,7 +44,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=BD-JrESn88Q",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-fk-partizan"
+    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-fk-partizan",
+    "assistEvents": []
   },
   {
     "id": "2002-09-29",
@@ -65,7 +67,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2002-10-03",
@@ -88,7 +91,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/224993953",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://www.youtube.com/watch?v=CpHapaPu0aw"
+    "fullMatchUrl": "https://www.youtube.com/watch?v=CpHapaPu0aw",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2002-10-03-55",
+        "minute": "55",
+        "assistedPlayer": "Vitali Kutuzov",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
+      }
+    ]
   },
   {
     "id": "2002-10-07",
@@ -130,7 +142,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Rui Jorge"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2002-10-20",
@@ -152,7 +165,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2002-10-26",
@@ -185,7 +199,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Carlos Martins"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2002-11-02",
@@ -207,7 +222,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=oq5vdB1S7bg",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-gil-vicente-primeira-liga"
+    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-gil-vicente-primeira-liga",
+    "assistEvents": []
   },
   {
     "id": "2002-11-08",
@@ -229,7 +245,15 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=jr81q2LYY_8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/vitoria-de-guimaraes-sporting-cp-primeira-liga"
+    "fullMatchUrl": "https://footballia.net/matches/vitoria-de-guimaraes-sporting-cp-primeira-liga",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2002-11-08-18",
+        "minute": "18",
+        "assistedPlayer": "Mário Jardel",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2002-11-15",
@@ -251,7 +275,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2002-11-24",
@@ -284,7 +309,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "César Prates"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2002-11-30",
@@ -306,7 +332,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=K81GwehA-hA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sc-beira-mar-sporting-cp-primeira-liga"
+    "fullMatchUrl": "https://footballia.net/matches/sc-beira-mar-sporting-cp-primeira-liga",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-1",
+        "assistNumber": 1,
+        "minute": "90+3",
+        "assistedPlayer": "Marius Niculae",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2002-12-07",
@@ -328,7 +363,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Dpsp7-5X7TY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-sl-benfica-primeira-liga-2002-2003"
+    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-sl-benfica-primeira-liga-2002-2003",
+    "assistEvents": []
   },
   {
     "id": "2002-12-14",
@@ -350,7 +386,23 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-3",
+        "assistNumber": 3,
+        "minute": "80",
+        "assistedPlayer": "Pablo Contreras",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-2",
+        "assistNumber": 2,
+        "minute": "30",
+        "assistedPlayer": "João Pinto",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2002-12-18",
@@ -383,7 +435,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Ricardo Fernandes"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2002-12-22",
@@ -405,7 +458,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2003-01-04",
@@ -427,7 +481,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=9y0RrFlI1-U",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/vitoria-de-setubal-sporting-cp"
+    "fullMatchUrl": "https://footballia.net/matches/vitoria-de-setubal-sporting-cp",
+    "assistEvents": []
   },
   {
     "id": "2003-01-11",
@@ -449,7 +504,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=tzZMi9erP4s",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-fc-porto-primeira-liga-2002-2003"
+    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-fc-porto-primeira-liga-2002-2003",
+    "assistEvents": []
   },
   {
     "id": "2003-01-25",
@@ -471,7 +527,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=WEjtdFs4vdM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/cd-santa-clara-sporting-cp"
+    "fullMatchUrl": "https://footballia.net/matches/cd-santa-clara-sporting-cp",
+    "assistEvents": []
   },
   {
     "id": "2003-02-05",
@@ -493,7 +550,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2003-03-01",
@@ -515,7 +573,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=6qzQuq9C_F4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://www.youtube.com/watch?v=hOImyMK8gN4"
+    "fullMatchUrl": "https://www.youtube.com/watch?v=hOImyMK8gN4",
+    "assistEvents": []
   },
   {
     "id": "2003-03-09",
@@ -537,7 +596,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2003-03-16",
@@ -559,7 +619,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=IofibGgTx_A",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-boavista-fc-primeira-liga-2002-2003"
+    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-boavista-fc-primeira-liga-2002-2003",
+    "assistEvents": []
   },
   {
     "id": "2003-03-21",
@@ -581,7 +642,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2003-04-06",
@@ -603,7 +665,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=xOvgYlI8Z8I",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-vitoria-de-guimaraes-primeira-liga"
+    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-vitoria-de-guimaraes-primeira-liga",
+    "assistEvents": []
   },
   {
     "id": "2003-04-19",
@@ -625,7 +688,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=TPnfGHWUJVI",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2003-04-25",
@@ -647,7 +711,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2003-05-12",
@@ -669,7 +734,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=gTtJs7GmmBM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-uniao-de-leiria"
+    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-uniao-de-leiria",
+    "assistEvents": []
   },
   {
     "id": "2003-05-17",
@@ -691,7 +757,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=3xAFgmlKp5M",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/cd-nacional-sporting-cp"
+    "fullMatchUrl": "https://footballia.net/matches/cd-nacional-sporting-cp",
+    "assistEvents": []
   },
   {
     "id": "2003-05-24",
@@ -713,7 +780,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=KwSUImQdBNs",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-4",
+        "assistNumber": 4,
+        "minute": "26",
+        "assistedPlayer": "João Pinto",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
+      }
+    ]
   },
   {
     "id": "2003-06-01",
@@ -735,6 +812,7 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=UM9Q7kWl2bA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-porto-sporting-cp"
+    "fullMatchUrl": "https://footballia.net/matches/fc-porto-sporting-cp",
+    "assistEvents": []
   }
 ]
