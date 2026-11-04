@@ -296,8 +296,10 @@ function EventSection({ title, count, events, type }) {
       ? [
           ["goalType", "Goal type"],
           ["bodyPart", "Finish"],
+          ["shotLocation", "Shot location"],
           ["assistedBy", "Assisted by"],
           ["gameState", "Game state"],
+          ["goalPeriod", "Goal period"],
           ["description", "Notes"],
         ]
       : [
@@ -347,7 +349,7 @@ function EventSection({ title, count, events, type }) {
                   >
                     <div className="mb-2 flex flex-wrap items-center gap-2">
                       <span className="font-mono text-xs font-semibold text-gold">
-                        {type === "goal" ? "Goal" : "Assist"} {index + 1}
+                        {type === "goal" ? `Goal${event.goalNumber ? ` #${event.goalNumber}` : ` ${index + 1}`}` : `Assist ${index + 1}`}
                       </span>
                       {event.minute !== undefined && event.minute !== null && (
                         <span className="rounded-full bg-pitch-raised px-2 py-0.5 font-mono text-xs text-paper-dim">
