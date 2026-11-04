@@ -33,7 +33,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/211216008",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/germany-portugal-world-cup"
+    "fullMatchUrl": "https://footballia.net/matches/germany-portugal-world-cup",
+    "assistEvents": []
   },
   {
     "id": "2006-07-05",
@@ -69,7 +70,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/221176953",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-france"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-france",
+    "assistEvents": []
   },
   {
     "id": "2006-07-01",
@@ -105,7 +107,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/217363505",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/england-portugal-world-cup"
+    "fullMatchUrl": "https://footballia.net/matches/england-portugal-world-cup",
+    "assistEvents": []
   },
   {
     "id": "2006-06-25",
@@ -141,7 +144,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/119037494",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-netherlands"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-netherlands",
+    "assistEvents": []
   },
   {
     "id": "2006-06-17",
@@ -186,7 +190,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2006-06-11",
@@ -222,7 +227,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/121020307",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/angola-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/angola-portugal",
+    "assistEvents": []
   },
   {
     "id": "2006-06-03",
@@ -244,7 +250,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=3VNpQ4_QMsw",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/luxembourg-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/luxembourg-portugal",
+    "assistEvents": []
   },
   {
     "id": "2006-05-27",
@@ -266,7 +273,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=tAC9--kBQ4o",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-cape-verde-friendly"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-cape-verde-friendly",
+    "assistEvents": []
   },
   {
     "id": "2006-05-07",
@@ -299,7 +307,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2006-05-01",
@@ -321,7 +330,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=y1qUQ3fo5TU",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2006-04-29",
@@ -343,7 +353,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Re5CirKQKNo",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/chelsea-fc-manchester-united-premier-league-2005-2006"
+    "fullMatchUrl": "https://footballia.net/matches/chelsea-fc-manchester-united-premier-league-2005-2006",
+    "assistEvents": []
   },
   {
     "id": "2006-04-17",
@@ -365,7 +376,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/140319853",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-35",
+        "assistNumber": 35,
+        "minute": "8",
+        "assistedPlayer": "Wayne Rooney",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2006-04-14",
@@ -387,7 +407,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=HD2zO1QlzIU",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2006-04-09",
@@ -409,7 +430,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=0qtOLMAzA-o",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-arsenal-fc-premier-league-2005-2006"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-arsenal-fc-premier-league-2005-2006",
+    "assistEvents": []
   },
   {
     "id": "2006-04-01",
@@ -431,7 +453,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=AwTD7kLIIl8",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2006-03-29",
@@ -453,7 +476,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=FuDBDdYM9qA",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2006-03-26",
@@ -475,7 +499,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=2h07SsALr4Y",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-34",
+        "assistNumber": 34,
+        "minute": "83",
+        "assistedPlayer": "Wayne Rooney",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2006-03-18",
@@ -497,7 +530,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=cNqCJ_z3j2w",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-33",
+        "assistNumber": 33,
+        "minute": "64",
+        "assistedPlayer": "Ruud van Nistelrooy",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2006-03-12",
@@ -519,7 +561,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=0v3c8jr4YnA",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2006-03-06",
@@ -552,7 +595,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Ruud van Nistelrooy"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2006-03-01",
@@ -594,7 +638,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Hugo Viana"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2006-02-26",
@@ -627,7 +672,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Louis Saha"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2006-02-18",
@@ -649,7 +695,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=SoQ-bEbgWhY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/liverpool-fc-manchester-united-fa-cup-2005-2006"
+    "fullMatchUrl": "https://footballia.net/matches/liverpool-fc-manchester-united-fa-cup-2005-2006",
+    "assistEvents": []
   },
   {
     "id": "2006-02-11",
@@ -690,7 +737,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Wayne Rooney"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2006-02-04",
@@ -730,7 +778,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2006-02-01",
@@ -752,7 +801,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Ndbib24OHiw",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/blackburn-rovers-manchester-united"
+    "fullMatchUrl": "https://footballia.net/matches/blackburn-rovers-manchester-united",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-32",
+        "assistNumber": 32,
+        "minute": "63",
+        "assistedPlayer": "Ruud van Nistelrooy",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2006-01-14",
@@ -774,7 +832,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=JQmb-Jlyzmg",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2006-01-11",
@@ -797,7 +856,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=h4-TiTDadQo",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2006-01-08",
@@ -819,7 +879,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Kk0Je4TrH0M",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2006-01-03",
@@ -841,7 +902,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=5cWXZIPuemk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/arsenal-fc-manchester-united-premier-league-2005-2006"
+    "fullMatchUrl": "https://footballia.net/matches/arsenal-fc-manchester-united-premier-league-2005-2006",
+    "assistEvents": []
   },
   {
     "id": "2005-12-31",
@@ -883,7 +945,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Ruud van Nistelrooy"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2005-12-28",
@@ -905,7 +968,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=TMoT3HmbhbA",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2005-12-20",
@@ -927,7 +991,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Xi1syW_8mrs",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-31",
+        "assistNumber": 31,
+        "minute": "46",
+        "assistedPlayer": "Louis Saha",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2005-12-17",
@@ -949,7 +1022,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=IyZgDiot8Cw",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2005-12-14",
@@ -971,7 +1045,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=IUl5joFWtsQ",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2005-12-11",
@@ -993,7 +1068,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=J4aWGngwu-k",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2005-12-07",
@@ -1029,7 +1105,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/210409006",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sl-benfica-manchester-united-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/sl-benfica-manchester-united-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2005-12-03",
@@ -1051,7 +1128,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=RSiJ6Sb6KuU",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-30",
+        "assistNumber": 30,
+        "minute": "84",
+        "assistedPlayer": "Ruud van Nistelrooy",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2005-11-30",
@@ -1082,7 +1168,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2005-11-22",
@@ -1118,7 +1205,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/174023584",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-villarreal-cf-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-villarreal-cf-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2005-11-19",
@@ -1140,7 +1228,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=jry2Wm8GPmg",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2005-11-15",
@@ -1162,7 +1251,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=g6njCHVS9Ck",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2005-11-15-40",
+        "minute": "40",
+        "assistedPlayer": "Stephen Craigan",
+        "optaAssist": false,
+        "assistClarification": "Own goal assist"
+      }
+    ]
   },
   {
     "id": "2005-11-12",
@@ -1184,7 +1282,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=_LOOkg0pxts",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-croatia-friendly"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-croatia-friendly",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-29",
+        "assistNumber": 29,
+        "minute": "65",
+        "assistedPlayer": "Pauleta",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2005-11-06",
@@ -1206,7 +1313,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=0RL98U-WLnA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-chelsea-fc-premier-league-2005-2006"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-chelsea-fc-premier-league-2005-2006",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-28",
+        "assistNumber": 28,
+        "minute": "31",
+        "assistedPlayer": "Darren Fletcher",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2005-11-02",
@@ -1242,7 +1358,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/178806728",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/lille-osc-manchester-united-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/lille-osc-manchester-united-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2005-10-29",
@@ -1275,7 +1392,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Paul Scholes"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2005-10-22",
@@ -1297,7 +1415,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=H4bh9vru1aI",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-tottenham-hotspur-premier-league-2005-2006"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-tottenham-hotspur-premier-league-2005-2006",
+    "assistEvents": []
   },
   {
     "id": "2005-10-18",
@@ -1333,7 +1452,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/197798629",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2005-10-15",
@@ -1355,7 +1475,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=rZWav5mupmI",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sunderland-afc-manchester-united"
+    "fullMatchUrl": "https://footballia.net/matches/sunderland-afc-manchester-united",
+    "assistEvents": []
   },
   {
     "id": "2005-10-12",
@@ -1377,7 +1498,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=jcbhBNlEcxo",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-latvia-world-cup-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-latvia-world-cup-qualification",
+    "assistEvents": []
   },
   {
     "id": "2005-10-08",
@@ -1399,7 +1521,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=4vU70JmP6ng",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-liechtenstein-world-cup-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-liechtenstein-world-cup-qualification",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-27",
+        "assistNumber": 27,
+        "minute": "48",
+        "assistedPlayer": "Pauleta",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2005-10-01",
@@ -1421,7 +1552,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=G-Lhe7yK800",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2005-09-27",
@@ -1457,7 +1589,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/195040287",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-sl-benfica-champions-league-2005-2006"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-sl-benfica-champions-league-2005-2006",
+    "assistEvents": []
   },
   {
     "id": "2005-09-24",
@@ -1479,7 +1612,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=dWtf2ld3SbY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-blackburn-rovers-premier-league-2005-2006"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-blackburn-rovers-premier-league-2005-2006",
+    "assistEvents": []
   },
   {
     "id": "2005-09-18",
@@ -1501,7 +1635,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=e81czK3s7So",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/liverpool-fc-manchester-united-premier-league-2005-2006"
+    "fullMatchUrl": "https://footballia.net/matches/liverpool-fc-manchester-united-premier-league-2005-2006",
+    "assistEvents": []
   },
   {
     "id": "2005-09-14",
@@ -1537,7 +1672,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/159697868",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/villarreal-cf-manchester-united-champions-league-2005-2006"
+    "fullMatchUrl": "https://footballia.net/matches/villarreal-cf-manchester-united-champions-league-2005-2006",
+    "assistEvents": []
   },
   {
     "id": "2005-09-07",
@@ -1559,7 +1695,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=XHXF7GUe47k",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/russia-portugal-world-cup-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/russia-portugal-world-cup-qualification",
+    "assistEvents": []
   },
   {
     "id": "2005-09-03",
@@ -1581,7 +1718,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=x39mTAT1RMY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-luxembourg-world-cup-qualification-2005"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-luxembourg-world-cup-qualification-2005",
+    "assistEvents": []
   },
   {
     "id": "2005-08-28",
@@ -1603,7 +1741,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=_2HQf-mZflI",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2005-08-24",
@@ -1626,7 +1765,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Fz9bvXgD2Fc",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-26",
+        "assistNumber": 26,
+        "minute": "65",
+        "assistedPlayer": "Kieran Richardson",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2005-08-20",
@@ -1648,7 +1796,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ZSpzBRajD3w",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2005-08-20-66",
+        "minute": "66",
+        "assistedPlayer": "Ruud van Nistelrooy",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
+      }
+    ]
   },
   {
     "id": "2005-08-09",
@@ -1682,6 +1839,7 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Paul Scholes"
       }
-    ]
+    ],
+    "assistEvents": []
   }
 ]
