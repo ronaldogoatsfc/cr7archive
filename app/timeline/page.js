@@ -11,12 +11,12 @@ export const metadata = {
 
 function TimelineEvent({ event }) {
   const presentation = getEventPresentation(event);
-  const match = presentation.category === "Performance" ? getTimelineMatch(event) : null;
+  const match = getTimelineMatch(event);
   const date = new Date(event.date + "T00:00:00");
   const month = date.toLocaleDateString("en-US", { month: "short" });
   const day = date.toLocaleDateString("en-US", { day: "2-digit" });
 
-  if (presentation.category === "Performance" && match) {
+  if (match) {
     return <TimelinePerformanceCard event={event} match={match} presentation={presentation} />;
   }
 
