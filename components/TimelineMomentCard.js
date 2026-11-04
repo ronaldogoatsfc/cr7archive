@@ -1,0 +1,60 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { X } from "lucide-react";
+
+export default function TimelineMomentCard({ event, presentation, month, day }) {
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    if (!open) return;
+    const handleKeyDown = (keyEvent) => { if (keyEvent.key === "Escape") setOpen(false); };
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [open]);
+
+  return (
+    <>
+      <article className="relative grid gap-3 sm:grid-cols-[104px_minmax(0,1fr)] sm:gap-6">
+        <div className="relative z-10 flex items-center gap-3 sm:flex-col sm:items-end sm:gap-1 sm:pt-5">
+          <span className="font-mono text-xs uppercase tracking-[0.2em] text-paper-dim">{month}</span>
+          <span className="stat-number text-3xl font-semibold leading-none text-paper sm:text-4xl">{day}</span>
+        </div>
+        <button type="button" onClick={() => setOpen(true)} aria-haspopup="dialog"
+          className="group/card w-full rounded-2xl border border-line bg-pitch-raised/80 p-5 text-left transition duration-300 hover:border-gold/50 hover:bg-pitch-raised focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold sm:p-6">
+          {presentation.highlights.length > 0 && (
+            <div className="mb-3 flex flex-wrap items-center gap-2">
+              {presentation.highlights.map((highlight) => (
+                <span key={highlight.label} className="rounded-full border border-line px-3 py-1 font-mono text-[10px] uppercase tracking-wide text-paper-dim"><span className="text-paper">{highlight.value}</span> {highlight.label}</span>
+              ))}
+            </div>
+          )}
+          <p className="text-sm leading-7 text-paper sm:text-[15px]">{event.description}</p>
+          <span className="mt-4 inline-block font-mono text-[10px] uppercase tracking-wider text-gold opacity-80 transition group-hover/card:opacity-100">View moment ↗</span>
+        </button>
+        <span className="absolute left-[7px] top-0 hidden h-full w-px bg-gradient-to-b from-gold/50 via-line to-transparent sm:block" />
+      </article>
+
+      {open && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-6">
+          <button type="button" aria-label="Close moment details" onClick={() => setOpen(false)} className="absolute inset-0 cursor-default bg-black/75 backdrop-blur-sm" />
+          <section role="dialog" aria-modal="true" aria-labelledby="timeline-moment-title" className="relative z-10 max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-2xl border border-gold/25 bg-pitch-raised shadow-2xl">
+            <div className="flex items-center justify-between border-b border-line px-5 py-4 sm:px-7">
+              <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-gold">{new Date(event.date + "T00:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}</p>
+              <button type="button" onClick={() => setOpen(false)} aria-label="Close details" className="rounded-full border border-line p-2 text-paper-dim transition hover:border-gold hover:text-gold"><X size={17} /></button>
+            </div>
+            <div className="p-5 sm:p-7">
+              <h2 id="timeline-moment-title" className="font-display text-2xl font-semibold text-paper sm:text-3xl">{presentation.headline}</h2>
+              <p className="mt-4 whitespace-pre-line text-sm leading-8 text-paper-dim sm:text-base">{event.description}</p>
+              {presentation.highlights.length > 0 && (
+                <div className="mt-6 flex flex-wrap gap-2 border-t border-line pt-5">
+                  {presentation.highlights.map((highlight) => <span key={highlight.label} className="rounded-lg border border-line bg-pitch px-3 py-2 font-mono text-xs text-paper-dim"><span className="text-gold">{highlight.value}</span> {highlight.label}</span>)}
+                </div>
+              )}
+            </div>
+          </section>
+        </div>
+      )}
+    </>
+  );
+}
