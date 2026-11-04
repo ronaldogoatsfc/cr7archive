@@ -19,7 +19,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/193442741",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/estonia-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/estonia-portugal",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-29",
+        "goalNumber": 29,
+        "minute": "33",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Luís Figo"
+      }
+    ]
   },
   {
     "id": "2005-06-04",
@@ -41,7 +52,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/269019189",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-slovakia-world-cup-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-slovakia-world-cup-qualification",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-28",
+        "goalNumber": 28,
+        "minute": "42",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2005-05-21",
@@ -173,7 +194,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=XpxyQnOYSRQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/newcastle-united-manchester-united-fa-cup"
+    "fullMatchUrl": "https://footballia.net/matches/newcastle-united-manchester-united-fa-cup",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-27",
+        "goalNumber": 27,
+        "minute": "76",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ruud van Nistelrooy"
+      }
+    ]
   },
   {
     "id": "2005-04-09",
@@ -283,7 +315,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=12kq2_RuXgk",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-26",
+        "goalNumber": 26,
+        "minute": "21",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Roy Keane"
+      }
+    ]
   },
   {
     "id": "2005-03-12",
@@ -305,7 +348,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=XdPN3ufPLV4",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-25",
+        "goalNumber": 25,
+        "minute": "45",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ruud van Nistelrooy"
+      }
+    ]
   },
   {
     "id": "2005-03-08",
@@ -445,7 +499,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=9gNzV7X9Npo",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-24",
+        "goalNumber": 24,
+        "minute": "58",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2005-02-13",
@@ -533,7 +597,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/176574934",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/arsenal-fc-manchester-united-premier-league-2004-2005"
+    "fullMatchUrl": "https://footballia.net/matches/arsenal-fc-manchester-united-premier-league-2004-2005",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-22",
+        "goalNumber": 22,
+        "minute": "54",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ryan Giggs"
+      },
+      {
+        "id": "ronaldo-goal-23",
+        "goalNumber": 23,
+        "minute": "58",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ryan Giggs"
+      }
+    ]
   },
   {
     "id": "2005-01-29",
@@ -600,7 +684,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=kuYS9CGxx6o",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-aston-villa-premier-league-2004-2005"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-aston-villa-premier-league-2004-2005",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-21",
+        "goalNumber": 21,
+        "minute": "8",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Louis Saha"
+      }
+    ]
   },
   {
     "id": "2005-01-19",
@@ -622,7 +717,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=j3_u_qAASKg",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-20",
+        "goalNumber": 20,
+        "minute": "9",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Paul Scholes"
+      }
+    ]
   },
   {
     "id": "2005-01-15",
@@ -857,7 +963,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=DM7YZftuJbY",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-19",
+        "goalNumber": 19,
+        "minute": "87",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gary Neville"
+      }
+    ]
   },
   {
     "id": "2004-11-27",
@@ -937,7 +1054,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Ku29IWBRasA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/luxembourg-portugal-world-cup-qualification-2004"
+    "fullMatchUrl": "https://footballia.net/matches/luxembourg-portugal-world-cup-qualification-2004",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-18",
+        "goalNumber": 18,
+        "minute": "28",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Deco"
+      }
+    ]
   },
   {
     "id": "2004-11-14",
@@ -1011,7 +1139,7 @@
       "accurateThroughballs": null,
       "xG": null,
       "xA": null,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": true,
@@ -1141,7 +1269,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=5ptNSgG3wF0",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-russia-world-cup-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-russia-world-cup-qualification",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-16",
+        "goalNumber": 16,
+        "minute": "39",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Pauleta"
+      },
+      {
+        "id": "ronaldo-goal-17",
+        "goalNumber": 17,
+        "minute": "69",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Maniche"
+      }
+    ]
   },
   {
     "id": "2004-10-09",
@@ -1259,7 +1407,7 @@
       "accurateThroughballs": null,
       "xG": null,
       "xA": null,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": true,
@@ -1309,7 +1457,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=cjvehpo3zp8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-estonia-world-cup-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-estonia-world-cup-qualification",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-15",
+        "goalNumber": 15,
+        "minute": "75",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Deco"
+      }
+    ]
   },
   {
     "id": "2004-09-04",
@@ -1331,7 +1490,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=RO1NkvwmMMY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/latvia-portugal-world-cup-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/latvia-portugal-world-cup-qualification",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-14",
+        "goalNumber": 14,
+        "minute": "57",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Jorge Andrade"
+      }
+    ]
   },
   {
     "id": "2004-08-30",
