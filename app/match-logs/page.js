@@ -304,13 +304,11 @@ function EventSection({ title, count, events, type }) {
         ]
       : [
           ["assistedPlayer", "Scorer"],
-          ["assistType", "Assist type"],
-          ["passType", "Delivery"],
-          ["gameState", "Game state"],
-          ["description", "Notes"],
+          ["optaAssist", "Opta credited"],
+          ["assistClarification", "Clarification"],
         ];
 
-  if (!count) return null;
+  if (!count && !hasEvents) return null;
 
   return (
     <div className="overflow-hidden rounded-xl border border-line">
@@ -332,6 +330,11 @@ function EventSection({ title, count, events, type }) {
 
       {open && (
         <div className="space-y-3 p-4">
+          {type === "assist" && (
+            <p className="text-xs leading-5 text-paper-dim">
+              The count above includes only Opta-credited assists. Additional non-Opta goal involvements, such as rebounds, deflections, or fouls won, are listed separately and are not included in the assist total.
+            </p>
+          )}
           {hasEvents ? (
             <>
               {events.map((event, index) => {
@@ -349,7 +352,7 @@ function EventSection({ title, count, events, type }) {
                   >
                     <div className="mb-2 flex flex-wrap items-center gap-2">
                       <span className="font-mono text-xs font-semibold text-gold">
-                        {type === "goal" ? `Goal${event.goalNumber ? ` #${event.goalNumber}` : ` ${index + 1}`}` : `Assist ${index + 1}`}
+                        {type === "goal" ? `Goal${event.goalNumber ? ` #${event.goalNumber}` : ` ${index + 1}`}` : event.optaAssist ? `Assist${event.assistNumber ? ` #${event.assistNumber}` : ` ${index + 1}`}` : "Non-Opta involvement"}
                       </span>
                       {event.minute !== undefined && event.minute !== null && (
                         <span className="rounded-full bg-pitch-raised px-2 py-0.5 font-mono text-xs text-paper-dim">
@@ -365,7 +368,7 @@ function EventSection({ title, count, events, type }) {
                               {label}
                             </dt>
                             <dd className="mt-0.5 text-sm text-paper">
-                              {event[key]}
+                              {key === "optaAssist" ? (event[key] ? "Yes" : "No") : event[key]}
                             </dd>
                           </div>
                         ))}
@@ -404,7 +407,7 @@ function MatchDetail({ match }) {
   return (
     <tr className="border-b border-line/60 bg-pitch">
       <td colSpan={11} className="px-4 py-5">
-        {(match.goals > 0 || match.assists > 0) && (
+        {(match.goals > 0 || match.assists > 0 || match.assistEvents?.length > 0) && (
           <div className="mb-5 space-y-2">
             <p className="mb-2 font-mono text-[10px] uppercase tracking-widest text-gold">
               Goal involvements
