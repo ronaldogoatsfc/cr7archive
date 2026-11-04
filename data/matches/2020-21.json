@@ -33,7 +33,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/belgium-portugal-euro"
+    "fullMatchUrl": "https://footballia.net/matches/belgium-portugal-euro",
+    "assistEvents": []
   },
   {
     "id": "2021-06-23",
@@ -85,7 +86,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-06-19",
@@ -131,6 +133,15 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Diogo Jota"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-227",
+        "assistNumber": 227,
+        "minute": "67",
+        "assistedPlayer": "Diogo Jota",
+        "optaAssist": true
       }
     ]
   },
@@ -186,7 +197,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Rafa Silva"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-06-09",
@@ -219,7 +231,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Bruno Fernandes"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-06-04",
@@ -241,7 +254,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/spain-portugal-friendly"
+    "fullMatchUrl": "https://footballia.net/matches/spain-portugal-friendly",
+    "assistEvents": []
   },
   {
     "id": "2021-05-19",
@@ -277,7 +291,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=3klixAWSQmE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/atalanta-bc-juventus-fc-coppa-italia-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/atalanta-bc-juventus-fc-coppa-italia-2020-2021",
+    "assistEvents": []
   },
   {
     "id": "2021-05-15",
@@ -323,7 +338,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-05-12",
@@ -370,7 +386,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Adrien Rabiot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-05-09",
@@ -406,7 +423,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=E5dR1mKRibc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ac-milan-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ac-milan-serie-a-2020-2021",
+    "assistEvents": []
   },
   {
     "id": "2021-05-02",
@@ -460,7 +478,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Adrien Rabiot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-04-25",
@@ -496,7 +515,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ISxMY4GXyfc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/acf-fiorentina-juventus-fc-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/acf-fiorentina-juventus-fc-serie-a-2020-2021",
+    "assistEvents": []
   },
   {
     "id": "2021-04-21",
@@ -532,7 +552,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=i6M42cKALq8",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2021-04-11",
@@ -568,7 +589,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=0bJrmCU4iPs",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2021-04-11-22",
+        "minute": "22",
+        "assistedPlayer": "Alvaro Morata",
+        "optaAssist": false,
+        "assistClarification": "Post rebound"
+      }
+    ]
   },
   {
     "id": "2021-04-07",
@@ -615,7 +645,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Federico Chiesa"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-04-03",
@@ -662,7 +693,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Giorgio Chiellini"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-03-30",
@@ -709,7 +741,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Cancelo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-03-27",
@@ -745,7 +778,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/710942617",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/serbia-portugal-world-cup-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/serbia-portugal-world-cup-qualification",
+    "assistEvents": []
   },
   {
     "id": "2021-03-24",
@@ -781,7 +815,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-azerbaijan-world-cup-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-azerbaijan-world-cup-qualification",
+    "assistEvents": []
   },
   {
     "id": "2021-03-21",
@@ -817,7 +852,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=jC2m_4j64Bs",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-benevento-calcio-serie-a"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-benevento-calcio-serie-a",
+    "assistEvents": []
   },
   {
     "id": "2021-03-14",
@@ -880,7 +916,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Federico Chiesa"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-03-09",
@@ -917,7 +954,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/710833620",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-fc-porto-champions-league-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-fc-porto-champions-league-2020-2021",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-226",
+        "assistNumber": 226,
+        "minute": "49",
+        "assistedPlayer": "Federico Chiesa",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2021-03-06",
@@ -953,7 +999,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=l3RRjcHny6A",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ss-lazio-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ss-lazio-serie-a-2020-2021",
+    "assistEvents": []
   },
   {
     "id": "2021-03-02",
@@ -1000,7 +1047,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Rodrigo Bentancur"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-02-27",
@@ -1047,7 +1095,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Federico Chiesa"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-02-22",
@@ -1103,7 +1152,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Aaron Ramsey"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-02-17",
@@ -1140,7 +1190,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/862911493",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-porto-juventus-fc-champions-league-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/fc-porto-juventus-fc-champions-league-2020-2021",
+    "assistEvents": []
   },
   {
     "id": "2021-02-13",
@@ -1176,7 +1227,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=PZeoTnx4WLc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ssc-napoli-juventus-fc-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/ssc-napoli-juventus-fc-serie-a-2020-2021",
+    "assistEvents": []
   },
   {
     "id": "2021-02-09",
@@ -1213,7 +1265,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=59Gz6Qs5vsU",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-fc-internazionale-coppa-italia-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-fc-internazionale-coppa-italia-2020-2021",
+    "assistEvents": []
   },
   {
     "id": "2021-02-06",
@@ -1260,7 +1313,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Alvaro Morata"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-02-02",
@@ -1314,7 +1368,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-01-30",
@@ -1350,7 +1405,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=uFuz0sGkXFc",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2021-01-24",
@@ -1386,7 +1442,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=BotA3iZeSCc",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-225",
+        "assistNumber": 225,
+        "minute": "15",
+        "assistedPlayer": "Arthur Melo",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2021-01-20",
@@ -1432,7 +1497,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-01-17",
@@ -1468,7 +1534,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=1dvhkw3_jYA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-internazionale-juventus-fc-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/fc-internazionale-juventus-fc-serie-a-2020-2021",
+    "assistEvents": []
   },
   {
     "id": "2021-01-13",
@@ -1504,7 +1571,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=D8iAakiJfjA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-genoa-cfc-coppa-italia-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-genoa-cfc-coppa-italia-2020-2021",
+    "assistEvents": []
   },
   {
     "id": "2021-01-10",
@@ -1551,7 +1619,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Danilo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2021-01-06",
@@ -1587,7 +1656,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=HOcwpIRjZX0",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ac-milan-juventus-fc-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/ac-milan-juventus-fc-serie-a-2020-2021",
+    "assistEvents": []
   },
   {
     "id": "2021-01-03",
@@ -1643,6 +1713,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Rodrigo Bentancur"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-224",
+        "assistNumber": 224,
+        "minute": "49",
+        "assistedPlayer": "Federico Chiesa",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1679,7 +1758,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=-8Iq4_i5PA8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-acf-fiorentina-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-acf-fiorentina-serie-a-2020-2021",
+    "assistEvents": []
   },
   {
     "id": "2020-12-19",
@@ -1735,7 +1815,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Aaron Ramsey"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-12-16",
@@ -1771,7 +1852,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Bua2VSrrgnk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-atalanta-bc-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-atalanta-bc-serie-a-2020-2021",
+    "assistEvents": []
   },
   {
     "id": "2020-12-13",
@@ -1823,7 +1905,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-12-08",
@@ -1875,7 +1958,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-12-05",
@@ -1911,7 +1995,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=eN_YNxkwfDs",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-torino-fc-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-torino-fc-serie-a-2020-2021",
+    "assistEvents": []
   },
   {
     "id": "2020-12-02",
@@ -1958,7 +2043,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Alvaro Morata"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-11-24",
@@ -2005,7 +2091,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Juan Cuadrado"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-11-21",
@@ -2061,7 +2148,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Merih Demiral"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-11-17",
@@ -2097,7 +2185,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2020-11-14",
@@ -2133,7 +2222,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-france-nations-league-a"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-france-nations-league-a",
+    "assistEvents": []
   },
   {
     "id": "2020-11-11",
@@ -2165,6 +2255,15 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Mario Rui"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-223",
+        "assistNumber": 223,
+        "minute": "56",
+        "assistedPlayer": "Renato Sanches",
+        "optaAssist": true
       }
     ]
   },
@@ -2213,7 +2312,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Juan Cuadrado"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-11-04",
@@ -2249,7 +2349,16 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ferencvarosi-tc-juventus-fc"
+    "fullMatchUrl": "https://footballia.net/matches/ferencvarosi-tc-juventus-fc",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-222",
+        "assistNumber": 222,
+        "minute": "60",
+        "assistedPlayer": "Alvaro Morata",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2020-11-01",
@@ -2303,7 +2412,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-10-11",
@@ -2339,7 +2449,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/france-portugal-nations-league-a"
+    "fullMatchUrl": "https://footballia.net/matches/france-portugal-nations-league-a",
+    "assistEvents": []
   },
   {
     "id": "2020-10-07",
@@ -2373,7 +2484,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-spain-friendly-2020"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-spain-friendly-2020",
+    "assistEvents": []
   },
   {
     "id": "2020-09-27",
@@ -2427,7 +2539,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Danilo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-09-20",
@@ -2473,6 +2586,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Aaron Ramsey"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-221",
+        "assistNumber": 221,
+        "minute": "13",
+        "assistedPlayer": "Dejan Kulusevski",
+        "optaAssist": true
       }
     ]
   },
@@ -2529,6 +2651,7 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Joao Félix"
       }
-    ]
+    ],
+    "assistEvents": []
   }
 ]
