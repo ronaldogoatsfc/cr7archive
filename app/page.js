@@ -14,6 +14,9 @@ import {
 import StatCard from "@/components/StatCard";
 import articles from "@/data/articles";
 import ArticleCard from "@/components/ArticleCard";
+import { getOnThisDayEvent } from "@/lib/timeline";
+
+export const dynamic = "force-dynamic";
 
 const GOAL_TARGET = 1000;
 
@@ -35,6 +38,7 @@ const sections = [
 ];
 
 export default function Home() {
+  const onThisDay = getOnThisDayEvent();
   const totals = careerTotals(matches);
   const trophyCount = trophyTotal(trophies);
   const ballonDorWins = honors.filter(
@@ -171,6 +175,36 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* On This Day */}
+      {onThisDay && (
+        <section className="border-t border-line px-6 py-12">
+          <div className="mx-auto max-w-6xl">
+            <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
+              <div className="max-w-2xl">
+                <p className="font-mono text-xs uppercase tracking-[0.25em] text-gold">
+                  On This Day
+                </p>
+                <h2 className="mt-2 font-display text-2xl font-semibold text-paper">
+                  {new Date(onThisDay.date + "T00:00:00").toLocaleDateString(
+                    "en-US",
+                    { month: "long", day: "numeric" }
+                  )}
+                </h2>
+                <p className="mt-3 leading-7 text-paper-dim">
+                  {onThisDay.description}
+                </p>
+              </div>
+              <Link
+                href="/timeline"
+                className="shrink-0 text-sm font-semibold text-gold transition hover:text-gold-bright"
+              >
+                Explore the career timeline →
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Career at a glance */}
       <section className="mx-auto max-w-6xl px-6 py-12">
