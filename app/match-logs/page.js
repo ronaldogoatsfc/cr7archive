@@ -407,7 +407,7 @@ function MatchDetail({ match }) {
         {(match.goals > 0 || match.assists > 0) && (
           <div className="mb-5 space-y-2">
             <p className="mb-2 font-mono text-[10px] uppercase tracking-widest text-gold">
-              Goal involvement
+              Goal involvements
             </p>
             <EventSection
               title="Goals"
