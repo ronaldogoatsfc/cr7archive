@@ -153,7 +153,9 @@ export default function AboutPage() {
           available.
         </p>
 
-Follow along or drop a suggestion on social media:</p>
+        <p>
+          Follow along or drop a suggestion on social media:
+        </p>
         <SocialLinks />
       </div>
     </div>
