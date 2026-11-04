@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, CalendarDays, Clock3 } from "lucide-react";
-import { getTimelineEvents, getEventPresentation } from "@/lib/timeline";
+import { getTimelineEvents, getEventPresentation, getTimelineMatch } from "@/lib/timeline";
+import TimelinePerformanceCard from "@/components/TimelinePerformanceCard";
 
 export const metadata = {
   title: "Career Timeline | The Ronaldo Archive",
@@ -9,9 +10,14 @@ export const metadata = {
 
 function TimelineEvent({ event }) {
   const presentation = getEventPresentation(event);
+  const match = presentation.category === "Performance" ? getTimelineMatch(event) : null;
   const date = new Date(event.date + "T00:00:00");
   const month = date.toLocaleDateString("en-US", { month: "short" });
   const day = date.toLocaleDateString("en-US", { day: "2-digit" });
+
+  if (presentation.category === "Performance" && match) {
+    return <TimelinePerformanceCard event={event} match={match} presentation={presentation} />;
+  }
 
   return (
     <article className="group relative grid gap-3 sm:grid-cols-[104px_minmax(0,1fr)] sm:gap-6">
