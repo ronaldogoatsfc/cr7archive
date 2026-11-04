@@ -33,7 +33,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-spain-world-cup-2026"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-spain-world-cup-2026",
+    "assistEvents": []
   },
   {
     "id": "2026-07-02",
@@ -79,7 +80,8 @@
         "gameState": "Equalizer",
         "goalNumber": 976
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2026-06-27",
@@ -115,7 +117,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/colombia-portugal-world-cup"
+    "fullMatchUrl": "https://footballia.net/matches/colombia-portugal-world-cup",
+    "assistEvents": []
   },
   {
     "id": "2026-06-23",
@@ -171,7 +174,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Bruno Fernandes"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2026-06-17",
@@ -207,7 +211,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-dr-congo"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-dr-congo",
+    "assistEvents": []
   },
   {
     "id": "2026-06-10",
@@ -243,7 +248,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ztu24Tvo9LE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://www.youtube.com/watch?v=d6CgR_Ept88"
+    "fullMatchUrl": "https://www.youtube.com/watch?v=d6CgR_Ept88",
+    "assistEvents": []
   },
   {
     "id": "2026-06-06",
@@ -279,7 +285,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=hy6IZc3n4jw",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://www.youtube.com/watch?v=Q4l8uqpEEZA"
+    "fullMatchUrl": "https://www.youtube.com/watch?v=Q4l8uqpEEZA",
+    "assistEvents": []
   },
   {
     "id": "2026-05-21",
@@ -332,7 +339,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2026-05-16",
@@ -368,7 +376,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://www.youtube.com/watch?v=wyKftTv03Ag"
+    "fullMatchUrl": "https://www.youtube.com/watch?v=wyKftTv03Ag",
+    "assistEvents": []
   },
   {
     "id": "2026-05-12",
@@ -404,7 +413,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=sZC4FR9EA6g",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2026-07-07",
@@ -451,7 +461,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Sadio Mané"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2026-05-03",
@@ -487,7 +498,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=qCLCmnWBuqA",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2026-04-29",
@@ -534,7 +546,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Félix"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2026-04-22",
@@ -570,7 +583,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2026-04-19",
@@ -617,7 +631,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nawaf Boushal"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2026-04-15",
@@ -653,7 +668,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=UC-2us6n-lo",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2026-04-11",
@@ -700,7 +716,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nawaf Boushal"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2026-04-03",
@@ -754,7 +771,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nawaf Boushal"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2026-02-28",
@@ -790,7 +808,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ptA_xAUp8jw",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2026-02-25",
@@ -834,6 +853,15 @@
         "minute": "7",
         "goalType": "Penalty",
         "bodyPart": "Right foot"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-261",
+        "assistNumber": 261,
+        "minute": "52",
+        "assistedPlayer": "Sadio Mané",
+        "optaAssist": true
       }
     ]
   },
@@ -891,7 +919,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Kingsley Coman"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2026-02-14",
@@ -938,7 +967,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Sadio Mané"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2026-01-30",
@@ -985,7 +1015,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Félix"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2026-01-26",
@@ -1021,7 +1052,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=VQWGqj7KP7o",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2026-01-21",
@@ -1068,7 +1100,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Félix"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2026-01-17",
@@ -1104,7 +1137,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=1Pn94ppVXcM",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2026-01-12",
@@ -1151,7 +1185,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Kingsley Coman"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2026-01-08",
@@ -1196,7 +1231,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2026-01-02",
@@ -1232,7 +1268,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=FQ3ZJaShow4",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2025-12-30",
@@ -1279,7 +1316,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Félix"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-12-27",
@@ -1335,7 +1373,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo Brozovic"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-12-24",
@@ -1371,7 +1410,16 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-260",
+        "assistNumber": 260,
+        "minute": "44",
+        "assistedPlayer": "Joao Félix",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2025-11-23",
@@ -1418,7 +1466,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nawaf Boushal"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-11-13",
@@ -1454,7 +1503,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ireland-portugal-world-cup-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/ireland-portugal-world-cup-qualification",
+    "assistEvents": []
   },
   {
     "id": "2025-11-08",
@@ -1499,7 +1549,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-11-01",
@@ -1553,7 +1604,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-10-28",
@@ -1589,7 +1641,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=-DBKl6j52bc",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2025-10-25",
@@ -1636,7 +1689,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Wesley"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-10-18",
@@ -1682,6 +1736,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Sadio Mané"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-259",
+        "assistNumber": 259,
+        "minute": "68",
+        "assistedPlayer": "Joao Félix",
+        "optaAssist": true
       }
     ]
   },
@@ -1739,7 +1802,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nuno Mendes"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-10-11",
@@ -1775,7 +1839,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-ireland-world-cup-qualification-2025"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-ireland-world-cup-qualification-2025",
+    "assistEvents": []
   },
   {
     "id": "2025-09-27",
@@ -1822,7 +1887,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Sadio Mané"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-09-20",
@@ -1878,6 +1944,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Kingsley Coman"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2025-09-20-49",
+        "minute": "49",
+        "assistedPlayer": "Joao Félix",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
+      }
     ]
   },
   {
@@ -1914,7 +1989,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=qbFqqNMMl_Y",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-kholood-club"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-kholood-club",
+    "assistEvents": []
   },
   {
     "id": "2025-09-09",
@@ -1959,7 +2035,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-09-06",
@@ -2014,7 +2091,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-08-29",
@@ -2058,6 +2136,15 @@
         "minute": "54",
         "goalType": "Penalty",
         "bodyPart": "Right foot"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2025-08-29-87",
+        "minute": "87",
+        "assistedPlayer": "Joao Félix",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
       }
     ]
   },
@@ -2104,7 +2191,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-08-19",
@@ -2140,6 +2228,15 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=N9UWHHLaitY",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-258",
+        "assistNumber": 258,
+        "minute": "61",
+        "assistedPlayer": "Joao Félix",
+        "optaAssist": true
+      }
+    ]
   }
 ]
