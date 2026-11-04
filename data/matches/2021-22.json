@@ -69,7 +69,26 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-switzerland-nations-league-a-2022-2023"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-switzerland-nations-league-a-2022-2023",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-814",
+        "goalNumber": 814,
+        "minute": "35",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Diogo Jota"
+      },
+      {
+        "id": "ronaldo-goal-815",
+        "goalNumber": 815,
+        "minute": "79",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2022-06-02",
@@ -134,7 +153,7 @@
       "freeKickAttempts": 1,
       "accurateThroughballs": 0,
       "xG": 0.32,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 5.5,
       "motm": false
     },
@@ -177,7 +196,16 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-813",
+        "goalNumber": 813,
+        "minute": "61",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2022-04-28",
@@ -206,14 +234,25 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 0.4,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 7.4,
       "motm": false
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-chelsea-fc-premier-league-2021-2022"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-chelsea-fc-premier-league-2021-2022",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-812",
+        "goalNumber": 812,
+        "minute": "62",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Nemanja Matic"
+      }
+    ]
   },
   {
     "id": "2022-04-23",
@@ -249,7 +288,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/arsenal-fc-manchester-united-premier-league-2021-2022"
+    "fullMatchUrl": "https://footballia.net/matches/arsenal-fc-manchester-united-premier-league-2021-2022",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-811",
+        "goalNumber": 811,
+        "minute": "34",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Nemanja Matic"
+      }
+    ]
   },
   {
     "id": "2022-04-16",
@@ -285,7 +335,35 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-norwich-city-premier-league-2021-2022"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-norwich-city-premier-league-2021-2022",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-808",
+        "goalNumber": 808,
+        "minute": "7",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Anthony Elanga"
+      },
+      {
+        "id": "ronaldo-goal-809",
+        "goalNumber": 809,
+        "minute": "32",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Alex Telles"
+      },
+      {
+        "id": "ronaldo-goal-810",
+        "goalNumber": 810,
+        "minute": "76",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2022-04-09",
@@ -459,14 +537,43 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 0.91,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 9.9,
       "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-tottenham-hotspur-premier-league-2021-2022"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-tottenham-hotspur-premier-league-2021-2022",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-805",
+        "goalNumber": 805,
+        "minute": "12",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Fred"
+      },
+      {
+        "id": "ronaldo-goal-806",
+        "goalNumber": 806,
+        "minute": "38",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Jadon Sancho"
+      },
+      {
+        "id": "ronaldo-goal-807",
+        "goalNumber": 807,
+        "minute": "81",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Alex Telles"
+      }
+    ]
   },
   {
     "id": "2022-02-26",
@@ -496,7 +603,7 @@
       "accurateThroughballs": 0,
       "xG": 0.55,
       "xA": 0.12,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": false,
@@ -611,7 +718,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-brighton-hove-albion-premier-league-2021-2022"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-brighton-hove-albion-premier-league-2021-2022",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-804",
+        "goalNumber": 804,
+        "minute": "51",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Scott McTominay"
+      }
+    ]
   },
   {
     "id": "2022-02-12",
@@ -676,7 +794,7 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 0.24,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 6.1,
       "motm": false
     },
@@ -784,7 +902,7 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 0.19,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 7.1,
       "motm": false
     },
@@ -863,7 +981,17 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-803",
+        "goalNumber": 803,
+        "minute": "35",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2021-12-27",
@@ -892,7 +1020,7 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 0.15,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 6.3,
       "motm": false
     },
@@ -928,14 +1056,23 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 1.67,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 7.3,
       "motm": false
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-802",
+        "goalNumber": 802,
+        "minute": "75",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2021-12-05",
@@ -1000,14 +1137,32 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 1.44,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 8.5,
       "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-arsenal-fc-premier-league-2021-2022"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-arsenal-fc-premier-league-2021-2022",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-800",
+        "goalNumber": 800,
+        "minute": "52",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Marcus Rashford"
+      },
+      {
+        "id": "ronaldo-goal-801",
+        "goalNumber": 801,
+        "minute": "70",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2021-11-28",
@@ -1035,8 +1190,8 @@
       "aerialDuelsWon": 0,
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
-      "xG": 0.0,
-      "xA": 0.0,
+      "xG": 0,
+      "xA": 0,
       "rating": 5.8,
       "motm": false
     },
@@ -1079,7 +1234,17 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/villarreal-cf-manchester-united-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/villarreal-cf-manchester-united-champions-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-799",
+        "goalNumber": 799,
+        "minute": "78",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2021-11-20",
@@ -1216,7 +1381,7 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 0.08,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 6.1,
       "motm": false
     },
@@ -1259,7 +1424,27 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/atalanta-bc-manchester-united"
+    "fullMatchUrl": "https://footballia.net/matches/atalanta-bc-manchester-united",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-797",
+        "goalNumber": 797,
+        "minute": "45",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Bruno Fernandes"
+      },
+      {
+        "id": "ronaldo-goal-798",
+        "goalNumber": 798,
+        "minute": "90+1",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Mason Greenwood"
+      }
+    ]
   },
   {
     "id": "2021-10-30",
@@ -1295,7 +1480,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/tottenham-hotspur-manchester-united-premier-league-2021-2022"
+    "fullMatchUrl": "https://footballia.net/matches/tottenham-hotspur-manchester-united-premier-league-2021-2022",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-796",
+        "goalNumber": 796,
+        "minute": "39",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Bruno Fernandes"
+      }
+    ]
   },
   {
     "id": "2021-10-24",
@@ -1324,7 +1520,7 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 0.41,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 5.7,
       "motm": false
     },
@@ -1367,7 +1563,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-atalanta-bc"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-atalanta-bc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-795",
+        "goalNumber": 795,
+        "minute": "81",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Luke Shaw"
+      }
+    ]
   },
   {
     "id": "2021-10-16",
@@ -1439,7 +1646,32 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-luxembourg-world-cup-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-luxembourg-world-cup-qualification",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-792",
+        "goalNumber": 792,
+        "minute": "8",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-793",
+        "goalNumber": 793,
+        "minute": "13",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-794",
+        "goalNumber": 794,
+        "minute": "87",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ruben Neves"
+      }
+    ]
   },
   {
     "id": "2021-10-09",
@@ -1458,11 +1690,21 @@
     "assists": 0,
     "yellowCard": null,
     "redCard": null,
-    
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-qatar"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-qatar",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-791",
+        "goalNumber": 791,
+        "minute": "37",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Diogo Dalot"
+      }
+    ]
   },
   {
     "id": "2021-10-02",
@@ -1492,7 +1734,7 @@
       "accurateThroughballs": 0,
       "xG": 0.12,
       "xA": 0.05,
-      "rating": 6.0,
+      "rating": 6,
       "motm": false
     },
     "hasMatchComp": false,
@@ -1534,7 +1776,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-villarreal-cf"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-villarreal-cf",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-790",
+        "goalNumber": 790,
+        "minute": "90+5",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Jesse Lingard"
+      }
+    ]
   },
   {
     "id": "2021-09-25",
@@ -1599,14 +1852,24 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 1.9,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 7.4,
       "motm": false
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/west-ham-united-manchester-united-premier-league-2021-2022"
+    "fullMatchUrl": "https://footballia.net/matches/west-ham-united-manchester-united-premier-league-2021-2022",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-789",
+        "goalNumber": 789,
+        "minute": "35",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2021-09-14",
@@ -1642,7 +1905,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/bsc-young-boys-manchester-united-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/bsc-young-boys-manchester-united-champions-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-788",
+        "goalNumber": 788,
+        "minute": "13",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Bruno Fernandes"
+      }
+    ]
   },
   {
     "id": "2021-09-11",
@@ -1678,7 +1952,26 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-newcastle-united-premier-league-2021-2022"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-newcastle-united-premier-league-2021-2022",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-786",
+        "goalNumber": 786,
+        "minute": "45",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      },
+      {
+        "id": "ronaldo-goal-787",
+        "goalNumber": 787,
+        "minute": "62",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Luke Shaw"
+      }
+    ]
   },
   {
     "id": "2021-09-01",
@@ -1714,7 +2007,27 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-ireland-world-cup-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-ireland-world-cup-qualification",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-784",
+        "goalNumber": 784,
+        "minute": "89",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gonçalo Guedes"
+      },
+      {
+        "id": "ronaldo-goal-785",
+        "goalNumber": 785,
+        "minute": "90+6",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Joao Mario"
+      }
+    ]
   },
   {
     "id": "2021-08-22",
@@ -1744,7 +2057,7 @@
       "accurateThroughballs": 0,
       "xG": 0.2,
       "xA": 0.04,
-      "rating": 6.0,
+      "rating": 6,
       "motm": false
     },
     "hasMatchComp": true,
