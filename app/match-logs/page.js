@@ -189,6 +189,15 @@ function getScoreColor(result) {
   return "text-paper-dim";
 }
 
+function nonOptaAssistCount(matches) {
+  return matches.reduce(
+    (total, match) =>
+      total +
+      (match.assistEvents || []).filter((event) => event.optaAssist === false).length,
+    0
+  );
+}
+
 function detailedStatsTotals(matches) {
   const fields = [
     ["shots", "Shots"],
@@ -568,6 +577,7 @@ export default function MatchLogsPage() {
 
   const totals = useMemo(() => careerTotals(filtered), [filtered]);
   const detailedTotals = useMemo(() => detailedStatsTotals(filtered), [filtered]);
+  const nonOptaAssists = useMemo(() => nonOptaAssistCount(filtered), [filtered]);
 
   function updateFilter(key, value) {
     setFilters((prev) => ({ ...prev, [key]: value }));
@@ -838,7 +848,11 @@ export default function MatchLogsPage() {
       <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
         <StatCard label="Matches" value={totals.matches} />
         <StatCard label="Goals" value={totals.goals} />
-        <StatCard label="Assists" value={totals.assists} />
+        <StatCard
+          label="Assists"
+          value={totals.assists}
+          detail={`${nonOptaAssists} non-Opta involvements (not included in total)`}
+        />
         <div className="rounded-2xl border border-line bg-pitch-raised p-6">
           <p className="font-mono text-xs uppercase tracking-widest text-paper-dim">Record (W-D-L)</p>
           <p className="stat-number mt-2 flex items-baseline gap-1 text-4xl font-semibold tabular-nums">
@@ -995,8 +1009,18 @@ export default function MatchLogsPage() {
                     <td className="data-mono px-4 py-3 text-center font-semibold text-gold">
                       {m.goals}
                     </td>
-                    <td className="data-mono px-4 py-3 text-center text-turf-bright">
+                    <td
+                      className="data-mono px-4 py-3 text-center text-turf-bright"
+                      title={
+                        m.assistEvents?.some((event) => event.optaAssist === false)
+                          ? "Includes a non-Opta goal involvement"
+                          : undefined
+                      }
+                    >
                       {m.assists}
+                      {m.assistEvents?.some((event) => event.optaAssist === false) && (
+                        <sup className="ml-0.5 text-[10px] font-semibold text-gold">*</sup>
+                      )}
                     </td>
                     <td className="px-3 py-3">
                       <div className="flex items-center justify-center">
