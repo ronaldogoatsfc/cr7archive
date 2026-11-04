@@ -30,7 +30,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Silvestre Varela"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-06-07",
@@ -52,7 +53,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/212537518",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-russia"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-russia",
+    "assistEvents": []
   },
   {
     "id": "2013-05-17",
@@ -99,7 +101,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Luka Modric"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-05-11",
@@ -135,7 +138,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=45yfyO9toXk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/rcd-espanyol-real-madrid-liga-1-division-2012-2013"
+    "fullMatchUrl": "https://footballia.net/matches/rcd-espanyol-real-madrid-liga-1-division-2012-2013",
+    "assistEvents": []
   },
   {
     "id": "2013-05-08",
@@ -181,6 +185,22 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Xabi Alonso"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-128",
+        "assistNumber": 128,
+        "minute": "45+1",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-127",
+        "assistNumber": 127,
+        "minute": "33",
+        "assistedPlayer": "Mesut Ozil",
+        "optaAssist": true
       }
     ]
   },
@@ -238,7 +258,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Özil"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-04-30",
@@ -275,7 +296,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/175274677",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-borussia-dortmund-champions-league-2012-2013"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-borussia-dortmund-champions-league-2012-2013",
+    "assistEvents": []
   },
   {
     "id": "2013-04-24",
@@ -322,7 +344,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-04-20",
@@ -358,7 +381,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=P12vUfNIk34",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-126",
+        "assistNumber": 126,
+        "minute": "57",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2013-04-14",
@@ -412,6 +444,15 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Xabi Alonso"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-125",
+        "assistNumber": 125,
+        "minute": "76",
+        "assistedPlayer": "Gonzalo Higuain",
+        "optaAssist": true
       }
     ]
   },
@@ -470,7 +511,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-04-06",
@@ -516,6 +558,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Gonzalo Higuaín"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-124",
+        "assistNumber": 124,
+        "minute": "87",
+        "assistedPlayer": "Mesut Ozil",
+        "optaAssist": true
       }
     ]
   },
@@ -565,7 +616,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Özil"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-03-30",
@@ -611,7 +663,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-03-22",
@@ -633,7 +686,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=C5nW5-Ru_OQ",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-123",
+        "assistNumber": 123,
+        "minute": "72",
+        "assistedPlayer": "Hélder Postiga",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2013-03-16",
@@ -680,7 +742,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Özil"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-03-10",
@@ -734,7 +797,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-05-03",
@@ -782,7 +846,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gonzalo Higuaín"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-03-02",
@@ -818,7 +883,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=8g7zpf8Io6I",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-fc-barcelona-liga-1-division-2012-2013"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-fc-barcelona-liga-1-division-2012-2013",
+    "assistEvents": []
   },
   {
     "id": "2013-02-26",
@@ -872,7 +938,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-02-23",
@@ -908,7 +975,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ng2cZdKCVfo",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-122",
+        "assistNumber": 122,
+        "minute": "88",
+        "assistedPlayer": "Gonzalo Higuain",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2013-02-17",
@@ -944,7 +1020,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=dXdYWtoRw9M",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2013-02-13",
@@ -992,7 +1069,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Angel Di Maria"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-02-09",
@@ -1057,6 +1135,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gonzalo Higuaín"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2013-02-09-18",
+        "minute": "18",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      }
     ]
   },
   {
@@ -1090,7 +1177,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Fábio Coentrão"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-02-02",
@@ -1126,7 +1214,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=fkBLxEg-Jis",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/granada-cf-real-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/granada-cf-real-madrid",
+    "assistEvents": []
   },
   {
     "id": "2013-01-30",
@@ -1149,7 +1238,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=K7OLqkznKxM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-fc-barcelona-copa-del-rey-2012-2013"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-fc-barcelona-copa-del-rey-2012-2013",
+    "assistEvents": []
   },
   {
     "id": "2013-01-27",
@@ -1212,7 +1302,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-01-23",
@@ -1235,7 +1326,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=CFHJ3Mu2ZHE",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2013-01-20",
@@ -1291,6 +1383,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Özil"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-121",
+        "assistNumber": 121,
+        "minute": "34",
+        "assistedPlayer": "Angel Di Maria",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1314,7 +1415,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=E17HIEFg-io",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2013-01-09",
@@ -1365,6 +1467,15 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Gonzalo Higuaín"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-120",
+        "assistNumber": 120,
+        "minute": "89",
+        "assistedPlayer": "Sami Khedira",
+        "optaAssist": true
       }
     ]
   },
@@ -1421,7 +1532,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2012-12-22",
@@ -1457,7 +1569,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=SnUSiQT0-Zs",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/malaga-cf-real-madrid-liga-1-division-2012-2013"
+    "fullMatchUrl": "https://footballia.net/matches/malaga-cf-real-madrid-liga-1-division-2012-2013",
+    "assistEvents": []
   },
   {
     "id": "2012-12-16",
@@ -1504,6 +1617,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Sami Khedira"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-119",
+        "assistNumber": 119,
+        "minute": "48",
+        "assistedPlayer": "Fabio Coentrão",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1538,7 +1660,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Xabi Alonso"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2012-12-08",
@@ -1574,7 +1697,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=yymSWdlrGEA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-valladolid-real-madrid-liga-1-division-2012-2013"
+    "fullMatchUrl": "https://footballia.net/matches/real-valladolid-real-madrid-liga-1-division-2012-2013",
+    "assistEvents": []
   },
   {
     "id": "2012-12-04",
@@ -1620,6 +1744,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-118",
+        "assistNumber": 118,
+        "minute": "49",
+        "assistedPlayer": "Kaka",
+        "optaAssist": true
       }
     ]
   },
@@ -1667,6 +1800,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-117",
+        "assistNumber": 117,
+        "minute": "66",
+        "assistedPlayer": "Mesut Ozil",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1703,7 +1845,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=tMobFGkgKZ0",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-betis-real-madrid-liga-1-division-2012-2013"
+    "fullMatchUrl": "https://footballia.net/matches/real-betis-real-madrid-liga-1-division-2012-2013",
+    "assistEvents": []
   },
   {
     "id": "2012-11-21",
@@ -1739,7 +1882,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/54159897",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-city-real-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-city-real-madrid",
+    "assistEvents": []
   },
   {
     "id": "2012-11-17",
@@ -1775,7 +1919,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=tnNrCNbb2M0",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2012-11-11",
@@ -1821,7 +1966,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2012-11-06",
@@ -1857,7 +2003,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/53124556",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-borussia-dortmund-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-borussia-dortmund-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2012-11-03",
@@ -1893,7 +2040,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=65QLAOvUGgw",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2012-10-28",
@@ -1949,6 +2097,15 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Gonzalo Higuaín"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-116",
+        "assistNumber": 116,
+        "minute": "70",
+        "assistedPlayer": "Gonzalo Higuain",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1996,7 +2153,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Özil"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2012-10-20",
@@ -2041,7 +2199,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2012-10-16",
@@ -2063,7 +2222,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/309761354",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-northern-ireland"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-northern-ireland",
+    "assistEvents": []
   },
   {
     "id": "2012-10-12",
@@ -2099,7 +2259,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=bNJv7G81pLk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/russia-portugal-world-cup-qualification-2012"
+    "fullMatchUrl": "https://footballia.net/matches/russia-portugal-world-cup-qualification-2012",
+    "assistEvents": []
   },
   {
     "id": "2012-10-07",
@@ -2155,7 +2316,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Özil"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2012-10-03",
@@ -2220,7 +2382,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Sami Khedira"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2012-09-30",
@@ -2281,7 +2444,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2012-09-24",
@@ -2326,7 +2490,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2012-09-18",
@@ -2373,7 +2538,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2012-09-15",
@@ -2409,7 +2575,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=aWXJ8TVI2UA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sevilla-fc-real-madrid-liga-1-division-2012-2013"
+    "fullMatchUrl": "https://footballia.net/matches/sevilla-fc-real-madrid-liga-1-division-2012-2013",
+    "assistEvents": []
   },
   {
     "id": "2012-09-11",
@@ -2431,7 +2598,23 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/223893053",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-115",
+        "assistNumber": 115,
+        "minute": "85",
+        "assistedPlayer": "Hélder Postiga",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-2012-09-11-64",
+        "minute": "64",
+        "assistedPlayer": "Silvestre Varela",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
+      }
+    ]
   },
   {
     "id": "2012-09-07",
@@ -2464,7 +2647,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nani"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2012-09-02",
@@ -2519,7 +2703,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2012-08-29",
@@ -2552,7 +2737,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2012-08-26",
@@ -2588,7 +2774,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=hZJmJXr3w8Y",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/getafe-cf-real-madrid-liga-1-division"
+    "fullMatchUrl": "https://footballia.net/matches/getafe-cf-real-madrid-liga-1-division",
+    "assistEvents": []
   },
   {
     "id": "2012-08-23",
@@ -2622,7 +2809,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Özil"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2012-08-19",
@@ -2658,7 +2846,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Sw24QQq-Le4",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2012-08-15",
@@ -2691,6 +2880,7 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Raul Meireles"
       }
-    ]
+    ],
+    "assistEvents": []
   }
 ]
