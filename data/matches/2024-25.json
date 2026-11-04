@@ -33,7 +33,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-spain-nations-league-a-2024-2025"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-spain-nations-league-a-2024-2025",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-938",
+        "goalNumber": 938,
+        "minute": "61",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Nuno Mendes"
+      }
+    ]
   },
   {
     "id": "2025-06-04",
@@ -69,7 +80,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/germany-portugal-nations-league-a"
+    "fullMatchUrl": "https://footballia.net/matches/germany-portugal-nations-league-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-937",
+        "goalNumber": 937,
+        "minute": "68",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Nuno Mendes"
+      }
+    ]
   },
   {
     "id": "2025-05-26",
@@ -105,7 +127,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=mSbmP79cMqo",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-936",
+        "goalNumber": 936,
+        "minute": "42",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Mohammed Al-Fatil"
+      }
+    ]
   },
   {
     "id": "2025-05-21",
@@ -141,7 +174,16 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": "https://www.youtube.com/watch?v=GWNlfB1PdyY"
+    "fullMatchUrl": "https://www.youtube.com/watch?v=GWNlfB1PdyY",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-935",
+        "goalNumber": 935,
+        "minute": "90+7",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2025-05-07",
@@ -249,7 +291,17 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/yokohama-f-marinos-al-nassr-fc"
+    "fullMatchUrl": "https://footballia.net/matches/yokohama-f-marinos-al-nassr-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-934",
+        "goalNumber": 934,
+        "minute": "38",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2025-04-18",
@@ -279,7 +331,7 @@
       "accurateThroughballs": null,
       "xG": 0.18,
       "xA": 0.2,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": true,
@@ -315,13 +367,32 @@
       "accurateThroughballs": null,
       "xG": 1.43,
       "xA": 0.47,
-      "rating": 10.0,
+      "rating": 10,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=pb8qytsAYyo",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-932",
+        "goalNumber": 932,
+        "minute": "56",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Sadio Mané"
+      },
+      {
+        "id": "ronaldo-goal-933",
+        "goalNumber": 933,
+        "minute": "64",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2025-04-04",
@@ -357,7 +428,25 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=tDgTqTUc8js",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-hilal-fc-al-nassr-fc-saudi-league"
+    "fullMatchUrl": "https://footballia.net/matches/al-hilal-fc-al-nassr-fc-saudi-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-930",
+        "goalNumber": 930,
+        "minute": "47",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Sadio Mané"
+      },
+      {
+        "id": "ronaldo-goal-931",
+        "goalNumber": 931,
+        "minute": "88",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2025-03-23",
@@ -394,7 +483,17 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-denmark-nations-league-a"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-denmark-nations-league-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-929",
+        "goalNumber": 929,
+        "minute": "72",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2025-03-20",
@@ -467,7 +566,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=I4ir-UjjN8Y",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-928",
+        "goalNumber": 928,
+        "minute": "4",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2025-03-10",
@@ -504,7 +613,16 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-esteghlal-fc"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-esteghlal-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-927",
+        "goalNumber": 927,
+        "minute": "27",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2025-03-07",
@@ -540,7 +658,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=5JaQXkkyW5Y",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-shabab-fc-saudi-league-2024-2025"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-shabab-fc-saudi-league-2024-2025",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-926",
+        "goalNumber": 926,
+        "minute": "45",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2025-02-28",
@@ -612,7 +740,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=9VAUor8C-6k",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-925",
+        "goalNumber": 925,
+        "minute": "48",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Angelo"
+      }
+    ]
   },
   {
     "id": "2025-02-21",
@@ -720,7 +859,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=zx9dK1HH0dY",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-924",
+        "goalNumber": 924,
+        "minute": "74",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Nawaf Boushal"
+      }
+    ]
   },
   {
     "id": "2025-02-03",
@@ -756,7 +906,25 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-wasl"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-wasl",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-922",
+        "goalNumber": 922,
+        "minute": "44",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-923",
+        "goalNumber": 923,
+        "minute": "78",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Sadio Mané"
+      }
+    ]
   },
   {
     "id": "2025-01-30",
@@ -792,7 +960,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=6y-XJDKbJH8",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-921",
+        "goalNumber": 921,
+        "minute": "35",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Marcelo Brozovic"
+      }
+    ]
   },
   {
     "id": "2025-01-26",
@@ -828,7 +1007,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=KZr_qmfzXqk",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-920",
+        "goalNumber": 920,
+        "minute": "87",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Sadio Mané"
+      }
+    ]
   },
   {
     "id": "2025-01-21",
@@ -864,7 +1054,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=yKDIvnZi0Rg",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-918",
+        "goalNumber": 918,
+        "minute": "65",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Otavio"
+      },
+      {
+        "id": "ronaldo-goal-919",
+        "goalNumber": 919,
+        "minute": "90+8",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Saad Haqawi"
+      }
+    ]
   },
   {
     "id": "2025-01-17",
@@ -930,13 +1140,22 @@
       "accurateThroughballs": null,
       "xG": 0.92,
       "xA": 0.06,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=TI5rD59e_gs",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-917",
+        "goalNumber": 917,
+        "minute": "42",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2024-12-06",
@@ -972,7 +1191,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Yq2Fn-_YEPU",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-ittihad-club-al-nassr-fc-saudi-league"
+    "fullMatchUrl": "https://footballia.net/matches/al-ittihad-club-al-nassr-fc-saudi-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-916",
+        "goalNumber": 916,
+        "minute": "57",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Angelo"
+      }
+    ]
   },
   {
     "id": "2024-11-29",
@@ -1008,7 +1238,25 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=rNPnBo-0Vc0",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-914",
+        "goalNumber": 914,
+        "minute": "17",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-915",
+        "goalNumber": 915,
+        "minute": "79",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Nawaf Boushal"
+      }
+    ]
   },
   {
     "id": "2024-11-25",
@@ -1044,7 +1292,27 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-gharafa-sc-al-nassr-fc"
+    "fullMatchUrl": "https://footballia.net/matches/al-gharafa-sc-al-nassr-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-912",
+        "goalNumber": 912,
+        "minute": "46",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Sultan Al-Ghannam"
+      },
+      {
+        "id": "ronaldo-goal-913",
+        "goalNumber": 913,
+        "minute": "64",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Angelo"
+      }
+    ]
   },
   {
     "id": "2024-11-22",
@@ -1080,7 +1348,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=a8TVGmYqNtw",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-911",
+        "goalNumber": 911,
+        "minute": "32",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Mohamed Simakan"
+      }
+    ]
   },
   {
     "id": "2024-11-15",
@@ -1110,13 +1389,31 @@
       "accurateThroughballs": 0,
       "xG": 2.06,
       "xA": 0.04,
-      "rating": 9.0,
+      "rating": 9,
       "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-poland-nations-league-a"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-poland-nations-league-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-909",
+        "goalNumber": 909,
+        "minute": "72",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-910",
+        "goalNumber": 910,
+        "minute": "87",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Vitinha"
+      }
+    ]
   },
   {
     "id": "2024-11-08",
@@ -1188,7 +1485,17 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-ain-fc"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-ain-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-908",
+        "goalNumber": 908,
+        "minute": "31",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2024-11-01",
@@ -1332,7 +1639,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=jw0Tdw70Dqw",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-shabab-fc-al-nassr-fc-saudi-league"
+    "fullMatchUrl": "https://footballia.net/matches/al-shabab-fc-al-nassr-fc-saudi-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-907",
+        "goalNumber": 907,
+        "minute": "90+7",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2024-10-15",
@@ -1398,13 +1714,23 @@
       "accurateThroughballs": 0,
       "xG": 1.43,
       "xA": 0.31,
-      "rating": 8.0,
+      "rating": 8,
       "motm": false
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/poland-portugal-nations-league-a-2024-2025"
+    "fullMatchUrl": "https://footballia.net/matches/poland-portugal-nations-league-a-2024-2025",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-906",
+        "goalNumber": 906,
+        "minute": "37",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2024-10-05",
@@ -1440,7 +1766,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=5_M1m62LUwU",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-905",
+        "goalNumber": 905,
+        "minute": "17",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2024-09-30",
@@ -1476,7 +1811,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-904",
+        "goalNumber": 904,
+        "minute": "76",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Abdulrahman Ghareeb"
+      }
+    ]
   },
   {
     "id": "2024-09-27",
@@ -1512,7 +1858,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=UbO5lUwnD-c",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-wehda-fc-saudi-league"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-wehda-fc-saudi-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-903",
+        "goalNumber": 903,
+        "minute": "56",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2024-09-20",
@@ -1548,7 +1903,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=OmaJzC70j1o",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-ettifaq-fc-al-nassr-fc"
+    "fullMatchUrl": "https://footballia.net/matches/al-ettifaq-fc-al-nassr-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-902",
+        "goalNumber": 902,
+        "minute": "33",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2024-09-13",
@@ -1620,7 +1984,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-scotland-nations-league-a"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-scotland-nations-league-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-901",
+        "goalNumber": 901,
+        "minute": "88",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Nuno Mendes"
+      }
+    ]
   },
   {
     "id": "2024-09-05",
@@ -1656,7 +2031,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-croatia-nations-league-a-2024-2025"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-croatia-nations-league-a-2024-2025",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-900",
+        "goalNumber": 900,
+        "minute": "34",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Nuno Mendes"
+      }
+    ]
   },
   {
     "id": "2024-08-27",
@@ -1686,13 +2072,23 @@
       "accurateThroughballs": null,
       "xG": 1.32,
       "xA": 0.07,
-      "rating": 8.0,
+      "rating": 8,
       "motm": false
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=byptchE09F8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-fayha-fc-al-nassr-fc-saudi-league-2024-2025"
+    "fullMatchUrl": "https://footballia.net/matches/al-fayha-fc-al-nassr-fc-saudi-league-2024-2025",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-899",
+        "goalNumber": 899,
+        "minute": "45",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2024-08-22",
@@ -1728,7 +2124,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=PnmrYbOFKCQ",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-898",
+        "goalNumber": 898,
+        "minute": "34",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Sadio Mané"
+      }
+    ]
   },
   {
     "id": "2024-08-17",
@@ -1764,7 +2171,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=fZcKxnyxQOA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-hilal-fc-saudi-super-cup"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-hilal-fc-saudi-super-cup",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-897",
+        "goalNumber": 897,
+        "minute": "44",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Abdulrahman Ghareeb"
+      }
+    ]
   },
   {
     "id": "2024-08-14",
@@ -1800,6 +2218,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Hcl9Jvp4j0s",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-taawoun-fc-al-nassr-fc"
+    "fullMatchUrl": "https://footballia.net/matches/al-taawoun-fc-al-nassr-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-896",
+        "goalNumber": 896,
+        "minute": "57",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Sultan Al-Ghannam"
+      }
+    ]
   }
 ]
