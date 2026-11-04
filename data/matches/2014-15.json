@@ -46,7 +46,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Rui Patricio"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2015-05-23",
@@ -108,7 +109,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2015-05-17",
@@ -173,6 +175,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "James Rodriguez"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-164",
+        "assistNumber": 164,
+        "minute": "80",
+        "assistedPlayer": "Marcelo",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -219,7 +230,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2015-05-09",
@@ -255,7 +267,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=86n-C7V5hzs",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-valencia-cf-liga-1-division-2014-2015"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-valencia-cf-liga-1-division-2014-2015",
+    "assistEvents": []
   },
   {
     "id": "2015-05-05",
@@ -303,7 +316,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "James Rodriguez"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2015-02-05",
@@ -368,7 +382,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2015-04-29",
@@ -404,7 +419,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=SFpx16aUiDY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ud-almeria-liga-1-division-2014-2015"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ud-almeria-liga-1-division-2014-2015",
+    "assistEvents": []
   },
   {
     "id": "2015-04-26",
@@ -440,7 +456,23 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=BxQ9snZwDTA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/rc-celta-real-madrid-liga-1-division-2014-2015"
+    "fullMatchUrl": "https://footballia.net/matches/rc-celta-real-madrid-liga-1-division-2014-2015",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-163",
+        "assistNumber": 163,
+        "minute": "42",
+        "assistedPlayer": "James Rodriguez",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-2015-04-26-17",
+        "minute": "17",
+        "assistedPlayer": "Toni Kroos",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
+      }
+    ]
   },
   {
     "id": "2015-04-22",
@@ -477,7 +509,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/206691207",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-champions-league-2014-2015"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-champions-league-2014-2015",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-162",
+        "assistNumber": 162,
+        "minute": "88",
+        "assistedPlayer": "Chicharito",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2015-04-18",
@@ -524,6 +565,22 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Chicharito"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-161",
+        "assistNumber": 161,
+        "minute": "68",
+        "assistedPlayer": "James Rodriguez",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-160",
+        "assistNumber": 160,
+        "minute": "25",
+        "assistedPlayer": "Sergio Ramos",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -561,7 +618,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-champions-league-2014-2015"
+    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-champions-league-2014-2015",
+    "assistEvents": []
   },
   {
     "id": "2015-04-11",
@@ -607,7 +665,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2015-04-08",
@@ -653,6 +712,15 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Dani Carvajal"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-159",
+        "assistNumber": 159,
+        "minute": "72",
+        "assistedPlayer": "James Rodriguez",
+        "optaAssist": true
       }
     ]
   },
@@ -736,7 +804,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Luka Modric"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2015-03-29",
@@ -758,7 +827,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-serbia-euro-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-serbia-euro-qualification",
+    "assistEvents": []
   },
   {
     "id": "2015-03-22",
@@ -805,7 +875,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2015-03-15",
@@ -841,7 +912,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=vycx3LOTlTA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-levante-ud-liga-1-division-2014-2015"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-levante-ud-liga-1-division-2014-2015",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-158",
+        "assistNumber": 158,
+        "minute": "39",
+        "assistedPlayer": "Gareth Bale",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2015-03-10",
@@ -898,7 +978,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Fabio Coentrão"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2015-03-07",
@@ -934,7 +1015,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=HAExO62OOJM",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2015-03-01",
@@ -979,7 +1061,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2015-02-22",
@@ -1025,6 +1108,15 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Isco"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2015-02-22-55",
+        "minute": "55",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
       }
     ]
   },
@@ -1074,6 +1166,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Dani Carvajal"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-157",
+        "assistNumber": 157,
+        "minute": "78",
+        "assistedPlayer": "Marcelo",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1110,7 +1211,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=HcsHiXMAycM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-deportivo-de-la-coruna-liga-1-division-2014-2015"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-deportivo-de-la-coruna-liga-1-division-2014-2015",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-156",
+        "assistNumber": 156,
+        "minute": "74",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2015-02-07",
@@ -1146,7 +1256,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Qz4dpiWLJ9E",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-liga-1-division-2014-2015"
+    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-liga-1-division-2014-2015",
+    "assistEvents": []
   },
   {
     "id": "2015-01-24",
@@ -1182,7 +1293,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Q2T8kDnXw1Q",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/cordoba-cf-real-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/cordoba-cf-real-madrid",
+    "assistEvents": []
   },
   {
     "id": "2015-01-18",
@@ -1238,7 +1350,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "James Rodriguez"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2015-01-15",
@@ -1286,7 +1399,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2015-01-10",
@@ -1322,7 +1436,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=r8e0A7nn6oE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rcd-espanyol-liga-1-division-2014-2015"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rcd-espanyol-liga-1-division-2014-2015",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-155",
+        "assistNumber": 155,
+        "minute": "11",
+        "assistedPlayer": "James Rodriguez",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2015-01-07",
@@ -1359,7 +1482,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=U1HDQQTJkgk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-copa-del-rey"
+    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-copa-del-rey",
+    "assistEvents": []
   },
   {
     "id": "2015-01-04",
@@ -1404,7 +1528,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-12-20",
@@ -1426,7 +1551,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/195001698",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-san-lorenzo-de-almagro"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-san-lorenzo-de-almagro",
+    "assistEvents": []
   },
   {
     "id": "2014-12-16",
@@ -1448,7 +1574,23 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/313579805",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/cruz-azul-real-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/cruz-azul-real-madrid",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-154",
+        "assistNumber": 154,
+        "minute": "72",
+        "assistedPlayer": "Isco",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-153",
+        "assistNumber": 153,
+        "minute": "50",
+        "assistedPlayer": "Gareth Bale",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2014-12-12",
@@ -1504,7 +1646,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Dani Carvajal"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-12-09",
@@ -1548,6 +1691,15 @@
         "minute": "20",
         "goalType": "Penalty",
         "bodyPart": "Right foot"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2014-12-09-79",
+        "minute": "79",
+        "assistedPlayer": "Alvaro Arbeloa",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
       }
     ]
   },
@@ -1611,7 +1763,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-11-29",
@@ -1647,7 +1800,23 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=53vdvPQKvNI",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-152",
+        "assistNumber": 152,
+        "minute": "84",
+        "assistedPlayer": "Gareth Bale",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-151",
+        "assistNumber": 151,
+        "minute": "19",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2014-11-26",
@@ -1694,7 +1863,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-11-22",
@@ -1748,6 +1918,15 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-150",
+        "assistNumber": 150,
+        "minute": "22",
+        "assistedPlayer": "James Rodriguez",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1784,7 +1963,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=_T8bs3l9kOc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/argentina-portugal-friendly-2014"
+    "fullMatchUrl": "https://footballia.net/matches/argentina-portugal-friendly-2014",
+    "assistEvents": []
   },
   {
     "id": "2014-11-14",
@@ -1817,7 +1997,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nani"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-11-08",
@@ -1864,6 +2045,22 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Isco"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-149",
+        "assistNumber": 149,
+        "minute": "60",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-148",
+        "assistNumber": 148,
+        "minute": "54",
+        "assistedPlayer": "Toni Kroos",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1900,7 +2097,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/223501328",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-liverpool-fc-champions-league-2014-2015"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-liverpool-fc-champions-league-2014-2015",
+    "assistEvents": []
   },
   {
     "id": "2014-11-01",
@@ -1947,6 +2145,22 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-147",
+        "assistNumber": 147,
+        "minute": "87",
+        "assistedPlayer": "James Rodriguez",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-146",
+        "assistNumber": 146,
+        "minute": "55",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1992,7 +2206,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-10-22",
@@ -2039,7 +2254,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "James Rodriguez"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-10-18",
@@ -2093,7 +2309,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Isco"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-10-14",
@@ -2140,7 +2357,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Ricardo Quaresma"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-10-11",
@@ -2176,7 +2394,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/174752575",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/france-portugal-friendly-2014"
+    "fullMatchUrl": "https://footballia.net/matches/france-portugal-friendly-2014",
+    "assistEvents": []
   },
   {
     "id": "2014-10-05",
@@ -2241,6 +2460,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Pepe"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-145",
+        "assistNumber": 145,
+        "minute": "70",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -2286,7 +2514,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-09-27",
@@ -2333,7 +2562,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-09-23",
@@ -2403,7 +2633,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-09-20",
@@ -2468,7 +2699,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "James Rodriguez"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-09-16",
@@ -2515,6 +2747,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-144",
+        "assistNumber": 144,
+        "minute": "80",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -2560,7 +2801,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-08-25",
@@ -2607,7 +2849,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Isco"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-08-22",
@@ -2644,7 +2887,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=oKEdrxz7HJA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-supercopa"
+    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-supercopa",
+    "assistEvents": []
   },
   {
     "id": "2014-08-19",
@@ -2681,7 +2925,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=-PgDx02ZCE0",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-supercopa"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-supercopa",
+    "assistEvents": []
   },
   {
     "id": "2014-08-12",
@@ -2737,6 +2982,7 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
-    ]
+    ],
+    "assistEvents": []
   }
 ]
