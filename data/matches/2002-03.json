@@ -110,7 +110,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://youtube.com/watch?v=nVsicMbOniw",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-1",
+        "goalNumber": 1,
+        "minute": "34",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Tonito"
+      },
+      {
+        "id": "ronaldo-goal-2",
+        "goalNumber": 2,
+        "minute": "90+5",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Rui Jorge"
+      }
+    ]
   },
   {
     "id": "2002-10-20",
@@ -154,7 +174,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://youtube.com/watch?v=nCBHqr7gUFo",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/boavista-fc-sporting-cp-primeira-liga"
+    "fullMatchUrl": "https://footballia.net/matches/boavista-fc-sporting-cp-primeira-liga",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-3",
+        "goalNumber": 3,
+        "minute": "88",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Carlos Martins"
+      }
+    ]
   },
   {
     "id": "2002-11-02",
@@ -242,7 +273,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-4",
+        "goalNumber": 4,
+        "minute": "67",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "César Prates"
+      }
+    ]
   },
   {
     "id": "2002-11-30",
@@ -330,7 +372,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-5",
+        "goalNumber": 5,
+        "minute": "13",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Ricardo Fernandes"
+      }
+    ]
   },
   {
     "id": "2002-12-22",
