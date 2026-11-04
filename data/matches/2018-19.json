@@ -33,7 +33,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-netherlands-nations-league-a"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-netherlands-nations-league-a",
+    "assistEvents": []
   },
   {
     "id": "2019-06-05",
@@ -97,7 +98,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gonçalo Guedes"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-05-19",
@@ -133,7 +135,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=zdKz7hC2BwE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-atalanta-bc-serie-a"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-atalanta-bc-serie-a",
+    "assistEvents": []
   },
   {
     "id": "2019-05-12",
@@ -169,7 +172,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=gR_FDum-u_U",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/as-roma-juventus-fc-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/as-roma-juventus-fc-serie-a-2018-2019",
+    "assistEvents": []
   },
   {
     "id": "2019-05-03",
@@ -216,7 +220,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Leonardo Spinazzola"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-04-27",
@@ -263,7 +268,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Miralem Pjanic"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-04-20",
@@ -299,7 +305,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=HpOcAkbUYzs",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-acf-fiorentina-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-acf-fiorentina-serie-a-2018-2019",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2019-04-20-53",
+        "minute": "53",
+        "assistedPlayer": "Germán Pezzella",
+        "optaAssist": false,
+        "assistClarification": "Own goal assist"
+      }
+    ]
   },
   {
     "id": "2019-04-16",
@@ -347,7 +362,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Miralem Pjanic"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-04-10",
@@ -395,7 +411,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Cancelo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-03-25",
@@ -431,7 +448,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-serbia-euro-qualification-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-serbia-euro-qualification-2019-2020",
+    "assistEvents": []
   },
   {
     "id": "2019-03-22",
@@ -467,7 +485,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-ukraine"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-ukraine",
+    "assistEvents": []
   },
   {
     "id": "2019-03-12",
@@ -531,7 +550,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-03-03",
@@ -567,7 +587,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=RYPsbaRjxz4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ssc-napoli-juventus-fc-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/ssc-napoli-juventus-fc-serie-a-2018-2019",
+    "assistEvents": []
   },
   {
     "id": "2019-02-24",
@@ -603,7 +624,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=-mS8-OMJGHA",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2019-02-20",
@@ -640,7 +662,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-juventus-fc"
+    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-juventus-fc",
+    "assistEvents": []
   },
   {
     "id": "2019-02-15",
@@ -686,6 +709,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Mario Mandzukic"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-215",
+        "assistNumber": 215,
+        "minute": "6",
+        "assistedPlayer": "Paulo Dybala",
+        "optaAssist": true
       }
     ]
   },
@@ -733,6 +765,22 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Miralem Pjanic"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-214",
+        "assistNumber": 214,
+        "minute": "86",
+        "assistedPlayer": "Emre Can",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-2019-02-10-23",
+        "minute": "23",
+        "assistedPlayer": "Sami Khedira",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
       }
     ]
   },
@@ -790,6 +838,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Mario Mandzukic"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-213",
+        "assistNumber": 213,
+        "minute": "62",
+        "assistedPlayer": "Daniele Rugani",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -826,7 +883,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=XbNSVvWZL0Y",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/atalanta-bc-juventus-fc-coppa-italia-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/atalanta-bc-juventus-fc-coppa-italia-2018-2019",
+    "assistEvents": []
   },
   {
     "id": "2019-01-27",
@@ -871,7 +929,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-01-21",
@@ -907,7 +966,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=AsiK2Z_HCUo",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-chievo-verona-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-chievo-verona-serie-a-2018-2019",
+    "assistEvents": []
   },
   {
     "id": "2019-01-16",
@@ -954,7 +1014,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Miralem Pjanic"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-01-12",
@@ -990,7 +1051,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=AtCPGs-dr-w",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/bologna-fc-juventus-fc-coppa-italia"
+    "fullMatchUrl": "https://footballia.net/matches/bologna-fc-juventus-fc-coppa-italia",
+    "assistEvents": []
   },
   {
     "id": "2018-12-29",
@@ -1044,7 +1106,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-12-26",
@@ -1091,7 +1154,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Giorgio Chiellini"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-12-22",
@@ -1127,7 +1191,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=AgtYMNM4vcw",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2018-12-15",
@@ -1172,7 +1237,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-12-12",
@@ -1208,7 +1274,16 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/bsc-young-boys-juventus-fc"
+    "fullMatchUrl": "https://footballia.net/matches/bsc-young-boys-juventus-fc",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-212",
+        "assistNumber": 212,
+        "minute": "80",
+        "assistedPlayer": "Paulo Dybala",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2018-12-07",
@@ -1244,7 +1319,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=FlZEfRFRtfg",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2018-12-01",
@@ -1289,7 +1365,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-11-27",
@@ -1325,7 +1402,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/312518365",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-valencia-cf"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-valencia-cf",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-211",
+        "assistNumber": 211,
+        "minute": "59",
+        "assistedPlayer": "Mario Mandzukic",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2018-11-24",
@@ -1372,7 +1458,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Miralem Pjanic"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-11-11",
@@ -1418,7 +1505,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-11-07",
@@ -1465,7 +1553,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Leonardo Bonucci"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-11-03",
@@ -1501,7 +1590,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=q0ne1gGTmDM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-cagliari-calcio-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-cagliari-calcio-serie-a-2018-2019",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-210",
+        "assistNumber": 210,
+        "minute": "87",
+        "assistedPlayer": "Juan Cuadrado",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2018-10-27",
@@ -1555,7 +1653,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Blaise Matuidi"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-10-23",
@@ -1591,7 +1690,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/448182478",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-juventus-fc-champions-league-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-juventus-fc-champions-league-2018-2019",
+    "assistEvents": []
   },
   {
     "id": "2018-10-20",
@@ -1637,7 +1737,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-10-06",
@@ -1684,7 +1785,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Mario Mandzukic"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-09-29",
@@ -1720,7 +1822,30 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=3-k-skAMmos",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ssc-napoli-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ssc-napoli-serie-a-2018-2019",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-209",
+        "assistNumber": 209,
+        "minute": "76",
+        "assistedPlayer": "Leonardo Bonucci",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-2018-09-29-49",
+        "minute": "49",
+        "assistedPlayer": "Mario Mandzukic",
+        "optaAssist": false,
+        "assistClarification": "Post rebound"
+      },
+      {
+        "id": "ronaldo-assist-208",
+        "assistNumber": 208,
+        "minute": "26",
+        "assistedPlayer": "Mario Mandzukic",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2018-09-26",
@@ -1756,7 +1881,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=R9NQOT8SCvI",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-bologna-fc-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-bologna-fc-serie-a-2018-2019",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-207",
+        "assistNumber": 207,
+        "minute": "16",
+        "assistedPlayer": "Blaise Matuidi",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2018-09-23",
@@ -1802,7 +1936,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-09-19",
@@ -1838,7 +1973,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/300934671",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/valencia-cf-juventus-fc"
+    "fullMatchUrl": "https://footballia.net/matches/valencia-cf-juventus-fc",
+    "assistEvents": []
   },
   {
     "id": "2018-09-16",
@@ -1893,7 +2029,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Emre Can"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-09-01",
@@ -1929,7 +2066,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=csYINurbnoM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/parma-calcio-juventus-fc-serie-a"
+    "fullMatchUrl": "https://footballia.net/matches/parma-calcio-juventus-fc-serie-a",
+    "assistEvents": []
   },
   {
     "id": "2018-08-25",
@@ -1965,7 +2103,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=1UOA1SAy3kk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ss-lazio-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ss-lazio-serie-a-2018-2019",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-206",
+        "assistNumber": 206,
+        "minute": "75",
+        "assistedPlayer": "Mario Mandzukic",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2018-08-18",
@@ -2001,6 +2148,7 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=eav4apsVhYk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/chievo-verona-juventus-fc"
+    "fullMatchUrl": "https://footballia.net/matches/chievo-verona-juventus-fc",
+    "assistEvents": []
   }
 ]
