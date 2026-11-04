@@ -63,13 +63,41 @@
       "accurateThroughballs": 1,
       "xG": null,
       "xA": null,
-      "rating": 10.0,
+      "rating": 10,
       "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-switzerland-nations-league-a"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-switzerland-nations-league-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-687",
+        "goalNumber": 687,
+        "minute": "25",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      },
+      {
+        "id": "ronaldo-goal-688",
+        "goalNumber": 688,
+        "minute": "88",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Bernardo Silva"
+      },
+      {
+        "id": "ronaldo-goal-689",
+        "goalNumber": 689,
+        "minute": "89",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gonçalo Guedes"
+      }
+    ]
   },
   {
     "id": "2019-05-19",
@@ -98,7 +126,7 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 0.46,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 6.4,
       "motm": false
     },
@@ -177,7 +205,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=4I032hvBXAk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-torino-fc-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-torino-fc-serie-a-2018-2019",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-686",
+        "goalNumber": 686,
+        "minute": "84",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Leonardo Spinazzola"
+      }
+    ]
   },
   {
     "id": "2019-04-27",
@@ -213,7 +252,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=CAMiR9PXOM8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-internazionale-juventus-fc-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/fc-internazionale-juventus-fc-serie-a-2018-2019",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-685",
+        "goalNumber": 685,
+        "minute": "62",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Miralem Pjanic"
+      }
+    ]
   },
   {
     "id": "2019-04-20",
@@ -242,7 +292,7 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 0.4,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 6.8,
       "motm": false
     },
@@ -286,7 +336,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/535521956",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-afc-ajax-champions-league-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-afc-ajax-champions-league-2018-2019",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-684",
+        "goalNumber": 684,
+        "minute": "28",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Miralem Pjanic"
+      }
+    ]
   },
   {
     "id": "2019-04-10",
@@ -323,7 +384,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/afc-ajax-juventus-fc-champions-league-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/afc-ajax-juventus-fc-champions-league-2018-2019",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-683",
+        "goalNumber": 683,
+        "minute": "45",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Joao Cancelo"
+      }
+    ]
   },
   {
     "id": "2019-03-25",
@@ -426,13 +498,40 @@
       "accurateThroughballs": 0,
       "xG": null,
       "xA": null,
-      "rating": 10.0,
+      "rating": 10,
       "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-atletico-de-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-atletico-de-madrid",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-680",
+        "goalNumber": 680,
+        "minute": "27",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Federico Bernardeschi"
+      },
+      {
+        "id": "ronaldo-goal-681",
+        "goalNumber": 681,
+        "minute": "49",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Joao Cancelo"
+      },
+      {
+        "id": "ronaldo-goal-682",
+        "goalNumber": 682,
+        "minute": "86",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2019-03-03",
@@ -461,7 +560,7 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 0.14,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 6.8,
       "motm": false
     },
@@ -577,7 +676,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=rB9buqrSnhQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-frosinone-calcio-serie-a"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-frosinone-calcio-serie-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-679",
+        "goalNumber": 679,
+        "minute": "63",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Mario Mandzukic"
+      }
+    ]
   },
   {
     "id": "2019-02-10",
@@ -613,7 +723,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=0gnttWDcGx8",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-678",
+        "goalNumber": 678,
+        "minute": "70",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Miralem Pjanic"
+      }
+    ]
   },
   {
     "id": "2019-02-02",
@@ -649,7 +770,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=d_gvuDTWSbU",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-parma-calcio-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-parma-calcio-serie-a-2018-2019",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-676",
+        "goalNumber": 676,
+        "minute": "36",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Blaise Matuidi"
+      },
+      {
+        "id": "ronaldo-goal-677",
+        "goalNumber": 677,
+        "minute": "66",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Mario Mandzukic"
+      }
+    ]
   },
   {
     "id": "2019-01-30",
@@ -721,7 +862,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=GWKO0AM5B8M",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ss-lazio-juventus-fc-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/ss-lazio-juventus-fc-serie-a-2018-2019",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-675",
+        "goalNumber": 675,
+        "minute": "88",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2019-01-21",
@@ -793,7 +943,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=6k5NVzAR7fc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ac-milan-supercoppa-2018"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ac-milan-supercoppa-2018",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-674",
+        "goalNumber": 674,
+        "minute": "61",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Miralem Pjanic"
+      }
+    ]
   },
   {
     "id": "2019-01-12",
@@ -865,7 +1026,25 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=h2uxHkpcp7o",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-uc-sampdoria-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-uc-sampdoria-serie-a-2018-2019",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-672",
+        "goalNumber": 672,
+        "minute": "2",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Paulo Dybala"
+      },
+      {
+        "id": "ronaldo-goal-673",
+        "goalNumber": 673,
+        "minute": "65",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2018-12-26",
@@ -894,14 +1073,25 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 0.6,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 6.9,
       "motm": false
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=nbh1NTmTw7s",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/atalanta-bc-juventus-fc-serie-a"
+    "fullMatchUrl": "https://footballia.net/matches/atalanta-bc-juventus-fc-serie-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-671",
+        "goalNumber": 671,
+        "minute": "78",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Giorgio Chiellini"
+      }
+    ]
   },
   {
     "id": "2018-12-22",
@@ -966,14 +1156,23 @@
       "freeKickAttempts": 1,
       "accurateThroughballs": 0,
       "xG": 1.05,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 7.7,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=9K1WCV2eW0M",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-670",
+        "goalNumber": 670,
+        "minute": "70",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2018-12-12",
@@ -1081,7 +1280,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=0kFmFhwuJN4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/acf-fiorentina-juventus-fc-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/acf-fiorentina-juventus-fc-serie-a-2018-2019",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-669",
+        "goalNumber": 669,
+        "minute": "79",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2018-11-27",
@@ -1153,7 +1361,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=EJoN9aES5mc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-s-p-a-l-2013-serie-a"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-s-p-a-l-2013-serie-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-668",
+        "goalNumber": 668,
+        "minute": "29",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Miralem Pjanic"
+      }
+    ]
   },
   {
     "id": "2018-11-11",
@@ -1189,7 +1408,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=_kUIJTGTZLA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ac-milan-juventus-fc-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/ac-milan-juventus-fc-serie-a-2018-2019",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-667",
+        "goalNumber": 667,
+        "minute": "81",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2018-11-07",
@@ -1225,7 +1454,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-manchester-united-champions-league-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-manchester-united-champions-league-2018-2019",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-666",
+        "goalNumber": 666,
+        "minute": "65",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Leonardo Bonucci"
+      }
+    ]
   },
   {
     "id": "2018-11-03",
@@ -1291,13 +1531,31 @@
       "accurateThroughballs": 0,
       "xG": 0.9,
       "xA": 0.02,
-      "rating": 8.0,
+      "rating": 8,
       "motm": false
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=7ArIZQ7FS40",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/empoli-fc-juventus-fc"
+    "fullMatchUrl": "https://footballia.net/matches/empoli-fc-juventus-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-664",
+        "goalNumber": 664,
+        "minute": "54",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-665",
+        "goalNumber": 665,
+        "minute": "70",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Blaise Matuidi"
+      }
+    ]
   },
   {
     "id": "2018-10-23",
@@ -1362,14 +1620,24 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 1.51,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 7.7,
       "motm": false
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=M_DYYVYpQno",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-genoa-cfc-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-genoa-cfc-serie-a-2018-2019",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-663",
+        "goalNumber": 663,
+        "minute": "18",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2018-10-06",
@@ -1405,7 +1673,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=qHD53_VUV_Q",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/udinese-juventus-fc-serie-a-2018-2019"
+    "fullMatchUrl": "https://footballia.net/matches/udinese-juventus-fc-serie-a-2018-2019",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-662",
+        "goalNumber": 662,
+        "minute": "37",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Mario Mandzukic"
+      }
+    ]
   },
   {
     "id": "2018-09-29",
@@ -1513,7 +1792,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=IqD2uOdSgkg",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/frosinone-calcio-juventus-fc"
+    "fullMatchUrl": "https://footballia.net/matches/frosinone-calcio-juventus-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-661",
+        "goalNumber": 661,
+        "minute": "81",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2018-09-19",
@@ -1578,14 +1867,33 @@
       "freeKickAttempts": 1,
       "accurateThroughballs": 0,
       "xG": 2.35,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 8.5,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=aHV4hH9H668",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-us-sassuolo"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-us-sassuolo",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-659",
+        "goalNumber": 659,
+        "minute": "50",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      },
+      {
+        "id": "ronaldo-goal-660",
+        "goalNumber": 660,
+        "minute": "65",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Emre Can"
+      }
+    ]
   },
   {
     "id": "2018-09-01",
