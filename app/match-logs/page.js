@@ -501,6 +501,7 @@ function MatchDetail({ match }) {
                 );
               })}
             </div>
+            </div>
           </div>
         ) : (
           <p className="text-sm text-paper-dim">
