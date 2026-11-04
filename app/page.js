@@ -36,14 +36,21 @@ function OnThisDayCard({ event }) {
           </p>
         </div>
 
-        {presentation.highlight && (
-          <div className="flex min-w-36 items-center gap-4 rounded-xl border border-gold/30 bg-pitch px-5 py-4 sm:min-w-40 sm:flex-col sm:justify-center sm:gap-1 sm:text-center">
-            <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-paper-dim">
-              {presentation.highlight.label}
-            </p>
-            <p className="font-display text-3xl font-semibold text-gold sm:text-4xl">
-              {presentation.highlight.value}
-            </p>
+        {presentation.highlights.length > 0 && (
+          <div className="grid grid-cols-2 gap-3 sm:flex sm:flex-wrap sm:justify-end">
+            {presentation.highlights.map((highlight) => (
+              <div
+                key={highlight.label}
+                className="flex min-w-32 flex-col justify-center rounded-xl border border-gold/30 bg-pitch px-4 py-4 text-center sm:min-w-36"
+              >
+                <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-paper-dim">
+                  {highlight.label}
+                </p>
+                <p className="mt-1 font-display text-3xl font-semibold text-gold sm:text-4xl">
+                  {highlight.value}
+                </p>
+              </div>
+            ))}
           </div>
         )}
       </div>
