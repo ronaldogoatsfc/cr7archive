@@ -33,7 +33,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/277922280",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/uruguay-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/uruguay-portugal",
+    "assistEvents": []
   },
   {
     "id": "2018-06-25",
@@ -69,7 +70,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/iran-portugal-world-cup"
+    "fullMatchUrl": "https://footballia.net/matches/iran-portugal-world-cup",
+    "assistEvents": []
   },
   {
     "id": "2018-06-20",
@@ -116,7 +118,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Moutinho"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-06-15",
@@ -178,7 +181,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-06-07",
@@ -200,7 +204,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=b0MdC4xh3_I",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-algeria"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-algeria",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-205",
+        "assistNumber": 205,
+        "minute": "37",
+        "assistedPlayer": "Bruno Fernandes",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2018-05-26",
@@ -236,7 +249,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-liverpool-fc-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-liverpool-fc-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2018-05-19",
@@ -283,7 +297,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-06-05",
@@ -330,7 +345,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-05-01",
@@ -367,7 +383,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-bayern-munchen-champions-league-2017-2018"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-bayern-munchen-champions-league-2017-2018",
+    "assistEvents": []
   },
   {
     "id": "2018-04-25",
@@ -404,7 +421,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/467709326",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/bayern-munchen-real-madrid-champions-league-2017-2018"
+    "fullMatchUrl": "https://footballia.net/matches/bayern-munchen-real-madrid-champions-league-2017-2018",
+    "assistEvents": []
   },
   {
     "id": "2018-04-18",
@@ -451,7 +469,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Luka Modric"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-04-11",
@@ -497,7 +516,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-04-08",
@@ -544,7 +564,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-04-03",
@@ -601,6 +622,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Dani Carvajal"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-204",
+        "assistNumber": 204,
+        "minute": "72",
+        "assistedPlayer": "Marcelo",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -637,7 +667,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=n8tvWCEi3jM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-netherlands-friendly"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-netherlands-friendly",
+    "assistEvents": []
   },
   {
     "id": "2018-03-23",
@@ -679,7 +710,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Ricardo Quaresma"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-03-18",
@@ -752,6 +784,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Toni Kroos"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-203",
+        "assistNumber": 203,
+        "minute": "59",
+        "assistedPlayer": "Lucas Vazquez",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -808,7 +849,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Dani Carvajal"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-03-06",
@@ -855,6 +897,15 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Lucas Vazquez"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-202",
+        "assistNumber": 202,
+        "minute": "80",
+        "assistedPlayer": "Casemiro",
+        "optaAssist": true
       }
     ]
   },
@@ -912,7 +963,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-02-24",
@@ -968,7 +1020,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Lucas Vazquez"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-02-18",
@@ -1015,7 +1068,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Casemiro"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-02-14",
@@ -1069,7 +1123,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-02-10",
@@ -1133,6 +1188,15 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-201",
+        "assistNumber": 201,
+        "minute": "1",
+        "assistedPlayer": "Lucas Vazquez",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1169,7 +1233,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Nxo3p3DE1zw",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/levante-ud-real-madrid-liga-1-division-2017-2018"
+    "fullMatchUrl": "https://footballia.net/matches/levante-ud-real-madrid-liga-1-division-2017-2018",
+    "assistEvents": []
   },
   {
     "id": "2018-01-27",
@@ -1221,7 +1286,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2018-01-21",
@@ -1277,6 +1343,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Lucas Vazquez"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-200",
+        "assistNumber": 200,
+        "minute": "68",
+        "assistedPlayer": "Luka Modric",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1313,7 +1388,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=PDfVLS0H2_U",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-villarreal-cf-liga-1-division-2017-2018"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-villarreal-cf-liga-1-division-2017-2018",
+    "assistEvents": []
   },
   {
     "id": "2018-01-07",
@@ -1349,7 +1425,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=UKF4_RC76bY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/rc-celta-real-madrid-liga-1-division"
+    "fullMatchUrl": "https://footballia.net/matches/rc-celta-real-madrid-liga-1-division",
+    "assistEvents": []
   },
   {
     "id": "2017-12-23",
@@ -1385,7 +1462,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=dVFUcaoXRtM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-fc-barcelona-liga-1-division-2017-2018"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-fc-barcelona-liga-1-division-2017-2018",
+    "assistEvents": []
   },
   {
     "id": "2017-12-16",
@@ -1417,7 +1495,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-12-13",
@@ -1450,7 +1529,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Luka Modric"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-12-09",
@@ -1504,7 +1584,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-12-06",
@@ -1551,7 +1632,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Mateo Kovacic"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-12-02",
@@ -1587,7 +1669,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=S2MPIBqGWbQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/athletic-de-bilbao-real-madrid-liga-1-division-2017-2018"
+    "fullMatchUrl": "https://footballia.net/matches/athletic-de-bilbao-real-madrid-liga-1-division-2017-2018",
+    "assistEvents": []
   },
   {
     "id": "2017-11-25",
@@ -1633,7 +1716,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-11-21",
@@ -1689,6 +1773,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-199",
+        "assistNumber": 199,
+        "minute": "45+1",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1725,7 +1818,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Fkd_kFBHsuo",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-liga-1-division-2017-2018"
+    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-liga-1-division-2017-2018",
+    "assistEvents": []
   },
   {
     "id": "2017-11-05",
@@ -1761,7 +1855,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=cJg36BclV2Q",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ud-las-palmas-liga-1-division-2017-2018"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ud-las-palmas-liga-1-division-2017-2018",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-198",
+        "assistNumber": 198,
+        "minute": "74",
+        "assistedPlayer": "Isco",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2017-11-01",
@@ -1808,7 +1911,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Borja Mayoral"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-10-29",
@@ -1844,7 +1948,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=LQ1-Jce8jxk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/girona-fc-real-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/girona-fc-real-madrid",
+    "assistEvents": []
   },
   {
     "id": "2017-10-22",
@@ -1880,7 +1985,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=7odkS8oj9ew",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sd-eibar-liga-1-division-2017-2018"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sd-eibar-liga-1-division-2017-2018",
+    "assistEvents": []
   },
   {
     "id": "2017-10-17",
@@ -1925,7 +2031,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-10-14",
@@ -1972,7 +2079,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Isco"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-10-10",
@@ -2008,7 +2116,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/269471584",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-switzerland"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-switzerland",
+    "assistEvents": []
   },
   {
     "id": "2017-10-07",
@@ -2054,7 +2163,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-10-01",
@@ -2090,7 +2200,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=IgCmzMIP4Bk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rcd-espanyol-liga-1-division-2017-2018"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rcd-espanyol-liga-1-division-2017-2018",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-197",
+        "assistNumber": 197,
+        "minute": "30",
+        "assistedPlayer": "Isco",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2017-09-26",
@@ -2146,7 +2265,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Luka Modric"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-09-23",
@@ -2182,7 +2302,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=vusqjRsYLos",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/deportivo-alaves-real-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/deportivo-alaves-real-madrid",
+    "assistEvents": []
   },
   {
     "id": "2017-09-20",
@@ -2218,7 +2339,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=UjSqPgv037k",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-real-betis"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-real-betis",
+    "assistEvents": []
   },
   {
     "id": "2017-09-13",
@@ -2272,7 +2394,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-09-03",
@@ -2308,7 +2431,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/269685590",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/hungary-portugal-world-cup-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/hungary-portugal-world-cup-qualification",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-196",
+        "assistNumber": 196,
+        "minute": "48",
+        "assistedPlayer": "André Silva",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2017-08-31",
@@ -2371,6 +2503,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "William Carvalho"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-195",
+        "assistNumber": 195,
+        "minute": "58",
+        "assistedPlayer": "William Carvalho",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -2419,7 +2560,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Isco"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-08-08",
@@ -2455,6 +2597,7 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-manchester-united-super-cup"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-manchester-united-super-cup",
+    "assistEvents": []
   }
 ]
