@@ -12,6 +12,7 @@ const matchLogsMenu = [
 ];
 
 const secondaryLinks = [
+  { href: "/timeline", label: "Timeline" },
   { href: "/articles", label: "Articles" },
   { href: "/visualizations", label: "Visualizations" },
   { href: "/comparisons", label: "Comparisons" },
