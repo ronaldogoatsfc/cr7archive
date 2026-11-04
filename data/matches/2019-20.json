@@ -52,7 +52,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Federico Bernardeschi"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-07-29",
@@ -88,7 +89,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=HJncWkm5NCA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/cagliari-calcio-juventus-fc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/cagliari-calcio-juventus-fc-serie-a-2019-2020",
+    "assistEvents": []
   },
   {
     "id": "2020-07-26",
@@ -135,6 +137,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Miralem Pjanic"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2020-07-26-67",
+        "minute": "67",
+        "assistedPlayer": "Federico Bernardeschi",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      }
     ]
   },
   {
@@ -171,7 +182,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Tb7aWEYav_M",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/udinese-juventus-fc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/udinese-juventus-fc-serie-a-2019-2020",
+    "assistEvents": []
   },
   {
     "id": "2020-07-20",
@@ -225,7 +237,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Paulo Dybala"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-07-15",
@@ -261,7 +274,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=XewnJeZwmJc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/us-sassuolo-juventus-fc-serie-a"
+    "fullMatchUrl": "https://footballia.net/matches/us-sassuolo-juventus-fc-serie-a",
+    "assistEvents": []
   },
   {
     "id": "2020-07-11",
@@ -313,7 +327,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-07-07",
@@ -360,7 +375,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Juan Cuadrado"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-07-04",
@@ -405,6 +421,15 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-220",
+        "assistNumber": 220,
+        "minute": "29",
+        "assistedPlayer": "Juan Cuadrado",
+        "optaAssist": true
       }
     ]
   },
@@ -453,7 +478,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Miralem Pjanic"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-06-26",
@@ -497,6 +523,22 @@
         "minute": "62",
         "goalType": "Penalty",
         "bodyPart": "Right foot"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2020-06-26-83",
+        "minute": "83",
+        "assistedPlayer": "Gonzalo Higuain",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
+      },
+      {
+        "id": "ronaldo-assist-219",
+        "assistNumber": 219,
+        "minute": "53",
+        "assistedPlayer": "Paulo Dybala",
+        "optaAssist": true
       }
     ]
   },
@@ -543,7 +585,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-06-17",
@@ -579,7 +622,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=esc8LC1wbLQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ssc-napoli-juventus-fc-coppa-italia-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/ssc-napoli-juventus-fc-coppa-italia-2019-2020",
+    "assistEvents": []
   },
   {
     "id": "2020-06-12",
@@ -616,7 +660,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=6rhC5g2aiVE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ac-milan-coppa-italia-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ac-milan-coppa-italia-2019-2020",
+    "assistEvents": []
   },
   {
     "id": "2020-03-08",
@@ -652,7 +697,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=6UIZPEvcphA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-fc-internazionale-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-fc-internazionale-serie-a-2019-2020",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-218",
+        "assistNumber": 218,
+        "minute": "55",
+        "assistedPlayer": "Aaron Ramsey",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2020-02-26",
@@ -689,7 +743,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/434009532",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/olympique-lyonnais-juventus-fc-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/olympique-lyonnais-juventus-fc-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2020-02-22",
@@ -736,7 +791,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Juan Cuadrado"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-02-13",
@@ -782,7 +838,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-02-08",
@@ -829,7 +886,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Rodrigo Bentancur"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-02-02",
@@ -881,7 +939,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-01-26",
@@ -928,7 +987,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Rodrigo Bentancur"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-01-22",
@@ -975,7 +1035,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gonzalo Higuain"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-01-19",
@@ -1031,7 +1092,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Paulo Dybala"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-01-12",
@@ -1076,7 +1138,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2020-01-06",
@@ -1138,6 +1201,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Douglas Costa"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-217",
+        "assistNumber": 217,
+        "minute": "81",
+        "assistedPlayer": "Gonzalo Higuain",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1174,7 +1246,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=KEj54j0Q_es",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ss-lazio-supercoppa-2019"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ss-lazio-supercoppa-2019",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2019-12-22-45",
+        "minute": "45",
+        "assistedPlayer": "Paulo Dybala",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      }
+    ]
   },
   {
     "id": "2019-12-18",
@@ -1221,7 +1302,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Alex Sandro"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-12-15",
@@ -1276,7 +1358,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gonzalo Higuain"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-12-11",
@@ -1323,7 +1406,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Paulo Dybala"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-12-07",
@@ -1370,7 +1454,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Rodrigo Bentancur"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-12-01",
@@ -1415,7 +1500,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-11-26",
@@ -1451,7 +1537,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-atletico-de-madrid-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-atletico-de-madrid-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2019-11-17",
@@ -1497,7 +1584,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-11-14",
@@ -1560,7 +1648,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Bernardo Silva"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-11-10",
@@ -1596,7 +1685,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=MVNL10MyGd0",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2019-11-06",
@@ -1632,7 +1722,16 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/lokomotiv-moskva-juventus-fc-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/lokomotiv-moskva-juventus-fc-champions-league",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2019-11-06-4",
+        "minute": "4",
+        "assistedPlayer": "Aaron Ramsey",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
+      }
+    ]
   },
   {
     "id": "2019-11-02",
@@ -1668,7 +1767,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=vHz2wkHPnN4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/torino-fc-juventus-fc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/torino-fc-juventus-fc-serie-a-2019-2020",
+    "assistEvents": []
   },
   {
     "id": "2019-10-30",
@@ -1713,7 +1813,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-10-22",
@@ -1749,7 +1850,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-lokomotiv-moskva-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-lokomotiv-moskva-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2019-10-19",
@@ -1795,7 +1897,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-10-14",
@@ -1840,7 +1943,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-10-11",
@@ -1886,7 +1990,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-10-06",
@@ -1922,7 +2027,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=sW5tUe0SQFY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-internazionale-juventus-fc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/fc-internazionale-juventus-fc-serie-a-2019-2020",
+    "assistEvents": []
   },
   {
     "id": "2019-10-01",
@@ -1969,7 +2075,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Paulo Dybala"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-09-28",
@@ -2016,7 +2123,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Paulo Dybala"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-09-21",
@@ -2061,6 +2169,15 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-216",
+        "assistNumber": 216,
+        "minute": "31",
+        "assistedPlayer": "Aaron Ramsey",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -2097,7 +2214,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-juventus-fc-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-juventus-fc-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2019-09-14",
@@ -2133,7 +2251,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=mp2Wzu7tdRY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/acf-fiorentina-juventus-fc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/acf-fiorentina-juventus-fc-serie-a-2019-2020",
+    "assistEvents": []
   },
   {
     "id": "2019-09-10",
@@ -2205,7 +2324,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Bernardo Silva"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-09-07",
@@ -2252,7 +2372,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Bernardo Silva"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-08-31",
@@ -2299,7 +2420,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Douglas Costa"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2019-08-24",
@@ -2335,6 +2457,7 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=gFKNLItLMTg",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/parma-calcio-juventus-fc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/parma-calcio-juventus-fc-serie-a-2019-2020",
+    "assistEvents": []
   }
 ]
