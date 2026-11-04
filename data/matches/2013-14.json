@@ -43,7 +43,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-06-23",
@@ -79,7 +80,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/210233428",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/united-states-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/united-states-portugal",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-143",
+        "assistNumber": 143,
+        "minute": "90+5",
+        "assistedPlayer": "Silvestre Varela",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2014-06-16",
@@ -115,7 +125,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/210235658",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/germany-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/germany-portugal",
+    "assistEvents": []
   },
   {
     "id": "2014-06-11",
@@ -137,7 +148,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=e29oGSZiQBU",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-ireland"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-ireland",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2014-06-11-37",
+        "minute": "37",
+        "assistedPlayer": "Hugo Almeida",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      }
+    ]
   },
   {
     "id": "2014-05-24",
@@ -182,6 +202,15 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-142",
+        "assistNumber": 142,
+        "minute": "118",
+        "assistedPlayer": "Marcelo",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -218,7 +247,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=_-YqAjJMG5U",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-valladolid-real-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/real-valladolid-real-madrid",
+    "assistEvents": []
   },
   {
     "id": "2014-05-04",
@@ -264,6 +294,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Angel Di Maria"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-141",
+        "assistNumber": 141,
+        "minute": "59",
+        "assistedPlayer": "Sergio Ramos",
+        "optaAssist": true
       }
     ]
   },
@@ -321,7 +360,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-04-26",
@@ -377,7 +417,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Isco"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-04-23",
@@ -414,7 +455,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/165106282",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-bayern-munchen-champions-league-2013-2014"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-bayern-munchen-champions-league-2013-2014",
+    "assistEvents": []
   },
   {
     "id": "2014-04-02",
@@ -462,7 +504,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Luka Modric"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-03-29",
@@ -508,6 +551,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-140",
+        "assistNumber": 140,
+        "minute": "55",
+        "assistedPlayer": "Dani Carvajal",
+        "optaAssist": true
       }
     ]
   },
@@ -555,7 +607,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-03-23",
@@ -600,7 +653,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-03-18",
@@ -656,7 +710,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-03-15",
@@ -703,7 +758,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-03-09",
@@ -750,6 +806,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Angel Di Maria"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-139",
+        "assistNumber": 139,
+        "minute": "49",
+        "assistedPlayer": "Marcelo",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -791,6 +856,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Miguel Veloso"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2014-03-05-77",
+        "minute": "77",
+        "assistedPlayer": "Edinho",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
       }
     ]
   },
@@ -839,7 +913,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-02-26",
@@ -896,6 +971,22 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-138",
+        "assistNumber": 138,
+        "minute": "57",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-2014-02-26-13",
+        "minute": "13",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
+      }
     ]
   },
   {
@@ -949,7 +1040,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-02-05",
@@ -986,7 +1078,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=dycb7lzDaMM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-copa-del-rey-2013-2014"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-copa-del-rey-2013-2014",
+    "assistEvents": []
   },
   {
     "id": "2014-02-02",
@@ -1022,7 +1115,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=J5AZOtMnZKk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/athletic-de-bilbao-real-madrid-liga-1-division-2013-2014"
+    "fullMatchUrl": "https://footballia.net/matches/athletic-de-bilbao-real-madrid-liga-1-division-2013-2014",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-137",
+        "assistNumber": 137,
+        "minute": "65",
+        "assistedPlayer": "Jesé",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2014-01-28",
@@ -1059,7 +1161,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=lZCi1koo4WQ",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2014-01-25",
@@ -1106,7 +1209,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Luka Modric"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-01-21",
@@ -1143,7 +1247,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=0QxqufkDi-k",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/rcd-espanyol-real-madrid-copa-del-rey-2013-2014"
+    "fullMatchUrl": "https://footballia.net/matches/rcd-espanyol-real-madrid-copa-del-rey-2013-2014",
+    "assistEvents": []
   },
   {
     "id": "2014-01-18",
@@ -1189,6 +1294,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Angel Di Maria"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-136",
+        "assistNumber": 136,
+        "minute": "90",
+        "assistedPlayer": "Alvaro Morata",
+        "optaAssist": true
       }
     ]
   },
@@ -1237,7 +1351,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2014-01-12",
@@ -1273,7 +1388,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Bcj7UnlNPrI",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2014-01-09",
@@ -1310,7 +1426,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=TlqhjIytXsE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ca-osasuna-copa-del-rey-2013-2014"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ca-osasuna-copa-del-rey-2013-2014",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-135",
+        "assistNumber": 135,
+        "minute": "60",
+        "assistedPlayer": "Jesé",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2014-01-06",
@@ -1366,7 +1491,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-12-22",
@@ -1413,7 +1539,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Angel Di Maria"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-12-14",
@@ -1449,7 +1576,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=hXBvM_TXvRE",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-134",
+        "assistNumber": 134,
+        "minute": "45",
+        "assistedPlayer": "Isco",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2013-12-10",
@@ -1496,7 +1632,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Pepe"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-11-23",
@@ -1543,7 +1680,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Isco"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-11-19",
@@ -1609,7 +1747,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Moutinho"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-11-15",
@@ -1657,7 +1796,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Miguel Veloso"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-11-09",
@@ -1719,6 +1859,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-133",
+        "assistNumber": 133,
+        "minute": "18",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1765,6 +1914,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-132",
+        "assistNumber": 132,
+        "minute": "60",
+        "assistedPlayer": "Gareth Bale",
+        "optaAssist": true
       }
     ]
   },
@@ -1822,7 +1980,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-10-30",
@@ -1885,7 +2044,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-10-26",
@@ -1921,7 +2081,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=AQTTF8aNGcQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-real-madrid-liga-1-division-2013-2014"
+    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-real-madrid-liga-1-division-2013-2014",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-131",
+        "assistNumber": 131,
+        "minute": "90+1",
+        "assistedPlayer": "Jesé",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2013-10-23",
@@ -1975,7 +2144,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-10-19",
@@ -2020,7 +2190,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-10-11",
@@ -2042,7 +2213,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=n4RUuei_PuM",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2013-10-05",
@@ -2089,7 +2261,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Luka Modric"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-10-02",
@@ -2145,7 +2318,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Angel Di Maria"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-09-28",
@@ -2181,7 +2355,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=o07d6yHN3iE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-liga-1-division-2013-2014"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-liga-1-division-2013-2014",
+    "assistEvents": []
   },
   {
     "id": "2013-09-25",
@@ -2234,7 +2409,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-09-22",
@@ -2287,6 +2463,22 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Sami Khedira"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2013-09-22-59",
+        "minute": "59",
+        "assistedPlayer": "Isco",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      },
+      {
+        "id": "ronaldo-assist-2013-09-22-19",
+        "minute": "19",
+        "assistedPlayer": "Pepe",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
       }
     ]
   },
@@ -2352,6 +2544,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-130",
+        "assistNumber": 130,
+        "minute": "81",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -2398,7 +2599,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-09-06",
@@ -2448,7 +2650,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-09-01",
@@ -2495,7 +2698,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Angel Di Maria"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2013-08-26",
@@ -2531,7 +2735,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ROjCa3xlgy8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/granada-cf-real-madrid-liga-1-division-2013-2014"
+    "fullMatchUrl": "https://footballia.net/matches/granada-cf-real-madrid-liga-1-division-2013-2014",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-129",
+        "assistNumber": 129,
+        "minute": "10",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2013-08-18",
@@ -2567,7 +2780,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=QVdACprMGMM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-real-betis-liga-1-division-2013-2014"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-real-betis-liga-1-division-2013-2014",
+    "assistEvents": []
   },
   {
     "id": "2013-08-14",
@@ -2614,6 +2828,7 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Pepe"
       }
-    ]
+    ],
+    "assistEvents": []
   }
 ]
