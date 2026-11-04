@@ -153,35 +153,7 @@ export default function AboutPage() {
           available.
         </p>
 
-        <h2 className="pt-8 font-display text-3xl font-semibold text-paper">
-          What&apos;s next?
-        </h2>
-
-        <p>
-          Here are some additional features that we are considering implementing
-          in the near future:
-        </p>
-
-        <p>
-          <span className="text-paper">Official &amp; Unofficial Match Logs: </span>
-          There are many games where statistics and footage were not found. If
-          this changes, we will add them. Other things such as goal types,
-          minute scored in, assist types, and opponent rankings will be added
-          in the future.
-        </p>
-
-        <p>
-          <span className="text-paper">Timeline: </span>
-          We are looking to add a chronological view of Ronaldo&apos;s career,
-          covering the milestones and achievements throughout his journey.
-        </p>
-
-        <p>
-          <span className="text-paper">Mobile Compatibility: </span>
-          We are looking into enhancing the mobile user&apos;s experience.
-        </p>
-
-        <p>Follow along or drop a suggestion on social media:</p>
+Follow along or drop a suggestion on social media:</p>
         <SocialLinks />
       </div>
     </div>
