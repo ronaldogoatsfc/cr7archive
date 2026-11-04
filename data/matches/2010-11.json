@@ -1952,11 +1952,11 @@
     "yellowCard": true,
     "redCard": null,
     "stats": {
-      "shots": null,
-      "shotsOnTarget": null,
-      "keyPasses": null,
+      "shots": 1,
+      "shotsOnTarget": 1,
+      "keyPasses": 1,
       "bigChancesCreated": null,
-      "successfulDribbles": null,
+      "successfulDribbles": 1,
       "aerialDuelsWon": null,
       "freeKickAttempts": null,
       "accurateThroughballs": null,
@@ -1977,7 +1977,9 @@
         "optaAssist": false,
         "assistClarification": "GK rebound"
       }
-    ]
+    ],
+    "statsSource": "manual",
+    "statsStatus": "unofficial"
   },
   {
     "id": "2010-11-14",
@@ -2035,12 +2037,12 @@
     "yellowCard": null,
     "redCard": null,
     "stats": {
-      "shots": null,
-      "shotsOnTarget": null,
+      "shots": 7,
+      "shotsOnTarget": 2,
       "keyPasses": null,
       "bigChancesCreated": null,
-      "successfulDribbles": null,
-      "aerialDuelsWon": null,
+      "successfulDribbles": 1,
+      "aerialDuelsWon": 1,
       "freeKickAttempts": null,
       "accurateThroughballs": null,
       "xG": null,
@@ -2063,7 +2065,9 @@
         "assistedBy": "Angel Di Maria"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "statsSource": "manual",
+    "statsStatus": "unofficial"
   },
   {
     "id": "2010-11-07",
