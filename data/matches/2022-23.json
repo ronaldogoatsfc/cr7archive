@@ -27,13 +27,24 @@
       "accurateThroughballs": 0,
       "xG": null,
       "xA": null,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/iceland-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/iceland-portugal",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-838",
+        "goalNumber": 838,
+        "minute": "89",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gonçalo Inacio"
+      }
+    ]
   },
   {
     "id": "2023-06-17",
@@ -141,7 +152,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=A0ZyB4_UUlA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-shabab-fc-saudi-league"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-shabab-fc-saudi-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-837",
+        "goalNumber": 837,
+        "minute": "59",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Luiz Gustavo"
+      }
+    ]
   },
   {
     "id": "2023-05-16",
@@ -177,7 +199,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=9U2KgJGgMgs",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-tai-fc-al-nassr-fc"
+    "fullMatchUrl": "https://footballia.net/matches/al-tai-fc-al-nassr-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-836",
+        "goalNumber": 836,
+        "minute": "52",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2023-05-08",
@@ -207,7 +238,7 @@
       "accurateThroughballs": null,
       "xG": null,
       "xA": null,
-      "rating": 8.0,
+      "rating": 8,
       "motm": true
     },
     "hasMatchComp": true,
@@ -249,7 +280,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=a6Zi8byqu98",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-raed-fc"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-raed-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-835",
+        "goalNumber": 835,
+        "minute": "4",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Sultan Al-Ghanam"
+      }
+    ]
   },
   {
     "id": "2023-04-24",
@@ -393,7 +435,25 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=GJGr_CKTWog",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-adalah-fc-al-nassr-fc"
+    "fullMatchUrl": "https://footballia.net/matches/al-adalah-fc-al-nassr-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-833",
+        "goalNumber": 833,
+        "minute": "40",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-834",
+        "goalNumber": 834,
+        "minute": "66",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Talisca"
+      }
+    ]
   },
   {
     "id": "2023-03-26",
@@ -429,7 +489,27 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/luxembourg-portugal-euro-qualification-2023"
+    "fullMatchUrl": "https://footballia.net/matches/luxembourg-portugal-euro-qualification-2023",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-831",
+        "goalNumber": 831,
+        "minute": "9",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Nuno Mendes"
+      },
+      {
+        "id": "ronaldo-goal-832",
+        "goalNumber": 832,
+        "minute": "31",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Bruno Fernandes"
+      }
+    ]
   },
   {
     "id": "2023-03-23",
@@ -465,7 +545,24 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-liechtenstein-euro-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-liechtenstein-euro-qualification",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-829",
+        "goalNumber": 829,
+        "minute": "51",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-830",
+        "goalNumber": 830,
+        "minute": "63",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2023-03-18",
@@ -501,7 +598,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=WSHX_dheLeY",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-828",
+        "goalNumber": 828,
+        "minute": "79",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2023-03-14",
@@ -567,7 +674,7 @@
       "accurateThroughballs": null,
       "xG": null,
       "xA": null,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": true,
@@ -645,7 +752,34 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=WghTyGfLcKc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/damac-fc-al-nassr-fc-saudi-league-2022-2023"
+    "fullMatchUrl": "https://footballia.net/matches/damac-fc-al-nassr-fc-saudi-league-2022-2023",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-825",
+        "goalNumber": 825,
+        "minute": "18",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-826",
+        "goalNumber": 826,
+        "minute": "23",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Sultan Al-Ghannam"
+      },
+      {
+        "id": "ronaldo-goal-827",
+        "goalNumber": 827,
+        "minute": "44",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Ayman Yahya"
+      }
+    ]
   },
   {
     "id": "2023-02-17",
@@ -717,7 +851,42 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-wehda-fc-al-nassr-fc"
+    "fullMatchUrl": "https://footballia.net/matches/al-wehda-fc-al-nassr-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-821",
+        "goalNumber": 821,
+        "minute": "21",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Abdulrahman Ghareeb"
+      },
+      {
+        "id": "ronaldo-goal-822",
+        "goalNumber": 822,
+        "minute": "40",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Sami Al-Najei"
+      },
+      {
+        "id": "ronaldo-goal-823",
+        "goalNumber": 823,
+        "minute": "53",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-824",
+        "goalNumber": 824,
+        "minute": "61",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2023-02-03",
@@ -753,7 +922,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=k700f0XfmcI",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-fateh-sc-al-nassr-fc"
+    "fullMatchUrl": "https://footballia.net/matches/al-fateh-sc-al-nassr-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-820",
+        "goalNumber": 820,
+        "minute": "90+",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2023-01-26",
@@ -1005,7 +1183,16 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-ghana-world-cup"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-ghana-world-cup",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-819",
+        "goalNumber": 819,
+        "minute": "65",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2022-11-06",
@@ -1035,7 +1222,7 @@
       "accurateThroughballs": 0,
       "xG": 0.39,
       "xA": 0,
-      "rating": 6.0,
+      "rating": 6,
       "motm": false
     },
     "hasMatchComp": false,
@@ -1149,7 +1336,17 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-sheriff-tiraspol"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-sheriff-tiraspol",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-818",
+        "goalNumber": 818,
+        "minute": "81",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2022-10-16",
@@ -1257,7 +1454,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-817",
+        "goalNumber": 817,
+        "minute": "44",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Casemiro"
+      }
+    ]
   },
   {
     "id": "2022-10-06",
@@ -1401,7 +1609,16 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-816",
+        "goalNumber": 816,
+        "minute": "39",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2022-09-08",
@@ -1503,7 +1720,7 @@
       "accurateThroughballs": 0,
       "xG": 0.11,
       "xA": 0.11,
-      "rating": 6.0,
+      "rating": 6,
       "motm": false
     },
     "hasMatchComp": false,
