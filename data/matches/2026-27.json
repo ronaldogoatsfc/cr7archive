@@ -27,7 +27,7 @@
       "accurateThroughballs": null,
       "xG": 1.97,
       "xA": 0,
-      "rating": 9.6,
+      "rating": 9.7,
       "motm": false
     },
     "hasMatchComp": false,
@@ -84,7 +84,7 @@
     "stats": {
       "shots": 3,
       "shotsOnTarget": 1,
-      "keyPasses": 1,
+      "keyPasses": 0,
       "bigChancesCreated": 0,
       "successfulDribbles": 1,
       "aerialDuelsWon": 1,
