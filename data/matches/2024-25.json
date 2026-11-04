@@ -44,7 +44,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nuno Mendes"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-06-04",
@@ -91,7 +92,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nuno Mendes"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-05-26",
@@ -138,7 +140,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Mohammed Al-Fatil"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-05-21",
@@ -183,7 +186,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-05-07",
@@ -219,7 +223,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=X_ReWz0F5n0",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-ittihad-club-saudi-league"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-ittihad-club-saudi-league",
+    "assistEvents": []
   },
   {
     "id": "2025-04-30",
@@ -255,7 +260,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-kawasaki-frontale"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-kawasaki-frontale",
+    "assistEvents": []
   },
   {
     "id": "2025-04-26",
@@ -301,7 +307,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-04-18",
@@ -337,7 +344,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=n3-fci2twTQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-qadsiah-al-nassr-fc"
+    "fullMatchUrl": "https://footballia.net/matches/al-qadsiah-al-nassr-fc",
+    "assistEvents": []
   },
   {
     "id": "2025-04-12",
@@ -392,7 +400,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-04-04",
@@ -446,7 +455,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-03-23",
@@ -493,7 +503,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-03-20",
@@ -530,7 +541,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/denmark-portugal-nations-league-a"
+    "fullMatchUrl": "https://footballia.net/matches/denmark-portugal-nations-league-a",
+    "assistEvents": []
   },
   {
     "id": "2025-03-14",
@@ -576,7 +588,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-03-10",
@@ -622,7 +635,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-03-07",
@@ -668,7 +682,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-02-28",
@@ -704,7 +719,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ibDh-cJjROY",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2025-02-25",
@@ -751,6 +767,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Angelo"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2025-02-25-9010",
+        "minute": "90+10",
+        "assistedPlayer": "Sadio Mané",
+        "optaAssist": false,
+        "assistClarification": "Pen/FK won"
+      }
     ]
   },
   {
@@ -787,7 +812,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=45rV2xMDZkc",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2025-02-13",
@@ -823,7 +849,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=OkOku248Yrg",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-ahli-saudi-fc-al-nassr-fc-saudi-league"
+    "fullMatchUrl": "https://footballia.net/matches/al-ahli-saudi-fc-al-nassr-fc-saudi-league",
+    "assistEvents": []
   },
   {
     "id": "2025-02-07",
@@ -870,7 +897,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nawaf Boushal"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-02-03",
@@ -924,7 +952,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Sadio Mané"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-01-30",
@@ -970,6 +999,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo Brozovic"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-257",
+        "assistNumber": 257,
+        "minute": "47",
+        "assistedPlayer": "Nawaf Boushal",
+        "optaAssist": true
       }
     ]
   },
@@ -1018,7 +1056,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Sadio Mané"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-01-21",
@@ -1074,7 +1113,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Saad Haqawi"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2025-01-17",
@@ -1110,7 +1150,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=aWVSOG9DZLo",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2025-01-09",
@@ -1155,7 +1196,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-12-06",
@@ -1202,7 +1244,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Angelo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-11-29",
@@ -1256,7 +1299,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nawaf Boushal"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-11-25",
@@ -1312,7 +1356,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Angelo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-11-22",
@@ -1359,7 +1404,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Mohamed Simakan"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-11-15",
@@ -1413,6 +1459,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Vitinha"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-256",
+        "assistNumber": 256,
+        "minute": "83",
+        "assistedPlayer": "Pedro Neto",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1449,7 +1504,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=RWqutC7HUAU",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-riyadh-sc-al-nassr-fc-saudi-league"
+    "fullMatchUrl": "https://footballia.net/matches/al-riyadh-sc-al-nassr-fc-saudi-league",
+    "assistEvents": []
   },
   {
     "id": "2024-11-05",
@@ -1495,7 +1551,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-11-01",
@@ -1531,7 +1588,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=HrC1ws21jc8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-hilal-fc-saudi-league-2024-2025"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-hilal-fc-saudi-league-2024-2025",
+    "assistEvents": []
   },
   {
     "id": "2024-10-29",
@@ -1567,7 +1625,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=2RBflMeLhw8",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2024-10-22",
@@ -1603,7 +1662,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/esteghlal-fc-al-nassr-fc"
+    "fullMatchUrl": "https://footballia.net/matches/esteghlal-fc-al-nassr-fc",
+    "assistEvents": []
   },
   {
     "id": "2024-10-18",
@@ -1648,7 +1708,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-10-15",
@@ -1684,7 +1745,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/scotland-portugal-nations-league-a"
+    "fullMatchUrl": "https://footballia.net/matches/scotland-portugal-nations-league-a",
+    "assistEvents": []
   },
   {
     "id": "2024-10-12",
@@ -1730,7 +1792,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-10-05",
@@ -1774,6 +1837,15 @@
         "minute": "17",
         "goalType": "Penalty",
         "bodyPart": "Right foot"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-255",
+        "assistNumber": 255,
+        "minute": "29",
+        "assistedPlayer": "Sadio Mané",
+        "optaAssist": true
       }
     ]
   },
@@ -1822,7 +1894,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Abdulrahman Ghareeb"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-09-27",
@@ -1867,7 +1940,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-09-20",
@@ -1912,7 +1986,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-09-13",
@@ -1948,7 +2023,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Pehcyx8sWh8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-ahli-saudi-fc-saudi-league"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-ahli-saudi-fc-saudi-league",
+    "assistEvents": []
   },
   {
     "id": "2024-09-08",
@@ -1995,7 +2071,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nuno Mendes"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-09-05",
@@ -2042,7 +2119,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nuno Mendes"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-08-27",
@@ -2087,6 +2165,15 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-254",
+        "assistNumber": 254,
+        "minute": "5",
+        "assistedPlayer": "Talisca",
+        "optaAssist": true
       }
     ]
   },
@@ -2135,7 +2222,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Sadio Mané"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-08-17",
@@ -2182,7 +2270,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Abdulrahman Ghareeb"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2024-08-14",
@@ -2228,6 +2317,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Sultan Al-Ghannam"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-253",
+        "assistNumber": 253,
+        "minute": "8",
+        "assistedPlayer": "Ayman Yahya",
+        "optaAssist": true
       }
     ]
   }
