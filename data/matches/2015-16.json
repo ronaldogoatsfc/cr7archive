@@ -69,7 +69,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/319225534",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-wales"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-wales",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-548",
+        "goalNumber": 548,
+        "minute": "50",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Raphael Guerreiro"
+      }
+    ]
   },
   {
     "id": "2016-06-30",
@@ -177,7 +188,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/210213857",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/hungary-portugal-euro"
+    "fullMatchUrl": "https://footballia.net/matches/hungary-portugal-euro",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-546",
+        "goalNumber": 546,
+        "minute": "50",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Joao Mario"
+      },
+      {
+        "id": "ronaldo-goal-547",
+        "goalNumber": 547,
+        "minute": "62",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ricardo Quaresma"
+      }
+    ]
   },
   {
     "id": "2016-06-18",
@@ -285,7 +316,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=3ZMaEdT7fLc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-estonia"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-estonia",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-544",
+        "goalNumber": 544,
+        "minute": "36",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ricardo Quaresma"
+      },
+      {
+        "id": "ronaldo-goal-545",
+        "goalNumber": 545,
+        "minute": "45",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Joao Mario"
+      }
+    ]
   },
   {
     "id": "2016-05-28",
@@ -351,13 +402,33 @@
       "aerialDuelsWon": 1,
       "xG": 1.03,
       "xA": 0.08,
-      "rating": 9.0,
+      "rating": 9,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=nM_JyyA15GA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/deportivo-de-la-coruna-real-madrid-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/deportivo-de-la-coruna-real-madrid-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-542",
+        "goalNumber": 542,
+        "minute": "8",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Karim Benzema"
+      },
+      {
+        "id": "ronaldo-goal-543",
+        "goalNumber": 543,
+        "minute": "25",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Toni Kroos"
+      }
+    ]
   },
   {
     "id": "2016-05-08",
@@ -393,7 +464,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=VB2VnNDl6mc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-valencia-cf-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-valencia-cf-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-540",
+        "goalNumber": 540,
+        "minute": "26",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Marcelo"
+      },
+      {
+        "id": "ronaldo-goal-541",
+        "goalNumber": 541,
+        "minute": "59",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "James Rodriguez"
+      }
+    ]
   },
   {
     "id": "2016-05-04",
@@ -502,7 +593,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=CQqKUpkXOlQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/getafe-cf-real-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/getafe-cf-real-madrid",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-539",
+        "goalNumber": 539,
+        "minute": "90+2",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Jesé"
+      }
+    ]
   },
   {
     "id": "2016-04-12",
@@ -539,7 +641,34 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/168427554",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-vfl-wolfsburg"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-vfl-wolfsburg",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-536",
+        "goalNumber": 536,
+        "minute": "16",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      },
+      {
+        "id": "ronaldo-goal-537",
+        "goalNumber": 537,
+        "minute": "17",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Dani Carvajal"
+      },
+      {
+        "id": "ronaldo-goal-538",
+        "goalNumber": 538,
+        "minute": "77",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2016-04-09",
@@ -575,7 +704,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=X_vE0p5s3wg",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sd-eibar-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sd-eibar-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-535",
+        "goalNumber": 535,
+        "minute": "19",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Jesé"
+      }
+    ]
   },
   {
     "id": "2016-04-05",
@@ -642,13 +782,24 @@
       "aerialDuelsWon": 1,
       "xG": 0.46,
       "xA": 0,
-      "rating": 8.0,
+      "rating": 8,
       "motm": false
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=1_aiPyHM8tk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-real-madrid-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-real-madrid-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-534",
+        "goalNumber": 534,
+        "minute": "85",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gareth Bale"
+      }
+    ]
   },
   {
     "id": "2016-03-29",
@@ -678,13 +829,24 @@
       "aerialDuelsWon": 0,
       "xG": null,
       "xA": null,
-      "rating": 8.0,
+      "rating": 8,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=zXqu25lEPtg",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-533",
+        "goalNumber": 533,
+        "minute": "40",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Joao Mario"
+      }
+    ]
   },
   {
     "id": "2016-03-25",
@@ -756,7 +918,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=HqgIScuzuiE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sevilla-fc-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sevilla-fc-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-532",
+        "goalNumber": 532,
+        "minute": "64",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Danilo"
+      }
+    ]
   },
   {
     "id": "2016-03-13",
@@ -829,7 +1002,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/206690440",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-as-roma-champions-league-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-as-roma-champions-league-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-531",
+        "goalNumber": 531,
+        "minute": "64",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Lucas Vazquez"
+      }
+    ]
   },
   {
     "id": "2016-03-05",
@@ -859,13 +1043,50 @@
       "aerialDuelsWon": 3,
       "xG": 1.47,
       "xA": 0,
-      "rating": 10.0,
+      "rating": 10,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=iyue-M01-9Q",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rc-celta-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rc-celta-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-527",
+        "goalNumber": 527,
+        "minute": "50",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Sergio Ramos"
+      },
+      {
+        "id": "ronaldo-goal-528",
+        "goalNumber": 528,
+        "minute": "58",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      },
+      {
+        "id": "ronaldo-goal-529",
+        "goalNumber": 529,
+        "minute": "64",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Isco"
+      },
+      {
+        "id": "ronaldo-goal-530",
+        "goalNumber": 530,
+        "minute": "76",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Jesé"
+      }
+    ]
   },
   {
     "id": "2016-03-02",
@@ -901,7 +1122,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=8OkegWR3Zh4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/levante-ud-real-madrid-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/levante-ud-real-madrid-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-526",
+        "goalNumber": 526,
+        "minute": "34",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2016-02-27",
@@ -973,7 +1203,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=pu0OmK34gUc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/malaga-cf-real-madrid-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/malaga-cf-real-madrid-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-525",
+        "goalNumber": 525,
+        "minute": "33",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Toni Kroos"
+      }
+    ]
   },
   {
     "id": "2016-02-17",
@@ -1004,13 +1245,24 @@
       "aerialDuelsWon": 2,
       "xG": null,
       "xA": null,
-      "rating": 8.0,
+      "rating": 8,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/174003567",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/as-roma-real-madrid-champions-league-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/as-roma-real-madrid-champions-league-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-524",
+        "goalNumber": 524,
+        "minute": "57",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Marcelo"
+      }
+    ]
   },
   {
     "id": "2016-02-13",
@@ -1040,13 +1292,33 @@
       "aerialDuelsWon": 5,
       "xG": 1.3,
       "xA": 0.23,
-      "rating": 10.0,
+      "rating": 10,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=fpuNfYfw9iU",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-athletic-de-bilbao"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-athletic-de-bilbao",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-522",
+        "goalNumber": 522,
+        "minute": "3",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Karim Benzema"
+      },
+      {
+        "id": "ronaldo-goal-523",
+        "goalNumber": 523,
+        "minute": "87",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Lucas Vazquez"
+      }
+    ]
   },
   {
     "id": "2016-02-07",
@@ -1112,13 +1384,39 @@
       "aerialDuelsWon": 0,
       "xG": 1.61,
       "xA": 0.28,
-      "rating": 10.0,
+      "rating": 10,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=0CLob7XoYbg",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rcd-espanyol-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rcd-espanyol-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-519",
+        "goalNumber": 519,
+        "minute": "12",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-520",
+        "goalNumber": 520,
+        "minute": "45",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Outside Box"
+      },
+      {
+        "id": "ronaldo-goal-521",
+        "goalNumber": 521,
+        "minute": "82",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Jesé"
+      }
+    ]
   },
   {
     "id": "2016-01-24",
@@ -1190,7 +1488,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=NsBkpnxTEGE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sporting-de-gijon-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sporting-de-gijon-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-517",
+        "goalNumber": 517,
+        "minute": "9",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Karim Benzema"
+      },
+      {
+        "id": "ronaldo-goal-518",
+        "goalNumber": 518,
+        "minute": "18",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Dani Carvajal"
+      }
+    ]
   },
   {
     "id": "2016-01-09",
@@ -1256,7 +1574,7 @@
       "aerialDuelsWon": 0,
       "xG": 0.15,
       "xA": 0.19,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": true,
@@ -1298,7 +1616,25 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=bjnbWoV5gbU",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-real-sociedad-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-real-sociedad-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-515",
+        "goalNumber": 515,
+        "minute": "42",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-516",
+        "goalNumber": 516,
+        "minute": "68",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Marcelo"
+      }
+    ]
   },
   {
     "id": "2015-12-20",
@@ -1334,7 +1670,25 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Qn9Afzp0k0o",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rayo-vallecano-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rayo-vallecano-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-513",
+        "goalNumber": 513,
+        "minute": "30",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-514",
+        "goalNumber": 514,
+        "minute": "54",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "James Rodriguez"
+      }
+    ]
   },
   {
     "id": "2015-12-13",
@@ -1400,13 +1754,49 @@
       "aerialDuelsWon": 0,
       "xG": null,
       "xA": null,
-      "rating": 10.0,
+      "rating": 10,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/148474859",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-malmo-ff"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-malmo-ff",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-509",
+        "goalNumber": 509,
+        "minute": "39",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      },
+      {
+        "id": "ronaldo-goal-510",
+        "goalNumber": 510,
+        "minute": "47",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box"
+      },
+      {
+        "id": "ronaldo-goal-511",
+        "goalNumber": 511,
+        "minute": "50",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Danilo"
+      },
+      {
+        "id": "ronaldo-goal-512",
+        "goalNumber": 512,
+        "minute": "59",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Isco"
+      }
+    ]
   },
   {
     "id": "2015-12-05",
@@ -1442,7 +1832,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=XhsPDup2UFE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-getafe-cf-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-getafe-cf-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-508",
+        "goalNumber": 508,
+        "minute": "38",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Toni Kroos"
+      }
+    ]
   },
   {
     "id": "2015-11-29",
@@ -1478,7 +1879,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=sebZLd--z80",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/eibar-real-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/eibar-real-madrid",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-507",
+        "goalNumber": 507,
+        "minute": "82",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2015-11-25",
@@ -1514,7 +1924,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/183611138",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/shakhtar-donetsk-real-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/shakhtar-donetsk-real-madrid",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-505",
+        "goalNumber": 505,
+        "minute": "18",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gareth Bale"
+      },
+      {
+        "id": "ronaldo-goal-506",
+        "goalNumber": 506,
+        "minute": "70",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gareth Bale"
+      }
+    ]
   },
   {
     "id": "2015-11-21",
@@ -1616,7 +2046,7 @@
       "aerialDuelsWon": 3,
       "xG": null,
       "xA": null,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": false,
@@ -1658,7 +2088,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=2u68h69T4ks",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ud-las-palmas-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ud-las-palmas-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-504",
+        "goalNumber": 504,
+        "minute": "14",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Marcelo"
+      }
+    ]
   },
   {
     "id": "2015-10-24",
@@ -1694,7 +2135,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=VgSKoNqKNEo",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/rc-celta-real-madrid-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/rc-celta-real-madrid-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-503",
+        "goalNumber": 503,
+        "minute": "8",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Lucas Vazquez"
+      }
+    ]
   },
   {
     "id": "2015-10-21",
@@ -1760,13 +2212,24 @@
       "aerialDuelsWon": 1,
       "xG": 0.66,
       "xA": 0.21,
-      "rating": 9.0,
+      "rating": 9,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Tu7UiFQOkXg",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-levante-ud-liga-1-division-2015-2016"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-levante-ud-liga-1-division-2015-2016",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-502",
+        "goalNumber": 502,
+        "minute": "30",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Toni Kroos"
+      }
+    ]
   },
   {
     "id": "2015-10-08",
@@ -1874,7 +2337,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/208365119",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/malmo-ff-real-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/malmo-ff-real-madrid",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-500",
+        "goalNumber": 500,
+        "minute": "29",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Isco"
+      },
+      {
+        "id": "ronaldo-goal-501",
+        "goalNumber": 501,
+        "minute": "90",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Lucas Vazquez"
+      }
+    ]
   },
   {
     "id": "2015-09-26",
@@ -2018,7 +2501,31 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-shakhtar-donetsk"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-shakhtar-donetsk",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-497",
+        "goalNumber": 497,
+        "minute": "56",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-498",
+        "goalNumber": 498,
+        "minute": "64",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-499",
+        "goalNumber": 499,
+        "minute": "82",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2015-09-12",
@@ -2048,13 +2555,58 @@
       "aerialDuelsWon": 1,
       "xG": 3.23,
       "xA": 0.93,
-      "rating": 10.0,
+      "rating": 10,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=65aUjcKA2Po",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/rcd-espanyol-real-madrid-liga-1-division-1950-1951"
+    "fullMatchUrl": "https://footballia.net/matches/rcd-espanyol-real-madrid-liga-1-division-1950-1951",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-492",
+        "goalNumber": 492,
+        "minute": "7",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Luka Modric"
+      },
+      {
+        "id": "ronaldo-goal-493",
+        "goalNumber": 493,
+        "minute": "17",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-494",
+        "goalNumber": 494,
+        "minute": "20",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gareth Bale"
+      },
+      {
+        "id": "ronaldo-goal-495",
+        "goalNumber": 495,
+        "minute": "62",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gareth Bale"
+      },
+      {
+        "id": "ronaldo-goal-496",
+        "goalNumber": 496,
+        "minute": "81",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Lucas Vazquez"
+      }
+    ]
   },
   {
     "id": "2015-09-07",
@@ -2156,7 +2708,7 @@
       "aerialDuelsWon": 1,
       "xG": 1.42,
       "xA": 0.03,
-      "rating": 8.0,
+      "rating": 8,
       "motm": false
     },
     "hasMatchComp": true,
