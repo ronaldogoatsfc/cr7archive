@@ -9,6 +9,7 @@ import {
   getSeasonsSorted,
   getUniqueValues,
   getStageOptions,
+  hasRecordedDetailedStats,
 } from "@/lib/stats";
 import StatCard from "@/components/StatCard";
 
@@ -31,6 +32,7 @@ const DEFAULT_FILTERS = {
   minAssists: "Any",
   minGoalContributions: "Any",
   // performance stats
+  detailedStats: "All",
   minShots: "Any",
   minShotsOnTarget: "Any",
   minKeyPasses: "Any",
@@ -230,9 +232,7 @@ function detailedStatsTotals(matches) {
       recorded: ratings.recorded,
     },
     motm: matches.filter((match) => match.stats?.motm === true).length,
-    matchesWithStats: matches.filter(
-      (match) => match.stats && typeof match.stats === "object"
-    ).length,
+    matchesWithStats: matches.filter(hasRecordedDetailedStats).length,
   };
 }
 
@@ -396,7 +396,7 @@ function EventSection({ title, count, events, type }) {
 }
 
 function MatchDetail({ match }) {
-  const hasStats = Boolean(match.stats);
+  const hasStats = hasRecordedDetailedStats(match) || match.stats?.motm === true;
   const hasFootage = match.hasMatchComp || match.hasFullMatch;
 
   return (
@@ -600,30 +600,6 @@ export default function MatchLogsPage() {
             onChange={(v) => updateFilter("year", v)}
             options={years}
           />
-          <label className="flex flex-col gap-1">
-            <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
-              Date from
-            </span>
-            <input
-              type="date"
-              value={filters.dateFrom}
-              max={filters.dateTo || undefined}
-              onChange={(e) => updateFilter("dateFrom", e.target.value)}
-              className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
-            />
-          </label>
-          <label className="flex flex-col gap-1">
-            <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
-              Date to
-            </span>
-            <input
-              type="date"
-              value={filters.dateTo}
-              min={filters.dateFrom || undefined}
-              onChange={(e) => updateFilter("dateTo", e.target.value)}
-              className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
-            />
-          </label>
           <Select
             label="Competition"
             value={filters.competition}
@@ -635,12 +611,6 @@ export default function MatchLogsPage() {
             value={filters.team}
             onChange={(v) => updateFilter("team", v)}
             options={teams}
-          />
-          <Select
-            label="Result"
-            value={filters.result}
-            onChange={(v) => updateFilter("result", v)}
-            options={["W", "D", "L"]}
           />
           <Select
             label="Venue"
@@ -674,6 +644,36 @@ export default function MatchLogsPage() {
         {showAdvanced && (
           <>
             <FilterSection title="Match details">
+              <label className="flex flex-col gap-1">
+                <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+                  Date from
+                </span>
+                <input
+                  type="date"
+                  value={filters.dateFrom}
+                  max={filters.dateTo || undefined}
+                  onChange={(e) => updateFilter("dateFrom", e.target.value)}
+                  className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+                />
+              </label>
+              <label className="flex flex-col gap-1">
+                <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+                  Date to
+                </span>
+                <input
+                  type="date"
+                  value={filters.dateTo}
+                  min={filters.dateFrom || undefined}
+                  onChange={(e) => updateFilter("dateTo", e.target.value)}
+                  className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+                />
+              </label>
+              <Select
+                label="Result"
+                value={filters.result}
+                onChange={(v) => updateFilter("result", v)}
+                options={["W", "D", "L"]}
+              />
               <Select
                 label="Stage"
                 value={filters.stage}
@@ -710,6 +710,14 @@ export default function MatchLogsPage() {
             </FilterSection>
 
             <FilterSection title="Performance stats">
+              <Select
+                label="Detailed Stats"
+                value={filters.detailedStats}
+                onChange={(v) => updateFilter("detailedStats", v)}
+                options={["Yes", "No"]}
+                infoTitle="Detailed Match Statistics"
+                infoContent="Yes includes matches with at least one recorded performance statistic, such as shots, key passes, dribbles, expected goals, or match rating. Goals and assists alone do not count."
+              />
               <MinSelect
                 label="Shots"
                 value={filters.minShots}
