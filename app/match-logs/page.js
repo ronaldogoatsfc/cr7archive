@@ -437,7 +437,18 @@ function MatchDetail({ match }) {
         )}
 
         {hasStats ? (
-          <div className="rounded-xl border border-line/70 bg-pitch-raised p-3 sm:p-4">
+          <div className="space-y-3">
+            {match.statsStatus === "unofficial" && match.statsSource === "manual" && (
+              <div className="rounded-lg border border-gold/50 bg-gold/10 px-3 py-2">
+                <p className="font-mono text-[10px] font-bold uppercase tracking-widest text-gold">
+                  Unofficial Match Data
+                </p>
+                <p className="mt-1 text-xs leading-5 text-paper-dim">
+                  Manually recorded independently from available footage; not verified by an official statistical provider.
+                </p>
+              </div>
+            )}
+            <div className="rounded-xl border border-line/70 bg-pitch-raised p-3 sm:p-4">
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-0">
               {STAT_GROUPS.map((group, index) => {
                 const fields = group.fields
