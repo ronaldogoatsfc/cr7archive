@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState, Fragment } from "react";
-import { ChevronRight, ChevronDown, Film, Video, Info } from "lucide-react";
+import { ChevronRight, ChevronDown, Film, Video, Info, Check } from "lucide-react";
 import matches from "@/data/all-matches";
 import {
   filterMatches,
@@ -563,6 +563,7 @@ export default function MatchLogsPage() {
   const [expandedId, setExpandedId] = useState(null);
   const [showAdvanced, setShowAdvanced] = useState(false);
   const [showDetailedStats, setShowDetailedStats] = useState(false);
+  const [includeUnofficialStats, setIncludeUnofficialStats] = useState(false);
 
   const seasons = useMemo(() => getSeasonsSorted(matches), []);
   const years = useMemo(
@@ -588,7 +589,21 @@ export default function MatchLogsPage() {
   );
 
   const totals = useMemo(() => careerTotals(filtered), [filtered]);
-  const detailedTotals = useMemo(() => detailedStatsTotals(filtered), [filtered]);
+  const detailedTotals = useMemo(() => {
+    const summaryMatches = includeUnofficialStats
+      ? filtered
+      : filtered.filter(
+          (match) => !(match.statsStatus === "unofficial" && match.statsSource === "manual")
+        );
+    const totals = detailedStatsTotals(summaryMatches);
+
+    // Keep coverage based on all filtered matches, even when unofficial stats
+    // are excluded from the numerical totals.
+    return {
+      ...totals,
+      matchesWithStats: filtered.filter(hasRecordedDetailedStats).length,
+    };
+  }, [filtered, includeUnofficialStats]);
   const nonOptaAssists = useMemo(() => nonOptaAssistCount(filtered), [filtered]);
   const unofficialStatsMatches = useMemo(
     () => filtered.filter((match) => match.statsStatus === "unofficial" && match.statsSource === "manual").length,
@@ -912,13 +927,31 @@ export default function MatchLogsPage() {
           <>
             <p className="mt-2 max-w-3xl text-sm text-paper-dim">
               Totals for the matches currently selected by your filters. Only recorded values are included;
-              missing stats are excluded rather than treated as zero.
+              missing stats are excluded rather than treated as zero. Unofficial match data is excluded by
+              default, but you can include it below.
               {unofficialStatsMatches > 0 && (
                 <span className="mt-1 block text-gold">
                   These totals include manually recorded, unverified stats from {unofficialStatsMatches} {unofficialStatsMatches === 1 ? "match" : "matches"}.
                 </span>
               )}
             </p>
+            <button
+              type="button"
+              onClick={() => setIncludeUnofficialStats((value) => !value)}
+              aria-pressed={includeUnofficialStats}
+              className={`mt-4 inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold ${
+                includeUnofficialStats
+                  ? "border-gold bg-gold/10 text-gold"
+                  : "border-line bg-pitch-raised text-paper-dim hover:border-gold hover:text-paper"
+              }`}
+            >
+              <span className={`flex h-4 w-4 items-center justify-center rounded border ${
+                includeUnofficialStats ? "border-gold bg-gold text-pitch" : "border-paper-dim"
+              }`}>
+                {includeUnofficialStats && <Check size={12} strokeWidth={3} />}
+              </span>
+              Include unofficial stats in totals
+            </button>
             <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
           {detailedTotals.totals.map((stat) => (
             <SummaryStatCard
