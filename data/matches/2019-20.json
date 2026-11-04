@@ -34,7 +34,25 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-olympique-lyonnais-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-olympique-lyonnais-champions-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-736",
+        "goalNumber": 736,
+        "minute": "43",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-737",
+        "goalNumber": 737,
+        "minute": "60",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Federico Bernardeschi"
+      }
+    ]
   },
   {
     "id": "2020-07-29",
@@ -106,7 +124,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=LvwESxb2slM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-uc-sampdoria-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-uc-sampdoria-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-735",
+        "goalNumber": 735,
+        "minute": "45",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Miralem Pjanic"
+      }
+    ]
   },
   {
     "id": "2020-07-23",
@@ -178,7 +207,25 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=SBZPZrE69PE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ss-lazio-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ss-lazio-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-733",
+        "goalNumber": 733,
+        "minute": "51",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-734",
+        "goalNumber": 734,
+        "minute": "54",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Paulo Dybala"
+      }
+    ]
   },
   {
     "id": "2020-07-15",
@@ -250,7 +297,23 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=YUgpt00VlTc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-atalanta-bc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-atalanta-bc-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-731",
+        "goalNumber": 731,
+        "minute": "55",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-732",
+        "goalNumber": 732,
+        "minute": "90",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2020-07-07",
@@ -286,7 +349,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=5Uxr8xtcVl0",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ac-milan-juventus-fc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/ac-milan-juventus-fc-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-730",
+        "goalNumber": 730,
+        "minute": "53",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Juan Cuadrado"
+      }
+    ]
   },
   {
     "id": "2020-07-04",
@@ -322,7 +396,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=k6h0NmqqZZs",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-torino-fc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-torino-fc-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-729",
+        "goalNumber": 729,
+        "minute": "61",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2020-06-30",
@@ -358,7 +442,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=BX3sIwWRF8w",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/genoa-cfc-juventus-fc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/genoa-cfc-juventus-fc-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-728",
+        "goalNumber": 728,
+        "minute": "56",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Miralem Pjanic"
+      }
+    ]
   },
   {
     "id": "2020-06-26",
@@ -394,7 +489,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=GJg9YUtW7Hg",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-us-lecce-serie-a"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-us-lecce-serie-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-727",
+        "goalNumber": 727,
+        "minute": "62",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2020-06-22",
@@ -430,7 +534,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=A_Lo61iHUbE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/bologna-fc-juventus-fc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/bologna-fc-juventus-fc-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-726",
+        "goalNumber": 726,
+        "minute": "23",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2020-06-17",
@@ -570,7 +683,7 @@
       "accurateThroughballs": 0,
       "xG": null,
       "xA": null,
-      "rating": 6.0,
+      "rating": 6,
       "motm": false
     },
     "hasMatchComp": true,
@@ -612,7 +725,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=p7lQGT6viJQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/s-p-a-l-2013-juventus-fc-serie-a"
+    "fullMatchUrl": "https://footballia.net/matches/s-p-a-l-2013-juventus-fc-serie-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-725",
+        "goalNumber": 725,
+        "minute": "39",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Juan Cuadrado"
+      }
+    ]
   },
   {
     "id": "2020-02-13",
@@ -649,7 +773,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=UcRTyLn0LQQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ac-milan-juventus-fc-coppa-italia-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/ac-milan-juventus-fc-coppa-italia-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-724",
+        "goalNumber": 724,
+        "minute": "90+1",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2020-02-08",
@@ -685,7 +818,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=90GuiIIm2Ls",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/hellas-verona-juventus-fc-serie-a"
+    "fullMatchUrl": "https://footballia.net/matches/hellas-verona-juventus-fc-serie-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-723",
+        "goalNumber": 723,
+        "minute": "65",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Rodrigo Bentancur"
+      }
+    ]
   },
   {
     "id": "2020-02-02",
@@ -721,7 +865,23 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=pGZjhUbhdoQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-acf-fiorentina-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-acf-fiorentina-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-721",
+        "goalNumber": 721,
+        "minute": "40",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-722",
+        "goalNumber": 722,
+        "minute": "80",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2020-01-26",
@@ -757,7 +917,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=uyeJ2JX4J94",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ssc-napoli-juventus-fc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/ssc-napoli-juventus-fc-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-720",
+        "goalNumber": 720,
+        "minute": "90",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Rodrigo Bentancur"
+      }
+    ]
   },
   {
     "id": "2020-01-22",
@@ -793,7 +964,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=9peGcJ8_g4k",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-as-roma-coppa-italia"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-as-roma-coppa-italia",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-719",
+        "goalNumber": 719,
+        "minute": "26",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gonzalo Higuain"
+      }
+    ]
   },
   {
     "id": "2020-01-19",
@@ -829,7 +1011,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=5GkBX5L9sug",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-parma-calcio-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-parma-calcio-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-717",
+        "goalNumber": 717,
+        "minute": "43",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Blaise Matuidi"
+      },
+      {
+        "id": "ronaldo-goal-718",
+        "goalNumber": 718,
+        "minute": "58",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Paulo Dybala"
+      }
+    ]
   },
   {
     "id": "2020-01-12",
@@ -865,7 +1067,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=WqrBchXcI1E",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/as-roma-juventus-fc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/as-roma-juventus-fc-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-716",
+        "goalNumber": 716,
+        "minute": "10",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2020-01-06",
@@ -901,7 +1112,33 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=9US8iE42aVw",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-cagliari-calcio"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-cagliari-calcio",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-713",
+        "goalNumber": 713,
+        "minute": "49",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      },
+      {
+        "id": "ronaldo-goal-714",
+        "goalNumber": 714,
+        "minute": "67",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-715",
+        "goalNumber": 715,
+        "minute": "82",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Douglas Costa"
+      }
+    ]
   },
   {
     "id": "2019-12-22",
@@ -973,7 +1210,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=4xGDbeQQxqc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/uc-sampdoria-juventus-fc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/uc-sampdoria-juventus-fc-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-712",
+        "goalNumber": 712,
+        "minute": "45",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Alex Sandro"
+      }
+    ]
   },
   {
     "id": "2019-12-15",
@@ -1009,7 +1257,26 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=13M0AwIrDRQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-udinese-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-udinese-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-710",
+        "goalNumber": 710,
+        "minute": "9",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      },
+      {
+        "id": "ronaldo-goal-711",
+        "goalNumber": 711,
+        "minute": "37",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gonzalo Higuain"
+      }
+    ]
   },
   {
     "id": "2019-12-11",
@@ -1045,7 +1312,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/bayer-leverkusen-juventus-fc"
+    "fullMatchUrl": "https://footballia.net/matches/bayer-leverkusen-juventus-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-709",
+        "goalNumber": 709,
+        "minute": "75",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Paulo Dybala"
+      }
+    ]
   },
   {
     "id": "2019-12-07",
@@ -1081,7 +1359,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=f5vNc302OBI",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ss-lazio-juventus-fc-premier-league"
+    "fullMatchUrl": "https://footballia.net/matches/ss-lazio-juventus-fc-premier-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-708",
+        "goalNumber": 708,
+        "minute": "25",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Rodrigo Bentancur"
+      }
+    ]
   },
   {
     "id": "2019-12-01",
@@ -1117,7 +1406,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=B-87QRSd-do",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-us-sassuolo-serie-a"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-us-sassuolo-serie-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-707",
+        "goalNumber": 707,
+        "minute": "68",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2019-11-26",
@@ -1189,7 +1487,17 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/luxembourg-portugal-euro-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/luxembourg-portugal-euro-qualification",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-706",
+        "goalNumber": 706,
+        "minute": "86",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2019-11-14",
@@ -1225,7 +1533,34 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-lithuania"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-lithuania",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-703",
+        "goalNumber": 703,
+        "minute": "7",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-704",
+        "goalNumber": 704,
+        "minute": "22",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Gonçalo Paciencia"
+      },
+      {
+        "id": "ronaldo-goal-705",
+        "goalNumber": 705,
+        "minute": "65",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Bernardo Silva"
+      }
+    ]
   },
   {
     "id": "2019-11-10",
@@ -1369,7 +1704,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=XH_wcFcELAA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-genoa-cfc-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-genoa-cfc-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-702",
+        "goalNumber": 702,
+        "minute": "90+6",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2019-10-22",
@@ -1441,7 +1785,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=wFX8QtsFejg",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-bologna-fc"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-bologna-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-701",
+        "goalNumber": 701,
+        "minute": "19",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2019-10-14",
@@ -1477,7 +1831,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/451092712",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ukraine-portugal-euro-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/ukraine-portugal-euro-qualification",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-700",
+        "goalNumber": 700,
+        "minute": "72",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2019-10-11",
@@ -1507,13 +1870,23 @@
       "accurateThroughballs": null,
       "xG": null,
       "xA": null,
-      "rating": 8.0,
+      "rating": 8,
       "motm": false
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-luxembourg"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-luxembourg",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-699",
+        "goalNumber": 699,
+        "minute": "65",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2019-10-06",
@@ -1585,7 +1958,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-bayer-leverkusen-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-bayer-leverkusen-champions-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-698",
+        "goalNumber": 698,
+        "minute": "89",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Paulo Dybala"
+      }
+    ]
   },
   {
     "id": "2019-09-28",
@@ -1621,7 +2005,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=7rYdpcIJzZ0",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-s-p-a-l-2013"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-s-p-a-l-2013",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-697",
+        "goalNumber": 697,
+        "minute": "78",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Paulo Dybala"
+      }
+    ]
   },
   {
     "id": "2019-09-21",
@@ -1657,7 +2052,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=KHVbrm-S7JY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-hellas-verona-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-hellas-verona-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-696",
+        "goalNumber": 696,
+        "minute": "49",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2019-09-18",
@@ -1765,7 +2169,43 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/lithuania-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/lithuania-portugal",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-692",
+        "goalNumber": 692,
+        "minute": "7",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-693",
+        "goalNumber": 693,
+        "minute": "61",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Rafa Silva"
+      },
+      {
+        "id": "ronaldo-goal-694",
+        "goalNumber": 694,
+        "minute": "65",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Bernardo Silva"
+      },
+      {
+        "id": "ronaldo-goal-695",
+        "goalNumber": 695,
+        "minute": "76",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Bernardo Silva"
+      }
+    ]
   },
   {
     "id": "2019-09-07",
@@ -1801,7 +2241,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/serbia-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/serbia-portugal",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-691",
+        "goalNumber": 691,
+        "minute": "80",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Bernardo Silva"
+      }
+    ]
   },
   {
     "id": "2019-08-31",
@@ -1837,7 +2288,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Om2rn7aWEd4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ssc-napoli-serie-a-2019-2020"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ssc-napoli-serie-a-2019-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-690",
+        "goalNumber": 690,
+        "minute": "62",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Douglas Costa"
+      }
+    ]
   },
   {
     "id": "2019-08-24",
