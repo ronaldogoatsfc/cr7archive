@@ -33,7 +33,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/194948009",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-germany-euro"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-germany-euro",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2008-06-19-40",
+        "minute": "40",
+        "assistedPlayer": "Nuno Gomes",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      }
+    ]
   },
   {
     "id": "2008-06-11",
@@ -80,6 +89,22 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Moutinho"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-59",
+        "assistNumber": 59,
+        "minute": "90+1",
+        "assistedPlayer": "Ricardo Quaresma",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-2008-06-11-8",
+        "minute": "8",
+        "assistedPlayer": "Deco",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      }
     ]
   },
   {
@@ -116,7 +141,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/222953420",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-turkey-euro"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-turkey-euro",
+    "assistEvents": []
   },
   {
     "id": "2008-05-31",
@@ -138,7 +164,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Yq6YcuBJZq0",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2008-05-21",
@@ -185,7 +212,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Wes Brown"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-05-11",
@@ -216,7 +244,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-05-03",
@@ -258,6 +287,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Owen Hargreaves"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-58",
+        "assistNumber": 58,
+        "minute": "26",
+        "assistedPlayer": "Carlos Tévez",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -295,7 +333,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/140503677",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-fc-barcelona-champions-league-2007-2008"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-fc-barcelona-champions-league-2007-2008",
+    "assistEvents": []
   },
   {
     "id": "2008-04-26",
@@ -317,7 +356,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=pJn1usZwLRU",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/chelsea-fc-manchester-united-premier-league-2007-2008"
+    "fullMatchUrl": "https://footballia.net/matches/chelsea-fc-manchester-united-premier-league-2007-2008",
+    "assistEvents": []
   },
   {
     "id": "2008-04-23",
@@ -354,7 +394,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/163723775",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-manchester-united-champions-league-2007-2008"
+    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-manchester-united-champions-league-2007-2008",
+    "assistEvents": []
   },
   {
     "id": "2008-04-19",
@@ -376,7 +417,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Mb1MfFRsmVs",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/blackburn-rovers-manchester-united-premier-league-2007-2008"
+    "fullMatchUrl": "https://footballia.net/matches/blackburn-rovers-manchester-united-premier-league-2007-2008",
+    "assistEvents": []
   },
   {
     "id": "2008-04-13",
@@ -407,7 +449,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-04-06",
@@ -440,7 +483,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Michael Carrick"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-04-01",
@@ -488,7 +532,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Paul Scholes"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-03-29",
@@ -519,6 +564,29 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-57",
+        "assistNumber": 57,
+        "minute": "70",
+        "assistedPlayer": "Wayne Rooney",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-56",
+        "assistNumber": 56,
+        "minute": "53",
+        "assistedPlayer": "Wayne Rooney",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-55",
+        "assistNumber": 55,
+        "minute": "33",
+        "assistedPlayer": "Carlos Tévez",
+        "optaAssist": true
       }
     ]
   },
@@ -553,7 +621,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nani"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-03-19",
@@ -593,7 +662,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-03-15",
@@ -626,7 +696,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Wayne Rooney"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-03-08",
@@ -648,7 +719,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=hBnrv87NLLg",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-portsmouth-fc-fa-cup"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-portsmouth-fc-fa-cup",
+    "assistEvents": []
   },
   {
     "id": "2008-03-04",
@@ -695,7 +767,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-03-01",
@@ -717,7 +790,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=SCiL1RRtld4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fulham-fc-manchester-united-premier-league-2007-2008"
+    "fullMatchUrl": "https://footballia.net/matches/fulham-fc-manchester-united-premier-league-2007-2008",
+    "assistEvents": []
   },
   {
     "id": "2008-02-23",
@@ -759,6 +833,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Darren Fletcher"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-54",
+        "assistNumber": 54,
+        "minute": "25",
+        "assistedPlayer": "Wayne Rooney",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -796,7 +879,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/159695249",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/olympique-lyonnais-manchester-united"
+    "fullMatchUrl": "https://footballia.net/matches/olympique-lyonnais-manchester-united",
+    "assistEvents": []
   },
   {
     "id": "2008-02-10",
@@ -818,7 +902,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/42973624",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-manchester-city-premier-league-2007-2008"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-manchester-city-premier-league-2007-2008",
+    "assistEvents": []
   },
   {
     "id": "2008-02-06",
@@ -840,7 +925,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=O_IiGTD0Zo4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/italy-portugal-friendly-2008"
+    "fullMatchUrl": "https://footballia.net/matches/italy-portugal-friendly-2008",
+    "assistEvents": []
   },
   {
     "id": "2008-02-02",
@@ -862,7 +948,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=180dkFw8TsU",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2008-01-30",
@@ -903,7 +990,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-01-27",
@@ -943,7 +1031,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-01-19",
@@ -976,7 +1065,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Darren Fletcher"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-01-12",
@@ -1039,7 +1129,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-01-05",
@@ -1072,6 +1163,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2008-01-05-89",
+        "minute": "89",
+        "assistedPlayer": "Wayne Rooney",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
+      }
     ]
   },
   {
@@ -1094,7 +1194,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=8C7aYjWS8CM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-birmingham-city"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-birmingham-city",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-53",
+        "assistNumber": 53,
+        "minute": "25",
+        "assistedPlayer": "Carlos Tévez",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2007-12-29",
@@ -1127,7 +1236,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-12-26",
@@ -1159,7 +1269,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-12-23",
@@ -1199,7 +1310,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-12-16",
@@ -1221,7 +1333,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=YpTLHZXnPGY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/liverpool-fc-manchester-united-premier-league-2007-2008"
+    "fullMatchUrl": "https://footballia.net/matches/liverpool-fc-manchester-united-premier-league-2007-2008",
+    "assistEvents": []
   },
   {
     "id": "2007-12-08",
@@ -1251,6 +1364,15 @@
         "minute": "90",
         "goalType": "Penalty",
         "bodyPart": "Right foot"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2007-12-08-41",
+        "minute": "41",
+        "assistedPlayer": "Ryan Giggs",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
       }
     ]
   },
@@ -1294,7 +1416,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "John O'Shea"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-11-27",
@@ -1340,6 +1463,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-52",
+        "assistNumber": 52,
+        "minute": "61",
+        "assistedPlayer": "Carlos Tévez",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1362,7 +1494,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=tr1ATDRYlRk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-finland"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-finland",
+    "assistEvents": []
   },
   {
     "id": "2007-11-17",
@@ -1384,7 +1517,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=kR-f8EumuWk",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2007-11-11",
@@ -1426,7 +1560,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Carlos Tevez"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-11-07",
@@ -1473,7 +1608,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Patrice Evra"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-11-03",
@@ -1506,7 +1642,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Patrice Evra"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-10-27",
@@ -1528,7 +1665,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=eQEcmpltBYs",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-middlesbrough-fc-premier-league"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-middlesbrough-fc-premier-league",
+    "assistEvents": []
   },
   {
     "id": "2007-10-23",
@@ -1581,7 +1719,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-10-20",
@@ -1603,7 +1742,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=u6Usn_A90Dk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/aston-villa-manchester-united-premier-league-2007-2008"
+    "fullMatchUrl": "https://footballia.net/matches/aston-villa-manchester-united-premier-league-2007-2008",
+    "assistEvents": []
   },
   {
     "id": "2007-10-17",
@@ -1636,7 +1776,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nani"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-10-13",
@@ -1658,7 +1799,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=YGhCLDNVZQc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/azerbaijan-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/azerbaijan-portugal",
+    "assistEvents": []
   },
   {
     "id": "2007-10-06",
@@ -1699,7 +1841,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Wayne Rooney"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-10-02",
@@ -1735,7 +1878,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/201152530",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-as-roma-champions-league-2007-2008"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-as-roma-champions-league-2007-2008",
+    "assistEvents": []
   },
   {
     "id": "2007-09-29",
@@ -1767,7 +1911,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-09-23",
@@ -1789,7 +1934,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=sxxEahZc_5M",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-chelsea-fc-premier-league-2007-2008"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-chelsea-fc-premier-league-2007-2008",
+    "assistEvents": []
   },
   {
     "id": "2007-09-19",
@@ -1836,7 +1982,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Wes Brown"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-09-15",
@@ -1858,7 +2005,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/174000394",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2007-09-12",
@@ -1880,7 +2028,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=MYd0p1gPbDw",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-serbia-euro-qualification-2007"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-serbia-euro-qualification-2007",
+    "assistEvents": []
   },
   {
     "id": "2007-09-08",
@@ -1912,7 +2061,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-08-22",
@@ -1944,7 +2094,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-08-15",
@@ -1966,7 +2117,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=O0Q86INSStQ",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2007-08-12",
@@ -1988,7 +2140,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=UWGZg3srEL4",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2007-08-05",
@@ -2010,6 +2163,7 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=XwFBn4adfSg",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/chelsea-fc-manchester-united-community-shield"
+    "fullMatchUrl": "https://footballia.net/matches/chelsea-fc-manchester-united-community-shield",
+    "assistEvents": []
   }
 ]
