@@ -33,7 +33,36 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-983",
+        "goalNumber": 983,
+        "minute": "66",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Joao Félix"
+      },
+      {
+        "id": "ronaldo-goal-984",
+        "goalNumber": 984,
+        "minute": "72",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Joao Félix"
+      },
+      {
+        "id": "ronaldo-goal-985",
+        "goalNumber": 985,
+        "minute": "81",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Sadio Mané"
+      }
+    ]
   },
   {
     "id": "2026-10-24",
@@ -141,7 +170,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-981",
+        "goalNumber": 981,
+        "minute": "42",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ayman Yahya"
+      }
+    ]
   },
   {
     "id": "2026-10-09",
@@ -177,7 +217,17 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-980",
+        "goalNumber": 980,
+        "minute": "23",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2026-09-24",
@@ -315,13 +365,24 @@
       "accurateThroughballs": null,
       "xG": 0.53,
       "xA": 0.05,
-      "rating": 8.0,
+      "rating": 8,
       "motm": false
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=m1pDq8bcj38",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-979",
+        "goalNumber": 979,
+        "minute": "22",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Angelo"
+      }
+    ]
   },
   {
     "id": "2026-09-05",
@@ -393,7 +454,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=z91etocpsco",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-978",
+        "goalNumber": 978,
+        "minute": "50",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Mohamed Simakan"
+      }
+    ]
   },
   {
     "id": "2026-08-25",
@@ -465,6 +537,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=LN7eh0SjZM8",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-977",
+        "goalNumber": 977,
+        "minute": "83",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ayman Yahya"
+      }
+    ]
   }
 ]
