@@ -917,7 +917,7 @@ export default function MatchLogsPage() {
             <span className="block">Detailed stats recorded for {detailedTotals.matchesWithStats} of {filtered.length} matches</span>
             {unofficialStatsMatches > 0 && (
               <span className="mt-1 block text-gold">
-                Includes unverified stats from {unofficialStatsMatches} {unofficialStatsMatches === 1 ? "match" : "matches"}
+                {unofficialStatsMatches} {unofficialStatsMatches === 1 ? "match has" : "matches have"} unofficial stats
               </span>
             )}
           </span>
@@ -931,7 +931,9 @@ export default function MatchLogsPage() {
               default, but you can include it below.
               {unofficialStatsMatches > 0 && (
                 <span className="mt-1 block text-gold">
-                  These totals include manually recorded, unverified stats from {unofficialStatsMatches} {unofficialStatsMatches === 1 ? "match" : "matches"}.
+                  {includeUnofficialStats
+                    ? `These totals include manually recorded, unverified stats from ${unofficialStatsMatches} ${unofficialStatsMatches === 1 ? "match" : "matches"}.`
+                    : `Unofficial stats from ${unofficialStatsMatches} ${unofficialStatsMatches === 1 ? "match are" : "matches are"} excluded from these totals.`}
                 </span>
               )}
             </p>
