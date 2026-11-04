@@ -39,6 +39,22 @@ export default function TimelineMomentCard({ event, presentation, month, day }) 
             <div className="p-5 sm:p-7">
               <h2 id="timeline-moment-title" className="font-display text-2xl font-semibold text-paper sm:text-3xl">{presentation.headline}</h2>
               <p className="mt-4 whitespace-pre-line text-sm leading-8 text-paper-dim sm:text-base">{event.description}</p>
+              {event.details && (
+                <section className="mt-7 rounded-xl border border-gold/20 bg-pitch p-4 sm:p-5">
+                  <h3 className="font-mono text-[10px] uppercase tracking-[0.18em] text-gold">Voting breakdown</h3>
+                  <div className="mt-3 grid gap-3 sm:grid-cols-3">
+                    {event.details.split("|").map((entry, index) => {
+                      const [name, ...valueParts] = entry.split(":");
+                      return (
+                        <div key={index} className="rounded-lg border border-line bg-pitch-raised/70 p-3">
+                          <p className="text-xs leading-5 text-paper-dim">{name.trim()}</p>
+                          <p className="mt-1 data-mono text-sm font-semibold text-paper">{valueParts.join(":").trim()}</p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </section>
+              )}
             </div>
           </section>
         </div>
