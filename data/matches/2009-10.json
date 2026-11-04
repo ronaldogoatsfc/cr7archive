@@ -195,7 +195,14 @@
         "optaAssist": false,
         "assistClarification": "GK rebound"
       }
-    ]
+    ],
+    "stats": {
+      "shots": 4,
+      "shotsOnTarget": 2,
+      "successfulDribbles": 1
+    },
+    "statsSource": "manual",
+    "statsStatus": "unofficial"
   },
   {
     "id": "2010-06-01",
