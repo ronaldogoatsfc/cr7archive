@@ -69,7 +69,23 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/654954244",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-france-euro-2020"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-france-euro-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-782",
+        "goalNumber": 782,
+        "minute": "31",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-783",
+        "goalNumber": 783,
+        "minute": "63",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2021-06-19",
@@ -105,7 +121,18 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-germany-euro-2020"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-germany-euro-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-781",
+        "goalNumber": 781,
+        "minute": "15",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Diogo Jota"
+      }
+    ]
   },
   {
     "id": "2021-06-15",
@@ -141,7 +168,25 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/hungary-portugal-euro-2020"
+    "fullMatchUrl": "https://footballia.net/matches/hungary-portugal-euro-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-779",
+        "goalNumber": 779,
+        "minute": "87",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-780",
+        "goalNumber": 780,
+        "minute": "90+2",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Rafa Silva"
+      }
+    ]
   },
   {
     "id": "2021-06-09",
@@ -160,11 +205,21 @@
     "assists": 0,
     "yellowCard": null,
     "redCard": null,
-    
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-israel-2021"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-israel-2021",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-778",
+        "goalNumber": 778,
+        "minute": "44",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Bruno Fernandes"
+      }
+    ]
   },
   {
     "id": "2021-06-04",
@@ -183,7 +238,6 @@
     "assists": 0,
     "yellowCard": null,
     "redCard": null,
-    
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
@@ -253,13 +307,23 @@
       "accurateThroughballs": 0,
       "xG": 1.36,
       "xA": 0.07,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=h6BNd8aBw6Y",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-fc-internazionale-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-fc-internazionale-serie-a-2020-2021",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-777",
+        "goalNumber": 777,
+        "minute": "24",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2021-05-12",
@@ -295,7 +359,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=4I3amlnI5Cw",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-776",
+        "goalNumber": 776,
+        "minute": "45",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Adrien Rabiot"
+      }
+    ]
   },
   {
     "id": "2021-05-09",
@@ -367,7 +442,25 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ZZ6oxVVEGsc",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-774",
+        "goalNumber": 774,
+        "minute": "83",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-775",
+        "goalNumber": 775,
+        "minute": "89",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Adrien Rabiot"
+      }
+    ]
   },
   {
     "id": "2021-04-25",
@@ -511,7 +604,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=k6VTwB2jdzM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ssc-napoli-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ssc-napoli-serie-a-2020-2021",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-773",
+        "goalNumber": 773,
+        "minute": "13",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Federico Chiesa"
+      }
+    ]
   },
   {
     "id": "2021-04-03",
@@ -541,13 +645,24 @@
       "accurateThroughballs": 0,
       "xG": 2.3,
       "xA": 0.13,
-      "rating": 8.0,
+      "rating": 8,
       "motm": false
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=_Rb10l2Hc9A",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/torino-fc-juventus-fc-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/torino-fc-juventus-fc-serie-a-2020-2021",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-772",
+        "goalNumber": 772,
+        "minute": "79",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Giorgio Chiellini"
+      }
+    ]
   },
   {
     "id": "2021-03-30",
@@ -583,7 +698,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/710904298",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/luxembourg-portugal-world-cup-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/luxembourg-portugal-world-cup-qualification",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-771",
+        "goalNumber": 771,
+        "minute": "50",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Joao Cancelo"
+      }
+    ]
   },
   {
     "id": "2021-03-27",
@@ -727,7 +853,34 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=4NtogTDXlSI",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/cagliari-calcio-juventus-fc-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/cagliari-calcio-juventus-fc-serie-a-2020-2021",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-768",
+        "goalNumber": 768,
+        "minute": "10",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Juan Cuadrado"
+      },
+      {
+        "id": "ronaldo-goal-769",
+        "goalNumber": 769,
+        "minute": "25",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-770",
+        "goalNumber": 770,
+        "minute": "32",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Federico Chiesa"
+      }
+    ]
   },
   {
     "id": "2021-03-09",
@@ -836,7 +989,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=bKbRvr8VyvI",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-767",
+        "goalNumber": 767,
+        "minute": "89",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Rodrigo Bentancur"
+      }
+    ]
   },
   {
     "id": "2021-02-27",
@@ -872,7 +1036,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=sxxudqFt8P0",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-766",
+        "goalNumber": 766,
+        "minute": "49",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Federico Chiesa"
+      }
+    ]
   },
   {
     "id": "2021-02-22",
@@ -908,7 +1083,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=uRyoz3dbu7c",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-764",
+        "goalNumber": 764,
+        "minute": "38",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Alex Sandro"
+      },
+      {
+        "id": "ronaldo-goal-765",
+        "goalNumber": 765,
+        "minute": "45",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Aaron Ramsey"
+      }
+    ]
   },
   {
     "id": "2021-02-17",
@@ -1054,7 +1249,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=GWoTu2va__E",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-763",
+        "goalNumber": 763,
+        "minute": "13",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Alvaro Morata"
+      }
+    ]
   },
   {
     "id": "2021-02-02",
@@ -1091,7 +1297,24 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=59Gz6Qs5vsU",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-internazionale-juventus-fc-coppa-italia-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/fc-internazionale-juventus-fc-coppa-italia-2020-2021",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-761",
+        "goalNumber": 761,
+        "minute": "26",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-762",
+        "goalNumber": 762,
+        "minute": "35",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2021-01-30",
@@ -1199,7 +1422,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=e0WOy1F1jJY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ssc-napoli-supercoppa-2020"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ssc-napoli-supercoppa-2020",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-760",
+        "goalNumber": 760,
+        "minute": "64",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2021-01-17",
@@ -1307,7 +1540,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=iyVuxIoqSM0",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-us-sassuolo-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-us-sassuolo-serie-a-2020-2021",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-759",
+        "goalNumber": 759,
+        "minute": "90+2",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Danilo"
+      }
+    ]
   },
   {
     "id": "2021-01-06",
@@ -1379,7 +1623,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=LCUFvfr-ySs",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-udinese-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-udinese-serie-a-2020-2021",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-757",
+        "goalNumber": 757,
+        "minute": "31",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Aaron Ramsey"
+      },
+      {
+        "id": "ronaldo-goal-758",
+        "goalNumber": 758,
+        "minute": "70",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Rodrigo Bentancur"
+      }
+    ]
   },
   {
     "id": "2020-12-22",
@@ -1445,13 +1709,33 @@
       "accurateThroughballs": 0,
       "xG": 0.77,
       "xA": 0.13,
-      "rating": 9.0,
+      "rating": 9,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=y87d1q__eB0",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/parma-calcio-juventus-fc-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/parma-calcio-juventus-fc-serie-a-2020-2021",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-755",
+        "goalNumber": 755,
+        "minute": "26",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Alvaro Morata"
+      },
+      {
+        "id": "ronaldo-goal-756",
+        "goalNumber": 756,
+        "minute": "48",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Aaron Ramsey"
+      }
+    ]
   },
   {
     "id": "2020-12-16",
@@ -1523,7 +1807,23 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=F3nwPX8ZrOc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/genoa-cfc-juventus-fc-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/genoa-cfc-juventus-fc-serie-a-2020-2021",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-753",
+        "goalNumber": 753,
+        "minute": "78",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-754",
+        "goalNumber": 754,
+        "minute": "89",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2020-12-08",
@@ -1559,7 +1859,23 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/710871281",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-juventus-fc-champions-league-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-juventus-fc-champions-league-2020-2021",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-751",
+        "goalNumber": 751,
+        "minute": "13",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-752",
+        "goalNumber": 752,
+        "minute": "52",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2020-12-05",
@@ -1631,7 +1947,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/710870187",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-dynamo-kyiv-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-dynamo-kyiv-champions-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-750",
+        "goalNumber": 750,
+        "minute": "57",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Alvaro Morata"
+      }
+    ]
   },
   {
     "id": "2020-11-24",
@@ -1667,7 +1994,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/710832495",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ferencvarosi-tc"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-ferencvarosi-tc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-749",
+        "goalNumber": 749,
+        "minute": "35",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Juan Cuadrado"
+      }
+    ]
   },
   {
     "id": "2020-11-21",
@@ -1703,7 +2041,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=mnUvjtFy1HI",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-cagliari-calcio-serie-a"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-cagliari-calcio-serie-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-747",
+        "goalNumber": 747,
+        "minute": "38",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Alvaro Morata"
+      },
+      {
+        "id": "ronaldo-goal-748",
+        "goalNumber": 748,
+        "minute": "42",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Merih Demiral"
+      }
+    ]
   },
   {
     "id": "2020-11-17",
@@ -1794,11 +2152,21 @@
     "assists": 1,
     "yellowCard": null,
     "redCard": null,
-    
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/713790117",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-andorra-friendly"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-andorra-friendly",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-746",
+        "goalNumber": 746,
+        "minute": "85",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Mario Rui"
+      }
+    ]
   },
   {
     "id": "2020-11-08",
@@ -1834,7 +2202,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=383Iw7LLWFw",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ss-lazio-juventus-fc-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/ss-lazio-juventus-fc-serie-a-2020-2021",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-745",
+        "goalNumber": 745,
+        "minute": "15",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Juan Cuadrado"
+      }
+    ]
   },
   {
     "id": "2020-11-04",
@@ -1906,7 +2285,25 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=LK41wMjUsAg",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/spezia-calcio-juventus-fc-serie-a"
+    "fullMatchUrl": "https://footballia.net/matches/spezia-calcio-juventus-fc-serie-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-743",
+        "goalNumber": 743,
+        "minute": "59",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Alvaro Morata"
+      },
+      {
+        "id": "ronaldo-goal-744",
+        "goalNumber": 744,
+        "minute": "76",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2020-10-11",
@@ -2012,7 +2409,25 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=GWoTu2va__E",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/as-roma-juventus-fc-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/as-roma-juventus-fc-serie-a-2020-2021",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-741",
+        "goalNumber": 741,
+        "minute": "44",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-742",
+        "goalNumber": 742,
+        "minute": "69",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Danilo"
+      }
+    ]
   },
   {
     "id": "2020-09-20",
@@ -2048,7 +2463,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ybiokyNAiO8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-uc-sampdoria-serie-a-2020-2021"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-uc-sampdoria-serie-a-2020-2021",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-740",
+        "goalNumber": 740,
+        "minute": "88",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Aaron Ramsey"
+      }
+    ]
   },
   {
     "id": "2020-09-08",
@@ -2084,6 +2510,25 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sweden-portugal-nations-league-a"
+    "fullMatchUrl": "https://footballia.net/matches/sweden-portugal-nations-league-a",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-738",
+        "goalNumber": 738,
+        "minute": "45",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      },
+      {
+        "id": "ronaldo-goal-739",
+        "goalNumber": 739,
+        "minute": "72",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Joao Félix"
+      }
+    ]
   }
 ]
