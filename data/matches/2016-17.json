@@ -16,7 +16,6 @@
     "assists": 0,
     "yellowCard": null,
     "redCard": null,
-    
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/224232791",
     "hasFullMatch": true,
@@ -39,11 +38,19 @@
     "assists": 0,
     "yellowCard": null,
     "redCard": null,
-    
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/223009442",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/new-zealand-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/new-zealand-portugal",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-604",
+        "goalNumber": 604,
+        "minute": "33",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2017-06-21",
@@ -65,7 +72,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/224372348",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/russia-portugal-confederations-cup"
+    "fullMatchUrl": "https://footballia.net/matches/russia-portugal-confederations-cup",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-603",
+        "goalNumber": 603,
+        "minute": "8",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Raphael Guerreiro"
+      }
+    ]
   },
   {
     "id": "2017-06-18",
@@ -84,7 +102,6 @@
     "assists": 1,
     "yellowCard": null,
     "redCard": null,
-    
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/222233985",
     "hasFullMatch": true,
@@ -118,13 +135,33 @@
       "accurateThroughballs": null,
       "xG": null,
       "xA": null,
-      "rating": 10.0,
+      "rating": 10,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/221162344",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/latvia-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/latvia-portugal",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-601",
+        "goalNumber": 601,
+        "minute": "41",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "José Fonte"
+      },
+      {
+        "id": "ronaldo-goal-602",
+        "goalNumber": 602,
+        "minute": "63",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ricardo Quaresma"
+      }
+    ]
   },
   {
     "id": "2017-06-03",
@@ -160,7 +197,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/220338263",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-real-madrid-champions-league-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/juventus-fc-real-madrid-champions-league-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-599",
+        "goalNumber": 599,
+        "minute": "20",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Dani Carvajal"
+      },
+      {
+        "id": "ronaldo-goal-600",
+        "goalNumber": 600,
+        "minute": "64",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Luka Modric"
+      }
+    ]
   },
   {
     "id": "2017-05-21",
@@ -196,7 +253,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=pEUVdNl2uLI",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/malaga-cf-real-madrid-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/malaga-cf-real-madrid-liga-1-division-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-598",
+        "goalNumber": 598,
+        "minute": "2",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Isco"
+      }
+    ]
   },
   {
     "id": "2017-05-17",
@@ -225,14 +293,33 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 1.18,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 8.5,
       "motm": false
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=j-i4n4xMY6o",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/rc-celta-real-madrid-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/rc-celta-real-madrid-liga-1-division-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-596",
+        "goalNumber": 596,
+        "minute": "10",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Outside Box"
+      },
+      {
+        "id": "ronaldo-goal-597",
+        "goalNumber": 597,
+        "minute": "48",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Isco"
+      }
+    ]
   },
   {
     "id": "2017-05-14",
@@ -262,13 +349,32 @@
       "accurateThroughballs": 0,
       "xG": 0.77,
       "xA": 0.03,
-      "rating": 9.0,
+      "rating": 9,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=m5hJHQVEY1g",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sevilla-fc-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sevilla-fc-liga-1-division-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-594",
+        "goalNumber": 594,
+        "minute": "23",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      },
+      {
+        "id": "ronaldo-goal-595",
+        "goalNumber": 595,
+        "minute": "78",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Toni Kroos"
+      }
+    ]
   },
   {
     "id": "2017-05-10",
@@ -336,13 +442,42 @@
       "accurateThroughballs": 0,
       "xG": null,
       "xA": null,
-      "rating": 10.0,
+      "rating": 10,
       "motm": true
     },
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-champions-league-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-champions-league-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-591",
+        "goalNumber": 591,
+        "minute": "10",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Casemiro"
+      },
+      {
+        "id": "ronaldo-goal-592",
+        "goalNumber": 592,
+        "minute": "73",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Karim Benzema"
+      },
+      {
+        "id": "ronaldo-goal-593",
+        "goalNumber": 593,
+        "minute": "86",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Lucas Vazquez"
+      }
+    ]
   },
   {
     "id": "2017-04-29",
@@ -378,7 +513,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=M7Xc1SVjmFI",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-valencia-cf-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-valencia-cf-liga-1-division-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-590",
+        "goalNumber": 590,
+        "minute": "27",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Dani Carvajal"
+      }
+    ]
   },
   {
     "id": "2017-04-23",
@@ -451,7 +597,36 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/216392754",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-bayern-munchen-champions-league-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-bayern-munchen-champions-league-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-587",
+        "goalNumber": 587,
+        "minute": "76",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Casemiro"
+      },
+      {
+        "id": "ronaldo-goal-588",
+        "goalNumber": 588,
+        "minute": "105",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Casemiro"
+      },
+      {
+        "id": "ronaldo-goal-589",
+        "goalNumber": 589,
+        "minute": "109",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Marcelo"
+      }
+    ]
   },
   {
     "id": "2017-04-12",
@@ -488,7 +663,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/832993882",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/bayern-munchen-real-madrid-champions-league-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/bayern-munchen-real-madrid-champions-league-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-585",
+        "goalNumber": 585,
+        "minute": "47",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Dani Carvajal"
+      },
+      {
+        "id": "ronaldo-goal-586",
+        "goalNumber": 586,
+        "minute": "77",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Marco Asensio"
+      }
+    ]
   },
   {
     "id": "2017-04-08",
@@ -554,7 +749,7 @@
       "accurateThroughballs": 0,
       "xG": 0.43,
       "xA": 0.08,
-      "rating": 8.0,
+      "rating": 8,
       "motm": false
     },
     "hasMatchComp": true,
@@ -579,11 +774,21 @@
     "assists": 0,
     "yellowCard": null,
     "redCard": null,
-    
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=fcudFGbZxvg",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-sweden-friendly"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-sweden-friendly",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-584",
+        "goalNumber": 584,
+        "minute": "18",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gelson Martins"
+      }
+    ]
   },
   {
     "id": "2017-03-25",
@@ -602,11 +807,29 @@
     "assists": 0,
     "yellowCard": null,
     "redCard": null,
-    
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/210757138",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-hungary"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-hungary",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-582",
+        "goalNumber": 582,
+        "minute": "46",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "André Silva"
+      },
+      {
+        "id": "ronaldo-goal-583",
+        "goalNumber": 583,
+        "minute": "65",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2017-03-18",
@@ -678,7 +901,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=YGsb0__SO4w",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-real-betis-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-real-betis-liga-1-division-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-581",
+        "goalNumber": 581,
+        "minute": "41",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Marcelo"
+      }
+    ]
   },
   {
     "id": "2017-03-07",
@@ -709,7 +943,7 @@
       "accurateThroughballs": 0,
       "xG": null,
       "xA": null,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": true,
@@ -751,7 +985,25 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=C0hKHeSFIIk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ud-las-palmas-liga-1-division"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ud-las-palmas-liga-1-division",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-579",
+        "goalNumber": 579,
+        "minute": "86",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-580",
+        "goalNumber": 580,
+        "minute": "89",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "James Rodriguez"
+      }
+    ]
   },
   {
     "id": "2017-02-26",
@@ -780,14 +1032,23 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 1.08,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 7.4,
       "motm": false
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=HvLQSGyXkqo",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/villarreal-cf-real-madrid-liga-1-division"
+    "fullMatchUrl": "https://footballia.net/matches/villarreal-cf-real-madrid-liga-1-division",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-578",
+        "goalNumber": 578,
+        "minute": "74",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2017-02-22",
@@ -823,7 +1084,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=o4CDbaMfcAM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/valencia-cf-real-madrid-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/valencia-cf-real-madrid-liga-1-division-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-577",
+        "goalNumber": 577,
+        "minute": "44",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Marcelo"
+      }
+    ]
   },
   {
     "id": "2017-02-18",
@@ -932,7 +1204,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=DPMHYEt_Sog",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ca-osasuna-real-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/ca-osasuna-real-madrid",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-576",
+        "goalNumber": 576,
+        "minute": "24",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Karim Benzema"
+      }
+    ]
   },
   {
     "id": "2017-01-29",
@@ -968,7 +1251,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ycz6AZ_4KKs",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-real-sociedad-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-real-sociedad-liga-1-division-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-575",
+        "goalNumber": 575,
+        "minute": "51",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Mateo Kovacic"
+      }
+    ]
   },
   {
     "id": "2017-01-25",
@@ -1005,7 +1299,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=iWY54A5lDag",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/rc-celta-real-madrid-copa-del-rey"
+    "fullMatchUrl": "https://footballia.net/matches/rc-celta-real-madrid-copa-del-rey",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-574",
+        "goalNumber": 574,
+        "minute": "62",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2017-01-21",
@@ -1034,7 +1338,7 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 0.83,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 7.3,
       "motm": false
     },
@@ -1107,14 +1411,23 @@
       "freeKickAttempts": 1,
       "accurateThroughballs": 0,
       "xG": 1.42,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 6.9,
       "motm": false
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=G1-i-08boHo",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sevilla-fc-real-madrid-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/sevilla-fc-real-madrid-liga-1-division-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-573",
+        "goalNumber": 573,
+        "minute": "67",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2017-01-07",
@@ -1143,14 +1456,25 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 1.05,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 7.9,
       "motm": false
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Igd4aThMi6o",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-granada-cf"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-granada-cf",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-572",
+        "goalNumber": 572,
+        "minute": "27",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Marcelo"
+      }
+    ]
   },
   {
     "id": "2016-12-18",
@@ -1169,11 +1493,37 @@
     "assists": 0,
     "yellowCard": null,
     "redCard": null,
-    
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/210249111",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-kashima-antlers"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-kashima-antlers",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-569",
+        "goalNumber": 569,
+        "minute": "60",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-570",
+        "goalNumber": 570,
+        "minute": "97",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Karim Benzema"
+      },
+      {
+        "id": "ronaldo-goal-571",
+        "goalNumber": 571,
+        "minute": "104",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Toni Kroos"
+      }
+    ]
   },
   {
     "id": "2016-12-15",
@@ -1195,7 +1545,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/210251897",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-club-america"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-club-america",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-568",
+        "goalNumber": 568,
+        "minute": "90+3",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "James Rodriguez"
+      }
+    ]
   },
   {
     "id": "2016-12-07",
@@ -1260,7 +1621,7 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 0.53,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 6.9,
       "motm": false
     },
@@ -1303,7 +1664,25 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=yotUSiFZIqY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sporting-de-gijon-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sporting-de-gijon-liga-1-division-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-566",
+        "goalNumber": 566,
+        "minute": "5",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-567",
+        "goalNumber": 567,
+        "minute": "18",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Nacho"
+      }
+    ]
   },
   {
     "id": "2016-11-22",
@@ -1368,14 +1747,40 @@
       "freeKickAttempts": 1,
       "accurateThroughballs": 0,
       "xG": 1.54,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 9.7,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=UMZoqnTs1DA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-liga-1-division-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-563",
+        "goalNumber": 563,
+        "minute": "23",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      },
+      {
+        "id": "ronaldo-goal-564",
+        "goalNumber": 564,
+        "minute": "71",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-565",
+        "goalNumber": 565,
+        "minute": "77",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gareth Bale"
+      }
+    ]
   },
   {
     "id": "2016-11-13",
@@ -1397,7 +1802,25 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/221170357",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-latvia"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-latvia",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-561",
+        "goalNumber": 561,
+        "minute": "28",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-562",
+        "goalNumber": 562,
+        "minute": "85",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ricardo Quaresma"
+      }
+    ]
   },
   {
     "id": "2016-11-06",
@@ -1498,14 +1921,41 @@
       "freeKickAttempts": 0,
       "accurateThroughballs": 0,
       "xG": 2.24,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 9.1,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=EHSmECVgOMc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/deportivo-alaves-real-madrid-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/deportivo-alaves-real-madrid-liga-1-division-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-558",
+        "goalNumber": 558,
+        "minute": "17",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      },
+      {
+        "id": "ronaldo-goal-559",
+        "goalNumber": 559,
+        "minute": "33",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Karim Benzema"
+      },
+      {
+        "id": "ronaldo-goal-560",
+        "goalNumber": 560,
+        "minute": "88",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Marcelo"
+      }
+    ]
   },
   {
     "id": "2016-10-23",
@@ -1534,7 +1984,7 @@
       "freeKickAttempts": 1,
       "accurateThroughballs": 0,
       "xG": 1.39,
-      "xA": 0.0,
+      "xA": 0,
       "rating": 7.2,
       "motm": false
     },
@@ -1613,7 +2063,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=gcY5A-TgANM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-betis-real-madrid-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-betis-real-madrid-liga-1-division-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-557",
+        "goalNumber": 557,
+        "minute": "78",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Alvaro Morata"
+      }
+    ]
   },
   {
     "id": "2016-10-10",
@@ -1635,7 +2096,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/188851864",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/faroe-islands-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/faroe-islands-portugal",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-556",
+        "goalNumber": 556,
+        "minute": "65",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Joao Mario"
+      }
+    ]
   },
   {
     "id": "2016-10-07",
@@ -1654,11 +2126,47 @@
     "assists": 0,
     "yellowCard": null,
     "redCard": null,
-    
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/221182792",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-andorra"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-andorra",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-552",
+        "goalNumber": 552,
+        "minute": "2",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box"
+      },
+      {
+        "id": "ronaldo-goal-553",
+        "goalNumber": 553,
+        "minute": "4",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ricardo Quaresma"
+      },
+      {
+        "id": "ronaldo-goal-554",
+        "goalNumber": 554,
+        "minute": "47",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "André Gomes"
+      },
+      {
+        "id": "ronaldo-goal-555",
+        "goalNumber": 555,
+        "minute": "68",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "José Fonte"
+      }
+    ]
   },
   {
     "id": "2016-10-02",
@@ -1730,7 +2238,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/465325844",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/borussia-dortmund-real-madrid-champions-league-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/borussia-dortmund-real-madrid-champions-league-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-551",
+        "goalNumber": 551,
+        "minute": "17",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gareth Bale"
+      }
+    ]
   },
   {
     "id": "2016-09-24",
@@ -1838,7 +2357,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/184678472",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sporting-cp-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sporting-cp-champions-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-550",
+        "goalNumber": 550,
+        "minute": "89",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2016-09-10",
@@ -1874,6 +2403,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=nXdo3KpPM1g",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ca-osasuna-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ca-osasuna-liga-1-division-2016-2017",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-549",
+        "goalNumber": 549,
+        "minute": "6",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gareth Bale"
+      }
+    ]
   }
 ]
