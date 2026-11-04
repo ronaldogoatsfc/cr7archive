@@ -44,7 +44,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gonçalo Inacio"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2023-06-17",
@@ -80,7 +81,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-bosnia-and-herzegovina-euro-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-bosnia-and-herzegovina-euro-qualification",
+    "assistEvents": []
   },
   {
     "id": "2023-05-27",
@@ -116,7 +118,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=UfWl3fk9pSM",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2023-05-23",
@@ -163,7 +166,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Luiz Gustavo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2023-05-16",
@@ -208,7 +212,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2023-05-08",
@@ -244,7 +249,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=3sF3y_pjccw",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2023-04-28",
@@ -291,7 +297,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Sultan Al-Ghanam"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2023-04-24",
@@ -327,7 +334,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=L8qLRvHjqVE",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2023-04-18",
@@ -363,7 +371,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=d1ncVOJ6-Ao",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-hilal-fc-al-nassr-fc-saudi-league-2022-2023"
+    "fullMatchUrl": "https://footballia.net/matches/al-hilal-fc-al-nassr-fc-saudi-league-2022-2023",
+    "assistEvents": []
   },
   {
     "id": "2023-04-09",
@@ -399,7 +408,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=uJoOITg7jeA",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2023-04-04",
@@ -453,7 +463,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Talisca"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2023-03-26",
@@ -509,7 +520,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Bruno Fernandes"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2023-03-23",
@@ -562,7 +574,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2023-03-18",
@@ -608,7 +621,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2023-03-14",
@@ -644,7 +658,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=OHWP-MAzg6I",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-abha-fc-king-cup"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-abha-fc-king-cup",
+    "assistEvents": []
   },
   {
     "id": "2023-03-09",
@@ -680,7 +695,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=LRPlmykfG9U",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-ittihad-club-al-nassr-fc-saudi-league-2022-2023"
+    "fullMatchUrl": "https://footballia.net/matches/al-ittihad-club-al-nassr-fc-saudi-league-2022-2023",
+    "assistEvents": []
   },
   {
     "id": "2023-03-03",
@@ -716,7 +732,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=lKpSP1wX_HQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-baten"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-baten",
+    "assistEvents": []
   },
   {
     "id": "2023-02-25",
@@ -779,7 +796,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Ayman Yahya"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2023-02-17",
@@ -815,7 +833,23 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=PqdvXF10mfU",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-taawoun-fc-saudi-league"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-taawoun-fc-saudi-league",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-236",
+        "assistNumber": 236,
+        "minute": "78",
+        "assistedPlayer": "Abdullah Madu",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-235",
+        "assistNumber": 235,
+        "minute": "17",
+        "assistedPlayer": "Abdulrahman Ghareeb",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2023-02-09",
@@ -886,7 +920,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2023-02-03",
@@ -931,7 +966,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2023-01-26",
@@ -967,7 +1003,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=_Q5tHascq3w",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-ittihad-club-al-nassr-fc-ksa-supercup"
+    "fullMatchUrl": "https://footballia.net/matches/al-ittihad-club-al-nassr-fc-ksa-supercup",
+    "assistEvents": []
   },
   {
     "id": "2023-01-22",
@@ -1003,7 +1040,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=_JWofE3KBYw",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-ettifaq-fc"
+    "fullMatchUrl": "https://footballia.net/matches/al-nassr-fc-al-ettifaq-fc",
+    "assistEvents": []
   },
   {
     "id": "2022-12-10",
@@ -1039,7 +1077,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/morocco-portugal-world-cup"
+    "fullMatchUrl": "https://footballia.net/matches/morocco-portugal-world-cup",
+    "assistEvents": []
   },
   {
     "id": "2022-12-06",
@@ -1075,7 +1114,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-switzerland-world-cup"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-switzerland-world-cup",
+    "assistEvents": []
   },
   {
     "id": "2022-12-02",
@@ -1111,7 +1151,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/south-korea-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/south-korea-portugal",
+    "assistEvents": []
   },
   {
     "id": "2022-11-28",
@@ -1147,7 +1188,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-uruguay"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-uruguay",
+    "assistEvents": []
   },
   {
     "id": "2022-11-24",
@@ -1192,7 +1234,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2022-11-06",
@@ -1228,7 +1271,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/aston-villa-manchester-united-premier-league-2022-2023"
+    "fullMatchUrl": "https://footballia.net/matches/aston-villa-manchester-united-premier-league-2022-2023",
+    "assistEvents": []
   },
   {
     "id": "2022-11-03",
@@ -1264,7 +1308,16 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-234",
+        "assistNumber": 234,
+        "minute": "17",
+        "assistedPlayer": "Alejandro Garnacho",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2022-10-30",
@@ -1300,7 +1353,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2022-10-27",
@@ -1346,7 +1400,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2022-10-16",
@@ -1382,7 +1437,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2022-10-13",
@@ -1418,7 +1474,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ac-omonia-manchester-united"
+    "fullMatchUrl": "https://footballia.net/matches/ac-omonia-manchester-united",
+    "assistEvents": []
   },
   {
     "id": "2022-10-09",
@@ -1465,7 +1522,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Casemiro"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2022-10-06",
@@ -1501,7 +1559,16 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ac-omonia-manchester-united"
+    "fullMatchUrl": "https://footballia.net/matches/ac-omonia-manchester-united",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-233",
+        "assistNumber": 233,
+        "minute": "84",
+        "assistedPlayer": "Marcus Rashford",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2022-09-27",
@@ -1537,7 +1604,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-spain-nations-league-a"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-spain-nations-league-a",
+    "assistEvents": []
   },
   {
     "id": "2022-09-24",
@@ -1573,7 +1641,16 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-232",
+        "assistNumber": 232,
+        "minute": "82",
+        "assistedPlayer": "Diogo Jota",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2022-09-15",
@@ -1618,7 +1695,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2022-09-08",
@@ -1654,7 +1732,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-spain-nations-league-a"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-spain-nations-league-a",
+    "assistEvents": []
   },
   {
     "id": "2022-09-04",
@@ -1690,7 +1769,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-arsenal-fc-premier-league-2022-2023"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-arsenal-fc-premier-league-2022-2023",
+    "assistEvents": []
   },
   {
     "id": "2022-09-01",
@@ -1726,7 +1806,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/leicester-city-manchester-united-premier-league-2022-2023"
+    "fullMatchUrl": "https://footballia.net/matches/leicester-city-manchester-united-premier-league-2022-2023",
+    "assistEvents": []
   },
   {
     "id": "2022-08-27",
@@ -1762,7 +1843,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/southampton-fc-manchester-united-premier-league-2022-2023"
+    "fullMatchUrl": "https://footballia.net/matches/southampton-fc-manchester-united-premier-league-2022-2023",
+    "assistEvents": []
   },
   {
     "id": "2022-08-22",
@@ -1798,7 +1880,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-liverpool-fc-premier-league-2022-2023"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-liverpool-fc-premier-league-2022-2023",
+    "assistEvents": []
   },
   {
     "id": "2022-08-13",
@@ -1834,7 +1917,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/brentford-fc-manchester-united-premier-league"
+    "fullMatchUrl": "https://footballia.net/matches/brentford-fc-manchester-united-premier-league",
+    "assistEvents": []
   },
   {
     "id": "2022-08-07",
@@ -1870,6 +1954,7 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-brighton-hove-albion-premier-league-2022-2023"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-brighton-hove-albion-premier-league-2022-2023",
+    "assistEvents": []
   }
 ]
