@@ -19,7 +19,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/224232791",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-chile"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-chile",
+    "assistEvents": []
   },
   {
     "id": "2017-06-24",
@@ -50,7 +51,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-06-21",
@@ -83,7 +85,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Raphael Guerreiro"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-06-18",
@@ -105,7 +108,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/222233985",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-mexico-confederations-cup"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-mexico-confederations-cup",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-194",
+        "assistNumber": 194,
+        "minute": "34",
+        "assistedPlayer": "Ricardo Quaresma",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2017-06-09",
@@ -160,6 +172,15 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Ricardo Quaresma"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-193",
+        "assistNumber": 193,
+        "minute": "67",
+        "assistedPlayer": "André Silva",
+        "optaAssist": true
       }
     ]
   },
@@ -217,7 +238,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Luka Modric"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-05-21",
@@ -264,7 +286,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Isco"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-05-17",
@@ -319,7 +342,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Isco"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-05-14",
@@ -374,7 +398,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Toni Kroos"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-05-10",
@@ -411,7 +436,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/461806626",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2017-05-02",
@@ -477,7 +503,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Lucas Vazquez"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-04-29",
@@ -524,7 +551,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Dani Carvajal"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-04-23",
@@ -560,7 +588,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=PK8IJcdV9Bo",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-fc-barcelona-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-fc-barcelona-liga-1-division-2016-2017",
+    "assistEvents": []
   },
   {
     "id": "2017-04-18",
@@ -626,7 +655,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-04-12",
@@ -683,7 +713,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Marco Asensio"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-04-08",
@@ -719,7 +750,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ZXgPMivvYMQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-liga-1-division-2016-2017",
+    "assistEvents": []
   },
   {
     "id": "2017-04-02",
@@ -755,7 +787,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=qRzA8_SiomQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-deportivo-alaves-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-deportivo-alaves-liga-1-division-2016-2017",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-192",
+        "assistNumber": 192,
+        "minute": "85",
+        "assistedPlayer": "Isco",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2017-03-28",
@@ -788,7 +829,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gelson Martins"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-03-25",
@@ -829,7 +871,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-03-18",
@@ -865,7 +908,23 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=8n-oXi8YBkI",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/athletic-de-bilbao-real-madrid-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/athletic-de-bilbao-real-madrid-liga-1-division-2016-2017",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-191",
+        "assistNumber": 191,
+        "minute": "68",
+        "assistedPlayer": "Casemiro",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-190",
+        "assistNumber": 190,
+        "minute": "25",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2017-03-12",
@@ -912,7 +971,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-03-07",
@@ -949,7 +1009,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/312094831",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ssc-napoli-real-madrid-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/ssc-napoli-real-madrid-champions-league",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2017-03-07-901",
+        "minute": "90+1",
+        "assistedPlayer": "Alvaro Morata",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      }
+    ]
   },
   {
     "id": "2017-03-01",
@@ -1003,7 +1072,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "James Rodriguez"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-02-26",
@@ -1048,7 +1118,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-02-22",
@@ -1095,7 +1166,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-02-18",
@@ -1131,7 +1203,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=tDvloDJZ4VA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rcd-espanyol-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rcd-espanyol-liga-1-division-2016-2017",
+    "assistEvents": []
   },
   {
     "id": "2017-02-15",
@@ -1168,7 +1241,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/210216900",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ssc-napoli-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ssc-napoli-champions-league",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-189",
+        "assistNumber": 189,
+        "minute": "49",
+        "assistedPlayer": "Toni Kroos",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2017-02-11",
@@ -1215,7 +1297,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-01-29",
@@ -1261,6 +1344,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Mateo Kovacic"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-188",
+        "assistNumber": 188,
+        "minute": "38",
+        "assistedPlayer": "Mateo Kovacic",
+        "optaAssist": true
       }
     ]
   },
@@ -1309,7 +1401,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-01-21",
@@ -1345,7 +1438,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ZBL7zT_nRns",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-malaga-cf-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-malaga-cf-liga-1-division-2016-2017",
+    "assistEvents": []
   },
   {
     "id": "2017-01-18",
@@ -1382,7 +1476,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=GhBlm5b8yOo",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rc-celta"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rc-celta",
+    "assistEvents": []
   },
   {
     "id": "2017-01-15",
@@ -1427,7 +1522,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2017-01-07",
@@ -1474,7 +1570,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2016-12-18",
@@ -1523,7 +1620,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Toni Kroos"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2016-12-15",
@@ -1556,7 +1654,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "James Rodriguez"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2016-12-07",
@@ -1592,7 +1691,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/210288155",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-borussia-dortmund-champions-league-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-borussia-dortmund-champions-league-2016-2017",
+    "assistEvents": []
   },
   {
     "id": "2016-12-03",
@@ -1628,7 +1728,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Vd8NNaI22bs",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-real-madrid-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-real-madrid-liga-1-division-2016-2017",
+    "assistEvents": []
   },
   {
     "id": "2016-11-26",
@@ -1682,7 +1783,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nacho"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2016-11-22",
@@ -1718,7 +1820,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/475386479",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-real-madrid-champions-league-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/sporting-cp-real-madrid-champions-league-2016-2017",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-187",
+        "assistNumber": 187,
+        "minute": "29",
+        "assistedPlayer": "Raphaël Varane",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2016-11-19",
@@ -1780,7 +1891,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2016-11-13",
@@ -1820,7 +1932,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Ricardo Quaresma"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2016-11-06",
@@ -1856,7 +1969,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=76IuBEwv770",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-cd-leganes"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-cd-leganes",
+    "assistEvents": []
   },
   {
     "id": "2016-11-02",
@@ -1892,7 +2006,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/210273339",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/legia-warszawa-real-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/legia-warszawa-real-madrid",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-186",
+        "assistNumber": 186,
+        "minute": "1",
+        "assistedPlayer": "Gareth Bale",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2016-10-29",
@@ -1955,7 +2078,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2016-10-23",
@@ -1991,7 +2115,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=QKEHKeYvEIw",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-athletic-de-bilbao-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-athletic-de-bilbao-liga-1-division-2016-2017",
+    "assistEvents": []
   },
   {
     "id": "2016-10-18",
@@ -2027,7 +2152,23 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/210270230",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-legia-warszawa"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-legia-warszawa",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-185",
+        "assistNumber": 185,
+        "minute": "84",
+        "assistedPlayer": "Alvaro Morata",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-184",
+        "assistNumber": 184,
+        "minute": "37",
+        "assistedPlayer": "Marco Asensio",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2016-10-15",
@@ -2074,6 +2215,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Alvaro Morata"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-183",
+        "assistNumber": 183,
+        "minute": "62",
+        "assistedPlayer": "Isco",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -2107,7 +2257,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Joao Mario"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2016-10-07",
@@ -2166,7 +2317,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "José Fonte"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2016-10-02",
@@ -2202,7 +2354,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=SgYX4O9Cp4U",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sd-eibar-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sd-eibar-liga-1-division-2016-2017",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-182",
+        "assistNumber": 182,
+        "minute": "17",
+        "assistedPlayer": "Gareth Bale",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2016-09-27",
@@ -2249,7 +2410,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2016-09-24",
@@ -2285,7 +2447,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ASI7B71vaSk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ud-las-palmas-real-madrid-liga-1-division-2016"
+    "fullMatchUrl": "https://footballia.net/matches/ud-las-palmas-real-madrid-liga-1-division-2016",
+    "assistEvents": []
   },
   {
     "id": "2016-09-21",
@@ -2321,7 +2484,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=rnD4-ZQhXlc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-villarreal-cf-liga-1-division-2016-2017"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-villarreal-cf-liga-1-division-2016-2017",
+    "assistEvents": []
   },
   {
     "id": "2016-09-14",
@@ -2367,7 +2531,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2016-09-10",
@@ -2414,6 +2579,7 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale"
       }
-    ]
+    ],
+    "assistEvents": []
   }
 ]
