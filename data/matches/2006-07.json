@@ -19,7 +19,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=2a2y42gvrgo",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/chelsea-fc-manchester-united-fa-cup"
+    "fullMatchUrl": "https://footballia.net/matches/chelsea-fc-manchester-united-fa-cup",
+    "assistEvents": []
   },
   {
     "id": "2007-05-13",
@@ -41,7 +42,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=reuP-PBT0i4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-west-ham-united-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-west-ham-united-premier-league-2006-2007",
+    "assistEvents": []
   },
   {
     "id": "2007-05-05",
@@ -72,7 +74,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-05-02",
@@ -109,7 +112,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/159697254",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ac-milan-manchester-united-champions-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/ac-milan-manchester-united-champions-league-2006-2007",
+    "assistEvents": []
   },
   {
     "id": "2007-04-28",
@@ -131,7 +135,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=DMvnlZgrpqs",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/everton-fc-manchester-united-premier-league"
+    "fullMatchUrl": "https://footballia.net/matches/everton-fc-manchester-united-premier-league",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2007-04-28-68",
+        "minute": "68",
+        "assistedPlayer": "Phil Neville",
+        "optaAssist": false,
+        "assistClarification": "Own goal assist"
+      }
+    ]
   },
   {
     "id": "2007-04-24",
@@ -179,7 +192,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-04-21",
@@ -201,7 +215,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Bk11nHqbWRI",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2007-04-17",
@@ -223,7 +238,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=CvYwgoDp90U",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-sheffield-united-premier-league"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-sheffield-united-premier-league",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-51",
+        "assistNumber": 51,
+        "minute": "4",
+        "assistedPlayer": "Michael Carrick",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2007-04-14",
@@ -256,7 +280,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Wayne Rooney"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-04-10",
@@ -313,6 +338,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-50",
+        "assistNumber": 50,
+        "minute": "11",
+        "assistedPlayer": "Michael Carrick",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -335,7 +369,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=qDKcYV4FRw0",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portsmouth-fc-manchester-united-premier-league"
+    "fullMatchUrl": "https://footballia.net/matches/portsmouth-fc-manchester-united-premier-league",
+    "assistEvents": []
   },
   {
     "id": "2007-04-04",
@@ -372,7 +407,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/643594657",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/as-roma-manchester-united-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/as-roma-manchester-united-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2007-03-31",
@@ -394,7 +430,23 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=gKrO_PXONuI",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-blackburn-rovers-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-blackburn-rovers-premier-league-2006-2007",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2007-03-31-83",
+        "minute": "83",
+        "assistedPlayer": "Park Ji-sung",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      },
+      {
+        "id": "ronaldo-assist-2007-03-31-72",
+        "minute": "72",
+        "assistedPlayer": "Michael Carrick",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
+      }
+    ]
   },
   {
     "id": "2007-03-28",
@@ -416,7 +468,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=54o8bRMtWHk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/serbia-portugal-euro-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/serbia-portugal-euro-qualification",
+    "assistEvents": []
   },
   {
     "id": "2007-03-24",
@@ -458,6 +511,15 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Petit"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-49",
+        "assistNumber": 49,
+        "minute": "68",
+        "assistedPlayer": "Ricardo Quaresma",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -489,7 +551,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-03-17",
@@ -511,7 +574,30 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=2h2oyAtVGzw",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-bolton-wanderers-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-bolton-wanderers-premier-league-2006-2007",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2007-03-17-25",
+        "minute": "25",
+        "assistedPlayer": "Park Ji-sung",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      },
+      {
+        "id": "ronaldo-assist-48",
+        "assistNumber": 48,
+        "minute": "17",
+        "assistedPlayer": "Wayne Rooney",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-47",
+        "assistNumber": 47,
+        "minute": "14",
+        "assistedPlayer": "Park Ji-sung",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2007-03-10",
@@ -542,7 +628,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-03-07",
@@ -579,7 +666,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/118342985",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-lille-osc"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-lille-osc",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-46",
+        "assistNumber": 46,
+        "minute": "72",
+        "assistedPlayer": "Henrik Larsson",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2007-03-03",
@@ -601,7 +697,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=jfWWFCwavGE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/liverpool-fc-manchester-united-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/liverpool-fc-manchester-united-premier-league-2006-2007",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2007-03-03-901",
+        "minute": "90+1",
+        "assistedPlayer": "John O'Shea",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      }
+    ]
   },
   {
     "id": "2007-02-27",
@@ -623,7 +728,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=EIv_SqPDZCs",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2007-02-24",
@@ -656,7 +762,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Patrice Evra"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-02-20",
@@ -693,7 +800,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/198641173",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/lille-osc-manchester-united"
+    "fullMatchUrl": "https://footballia.net/matches/lille-osc-manchester-united",
+    "assistEvents": []
   },
   {
     "id": "2007-02-17",
@@ -715,7 +823,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=09FSBdakTC8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-reading-fc-fa-cup-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-reading-fc-fa-cup-2006-2007",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-45",
+        "assistNumber": 45,
+        "minute": "45",
+        "assistedPlayer": "Michael Carrick",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2007-02-06",
@@ -737,7 +854,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=QudESfoKexs",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/brazil-portugal-friendly-2007"
+    "fullMatchUrl": "https://footballia.net/matches/brazil-portugal-friendly-2007",
+    "assistEvents": []
   },
   {
     "id": "2007-02-04",
@@ -767,6 +885,15 @@
         "minute": "45",
         "goalType": "Penalty",
         "bodyPart": "Right foot"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-44",
+        "assistNumber": 44,
+        "minute": "52",
+        "assistedPlayer": "Paul Scholes",
+        "optaAssist": true
       }
     ]
   },
@@ -799,6 +926,15 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-43",
+        "assistNumber": 43,
+        "minute": "71",
+        "assistedPlayer": "Wayne Rooney",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -821,7 +957,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=xSPUriZV5mQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/arsenal-fc-manchester-united-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/arsenal-fc-manchester-united-premier-league-2006-2007",
+    "assistEvents": []
   },
   {
     "id": "2007-01-13",
@@ -854,7 +991,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Michael Carrick"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2007-01-07",
@@ -876,7 +1014,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=RhGJT-b0qME",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2007-01-01",
@@ -898,7 +1037,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=QgC6OtG3fsQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/newcastle-united-manchester-united-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/newcastle-united-manchester-united-premier-league-2006-2007",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-42",
+        "assistNumber": 42,
+        "minute": "46",
+        "assistedPlayer": "Paul Scholes",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2006-12-30",
@@ -938,6 +1086,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-41",
+        "assistNumber": 41,
+        "minute": "33",
+        "assistedPlayer": "Ole Gunnar Solskjær",
+        "optaAssist": true
       }
     ]
   },
@@ -980,7 +1137,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2006-12-23",
@@ -1021,7 +1179,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Gary Neville"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2006-12-17",
@@ -1043,7 +1202,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=YGwEbh_Sbi4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/west-ham-united-manchester-united-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/west-ham-united-manchester-united-premier-league-2006-2007",
+    "assistEvents": []
   },
   {
     "id": "2006-12-09",
@@ -1074,6 +1234,15 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-40",
+        "assistNumber": 40,
+        "minute": "6",
+        "assistedPlayer": "Wayne Rooney",
+        "optaAssist": true
       }
     ]
   },
@@ -1111,7 +1280,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/147024978",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-sl-benfica-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-sl-benfica-champions-league",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-39",
+        "assistNumber": 39,
+        "minute": "61",
+        "assistedPlayer": "Ryan Giggs",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2006-12-02",
@@ -1133,7 +1311,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=QuPYFh50QwI",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2006-12-02-19",
+        "minute": "19",
+        "assistedPlayer": "Louis Saha",
+        "optaAssist": false,
+        "assistClarification": "Pen/FK won"
+      }
+    ]
   },
   {
     "id": "2006-11-29",
@@ -1165,7 +1352,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2006-11-26",
@@ -1187,7 +1375,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=h8OehHeqC4Y",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-chelsea-fc-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-chelsea-fc-premier-league-2006-2007",
+    "assistEvents": []
   },
   {
     "id": "2006-11-21",
@@ -1223,7 +1412,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/200530386",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/celtic-fc-manchester-united"
+    "fullMatchUrl": "https://footballia.net/matches/celtic-fc-manchester-united",
+    "assistEvents": []
   },
   {
     "id": "2006-11-18",
@@ -1245,7 +1435,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=TpsUNviFsLM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sheffield-united-manchester-united-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/sheffield-united-manchester-united-premier-league-2006-2007",
+    "assistEvents": []
   },
   {
     "id": "2006-11-15",
@@ -1278,7 +1469,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Tiago Mendes"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2006-11-11",
@@ -1300,7 +1492,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=0i2rwh0eNiA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/blackburn-rovers-manchester-united-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/blackburn-rovers-manchester-united-premier-league-2006-2007",
+    "assistEvents": []
   },
   {
     "id": "2006-11-07",
@@ -1322,7 +1515,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=1GGS5RrO5FY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/southend-united-manchester-united"
+    "fullMatchUrl": "https://footballia.net/matches/southend-united-manchester-united",
+    "assistEvents": []
   },
   {
     "id": "2006-11-04",
@@ -1354,7 +1548,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2006-11-01",
@@ -1390,7 +1585,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/438859258",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2006-10-28",
@@ -1423,7 +1619,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Louis Saha"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2006-10-17",
@@ -1459,7 +1656,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/121926223",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-fc-kobenhavn-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-fc-kobenhavn-champions-league",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-38",
+        "assistNumber": 38,
+        "minute": "46",
+        "assistedPlayer": "John O'Shea",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2006-10-11",
@@ -1481,7 +1687,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=q11IQgUbCSA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/poland-portugal-euro-qualification-2006"
+    "fullMatchUrl": "https://footballia.net/matches/poland-portugal-euro-qualification-2006",
+    "assistEvents": []
   },
   {
     "id": "2006-10-07",
@@ -1523,6 +1730,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Simão"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2006-10-07-31",
+        "minute": "31",
+        "assistedPlayer": "Ricardo Carvalho",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      }
     ]
   },
   {
@@ -1545,7 +1761,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=9tHEQlAn2uc",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2006-10-01-41",
+        "minute": "41",
+        "assistedPlayer": "Ole Gunnar Solskjær",
+        "optaAssist": false,
+        "assistClarification": "Post rebound"
+      }
+    ]
   },
   {
     "id": "2006-09-26",
@@ -1581,7 +1806,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/159639430",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sl-benfica-manchester-united-champions-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/sl-benfica-manchester-united-champions-league-2006-2007",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-37",
+        "assistNumber": 37,
+        "minute": "60",
+        "assistedPlayer": "Louis Saha",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2006-09-23",
@@ -1614,7 +1848,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "John O'Shea"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2006-09-17",
@@ -1636,7 +1871,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=0NyK3zqczWE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-arsenal-fc-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-arsenal-fc-premier-league-2006-2007",
+    "assistEvents": []
   },
   {
     "id": "2006-09-09",
@@ -1658,7 +1894,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=PutWPFA6Nr0",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-tottenham-hotspur-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-tottenham-hotspur-premier-league-2006-2007",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2006-09-09-9",
+        "minute": "9",
+        "assistedPlayer": "Ryan Giggs",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      }
+    ]
   },
   {
     "id": "2006-09-06",
@@ -1680,7 +1925,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=K9JfWj6914Y",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2006-09-01",
@@ -1702,7 +1948,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=YZ6WYmo3bmI",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-36",
+        "assistNumber": 36,
+        "minute": "17",
+        "assistedPlayer": "Ricardo Carvalho",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2006-08-26",
@@ -1724,7 +1979,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=2wRhu58nUJY",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2006-08-23",
@@ -1746,7 +2002,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=LLogcDaz2B4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/charlton-athletic-manchester-united"
+    "fullMatchUrl": "https://footballia.net/matches/charlton-athletic-manchester-united",
+    "assistEvents": []
   },
   {
     "id": "2006-08-20",
@@ -1779,6 +2036,7 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Wayne Rooney"
       }
-    ]
+    ],
+    "assistEvents": []
   }
 ]
