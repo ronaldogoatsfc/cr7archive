@@ -14,9 +14,42 @@ import {
 import StatCard from "@/components/StatCard";
 import articles from "@/data/articles";
 import ArticleCard from "@/components/ArticleCard";
-import { getOnThisDayEvent } from "@/lib/timeline";
+import { getOnThisDayEvent, getEventPresentation } from "@/lib/timeline";
 
 export const dynamic = "force-dynamic";
+
+function OnThisDayCard({ event }) {
+  const presentation = getEventPresentation(event);
+
+  return (
+    <article className="overflow-hidden rounded-2xl border border-line bg-pitch-raised">
+      <div className="grid gap-6 p-6 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:p-8">
+        <div>
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-gold">
+            {presentation.category} · {event.year}
+          </p>
+          <h3 className="mt-3 font-display text-2xl font-semibold text-paper sm:text-3xl">
+            {presentation.headline}
+          </h3>
+          <p className="mt-3 max-w-3xl leading-7 text-paper-dim">
+            {event.description}
+          </p>
+        </div>
+
+        {presentation.highlight && (
+          <div className="flex min-w-36 items-center gap-4 rounded-xl border border-gold/30 bg-pitch px-5 py-4 sm:min-w-40 sm:flex-col sm:justify-center sm:gap-1 sm:text-center">
+            <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-paper-dim">
+              {presentation.highlight.label}
+            </p>
+            <p className="font-display text-3xl font-semibold text-gold sm:text-4xl">
+              {presentation.highlight.value}
+            </p>
+          </div>
+        )}
+      </div>
+    </article>
+  );
+}
 
 const GOAL_TARGET = 1000;
 
@@ -180,8 +213,8 @@ export default function Home() {
       {onThisDay && (
         <section className="border-t border-line px-6 py-12">
           <div className="mx-auto max-w-6xl">
-            <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
-              <div className="max-w-2xl">
+            <div className="mb-5 flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
+              <div>
                 <p className="font-mono text-xs uppercase tracking-[0.25em] text-gold">
                   On This Day
                 </p>
@@ -191,9 +224,6 @@ export default function Home() {
                     { month: "long", day: "numeric" }
                   )}
                 </h2>
-                <p className="mt-3 leading-7 text-paper-dim">
-                  {onThisDay.description}
-                </p>
               </div>
               <Link
                 href="/timeline"
@@ -202,6 +232,8 @@ export default function Home() {
                 Explore the career timeline →
               </Link>
             </div>
+
+            <OnThisDayCard event={onThisDay} />
           </div>
         </section>
       )}
