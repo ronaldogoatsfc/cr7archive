@@ -19,7 +19,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=gyO1lX1LlyM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/albania-portugal"
+    "fullMatchUrl": "https://footballia.net/matches/albania-portugal",
+    "assistEvents": []
   },
   {
     "id": "2009-05-27",
@@ -55,7 +56,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/315646498",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-manchester-united-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-manchester-united-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2009-05-16",
@@ -77,7 +79,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/680167800",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-arsenal-fc-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-arsenal-fc-premier-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2009-05-13",
@@ -99,7 +102,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/195126807",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/wigan-athletic-manchester-united-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/wigan-athletic-manchester-united-premier-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2009-05-10",
@@ -131,7 +135,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2009-05-05",
@@ -187,6 +192,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Wayne Rooney"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-68",
+        "assistNumber": 68,
+        "minute": "68",
+        "assistedPlayer": "Park Ji-sung",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -224,7 +238,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/208572877",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-arsenal-fc-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-arsenal-fc-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2009-04-25",
@@ -264,6 +279,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Wayne Rooney"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-67",
+        "assistNumber": 67,
+        "minute": "71",
+        "assistedPlayer": "Wayne Rooney",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -286,7 +310,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-portsmouth-fc-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-portsmouth-fc-premier-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2009-04-15",
@@ -334,7 +359,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Anderson"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2009-04-11",
@@ -356,7 +382,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=DZVMkqk1tQY",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2009-04-07",
@@ -393,7 +420,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/170313033",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-fc-porto"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-fc-porto",
+    "assistEvents": []
   },
   {
     "id": "2009-04-05",
@@ -434,7 +462,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Michael Carrick"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2009-03-31",
@@ -456,7 +485,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=P9iP0o-K-j8",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2009-03-28",
@@ -478,7 +508,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=V1W4ss_KPaA",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2009-03-21",
@@ -500,7 +531,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/264746665",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fulham-fc-manchester-united-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/fulham-fc-manchester-united-premier-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2009-03-14",
@@ -545,7 +577,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2009-03-11",
@@ -593,7 +626,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Wayne Rooney"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2009-03-04",
@@ -615,7 +649,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/187160421",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2009-03-01",
@@ -637,7 +672,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=1xVzQ9jUrv8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-tottenham-hotspur-league-cup"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-tottenham-hotspur-league-cup",
+    "assistEvents": []
   },
   {
     "id": "2009-02-24",
@@ -674,7 +710,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/202898347",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-internazionale-manchester-united-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/fc-internazionale-manchester-united-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2009-02-21",
@@ -706,7 +743,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2009-02-18",
@@ -728,7 +766,8 @@
     "hasMatchComp": false,
     "matchCompUrl": "",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-fulham-fc-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-fulham-fc-premier-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2009-02-15",
@@ -761,6 +800,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2009-02-15-43",
+        "minute": "43",
+        "assistedPlayer": "Darron Gibson",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
+      }
     ]
   },
   {
@@ -792,7 +840,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2009-02-08",
@@ -814,7 +863,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/163582736",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/west-ham-united-manchester-united-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/west-ham-united-manchester-united-premier-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2009-01-31",
@@ -845,7 +895,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2009-01-27",
@@ -887,7 +938,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Dimitar Berbatov"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2009-01-24",
@@ -909,7 +961,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Qkb5TK008lM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-tottenham-hotspur-fa-cup-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-tottenham-hotspur-fa-cup-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2009-01-20",
@@ -941,7 +994,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2009-01-17",
@@ -963,7 +1017,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=EfzZAi3Lkmc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/bolton-wanderers-manchester-united-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/bolton-wanderers-manchester-united-premier-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2009-01-14",
@@ -985,7 +1040,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=MugEGy1FQHc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-wigan-athletic-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-wigan-athletic-premier-league-2008-2009",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-66",
+        "assistNumber": 66,
+        "minute": "1",
+        "assistedPlayer": "Wayne Rooney",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2009-01-11",
@@ -1007,7 +1071,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=UgeexLyp0Nc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-chelsea-fc-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-chelsea-fc-premier-league-2008-2009",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-65",
+        "assistNumber": 65,
+        "minute": "86",
+        "assistedPlayer": "Dimitar Berbatov",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2009-01-07",
@@ -1030,7 +1103,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Q1dmleQhZoc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/derby-county-manchester-united-league-cup"
+    "fullMatchUrl": "https://footballia.net/matches/derby-county-manchester-united-league-cup",
+    "assistEvents": []
   },
   {
     "id": "2008-12-29",
@@ -1052,7 +1126,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=zmbIgm6Sors",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2008-12-26",
@@ -1088,7 +1163,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=e0yvee1Ii-M",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/stoke-city-manchester-united-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/stoke-city-manchester-united-premier-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2008-12-21",
@@ -1110,7 +1186,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/136327793",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/liga-deportiva-universitaria-manchester-united"
+    "fullMatchUrl": "https://footballia.net/matches/liga-deportiva-universitaria-manchester-united",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-64",
+        "assistNumber": 64,
+        "minute": "73",
+        "assistedPlayer": "Wayne Rooney",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2008-12-18",
@@ -1143,7 +1228,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-12-13",
@@ -1165,7 +1251,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=WY6SXQVRxnM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/tottenham-hotspur-manchester-united-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/tottenham-hotspur-manchester-united-premier-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2008-12-06",
@@ -1187,7 +1274,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=UZx-xLTTIsY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-sunderland-afc-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-sunderland-afc-premier-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2008-11-30",
@@ -1223,7 +1311,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=9HDSigqsYJU",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-city-manchester-united-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-city-manchester-united-premier-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2008-11-25",
@@ -1259,7 +1348,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/220691190",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/villarreal-cf-manchester-united-champions-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/villarreal-cf-manchester-united-champions-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2008-11-22",
@@ -1281,7 +1371,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=oaRRSxCkDfM",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/aston-villa-manchester-united-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/aston-villa-manchester-united-premier-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2008-11-20",
@@ -1303,7 +1394,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=swoKIE3o4R4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/brazil-portugal-friendly-2008"
+    "fullMatchUrl": "https://footballia.net/matches/brazil-portugal-friendly-2008",
+    "assistEvents": []
   },
   {
     "id": "2008-11-15",
@@ -1343,6 +1435,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-63",
+        "assistNumber": 63,
+        "minute": "45+1",
+        "assistedPlayer": "Michael Carrick",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1365,7 +1466,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=nq3Tf9wAuZU",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/arsenal-fc-manchester-united-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/arsenal-fc-manchester-united-premier-league-2008-2009",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2008-11-08-90",
+        "minute": "90",
+        "assistedPlayer": "Rafael",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
+      }
+    ]
   },
   {
     "id": "2008-11-05",
@@ -1401,7 +1511,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/118345698",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/celtic-fc-manchester-united-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/celtic-fc-manchester-united-champions-league",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2008-11-05-84",
+        "minute": "84",
+        "assistedPlayer": "Ryan Giggs",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      }
+    ]
   },
   {
     "id": "2008-11-01",
@@ -1443,7 +1562,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Nani"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-10-29",
@@ -1499,7 +1619,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Dimitar Berbatov"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-10-25",
@@ -1521,7 +1642,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=_MF-0NjIdK8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/everton-fc-manchester-united-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/everton-fc-manchester-united-premier-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2008-10-21",
@@ -1557,7 +1679,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/201420435",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-celtic-fc-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-celtic-fc-champions-league",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2008-10-21-52",
+        "minute": "52",
+        "assistedPlayer": "Dimitar Berbatov",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      }
+    ]
   },
   {
     "id": "2008-10-18",
@@ -1604,7 +1735,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Wayne Rooney"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-10-15",
@@ -1626,7 +1758,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=f-NkjNcAmhc",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2008-10-11",
@@ -1648,7 +1781,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=IibjLuZOSTk",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2008-10-04",
@@ -1670,7 +1804,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=ai9WiSQiHAc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/blackburn-rovers-manchester-united-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/blackburn-rovers-manchester-united-premier-league-2008-2009",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-62",
+        "assistNumber": 62,
+        "minute": "64",
+        "assistedPlayer": "Wayne Rooney",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2008-09-30",
@@ -1706,7 +1849,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/136924423",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/aalborg-bk-manchester-united"
+    "fullMatchUrl": "https://footballia.net/matches/aalborg-bk-manchester-united",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-61",
+        "assistNumber": 61,
+        "minute": "79",
+        "assistedPlayer": "Dimitar Berbatov",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2008-09-27",
@@ -1736,6 +1888,15 @@
         "minute": "59",
         "goalType": "Penalty",
         "bodyPart": "Right foot"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-60",
+        "assistNumber": 60,
+        "minute": "77",
+        "assistedPlayer": "Wayne Rooney",
+        "optaAssist": true
       }
     ]
   },
@@ -1770,7 +1931,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2008-09-21",
@@ -1792,7 +1954,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=CpVutkQieW4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/chelsea-fc-manchester-united-premier-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/chelsea-fc-manchester-united-premier-league-2008-2009",
+    "assistEvents": []
   },
   {
     "id": "2008-09-17",
@@ -1828,6 +1991,7 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/160620563",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-villarreal-cf-champions-league-2008-2009"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-villarreal-cf-champions-league-2008-2009",
+    "assistEvents": []
   }
 ]
