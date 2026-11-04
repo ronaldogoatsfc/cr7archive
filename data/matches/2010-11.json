@@ -33,7 +33,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=XvB4fLWHpY4",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2011-05-21",
@@ -89,6 +90,36 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Sergio Ramos"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-96",
+        "assistNumber": 96,
+        "minute": "87",
+        "assistedPlayer": "Joselu",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-95",
+        "assistNumber": 95,
+        "minute": "63",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-2011-05-21-52",
+        "minute": "52",
+        "assistedPlayer": "Emmanuel Adebayor",
+        "optaAssist": false,
+        "assistClarification": "Deflected assist"
+      },
+      {
+        "id": "ronaldo-assist-94",
+        "assistNumber": 94,
+        "minute": "48",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -143,7 +174,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2011-05-10",
@@ -206,7 +238,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2011-07-05",
@@ -279,7 +312,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2011-05-03",
@@ -316,7 +350,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/166088733",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-real-madrid-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-real-madrid-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2011-04-27",
@@ -353,7 +388,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/163583509",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-fc-barcelona-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-fc-barcelona-champions-league",
+    "assistEvents": []
   },
   {
     "id": "2011-04-23",
@@ -389,7 +425,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=cAVi0TqF7V4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/valencia-cf-real-madrid-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/valencia-cf-real-madrid-liga-1-division-2010-2011",
+    "assistEvents": []
   },
   {
     "id": "2011-04-20",
@@ -436,7 +473,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Angel Di Maria"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2011-04-16",
@@ -481,7 +519,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2011-04-13",
@@ -529,7 +568,8 @@
         "shotLocation": "Outside Box",
         "assistedBy": "Sami Khedira"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2011-04-09",
@@ -576,7 +616,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Esteban Granero"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2011-04-05",
@@ -624,7 +665,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Kaka"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2011-03-19",
@@ -660,7 +702,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=R9EtVQLGA4Y",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-28b5ecdb-7975-455d-a1df-aa7deb2692cc"
+    "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-28b5ecdb-7975-455d-a1df-aa7deb2692cc",
+    "assistEvents": []
   },
   {
     "id": "2011-03-16",
@@ -697,7 +740,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/164985497",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-olympique-lyonnais-champions-league"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-olympique-lyonnais-champions-league",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-93",
+        "assistNumber": 93,
+        "minute": "37",
+        "assistedPlayer": "Marcelo",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2011-03-03",
@@ -760,7 +812,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Sergio Canales"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2011-02-26",
@@ -796,7 +849,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=n0Y1SidWseo",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/deportivo-de-la-coruna-real-madrid-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/deportivo-de-la-coruna-real-madrid-liga-1-division-2010-2011",
+    "assistEvents": []
   },
   {
     "id": "2011-02-22",
@@ -833,7 +887,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/177895086",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/olympique-lyonnais-real-madrid-cd65fb14-2721-4851-9623-d8067fa40a09"
+    "fullMatchUrl": "https://footballia.net/matches/olympique-lyonnais-real-madrid-cd65fb14-2721-4851-9623-d8067fa40a09",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-92",
+        "assistNumber": 92,
+        "minute": "65",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2011-02-19",
@@ -869,7 +932,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=T-ouWupiKtc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-levante-ud-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-levante-ud-liga-1-division-2010-2011",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-91",
+        "assistNumber": 91,
+        "minute": "41",
+        "assistedPlayer": "Ricardo Carvalho",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2011-02-13",
@@ -905,7 +977,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=NRMos9Q9Y_4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/rcd-espanyol-real-madrid-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/rcd-espanyol-real-madrid-liga-1-division-2010-2011",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-90",
+        "assistNumber": 90,
+        "minute": "24",
+        "assistedPlayer": "Marcelo",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2011-02-09",
@@ -952,7 +1033,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Hugo Almeida"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2011-02-06",
@@ -1008,7 +1090,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Ozil"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2011-02-02",
@@ -1045,7 +1128,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=cjybvP_CQD4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sevilla-fc-copa-del-rey-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sevilla-fc-copa-del-rey-2010-2011",
+    "assistEvents": []
   },
   {
     "id": "2011-01-30",
@@ -1081,7 +1165,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=7liFhvkslS0",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ca-osasuna-real-madrid-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/ca-osasuna-real-madrid-liga-1-division-2010-2011",
+    "assistEvents": []
   },
   {
     "id": "2011-01-26",
@@ -1118,7 +1203,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=fiaibl1ma9o",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sevilla-fc-real-madrid-copa-del-rey-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/sevilla-fc-real-madrid-copa-del-rey-2010-2011",
+    "assistEvents": []
   },
   {
     "id": "2011-01-23",
@@ -1154,7 +1240,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=hTh1V7fsn2I",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rcd-mallorca-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-rcd-mallorca-liga-1-division-2010-2011",
+    "assistEvents": []
   },
   {
     "id": "2011-01-20",
@@ -1202,7 +1289,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Sergio Ramos"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2011-01-16",
@@ -1238,7 +1326,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=rFO2csRDvmk",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ud-almeria-real-madrid-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/ud-almeria-real-madrid-liga-1-division-2010-2011",
+    "assistEvents": []
   },
   {
     "id": "2011-01-13",
@@ -1286,7 +1375,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Ozil"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2011-01-09",
@@ -1351,6 +1441,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Kaka"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-89",
+        "assistNumber": 89,
+        "minute": "82",
+        "assistedPlayer": "Kaka",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1405,7 +1504,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2010-12-22",
@@ -1471,6 +1571,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-88",
+        "assistNumber": 88,
+        "minute": "10",
+        "assistedPlayer": "Mesut Ozil",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -1507,7 +1616,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Szlk7C3IHCw",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sevilla-fc-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-sevilla-fc-liga-1-division-2010-2011",
+    "assistEvents": []
   },
   {
     "id": "2010-12-12",
@@ -1553,7 +1663,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2010-12-08",
@@ -1599,6 +1710,15 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-87",
+        "assistNumber": 87,
+        "minute": "12",
+        "assistedPlayer": "Karim Benzema",
+        "optaAssist": true
       }
     ]
   },
@@ -1656,7 +1776,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Lassana Diarra"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2010-11-29",
@@ -1692,7 +1813,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=o-dwRYwP0PQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-real-madrid-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-real-madrid-liga-1-division-2010-2011",
+    "assistEvents": []
   },
   {
     "id": "2010-11-23",
@@ -1746,7 +1868,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2010-11-20",
@@ -1808,7 +1931,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2010-11-17",
@@ -1844,7 +1968,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=xG1DZk7y1ZA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-spain-friendly-2010"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-spain-friendly-2010",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2010-11-17-45",
+        "minute": "45",
+        "assistedPlayer": "Carlos Martins",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      }
+    ]
   },
   {
     "id": "2010-11-14",
@@ -1880,7 +2013,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=gYIAU8Lp6Yo",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/sporting-de-gijon-real-madrid-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/sporting-de-gijon-real-madrid-liga-1-division-2010-2011",
+    "assistEvents": []
   },
   {
     "id": "2010-11-10",
@@ -1928,7 +2062,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Angel Di Maria"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2010-11-07",
@@ -1964,7 +2099,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=GRa1xp0kjIY",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-liga-1-division-2010-2011",
+    "assistEvents": []
   },
   {
     "id": "2010-11-03",
@@ -2000,7 +2136,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/189051212",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/ac-milan-real-madrid-champions-league-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/ac-milan-real-madrid-champions-league-2010-2011",
+    "assistEvents": []
   },
   {
     "id": "2010-10-30",
@@ -2056,6 +2193,15 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2010-10-30-52",
+        "minute": "52",
+        "assistedPlayer": "Angel Di Maria",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
+      }
     ]
   },
   {
@@ -2093,7 +2239,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/195033023",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "assistEvents": []
   },
   {
     "id": "2010-10-23",
@@ -2165,7 +2312,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2010-10-19",
@@ -2210,6 +2358,15 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-86",
+        "assistNumber": 86,
+        "minute": "14",
+        "assistedPlayer": "Mesut Ozil",
+        "optaAssist": true
       }
     ]
   },
@@ -2265,6 +2422,22 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-85",
+        "assistNumber": 85,
+        "minute": "65",
+        "assistedPlayer": "Gonzalo Higuain",
+        "optaAssist": true
+      },
+      {
+        "id": "ronaldo-assist-84",
+        "assistNumber": 84,
+        "minute": "30",
+        "assistedPlayer": "Gonzalo Higuain",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -2310,6 +2483,15 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-2010-10-12-72",
+        "minute": "72",
+        "assistedPlayer": "Hélder Postiga",
+        "optaAssist": false,
+        "assistClarification": "GK rebound"
       }
     ]
   },
@@ -2357,6 +2539,15 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nani"
+      }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-83",
+        "assistNumber": 83,
+        "minute": "29",
+        "assistedPlayer": "Nani",
+        "optaAssist": true
       }
     ]
   },
@@ -2414,7 +2605,8 @@
         "shotLocation": "Inside Box",
         "assistedBy": "Xabi Alonso"
       }
-    ]
+    ],
+    "assistEvents": []
   },
   {
     "id": "2010-09-28",
@@ -2450,7 +2642,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/182694196",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/aj-auxerre-real-madrid"
+    "fullMatchUrl": "https://footballia.net/matches/aj-auxerre-real-madrid",
+    "assistEvents": []
   },
   {
     "id": "2010-09-25",
@@ -2486,7 +2679,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=orFL80OaRZE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/levante-ud-real-madrid-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/levante-ud-real-madrid-liga-1-division-2010-2011",
+    "assistEvents": []
   },
   {
     "id": "2010-09-21",
@@ -2531,6 +2725,15 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot"
       }
+    ],
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-82",
+        "assistNumber": 82,
+        "minute": "79",
+        "assistedPlayer": "Gonzalo Higuain",
+        "optaAssist": true
+      }
     ]
   },
   {
@@ -2567,7 +2770,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=LQT_ePnyYd4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-sociedad-real-madrid-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/real-sociedad-real-madrid-liga-1-division-2010-2011",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-81",
+        "assistNumber": 81,
+        "minute": "74",
+        "assistedPlayer": "Pepe",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2010-09-15",
@@ -2603,7 +2815,8 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/213397792",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-afc-ajax-champions-league-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-afc-ajax-champions-league-2010-2011",
+    "assistEvents": []
   },
   {
     "id": "2010-09-11",
@@ -2639,7 +2852,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=C-VY_-9h32s",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ca-osasuna-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/real-madrid-ca-osasuna-liga-1-division-2010-2011",
+    "assistEvents": [
+      {
+        "id": "ronaldo-assist-80",
+        "assistNumber": 80,
+        "minute": "48",
+        "assistedPlayer": "Ricardo Carvalho",
+        "optaAssist": true
+      }
+    ]
   },
   {
     "id": "2010-08-29",
@@ -2675,6 +2897,7 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=owZIOIX0OuQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/rcd-mallorca-real-madrid-liga-1-division-2010-2011"
+    "fullMatchUrl": "https://footballia.net/matches/rcd-mallorca-real-madrid-liga-1-division-2010-2011",
+    "assistEvents": []
   }
 ]
