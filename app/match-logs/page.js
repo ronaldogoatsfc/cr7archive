@@ -590,6 +590,10 @@ export default function MatchLogsPage() {
   const totals = useMemo(() => careerTotals(filtered), [filtered]);
   const detailedTotals = useMemo(() => detailedStatsTotals(filtered), [filtered]);
   const nonOptaAssists = useMemo(() => nonOptaAssistCount(filtered), [filtered]);
+  const unofficialStatsMatches = useMemo(
+    () => filtered.filter((match) => match.statsStatus === "unofficial" && match.statsSource === "manual").length,
+    [filtered]
+  );
 
   function updateFilter(key, value) {
     setFilters((prev) => ({ ...prev, [key]: value }));
@@ -895,7 +899,12 @@ export default function MatchLogsPage() {
             </span>
           </span>
           <span className="font-mono text-xs text-paper-dim sm:text-right">
-            Detailed stats recorded for {detailedTotals.matchesWithStats} of {filtered.length} matches
+            <span className="block">Detailed stats recorded for {detailedTotals.matchesWithStats} of {filtered.length} matches</span>
+            {unofficialStatsMatches > 0 && (
+              <span className="mt-1 block text-gold">
+                Includes unverified stats from {unofficialStatsMatches} {unofficialStatsMatches === 1 ? "match" : "matches"}
+              </span>
+            )}
           </span>
         </button>
 
@@ -904,6 +913,11 @@ export default function MatchLogsPage() {
             <p className="mt-2 max-w-3xl text-sm text-paper-dim">
               Totals for the matches currently selected by your filters. Only recorded values are included;
               missing stats are excluded rather than treated as zero.
+              {unofficialStatsMatches > 0 && (
+                <span className="mt-1 block text-gold">
+                  These totals include manually recorded, unverified stats from {unofficialStatsMatches} {unofficialStatsMatches === 1 ? "match" : "matches"}.
+                </span>
+              )}
             </p>
             <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
           {detailedTotals.totals.map((stat) => (
