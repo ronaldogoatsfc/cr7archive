@@ -69,7 +69,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/173945737",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-netherlands-euro"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-netherlands-euro",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-13",
+        "goalNumber": 13,
+        "minute": "26",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Deco"
+      }
+    ]
   },
   {
     "id": "2004-06-24",
@@ -213,7 +224,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/173941561",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-greece-euro"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-greece-euro",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-12",
+        "goalNumber": 12,
+        "minute": "90+3",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Luís Figo"
+      }
+    ]
   },
   {
     "id": "2004-06-05",
@@ -279,7 +301,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Q4aXoj_wVik",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-millwall-fc"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-millwall-fc",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-11",
+        "goalNumber": 11,
+        "minute": "44",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gary Neville"
+      }
+    ]
   },
   {
     "id": "2004-05-15",
@@ -301,7 +334,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=nW9lH7sZbRY",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-10",
+        "goalNumber": 10,
+        "minute": "4",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Darren Fletcher"
+      }
+    ]
   },
   {
     "id": "2004-05-08",
@@ -455,7 +499,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=qMEJinB_X20",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-9",
+        "goalNumber": 9,
+        "minute": "60",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ryan Giggs"
+      }
+    ]
   },
   {
     "id": "2004-04-03",
@@ -521,7 +576,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=efOGcgO_yvY",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-8",
+        "goalNumber": 8,
+        "minute": "89",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Roy Keane"
+      }
+    ]
   },
   {
     "id": "2004-03-14",
@@ -705,7 +771,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=zR1X6fps1gc",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-manchester-city-fa-cup"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-manchester-city-fa-cup",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-7",
+        "goalNumber": 7,
+        "minute": "74",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2004-02-11",
@@ -977,7 +1053,7 @@
       "accurateThroughballs": null,
       "xG": null,
       "xA": null,
-      "rating": 8.0,
+      "rating": 8,
       "motm": false
     },
     "hasMatchComp": true,
@@ -1063,7 +1139,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=_S_EroJOwkA",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-portsmouth-fc-premier-league-2003-2004"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-portsmouth-fc-premier-league-2003-2004",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-6",
+        "goalNumber": 6,
+        "minute": "80",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2003-10-25",
