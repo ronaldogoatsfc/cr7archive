@@ -63,7 +63,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=BdCwD8lFOM0",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-city-manchester-united-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-city-manchester-united-premier-league-2006-2007",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-72",
+        "goalNumber": 72,
+        "minute": "34",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2007-05-02",
@@ -153,13 +162,24 @@
       "accurateThroughballs": null,
       "xG": null,
       "xA": null,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/145738013",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-ac-milan"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-ac-milan",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-71",
+        "goalNumber": 71,
+        "minute": "5",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ryan Giggs"
+      }
+    ]
   },
   {
     "id": "2007-04-21",
@@ -225,7 +245,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=gpUHRx5nx8M",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/watford-fc-manchester-united-fa-cup"
+    "fullMatchUrl": "https://footballia.net/matches/watford-fc-manchester-united-fa-cup",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-70",
+        "goalNumber": 70,
+        "minute": "28",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Wayne Rooney"
+      }
+    ]
   },
   {
     "id": "2007-04-10",
@@ -256,13 +287,33 @@
       "accurateThroughballs": null,
       "xG": null,
       "xA": null,
-      "rating": 10.0,
+      "rating": 10,
       "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://vimeo.com/174008918",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-as-roma"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-as-roma",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-68",
+        "goalNumber": 68,
+        "minute": "44",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ryan Giggs"
+      },
+      {
+        "id": "ronaldo-goal-69",
+        "goalNumber": 69,
+        "minute": "49",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ryan Giggs"
+      }
+    ]
   },
   {
     "id": "2007-04-07",
@@ -387,7 +438,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=-qm2OufQbr4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-belgium-euro-qualification"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-belgium-euro-qualification",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-66",
+        "goalNumber": 66,
+        "minute": "55",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ricardo Quaresma"
+      },
+      {
+        "id": "ronaldo-goal-67",
+        "goalNumber": 67,
+        "minute": "75",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Petit"
+      }
+    ]
   },
   {
     "id": "2007-03-19",
@@ -409,7 +480,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=_5ECPLYK42k",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-65",
+        "goalNumber": 65,
+        "minute": "76",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2007-03-17",
@@ -453,7 +533,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=exON4yzHYPE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/middlesbrough-fc-manchester-united-fa-cup"
+    "fullMatchUrl": "https://footballia.net/matches/middlesbrough-fc-manchester-united-fa-cup",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-64",
+        "goalNumber": 64,
+        "minute": "68",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2007-03-07",
@@ -556,7 +645,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=L2O-2fI4JZQ",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/fulham-fc-manchester-united-premier-league"
+    "fullMatchUrl": "https://footballia.net/matches/fulham-fc-manchester-united-premier-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-63",
+        "goalNumber": 63,
+        "minute": "88",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Patrice Evra"
+      }
+    ]
   },
   {
     "id": "2007-02-20",
@@ -659,7 +759,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=MTWI8h88wu8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/tottenham-hotspur-manchester-united-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/tottenham-hotspur-manchester-united-premier-league-2006-2007",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-62",
+        "goalNumber": 62,
+        "minute": "45",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2007-01-31",
@@ -681,7 +790,16 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=CFq-E2BSPB8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-watford-fc-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-watford-fc-premier-league-2006-2007",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-61",
+        "goalNumber": 61,
+        "minute": "12",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot"
+      }
+    ]
   },
   {
     "id": "2007-01-21",
@@ -725,7 +843,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=t1ytGo0riII",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-60",
+        "goalNumber": 60,
+        "minute": "34",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Michael Carrick"
+      }
+    ]
   },
   {
     "id": "2007-01-07",
@@ -791,7 +920,26 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=n0Hl7-p6voo",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-reading-fc-premier-league"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-reading-fc-premier-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-58",
+        "goalNumber": 58,
+        "minute": "58",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      },
+      {
+        "id": "ronaldo-goal-59",
+        "goalNumber": 59,
+        "minute": "77",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Ryan Giggs"
+      }
+    ]
   },
   {
     "id": "2006-12-26",
@@ -813,7 +961,26 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=lBPicNLA-Vs",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-56",
+        "goalNumber": 56,
+        "minute": "47",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Paul Scholes"
+      },
+      {
+        "id": "ronaldo-goal-57",
+        "goalNumber": 57,
+        "minute": "50",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2006-12-23",
@@ -835,7 +1002,26 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=JOzXHk3hL-c",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/aston-villa-manchester-united-premier-league"
+    "fullMatchUrl": "https://footballia.net/matches/aston-villa-manchester-united-premier-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-54",
+        "goalNumber": 54,
+        "minute": "58",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      },
+      {
+        "id": "ronaldo-goal-55",
+        "goalNumber": 55,
+        "minute": "85",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Gary Neville"
+      }
+    ]
   },
   {
     "id": "2006-12-17",
@@ -879,7 +1065,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=qyLSD_1RIE4",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-manchester-city-premier-league"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-manchester-city-premier-league",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-53",
+        "goalNumber": 53,
+        "minute": "84",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box"
+      }
+    ]
   },
   {
     "id": "2006-12-06",
@@ -909,7 +1105,7 @@
       "accurateThroughballs": null,
       "xG": null,
       "xA": null,
-      "rating": 7.0,
+      "rating": 7,
       "motm": false
     },
     "hasMatchComp": true,
@@ -959,7 +1155,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=m1Frbg3CoAs",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-52",
+        "goalNumber": 52,
+        "minute": "39",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2006-11-26",
@@ -1061,7 +1267,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=JYjYE1aum6E",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-51",
+        "goalNumber": 51,
+        "minute": "29",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box",
+        "assistedBy": "Tiago Mendes"
+      }
+    ]
   },
   {
     "id": "2006-11-11",
@@ -1127,7 +1344,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=5rq5zPqYuSM",
     "hasFullMatch": false,
-    "fullMatchUrl": ""
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-50",
+        "goalNumber": 50,
+        "minute": "10",
+        "goalType": "Free Kick",
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
+      }
+    ]
   },
   {
     "id": "2006-11-01",
@@ -1185,7 +1412,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=Ee1t7TbsIL0",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/bolton-wanderers-manchester-united-premier-league-2006-2007"
+    "fullMatchUrl": "https://footballia.net/matches/bolton-wanderers-manchester-united-premier-league-2006-2007",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-49",
+        "goalNumber": 49,
+        "minute": "82",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Louis Saha"
+      }
+    ]
   },
   {
     "id": "2006-10-17",
@@ -1265,7 +1503,27 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=aYfsAvgK9s8",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/portugal-azerbaijan"
+    "fullMatchUrl": "https://footballia.net/matches/portugal-azerbaijan",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-47",
+        "goalNumber": 47,
+        "minute": "25",
+        "goalType": "Open Play",
+        "bodyPart": "Left foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Deco"
+      },
+      {
+        "id": "ronaldo-goal-48",
+        "goalNumber": 48,
+        "minute": "63",
+        "goalType": "Open Play",
+        "bodyPart": "Header",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Simão"
+      }
+    ]
   },
   {
     "id": "2006-10-01",
@@ -1345,7 +1603,18 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=OkeXRJBMzQg",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/reading-fc-manchester-united"
+    "fullMatchUrl": "https://footballia.net/matches/reading-fc-manchester-united",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-46",
+        "goalNumber": 46,
+        "minute": "73",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "John O'Shea"
+      }
+    ]
   },
   {
     "id": "2006-09-17",
@@ -1499,6 +1768,17 @@
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=0SOs0RjirTE",
     "hasFullMatch": true,
-    "fullMatchUrl": "https://footballia.net/matches/manchester-united-fulham-fc-344c72e7-d488-4cbf-a75c-3147594dd370"
+    "fullMatchUrl": "https://footballia.net/matches/manchester-united-fulham-fc-344c72e7-d488-4cbf-a75c-3147594dd370",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-45",
+        "goalNumber": 45,
+        "minute": "19",
+        "goalType": "Open Play",
+        "bodyPart": "Right foot",
+        "shotLocation": "Inside Box",
+        "assistedBy": "Wayne Rooney"
+      }
+    ]
   }
 ]
