@@ -91,13 +91,8 @@ export default function TimelinePerformanceCard({ event, match, presentation }) 
         </div>
         <button type="button" onClick={() => setOpen(true)} aria-haspopup="dialog"
           className="group/card w-full rounded-2xl border border-line bg-pitch-raised/80 p-5 text-left transition duration-300 hover:border-gold/50 hover:bg-pitch-raised focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold sm:p-6">
-          <div className="mb-4 flex flex-wrap items-center gap-2">
-            {presentation.highlights.map((highlight) => (
-              <span key={highlight.label} className="rounded-full border border-line px-3 py-1 font-mono text-[10px] uppercase tracking-wide text-paper-dim">
-                <span className="text-paper">{highlight.value}</span> {highlight.label}
-              </span>
-            ))}
-            <span className="ml-auto font-mono text-[10px] uppercase tracking-wider text-gold opacity-80 transition group-hover/card:opacity-100">View moment ↗</span>
+          <div className="mb-4 flex justify-end">
+            <span className="font-mono text-[10px] uppercase tracking-wider text-gold opacity-80 transition group-hover/card:opacity-100">View performance ↗</span>
           </div>
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div className="min-w-0">
