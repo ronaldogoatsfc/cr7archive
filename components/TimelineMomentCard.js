@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { X } from "lucide-react";
 import TimelineDetailsPanel from "@/components/TimelineDetailsPanel";
+import TimelineCardPreview from "@/components/TimelineCardPreview";
 
 export default function TimelineMomentCard({ event, presentation, month, day, details }) {
   const [open, setOpen] = useState(false);
@@ -25,8 +26,8 @@ export default function TimelineMomentCard({ event, presentation, month, day, de
           className="group/card w-full rounded-2xl border border-line bg-pitch-raised/80 p-5 text-left transition duration-300 hover:border-gold/50 hover:bg-pitch-raised focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold sm:p-6">
           <div className="flex items-start justify-between gap-4">
             <p className="text-sm leading-7 text-paper sm:text-[15px]">{event.description}</p>
-            <span className="shrink-0 whitespace-nowrap font-mono text-[10px] uppercase tracking-wider text-gold opacity-80 transition group-hover/card:opacity-100">View moment ↗</span>
           </div>
+          <TimelineCardPreview presentation={presentation} details={details} />
         </button>
         <span className="absolute left-[7px] top-0 hidden h-full w-px bg-gradient-to-b from-gold/50 via-line to-transparent sm:block" />
       </article>
