@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from "react";
 import { X } from "lucide-react";
+import TimelineDetailsPanel from "@/components/TimelineDetailsPanel";
 
-export default function TimelineMomentCard({ event, presentation, month, day }) {
+export default function TimelineMomentCard({ event, presentation, month, day, details }) {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -57,6 +58,7 @@ export default function TimelineMomentCard({ event, presentation, month, day }) 
                   </div>
                 </section>
               )}
+              <TimelineDetailsPanel details={details} />
             </div>
           </section>
         </div>
