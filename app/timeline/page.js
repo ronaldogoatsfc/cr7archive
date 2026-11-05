@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, CalendarDays, Clock3 } from "lucide-react";
-import { getTimelineEvents, getEventPresentation, getTimelineMatch } from "@/lib/timeline";
+import { getTimelineEvents, getEventPresentation, getTimelineMatch, getTimelineDetails } from "@/lib/timeline";
 import TimelinePerformanceCard from "@/components/TimelinePerformanceCard";
 import TimelineMomentCard from "@/components/TimelineMomentCard";
 
@@ -12,15 +12,16 @@ export const metadata = {
 function TimelineEvent({ event }) {
   const presentation = getEventPresentation(event);
   const match = getTimelineMatch(event);
+  const details = getTimelineDetails(event);
   const date = new Date(event.date + "T00:00:00");
   const month = date.toLocaleDateString("en-US", { month: "short" });
   const day = date.toLocaleDateString("en-US", { day: "2-digit" });
 
   if (match) {
-    return <TimelinePerformanceCard event={event} match={match} presentation={presentation} />;
+    return <TimelinePerformanceCard event={event} match={match} presentation={presentation} details={details} />;
   }
 
-  return <TimelineMomentCard event={event} presentation={presentation} month={month} day={day} />;
+  return <TimelineMomentCard event={event} presentation={presentation} month={month} day={day} details={details} />;
 }
 
 export default function TimelinePage() {
