@@ -23,6 +23,20 @@ function StatsSnapshot({ snapshot }) {
         <Stat label="Assists" value={stats.assists} />
         <Stat label="Minutes" value={stats.minutes.toLocaleString("en-US")} />
       </div>
+      {stats.advanced?.length > 0 && (
+        <div className="mt-4 border-t border-line pt-4">
+          <h4 className="mb-3 font-mono text-[10px] uppercase tracking-wider text-gold">Recorded performance metrics</h4>
+          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+            {stats.advanced.map((metric) => (
+              <div key={metric.key} className="rounded-lg border border-line bg-pitch-raised/70 p-3">
+                <p className="text-[10px] leading-4 text-paper-dim">{metric.label}</p>
+                <p className="mt-1 data-mono text-base font-semibold text-paper">{metric.value}</p>
+                <p className="mt-1 text-[9px] text-paper-dim">Recorded in {metric.coverage} of {stats.appearances} matches</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
       <p className="mt-3 text-[11px] leading-5 text-paper-dim">
         Combined club and senior Portugal statistics from The Ronaldo Archive match logs.
         {stats.wins !== undefined ? ` Record: ${stats.wins} wins, ${stats.draws} draws, ${stats.losses} losses.` : ""}
