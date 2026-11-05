@@ -110,7 +110,7 @@ export default function TimelinePerformanceCard({ event, match, presentation, de
               </div>
             </div>
           </div>
-          <p className="mt-4 border-t border-line/70 pt-3 text-sm leading-6 text-paper-dim">{event.description}</p>
+          <p className="mt-4 border-t border-line/70 pt-3 text-sm leading-6 text-paper-dim">{event.description}</p>\n          {(() => {\n            const preview = [\n              ["Rating", match.stats?.rating != null ? Number(match.stats.rating).toFixed(1) : null],\n              ["Shots", match.stats?.shots],\n              ["On target", match.stats?.shotsOnTarget],\n              ["Key passes", match.stats?.keyPasses],\n              ["xG", match.stats?.xG != null ? Number(match.stats.xG).toFixed(2) : null],\n            ].filter(([, value]) => value !== undefined && value !== null).slice(0, 3);\n            return preview.length > 0 ? (\n              <div className="mt-3 flex flex-wrap gap-2">\n                {preview.map(([label, value]) => (\n                  <span key={label} className="inline-flex items-center gap-2 rounded-lg border border-line bg-pitch px-3 py-2">\n                    <span className="font-mono text-[9px] uppercase tracking-wider text-paper-dim">{label}</span>\n                    <span className="data-mono text-sm font-semibold text-paper">{value}</span>\n                  </span>\n                ))}\n              </div>\n            ) : null;\n          })()}
         </button>
         <span className="absolute left-[7px] top-0 hidden h-full w-px bg-gradient-to-b from-gold/50 via-line to-transparent sm:block" />
       </article>
