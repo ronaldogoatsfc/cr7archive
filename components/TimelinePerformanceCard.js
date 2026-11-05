@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { X, Film, Video } from "lucide-react";
+import TimelineDetailsPanel from "@/components/TimelineDetailsPanel";
 
 const STAT_GROUPS = [
   { title: "Shooting", fields: [["shots", "Shots"], ["shotsOnTarget", "Shots on target"], ["xG", "Expected goals (xG)", 2], ["freeKickAttempts", "Free-kick attempts"]] },
@@ -69,7 +70,7 @@ function MatchStats({ match }) {
   );
 }
 
-export default function TimelinePerformanceCard({ event, match, presentation }) {
+export default function TimelinePerformanceCard({ event, match, presentation, details }) {
   const [open, setOpen] = useState(false);
   const date = new Date(event.date + "T00:00:00");
   const month = date.toLocaleDateString("en-US", { month: "short" });
@@ -97,7 +98,7 @@ export default function TimelinePerformanceCard({ event, match, presentation }) 
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div className="min-w-0">
               <h3 className="font-display text-xl font-semibold text-paper sm:text-2xl">{match.team} <span className="text-paper-dim">vs</span> {match.opponent}</h3>
-              <p className="mt-1 text-xs text-paper-dim">{match.competition}{match.stage ? ` · ${match.stage}` : ""} · {match.venue || "Venue not recorded"}</p>
+              <p className="mt-1 text-xs text-paper-dim">{match.competition}{match.stage ? ` · ${match.stage}` : ""} · {match.venue || "Venue not recorded"}{match.dataSource === "unofficial" && <span className="ml-2 font-mono text-[9px] uppercase tracking-wider text-gold">· Unofficial match data</span>}</p>
             </div>
             <div className="flex shrink-0 items-center gap-4 sm:gap-5">
               <div className="text-right"><p className="stat-number text-2xl font-semibold text-paper sm:text-3xl">{match.scoreFor}–{match.scoreAgainst}</p><Result result={match.result} /></div>
@@ -124,7 +125,7 @@ export default function TimelinePerformanceCard({ event, match, presentation }) 
             </div>
             <div className="p-5 sm:p-7">
               <h2 id="timeline-performance-title" className="font-display text-2xl font-semibold text-paper sm:text-3xl">{match.team} <span className="text-paper-dim">vs</span> {match.opponent}</h2>
-              <p className="mt-2 text-xs leading-5 text-paper-dim">{match.competition}{match.stage ? ` · ${match.stage}` : ""} · {match.venue || "Venue not recorded"}</p>
+              <p className="mt-2 text-xs leading-5 text-paper-dim">{match.competition}{match.stage ? ` · ${match.stage}` : ""} · {match.venue || "Venue not recorded"}{match.dataSource === "unofficial" && <span className="ml-2 font-mono text-[9px] uppercase tracking-wider text-gold">· Unofficial match data</span>}</p>
               <div className="mt-5 flex flex-wrap items-center justify-between gap-5 rounded-xl border border-line bg-pitch px-4 py-4 sm:px-5">
                 <div><p className="stat-number text-3xl font-semibold text-paper">{match.scoreFor}–{match.scoreAgainst}</p><Result result={match.result} /></div>
                 <div className="grid grid-cols-3 gap-5 text-center">
@@ -134,6 +135,8 @@ export default function TimelinePerformanceCard({ event, match, presentation }) 
                 </div>
               </div>
               <p className="mt-5 text-sm leading-7 text-paper-dim">{event.description}</p>
+              <TimelineDetailsPanel details={details} />
+              {match.dataSource === "unofficial" && <p className="mt-4 rounded-lg border border-gold/20 bg-pitch px-3 py-2 text-[11px] leading-5 text-paper-dim">Unofficial match data: score, minutes, goals, and assists are taken from manually recorded match logs. Detailed performance metrics are not available for this entry.</p>}
               <div className="mt-7 border-t border-line pt-5"><MatchStats match={match} /></div>
               {(match.hasMatchComp || match.hasFullMatch) && (
                 <div className="mt-6 flex flex-wrap gap-3 border-t border-line pt-5">
