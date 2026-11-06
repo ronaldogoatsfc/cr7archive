@@ -1028,10 +1028,22 @@ export default function MatchLogsPage() {
                   </div>
 
                   <div className="px-4 py-4 sm:px-5">
-                    <div className="mb-3 flex flex-wrap items-center gap-2">
-                      <span className={`rounded-full px-2.5 py-1 font-mono text-[10px] font-semibold uppercase tracking-wider ${isKnockout ? "border border-gold/40 bg-gold/10 text-gold" : "border border-line bg-pitch text-paper-dim"}`}>
-                        {stageDescription}
-                      </span>
+                    <div className="mb-3 flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
+                      <div className="flex flex-wrap items-center gap-2">
+                        {isKnockout && (
+                          <span className="rounded-full border border-gold/40 bg-gold/10 px-2.5 py-1 font-mono text-[9px] font-bold uppercase tracking-widest text-gold">
+                            Knockout
+                          </span>
+                        )}
+                        <span className="font-display text-sm font-semibold text-paper">
+                          {stage}
+                        </span>
+                        {m.leg && (
+                          <span className="rounded-full border border-line bg-pitch px-2.5 py-1 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
+                            {m.leg}
+                          </span>
+                        )}
+                      </div>
                       <span className="font-mono text-[10px] uppercase tracking-wider text-paper-dim">
                         {m.venue}
                       </span>
