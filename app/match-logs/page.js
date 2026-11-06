@@ -1004,6 +1004,7 @@ export default function MatchLogsPage() {
               Number.isFinite(Number(rating));
             const stage = m.stage || "Stage not recorded";
             const isKnockout = /play.?off|round of|quarter.?final|semi.?final|final/i.test(stage);
+            const stageDescription = `${isKnockout ? "Knockout · " : ""}${stage}${m.leg ? ` · ${m.leg}` : ""}`;
             return (
               <article
                 key={m.id}
@@ -1013,7 +1014,7 @@ export default function MatchLogsPage() {
                   type="button"
                   onClick={() => toggleRow(m.id)}
                   aria-expanded={isOpen}
-                  className="w-full text-left"
+                  className="w-full cursor-pointer text-left"
                 >
                   <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 border-b border-line/70 px-4 py-3 sm:px-5">
                     <div className="flex min-w-0 flex-wrap items-center gap-2">
@@ -1026,22 +1027,10 @@ export default function MatchLogsPage() {
                   </div>
 
                   <div className="px-4 py-4 sm:px-5">
-                    <div className="mb-3 flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
-                      <div className="flex flex-wrap items-center gap-2">
-                        {isKnockout && (
-                          <span className="rounded-full border border-gold/40 bg-gold/10 px-2.5 py-1 font-mono text-[9px] font-bold uppercase tracking-widest text-gold">
-                            Knockout
-                          </span>
-                        )}
-                        <span className="font-display text-sm font-semibold text-paper">
-                          {stage}
-                        </span>
-                        {m.leg && (
-                          <span className="rounded-full border border-line bg-pitch px-2.5 py-1 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
-                            {m.leg}
-                          </span>
-                        )}
-                      </div>
+                    <div className="mb-3 flex flex-wrap items-center gap-2">
+                      <span className={`rounded-full px-2.5 py-1 font-mono text-[10px] font-semibold uppercase tracking-wider ${isKnockout ? "border border-gold/40 bg-gold/10 text-gold" : "border border-line bg-pitch text-paper-dim"}`}>
+                        {stageDescription}
+                      </span>
                       <span className="font-mono text-[10px] uppercase tracking-wider text-paper-dim">
                         {m.venue}
                       </span>
