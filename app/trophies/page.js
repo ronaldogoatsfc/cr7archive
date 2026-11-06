@@ -53,7 +53,7 @@ function Select({ label, value, onChange, options }) {
 
 function TrophyGroup({ club, items }) {
   const groupedTrophies = [...items.reduce((groups, trophy) => {
-    const key = [trophy.name, trophy.competitionType, trophy.domestic, trophy.isFriendly].join("|");
+    const key = [trophy.name, trophy.competitionType, trophy.domestic, trophy.isFriendly, trophy.name === "UEFA Nations League" ? trophy.season : ""].join("|");
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(trophy);
     return groups;
@@ -85,11 +85,18 @@ function TrophyGroup({ club, items }) {
               <span className="font-display text-lg font-semibold leading-snug text-paper">
                 {t.name}
               </span>
-              {t.count > 1 && (
+              {t.articleSlug ? (
+                <Link
+                  href={`/articles/${t.articleSlug}`}
+                  className="shrink-0 text-xs font-semibold text-gold transition hover:text-gold-bright"
+                >
+                  See more →
+                </Link>
+              ) : t.count > 1 ? (
                 <span className="shrink-0 rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-gold">
                   {t.count} titles
                 </span>
-              )}
+              ) : null}
             </div>
             <p className="stat-number mt-3 text-xl leading-relaxed text-gold">
               {t.years.join(" · ")}
@@ -105,16 +112,6 @@ function TrophyGroup({ club, items }) {
                 {t.domestic ? "Domestic" : "International"}
               </span>
             </div>
-            {t.articleSlug && (
-              <div className="mt-auto border-t border-line pt-4">
-                <Link
-                  href={`/articles/${t.articleSlug}`}
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-gold transition hover:text-gold-bright"
-                >
-                  Read article <span aria-hidden="true">→</span>
-                </Link>
-              </div>
-            )}
           </article>
         ))}
       </div>
