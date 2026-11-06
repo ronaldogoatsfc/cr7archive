@@ -5,6 +5,7 @@ import ronaldoHomeVsAway from "./ronaldo-home-vs-away";
 import ronaldoUclAnalysis from "./ronaldo-ucl-analysis";
 import ronaldoAssists from "./ronaldo-assists";
 import ronaldoNationsLeague from "./ronaldo-2019-nations-league";
+import ronaldoArabClubChampionsCup from "./ronaldo-2023-arab-club-champions-cup";
 
 const articles = [
   we_need_your_help,
@@ -13,7 +14,8 @@ const articles = [
   ronaldoHomeVsAway,
   ronaldoUclAnalysis,
   ronaldoAssists,
-  ronaldoNationsLeague
+  ronaldoNationsLeague,
+  ronaldoArabClubChampionsCup
 ];
 
 export default articles;
