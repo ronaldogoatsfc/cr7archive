@@ -414,8 +414,7 @@ function MatchDetail({ match }) {
   const hasFootage = match.hasMatchComp || match.hasFullMatch;
 
   return (
-    <tr className="border-b border-line/60 bg-pitch">
-      <td colSpan={11} className="px-4 py-5">
+    <div className="border-t border-line/60 bg-pitch px-4 py-5">
         {(match.goals > 0 || match.assists > 0 || match.assistEvents?.length > 0) && (
           <div className="mb-5 space-y-2">
             <p className="mb-2 font-mono text-[10px] uppercase tracking-widest text-gold">
@@ -553,8 +552,7 @@ function MatchDetail({ match }) {
             No footage linked for this match yet.
           </p>
         )}
-      </td>
-    </tr>
+    </div>
   );
 }
 
@@ -988,103 +986,83 @@ export default function MatchLogsPage() {
         )}
       </section>
 
-      <div className="mt-8 overflow-x-auto rounded-2xl border border-line">
-        <table className="w-full min-w-[860px] border-collapse text-sm">
-          <thead>
-            <tr className="border-b border-line bg-pitch-raised text-left font-mono text-xs uppercase tracking-wider text-paper-dim">
-              <th className="w-8 px-2 py-3"></th>
-              <th className="px-4 py-3">Date</th>
-              <th className="px-4 py-3">Competition</th>
-              <th className="px-4 py-3">Club</th>
-              <th className="px-4 py-3">Opponent</th>
-              <th className="px-4 py-3">Venue</th>
-              <th className="px-4 py-3 text-center">Score</th>
-              <th className="px-4 py-3 text-center">Mins</th>
-              <th className="px-4 py-3 text-center">G</th>
-              <th className="px-4 py-3 text-center">A</th>
-              <th className="px-4 py-3 text-center">
-                <div className="flex items-center justify-center gap-1.5">
-                  <span>Rating</span>
-                  <InfoButton title="Match Ratings">
-                    Match ratings are collected from rating platforms such as SofaScore and WhoScored. The platform used can vary by match, depending on data availability, so ratings may not be perfectly comparable across every game.
-                  </InfoButton>
-                </div>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {filtered.map((m) => {
-              const isOpen = expandedId === m.id;
-              const hasFootage = m.hasMatchComp || m.hasFullMatch;
-              const rating = m.stats?.rating;
-              const hasRating =
-                rating !== undefined &&
-                rating !== null &&
-                Number.isFinite(Number(rating));
-              return (
-                <Fragment key={m.id}>
-                  <tr
-                    onClick={() => toggleRow(m.id)}
-                    className="cursor-pointer border-b border-line/60 transition hover:bg-pitch-raised"
-                  >
-                    <td className="px-2 py-3 text-paper-dim">
-                      {isOpen ? (
-                        <ChevronDown size={14} />
-                      ) : (
-                        <ChevronRight size={14} />
-                      )}
-                    </td>
-                    <td className="data-mono px-4 py-3 text-paper-dim">
+      <section className="mt-8 space-y-3">
+        <div className="flex flex-wrap items-end justify-between gap-2">
+          <h2 className="font-display text-xl font-semibold text-paper">Match Log</h2>
+          <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+            {filtered.length.toLocaleString()} {filtered.length === 1 ? "appearance" : "appearances"}
+          </p>
+        </div>
+        <div className="space-y-2">
+          {filtered.map((m) => {
+            const isOpen = expandedId === m.id;
+            const hasFootage = m.hasMatchComp || m.hasFullMatch;
+            const rating = m.stats?.rating;
+            const hasRating =
+              rating !== undefined &&
+              rating !== null &&
+              Number.isFinite(Number(rating));
+            const stage = m.stage || "Stage not recorded";
+            const isKnockout = /play.?off|round of|quarter.?final|semi.?final|final/i.test(stage);
+            const stageDescription = `${isKnockout ? "Knockout · " : ""}${stage}${m.leg ? ` · ${m.leg}` : ""}`;
+
+            return (
+              <article
+                key={m.id}
+                className={`overflow-hidden rounded-xl border transition-colors ${isOpen ? "border-gold/50 bg-pitch-raised" : "border-line bg-pitch-raised/60 hover:border-line-bright"}`}
+              >
+                <button
+                  type="button"
+                  onClick={() => toggleRow(m.id)}
+                  aria-expanded={isOpen}
+                  className="w-full text-left"
+                >
+                  <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 border-b border-line/70 px-4 py-3 sm:px-5">
+                    <div className="flex min-w-0 flex-wrap items-center gap-2">
+                      <span className="font-display text-sm font-semibold text-paper">{m.competition}</span>
+                      {hasFootage && <Film size={13} className="text-gold" aria-label="Match footage available" />}
+                    </div>
+                    <span className="font-mono text-[10px] uppercase tracking-wider text-paper-dim">
                       {m.date}
-                    </td>
-                    <td className="px-4 py-3 text-paper">
-                      <span className="flex items-center gap-2">
-                        {m.competition}
-                        {hasFootage && (
-                          <Film size={12} className="text-gold" />
-                        )}
+                    </span>
+                  </div>
+
+                  <div className="px-4 py-4 sm:px-5">
+                    <div className="mb-3 flex flex-wrap items-center gap-2">
+                      <span className={`rounded-full px-2.5 py-1 font-mono text-[10px] font-semibold uppercase tracking-wider ${isKnockout ? "border border-gold/40 bg-gold/10 text-gold" : "border border-line bg-pitch text-paper-dim"}`}>
+                        {stageDescription}
                       </span>
-                    </td>
-                    <td className="px-4 py-3 text-paper-dim">{m.team}</td>
-                    <td className="px-4 py-3 text-paper">{m.opponent}</td>
-                    <td className="px-4 py-3 text-paper-dim">{m.venue}</td>
-                    <td
-                      className={`data-mono px-4 py-3 text-center font-semibold ${getScoreColor(
-                        m.result
-                      )}`}
-                      title={
-                        m.result === "W"
-                          ? "Win"
-                          : m.result === "D"
-                            ? "Draw"
-                            : m.result === "L"
-                              ? "Loss"
-                              : "Result unavailable"
-                      }
-                    >
-                      {m.scoreFor}–{m.scoreAgainst}
-                    </td>
-                    <td className="data-mono px-4 py-3 text-center text-paper-dim">
-                      {m.minutesPlayed}&apos;
-                    </td>
-                    <td className="data-mono px-4 py-3 text-center font-semibold text-gold">
-                      {m.goals}
-                    </td>
-                    <td
-                      className="data-mono px-4 py-3 text-center text-turf-bright"
-                      title={
-                        m.assistEvents?.some((event) => event.optaAssist === false)
-                          ? "Includes a non-Opta goal involvement"
-                          : undefined
-                      }
-                    >
-                      {m.assists}
-                      {m.assistEvents?.some((event) => event.optaAssist === false) && (
-                        <sup className="ml-0.5 text-[10px] font-semibold text-gold">*</sup>
-                      )}
-                    </td>
-                    <td className="px-3 py-3">
-                      <div className="flex items-center justify-center">
+                      <span className="font-mono text-[10px] uppercase tracking-wider text-paper-dim">
+                        {m.venue}
+                      </span>
+                    </div>
+
+                    <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-3 sm:gap-5">
+                      <div className="min-w-0">
+                        <p className="truncate font-display text-base font-semibold text-paper sm:text-lg">{m.team}</p>
+                        <p className="mt-0.5 text-xs text-paper-dim">Ronaldo's team</p>
+                      </div>
+                      <div className="text-center">
+                        <p className={`data-mono text-2xl font-bold tracking-tight sm:text-3xl ${getScoreColor(m.result)}`}>
+                          {m.scoreFor}–{m.scoreAgainst}
+                        </p>
+                        <p className="mt-0.5 font-mono text-[9px] uppercase tracking-widest text-paper-dim">
+                          {m.result === "W" ? "Win" : m.result === "D" ? "Draw" : m.result === "L" ? "Loss" : "Result"}
+                        </p>
+                      </div>
+                      <div className="min-w-0 text-right">
+                        <p className="truncate font-display text-base font-semibold text-paper sm:text-lg">{m.opponent}</p>
+                        <p className="mt-0.5 text-xs text-paper-dim">Opponent</p>
+                      </div>
+                    </div>
+
+                    <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-line/70 pt-3">
+                      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-xs">
+                        <span className="text-paper-dim">{m.minutesPlayed}&apos;</span>
+                        <span className="text-gold"><span className="font-semibold">{m.goals}</span> G</span>
+                        <span className="text-turf-bright"><span className="font-semibold">{m.assists}</span> A{m.assistEvents?.some((event) => event.optaAssist === false) && <sup className="ml-0.5 text-[9px] text-gold">*</sup>}</span>
+                      </div>
+                      <div className="flex items-center gap-3">
                         {(hasRating || m.stats?.motm) && (
                           <span
                             className={`relative inline-flex h-8 min-w-8 items-center justify-center rounded-sm px-1.5 font-mono text-xs font-bold ${hasRating ? getRatingColor(Number(rating)) : "border border-gold bg-gold text-pitch"}`}
@@ -1099,26 +1077,25 @@ export default function MatchLogsPage() {
                             )}
                           </span>
                         )}
+                        <span className="flex items-center gap-1 text-[10px] font-mono uppercase tracking-wider text-paper-dim">
+                          {isOpen ? "Hide details" : "Details"}
+                          {isOpen ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
+                        </span>
                       </div>
-                    </td>
-                  </tr>
-                  {isOpen && <MatchDetail match={m} />}
-                </Fragment>
-              );
-            })}
-            {filtered.length === 0 && (
-              <tr>
-                <td
-                  colSpan={11}
-                  className="px-4 py-10 text-center text-paper-dim"
-                >
-                  No matches fit these filters. Try resetting them.
-                </td>
-              </tr>
-            )}
-          </tbody>
-        </table>
-      </div>
+                    </div>
+                  </div>
+                </button>
+                {isOpen && <MatchDetail match={m} />}
+              </article>
+            );
+          })}
+          {filtered.length === 0 && (
+            <div className="rounded-xl border border-line bg-pitch-raised px-4 py-10 text-center text-sm text-paper-dim">
+              No matches fit these filters. Try resetting them.
+            </div>
+          )}
+        </div>
+      </section>
     </div>
   );
 }
