@@ -4,6 +4,7 @@ import ronaldo_goals_by_month from "./ronaldo-goals-by-month";
 import ronaldoHomeVsAway from "./ronaldo-home-vs-away";
 import ronaldoUclAnalysis from "./ronaldo-ucl-analysis";
 import ronaldoAssists from "./ronaldo-assists";
+import ronaldoNationsLeague from "./ronaldo-2019-nations-league";
 
 const articles = [
   we_need_your_help,
@@ -11,7 +12,8 @@ const articles = [
   ronaldo_goals_by_month,
   ronaldoHomeVsAway,
   ronaldoUclAnalysis,
-  ronaldoAssists
+  ronaldoAssists,
+  ronaldoNationsLeague
 ];
 
 export default articles;
