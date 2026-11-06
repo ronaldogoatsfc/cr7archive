@@ -286,7 +286,6 @@ export default function RonaldoVsWhoGame({ opponents }) {
             <div className="mt-5 rounded-xl border border-line bg-pitch p-4 sm:p-5">
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-gold">Mystery team</p>
-                <span className="text-xs text-paper-dim">Green = correct spot · Yellow = elsewhere</span>
               </div>
               <div className="mt-4 flex flex-wrap items-center gap-1.5" aria-label="Mystery team name">
                 {[...target.team].map((character, index) => {
