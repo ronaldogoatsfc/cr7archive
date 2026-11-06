@@ -23,7 +23,48 @@ function compareStat(guessValue, targetValue) {
   return guessValue > targetValue ? "higher" : "lower";
 }
 
-function hashTeamName(value) {
+
+function getLetterFeedback(guess, answer) {
+  const guessLetters = [...guess.toLocaleLowerCase()];
+  const answerLetters = [...answer.toLocaleLowerCase()];
+  const feedback = guessLetters.map(() => "absent");
+  const remaining = new Map();
+
+  // Mark exact-position matches first, then count unmatched answer letters.
+  guessLetters.forEach((letter, index) => {
+    if (letter === " " || letter === "-") {
+      feedback[index] = letter === answerLetters[index] ? "separator" : "absent";
+    } else if (letter === answerLetters[index]) {
+      feedback[index] = "correct";
+    }
+  });
+
+  answerLetters.forEach((letter, index) => {
+    if (letter !== " " && letter !== "-" && feedback[index] !== "correct") {
+      remaining.set(letter, (remaining.get(letter) || 0) + 1);
+    }
+  });
+
+  guessLetters.forEach((letter, index) => {
+    if (letter === " " || letter === "-") return;
+    if (feedback[index] === "correct") return;
+    const available = remaining.get(letter) || 0;
+    if (available > 0) {
+      feedback[index] = "present";
+      remaining.set(letter, available - 1);
+    }
+  });
+
+  return feedback;
+}
+
+const letterTileStyles = {
+  correct: "border-turf-bright bg-turf-bright/20 text-turf-bright",
+  present: "border-gold bg-gold/20 text-gold",
+  absent: "border-line bg-pitch-raised text-paper-dim",
+  separator: "border-line bg-pitch text-paper-dim",
+};
+\nfunction hashTeamName(value) {
   let hash = 2166136261;
   for (let index = 0; index < value.length; index += 1) {
     hash ^= value.charCodeAt(index);
@@ -213,6 +254,9 @@ export default function RonaldoVsWhoGame({ opponents }) {
           <p className="mt-2 max-w-2xl text-sm leading-6 text-paper-dim">
             Identify today's opponent from Ronaldo's career statistics. You get five guesses, and the mystery opponent changes daily.
           </p>
+          <p className="mt-3 max-w-2xl rounded-lg border border-line bg-pitch px-3 py-2.5 text-xs leading-5 text-paper-dim">
+            <strong className="text-paper">Team name note:</strong> Team names are not standardized across every source, and spelling or naming variations may exist. For consistency, one selected spelling is used throughout The Ronaldo Archive. The game accepts the spelling shown in its team suggestions.
+          </p>
         </div>
 
         {!ready || !target ? (
@@ -236,6 +280,38 @@ export default function RonaldoVsWhoGame({ opponents }) {
                   </p>
                 </div>
               ))}
+            </div>
+
+            <div className="mt-5 rounded-xl border border-line bg-pitch p-4 sm:p-5">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-gold">Mystery team</p>
+                <span className="text-xs text-paper-dim">Green = correct spot · Yellow = elsewhere</span>
+              </div>
+              <div className="mt-4 flex flex-wrap items-center gap-1.5" aria-label="Mystery team name">
+                {[...target.team].map((character, index) => {
+                  if (character === " ") {
+                    return <span key={index} className="w-2 sm:w-3" aria-hidden="true" />;
+                  }
+                  if (character === "-") {
+                    return <span key={index} className="px-0.5 font-semibold text-paper" aria-hidden="true">-</span>;
+                  }
+                  const revealed = gameOver || guesses.some((guess) =>
+                    guess.team && [...guess.team][index]?.toLocaleLowerCase() === character.toLocaleLowerCase()
+                  );
+                  return (
+                    <span
+                      key={index}
+                      className={`flex h-10 w-8 items-center justify-center rounded-md border font-mono text-sm font-bold sm:h-11 sm:w-9 sm:text-base ${revealed ? "border-turf-bright bg-turf-bright/15 text-turf-bright" : "border-line bg-pitch-raised text-paper-dim"}`}
+                    >
+                      {revealed ? character.toLocaleUpperCase() : "_"}
+                    </span>
+                  );
+                })}
+              </div>
+              <div className="mt-3 flex flex-wrap gap-3 text-[10px] text-paper-dim">
+                <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-2.5 rounded-sm bg-turf-bright" /> Correct position</span>
+                <span className="inline-flex items-center gap-1.5"><span className="h-2.5 w-2.5 rounded-sm bg-gold" /> In the name, different position</span>
+              </div>
             </div>
 
             <div className="mt-5 rounded-xl border border-line bg-pitch p-4 sm:p-5">
@@ -343,6 +419,22 @@ export default function RonaldoVsWhoGame({ opponents }) {
                         <div className="flex flex-wrap items-center justify-between gap-2">
                           <span className="font-semibold text-paper">{guess.team}</span>
                           <span className={`font-mono text-[10px] uppercase tracking-wider ${guess.correct ? "text-turf-bright" : "text-goal-red"}`}>{guess.correct ? "Correct" : "Incorrect"}</span>
+                        </div>
+                        <div className="mt-3 flex flex-wrap items-center gap-1" aria-label={`Letter feedback for ${guess.team}`}>
+                          {[...guess.team].map((character, letterIndex) => {
+                            const feedback = getLetterFeedback(guess.team, target.team);
+                            if (character === " ") return <span key={letterIndex} className="w-2" aria-hidden="true" />;
+                            if (character === "-") return <span key={letterIndex} className="px-0.5 text-paper" aria-hidden="true">-</span>;
+                            return (
+                              <span
+                                key={letterIndex}
+                                title={feedback[letterIndex] === "correct" ? "Correct position" : feedback[letterIndex] === "present" ? "In the team name, different position" : "Not in the team name"}
+                                className={`flex h-9 w-7 items-center justify-center rounded-md border font-mono text-xs font-bold sm:h-10 sm:w-8 sm:text-sm ${letterTileStyles[feedback[letterIndex]]}`}
+                              >
+                                {character.toLocaleUpperCase()}
+                              </span>
+                            );
+                          })}
                         </div>
                         <div className="mt-3 flex flex-wrap gap-2">
                           <FeedbackMark label="Games" result={guess.feedback.games} />
