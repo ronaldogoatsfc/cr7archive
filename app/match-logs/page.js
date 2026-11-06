@@ -1004,8 +1004,6 @@ export default function MatchLogsPage() {
               Number.isFinite(Number(rating));
             const stage = m.stage || "Stage not recorded";
             const isKnockout = /play.?off|round of|quarter.?final|semi.?final|final/i.test(stage);
-            const stageDescription = `${isKnockout ? "Knockout · " : ""}${stage}${m.leg ? ` · ${m.leg}` : ""}`;
-
             return (
               <article
                 key={m.id}
