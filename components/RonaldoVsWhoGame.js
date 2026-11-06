@@ -64,7 +64,8 @@ const letterTileStyles = {
   absent: "border-line bg-pitch-raised text-paper-dim",
   separator: "border-line bg-pitch text-paper-dim",
 };
-\nfunction hashTeamName(value) {
+
+function hashTeamName(value) {
   let hash = 2166136261;
   for (let index = 0; index < value.length; index += 1) {
     hash ^= value.charCodeAt(index);
