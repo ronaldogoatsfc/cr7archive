@@ -31,6 +31,25 @@ function ArticleBlock({ block }) {
     );
   }
 
+  if (block.type === "stats") {
+    return (
+      <div className="my-8 rounded-2xl border border-line bg-pitch-raised p-5 sm:p-6">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+          {block.items.map((item) => (
+            <div key={item.label} className="rounded-xl border border-line bg-pitch p-3">
+              <p className="font-display text-2xl font-semibold tabular-nums text-paper">
+                {item.value}
+              </p>
+              <p className="mt-1 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
+                {item.label}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
   if (block.type === "image") {
     return (
       <figure className="my-8">
