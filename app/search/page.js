@@ -331,7 +331,7 @@ function buildSearchIndex() {
     title: event.description,
     subtitle: event.date,
     description: event.details || "Career moment",
-    href: "/timeline",
+    href: `/timeline#timeline-${event.date}`,
     searchText: normalize([event.date, event.year, event.description, event.details].join(" ")),
   }));
 
