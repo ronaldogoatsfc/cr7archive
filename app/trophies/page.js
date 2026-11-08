@@ -81,7 +81,7 @@ function TrophyGroup({ club, items }) {
           <article
             key={t.id}
             id={`trophy-${t.id}`}
-            className="scroll-mt-28 flex min-h-44 flex-col rounded-2xl border border-line bg-pitch-raised p-5 transition hover:border-gold/50"
+            className="scroll-mt-28 target:border-gold/80 flex min-h-44 flex-col rounded-2xl border border-line bg-pitch-raised p-5 transition hover:border-gold/50"
           >
             {t.ids.slice(1).map((id) => <span key={id} id={`trophy-${id}`} className="scroll-mt-28" />)}
             <div className="flex items-start justify-between gap-3">
