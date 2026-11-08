@@ -17,7 +17,7 @@ export default function TimelineMomentCard({ event, presentation, month, day, de
 
   return (
     <>
-      <article id={`timeline-${event.date}`} className="relative scroll-mt-28 grid gap-3 sm:grid-cols-[104px_minmax(0,1fr)] sm:gap-6">
+      <article id={event.anchorId} className="relative scroll-mt-28 target:rounded-2xl target:ring-1 target:ring-gold/60 grid gap-3 sm:grid-cols-[104px_minmax(0,1fr)] sm:gap-6">
         <div className="relative z-10 flex items-center gap-3 sm:flex-col sm:items-end sm:gap-1 sm:pt-5">
           <span className="font-mono text-xs uppercase tracking-[0.2em] text-paper-dim">{month}</span>
           <span className="stat-number text-3xl font-semibold leading-none text-paper sm:text-4xl">{day}</span>
