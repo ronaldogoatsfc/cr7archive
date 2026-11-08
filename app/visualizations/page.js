@@ -91,7 +91,10 @@ function ChartCard({ chart }) {
   const isLine = type === "line";
 
   return (
-    <article className="rounded-2xl border border-line bg-pitch-raised p-5 sm:p-6">
+    <article
+      id={title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}
+      className="rounded-2xl border border-line bg-pitch-raised p-5 sm:p-6"
+    >
       <h2 className="font-display text-lg font-semibold text-paper">
         {title}
       </h2>
