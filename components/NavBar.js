@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Search } from "lucide-react";
 
 const primaryLinks = [{ href: "/", label: "Home" }];
 
@@ -56,6 +56,16 @@ export default function NavBar() {
               {link.label}
             </Link>
           ))}
+
+          <Link
+            href="/search"
+            aria-label="Search the archive"
+            title="Search the archive"
+            className="inline-flex items-center gap-1.5 rounded-full px-2 py-2 text-sm text-paper-dim transition hover:bg-pitch-raised hover:text-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+          >
+            <Search size={16} />
+            <span>Search</span>
+          </Link>
 
           <div className="relative" ref={containerRef}>
             <div className="flex items-center rounded-full transition hover:bg-pitch-raised">
