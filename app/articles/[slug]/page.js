@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
   return { title: `${article.title} — The Ronaldo Archive` };
 }
 
-function ArticleBlock({ block, index }) {
+function ArticleBlock({ block }) {
   if (block.type === "heading") {
     return (
       <h2 className="mt-8 font-display text-2xl font-semibold text-paper">
@@ -114,7 +114,7 @@ export default async function ArticlePage({ params }) {
       <div className="mt-8">
         {article.content.map((block, i) => (
           <div key={i} id={`article-section-${i}`} className="scroll-mt-28 target:rounded-lg target:bg-gold/5">
-            <ArticleBlock block={block} index={i} />
+            <ArticleBlock block={block} />
           </div>
         ))}
       </div>
