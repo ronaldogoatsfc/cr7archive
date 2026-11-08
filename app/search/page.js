@@ -135,6 +135,125 @@ function buildSearchIndex() {
     ].join(" ")),
   }));
 
+  const visualizationEntries = [
+    {
+      title: "Goals & assists by season",
+      description: "Season-by-season attacking contributions across all competitions.",
+      keywords: "goals assists season contributions",
+    },
+    {
+      title: "Goals by competition",
+      description: "A breakdown of scoring output across domestic leagues, cups, and international competitions.",
+      keywords: "scoring competition league cup champions europe",
+    },
+    {
+      title: "Goals by club",
+      description: "Compare Ronaldo's goal totals across his clubs.",
+      keywords: "Manchester United Real Madrid Juventus Al Nassr Sporting",
+    },
+    {
+      title: "Match rating distribution",
+      description: "Explore the distribution of recorded match ratings.",
+      keywords: "performance rating match",
+    },
+    {
+      title: "Results breakdown",
+      description: "A breakdown of wins, draws, and losses.",
+      keywords: "results wins draws losses",
+    },
+    {
+      title: "Goals by knockout phase",
+      description: "Scoring output across tournament knockout rounds.",
+      keywords: "round of 16 quarter-final semi-final final",
+    },
+    {
+      title: "Most goals against",
+      description: "The opponents against whom Ronaldo has scored the most.",
+      keywords: "opponent teams",
+    },
+    {
+      title: "Goals by venue",
+      description: "Compare goals scored at home, away, and neutral venues.",
+      keywords: "home away neutral",
+    },
+    {
+      title: "Goals by month",
+      description: "Career goals grouped by calendar month.",
+      keywords: "January February March April May June July August September October November December",
+    },
+    {
+      title: "Goals by age",
+      description: "Scoring output at different ages throughout Ronaldo's career.",
+      keywords: "age years old",
+    },
+    {
+      title: "Goals per 90 by season",
+      description: "Scoring efficiency adjusted for recorded minutes played.",
+      keywords: "goals per 90 minutes scoring rate efficiency",
+    },
+    {
+      title: "Win percentage by competition",
+      description: "Win rate across competitions with sufficient match data.",
+      keywords: "wins results percentage",
+    },
+    {
+      title: "Appearances by club",
+      description: "Logged appearances for each club.",
+      keywords: "matches Manchester United Real Madrid Juventus Al Nassr Sporting",
+    },
+    {
+      title: "Goals + assists by club",
+      description: "Attacking contributions across Ronaldo's clubs.",
+      keywords: "goals assists contributions Manchester United Real Madrid Juventus Al Nassr Sporting",
+    },
+    {
+      title: "Goals per appearance by club",
+      description: "Scoring output relative to appearances for each club.",
+      keywords: "goals appearance ratio scoring rate",
+    },
+  ].map((visualization) => ({
+    id: `visualization-${visualization.title}`,
+    type: "Visualization",
+    title: visualization.title,
+    subtitle: "Career statistics · Interactive chart",
+    description: visualization.description,
+    href: "/visualizations",
+    searchText: normalize([
+      visualization.title,
+      visualization.description,
+      visualization.keywords,
+    ].join(" ")),
+  }));
+
+  const sectionEntries = [
+    {
+      id: "section-comparisons",
+      title: "Career Comparisons",
+      description: "Compare seasons, clubs, competitions, and custom date ranges using appearances, goals, assists, scoring rates, and detailed performance statistics.",
+      href: "/comparisons",
+      keywords: "compare season club competition calendar year goals assists minutes shots key passes xG xA",
+    },
+    {
+      id: "section-community",
+      title: "Community & Games",
+      description: "Test your knowledge with Ronaldo quizzes and interactive statistical games.",
+      href: "/community",
+      keywords: "Ronaldo vs Who Guess the Season Higher or Lower daily challenge quiz",
+    },
+    {
+      id: "section-about",
+      title: "About & Methodology",
+      description: "Learn how the archive is researched and maintained, including its sources, calculations, and data limitations.",
+      href: "/about",
+      keywords: "sources methodology data research calculations statistics limitations",
+    },
+  ].map((section) => ({
+    ...section,
+    type: "Section",
+    subtitle: "Explore the archive",
+    searchText: normalize([section.title, section.description, section.keywords].join(" ")),
+  }));
+
   const timelineEntries = getTimelineEvents().map((event) => ({
     id: `timeline-${event.date}-${event.description.slice(0, 30)}`,
     type: "Timeline",
@@ -151,6 +270,8 @@ function buildSearchIndex() {
     ...trophyEntries,
     ...honorEntries,
     ...recordEntries,
+    ...visualizationEntries,
+    ...sectionEntries,
     ...timelineEntries,
   ];
 }
