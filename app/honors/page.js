@@ -69,6 +69,7 @@ function HonorGroup({ category, items }) {
       seasons: [...new Set(entries.map((honor) => honor.season))],
       notes: [...new Set(entries.map((honor) => honor.notes).filter(Boolean))],
       articleSlug: entries.find((honor) => honor.articleSlug)?.articleSlug,
+      ids: entries.map((honor) => honor.id),
       count: entries.length,
     };
   });
@@ -87,8 +88,10 @@ function HonorGroup({ category, items }) {
         {groupedHonors.map((honor) => (
           <article
             key={honor.name}
-            className="flex min-h-48 flex-col rounded-2xl border border-line bg-pitch-raised p-5 transition hover:border-gold/50"
+            id={`honor-${honor.ids[0]}`}
+            className="scroll-mt-28 flex min-h-48 flex-col rounded-2xl border border-line bg-pitch-raised p-5 transition hover:border-gold/50"
           >
+            {honor.ids.slice(1).map((id) => <span key={id} id={`honor-${id}`} className="scroll-mt-28" />)}
             <div className="flex items-start justify-between gap-3">
               <span className="font-display text-lg font-semibold leading-snug text-paper">
                 {honor.name}
