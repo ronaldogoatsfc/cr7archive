@@ -89,7 +89,7 @@ function HonorGroup({ category, items }) {
           <article
             key={honor.name}
             id={`honor-${honor.ids[0]}`}
-            className="scroll-mt-28 flex min-h-48 flex-col rounded-2xl border border-line bg-pitch-raised p-5 transition hover:border-gold/50"
+            className="scroll-mt-28 target:border-gold/80 flex min-h-48 flex-col rounded-2xl border border-line bg-pitch-raised p-5 transition hover:border-gold/50"
           >
             {honor.ids.slice(1).map((id) => <span key={id} id={`honor-${id}`} className="scroll-mt-28" />)}
             <div className="flex items-start justify-between gap-3">
