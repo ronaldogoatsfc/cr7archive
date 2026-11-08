@@ -314,7 +314,7 @@ function buildSearchIndex() {
       id: "section-timeline",
       title: "Career Timeline",
       description: "Explore defining performances, milestones, transfers, and achievements in chronological order.",
-      href: `/timeline#${event.anchorId}`,
+      href: "/timeline",
       keywords: "timeline moments dates history transfers debut milestones performances",
     },
   ].map((section) => ({
@@ -332,7 +332,7 @@ function buildSearchIndex() {
     title: event.description,
     subtitle: event.date,
     description: event.details || "Career moment",
-    href: `/timeline#timeline-${event.date}`,
+    href: `/timeline#${event.anchorId}`,
     searchText: normalize([event.date, event.year, event.description, event.details].join(" ")),
   }));
 
