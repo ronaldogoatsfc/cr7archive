@@ -217,7 +217,7 @@ function buildSearchIndex() {
     title: visualization.title,
     subtitle: "Career statistics · Interactive chart",
     description: visualization.description,
-    href: "/visualizations",
+    href: `/visualizations#${normalize(visualization.title).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`,
     searchText: normalize([
       visualization.title,
       visualization.description,
