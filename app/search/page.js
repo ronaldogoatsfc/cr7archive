@@ -314,7 +314,7 @@ function buildSearchIndex() {
       id: "section-timeline",
       title: "Career Timeline",
       description: "Explore defining performances, milestones, transfers, and achievements in chronological order.",
-      href: `/timeline#timeline-${event.date}`,
+      href: `/timeline#${event.anchorId}`,
       keywords: "timeline moments dates history transfers debut milestones performances",
     },
   ].map((section) => ({
