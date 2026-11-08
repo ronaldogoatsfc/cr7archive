@@ -119,7 +119,30 @@ function ArticleMatchLog({ date }) {
 }
 
 function ArticleBlock({ block }) {
-  if (block.type === "matchLog") {\n    return <ArticleMatchLog date={block.date} />;\n  }\n\n  if (block.type === "table") {\n    return (\n      <div className="my-8 overflow-x-auto rounded-xl border border-line">\n        <table className="w-full min-w-[620px] border-collapse text-sm">\n          <thead className="bg-pitch-raised font-mono text-[10px] uppercase tracking-wider text-paper-dim">\n            <tr>{block.headers.map((header) => <th key={header} className="px-3 py-3 text-right first:text-left">{header}</th>)}</tr>\n          </thead>\n          <tbody>\n            {block.rows.map((row, index) => (\n              <tr key={row[0]} className={index < 2 ? "border-t border-line bg-gold/5 text-paper" : "border-t border-line/70 text-paper-dim"}>\n                {row.map((cell, cellIndex) => <td key={cellIndex} className={\`px-3 py-2.5 text-right tabular-nums \${cellIndex === 1 ? "text-left font-medium" : ""} \${index === 0 && cellIndex === 1 ? "font-semibold text-gold" : ""}\`}>{cell}</td>)}\n              </tr>\n            ))}\n          </tbody>\n        </table>\n      </div>\n    );\n  }\n\n  if (block.type === "heading") {
+  if (block.type === "matchLog") {
+    return <ArticleMatchLog date={block.date} />;
+  }
+
+  if (block.type === "table") {
+    return (
+      <div className="my-8 overflow-x-auto rounded-xl border border-line">
+        <table className="w-full min-w-[620px] border-collapse text-sm">
+          <thead className="bg-pitch-raised font-mono text-[10px] uppercase tracking-wider text-paper-dim">
+            <tr>{block.headers.map((header) => <th key={header} className="px-3 py-3 text-right first:text-left">{header}</th>)}</tr>
+          </thead>
+          <tbody>
+            {block.rows.map((row, index) => (
+              <tr key={row[0]} className={index < 2 ? "border-t border-line bg-gold/5 text-paper" : "border-t border-line/70 text-paper-dim"}>
+                {row.map((cell, cellIndex) => <td key={cellIndex} className={\`px-3 py-2.5 text-right tabular-nums \${cellIndex === 1 ? "text-left font-medium" : ""} \${index === 0 && cellIndex === 1 ? "font-semibold text-gold" : ""}\`}>{cell}</td>)}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+  }
+
+  if (block.type === "heading") {
     return (
       <h2 className="mt-8 font-display text-2xl font-semibold text-paper">
         {block.text}
