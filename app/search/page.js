@@ -44,6 +44,7 @@ function buildSearchIndex() {
     return {
       id: `match-${isUnofficial ? "unofficial-" : ""}${match.id}-${match.opponent}`,
       type: "Match",
+      pageKey: "matches",
       title: `${match.team} vs. ${match.opponent}`,
       subtitle: [date, match.competition, match.season].filter(Boolean).join(" · "),
       description: [
@@ -71,6 +72,7 @@ function buildSearchIndex() {
   const articleEntries = articles.map((article) => ({
     id: `article-${article.slug}`,
     type: "Article",
+    pageKey: "articles",
     title: article.title,
     subtitle: [article.author, article.datePublished].filter(Boolean).join(" · "),
     description: article.description || (article.tags || []).join(" · "),
@@ -79,17 +81,32 @@ function buildSearchIndex() {
       article.title,
       article.description,
       ...(article.tags || []),
-      ...(article.content || []).flatMap((block) => [block.text, block.alt, block.caption]),
     ].join(" ")),
-  }));
+  })).concat(articles.flatMap((article) =>
+    (article.content || []).map((block, index) => {
+      const text = [block.text, block.caption, block.alt].filter(Boolean).join(" ");
+      if (!text.trim()) return null;
+      return {
+        id: `article-${article.slug}-section-${index}`,
+        type: "Article",
+        pageKey: "articles",
+        title: block.type === "heading" ? `${article.title} — ${block.text}` : article.title,
+        subtitle: `Article section · ${block.type || "text"}`,
+        description: text.slice(0, 240),
+        href: `/articles/${article.slug}#article-section-${index}`,
+        searchText: normalize([article.title, article.description, ...(article.tags || []), text].join(" ")),
+      };
+    }).filter(Boolean)
+  ));
 
   const trophyEntries = trophies.map((trophy) => ({
     id: `trophy-${trophy.id}`,
     type: "Trophy",
+    pageKey: "trophies",
     title: trophy.name,
     subtitle: [trophy.season, trophy.club].filter(Boolean).join(" · "),
     description: trophy.competitionType || "",
-    href: "/trophies",
+    href: `/trophies#trophy-${trophy.id}`,
     searchText: normalize([
       trophy.name,
       trophy.competitionType,
@@ -103,10 +120,11 @@ function buildSearchIndex() {
   const honorEntries = honors.map((honor) => ({
     id: `honor-${honor.id}`,
     type: "Honor",
+    pageKey: "honors",
     title: honor.name,
     subtitle: [honor.year, honor.season, honor.club].filter(Boolean).join(" · "),
     description: honor.category || "",
-    href: "/honors",
+    href: `/honors#honor-${honor.id}`,
     searchText: normalize([
       honor.name,
       honor.category,
@@ -120,10 +138,11 @@ function buildSearchIndex() {
   const recordEntries = records.map((record) => ({
     id: `record-${record.id}`,
     type: "Record",
+    pageKey: "records",
     title: record.name,
     subtitle: [record.category, record.period].filter(Boolean).join(" · "),
     description: [record.status, record.notes, record.brokenBy].filter(Boolean).join(" · "),
-    href: "/records",
+    href: `/records#record-${record.id}`,
     searchText: normalize([
       record.name,
       record.category,
@@ -214,6 +233,7 @@ function buildSearchIndex() {
   ].map((visualization) => ({
     id: `visualization-${visualization.title}`,
     type: "Visualization",
+    pageKey: "visualizations",
     title: visualization.title,
     subtitle: "Career statistics · Interactive chart",
     description: visualization.description,
@@ -293,11 +313,12 @@ function buildSearchIndex() {
       id: "section-timeline",
       title: "Career Timeline",
       description: "Explore defining performances, milestones, transfers, and achievements in chronological order.",
-      href: "/timeline",
+      href: `/timeline#timeline-${event.date}`,
       keywords: "timeline moments dates history transfers debut milestones performances",
     },
   ].map((section) => ({
     ...section,
+    pageKey: section.id.replace("section-", ""),
     type: "Section",
     subtitle: "Explore the archive",
     searchText: normalize([section.title, section.description, section.keywords].join(" ")),
@@ -306,6 +327,7 @@ function buildSearchIndex() {
   const timelineEntries = getTimelineEvents().map((event) => ({
     id: `timeline-${event.date}-${event.description.slice(0, 30)}`,
     type: "Timeline",
+    pageKey: "timeline",
     title: event.description,
     subtitle: event.date,
     description: event.details || "Career moment",
@@ -328,13 +350,15 @@ function buildSearchIndex() {
 export default async function SearchPage({ searchParams }) {
   const params = await searchParams;
   const query = typeof params?.q === "string" ? params.q.trim() : "";
+  const selectedPage = typeof params?.page === "string" ? params.page : "all";
   const normalizedQuery = normalize(query);
   const tokens = normalizedQuery.split(/\s+/).filter(Boolean);
   const index = buildSearchIndex();
 
-  const results = tokens.length
+  const matchingResults = tokens.length
     ? index
         .filter((item) => tokens.every((token) => item.searchText.includes(token)))
+        .filter((item) => selectedPage === "all" || item.pageKey === selectedPage)
         .sort((a, b) => {
           const aTitle = normalize(a.title);
           const bTitle = normalize(b.title);
@@ -348,6 +372,7 @@ export default async function SearchPage({ searchParams }) {
         })
     : [];
 
+  const results = matchingResults;
   const typeCounts = {};
   const visibleResults = results.filter((item) => {
     typeCounts[item.type] = (typeCounts[item.type] || 0) + 1;
@@ -380,6 +405,26 @@ export default async function SearchPage({ searchParams }) {
               className="min-w-0 flex-1 bg-transparent py-4 text-sm text-paper outline-none placeholder:text-paper-dim/60"
             />
           </div>
+          <label className="flex flex-col gap-1 sm:w-52">
+            <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">Search within</span>
+            <select
+              name="page"
+              defaultValue={selectedPage}
+              className="h-full min-h-12 rounded-xl border border-line bg-pitch-raised px-3 text-sm text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+            >
+              <option value="all">All pages</option>
+              <option value="matches">Match Logs</option>
+              <option value="articles">Articles</option>
+              <option value="timeline">Timeline</option>
+              <option value="visualizations">Visualizations</option>
+              <option value="trophies">Trophies</option>
+              <option value="honors">Individual Honors</option>
+              <option value="records">Records</option>
+              <option value="comparisons">Comparisons</option>
+              <option value="community">Community</option>
+              <option value="about">About</option>
+            </select>
+          </label>
           <button
             type="submit"
             className="rounded-xl bg-gold px-7 py-3 text-sm font-semibold text-pitch transition hover:bg-gold-bright"
@@ -396,7 +441,7 @@ export default async function SearchPage({ searchParams }) {
               {results.length.toLocaleString("en-US")} {results.length === 1 ? "result" : "results"}
             </h2>
             <p className="font-mono text-xs text-paper-dim">
-              Showing up to 30 results
+              {selectedPage === "all" ? "Across all pages" : `Filtered to ${selectedPage}`}
             </p>
           </div>
 
