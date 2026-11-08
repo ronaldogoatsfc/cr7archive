@@ -113,7 +113,7 @@ export default async function ArticlePage({ params }) {
 
       <div className="mt-8">
         {article.content.map((block, i) => (
-          <div key={i} id={`article-section-${i}`} className="scroll-mt-28">
+          <div key={i} id={`article-section-${i}`} className="scroll-mt-28 target:rounded-lg target:bg-gold/5">
             <ArticleBlock block={block} index={i} />
           </div>
         ))}
