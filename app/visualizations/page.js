@@ -93,7 +93,7 @@ function ChartCard({ chart }) {
   return (
     <article
       id={title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}
-      className="rounded-2xl border border-line bg-pitch-raised p-5 sm:p-6"
+      className="scroll-mt-28 target:border-gold/80 rounded-2xl border border-line bg-pitch-raised p-5 sm:p-6"
     >
       <h2 className="font-display text-lg font-semibold text-paper">
         {title}
