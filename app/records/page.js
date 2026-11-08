@@ -83,7 +83,7 @@ function Select({ label, value, onChange, options }) {
 
 function RecordRow({ record }) {
   return (
-    <div className="px-5 py-4">
+    <div id={`record-${record.id}`} className="scroll-mt-28 px-5 py-4">
       <div className="flex flex-wrap items-center gap-2">
         <span className="text-paper">{record.name}</span>
         <span className="rounded-full bg-pitch px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-gold">
