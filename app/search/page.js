@@ -269,6 +269,7 @@ function buildSearchIndex() {
     },
     {
       id: "section-match-logs",
+      pageKey: "matches",
       title: "Match Logs",
       description: "Browse official and unofficial match-by-match records, detailed statistics, goal and assist events, and available footage.",
       href: "/match-logs",
@@ -318,7 +319,7 @@ function buildSearchIndex() {
     },
   ].map((section) => ({
     ...section,
-    pageKey: section.id.replace("section-", ""),
+    pageKey: section.pageKey || section.id.replace("section-", ""),
     type: "Section",
     subtitle: "Explore the archive",
     searchText: normalize([section.title, section.description, section.keywords].join(" ")),
