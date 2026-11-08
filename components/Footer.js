@@ -1,4 +1,5 @@
 const exploreLinks = [
+  { label: "Search the Archive", href: "/search" },
   { label: "Match Logs", href: "/match-logs" },
   { label: "Visualizations", href: "/visualizations" },
   { label: "Trophies & Honors", href: "/trophies" },
