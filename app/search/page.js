@@ -53,7 +53,7 @@ function buildSearchIndex() {
         match.goals ? `${match.goals} Ronaldo ${match.goals === 1 ? "goal" : "goals"}` : "",
         match.assists ? `${match.assists} assists` : "",
       ].filter(Boolean).join(" · "),
-      href: `/match-logs${isUnofficial ? "/unofficial" : ""}?search=${encodeURIComponent(query)}&dateFrom=${date}&dateTo=${date}`,
+      href: `/match-logs${isUnofficial ? "/unofficial" : ""}?search=${encodeURIComponent(query)}&dateFrom=${date}&dateTo=${date}#match-${match.id}`,
       searchText: normalize([
         match.team,
         match.opponent,
@@ -374,10 +374,13 @@ export default async function SearchPage({ searchParams }) {
 
   const results = matchingResults;
   const typeCounts = {};
-  const visibleResults = results.filter((item) => {
-    typeCounts[item.type] = (typeCounts[item.type] || 0) + 1;
-    return typeCounts[item.type] <= 8;
-  }).slice(0, 30);
+  const visibleResults = (selectedPage === "all"
+    ? results.filter((item) => {
+        typeCounts[item.type] = (typeCounts[item.type] || 0) + 1;
+        return typeCounts[item.type] <= 8;
+      })
+    : results
+  ).slice(0, 30);
 
   return (
     <main className="mx-auto max-w-5xl px-6 py-14 sm:py-16">
