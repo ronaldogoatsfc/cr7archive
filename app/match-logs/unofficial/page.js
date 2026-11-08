@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, Fragment } from "react";
+import { useMemo, useState, useEffect, Fragment } from "react";
 import { ChevronRight, ChevronDown, Film, Video } from "lucide-react";
 import matches from "@/data/unofficial-matches.json";
 import {
@@ -159,6 +159,22 @@ function MatchDetail({ match }) {
 
 export default function UnofficialMatchesPage() {
   const [filters, setFilters] = useState(DEFAULT_FILTERS);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const search = params.get("search");
+    const dateFrom = params.get("dateFrom");
+    const dateTo = params.get("dateTo");
+
+    if (!search && !dateFrom && !dateTo) return;
+
+    setFilters((current) => ({
+      ...current,
+      ...(search ? { search } : {}),
+      ...(dateFrom ? { dateFrom } : {}),
+      ...(dateTo ? { dateTo } : {}),
+    }));
+  }, []);
   const [expandedId, setExpandedId] = useState(null);
 
   const seasons = useMemo(() => getSeasonsSorted(matches), []);
