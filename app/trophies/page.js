@@ -62,6 +62,7 @@ function TrophyGroup({ club, items }) {
     years: [...new Set(group.map((trophy) => trophy.year))].sort((a, b) => a - b),
     seasons: [...new Set(group.map((trophy) => trophy.season))].sort(),
     articleSlug: group.find((trophy) => trophy.articleSlug)?.articleSlug,
+    ids: group.map((trophy) => trophy.id),
     count: group.length,
   }));
 
@@ -79,8 +80,10 @@ function TrophyGroup({ club, items }) {
         {groupedTrophies.map((t) => (
           <article
             key={t.id}
-            className="flex min-h-44 flex-col rounded-2xl border border-line bg-pitch-raised p-5 transition hover:border-gold/50"
+            id={`trophy-${t.id}`}
+            className="scroll-mt-28 flex min-h-44 flex-col rounded-2xl border border-line bg-pitch-raised p-5 transition hover:border-gold/50"
           >
+            {t.ids.slice(1).map((id) => <span key={id} id={`trophy-${id}`} className="scroll-mt-28" />)}
             <div className="flex items-start justify-between gap-3">
               <span className="font-display text-lg font-semibold leading-snug text-paper">
                 {t.name}
