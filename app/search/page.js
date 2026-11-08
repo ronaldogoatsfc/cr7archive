@@ -84,7 +84,7 @@ function buildSearchIndex() {
     ].join(" ")),
   })).concat(articles.flatMap((article) =>
     (article.content || []).map((block, index) => {
-      const text = [block.text, block.caption, block.alt].filter(Boolean).join(" ");
+      const text = [block.text, block.caption, block.alt, ...(block.items || []).map((item) => `${item.label} ${item.value}`)].filter(Boolean).join(" ");
       if (!text.trim()) return null;
       return {
         id: `article-${article.slug}-section-${index}`,
