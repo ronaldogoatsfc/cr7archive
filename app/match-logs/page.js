@@ -1036,50 +1036,46 @@ export default function MatchLogsPage() {
                       </span>
                     </div>
 
-                    <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-3 sm:gap-5">
-                      <div className="min-w-0">
+                    <div className="grid gap-4 md:grid-cols-2 md:gap-5">
+                      <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-3 sm:gap-5">
                         <p className="truncate font-display text-base font-semibold text-paper sm:text-lg">{m.team}</p>
-                        <p className="mt-0.5 text-xs text-paper-dim">Ronaldo's team</p>
+                        <div className="text-center">
+                          <p className={`data-mono text-2xl font-bold tracking-tight sm:text-3xl ${getScoreColor(m.result)}`}>
+                            {m.scoreFor}–{m.scoreAgainst}
+                          </p>
+                          <p className="mt-0.5 font-mono text-[9px] uppercase tracking-widest text-paper-dim">
+                            {m.result === "W" ? "Win" : m.result === "D" ? "Draw" : m.result === "L" ? "Loss" : "Result"}
+                          </p>
+                        </div>
+                        <p className="truncate text-right font-display text-base font-semibold text-paper sm:text-lg">{m.opponent}</p>
                       </div>
-                      <div className="text-center">
-                        <p className={`data-mono text-2xl font-bold tracking-tight sm:text-3xl ${getScoreColor(m.result)}`}>
-                          {m.scoreFor}–{m.scoreAgainst}
-                        </p>
-                        <p className="mt-0.5 font-mono text-[9px] uppercase tracking-widest text-paper-dim">
-                          {m.result === "W" ? "Win" : m.result === "D" ? "Draw" : m.result === "L" ? "Loss" : "Result"}
-                        </p>
-                      </div>
-                      <div className="min-w-0 text-right">
-                        <p className="truncate font-display text-base font-semibold text-paper sm:text-lg">{m.opponent}</p>
-                        <p className="mt-0.5 text-xs text-paper-dim">Opponent</p>
-                      </div>
-                    </div>
 
-                    <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-line/70 pt-3">
-                      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-xs">
-                        <span className="text-paper-dim">{m.minutesPlayed}&apos;</span>
-                        <span className="text-gold"><span className="font-semibold">{m.goals}</span> G</span>
-                        <span className="text-turf-bright"><span className="font-semibold">{m.assists}</span> A{m.assistEvents?.some((event) => event.optaAssist === false) && <sup className="ml-0.5 text-[9px] text-gold">*</sup>}</span>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        {(hasRating || m.stats?.motm) && (
-                          <span
-                            className={`relative inline-flex h-8 min-w-8 items-center justify-center rounded-sm px-1.5 font-mono text-xs font-bold ${hasRating ? getRatingColor(Number(rating)) : "border border-gold bg-gold text-pitch"}`}
-                            title={`${hasRating ? `Match rating: ${Number(rating).toFixed(1)}` : "No match rating recorded"}${m.stats?.motm ? " · Man of the Match (★)" : ""}`}
-                            aria-label={`${hasRating ? `Match rating ${Number(rating).toFixed(1)}` : ""}${m.stats?.motm ? " Man of the Match" : ""}`}
-                          >
-                            {hasRating ? Number(rating).toFixed(1) : "M"}
-                            {hasRating && m.stats?.motm && (
-                              <span className="absolute -right-1.5 -top-1.5 flex h-4 w-4 items-center justify-center rounded-full border border-pitch bg-gold text-[10px] font-black leading-none text-pitch" aria-hidden="true">
-                                ★
-                              </span>
-                            )}
+                      <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-3 border-t border-line/70 pt-3 md:justify-between md:border-l md:border-t-0 md:pl-5 md:pt-0">
+                        <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 font-mono text-xs">
+                          <span className="text-paper-dim">{m.minutesPlayed}&apos;</span>
+                          <span className="text-gold"><span className="font-semibold">{m.goals}</span> G</span>
+                          <span className="text-turf-bright"><span className="font-semibold">{m.assists}</span> A{m.assistEvents?.some((event) => event.optaAssist === false) && <sup className="ml-0.5 text-[9px] text-gold">*</sup>}</span>
+                        </div>
+                        <div className="flex items-center gap-3">
+                          {(hasRating || m.stats?.motm) && (
+                            <span
+                              className={`relative inline-flex h-8 min-w-8 items-center justify-center rounded-sm px-1.5 font-mono text-xs font-bold ${hasRating ? getRatingColor(Number(rating)) : "border border-gold bg-gold text-pitch"}`}
+                              title={`${hasRating ? `Match rating: ${Number(rating).toFixed(1)}` : "No match rating recorded"}${m.stats?.motm ? " · Man of the Match (★)" : ""}`}
+                              aria-label={`${hasRating ? `Match rating ${Number(rating).toFixed(1)}` : ""}${m.stats?.motm ? " Man of the Match" : ""}`}
+                            >
+                              {hasRating ? Number(rating).toFixed(1) : "M"}
+                              {hasRating && m.stats?.motm && (
+                                <span className="absolute -right-1.5 -top-1.5 flex h-4 w-4 items-center justify-center rounded-full border border-pitch bg-gold text-[10px] font-black leading-none text-pitch" aria-hidden="true">
+                                  ★
+                                </span>
+                              )}
+                            </span>
+                          )}
+                          <span className="flex items-center gap-1 text-[10px] font-mono uppercase tracking-wider text-paper-dim">
+                            {isOpen ? "Hide details" : "Details"}
+                            {isOpen ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
                           </span>
-                        )}
-                        <span className="flex items-center gap-1 text-[10px] font-mono uppercase tracking-wider text-paper-dim">
-                          {isOpen ? "Hide details" : "Details"}
-                          {isOpen ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
-                        </span>
+                        </div>
                       </div>
                     </div>
                   </div>
