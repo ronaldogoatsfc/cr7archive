@@ -133,7 +133,7 @@ function ArticleBlock({ block }) {
           <tbody>
             {block.rows.map((row, index) => (
               <tr key={row[0]} className={index < 2 ? "border-t border-line bg-gold/5 text-paper" : "border-t border-line/70 text-paper-dim"}>
-                {row.map((cell, cellIndex) => <td key={cellIndex} className={\`px-3 py-2.5 text-right tabular-nums \${cellIndex === 1 ? "text-left font-medium" : ""} \${index === 0 && cellIndex === 1 ? "font-semibold text-gold" : ""}\`}>{cell}</td>)}
+                {row.map((cell, cellIndex) => <td key={cellIndex} className={`px-3 py-2.5 text-right tabular-nums ${cellIndex === 1 ? "text-left font-medium" : ""} ${index === 0 && cellIndex === 1 ? "font-semibold text-gold" : ""}`}>{cell}</td>)}
               </tr>
             ))}
           </tbody>
