@@ -1033,7 +1033,8 @@ export default function MatchLogsPage() {
             return (
               <article
                 key={m.id}
-                className={`overflow-hidden rounded-xl border transition-colors ${isOpen ? "border-gold/50 bg-pitch-raised" : "border-line bg-pitch-raised/60 hover:border-line-bright"}`}
+                id={`match-${m.id}`}
+                className={`scroll-mt-28 overflow-hidden rounded-xl border transition-colors ${isOpen ? "border-gold/50 bg-pitch-raised" : "border-line bg-pitch-raised/60 hover:border-line-bright"}`}
               >
                 <button
                   type="button"
