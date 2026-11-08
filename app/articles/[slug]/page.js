@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import articles from "@/data/articles";
+import allMatches from "@/data/all-matches";
 import { getArticleBySlug, estimateReadingTime } from "@/lib/articles";
 
 export function generateStaticParams() {
@@ -14,8 +15,111 @@ export async function generateMetadata({ params }) {
   return { title: `${article.title} — The Ronaldo Archive` };
 }
 
+const MATCH_STAT_GROUPS = [
+  {
+    title: "Shooting",
+    fields: [["shots", "Shots"], ["shotsOnTarget", "On target"], ["xG", "xG"], ["freeKickAttempts", "FK attempts"]]
+  },
+  {
+    title: "Creation",
+    fields: [["keyPasses", "Key passes"], ["bigChancesCreated", "Big chances created"], ["xA", "xA"], ["accurateThroughballs", "Throughballs"]]
+  },
+  {
+    title: "Other",
+    fields: [["successfulDribbles", "Dribbles"], ["aerialDuelsWon", "Aerial duels won"]]
+  }
+];
+
+function ArticleMatchLog({ date }) {
+  const match = allMatches.find(
+    (item) => item.date === date && item.team === "Real Madrid" && item.competition === "La Liga"
+  );
+
+  if (!match) {
+    return <p className="my-4 text-sm text-paper-dim">Match data is not available for this entry.</p>;
+  }
+
+  const hasRating = match.stats?.rating !== undefined && match.stats?.rating !== null;
+  const opponentScore = match.scoreAgainst;
+  const events = [
+    ...(match.goalEvents || []).map((event) => ({ ...event, eventType: "Goal" })),
+    ...(match.assistEvents || []).map((event) => ({ ...event, eventType: "Assist" }))
+  ].sort((a, b) => Number(a.minute) - Number(b.minute));
+
+  return (
+    <details className="my-4 overflow-hidden rounded-xl border border-line bg-pitch-raised/70 open:border-gold/50">
+      <summary className="cursor-pointer list-none px-4 py-4 marker:hidden [&::-webkit-details-marker]:hidden">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="min-w-0">
+            <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">{match.date} · {match.venue}</p>
+            <div className="mt-2 grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-3">
+              <span className="truncate font-display text-sm font-semibold text-paper">Real Madrid</span>
+              <span className="data-mono text-xl font-bold text-paper">{match.scoreFor}–{opponentScore}</span>
+              <span className="truncate text-right font-display text-sm font-semibold text-paper">{match.opponent}</span>
+            </div>
+          </div>
+          <div className="flex items-center gap-3 font-mono text-xs">
+            <span className="text-paper-dim">{match.minutesPlayed}&apos;</span>
+            <span className="text-gold">{match.goals} G</span>
+            <span className="text-turf-bright">{match.assists} A</span>
+            {hasRating && <span className="rounded-sm bg-pitch px-2 py-1 font-bold text-paper">{Number(match.stats.rating).toFixed(1)}{match.stats.motm ? " ★" : ""}</span>}
+            <span className="text-gold">+</span>
+          </div>
+        </div>
+      </summary>
+      <div className="border-t border-line/70 px-4 py-5">
+        <div className="grid gap-5 sm:grid-cols-3">
+          {MATCH_STAT_GROUPS.map((group) => {
+            const fields = group.fields.filter(([key]) => match.stats?.[key] !== undefined && match.stats?.[key] !== null);
+            if (!fields.length && !(group.title === "Other" && match.stats?.motm)) return null;
+            return (
+              <section key={group.title} className="min-w-0">
+                <h3 className="mb-2 border-b border-gold/60 pb-2 font-mono text-[10px] uppercase tracking-widest text-gold">{group.title}</h3>
+                <dl className="space-y-2">
+                  {fields.map(([key, label]) => (
+                    <div key={key} className="flex items-start justify-between gap-2">
+                      <dt className="text-xs text-paper-dim">{label}</dt>
+                      <dd className="data-mono text-sm font-medium text-paper">{typeof match.stats[key] === "number" && ["xG", "xA"].includes(key) ? match.stats[key].toFixed(2) : match.stats[key]}</dd>
+                    </div>
+                  ))}
+                </dl>
+                {group.title === "Other" && match.stats?.motm && <p className="mt-3 border-t border-line pt-2 font-mono text-[10px] uppercase tracking-wider text-gold">★ Man of the Match</p>}
+              </section>
+            );
+          })}
+        </div>
+        {(match.goals > 0 || match.assists > 0) && (
+          <div className="mt-5 border-t border-line/70 pt-4">
+            <h3 className="mb-2 font-mono text-[10px] uppercase tracking-widest text-gold">Goal involvements</h3>
+            {events.length > 0 ? (
+              <ul className="space-y-2">
+                {events.map((event) => (
+                  <li key={event.id} className="flex flex-wrap gap-x-3 text-xs">
+                    <span className="data-mono w-8 text-paper-dim">{event.minute}&apos;</span>
+                    <span className={event.eventType === "Goal" ? "font-semibold text-gold" : "font-semibold text-turf-bright"}>{event.eventType}</span>
+                    <span className="text-paper">{event.eventType === "Goal" ? [event.goalType, event.bodyPart].filter(Boolean).join(" · ") : `For ${event.assistedPlayer}`}</span>
+                    {event.assistedBy && <span className="text-paper-dim">Assist: {event.assistedBy}</span>}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className="text-xs text-paper-dim">Event-by-event details have not been added; the recorded totals above remain the source for goals and assists.</p>
+            )}
+          </div>
+        )}
+        {(match.hasMatchComp && match.matchCompUrl) || (match.hasFullMatch && match.fullMatchUrl) ? (
+          <div className="mt-4 flex flex-wrap gap-4 border-t border-line/70 pt-4 font-mono text-[10px] uppercase tracking-wider">
+            {match.hasMatchComp && match.matchCompUrl && <a className="text-gold hover:underline" href={match.matchCompUrl} target="_blank" rel="noreferrer">Match compilation ↗</a>}
+            {match.hasFullMatch && match.fullMatchUrl && <a className="text-gold hover:underline" href={match.fullMatchUrl} target="_blank" rel="noreferrer">Full match ↗</a>}
+          </div>
+        ) : null}
+      </div>
+    </details>
+  );
+}
+
 function ArticleBlock({ block }) {
-  if (block.type === "heading") {
+  if (block.type === "matchLog") {\n    return <ArticleMatchLog date={block.date} />;\n  }\n\n  if (block.type === "table") {\n    return (\n      <div className="my-8 overflow-x-auto rounded-xl border border-line">\n        <table className="w-full min-w-[620px] border-collapse text-sm">\n          <thead className="bg-pitch-raised font-mono text-[10px] uppercase tracking-wider text-paper-dim">\n            <tr>{block.headers.map((header) => <th key={header} className="px-3 py-3 text-right first:text-left">{header}</th>)}</tr>\n          </thead>\n          <tbody>\n            {block.rows.map((row, index) => (\n              <tr key={row[0]} className={index < 2 ? "border-t border-line bg-gold/5 text-paper" : "border-t border-line/70 text-paper-dim"}>\n                {row.map((cell, cellIndex) => <td key={cellIndex} className={\`px-3 py-2.5 text-right tabular-nums \${cellIndex === 1 ? "text-left font-medium" : ""} \${index === 0 && cellIndex === 1 ? "font-semibold text-gold" : ""}\`}>{cell}</td>)}\n              </tr>\n            ))}\n          </tbody>\n        </table>\n      </div>\n    );\n  }\n\n  if (block.type === "heading") {
     return (
       <h2 className="mt-8 font-display text-2xl font-semibold text-paper">
         {block.text}
