@@ -300,6 +300,10 @@ function InfoButton({ title, children }) {
 function EventSection({ title, count, events, type }) {
   const [open, setOpen] = useState(false);
   const hasEvents = Array.isArray(events) && events.length > 0;
+  const nonOptaCount =
+    type === "assist"
+      ? (events || []).filter((event) => event.optaAssist === false).length
+      : 0;
   const fields =
     type === "goal"
       ? [
@@ -331,6 +335,11 @@ function EventSection({ title, count, events, type }) {
           {open ? <ChevronDown size={16} /> : <ChevronRight size={16} />}
           {title}
           <span className="font-mono text-xs text-paper-dim">({count})</span>
+          {nonOptaCount > 0 && (
+            <span className="font-mono text-[10px] font-medium text-gold">
+              {nonOptaCount} non-Opta assist{nonOptaCount === 1 ? "" : "s"}
+            </span>
+          )}
         </span>
         <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
           {open ? "Hide" : "View"}
