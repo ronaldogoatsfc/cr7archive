@@ -6,6 +6,7 @@ import ronaldoUclAnalysis from "./ronaldo-ucl-analysis";
 import ronaldoAssists from "./ronaldo-assists";
 import ronaldoNationsLeague from "./ronaldo-2019-nations-league";
 import ronaldoArabClubChampionsCup from "./ronaldo-2023-arab-club-champions-cup";
+import ronaldoLaLiga2011 from "./ronaldo-2011-12-la-liga";
 
 const articles = [
   we_need_your_help,
@@ -15,7 +16,8 @@ const articles = [
   ronaldoUclAnalysis,
   ronaldoAssists,
   ronaldoNationsLeague,
-  ronaldoArabClubChampionsCup
+  ronaldoArabClubChampionsCup,
+  ronaldoLaLiga2011
 ];
 
 export default articles;
