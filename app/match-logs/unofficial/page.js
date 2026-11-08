@@ -347,8 +347,9 @@ export default function UnofficialMatchesPage() {
               return (
                 <Fragment key={m.id}>
                   <tr
+                    id={`match-${m.id}`}
                     onClick={() => toggleRow(m.id)}
-                    className="cursor-pointer border-b border-line/60 transition hover:bg-pitch-raised"
+                    className="scroll-mt-28 cursor-pointer border-b border-line/60 transition hover:bg-pitch-raised"
                   >
                     <td className="px-2 py-3 text-paper-dim">
                       {isOpen ? (
