@@ -170,11 +170,19 @@ export default async function SearchPage({ searchParams }) {
           const bTitle = normalize(b.title);
           const aScore = aTitle.startsWith(normalizedQuery) ? 2 : aTitle.includes(normalizedQuery) ? 1 : 0;
           const bScore = bTitle.startsWith(normalizedQuery) ? 2 : bTitle.includes(normalizedQuery) ? 1 : 0;
-          return bScore - aScore || a.title.localeCompare(b.title);
+          if (bScore !== aScore) return bScore - aScore;
+          if (a.type === "Match" && b.type === "Match") {
+            return b.subtitle.localeCompare(a.subtitle);
+          }
+          return a.title.localeCompare(b.title);
         })
     : [];
 
-  const visibleResults = results.slice(0, 30);
+  const typeCounts = {};
+  const visibleResults = results.filter((item) => {
+    typeCounts[item.type] = (typeCounts[item.type] || 0) + 1;
+    return typeCounts[item.type] <= 8;
+  }).slice(0, 30);
 
   return (
     <main className="mx-auto max-w-5xl px-6 py-14 sm:py-16">
