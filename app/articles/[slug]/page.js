@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import articles from "@/data/articles";
-import allMatches from "@/data/all-matches";
+import seasonMatches from "@/data/matches/2011-12.json";
 import { getArticleBySlug, estimateReadingTime } from "@/lib/articles";
 
 export function generateStaticParams() {
@@ -31,7 +31,7 @@ const MATCH_STAT_GROUPS = [
 ];
 
 function ArticleMatchLog({ date }) {
-  const match = allMatches.find(
+  const match = seasonMatches.find(
     (item) => item.date === date && item.team === "Real Madrid" && item.competition === "La Liga"
   );
 
