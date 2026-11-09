@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import articles from "@/data/articles";
 import seasonMatches from "@/data/matches/2011-12.json";
+import unitedCupMatches from "@/data/matches/2003-04.json";
 import { getArticleBySlug, estimateReadingTime } from "@/lib/articles";
 
 export function generateStaticParams() {
@@ -30,9 +31,12 @@ const MATCH_STAT_GROUPS = [
   }
 ];
 
-function ArticleMatchLog({ date }) {
-  const match = seasonMatches.find(
-    (item) => item.date === date && item.team === "Real Madrid" && item.competition === "La Liga"
+function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }) {
+  const matchSource = team === "Manchester United" && competition === "FA Cup"
+    ? unitedCupMatches
+    : seasonMatches;
+  const match = matchSource.find(
+    (item) => item.date === date && item.team === team && item.competition === competition
   );
 
   if (!match) {
@@ -53,7 +57,7 @@ function ArticleMatchLog({ date }) {
           <div className="min-w-0">
             <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">{match.date} · {match.venue}</p>
             <div className="mt-2 grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-3">
-              <span className="truncate font-display text-sm font-semibold text-paper">Real Madrid</span>
+              <span className="truncate font-display text-sm font-semibold text-paper">{match.team}</span>
               <span className="data-mono text-xl font-bold text-paper">{match.scoreFor}–{opponentScore}</span>
               <span className="truncate text-right font-display text-sm font-semibold text-paper">{match.opponent}</span>
             </div>
@@ -120,7 +124,7 @@ function ArticleMatchLog({ date }) {
 
 function ArticleBlock({ block }) {
   if (block.type === "matchLog") {
-    return <ArticleMatchLog date={block.date} />;
+    return <ArticleMatchLog date={block.date} team={block.team} competition={block.competition} />;
   }
 
   if (block.type === "table") {
