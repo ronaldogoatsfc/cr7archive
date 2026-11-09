@@ -35,7 +35,9 @@ const MATCH_STAT_GROUPS = [
 function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }) {
   const matchSource = team === "Manchester United" && competition === "FA Cup"
     ? unitedCupMatches
-    : seasonMatches;
+    : team === "Manchester United" && competition === "UEFA Champions League"
+      ? unitedUclMatches
+      : seasonMatches;
   const match = matchSource.find(
     (item) => item.date === date && item.team === team && item.competition === competition
   );
