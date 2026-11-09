@@ -20,8 +20,9 @@ const ronaldo2004FACup = {
     { type: "heading", text: "The Road to the Final" },
     {
       type: "paragraph",
-      text: "United began their FA Cup campaign in the third round with a difficult away fixture against Aston Villa on January 4, 2004. Ronaldo did not feature in the match, which saw Villa take the lead through Gareth Barry. United eventually turned the game around with two second-half goals from Paul Scholes, winning 2–1 and advancing to the next round. Aston Villa 1–2 Manchester United."
+      text: "United began their FA Cup campaign in the third round with a difficult away fixture against Aston Villa on January 4, 2004. Ronaldo did not feature in the match, which saw Villa take the lead through Gareth Barry. United eventually turned the game around with two second-half goals from Paul Scholes, winning 2–1 and advancing to the next round."
     },
+    { type: "scoreline", home: "Aston Villa", homeScore: 1, awayScore: 2, away: "Manchester United" },
 
     { type: "heading", text: "Fourth Round: Northampton Town 0–3 Manchester United" },
     {
@@ -111,8 +112,9 @@ const ronaldo2004FACup = {
     },
     {
       type: "paragraph",
-      text: "United defended their advantage for the remainder of the game, eliminating Arsenal and ending their hopes of winning a third consecutive FA Cup. Ronaldo played 84 minutes as United secured their place in the final. Arsenal 0–1 Manchester United."
+      text: "United defended their advantage for the remainder of the game, eliminating Arsenal and ending their hopes of winning a third consecutive FA Cup. Ronaldo played 84 minutes as United secured their place in the final."
     },
+    { type: "scoreline", home: "Arsenal", homeScore: 0, awayScore: 1, away: "Manchester United" },
 
     { type: "heading", text: "Final: Manchester United 3–0 Millwall" },
     {
