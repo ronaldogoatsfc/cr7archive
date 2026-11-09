@@ -76,7 +76,7 @@ function TrophyGroup({ club, items }) {
           {items.length} {items.length === 1 ? "trophy" : "trophies"}
         </span>
       </div>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-4">
         {groupedTrophies.map((t) => (
           <article
             key={t.id}
@@ -88,22 +88,25 @@ function TrophyGroup({ club, items }) {
               <span className="font-display text-lg font-semibold leading-snug text-paper">
                 {t.name}
               </span>
-              {t.articleSlug ? (
-                <Link
-                  href={`/articles/${t.articleSlug}`}
-                  className="shrink-0 text-xs font-semibold text-gold transition hover:text-gold-bright"
-                >
-                  See more →
-                </Link>
-              ) : t.count > 1 ? (
+              {!t.articleSlug && t.count > 1 ? (
                 <span className="shrink-0 rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-gold">
                   {t.count} titles
                 </span>
               ) : null}
             </div>
-            <p className="stat-number mt-3 text-xl leading-relaxed text-gold">
-              {t.years.join(" · ")}
-            </p>
+            <div className="mt-3 flex flex-wrap items-center gap-3">
+              <p className="stat-number text-xl leading-relaxed text-gold">
+                {t.years.join(" · ")}
+              </p>
+              {t.articleSlug && (
+                <Link
+                  href={`/articles/${t.articleSlug}`}
+                  className="text-xs font-semibold text-gold transition hover:text-gold-bright"
+                >
+                  See more →
+                </Link>
+              )}
+            </div>
             <p className="mt-1 text-xs text-paper-dim">{t.seasons.join(" · ")}</p>
             <div className="mt-4 flex flex-wrap items-center gap-2">
               {t.isFriendly && (
