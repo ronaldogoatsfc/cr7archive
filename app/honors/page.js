@@ -72,6 +72,9 @@ function HonorGroup({ category, items }) {
       ids: entries.map((honor) => honor.id),
       count: entries.length,
     };
+  }).sort((a, b) => {
+    if (b.count !== a.count) return b.count - a.count;
+    return Math.max(...b.years) - Math.max(...a.years);
   });
 
   return (
