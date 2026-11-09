@@ -52,8 +52,6 @@ function Select({ label, value, onChange, options }) {
 }
 
 function TrophyGroup({ club, items }) {
-  const [expanded, setExpanded] = useState({});
-
   const groupedTrophies = [...items.reduce((groups, trophy) => {
     const key = [trophy.name, trophy.competitionType, trophy.domestic, trophy.isFriendly].join("|");
     if (!groups.has(key)) groups.set(key, []);
@@ -76,9 +74,7 @@ function TrophyGroup({ club, items }) {
         </span>
       </div>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {groupedTrophies.map((t) => {
-          const isExpanded = Boolean(expanded[t.id]);
-          return (
+        {groupedTrophies.map((t) => (
             <article
               key={t.id}
               id={`trophy-${t.id}`}
@@ -87,43 +83,33 @@ function TrophyGroup({ club, items }) {
               {t.wins.slice(1).map((win) => (
                 <span key={win.id} id={`trophy-${win.id}`} className="scroll-mt-28" />
               ))}
-              <div className="flex items-center justify-between gap-3">
+              <div className="flex items-start justify-between gap-3">
                 <span className="font-display text-lg font-semibold leading-snug text-paper">
                   {t.name}
                 </span>
-                {t.wins.some((win) => win.articleSlug) && (
-                  <button
-                    type="button"
-                    onClick={() => setExpanded((prev) => ({ ...prev, [t.id]: !prev[t.id] }))}
-                    aria-expanded={isExpanded}
-                    className="shrink-0 text-xs font-semibold text-gold transition hover:text-gold-bright"
-                  >
-                    {isExpanded ? "See less ↑" : "See more ↓"}
-                  </button>
-                )}
               </div>
-              {isExpanded && (
-                <div className="mt-4 border-t border-line pt-3">
-                  <div className="flex flex-col gap-3">
-                    {t.wins.map((win) => (
-                      <div key={win.id} className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+              <div className="mt-4 border-t border-line pt-3">
+                <div className="flex flex-col gap-3">
+                  {t.wins.map((win) => (
+                    <div key={win.id} className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
+                      <div className="flex flex-wrap items-baseline gap-x-2">
                         <span className="stat-number text-xl leading-relaxed text-gold">
                           {win.year}
                         </span>
                         <span className="text-xs text-paper-dim">{win.season}</span>
-                        {win.articleSlug && (
-                          <Link
-                            href={`/articles/${win.articleSlug}`}
-                            className="text-xs font-semibold text-gold transition hover:text-gold-bright"
-                          >
-                            Read article →
-                          </Link>
-                        )}
                       </div>
-                    ))}
-                  </div>
+                      {win.articleSlug && (
+                        <Link
+                          href={`/articles/${win.articleSlug}`}
+                          className="text-xs font-semibold text-gold transition hover:text-gold-bright"
+                        >
+                          Read article →
+                        </Link>
+                      )}
+                    </div>
+                  ))}
                 </div>
-              )}
+              </div>
               <div className="mt-4 flex flex-wrap items-center gap-2">
                 {t.isFriendly && (
                   <span className="rounded-full border border-goal-red px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-goal-red">
@@ -140,8 +126,7 @@ function TrophyGroup({ club, items }) {
                 )}
               </div>
             </article>
-          );
-        })}
+          ))}
       </div>
     </section>
   );
