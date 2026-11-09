@@ -47,7 +47,7 @@ function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }
   const opponentScore = match.scoreAgainst;
   const events = [
     ...(match.goalEvents || []).map((event) => ({ ...event, eventType: "Goal" })),
-    ...(match.assistEvents || []).map((event) => ({ ...event, eventType: "Assist" }))
+    ...(match.assistEvents || []).filter((event) => event.optaAssist !== false).map((event) => ({ ...event, eventType: "Assist" }))
   ].sort((a, b) => Number(a.minute) - Number(b.minute));
 
   return (
