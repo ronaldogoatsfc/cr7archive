@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import articles from "@/data/articles";
 import seasonMatches from "@/data/matches/2011-12.json";
 import unitedCupMatches from "@/data/matches/2003-04.json";
+import unitedUclMatches from "@/data/matches/2007-08.json";
 import { getArticleBySlug, estimateReadingTime } from "@/lib/articles";
 
 export function generateStaticParams() {
@@ -122,6 +123,87 @@ function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }
   );
 }
 
+function ArticleCompetitionStats({ team, competition }) {
+  const matches = unitedUclMatches.filter(
+    (match) => match.team === team && match.competition === competition
+  );
+
+  if (!matches.length) {
+    return <p className="my-4 text-sm text-paper-dim">Competition statistics are not available for this entry.</p>;
+  }
+
+  const sum = (key) => matches.reduce(
+    (total, match) => total + (typeof match.stats?.[key] === "number" ? match.stats[key] : 0),
+    0
+  );
+  const averageRating = matches.reduce(
+    (total, match) => total + (typeof match.stats?.rating === "number" ? match.stats.rating : 0),
+    0
+  ) / matches.filter((match) => typeof match.stats?.rating === "number").length;
+
+  const groups = [
+    {
+      title: "Overall",
+      fields: [
+        ["Appearances", matches.length],
+        ["Minutes played", matches.reduce((total, match) => total + match.minutesPlayed, 0)],
+        ["Goals", matches.reduce((total, match) => total + match.goals, 0)],
+        ["Assists", matches.reduce((total, match) => total + match.assists, 0)]
+      ]
+    },
+    {
+      title: "Shooting",
+      fields: [["Shots", sum("shots")], ["On target", sum("shotsOnTarget")], ["Free-kick attempts", sum("freeKickAttempts")]]
+    },
+    {
+      title: "Creation",
+      fields: [["Key passes", sum("keyPasses")]]
+    },
+    {
+      title: "Other",
+      fields: [["Successful dribbles", sum("successfulDribbles")], ["Aerial duels won", sum("aerialDuelsWon")], ["Average rating", averageRating.toFixed(1)]]
+    }
+  ];
+
+  return (
+    <details className="my-4 overflow-hidden rounded-xl border border-line bg-pitch-raised/70 open:border-gold/50">
+      <summary className="cursor-pointer list-none px-4 py-4 marker:hidden [&::-webkit-details-marker]:hidden">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">2007/08 UEFA Champions League</p>
+            <p className="mt-1 font-display text-base font-semibold text-paper">Cristiano Ronaldo · Competition totals</p>
+          </div>
+          <div className="flex flex-wrap items-center gap-3 font-mono text-xs">
+            <span className="text-gold">{matches.reduce((total, match) => total + match.goals, 0)} G</span>
+            <span className="text-turf-bright">{matches.reduce((total, match) => total + match.assists, 0)} A</span>
+            <span className="text-gold">+</span>
+          </div>
+        </div>
+      </summary>
+      <div className="border-t border-line/70 px-4 py-5">
+        <div className="grid gap-5 sm:grid-cols-2">
+          {groups.map((group) => (
+            <section key={group.title} className="min-w-0">
+              <h3 className="mb-2 border-b border-gold/60 pb-2 font-mono text-[10px] uppercase tracking-widest text-gold">{group.title}</h3>
+              <dl className="space-y-2">
+                {group.fields.map(([label, value]) => (
+                  <div key={label} className="flex items-start justify-between gap-2">
+                    <dt className="text-xs text-paper-dim">{label}</dt>
+                    <dd className="data-mono text-sm font-medium text-paper">{value}</dd>
+                  </div>
+                ))}
+              </dl>
+            </section>
+          ))}
+        </div>
+        <p className="mt-4 border-t border-line/70 pt-3 text-[11px] leading-relaxed text-paper-dim">
+          Totals are calculated from the 11 recorded Champions League appearances. Metrics not consistently recorded in the match data are omitted.
+        </p>
+      </div>
+    </details>
+  );
+}
+
 function ArticleBlock({ block }) {
   if (block.type === "scoreline") {
     return (
@@ -135,6 +217,10 @@ function ArticleBlock({ block }) {
 
   if (block.type === "matchLog") {
     return <ArticleMatchLog date={block.date} team={block.team} competition={block.competition} />;
+  }
+
+  if (block.type === "competitionStats") {
+    return <ArticleCompetitionStats team={block.team} competition={block.competition} />;
   }
 
   if (block.type === "table") {
