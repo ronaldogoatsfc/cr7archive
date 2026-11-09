@@ -75,7 +75,7 @@ function TrophyGroup({ club, items }) {
           {items.length} {items.length === 1 ? "trophy" : "trophies"}
         </span>
       </div>
-      <div className="grid grid-cols-1 gap-4">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {groupedTrophies.map((t) => {
           const isExpanded = Boolean(expanded[t.id]);
           return (
@@ -91,14 +91,16 @@ function TrophyGroup({ club, items }) {
                 <span className="font-display text-lg font-semibold leading-snug text-paper">
                   {t.name}
                 </span>
-                <button
-                  type="button"
-                  onClick={() => setExpanded((prev) => ({ ...prev, [t.id]: !prev[t.id] }))}
-                  aria-expanded={isExpanded}
-                  className="shrink-0 text-xs font-semibold text-gold transition hover:text-gold-bright"
-                >
-                  {isExpanded ? "See less ↑" : "See more ↓"}
-                </button>
+                {t.wins.some((win) => win.articleSlug) && (
+                  <button
+                    type="button"
+                    onClick={() => setExpanded((prev) => ({ ...prev, [t.id]: !prev[t.id] }))}
+                    aria-expanded={isExpanded}
+                    className="shrink-0 text-xs font-semibold text-gold transition hover:text-gold-bright"
+                  >
+                    {isExpanded ? "See less ↑" : "See more ↓"}
+                  </button>
+                )}
               </div>
               {isExpanded && (
                 <div className="mt-4 border-t border-line pt-3">
