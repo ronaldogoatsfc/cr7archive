@@ -168,20 +168,17 @@ function ArticleCompetitionStats({ team, competition }) {
   ];
 
   return (
-    <details className="my-4 overflow-hidden rounded-xl border border-line bg-pitch-raised/70 open:border-gold/50">
-      <summary className="cursor-pointer list-none px-4 py-4 marker:hidden [&::-webkit-details-marker]:hidden">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div>
-            <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">2007/08 UEFA Champions League</p>
-            <p className="mt-1 font-display text-base font-semibold text-paper">Cristiano Ronaldo · Competition totals</p>
-          </div>
-          <div className="flex flex-wrap items-center gap-3 font-mono text-xs">
-            <span className="text-gold">{matches.reduce((total, match) => total + match.goals, 0)} G</span>
-            <span className="text-turf-bright">{matches.reduce((total, match) => total + match.assists, 0)} A</span>
-            <span className="text-gold">+</span>
-          </div>
+    <section className="my-4 overflow-hidden rounded-xl border border-line bg-pitch-raised/70">
+      <div className="flex flex-wrap items-center justify-between gap-3 px-4 py-4">
+        <div>
+          <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">2007/08 UEFA Champions League</p>
+          <p className="mt-1 font-display text-base font-semibold text-paper">Cristiano Ronaldo · Competition totals</p>
         </div>
-      </summary>
+        <div className="flex flex-wrap items-center gap-3 font-mono text-xs">
+          <span className="text-gold">{matches.reduce((total, match) => total + match.goals, 0)} G</span>
+          <span className="text-turf-bright">{matches.reduce((total, match) => total + match.assists, 0)} A</span>
+        </div>
+      </div>
       <div className="border-t border-line/70 px-4 py-5">
         <div className="grid gap-5 sm:grid-cols-2">
           {groups.map((group) => (
@@ -202,7 +199,7 @@ function ArticleCompetitionStats({ team, competition }) {
           Totals are calculated from the 11 recorded Champions League appearances. Metrics not consistently recorded in the match data are omitted.
         </p>
       </div>
-    </details>
+    </section>
   );
 }
 
