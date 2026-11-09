@@ -123,6 +123,16 @@ function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }
 }
 
 function ArticleBlock({ block }) {
+  if (block.type === "scoreline") {
+    return (
+      <div className="my-5 flex items-center justify-between gap-3 rounded-xl border border-line bg-pitch-raised/70 px-4 py-3">
+        <span className="min-w-0 flex-1 truncate font-display text-sm font-semibold text-paper">{block.home}</span>
+        <span className="data-mono shrink-0 text-xl font-bold text-gold">{block.homeScore}–{block.awayScore}</span>
+        <span className="min-w-0 flex-1 truncate text-right font-display text-sm font-semibold text-paper">{block.away}</span>
+      </div>
+    );
+  }
+
   if (block.type === "matchLog") {
     return <ArticleMatchLog date={block.date} team={block.team} competition={block.competition} />;
   }
