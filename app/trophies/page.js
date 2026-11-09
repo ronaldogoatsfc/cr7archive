@@ -88,6 +88,21 @@ function TrophyGroup({ club, items }) {
                   {t.name}
                 </span>
               </div>
+              <div className="flex flex-wrap items-center gap-2">
+                {t.isFriendly && (
+                  <span className="rounded-full border border-goal-red px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-goal-red">
+                    Friendly — not counted
+                  </span>
+                )}
+                <span className="rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
+                  {t.domestic ? "Domestic" : "International"}
+                </span>
+                {t.count > 1 && (
+                  <span className="rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
+                    {t.count} wins
+                  </span>
+                )}
+              </div>
               <div className="mt-4 border-t border-line pt-3">
                 <div className="flex flex-col gap-3">
                   {t.wins.map((win) => (
@@ -109,21 +124,6 @@ function TrophyGroup({ club, items }) {
                     </div>
                   ))}
                 </div>
-              </div>
-              <div className="mt-4 flex flex-wrap items-center gap-2">
-                {t.isFriendly && (
-                  <span className="rounded-full border border-goal-red px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-goal-red">
-                    Friendly — not counted
-                  </span>
-                )}
-                <span className="rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
-                  {t.domestic ? "Domestic" : "International"}
-                </span>
-                {t.count > 1 && (
-                  <span className="rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
-                    {t.count} wins
-                  </span>
-                )}
               </div>
             </article>
           ))}
