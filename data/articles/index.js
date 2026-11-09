@@ -9,6 +9,7 @@ import ronaldoArabClubChampionsCup from "./ronaldo-2023-arab-club-champions-cup"
 import ronaldoLaLiga2011 from "./ronaldo-2011-12-la-liga";
 import ronaldo2004FACup from "./ronaldo-2004-fa-cup";
 import ronaldo2008UCL from "./ronaldo-2008-champions-league";
+import ronaldoEuro2016 from "./ronaldo-euro-2016";
 
 const articles = [
   we_need_your_help,
@@ -21,7 +22,8 @@ const articles = [
   ronaldoArabClubChampionsCup,
   ronaldoLaLiga2011,
   ronaldo2004FACup,
-  ronaldo2008UCL
+  ronaldo2008UCL,
+  ronaldoEuro2016
 ];
 
 export default articles;
