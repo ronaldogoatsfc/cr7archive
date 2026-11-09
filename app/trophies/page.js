@@ -52,17 +52,16 @@ function Select({ label, value, onChange, options }) {
 }
 
 function TrophyGroup({ club, items }) {
+  const [expanded, setExpanded] = useState({});
+
   const groupedTrophies = [...items.reduce((groups, trophy) => {
-    const key = [trophy.name, trophy.competitionType, trophy.domestic, trophy.isFriendly, trophy.name === "UEFA Nations League" ? trophy.season : ""].join("|");
+    const key = [trophy.name, trophy.competitionType, trophy.domestic, trophy.isFriendly].join("|");
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(trophy);
     return groups;
   }, new Map()).values()].map((group) => ({
     ...group[0],
-    years: [...new Set(group.map((trophy) => trophy.year))].sort((a, b) => a - b),
-    seasons: [...new Set(group.map((trophy) => trophy.season))].sort(),
-    articleSlug: group.find((trophy) => trophy.articleSlug)?.articleSlug,
-    ids: group.map((trophy) => trophy.id),
+    wins: [...group].sort((a, b) => a.year - b.year),
     count: group.length,
   }));
 
@@ -77,49 +76,70 @@ function TrophyGroup({ club, items }) {
         </span>
       </div>
       <div className="grid grid-cols-1 gap-4">
-        {groupedTrophies.map((t) => (
-          <article
-            key={t.id}
-            id={`trophy-${t.id}`}
-            className="scroll-mt-28 target:border-gold/80 flex min-h-44 flex-col rounded-2xl border border-line bg-pitch-raised p-5 transition hover:border-gold/50"
-          >
-            {t.ids.slice(1).map((id) => <span key={id} id={`trophy-${id}`} className="scroll-mt-28" />)}
-            <div className="flex items-start justify-between gap-3">
-              <span className="font-display text-lg font-semibold leading-snug text-paper">
-                {t.name}
-              </span>
-              {!t.articleSlug && t.count > 1 ? (
-                <span className="shrink-0 rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-gold">
-                  {t.count} titles
+        {groupedTrophies.map((t) => {
+          const isExpanded = Boolean(expanded[t.id]);
+          return (
+            <article
+              key={t.id}
+              id={`trophy-${t.id}`}
+              className="scroll-mt-28 target:border-gold/80 flex flex-col rounded-2xl border border-line bg-pitch-raised p-5 transition hover:border-gold/50"
+            >
+              {t.wins.slice(1).map((win) => (
+                <span key={win.id} id={`trophy-${win.id}`} className="scroll-mt-28" />
+              ))}
+              <div className="flex items-center justify-between gap-3">
+                <span className="font-display text-lg font-semibold leading-snug text-paper">
+                  {t.name}
                 </span>
-              ) : null}
-            </div>
-            <div className="mt-3 flex flex-wrap items-center gap-3">
-              <p className="stat-number text-xl leading-relaxed text-gold">
-                {t.years.join(" · ")}
-              </p>
-              {t.articleSlug && (
-                <Link
-                  href={`/articles/${t.articleSlug}`}
-                  className="text-xs font-semibold text-gold transition hover:text-gold-bright"
+                <button
+                  type="button"
+                  onClick={() => setExpanded((prev) => ({ ...prev, [t.id]: !prev[t.id] }))}
+                  aria-expanded={isExpanded}
+                  className="shrink-0 text-xs font-semibold text-gold transition hover:text-gold-bright"
                 >
-                  See more →
-                </Link>
+                  {isExpanded ? "See less ↑" : "See more ↓"}
+                </button>
+              </div>
+              {isExpanded && (
+                <div className="mt-4 border-t border-line pt-3">
+                  <div className="flex flex-col gap-3">
+                    {t.wins.map((win) => (
+                      <div key={win.id} className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                        <span className="stat-number text-xl leading-relaxed text-gold">
+                          {win.year}
+                        </span>
+                        <span className="text-xs text-paper-dim">{win.season}</span>
+                        {win.articleSlug && (
+                          <Link
+                            href={`/articles/${win.articleSlug}`}
+                            className="text-xs font-semibold text-gold transition hover:text-gold-bright"
+                          >
+                            Read article →
+                          </Link>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
               )}
-            </div>
-            <p className="mt-1 text-xs text-paper-dim">{t.seasons.join(" · ")}</p>
-            <div className="mt-4 flex flex-wrap items-center gap-2">
-              {t.isFriendly && (
-                <span className="rounded-full border border-goal-red px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-goal-red">
-                  Friendly — not counted
+              <div className="mt-4 flex flex-wrap items-center gap-2">
+                {t.isFriendly && (
+                  <span className="rounded-full border border-goal-red px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-goal-red">
+                    Friendly — not counted
+                  </span>
+                )}
+                <span className="rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
+                  {t.domestic ? "Domestic" : "International"}
                 </span>
-              )}
-              <span className="rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
-                {t.domestic ? "Domestic" : "International"}
-              </span>
-            </div>
-          </article>
-        ))}
+                {t.count > 1 && (
+                  <span className="rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
+                    {t.count} wins
+                  </span>
+                )}
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
   );
