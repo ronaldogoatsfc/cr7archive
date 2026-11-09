@@ -4,6 +4,7 @@ import articles from "@/data/articles";
 import seasonMatches from "@/data/matches/2011-12.json";
 import unitedCupMatches from "@/data/matches/2003-04.json";
 import unitedUclMatches from "@/data/matches/2007-08.json";
+import portugalEuroMatches from "@/data/matches/2015-16.json";
 import { getArticleBySlug, estimateReadingTime } from "@/lib/articles";
 
 export function generateStaticParams() {
@@ -37,7 +38,9 @@ function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }
     ? unitedCupMatches
     : team === "Manchester United" && competition === "UEFA Champions League"
       ? unitedUclMatches
-      : seasonMatches;
+      : team === "Portugal" && competition === "UEFA European Championship"
+        ? portugalEuroMatches
+        : seasonMatches;
   const match = matchSource.find(
     (item) => item.date === date && item.team === team && item.competition === competition
   );
@@ -126,7 +129,10 @@ function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }
 }
 
 function ArticleCompetitionStats({ team, competition }) {
-  const matches = unitedUclMatches.filter(
+  const matchSource = team === "Portugal" && competition === "UEFA European Championship"
+    ? portugalEuroMatches
+    : unitedUclMatches;
+  const matches = matchSource.filter(
     (match) => match.team === team && match.competition === competition
   );
 
@@ -150,7 +156,8 @@ function ArticleCompetitionStats({ team, competition }) {
         ["Appearances", matches.length],
         ["Minutes played", matches.reduce((total, match) => total + match.minutesPlayed, 0)],
         ["Goals", matches.reduce((total, match) => total + match.goals, 0)],
-        ["Assists", matches.reduce((total, match) => total + match.assists, 0)]
+        ["Assists", matches.reduce((total, match) => total + match.assists, 0)],
+        ["Man of the Match awards", matches.filter((match) => match.stats?.motm).length]
       ]
     },
     {
@@ -159,7 +166,7 @@ function ArticleCompetitionStats({ team, competition }) {
     },
     {
       title: "Creation",
-      fields: [["Key passes", sum("keyPasses")]]
+      fields: [["Key passes", sum("keyPasses")], ["Big chances created", sum("bigChancesCreated")], ["Accurate throughballs", sum("accurateThroughballs")]]
     },
     {
       title: "Other",
@@ -171,7 +178,7 @@ function ArticleCompetitionStats({ team, competition }) {
     <section className="my-4 overflow-hidden rounded-xl border border-line bg-pitch-raised/70">
       <div className="flex flex-wrap items-center justify-between gap-3 px-4 py-4">
         <div>
-          <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">2007/08 UEFA Champions League</p>
+          <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">{team === "Portugal" ? "2015/16 UEFA European Championship" : "2007/08 UEFA Champions League"}</p>
           <p className="mt-1 font-display text-base font-semibold text-paper">Cristiano Ronaldo · Competition totals</p>
         </div>
         <div className="flex flex-wrap items-center gap-3 font-mono text-xs">
@@ -196,7 +203,7 @@ function ArticleCompetitionStats({ team, competition }) {
           ))}
         </div>
         <p className="mt-4 border-t border-line/70 pt-3 text-[11px] leading-relaxed text-paper-dim">
-          Totals are calculated from the 11 recorded Champions League appearances. Metrics not consistently recorded in the match data are omitted.
+          Totals are calculated from {matches.length} recorded appearances. Metrics unavailable in the match data are omitted.
         </p>
       </div>
     </section>
