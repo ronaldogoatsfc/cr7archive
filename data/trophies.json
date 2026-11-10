@@ -260,7 +260,8 @@
     "season": "2006/07",
     "year": 2007,
     "domestic": true,
-    "isFriendly": false
+    "isFriendly": false,
+    "articleSlug": "ronaldo-2006-07-premier-league"
   },
   {
     "id": "2007-08-english-league",
