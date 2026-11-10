@@ -196,9 +196,7 @@ function HonorDetailsModal({ honor, onClose }) {
                 >
                   Read article <span aria-hidden="true">→</span>
                 </Link>
-              ) : (
-                <span className="shrink-0 text-xs text-paper-dim">No article yet</span>
-              )}
+              ) : null}
             </div>
           ))}
         </div>
