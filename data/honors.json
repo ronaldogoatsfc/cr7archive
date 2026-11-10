@@ -167,7 +167,8 @@
     "season": "2007/08",
     "year": 2008,
     "domestic": false,
-    "notes": ""
+    "notes": "",
+    "articleSlug": "ronaldo-2008-champions-league"
   },
   {
     "id": "2013-uefa-cl-top-scorer",
@@ -297,7 +298,8 @@
     "season": "2018/19",
     "year": 2019,
     "domestic": false,
-    "notes": ""
+    "notes": "",
+    "articleSlug": "ronaldo-2019-nations-league"
   },
   {
     "id": "2025-uefa-nl-top-scorer",
@@ -1092,7 +1094,8 @@
     "season": "2006/07",
     "year": 2006,
     "domestic": true,
-    "notes": "November 2006"
+    "notes": "November 2006",
+    "articleSlug": "ronaldo-2006-07-premier-league"
   },
   {
     "id": "2006-dec-pl-potm",
@@ -1102,7 +1105,8 @@
     "season": "2006/07",
     "year": 2006,
     "domestic": true,
-    "notes": "December 2006"
+    "notes": "December 2006",
+    "articleSlug": "ronaldo-2006-07-premier-league"
   },
   {
     "id": "2008-jan-pl-potm",
@@ -1162,7 +1166,8 @@
     "season": "2006/07",
     "year": 2007,
     "domestic": true,
-    "notes": ""
+    "notes": "",
+    "articleSlug": "ronaldo-2006-07-premier-league"
   },
   {
     "id": "2007-08-smbpoty",
@@ -1172,7 +1177,8 @@
     "season": "2007/08",
     "year": 2008,
     "domestic": true,
-    "notes": ""
+    "notes": "",
+    "articleSlug": "ronaldo-2008-champions-league"
   },
   {
     "id": "2021-22-smbpoty",
@@ -1192,7 +1198,8 @@
     "season": "2006/07",
     "year": 2007,
     "domestic": true,
-    "notes": ""
+    "notes": "",
+    "articleSlug": "ronaldo-2006-07-premier-league"
   },
   {
     "id": "2007-08-mu-ppoty",
@@ -1202,7 +1209,8 @@
     "season": "2007/08",
     "year": 2008,
     "domestic": true,
-    "notes": ""
+    "notes": "",
+    "articleSlug": "ronaldo-2008-champions-league"
   },
   {
     "id": "2021-sep-mu-potm",
@@ -1292,7 +1300,8 @@
     "season": "2011/12",
     "year": 2012,
     "domestic": true,
-    "notes": ""
+    "notes": "",
+    "articleSlug": "ronaldo-2011-12-la-liga"
   },
   {
     "id": "2012-13-trofeo-alfredo-di-stefano",
