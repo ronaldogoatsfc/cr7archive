@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import honors from "@/data/honors.json";
 import {
@@ -49,7 +49,7 @@ function Select({ label, value, onChange, options }) {
   );
 }
 
-function HonorGroup({ category, items }) {
+function HonorGroup({ category, items, onSelect }) {
   const groupedHonors = [...items.reduce((groups, honor) => {
     if (!groups.has(honor.name)) groups.set(honor.name, []);
     groups.get(honor.name).push(honor);
@@ -68,7 +68,6 @@ function HonorGroup({ category, items }) {
       clubs: [...new Set(entries.map((honor) => honor.club))],
       seasons: [...new Set(entries.map((honor) => honor.season))],
       notes: [...new Set(entries.map((honor) => honor.notes).filter(Boolean))],
-      articleSlug: entries.find((honor) => honor.articleSlug)?.articleSlug,
       ids: entries.map((honor) => honor.id),
       count: entries.length,
     };
@@ -92,7 +91,17 @@ function HonorGroup({ category, items }) {
           <article
             key={honor.name}
             id={`honor-${honor.ids[0]}`}
-            className="scroll-mt-28 target:border-gold/80 flex min-h-48 flex-col rounded-2xl border border-line bg-pitch-raised p-5 transition hover:border-gold/50"
+            role="button"
+            tabIndex={0}
+            aria-label={`View ${honor.name} wins`}
+            onClick={() => onSelect(honor)}
+            onKeyDown={(event) => {
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                onSelect(honor);
+              }
+            }}
+            className="scroll-mt-28 target:border-gold/80 flex min-h-48 cursor-pointer flex-col rounded-2xl border border-line bg-pitch-raised p-5 text-left transition hover:border-gold/70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
           >
             {honor.ids.slice(1).map((id) => <span key={id} id={`honor-${id}`} className="scroll-mt-28" />)}
             <div className="flex items-start justify-between gap-3">
@@ -117,16 +126,9 @@ function HonorGroup({ category, items }) {
               <p className="text-xs text-paper-dim">{honor.clubs.join(" · ")}</p>
               <p className="mt-1 text-xs text-paper-dim/80">{honor.seasons.join(" · ")}</p>
             </div>
-            {honor.articleSlug && (
-              <div className="mt-auto border-t border-line pt-4">
-                <Link
-                  href={`/articles/${honor.articleSlug}`}
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-gold transition hover:text-gold-bright"
-                >
-                  Read article <span aria-hidden="true">→</span>
-                </Link>
-              </div>
-            )}
+            <span className="mt-auto border-t border-line pt-4 text-sm font-semibold text-gold">
+              View wins <span aria-hidden="true">→</span>
+            </span>
           </article>
         ))}
       </div>
@@ -134,8 +136,101 @@ function HonorGroup({ category, items }) {
   );
 }
 
+function HonorDetailsModal({ honor, onClose }) {
+  if (!honor) return null;
+
+  const wins = honors
+    .filter((entry) => entry.name === honor.name)
+    .sort((a, b) => {
+      const aKey = a.date || `${a.year}-01-01`;
+      const bKey = b.date || `${b.year}-01-01`;
+      return aKey.localeCompare(bKey);
+    });
+
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 px-4 py-8 backdrop-blur-sm"
+      onClick={onClose}
+    >
+      <section
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="honor-modal-title"
+        className="max-h-[85vh] w-full max-w-lg overflow-y-auto rounded-2xl border border-line bg-pitch-raised p-6 shadow-2xl"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <p className="font-mono text-[10px] uppercase tracking-widest text-gold">
+              Individual honor
+            </p>
+            <h2 id="honor-modal-title" className="mt-2 font-display text-2xl font-semibold text-paper">
+              {honor.name}
+            </h2>
+            <p className="mt-1 text-sm text-paper-dim">
+              {wins.length} {wins.length === 1 ? "recorded win" : "recorded wins"}
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label="Close honor details"
+            className="rounded-lg border border-line px-3 py-2 text-sm text-paper-dim transition hover:border-gold hover:text-paper"
+          >
+            ✕
+          </button>
+        </div>
+
+        <div className="mt-6 divide-y divide-line border-y border-line">
+          {wins.map((win) => (
+            <div key={win.id} className="flex flex-col gap-3 py-4 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <p className="font-display text-xl font-semibold text-gold">{win.year}</p>
+                <p className="mt-1 text-sm text-paper">{win.season}</p>
+                <p className="mt-1 text-xs text-paper-dim">{win.club}</p>
+                {win.notes && <p className="mt-2 text-xs leading-relaxed text-paper-dim">{win.notes}</p>}
+              </div>
+              {win.articleSlug ? (
+                <Link
+                  href={`/articles/${win.articleSlug}`}
+                  onClick={onClose}
+                  className="shrink-0 text-sm font-semibold text-gold transition hover:text-gold-bright"
+                >
+                  Read article <span aria-hidden="true">→</span>
+                </Link>
+              ) : (
+                <span className="shrink-0 text-xs text-paper-dim">No article yet</span>
+              )}
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-5 flex justify-end">
+          <button
+            type="button"
+            onClick={onClose}
+            className="rounded-lg border border-line px-4 py-2 text-sm text-paper-dim transition hover:border-gold hover:text-paper"
+          >
+            Close
+          </button>
+        </div>
+      </section>
+    </div>
+  );
+}
+
 export default function HonorsPage() {
   const [filters, setFilters] = useState(DEFAULT_FILTERS);
+  const [selectedHonor, setSelectedHonor] = useState(null);
+
+  useEffect(() => {
+    if (!selectedHonor) return undefined;
+    function handleKeyDown(event) {
+      if (event.key === "Escape") setSelectedHonor(null);
+    }
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [selectedHonor]);
 
   const years = useMemo(() => getYearsSorted(honors), []);
   const seasons = useMemo(() => getSeasonsSorted(honors), []);
@@ -198,12 +293,13 @@ export default function HonorsPage() {
       </div>
 
       {grouped.length > 0 ? (
-        grouped.map(([category, items]) => <HonorGroup key={category} category={category} items={items} />)
+        grouped.map(([category, items]) => <HonorGroup key={category} category={category} items={items} onSelect={setSelectedHonor} />)
       ) : (
         <div className="mt-6 rounded-2xl border border-line bg-pitch-raised px-5 py-10 text-center text-paper-dim">
           No honors fit these filters. Try resetting them.
         </div>
       )}
+      <HonorDetailsModal honor={selectedHonor} onClose={() => setSelectedHonor(null)} />
     </div>
   );
 }
