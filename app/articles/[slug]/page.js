@@ -5,6 +5,7 @@ import seasonMatches from "@/data/matches/2011-12.json";
 import unitedCupMatches from "@/data/matches/2003-04.json";
 import unitedUclMatches from "@/data/matches/2007-08.json";
 import portugalEuroMatches from "@/data/matches/2015-16.json";
+import unitedPremierLeagueMatches from "@/data/matches/2006-07.json";
 import { getArticleBySlug, estimateReadingTime } from "@/lib/articles";
 
 export function generateStaticParams() {
@@ -53,7 +54,7 @@ function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }
   const opponentScore = match.scoreAgainst;
   const events = [
     ...(match.goalEvents || []).map((event) => ({ ...event, eventType: "Goal" })),
-    ...(match.assistEvents || []).filter((event) => event.optaAssist !== false).map((event) => ({ ...event, eventType: "Assist" }))
+    ...(match.assistEvents || []).map((event) => ({ ...event, eventType: event.optaAssist === false ? "Non-Opta contribution" : "Assist" }))
   ].sort((a, b) => Number(a.minute) - Number(b.minute));
 
   return (
@@ -98,7 +99,7 @@ function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }
             );
           })}
         </div>
-        {(match.goals > 0 || match.assists > 0) && (
+        {(match.goals > 0 || match.assists > 0 || (match.assistEvents || []).length > 0) && (
           <div className="mt-5 border-t border-line/70 pt-4">
             <h3 className="mb-2 font-mono text-[10px] uppercase tracking-widest text-gold">Goal involvements</h3>
             {events.length > 0 ? (
@@ -107,7 +108,7 @@ function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }
                   <li key={event.id} className="flex flex-wrap gap-x-3 text-xs">
                     <span className="data-mono w-8 text-paper-dim">{event.minute}&apos;</span>
                     <span className={event.eventType === "Goal" ? "font-semibold text-gold" : "font-semibold text-turf-bright"}>{event.eventType}</span>
-                    <span className="text-paper">{event.eventType === "Goal" ? [event.goalType, event.bodyPart].filter(Boolean).join(" · ") : `For ${event.assistedPlayer}`}</span>
+                    <span className="text-paper">{event.eventType === "Goal" ? [event.goalType, event.bodyPart].filter(Boolean).join(" · ") : `For ${event.assistedPlayer}`}{event.assistClarification ? ` · ${event.assistClarification}` : ""}</span>
                     {event.assistedBy && <span className="text-paper-dim">Assist: {event.assistedBy}</span>}
                   </li>
                 ))}
@@ -129,9 +130,12 @@ function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }
 }
 
 function ArticleCompetitionStats({ team, competition }) {
-  const matchSource = team === "Portugal" && competition === "UEFA European Championship"
-    ? portugalEuroMatches
-    : unitedUclMatches;
+  const isPremierLeagueSeason = team === "Manchester United" && competition === "Premier League";
+  const matchSource = isPremierLeagueSeason
+    ? unitedPremierLeagueMatches
+    : team === "Portugal" && competition === "UEFA European Championship"
+      ? portugalEuroMatches
+      : unitedUclMatches;
   const matches = matchSource.filter(
     (match) => match.team === team && match.competition === competition
   );
@@ -144,46 +148,73 @@ function ArticleCompetitionStats({ team, competition }) {
     (total, match) => total + (typeof match.stats?.[key] === "number" ? match.stats[key] : 0),
     0
   );
-  const averageRating = matches.reduce(
-    (total, match) => total + (typeof match.stats?.rating === "number" ? match.stats.rating : 0),
+  const ratedMatches = matches.filter((match) => typeof match.stats?.rating === "number");
+  const averageRating = ratedMatches.length
+    ? ratedMatches.reduce((total, match) => total + match.stats.rating, 0) / ratedMatches.length
+    : null;
+  const optaAssists = matches.reduce(
+    (total, match) => total + (match.assistEvents || []).filter((event) => event.optaAssist !== false).length,
     0
-  ) / matches.filter((match) => typeof match.stats?.rating === "number").length;
+  );
+  const nonOptaContributions = matches.reduce(
+    (total, match) => total + (match.assistEvents || []).filter((event) => event.optaAssist === false).length,
+    0
+  );
+  const totalArchiveContributions = optaAssists + nonOptaContributions;
 
-  const groups = [
-    {
-      title: "Overall",
-      fields: [
-        ["Appearances", matches.length],
-        ["Minutes played", matches.reduce((total, match) => total + match.minutesPlayed, 0)],
-        ["Goals", matches.reduce((total, match) => total + match.goals, 0)],
-        ["Assists", matches.reduce((total, match) => total + match.assists, 0)],
-        ["Man of the Match awards", matches.filter((match) => match.stats?.motm).length]
+  const groups = isPremierLeagueSeason
+    ? [
+        {
+          title: "Overall",
+          fields: [
+            ["Appearances", matches.length],
+            ["Minutes played", matches.reduce((total, match) => total + match.minutesPlayed, 0)],
+            ["Goals", matches.reduce((total, match) => total + match.goals, 0)],
+            ["Opta assists", optaAssists],
+            ["Non-Opta contributions", nonOptaContributions],
+            ["Total archive goal contributions", totalArchiveContributions]
+          ]
+        }
       ]
-    },
-    {
-      title: "Shooting",
-      fields: [["Shots", sum("shots")], ["On target", sum("shotsOnTarget")], ["Free-kick attempts", sum("freeKickAttempts")]]
-    },
-    {
-      title: "Creation",
-      fields: [["Key passes", sum("keyPasses")], ["Big chances created", sum("bigChancesCreated")], ["Accurate throughballs", sum("accurateThroughballs")]]
-    },
-    {
-      title: "Other",
-      fields: [["Successful dribbles", sum("successfulDribbles")], ["Aerial duels won", sum("aerialDuelsWon")], ["Average rating", averageRating.toFixed(1)]]
-    }
-  ];
+    : [
+        {
+          title: "Overall",
+          fields: [
+            ["Appearances", matches.length],
+            ["Minutes played", matches.reduce((total, match) => total + match.minutesPlayed, 0)],
+            ["Goals", matches.reduce((total, match) => total + match.goals, 0)],
+            ["Assists", matches.reduce((total, match) => total + match.assists, 0)],
+            ["Man of the Match awards", matches.filter((match) => match.stats?.motm).length]
+          ]
+        },
+        {
+          title: "Shooting",
+          fields: [["Shots", sum("shots")], ["On target", sum("shotsOnTarget")], ["Free-kick attempts", sum("freeKickAttempts")]]
+        },
+        {
+          title: "Creation",
+          fields: [["Key passes", sum("keyPasses")], ["Big chances created", sum("bigChancesCreated")], ["Accurate throughballs", sum("accurateThroughballs")]]
+        },
+        {
+          title: "Other",
+          fields: [
+            ["Successful dribbles", sum("successfulDribbles")],
+            ["Aerial duels won", sum("aerialDuelsWon")],
+            ...(averageRating !== null ? [["Average rating", averageRating.toFixed(1)]] : [])
+          ]
+        }
+      ];
 
   return (
     <section className="my-4 overflow-hidden rounded-xl border border-line bg-pitch-raised/70">
       <div className="flex flex-wrap items-center justify-between gap-3 px-4 py-4">
         <div>
-          <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">{team === "Portugal" ? "2015/16 UEFA European Championship" : "2007/08 UEFA Champions League"}</p>
+          <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">{isPremierLeagueSeason ? "2006/07 Premier League" : team === "Portugal" ? "2015/16 UEFA European Championship" : "2007/08 UEFA Champions League"}</p>
           <p className="mt-1 font-display text-base font-semibold text-paper">Cristiano Ronaldo · Competition totals</p>
         </div>
         <div className="flex flex-wrap items-center gap-3 font-mono text-xs">
           <span className="text-gold">{matches.reduce((total, match) => total + match.goals, 0)} G</span>
-          <span className="text-turf-bright">{matches.reduce((total, match) => total + match.assists, 0)} A</span>
+          <span className="text-turf-bright">{isPremierLeagueSeason ? `${totalArchiveContributions} contributions` : `${matches.reduce((total, match) => total + match.assists, 0)} A`}</span>
         </div>
       </div>
       <div className="border-t border-line/70 px-4 py-5">
