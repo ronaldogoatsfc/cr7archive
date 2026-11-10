@@ -39,9 +39,11 @@ function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }
     ? unitedCupMatches
     : team === "Manchester United" && competition === "UEFA Champions League"
       ? unitedUclMatches
-      : team === "Portugal" && competition === "UEFA European Championship"
-        ? portugalEuroMatches
-        : seasonMatches;
+      : team === "Manchester United" && competition === "Premier League"
+        ? unitedPremierLeagueMatches
+        : team === "Portugal" && competition === "UEFA European Championship"
+          ? portugalEuroMatches
+          : seasonMatches;
   const match = matchSource.find(
     (item) => item.date === date && item.team === team && item.competition === competition
   );
