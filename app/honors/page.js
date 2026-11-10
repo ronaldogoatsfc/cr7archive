@@ -139,13 +139,11 @@ function HonorGroup({ category, items, onSelect }) {
 function HonorDetailsModal({ honor, onClose }) {
   if (!honor) return null;
 
-  const wins = honors
-    .filter((entry) => entry.name === honor.name)
-    .sort((a, b) => {
-      const aKey = a.date || `${a.year}-01-01`;
-      const bKey = b.date || `${b.year}-01-01`;
-      return aKey.localeCompare(bKey);
-    });
+  const wins = [...honor.entries].sort((a, b) => {
+    const aKey = a.date || `${a.year}-01-01`;
+    const bKey = b.date || `${b.year}-01-01`;
+    return aKey.localeCompare(bKey);
+  });
 
   return (
     <div
