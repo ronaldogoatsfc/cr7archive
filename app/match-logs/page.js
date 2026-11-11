@@ -419,6 +419,176 @@ function EventSection({ title, count, events, type }) {
   );
 }
 
+
+function cleanPlayerName(value) {
+  return value.replace(/^\\*+|\\*+$/g, "").trim();
+}
+
+function parseStartingXI(value) {
+  if (!value) return [];
+  return value.split("|").map((group) =>
+    group.split(",").map((player) => player.trim()).filter(Boolean).map((player) => ({
+      name: cleanPlayerName(player),
+      exitOrder: (player.match(/\\*+$/) || [""])[0].length,
+    }))
+  );
+}
+
+function parseUsedSubstitutes(value) {
+  if (!value) return [];
+  return value.split(",").map((player) => player.trim()).filter(Boolean).map((player) => {
+    const entryOrder = (player.match(/^\\*+/) || [""])[0].length;
+    const exitOrder = (player.match(/\\*+$/) || [""])[0].length;
+    return { name: cleanPlayerName(player), entryOrder, exitOrder };
+  });
+}
+
+function MatchDetails({ match }) {
+  const homeGroups = parseStartingXI(match.ronaldo_starting_xi);
+  const awayGroups = parseStartingXI(match.opponent_starting_xi);
+  const homeSubs = parseUsedSubstitutes(match.ronaldo_team_subs);
+  const awaySubs = parseUsedSubstitutes(match.opponent_team_subs);
+  const hasDetails =
+    homeGroups.length > 0 ||
+    awayGroups.length > 0 ||
+    homeSubs.length > 0 ||
+    awaySubs.length > 0 ||
+    match.ronaldo_team_formation ||
+    match.opponent_formation;
+
+  if (!hasDetails) return null;
+
+  const renderPlayers = (groups, side) => {
+    const isHome = side === "home";
+    const totalGroups = Math.max(groups.length - 1, 1);
+
+    return groups.flatMap((group, groupIndex) =>
+      group.map((player, playerIndex) => {
+        const x = isHome
+          ? 7 + (groupIndex / totalGroups) * 58
+          : 93 - (groupIndex / totalGroups) * 58;
+        const y = group.length === 1
+          ? 50
+          : 13 + (playerIndex / (group.length - 1)) * 74;
+
+        return (
+          <div
+            key={`${side}-${groupIndex}-${player.name}`}
+            className="absolute z-10 flex w-[104px] -translate-x-1/2 -translate-y-1/2 flex-col items-center text-center"
+            style={{ left: `${x}%`, top: `${y}%` }}
+            title={player.name}
+          >
+            <span className={`relative flex h-6 w-6 items-center justify-center rounded-full border-2 border-pitch text-[10px] font-bold shadow-md sm:h-7 sm:w-7 ${isHome ? "bg-gold text-pitch" : "bg-paper text-pitch"}`}>
+              {player.exitOrder > 0 ? (
+                <span className="absolute -right-2 -top-2 rounded-full bg-goal-red px-1 text-[8px] leading-3 text-white">
+                  ↓{player.exitOrder}
+                </span>
+              ) : null}
+              {playerIndex + 1}
+            </span>
+            <span className="mt-0.5 max-w-full truncate rounded bg-pitch/90 px-1 py-0.5 text-[9px] font-medium leading-tight text-white shadow sm:text-[10px]">
+              {player.name}
+            </span>
+          </div>
+        );
+      })
+    );
+  };
+
+  const renderSubs = (players) => (
+    players.length > 0 ? (
+      <ul className="mt-2 space-y-1.5">
+        {players.map((player) => (
+          <li key={player.name} className="flex items-center gap-2 text-xs text-paper-dim">
+            <span className="data-mono inline-flex min-w-7 justify-center rounded bg-pitch px-1.5 py-0.5 text-[10px] font-semibold text-gold">
+              ↑{player.entryOrder || "—"}{player.exitOrder ? ` / ↓${player.exitOrder}` : ""}
+            </span>
+            <span>{player.name}</span>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p className="mt-2 text-xs text-paper-dim/60">No used substitutes recorded.</p>
+    )
+  );
+
+  return (
+    <section className="mt-5 space-y-3">
+      <div className="flex items-center gap-2">
+        <span className="h-px flex-1 bg-line" />
+        <h3 className="font-mono text-[10px] font-semibold uppercase tracking-[0.18em] text-gold">
+          Match Details
+        </h3>
+        <span className="h-px flex-1 bg-line" />
+      </div>
+
+      <div className="grid gap-3 sm:grid-cols-2">
+        <div className="rounded-lg border border-line bg-pitch-raised p-3">
+          <div className="flex items-start justify-between gap-2">
+            <div>
+              <p className="font-display text-sm font-semibold text-paper">{match.team}</p>
+              <p className="mt-1 text-[10px] text-paper-dim">Manager: {match.manager || "Not recorded"}</p>
+            </div>
+            <span className="rounded bg-gold/10 px-2 py-1 font-mono text-[10px] text-gold">
+              {match.ronaldo_team_formation || "Formation unavailable"}
+            </span>
+          </div>
+        </div>
+        <div className="rounded-lg border border-line bg-pitch-raised p-3">
+          <div className="flex items-start justify-between gap-2">
+            <div>
+              <p className="font-display text-sm font-semibold text-paper">{match.opponent}</p>
+              <p className="mt-1 text-[10px] text-paper-dim">Manager: {match.opponentManager || "Not recorded"}</p>
+            </div>
+            <span className="rounded bg-paper/5 px-2 py-1 font-mono text-[10px] text-paper-dim">
+              {match.opponent_formation || "Formation unavailable"}
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div className="overflow-x-auto rounded-xl border border-line bg-pitch-raised p-2 sm:p-3">
+        <div
+          className="relative mx-auto aspect-[2/1] min-w-[700px] overflow-hidden rounded-lg border border-white/50"
+          aria-label={`Starting lineups: ${match.team} versus ${match.opponent}`}
+          style={{
+            backgroundColor: "#246342",
+            backgroundImage: "repeating-linear-gradient(90deg, rgba(255,255,255,.035) 0, rgba(255,255,255,.035) 10%, transparent 10%, transparent 20%)",
+          }}
+        >
+          <div className="absolute inset-[3%] border border-white/55" />
+          <div className="absolute bottom-[3%] left-1/2 top-[3%] border-l border-white/55" />
+          <div className="absolute left-1/2 top-1/2 h-[28%] aspect-square -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/55" />
+          <div className="absolute left-[3%] top-[25%] h-[50%] w-[12%] border border-white/55" />
+          <div className="absolute right-[3%] top-[25%] h-[50%] w-[12%] border border-white/55" />
+          <div className="absolute left-[3%] top-[38%] h-[24%] w-[4%] border border-white/55" />
+          <div className="absolute right-[3%] top-[38%] h-[24%] w-[4%] border border-white/55" />
+          {renderPlayers(homeGroups, "home")}
+          {renderPlayers(awayGroups, "away")}
+        </div>
+      </div>
+
+      <div className="grid gap-3 sm:grid-cols-2">
+        <div className="rounded-lg border border-line bg-pitch-raised p-3">
+          <p className="font-mono text-[10px] uppercase tracking-widest text-gold">
+            {match.team} · Used substitutes
+          </p>
+          {renderSubs(homeSubs)}
+        </div>
+        <div className="rounded-lg border border-line bg-pitch-raised p-3">
+          <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+            {match.opponent} · Used substitutes
+          </p>
+          {renderSubs(awaySubs)}
+        </div>
+      </div>
+      <p className="text-[10px] leading-4 text-paper-dim/70">
+        Player markers follow the positional groups recorded in the lineup data. Arrows indicate substitution order, not match minutes.
+      </p>
+    </section>
+  );
+}
+
 function MatchDetail({ match }) {
   const hasStats = hasRecordedDetailedStats(match) || match.stats?.motm === true;
   const hasFootage = match.hasMatchComp || match.hasFullMatch;
@@ -517,6 +687,8 @@ function MatchDetail({ match }) {
             Detailed stats not yet logged for this match.
           </p>
         )}
+
+        <MatchDetails match={match} />
 
         {hasFootage ? (
           <div className="mt-4 flex flex-wrap gap-3">
