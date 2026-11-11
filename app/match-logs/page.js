@@ -458,52 +458,137 @@ function MatchDetails({ match }) {
 
   if (!hasDetails) return null;
 
-  const renderPlayers = (groups, side) => {
+  const getPlayersOnPitch = (groups, side, formation) => {
     const isHome = side === "home";
-    const totalGroups = Math.max(groups.length - 1, 1);
+    const players = [];
+    const point = (progress, y) => ({
+      left: (isHome ? 4 + progress * 43 : 96 - progress * 43) + "%",
+      top: y + "%",
+    });
+    const addGroup = (groupIndex, positions) => {
+      (groups[groupIndex] || []).forEach((player, index) => {
+        const position = positions[index] || positions[positions.length - 1] || { progress: 0.5, y: 50 };
+        players.push({
+          ...player,
+          ...point(position.progress, position.y),
+          side,
+          groupIndex,
+        });
+      });
+    };
 
-    return groups.flatMap((group, groupIndex) =>
-      group.map((player, playerIndex) => {
-        const x = isHome
-          ? 7 + (groupIndex / totalGroups) * 58
-          : 93 - (groupIndex / totalGroups) * 58;
-        const y = group.length === 1
-          ? 50
-          : 13 + (playerIndex / (group.length - 1)) * 74;
+    // Goalkeeper
+    addGroup(0, [{ progress: 0.06, y: 50 }]);
 
-        return (
-          <div
-            key={`${side}-${groupIndex}-${player.name}`}
-            className="absolute z-10 flex w-[104px] -translate-x-1/2 -translate-y-1/2 flex-col items-center text-center"
-            style={{ left: `${x}%`, top: `${y}%` }}
-            title={player.name}
-          >
-            <span className={`relative flex h-6 w-6 items-center justify-center rounded-full border-2 border-pitch text-[10px] font-bold shadow-md sm:h-7 sm:w-7 ${isHome ? "bg-gold text-pitch" : "bg-paper text-pitch"}`}>
-              {player.exitOrder > 0 ? (
-                <span className="absolute -right-2 -top-2 rounded-full bg-goal-red px-1 text-[8px] leading-3 text-white">
-                  ↓{player.exitOrder}
-                </span>
-              ) : null}
-              •
-            </span>
-            <span className="mt-0.5 max-w-full truncate rounded bg-pitch/90 px-1 py-0.5 text-[9px] font-medium leading-tight text-white shadow sm:text-[10px]">
-              {player.name}
-            </span>
-          </div>
-        );
-      })
-    );
+    // Three defenders: LCB-CB-RCB. Four defenders: LB-LCB-RCB-RB.
+    const defenders = groups[1] || [];
+    const defensiveLine = defenders.length === 3
+      ? [25, 50, 75].map((y) => ({ progress: 0.27, y }))
+      : defenders.length === 4
+        ? [19, 39, 61, 81].map((y) => ({ progress: 0.25, y }))
+        : defenders.map((_, index) => ({
+            progress: 0.27,
+            y: defenders.length === 1 ? 50 : 15 + (index / (defenders.length - 1)) * 70,
+          }));
+    addGroup(1, defensiveLine);
+
+    // A diamond midfield is DM-LCM-RCM-CAM. A double-six midfield
+    // places the two central midfielders deeper than the outside mids.
+    const midfield = groups[2] || [];
+    const midfieldPositions = /diamond/i.test(formation || "") && midfield.length === 4
+      ? [
+          { progress: 0.43, y: 50 },
+          { progress: 0.56, y: 34 },
+          { progress: 0.56, y: 66 },
+          { progress: 0.70, y: 50 },
+        ]
+      : midfield.length === 4 && /double 6/i.test(formation || "")
+        ? [
+            { progress: 0.48, y: 37 },
+            { progress: 0.48, y: 63 },
+            { progress: 0.70, y: 25 },
+            { progress: 0.70, y: 75 },
+          ]
+        : midfield.map((_, index) => ({
+            progress: 0.56,
+            y: midfield.length === 1 ? 50 : 15 + (index / (midfield.length - 1)) * 70,
+          }));
+    addGroup(2, midfieldPositions);
+
+    // Three forwards: LW-RW-ST. Two forwards: a central pair.
+    const forwards = groups[3] || [];
+    const forwardPositions = forwards.length === 3
+      ? [
+          { progress: 0.82, y: 25 },
+          { progress: 0.82, y: 75 },
+          { progress: 0.94, y: 50 },
+        ]
+      : forwards.length === 2
+        ? [
+            { progress: 0.91, y: 39 },
+            { progress: 0.91, y: 61 },
+          ]
+        : forwards.map((_, index) => ({
+            progress: 0.92,
+            y: forwards.length === 1 ? 50 : 20 + (index / (forwards.length - 1)) * 60,
+          }));
+    addGroup(3, forwardPositions);
+
+    return players;
   };
 
-  const renderSubs = (players) => (
-    players.length > 0 ? (
-      <ul className="mt-2 space-y-1.5">
-        {players.map((player) => (
-          <li key={player.name} className="flex items-center gap-2 text-xs text-paper-dim">
-            <span className="data-mono inline-flex min-w-7 justify-center rounded bg-pitch px-1.5 py-0.5 text-[10px] font-semibold text-gold">
-              ↑{player.entryOrder || "—"}{player.exitOrder ? ` / ↓${player.exitOrder}` : ""}
+  const getSubstitutionPairs = (startingXI, substitutes) => {
+    const outgoing = parseStartingXI(startingXI)
+      .flat()
+      .filter((player) => player.exitOrder > 0);
+    return parseUsedSubstitutes(substitutes)
+      .filter((player) => player.entryOrder > 0)
+      .sort((a, b) => a.entryOrder - b.entryOrder)
+      .map((player) => ({
+        ...player,
+        replacedPlayer: outgoing.find((starter) => starter.exitOrder === player.entryOrder)?.name || null,
+      }));
+  };
+
+  const renderPlayers = (players) => (
+    players.map((player) => (
+      <div
+        key={player.side + "-" + player.groupIndex + "-" + player.name}
+        className="absolute z-10 flex w-[104px] -translate-x-1/2 -translate-y-1/2 flex-col items-center text-center"
+        style={{ left: player.left, top: player.top }}
+        title={player.name}
+      >
+        <span className={"relative flex h-6 w-6 items-center justify-center rounded-full border-2 border-pitch text-[10px] font-bold shadow-md sm:h-7 sm:w-7 " + (player.side === "home" ? "bg-gold text-pitch" : "bg-paper text-pitch")}>
+          •
+          {player.exitOrder > 0 && (
+            <span className="absolute -right-2 -top-2 rounded-full bg-goal-red px-1 text-[8px] leading-3 text-white">
+              OFF
             </span>
-            <span>{player.name}</span>
+          )}
+        </span>
+        <span className="mt-0.5 max-w-full truncate rounded bg-pitch/90 px-1 py-0.5 text-[9px] font-medium leading-tight text-white shadow sm:text-[10px]">
+          {player.name}
+        </span>
+      </div>
+    ))
+  );
+
+  const renderSubs = (pairs) => (
+    pairs.length > 0 ? (
+      <ul className="mt-2 space-y-2">
+        {pairs.map((player) => (
+          <li key={player.name} className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs">
+            <span className="rounded bg-gold/10 px-1.5 py-1 font-mono text-[9px] font-semibold uppercase text-gold">
+              IN {player.entryOrder}
+            </span>
+            <span className="font-medium text-paper">{player.name}</span>
+            <span className="text-paper-dim">for</span>
+            <span className="font-medium text-paper">
+              {player.replacedPlayer || "Outgoing player not recorded"}
+            </span>
+            {player.exitOrder > 0 && (
+              <span className="text-[10px] text-paper-dim">(later substituted off)</span>
+            )}
           </li>
         ))}
       </ul>
@@ -511,6 +596,11 @@ function MatchDetails({ match }) {
       <p className="mt-2 text-xs text-paper-dim/60">No used substitutes recorded.</p>
     )
   );
+
+  const homePlayers = getPlayersOnPitch(homeGroups, "home", match.ronaldo_team_formation);
+  const awayPlayers = getPlayersOnPitch(awayGroups, "away", match.opponent_formation);
+  const homeSubPairs = getSubstitutionPairs(match.ronaldo_starting_xi, match.ronaldo_team_subs);
+  const awaySubPairs = getSubstitutionPairs(match.opponent_starting_xi, match.opponent_team_subs);
 
   return (
     <section className="mt-5 space-y-3">
@@ -563,8 +653,8 @@ function MatchDetails({ match }) {
           <div className="absolute right-[3%] top-[25%] h-[50%] w-[12%] border border-white/55" />
           <div className="absolute left-[3%] top-[38%] h-[24%] w-[4%] border border-white/55" />
           <div className="absolute right-[3%] top-[38%] h-[24%] w-[4%] border border-white/55" />
-          {renderPlayers(homeGroups, "home")}
-          {renderPlayers(awayGroups, "away")}
+          {renderPlayers(homePlayers)}
+          {renderPlayers(awayPlayers)}
         </div>
       </div>
 
@@ -573,17 +663,17 @@ function MatchDetails({ match }) {
           <p className="font-mono text-[10px] uppercase tracking-widest text-gold">
             {match.team} · Used substitutes
           </p>
-          {renderSubs(homeSubs)}
+          {renderSubs(homeSubPairs)}
         </div>
         <div className="rounded-lg border border-line bg-pitch-raised p-3">
           <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
             {match.opponent} · Used substitutes
           </p>
-          {renderSubs(awaySubs)}
+          {renderSubs(awaySubPairs)}
         </div>
       </div>
       <p className="text-[10px] leading-4 text-paper-dim/70">
-        Player markers follow the positional groups recorded in the lineup data. Arrows indicate substitution order, not match minutes.
+        Each team occupies its own half of the pitch. Substitutions are paired by matching entry and exit order in the lineup data.
       </p>
     </section>
   );
