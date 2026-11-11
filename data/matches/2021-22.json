@@ -34,7 +34,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-czech-republic",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2022-06-05",
@@ -98,7 +99,8 @@
         "optaAssist": false,
         "assistClarification": "GK rebound"
       }
-    ]
+    ],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2022-06-02",
@@ -135,7 +137,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/spain-portugal-nations-league-a",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2022-05-07",
@@ -461,7 +464,8 @@
         "assistedPlayer": "Bruno Fernandes",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2022-03-24",
@@ -498,7 +502,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-turkey-world-cup-qualification",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2022-03-15",
@@ -1380,7 +1385,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-serbia-world-cup-qualification",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2021-11-11",
@@ -1417,7 +1423,8 @@
     "matchCompUrl": "",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2021-11-06",
@@ -1751,7 +1758,8 @@
         "assistedBy": "Ruben Neves"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2021-10-09",
@@ -1785,7 +1793,8 @@
         "assistedBy": "Diogo Dalot"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2021-10-02",
@@ -2115,7 +2124,8 @@
         "assistedBy": "Joao Mario"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2021-08-22",
