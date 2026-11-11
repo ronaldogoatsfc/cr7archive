@@ -21,6 +21,7 @@ const DEFAULT_FILTERS = {
   dateTo: "",
   competition: "All",
   team: "All",
+  manager: "All",
   result: "All",
   venue: "All",
   search: "",
@@ -600,6 +601,10 @@ export default function MatchLogsPage() {
   const teams = useMemo(() => getUniqueValues(matches, "team"), []);
   const venues = useMemo(() => getUniqueValues(matches, "venue"), []);
   const stages = useMemo(() => getStageOptions(matches), []);
+  const managers = useMemo(
+    () => [...new Set(matches.filter((match) => match.team === "Portugal" && match.manager).map((match) => match.manager))],
+    []
+  );
 
   const filtered = useMemo(
     () =>
@@ -737,6 +742,12 @@ export default function MatchLogsPage() {
                   className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
                 />
               </label>
+              <Select
+                label="Manager"
+                value={filters.manager}
+                onChange={(v) => updateFilter("manager", v)}
+                options={managers}
+              />
               <Select
                 label="Result"
                 value={filters.result}
@@ -1060,6 +1071,11 @@ export default function MatchLogsPage() {
                       <span className="font-mono text-[10px] uppercase tracking-wider text-paper-dim">
                         {m.venue}
                       </span>
+                      {m.manager && (
+                        <span className="rounded-full border border-gold/30 bg-gold/5 px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-gold">
+                          {m.manager}
+                        </span>
+                      )}
                     </div>
 
                     <div className="grid gap-4 md:grid-cols-2 md:gap-5">
