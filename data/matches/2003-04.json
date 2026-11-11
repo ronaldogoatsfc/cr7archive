@@ -34,7 +34,8 @@
     "matchCompUrl": "https://vimeo.com/129802397",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-greece",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2004-06-30",
@@ -90,7 +91,8 @@
         "assistedPlayer": "Maniche",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2004-06-24",
@@ -127,7 +129,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-england-euro-2004",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2004-06-20",
@@ -164,7 +167,8 @@
     "matchCompUrl": "https://vimeo.com/865080474",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/spain-portugal-euro",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2004-06-16",
@@ -209,7 +213,8 @@
         "assistedPlayer": "Rui Costa",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2004-06-12",
@@ -257,7 +262,8 @@
         "assistedBy": "Luís Figo"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2004-06-05",
@@ -280,7 +286,8 @@
     "matchCompUrl": "https://vimeo.com/223811076",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-lithuania-friendly",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2004-05-29",
@@ -303,7 +310,8 @@
     "matchCompUrl": "https://vimeo.com/290577484",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-luxembourg-friendly",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2004-05-22",
@@ -425,7 +433,8 @@
         "assistedPlayer": "Nuno Gomes",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2004-04-24",
@@ -605,7 +614,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=SG53w3cklM8",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-italy-friendly",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2004-03-20",
@@ -823,7 +833,8 @@
     "matchCompUrl": "https://vimeo.com/223800988",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-england-friendly",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2004-02-14",
@@ -1347,7 +1358,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=VQ_NOa-EGYo",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-albania-friendly",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2003-10-01",
@@ -1530,7 +1542,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=EnfD1Cps27I",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-kazakhstan",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2003-08-16",
