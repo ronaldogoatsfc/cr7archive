@@ -34,7 +34,8 @@
     "matchCompUrl": "https://vimeo.com/428590814",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-spain-euro",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2012-06-21",
@@ -82,7 +83,8 @@
         "assistedBy": "Joao Moutinho"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2012-06-17",
@@ -139,7 +141,8 @@
         "assistedBy": "Nani"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2012-06-13",
@@ -176,7 +179,8 @@
     "matchCompUrl": "https://vimeo.com/142822047",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/denmark-portugal-euro",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2012-06-09",
@@ -213,7 +217,8 @@
     "matchCompUrl": "https://vimeo.com/210222222",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/germany-portugal-euro",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2012-06-02",
@@ -244,7 +249,8 @@
         "assistedPlayer": "Nani",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2012-05-26",
@@ -267,7 +273,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=7_hE360iV30",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2012-05-13",
@@ -1272,7 +1279,8 @@
     "matchCompUrl": "https://vimeo.com/319228172",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2012-02-26",
@@ -2165,7 +2173,8 @@
         "assistedBy": "Joao Moutinho"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2011-11-11",
@@ -2189,7 +2198,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=CR6vjBMHC-k",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2011-11-06",
@@ -2577,7 +2587,8 @@
         "shotLocation": "Outside Box"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2011-10-07",
@@ -2600,7 +2611,8 @@
     "matchCompUrl": "https://vimeo.com/268166182",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2011-10-02",
@@ -2984,7 +2996,8 @@
         "assistedPlayer": "Hugo Almeida",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2011-08-28",
@@ -3150,6 +3163,7 @@
         "assistedPlayer": "Hélder Postiga",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Paulo Bento"
   }
 ]
