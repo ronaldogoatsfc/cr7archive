@@ -484,7 +484,7 @@ function MatchDetails({ match }) {
                   ↓{player.exitOrder}
                 </span>
               ) : null}
-              {playerIndex + 1}
+              •
             </span>
             <span className="mt-0.5 max-w-full truncate rounded bg-pitch/90 px-1 py-0.5 text-[9px] font-medium leading-tight text-white shadow sm:text-[10px]">
               {player.name}
