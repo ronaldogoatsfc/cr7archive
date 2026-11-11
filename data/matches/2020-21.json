@@ -34,7 +34,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/belgium-portugal-euro",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2021-06-23",
@@ -87,7 +88,8 @@
         "bodyPart": "Right foot"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2021-06-19",
@@ -143,7 +145,8 @@
         "assistedPlayer": "Diogo Jota",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2021-06-15",
@@ -198,7 +201,8 @@
         "assistedBy": "Rafa Silva"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2021-06-09",
@@ -232,7 +236,8 @@
         "assistedBy": "Bruno Fernandes"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2021-06-04",
@@ -255,7 +260,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/spain-portugal-friendly",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2021-05-19",
@@ -742,7 +748,8 @@
         "assistedBy": "Joao Cancelo"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2021-03-27",
@@ -779,7 +786,8 @@
     "matchCompUrl": "https://vimeo.com/710942617",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/serbia-portugal-world-cup-qualification",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2021-03-24",
@@ -816,7 +824,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-azerbaijan-world-cup-qualification",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2021-03-21",
@@ -2186,7 +2195,8 @@
     "matchCompUrl": "",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2020-11-14",
@@ -2223,7 +2233,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-france-nations-league-a",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2020-11-11",
@@ -2265,7 +2276,8 @@
         "assistedPlayer": "Renato Sanches",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2020-11-08",
@@ -2450,7 +2462,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/france-portugal-nations-league-a",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2020-10-07",
@@ -2485,7 +2498,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-spain-friendly-2020",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2020-09-27",
@@ -2652,6 +2666,7 @@
         "assistedBy": "Joao Félix"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   }
 ]
