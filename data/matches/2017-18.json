@@ -34,7 +34,8 @@
     "matchCompUrl": "https://vimeo.com/277922280",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/uruguay-portugal",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2018-06-25",
@@ -71,7 +72,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/iran-portugal-world-cup",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2018-06-20",
@@ -119,7 +121,8 @@
         "assistedBy": "Joao Moutinho"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2018-06-15",
@@ -182,7 +185,8 @@
         "shotLocation": "Outside Box"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2018-06-07",
@@ -213,7 +217,8 @@
         "assistedPlayer": "Bruno Fernandes",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2018-05-26",
@@ -668,7 +673,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=n8tvWCEi3jM",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-netherlands-friendly",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2018-03-23",
@@ -711,7 +717,8 @@
         "assistedBy": "Ricardo Quaresma"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2018-03-18",
@@ -2117,7 +2124,8 @@
     "matchCompUrl": "https://vimeo.com/269471584",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-switzerland",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2017-10-07",
@@ -2164,7 +2172,8 @@
         "shotLocation": "Inside Box"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2017-10-01",
@@ -2440,7 +2449,8 @@
         "assistedPlayer": "André Silva",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2017-08-31",
@@ -2512,7 +2522,8 @@
         "assistedPlayer": "William Carvalho",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2017-08-13",
