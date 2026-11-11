@@ -34,7 +34,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-spain-world-cup-2026",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2026-07-02",
@@ -81,7 +82,8 @@
         "goalNumber": 976
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2026-06-27",
@@ -118,7 +120,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/colombia-portugal-world-cup",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2026-06-23",
@@ -175,7 +178,8 @@
         "assistedBy": "Bruno Fernandes"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2026-06-17",
@@ -212,7 +216,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-dr-congo",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2026-06-10",
@@ -249,7 +254,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=ztu24Tvo9LE",
     "hasFullMatch": true,
     "fullMatchUrl": "https://www.youtube.com/watch?v=d6CgR_Ept88",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2026-06-06",
@@ -286,7 +292,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=hy6IZc3n4jw",
     "hasFullMatch": true,
     "fullMatchUrl": "https://www.youtube.com/watch?v=Q4l8uqpEEZA",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2026-05-21",
@@ -1504,7 +1511,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/ireland-portugal-world-cup-qualification",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2025-11-08",
@@ -1803,7 +1811,8 @@
         "assistedBy": "Nuno Mendes"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2025-10-11",
@@ -1840,7 +1849,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-ireland-world-cup-qualification-2025",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2025-09-27",
@@ -2036,7 +2046,8 @@
         "bodyPart": "Right foot"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2025-09-06",
@@ -2092,7 +2103,8 @@
         "shotLocation": "Outside Box"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2025-08-29",
