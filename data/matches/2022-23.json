@@ -45,7 +45,8 @@
         "assistedBy": "Gonçalo Inacio"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2023-06-17",
@@ -82,7 +83,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-bosnia-and-herzegovina-euro-qualification",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2023-05-27",
@@ -521,7 +523,8 @@
         "assistedBy": "Bruno Fernandes"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2023-03-23",
@@ -575,7 +578,8 @@
         "shotLocation": "Outside Box"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2023-03-18",
@@ -1078,7 +1082,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/morocco-portugal-world-cup",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2022-12-06",
@@ -1115,7 +1120,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-switzerland-world-cup",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2022-12-02",
@@ -1152,7 +1158,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/south-korea-portugal",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2022-11-28",
@@ -1189,7 +1196,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-uruguay",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2022-11-24",
@@ -1235,7 +1243,8 @@
         "bodyPart": "Right foot"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2022-11-06",
@@ -1605,7 +1614,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-spain-nations-league-a",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2022-09-24",
@@ -1650,7 +1660,8 @@
         "assistedPlayer": "Diogo Jota",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2022-09-15",
