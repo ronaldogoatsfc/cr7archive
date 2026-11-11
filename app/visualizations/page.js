@@ -298,7 +298,7 @@ const breakdownOptions = [
   "Age",
   "Knockout Phase",
   "Manager",
-  "Assisted Player",
+  "Assisting Player",
 ];
 
 export default function VisualizationsPage() {
@@ -360,33 +360,33 @@ export default function VisualizationsPage() {
   const normalizePlayerName = (name) =>
     name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/\s+/g, " ").trim();
 
-  const playersRonaldoAssistedTotals = {};
+  const playersWhoAssistedRonaldoTotals = {};
   matches.forEach((match) => {
-    (match.assistEvents || []).forEach((event) => {
-      if (event.optaAssist !== true || !event.assistedPlayer) return;
+    (match.goalEvents || []).forEach((event) => {
+      if (!event.assistedBy) return;
 
-      const key = normalizePlayerName(event.assistedPlayer);
-      const accentCount = (event.assistedPlayer.match(/[^\u0000-\u007F]/g) || []).length;
-      if (!playersRonaldoAssistedTotals[key]) {
-        playersRonaldoAssistedTotals[key] = {
-          name: event.assistedPlayer,
+      const key = normalizePlayerName(event.assistedBy);
+      const accentCount = (event.assistedBy.match(/[^\u0000-\u007F]/g) || []).length;
+      if (!playersWhoAssistedRonaldoTotals[key]) {
+        playersWhoAssistedRonaldoTotals[key] = {
+          name: event.assistedBy,
           assists: 0,
           accentCount,
         };
       }
-      playersRonaldoAssistedTotals[key].assists += 1;
-      if (accentCount > playersRonaldoAssistedTotals[key].accentCount) {
-        playersRonaldoAssistedTotals[key].name = event.assistedPlayer;
-        playersRonaldoAssistedTotals[key].accentCount = accentCount;
+      playersWhoAssistedRonaldoTotals[key].assists += 1;
+      if (accentCount > playersWhoAssistedRonaldoTotals[key].accentCount) {
+        playersWhoAssistedRonaldoTotals[key].name = event.assistedBy;
+        playersWhoAssistedRonaldoTotals[key].accentCount = accentCount;
       }
     });
   });
 
-  const sortedPlayersRonaldoAssisted = Object.values(playersRonaldoAssistedTotals)
+  const sortedPlayersWhoAssistedRonaldo = Object.values(playersWhoAssistedRonaldoTotals)
     .sort((a, b) => b.assists - a.assists || a.name.localeCompare(b.name));
-  const fifthPlaceAssists = sortedPlayersRonaldoAssisted[4]?.assists ?? 0;
-  const topPlayersRonaldoAssisted = sortedPlayersRonaldoAssisted
-    .filter((player, index) => index < 5 || player.assists === fifthPlaceAssists)
+  const fifthPlaceProviderTotal = sortedPlayersWhoAssistedRonaldo[4]?.assists ?? 0;
+  const topRonaldoAssistProviders = sortedPlayersWhoAssistedRonaldo
+    .filter((player, index) => index < 5 || player.assists === fifthPlaceProviderTotal)
     .map(({ name, assists }) => ({ name, assists }));
 
   const contributionsPerMatch = bySeason.map((season) => ({
@@ -685,20 +685,20 @@ export default function VisualizationsPage() {
       },
     },
     {
-      title: "Players Ronaldo assisted most",
+      title: "Players who assisted Ronaldo most",
       category: "Playmaking",
-      breakdown: "Assisted Player",
-      description: "The top five ranking positions for teammates who received Opta-credited assists from Ronaldo; ties are included.",
-      data: topPlayersRonaldoAssisted,
+      breakdown: "Assisting Player",
+      description: "The top five ranking positions for teammates who assisted Ronaldo's goals; ties are included.",
+      data: topRonaldoAssistProviders,
       xKey: "name",
       horizontal: true,
       height: "h-72",
-      keys: [{ key: "assists", name: "Opta assists", color: TURF }],
+      keys: [{ key: "assists", name: "Assists to Ronaldo", color: TURF }],
       explanation: {
-        shows: "The teammates who scored the most goals directly assisted by Ronaldo, counting only Opta-credited assists recorded in the match log.",
-        calculation: "Each assistEvents entry is counted only when optaAssist is true. The assistedPlayer value identifies the teammate who received Ronaldo's assist. Name variants that differ only by diacritics are combined.",
-        interpretation: "Longer bars indicate more Opta-credited goals Ronaldo directly set up for that teammate.",
-        limitation: "Only individually documented assistEvents are included. Non-Opta involvements, undocumented assists, and matches without detailed assist events are excluded.",
+        shows: "The teammates most frequently recorded as assisting Ronaldo's goals in the match log.",
+        calculation: "Each goalEvents entry with an assistedBy value adds one to that player's total. Name variants that differ only by diacritics are combined. The current goalEvents schema does not include a separate optaAssist flag.",
+        interpretation: "Longer bars indicate teammates who are recorded as providing more assists on Ronaldo's goals.",
+        limitation: "Only goal events with an assistedBy name are included. Because goalEvents currently lacks an optaAssist field, this chart cannot independently distinguish Opta-credited assists from any other recorded assist attribution.",
       },
     },
     {
