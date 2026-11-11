@@ -602,7 +602,7 @@ export default function MatchLogsPage() {
   const venues = useMemo(() => getUniqueValues(matches, "venue"), []);
   const stages = useMemo(() => getStageOptions(matches), []);
   const managers = useMemo(
-    () => [...new Set(matches.filter((match) => match.team === "Portugal" && match.manager).map((match) => match.manager))],
+    () => [...new Set(matches.map((match) => match.manager).filter(Boolean))].sort(),
     []
   );
 

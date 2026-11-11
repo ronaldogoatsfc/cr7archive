@@ -24,6 +24,66 @@ import s2024 from "./matches/2024-25.json";
 import s2025 from "./matches/2025-26.json";
 import s2026 from "./matches/2026-27.json";
 
+
+const MANAGER_TIMELINES = {
+  Portugal: [
+    ["2003-01-11", "2008-06-19", "Luiz Felipe Scolari"],
+    ["2008-07-11", "2010-09-09", "Carlos Queiroz"],
+    ["2010-09-21", "2014-09-11", "Paulo Bento"],
+    ["2014-09-23", "2022-12-15", "Fernando Santos"],
+    ["2023-01-09", "2026-07-06", "Roberto Martínez"],
+    ["2026-07-10", "9999-12-31", "Jorge Jesus"],
+  ],
+  "Sporting CP": [
+    ["2002-08-14", "2003-06-30", "László Bölöni"],
+  ],
+  "Manchester United": [
+    ["2003-08-12", "2009-06-30", "Sir Alex Ferguson"],
+    ["2021-08-31", "2021-11-21", "Ole Gunnar Solskjær"],
+    ["2021-11-21", "2021-12-02", "Michael Carrick"],
+    ["2021-12-03", "2022-05-22", "Ralf Rangnick"],
+    ["2022-05-23", "2022-11-22", "Erik ten Hag"],
+  ],
+  "Real Madrid": [
+    ["2009-07-01", "2010-05-26", "Manuel Pellegrini"],
+    ["2010-05-31", "2013-06-01", "José Mourinho"],
+    ["2013-06-25", "2015-05-25", "Carlo Ancelotti"],
+    ["2015-06-03", "2016-01-04", "Rafael Benítez"],
+    ["2016-01-04", "2018-05-31", "Zinedine Zidane"],
+  ],
+  Juventus: [
+    ["2018-07-10", "2019-05-17", "Massimiliano Allegri"],
+    ["2019-06-16", "2020-08-08", "Maurizio Sarri"],
+    ["2020-08-08", "2021-05-28", "Andrea Pirlo"],
+  ],
+  "Al Nassr": [
+    ["2022-12-30", "2023-04-12", "Rudi Garcia"],
+    ["2023-04-13", "2023-06-30", "Dinko Jeličić"],
+    ["2023-07-06", "2024-09-17", "Luís Castro"],
+    ["2024-09-18", "2025-06-25", "Stefano Pioli"],
+    ["2025-07-14", "2026-06-30", "Jorge Jesus"],
+    ["2026-07-03", "9999-12-31", "Ange Postecoglou"],
+  ],
+};
+
+const MANAGER_MATCH_OVERRIDES = {
+  "2019-05-19|Juventus": "Massimiliano Allegri",
+  "2021-08-22|Juventus": "Massimiliano Allegri",
+};
+
+function getMatchManager(match) {
+  const override = MANAGER_MATCH_OVERRIDES[`${match.date}|${match.team}`];
+  if (override) return override;
+
+  const timeline = MANAGER_TIMELINES[match.team] || [];
+  // If appointments overlap on a date, the manager whose tenure starts
+  // on that date takes precedence.
+  const manager = [...timeline].reverse().find(
+    ([start, end]) => match.date >= start && match.date <= end
+  );
+  return manager?.[2] ?? null;
+}
+
 const allMatches = [
   ...s2002,
   ...s2003,
@@ -52,4 +112,4 @@ const allMatches = [
   ...s2026
 ];
 
-export default allMatches;
+export default allMatches.map((match) => ({ ...match, manager: getMatchManager(match) ?? match.manager ?? null }));
