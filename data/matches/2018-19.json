@@ -34,7 +34,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-netherlands-nations-league-a",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2019-06-05",
@@ -99,7 +100,8 @@
         "assistedBy": "Gonçalo Guedes"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2019-05-19",
@@ -449,7 +451,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-serbia-euro-qualification-2019-2020",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2019-03-22",
@@ -486,7 +489,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-ukraine",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2019-03-12",
