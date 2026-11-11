@@ -34,7 +34,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=XvB4fLWHpY4",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2011-05-21",
@@ -1034,7 +1035,8 @@
         "assistedBy": "Hugo Almeida"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2011-02-06",
@@ -1979,7 +1981,8 @@
       }
     ],
     "statsSource": "manual",
-    "statsStatus": "unofficial"
+    "statsStatus": "unofficial",
+    "manager": "Paulo Bento"
   },
   {
     "id": "2010-11-14",
@@ -2497,7 +2500,8 @@
         "optaAssist": false,
         "assistClarification": "GK rebound"
       }
-    ]
+    ],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2010-10-08",
@@ -2553,7 +2557,8 @@
         "assistedPlayer": "Nani",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2010-10-03",
