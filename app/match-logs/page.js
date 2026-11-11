@@ -32,6 +32,11 @@ const DEFAULT_FILTERS = {
   minGoals: "Any",
   minAssists: "Any",
   minGoalContributions: "Any",
+  scoredBy: "",
+  assistedBy: "",
+  goalType: "All",
+  finish: "All",
+  shotLocation: "All",
   // performance stats
   detailedStats: "All",
   minShots: "Any",
@@ -74,6 +79,20 @@ const FREE_KICK_THRESHOLDS = getCountThresholds((match) => match.stats?.freeKick
 const THROUGHBALL_THRESHOLDS = getCountThresholds((match) => match.stats?.accurateThroughballs);
 const XG_THRESHOLDS = ["0.5+", "1+", "1.5+", "2+"];
 const RATING_THRESHOLDS = ["6+", "7+", "7.5+", "8+", "9+"];
+
+function getGoalEventOptions(key) {
+  return [...new Set(
+    matches.flatMap((match) =>
+      (match.goalEvents || [])
+        .map((event) => event[key])
+        .filter((value) => typeof value === "string" && value.trim())
+    )
+  )].sort((a, b) => a.localeCompare(b));
+}
+
+const GOAL_TYPE_OPTIONS = getGoalEventOptions("goalType");
+const FINISH_OPTIONS = getGoalEventOptions("bodyPart");
+const SHOT_LOCATION_OPTIONS = getGoalEventOptions("shotLocation");
 
 const STAT_GROUPS = [
   {
@@ -1051,6 +1070,48 @@ export default function MatchLogsPage() {
                 value={filters.minGoalContributions}
                 onChange={(v) => updateFilter("minGoalContributions", v)}
                 options={CONTRIBUTION_THRESHOLDS}
+              />
+              <label className="flex flex-col gap-1">
+                <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+                  Scored by
+                </span>
+                <input
+                  type="search"
+                  value={filters.scoredBy}
+                  onChange={(e) => updateFilter("scoredBy", e.target.value)}
+                  placeholder="e.g. Cristiano Ronaldo"
+                  className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper placeholder:text-paper-dim/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+                />
+              </label>
+              <label className="flex flex-col gap-1">
+                <span className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">
+                  Assisted by
+                </span>
+                <input
+                  type="search"
+                  value={filters.assistedBy}
+                  onChange={(e) => updateFilter("assistedBy", e.target.value)}
+                  placeholder="e.g. Karim Benzema"
+                  className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper placeholder:text-paper-dim/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+                />
+              </label>
+              <Select
+                label="Goal Type"
+                value={filters.goalType}
+                onChange={(v) => updateFilter("goalType", v)}
+                options={GOAL_TYPE_OPTIONS}
+              />
+              <Select
+                label="Finish"
+                value={filters.finish}
+                onChange={(v) => updateFilter("finish", v)}
+                options={FINISH_OPTIONS}
+              />
+              <Select
+                label="Shot Location"
+                value={filters.shotLocation}
+                onChange={(v) => updateFilter("shotLocation", v)}
+                options={SHOT_LOCATION_OPTIONS}
               />
             </FilterSection>
 
