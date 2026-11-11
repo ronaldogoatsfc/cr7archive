@@ -5,7 +5,7 @@ const ronaldoLaDecima = {
   datePublished: "2026-11-11",
   description:
     "A match-by-match look at Cristiano Ronaldo's record-breaking 17-goal Champions League campaign and Real Madrid's long-awaited tenth European Cup in 2014.",
-  tags: ["Real Madrid", "UEFA Champions League", "La Décima", "Career Milestone"],
+  tags: ["Real Madrid", "UEFA Champions League", "Career Milestone"],
 
   content: [
     {
@@ -46,7 +46,7 @@ const ronaldoLaDecima = {
     { type: "matchLog", date: "2013-10-23", team: "Real Madrid", competition: "UEFA Champions League" },
     {
       type: "paragraph",
-      text: "The return fixture in Turin ended 2–2. Ronaldo scored Madrid's equaliser early in the second half and later created Gareth Bale's goal, giving him a goal and an assist against the Italian side. Madrid remained unbeaten, although the draw meant qualification was not yet mathematically secured."
+      text: "The return fixture in Turin ended 2–2. Ronaldo scored Madrid's equaliser early in the second half and later assisted Gareth Bale's goal, giving him a goal and an assist against the Italian side. Madrid remained unbeaten, although the draw meant qualification was not yet mathematically secured."
     },
     { type: "matchLog", date: "2013-11-05", team: "Real Madrid", competition: "UEFA Champions League" },
     {
