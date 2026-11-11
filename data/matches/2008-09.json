@@ -20,7 +20,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=gyO1lX1LlyM",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/albania-portugal",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Carlos Queiroz"
   },
   {
     "id": "2009-05-27",
@@ -486,7 +487,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=P9iP0o-K-j8",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Carlos Queiroz"
   },
   {
     "id": "2009-03-28",
@@ -509,7 +511,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=V1W4ss_KPaA",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Carlos Queiroz"
   },
   {
     "id": "2009-03-21",
@@ -841,7 +844,8 @@
         "bodyPart": "Right foot"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Carlos Queiroz"
   },
   {
     "id": "2009-02-08",
@@ -1395,7 +1399,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=swoKIE3o4R4",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/brazil-portugal-friendly-2008",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Carlos Queiroz"
   },
   {
     "id": "2008-11-15",
@@ -1759,7 +1764,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=f-NkjNcAmhc",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Carlos Queiroz"
   },
   {
     "id": "2008-10-11",
@@ -1782,7 +1788,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=IibjLuZOSTk",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Carlos Queiroz"
   },
   {
     "id": "2008-10-04",
