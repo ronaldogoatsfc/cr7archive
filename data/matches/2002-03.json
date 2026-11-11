@@ -21,7 +21,14 @@
     "matchCompUrl": "https://vimeo.com/312097381",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/sporting-cp-fc-internazionale-champions-league",
-    "assistEvents": []
+    "assistEvents": [],
+    "ronaldo_starting_xi": "Tiago Ferr. | Beto, Contreras, Quiroga | Rui Jorge, Prates, Bento, Barbosa | Toñito, Quaresma, Niculae",
+    "ronaldo_team_subs": "*Cristiano Ronaldo, **Vitaliy Kutuzov, ***Ricardo Fernandes",
+    "ronaldo_team_formation": "3-4-3 Diamond",
+    "opponent_starting_xi": "Toldo | Córdoba, Materazzi, Coco, Zanetti | Di Biagio, Dalmat, Morfeo, Conceição | Kallon, Vieri",
+    "opponent_team_subs": "*Matías Almeyda, **Álvaro Recoba",
+    "opponent_formation": "4-4-2 double 6",
+    "opponentManager": "Héctor Cúper"
   },
   {
     "id": "2002-09-19",
