@@ -45,7 +45,8 @@
         "assistedBy": "Nuno Mendes"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2025-06-04",
@@ -93,7 +94,8 @@
         "assistedBy": "Nuno Mendes"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2025-05-26",
@@ -504,7 +506,8 @@
         "shotLocation": "Inside Box"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2025-03-20",
@@ -542,7 +545,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/denmark-portugal-nations-league-a",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2025-03-14",
@@ -1468,7 +1472,8 @@
         "assistedPlayer": "Pedro Neto",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2024-11-08",
@@ -1746,7 +1751,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/scotland-portugal-nations-league-a",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2024-10-12",
@@ -1793,7 +1799,8 @@
         "shotLocation": "Inside Box"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2024-10-05",
@@ -2072,7 +2079,8 @@
         "assistedBy": "Nuno Mendes"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2024-09-05",
@@ -2120,7 +2128,8 @@
         "assistedBy": "Nuno Mendes"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2024-08-27",
