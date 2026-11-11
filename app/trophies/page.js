@@ -87,22 +87,24 @@ function TrophyGroup({ club, items }) {
                 <span className="font-display text-lg font-semibold leading-snug text-paper">
                   {t.name}
                 </span>
+                {t.count > 1 && (
+                  <span className="shrink-0 text-right leading-none">
+                    <span className="stat-number block text-xl font-semibold text-gold">
+                      {t.count}
+                    </span>
+                    <span className="mt-1 block font-mono text-[9px] uppercase tracking-widest text-paper-dim">
+                      wins
+                    </span>
+                  </span>
+                )}
               </div>
-              <div className="flex flex-wrap items-center gap-2">
-                {t.isFriendly && (
+              {t.isFriendly && (
+                <div className="mt-2">
                   <span className="rounded-full border border-goal-red px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-goal-red">
                     Friendly — not counted
                   </span>
-                )}
-                <span className="rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
-                  {t.domestic ? "Domestic" : "International"}
-                </span>
-                {t.count > 1 && (
-                  <span className="rounded-full bg-pitch px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-paper-dim">
-                    {t.count} wins
-                  </span>
-                )}
-              </div>
+                </div>
+              )}
               <div className="mt-4 border-t border-line pt-3">
                 <div className="flex flex-col gap-3">
                   {t.wins.map((win) => (
