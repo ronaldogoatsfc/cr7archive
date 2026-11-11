@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import articles from "@/data/articles";
+import madrid2016_17Matches from "@/data/matches/2016-17.json";
+import madrid2017_18Matches from "@/data/matches/2017-18.json";
 import seasonMatches from "@/data/matches/2011-12.json";
 import madridLaDecimaMatches from "@/data/matches/2013-14.json";
 import unitedCupMatches from "@/data/matches/2003-04.json";
@@ -36,7 +38,10 @@ const MATCH_STAT_GROUPS = [
 ];
 
 function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }) {
-  const matchSource = team === "Real Madrid" && competition === "UEFA Champions League"
+  const is2017MadridMatch = team === "Real Madrid" && date >= "2017-01-01" && date <= "2017-12-31";
+  const matchSource = is2017MadridMatch
+    ? date <= "2017-06-30" ? madrid2016_17Matches : madrid2017_18Matches
+    : team === "Real Madrid" && competition === "UEFA Champions League"
     ? madridLaDecimaMatches
     : team === "Manchester United" && competition === "FA Cup"
     ? unitedCupMatches
@@ -319,6 +324,28 @@ function ArticleBlock({ block }) {
           ))}
         </div>
       </div>
+    );
+  }
+
+  if (block.type === "sources") {
+    return (
+      <section className="my-8 rounded-xl border border-line bg-pitch-raised/60 p-5">
+        <h2 className="font-display text-lg font-semibold text-paper">Sources</h2>
+        <ul className="mt-3 space-y-2">
+          {block.items.map((item) => (
+            <li key={item.url}>
+              <a
+                href={item.url}
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm text-paper-dim transition hover:text-gold hover:underline"
+              >
+                {item.label} ↗
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
     );
   }
 
