@@ -12,6 +12,7 @@ import ronaldo2008UCL from "./ronaldo-2008-champions-league";
 import ronaldoEuro2016 from "./ronaldo-euro-2016";
 import ronaldo200607PremierLeague from "./ronaldo-2006-07-premier-league";
 import ronaldoLaDecima from "./ronaldo-2013-14-la-decima";
+import ronaldo2017BallonDor from "./ronaldo-2017-ballon-dor";
 
 const articles = [
   we_need_your_help,
@@ -27,7 +28,8 @@ const articles = [
   ronaldo2008UCL,
   ronaldoEuro2016,
   ronaldo200607PremierLeague,
-  ronaldoLaDecima
+  ronaldoLaDecima,
+  ronaldo2017BallonDor
 ];
 
 export default articles;
