@@ -421,7 +421,7 @@ function EventSection({ title, count, events, type }) {
 
 
 function cleanPlayerName(value) {
-  return value.replace(/^\\*+|\\*+$/g, "").trim();
+  return value.replace(/^\*+|\*+$/g, "").trim();
 }
 
 function parseStartingXI(value) {
@@ -429,7 +429,7 @@ function parseStartingXI(value) {
   return value.split("|").map((group) =>
     group.split(",").map((player) => player.trim()).filter(Boolean).map((player) => ({
       name: cleanPlayerName(player),
-      exitOrder: (player.match(/\\*+$/) || [""])[0].length,
+      exitOrder: (player.match(/\*+$/) || [""])[0].length,
     }))
   );
 }
@@ -437,8 +437,8 @@ function parseStartingXI(value) {
 function parseUsedSubstitutes(value) {
   if (!value) return [];
   return value.split(",").map((player) => player.trim()).filter(Boolean).map((player) => {
-    const entryOrder = (player.match(/^\\*+/) || [""])[0].length;
-    const exitOrder = (player.match(/\\*+$/) || [""])[0].length;
+    const entryOrder = (player.match(/^\*+/) || [""])[0].length;
+    const exitOrder = (player.match(/\*+$/) || [""])[0].length;
     return { name: cleanPlayerName(player), entryOrder, exitOrder };
   });
 }
