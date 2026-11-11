@@ -382,9 +382,11 @@ export default function VisualizationsPage() {
     });
   });
 
-  const topPlayersRonaldoAssisted = Object.values(playersRonaldoAssistedTotals)
-    .sort((a, b) => b.assists - a.assists || a.name.localeCompare(b.name))
-    .slice(0, 5)
+  const sortedPlayersRonaldoAssisted = Object.values(playersRonaldoAssistedTotals)
+    .sort((a, b) => b.assists - a.assists || a.name.localeCompare(b.name));
+  const fifthPlaceAssists = sortedPlayersRonaldoAssisted[4]?.assists ?? 0;
+  const topPlayersRonaldoAssisted = sortedPlayersRonaldoAssisted
+    .filter((player, index) => index < 5 || player.assists === fifthPlaceAssists)
     .map(({ name, assists }) => ({ name, assists }));
 
   const contributionsPerMatch = bySeason.map((season) => ({
@@ -686,7 +688,7 @@ export default function VisualizationsPage() {
       title: "Players Ronaldo assisted most",
       category: "Playmaking",
       breakdown: "Assisted Player",
-      description: "The five teammates who received the most Opta-credited assists from Ronaldo.",
+      description: "The top five ranking positions for teammates who received Opta-credited assists from Ronaldo; ties are included.",
       data: topPlayersRonaldoAssisted,
       xKey: "name",
       horizontal: true,
