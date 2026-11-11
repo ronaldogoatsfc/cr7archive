@@ -34,7 +34,8 @@
     "matchCompUrl": "https://vimeo.com/417662854",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-france-euro",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2016-07-06",
@@ -90,7 +91,8 @@
         "assistedPlayer": "Nani",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2016-06-30",
@@ -127,7 +129,8 @@
     "matchCompUrl": "https://vimeo.com/173445817",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/poland-portugal",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2016-06-25",
@@ -172,7 +175,8 @@
         "optaAssist": false,
         "assistClarification": "GK rebound"
       }
-    ]
+    ],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2016-06-22",
@@ -237,7 +241,8 @@
         "assistedPlayer": "Nani",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2016-06-18",
@@ -274,7 +279,8 @@
     "matchCompUrl": "https://vimeo.com/210214388",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-austria",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2016-06-14",
@@ -311,7 +317,8 @@
     "matchCompUrl": "https://vimeo.com/210212343",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-iceland",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2016-06-09",
@@ -368,7 +375,8 @@
         "assistedBy": "Joao Mario"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2016-05-28",
@@ -904,7 +912,8 @@
         "assistedBy": "Joao Mario"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2016-03-25",
@@ -941,7 +950,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=5tBG70q6sG0",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-bulgaria-friendly",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2016-03-20",
@@ -2448,7 +2458,8 @@
     "matchCompUrl": "https://vimeo.com/305204888",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-denmark-euro-qualification",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2015-10-04",
@@ -2841,7 +2852,8 @@
     "matchCompUrl": "https://vimeo.com/264620869",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2015-09-04",
@@ -2878,7 +2890,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=jPOFHPp1G-M",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-france-friendly-2015",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2015-08-29",
