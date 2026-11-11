@@ -468,9 +468,12 @@ function MatchDetails({ match }) {
     const addGroup = (groupIndex, positions) => {
       (groups[groupIndex] || []).forEach((player, index) => {
         const position = positions[index] || positions[positions.length - 1] || { progress: 0.5, y: 50 };
+        // The opponent faces the opposite direction, so its back line's
+        // left-to-right positional order is vertically mirrored on the pitch.
+        const displayY = !isHome && groupIndex === 1 ? 100 - position.y : position.y;
         players.push({
           ...player,
-          ...point(position.progress, position.y),
+          ...point(position.progress, displayY),
           side,
           groupIndex,
         });
