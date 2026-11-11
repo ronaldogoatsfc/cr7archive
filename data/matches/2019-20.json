@@ -1585,7 +1585,8 @@
         "shotLocation": "Inside Box"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2019-11-14",
@@ -1649,7 +1650,8 @@
         "assistedBy": "Bernardo Silva"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2019-11-10",
@@ -1944,7 +1946,8 @@
         "bodyPart": "Right foot"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2019-10-11",
@@ -1991,7 +1994,8 @@
         "shotLocation": "Inside Box"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2019-10-06",
@@ -2325,7 +2329,8 @@
         "assistedBy": "Bernardo Silva"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2019-09-07",
@@ -2373,7 +2378,8 @@
         "assistedBy": "Bernardo Silva"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Fernando Santos"
   },
   {
     "id": "2019-08-31",
