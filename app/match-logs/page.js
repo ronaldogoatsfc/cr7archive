@@ -538,7 +538,7 @@ function MatchDetails({ match }) {
           <div className="flex items-start justify-between gap-2">
             <div>
               <p className="font-display text-sm font-semibold text-paper">{match.opponent}</p>
-              <p className="mt-1 text-[10px] text-paper-dim">Manager: {match.opponentManager || "Not recorded"}</p>
+              <p className="mt-1 text-[10px] text-paper-dim">Manager: {match.opponent_manager || "Not recorded"}</p>
             </div>
             <span className="rounded bg-paper/5 px-2 py-1 font-mono text-[10px] text-paper-dim">
               {match.opponent_formation || "Formation unavailable"}
