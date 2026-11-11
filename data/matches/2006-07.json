@@ -469,7 +469,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=54o8bRMtWHk",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/serbia-portugal-euro-qualification",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2007-03-24",
@@ -520,7 +521,8 @@
         "assistedPlayer": "Ricardo Quaresma",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2007-03-19",
@@ -855,7 +857,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=QudESfoKexs",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/brazil-portugal-friendly-2007",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2007-02-04",
@@ -1470,7 +1473,8 @@
         "assistedBy": "Tiago Mendes"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2006-11-11",
@@ -1688,7 +1692,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=q11IQgUbCSA",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/poland-portugal-euro-qualification-2006",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2006-10-07",
@@ -1739,7 +1744,8 @@
         "optaAssist": false,
         "assistClarification": "GK rebound"
       }
-    ]
+    ],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2006-10-01",
@@ -1926,7 +1932,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=K9JfWj6914Y",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2006-09-01",
@@ -1957,7 +1964,8 @@
         "assistedPlayer": "Ricardo Carvalho",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2006-08-26",
