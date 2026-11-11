@@ -399,56 +399,12 @@ const ronaldo2017BallonDor = {
       "type": "sources",
       "items": [
         {
-          "label": "Messi vs Ronaldo — 2017 calendar-year statistics",
-          "url": "https://www.messivsronaldo.app/calendar-year-stats/2017/"
-        },
-        {
-          "label": "UEFA — Ronaldo retains the Ballon d'Or to match Messi (7 December 2017)",
-          "url": "https://www.uefa.com/uefachampionsleague/news/0240-0e981a776a76-ff51876b4b2c-1000--cristiano-ronaldo-retains-ballon-d-or-to-match-messi/"
-        },
-        {
           "label": "Sports Illustrated — 2017 Ballon d'Or voting breakdown",
           "url": "https://www.si.com/soccer/ballon-dor-2017-winner-nominees-voting-breakdown"
         },
         {
           "label": "UEFA — Ronaldo named 2016/17 Champions League Forward of the Season",
           "url": "https://www.uefa.com/uefachampionsleague/news/023c-0e97a3bea312-c9c57e09adb3-1000--cristiano-ronaldo-named-ucl-forward-of-the-season/"
-        },
-        {
-          "label": "UEFA — Ronaldo's five-goal Bayern tie and 100th Champions League goal",
-          "url": "https://www.uefa.com/uefachampionsleague/news/0238-0e96b42b32ee-1c3685ba5d87-1000--ronaldo-leads-madrid-through-with-another-landmark/"
-        },
-        {
-          "label": "LaLiga — Ronaldo's hat-trick against Atlético",
-          "url": "https://www.laliga.com/en-GB/news/cristiano-ronaldo-fires-real-madrid-closer-to-cardiff"
-        },
-        {
-          "label": "UEFA — Ronaldo scores in all six 2017/18 group-stage matchdays",
-          "url": "https://www.uefa.com/uefachampionsleague/news/0240-0e9816d5fb17-0d7dd5d47f33-1000--cristiano-ronaldo-achieves-group-stage-first/"
-        },
-        {
-          "label": "LaLiga — Facts and figures behind Real Madrid's 2016/17 title",
-          "url": "https://www.laliga.com/en-GB/news/facts-and-figures-behind-real-madrids-title-triumph"
-        },
-        {
-          "label": "Real Madrid — 2017 Spanish Super Cup final",
-          "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/septimo-aniversario-de-la-10-supercopa-de-espana-16-08-2024"
-        },
-        {
-          "label": "BBC Sport — Barcelona 1–3 Real Madrid, Super Cup first leg",
-          "url": "https://www.bbc.co.uk/sport/football/40918640"
-        },
-        {
-          "label": "UEFA — Real Madrid 2–1 Manchester United, 2017 Super Cup",
-          "url": "https://www.uefa.com/uefasupercup/history/2017/"
-        },
-        {
-          "label": "FIFA — Real Madrid retain the 2017 Club World Cup",
-          "url": "https://inside.fifa.com/tournaments/mens/clubworldcup/uae2017/news/real-madrid-retain-world-title-2925091"
-        },
-        {
-          "label": "FIFA — 2017 Club World Cup individual awards",
-          "url": "https://inside.fifa.com/tournaments/mens/clubworldcup/uae2017/news/real-madrid-dominate-uae-2017-individual-awards-2925308"
         }
       ]
     }
