@@ -34,7 +34,8 @@
     "matchCompUrl": "https://vimeo.com/211216008",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/germany-portugal-world-cup",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2006-07-05",
@@ -71,7 +72,8 @@
     "matchCompUrl": "https://vimeo.com/221176953",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-france",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2006-07-01",
@@ -108,7 +110,8 @@
     "matchCompUrl": "https://vimeo.com/217363505",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/england-portugal-world-cup",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2006-06-25",
@@ -145,7 +148,8 @@
     "matchCompUrl": "https://vimeo.com/119037494",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-netherlands",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2006-06-17",
@@ -191,7 +195,8 @@
         "bodyPart": "Right foot"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2006-06-11",
@@ -228,7 +233,8 @@
     "matchCompUrl": "https://vimeo.com/121020307",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/angola-portugal",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2006-06-03",
@@ -251,7 +257,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=3VNpQ4_QMsw",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/luxembourg-portugal",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2006-05-27",
@@ -274,7 +281,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=tAC9--kBQ4o",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-cape-verde-friendly",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2006-05-07",
@@ -639,7 +647,8 @@
         "assistedBy": "Hugo Viana"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2006-02-26",
@@ -1260,7 +1269,8 @@
         "optaAssist": false,
         "assistClarification": "Own goal assist"
       }
-    ]
+    ],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2005-11-12",
@@ -1291,7 +1301,8 @@
         "assistedPlayer": "Pauleta",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2005-11-06",
@@ -1499,7 +1510,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=jcbhBNlEcxo",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-latvia-world-cup-qualification",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2005-10-08",
@@ -1530,7 +1542,8 @@
         "assistedPlayer": "Pauleta",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2005-10-01",
@@ -1696,7 +1709,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=XHXF7GUe47k",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/russia-portugal-world-cup-qualification",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2005-09-03",
@@ -1719,7 +1733,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=x39mTAT1RMY",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-luxembourg-world-cup-qualification-2005",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Luiz Felipe Scolari"
   },
   {
     "id": "2005-08-28",
