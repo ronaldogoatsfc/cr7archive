@@ -34,7 +34,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-france-euro-2024",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2024-07-01",
@@ -71,7 +72,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-slovenia",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2024-06-26",
@@ -108,7 +110,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/georgia-portugal-euro",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2024-06-22",
@@ -153,7 +156,8 @@
         "assistedPlayer": "Bruno Fernandes",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2024-06-18",
@@ -190,7 +194,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/portugal-czech-republic-euro",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2024-06-11",
@@ -247,7 +252,8 @@
         "assistedBy": "Diogo Jota"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2024-05-31",
@@ -885,7 +891,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/slovenia-portugal",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2024-03-15",
@@ -1685,7 +1692,8 @@
         "assistedPlayer": "Ricardo Horta",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2023-11-16",
@@ -1733,7 +1741,8 @@
         "assistedBy": "Diogo Jota"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2023-11-11",
@@ -2093,7 +2102,8 @@
         "assistedPlayer": "Joao Cancelo",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2023-10-13",
@@ -2148,7 +2158,8 @@
         "assistedBy": "Bruno Fernandes"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2023-10-06",
@@ -2465,7 +2476,8 @@
     "matchCompUrl": "",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Roberto Martínez"
   },
   {
     "id": "2023-09-02",
