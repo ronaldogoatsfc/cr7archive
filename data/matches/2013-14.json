@@ -44,7 +44,8 @@
         "shotLocation": "Inside Box"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2014-06-23",
@@ -89,7 +90,8 @@
         "assistedPlayer": "Silvestre Varela",
         "optaAssist": true
       }
-    ]
+    ],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2014-06-16",
@@ -126,7 +128,8 @@
     "matchCompUrl": "https://vimeo.com/210235658",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/germany-portugal",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2014-06-11",
@@ -157,7 +160,8 @@
         "optaAssist": false,
         "assistClarification": "GK rebound"
       }
-    ]
+    ],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2014-05-24",
@@ -866,7 +870,8 @@
         "optaAssist": false,
         "assistClarification": "GK rebound"
       }
-    ]
+    ],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2014-03-02",
@@ -1748,7 +1753,8 @@
         "assistedBy": "Joao Moutinho"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2013-11-15",
@@ -1797,7 +1803,8 @@
         "assistedBy": "Miguel Veloso"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2013-11-09",
@@ -2214,7 +2221,8 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=n4RUuei_PuM",
     "hasFullMatch": false,
     "fullMatchUrl": "",
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2013-10-05",
@@ -2651,7 +2659,8 @@
         "shotLocation": "Outside Box"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   },
   {
     "id": "2013-09-01",
@@ -2829,6 +2838,7 @@
         "assistedBy": "Pepe"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "manager": "Paulo Bento"
   }
 ]
