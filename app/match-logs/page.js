@@ -562,7 +562,7 @@ function MatchDetails({ match }) {
           •
           {player.exitOrder > 0 && (
             <span className="absolute -right-2 -top-2 rounded-full bg-goal-red px-1 text-[8px] leading-3 text-white">
-              OFF
+              OFF {player.exitOrder}
             </span>
           )}
         </span>
@@ -1333,12 +1333,7 @@ export default function MatchLogsPage() {
                       <span className="font-mono text-[10px] uppercase tracking-wider text-paper-dim">
                         {m.venue}
                       </span>
-                      {m.manager && (
-                        <span className="rounded-full border border-gold/30 bg-gold/5 px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-gold">
-                          {m.manager}
-                        </span>
-                      )}
-                    </div>
+                                          </div>
 
                     <div className="grid gap-4 md:grid-cols-2 md:gap-5">
                       <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-3 sm:gap-5">
