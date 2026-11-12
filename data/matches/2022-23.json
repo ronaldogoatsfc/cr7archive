@@ -297,7 +297,7 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sultan Al-Ghanam"
+        "assistedBy": "Sultan Al-Ghannam"
       }
     ],
     "assistEvents": []
@@ -914,7 +914,9 @@
         "goalNumber": 823,
         "minute": "53",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "assistedBy": "Abdulrahman Ghareeb",
+        "description": "Penalty won by Abdulrahman Ghareeb (non-Opta assist)"
       },
       {
         "id": "ronaldo-goal-824",
