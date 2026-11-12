@@ -710,7 +710,7 @@ export default function Home() {
 
               <Link
                 href={section.href}
-                className={section.title === "Community" ? "shrink-0 rounded-full bg-gold px-7 py-3 text-sm font-semibold text-pitch transition hover:bg-gold-bright" : "shrink-0 rounded-full border border-line px-5 py-2.5 text-sm font-semibold text-paper transition hover:border-gold hover:bg-pitch-raised"}
+                className="shrink-0 rounded-full border border-line px-5 py-2.5 text-sm font-semibold text-paper transition hover:border-gold hover:bg-pitch-raised"
               >
                 {section.cta}
               </Link>
