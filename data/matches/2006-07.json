@@ -72,7 +72,8 @@
         "goalNumber": 72,
         "minute": "34",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Andreas Isaksson"
       }
     ],
     "assistEvents": []
@@ -2042,7 +2043,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Wayne Rooney"
+        "assistedBy": "Wayne Rooney",
+        "goalkeeper": "Antti Niemi"
       }
     ],
     "assistEvents": []
