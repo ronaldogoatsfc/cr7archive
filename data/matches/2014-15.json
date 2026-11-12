@@ -2805,7 +2805,8 @@
         "goalNumber": 429,
         "minute": "25",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Angel Moya"
       }
     ],
     "assistEvents": []
