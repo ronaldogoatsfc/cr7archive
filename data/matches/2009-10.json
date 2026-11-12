@@ -993,7 +993,8 @@
         "minute": "59",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Andres Palop"
       }
     ],
     "assistEvents": []
