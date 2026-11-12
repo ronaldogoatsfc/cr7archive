@@ -1288,7 +1288,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Özil"
+        "assistedBy": "Mesut Özil",
+        "goalkeeper": "Angel Moya"
       },
       {
         "id": "ronaldo-goal-338",
@@ -1297,14 +1298,16 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Angel Moya"
       },
       {
         "id": "ronaldo-goal-339",
         "goalNumber": 339,
         "minute": "72",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Angel Moya"
       }
     ],
     "assistEvents": []
