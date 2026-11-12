@@ -171,7 +171,11 @@ export default function NavBar() {
                 </button>
               </div>
               <nav className="flex-1 overflow-y-auto px-4 py-5" aria-label="Sidebar navigation">
-                <p className="px-3 pb-3 font-mono text-[10px] uppercase tracking-[0.25em] text-gold">Explore the archive</p>
+                <div className="mb-5">
+                  <Link href="/search" onClick={() => setSidebarOpen(false)} className="flex items-center gap-3 rounded-lg border border-line bg-pitch px-4 py-3 text-sm text-paper-dim transition hover:border-gold hover:text-gold">
+                    <Search size={17} /> Search the archive
+                  </Link>
+                </div>
                 <div className="space-y-1">
                   {[...primaryLinks, ...secondaryLinks.slice(0, 1)].map((link) => (
                     <Link key={link.href} href={link.href} onClick={() => setSidebarOpen(false)} className="block rounded-lg px-3 py-3 text-sm text-paper-dim transition hover:bg-pitch hover:text-gold">
@@ -179,17 +183,17 @@ export default function NavBar() {
                     </Link>
                   ))}
                   <div className="rounded-lg px-3 py-2">
-                    <Link href="/match-logs" onClick={() => setSidebarOpen(false)} className="block py-1 text-sm font-medium text-paper transition hover:text-gold">Match Logs</Link>
-                    <Link href="/match-logs/unofficial" onClick={() => setSidebarOpen(false)} className="mt-2 block pl-3 text-sm text-paper-dim transition hover:text-gold">Unofficial matches</Link>
+                    <Link href="/match-logs" onClick={() => setSidebarOpen(false)} className="block rounded-lg px-3 py-3 text-sm text-paper-dim transition hover:bg-pitch hover:text-gold">Match Logs</Link>
+                    <div className="space-y-1 pb-2 pl-4">
+                      <Link href="/match-logs" onClick={() => setSidebarOpen(false)} className="block rounded-lg px-3 py-2 text-sm text-paper-dim transition hover:bg-pitch hover:text-gold">Official matches</Link>
+                      <Link href="/match-logs/unofficial" onClick={() => setSidebarOpen(false)} className="block rounded-lg px-3 py-2 text-sm text-paper-dim transition hover:bg-pitch hover:text-gold">Unofficial matches</Link>
+                    </div>
                   </div>
                   {secondaryLinks.slice(1).map((link) => (
                     <Link key={link.href} href={link.href} onClick={() => setSidebarOpen(false)} className="block rounded-lg px-3 py-3 text-sm text-paper-dim transition hover:bg-pitch hover:text-gold">
                       {link.label}
                     </Link>
                   ))}
-                  <Link href="/search" onClick={() => setSidebarOpen(false)} className="flex items-center gap-2 rounded-lg px-3 py-3 text-sm text-paper-dim transition hover:bg-pitch hover:text-gold">
-                    <Search size={16} /> Search
-                  </Link>
                 </div>
               </nav>
               <div className="mt-auto border-t border-line px-6 py-5">
