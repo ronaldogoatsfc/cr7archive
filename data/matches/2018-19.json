@@ -362,7 +362,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Miralem Pjanic"
+        "assistedBy": "Miralem Pjanic",
+        "goalkeeper": "Andre Onana"
       }
     ],
     "assistEvents": []
@@ -411,7 +412,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Cancelo"
+        "assistedBy": "Joao Cancelo",
+        "goalkeeper": "Andre Onana"
       }
     ],
     "assistEvents": []
@@ -1367,7 +1369,8 @@
         "goalNumber": 669,
         "minute": "79",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Alban Lafont"
       }
     ],
     "assistEvents": []
@@ -1460,7 +1463,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Miralem Pjanic"
+        "assistedBy": "Miralem Pjanic",
+        "goalkeeper": "Alfred Gomis"
       }
     ],
     "assistEvents": []
@@ -2022,7 +2026,8 @@
         "minute": "50",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Andrea Consigli"
       },
       {
         "id": "ronaldo-goal-660",
@@ -2031,7 +2036,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Emre Can"
+        "assistedBy": "Emre Can",
+        "goalkeeper": "Andrea Consigli"
       }
     ],
     "assistEvents": []
