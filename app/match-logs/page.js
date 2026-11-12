@@ -959,7 +959,7 @@ export default function MatchLogsPage() {
 
     const normalizedQuery = query
       .normalize("NFD")
-      .replace(/[\\u0300-\\u036f]/g, "")
+      .replace(/[\u0300-\u036f]/g, "")
       .toLowerCase();
 
     return filtered.reduce(
@@ -968,7 +968,7 @@ export default function MatchLogsPage() {
         (match.goalEvents || []).filter((event) => {
           const name = String(event.assistedBy || "")
             .normalize("NFD")
-            .replace(/[\\u0300-\\u036f]/g, "")
+            .replace(/[\u0300-\u036f]/g, "")
             .toLowerCase()
             .trim();
           return name.includes(normalizedQuery);
