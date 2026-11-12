@@ -136,6 +136,7 @@ const STAT_GROUPS = [
       { key: "shots", label: "Shots" },
       { key: "shotsOnTarget", label: "On target" },
       { key: "xG", label: "Expected goals (xG)", decimals: 2 },
+      { key: "freeKickAttempts", label: "Free kick attempts" },
     ],
   },
   {
@@ -145,7 +146,6 @@ const STAT_GROUPS = [
       { key: "bigChancesCreated", label: "Big chances created" },
       { key: "xA", label: "xA", decimals: 2 },
       { key: "accurateThroughballs", label: "Throughballs" },
-      { key: "freeKickAttempts", label: "Free kick attempts" },
     ],
   },
   {
@@ -263,6 +263,7 @@ function detailedStatsTotals(matches) {
   const fields = [
     ["shots", "Shots"],
     ["shotsOnTarget", "Shots on Target"],
+    ["freeKickAttempts", "Free Kick Attempts"],
     ["keyPasses", "Key Passes"],
     ["bigChancesCreated", "Big Chances Created"],
     ["successfulDribbles", "Successful Dribbles"],
