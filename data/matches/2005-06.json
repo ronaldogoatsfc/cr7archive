@@ -777,7 +777,8 @@
         "minute": "14",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Antti Niemi"
       },
       {
         "id": "ronaldo-goal-36",
@@ -785,7 +786,8 @@
         "minute": "87",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Antti Niemi"
       }
     ],
     "assistEvents": []
