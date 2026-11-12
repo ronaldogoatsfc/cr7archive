@@ -79,6 +79,19 @@ const DRIBBLE_THRESHOLDS = getCountThresholds((match) => match.stats?.successful
 const AERIAL_DUEL_THRESHOLDS = getCountThresholds((match) => match.stats?.aerialDuelsWon);
 const FREE_KICK_THRESHOLDS = getCountThresholds((match) => match.stats?.freeKickAttempts);
 const THROUGHBALL_THRESHOLDS = getCountThresholds((match) => match.stats?.accurateThroughballs);
+const withExactZeroAndOne = (thresholds) => [
+  { value: "=0", label: "0" },
+  { value: "=1", label: "1" },
+  ...thresholds,
+];
+const SHOT_OPTIONS = withExactZeroAndOne(SHOT_THRESHOLDS);
+const SHOTS_ON_TARGET_OPTIONS = withExactZeroAndOne(SHOTS_ON_TARGET_THRESHOLDS);
+const KEY_PASS_OPTIONS = withExactZeroAndOne(KEY_PASS_THRESHOLDS);
+const BIG_CHANCE_OPTIONS = withExactZeroAndOne(BIG_CHANCE_THRESHOLDS);
+const DRIBBLE_OPTIONS = withExactZeroAndOne(DRIBBLE_THRESHOLDS);
+const AERIAL_DUEL_OPTIONS = withExactZeroAndOne(AERIAL_DUEL_THRESHOLDS);
+const FREE_KICK_OPTIONS = withExactZeroAndOne(FREE_KICK_THRESHOLDS);
+const THROUGHBALL_OPTIONS = withExactZeroAndOne(THROUGHBALL_THRESHOLDS);
 const XG_THRESHOLDS = ["0.5+", "1+", "1.5+", "2"];
 const RATING_THRESHOLDS = [
   "Below 6/10",
@@ -156,11 +169,14 @@ function Select({ label, value, onChange, options, allLabel = "All", infoTitle, 
         className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
       >
         <option value="All">{allLabel}</option>
-        {options.map((opt) => (
-          <option key={opt} value={opt}>
-            {opt}
-          </option>
-        ))}
+        {options.map((opt) => {
+          const option = typeof opt === "string" ? { value: opt, label: opt } : opt;
+          return (
+            <option key={option.value} value={option.value}>
+              {option.label}
+            </option>
+          );
+        })}
       </select>
     </label>
   );
@@ -1141,19 +1157,19 @@ export default function MatchLogsPage() {
                 label="Shots"
                 value={filters.minShots}
                 onChange={(v) => updateFilter("minShots", v)}
-                options={SHOT_THRESHOLDS}
+                options={SHOT_OPTIONS}
               />
               <MinSelect
                 label="Shots on Target"
                 value={filters.minShotsOnTarget}
                 onChange={(v) => updateFilter("minShotsOnTarget", v)}
-                options={SHOTS_ON_TARGET_THRESHOLDS}
+                options={SHOTS_ON_TARGET_OPTIONS}
               />
               <MinSelect
                 label="Key Passes"
                 value={filters.minKeyPasses}
                 onChange={(v) => updateFilter("minKeyPasses", v)}
-                options={KEY_PASS_THRESHOLDS}
+                options={KEY_PASS_OPTIONS}
                 infoTitle="Key Passes"
                 infoContent="The final pass leading to a shot on goal by a teammate."
               />
@@ -1161,31 +1177,31 @@ export default function MatchLogsPage() {
                 label="Big Chances Created"
                 value={filters.minBigChancesCreated}
                 onChange={(v) => updateFilter("minBigChancesCreated", v)}
-                options={BIG_CHANCE_THRESHOLDS}
+                options={BIG_CHANCE_OPTIONS}
               />
               <MinSelect
                 label="Dribbles"
                 value={filters.minDribbles}
                 onChange={(v) => updateFilter("minDribbles", v)}
-                options={DRIBBLE_THRESHOLDS}
+                options={DRIBBLE_OPTIONS}
               />
               <MinSelect
                 label="Aerial Duels Won"
                 value={filters.minAerialDuelsWon}
                 onChange={(v) => updateFilter("minAerialDuelsWon", v)}
-                options={AERIAL_DUEL_THRESHOLDS}
+                options={AERIAL_DUEL_OPTIONS}
               />
               <MinSelect
                 label="Free Kick Attempts"
                 value={filters.minFreeKickAttempts}
                 onChange={(v) => updateFilter("minFreeKickAttempts", v)}
-                options={FREE_KICK_THRESHOLDS}
+                options={FREE_KICK_OPTIONS}
               />
               <MinSelect
                 label="Throughballs"
                 value={filters.minThroughballs}
                 onChange={(v) => updateFilter("minThroughballs", v)}
-                options={THROUGHBALL_THRESHOLDS}
+                options={THROUGHBALL_OPTIONS}
               />
               <MinSelect
                 label="xG"
