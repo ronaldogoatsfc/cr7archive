@@ -300,7 +300,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Andres Fernandez"
       }
     ],
     "assistEvents": []
@@ -903,7 +904,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Lucas Vazquez"
+        "assistedBy": "Lucas Vazquez",
+        "goalkeeper": "Alphonse Areola"
       }
     ],
     "assistEvents": [
@@ -1073,7 +1075,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Casemiro"
+        "assistedBy": "Casemiro",
+        "goalkeeper": "Antonio Adan"
       }
     ],
     "assistEvents": []
@@ -1120,7 +1123,8 @@
         "goalNumber": 632,
         "minute": "45",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Alphonse Areola"
       },
       {
         "id": "ronaldo-goal-633",
@@ -1128,7 +1132,8 @@
         "minute": "83",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Alphonse Areola"
       }
     ],
     "assistEvents": []
