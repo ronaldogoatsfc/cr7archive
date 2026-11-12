@@ -344,7 +344,7 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo Brozovic"
+        "assistedBy": "Brozovic"
       }
     ],
     "assistEvents": []
@@ -530,7 +530,7 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo Brozovic"
+        "assistedBy": "Brozovic"
       },
       {
         "id": "ronaldo-goal-890",
@@ -1207,7 +1207,7 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sultan Al-Ghanam"
+        "assistedBy": "Sultan Al-Ghannam"
       }
     ],
     "assistEvents": []
@@ -1256,7 +1256,7 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo Brozovic"
+        "assistedBy": "Brozovic"
       }
     ],
     "assistEvents": []
@@ -1411,7 +1411,7 @@
         "id": "ronaldo-assist-249",
         "assistNumber": 249,
         "minute": "59",
-        "assistedPlayer": "Marcelo Brozovic",
+        "assistedPlayer": "Brozovic",
         "optaAssist": true
       }
     ]
@@ -1972,7 +1972,7 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Sultan Al-Ghanam"
+        "assistedBy": "Sultan Al-Ghannam"
       },
       {
         "id": "ronaldo-goal-862",
@@ -1981,7 +1981,7 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sultan Al-Ghanam"
+        "assistedBy": "Sultan Al-Ghannam"
       }
     ],
     "assistEvents": [
@@ -2653,7 +2653,7 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sultan Al-Ghanam"
+        "assistedBy": "Sultan Al-Ghannam"
       },
       {
         "id": "ronaldo-goal-846",
@@ -2710,7 +2710,7 @@
         "id": "ronaldo-assist-237",
         "assistNumber": 237,
         "minute": "90+7",
-        "assistedPlayer": "Marcelo Brozovic",
+        "assistedPlayer": "Brozovic",
         "optaAssist": true
       }
     ]
@@ -2795,7 +2795,7 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sultan Al-Ghanam"
+        "assistedBy": "Sultan Al-Ghannam"
       },
       {
         "id": "ronaldo-goal-844",
@@ -2993,7 +2993,7 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sultan Al-Ghanam"
+        "assistedBy": "Sultan Al-Ghannam"
       }
     ],
     "assistEvents": [
