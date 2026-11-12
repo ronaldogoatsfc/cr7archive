@@ -39,14 +39,14 @@ export default function NavBar() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-pitch/90 backdrop-blur">
-      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-3 gap-y-2 px-6 py-4 xl:flex-nowrap">
+      <div className="mx-auto flex max-w-7xl flex-nowrap items-center justify-between gap-x-3 px-6 py-4">
         <Link href="/" className="flex shrink-0 items-baseline gap-2 whitespace-nowrap">
           <span className="font-display text-xl font-semibold tracking-tight text-paper xl:text-2xl">
             THE RONALDO ARCHIVE
           </span>
         </Link>
 
-        <nav className="flex flex-wrap items-center gap-0.5 xl:flex-nowrap xl:gap-0">
+        <nav className="ml-auto flex min-w-0 max-w-full flex-1 flex-nowrap items-center justify-end gap-0.5 overflow-x-auto whitespace-nowrap [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {primaryLinks.map((link) => (
             <Link
               key={link.href}
