@@ -953,6 +953,29 @@ export default function MatchLogsPage() {
   );
 
   const totals = useMemo(() => careerTotals(filtered), [filtered]);
+  const assistedGoalCount = useMemo(() => {
+    const query = filters.assistedBy.trim();
+    if (!query) return null;
+
+    const normalizedQuery = query
+      .normalize("NFD")
+      .replace(/[\\u0300-\\u036f]/g, "")
+      .toLowerCase();
+
+    return filtered.reduce(
+      (count, match) =>
+        count +
+        (match.goalEvents || []).filter((event) => {
+          const name = String(event.assistedBy || "")
+            .normalize("NFD")
+            .replace(/[\\u0300-\\u036f]/g, "")
+            .toLowerCase()
+            .trim();
+          return name.includes(normalizedQuery);
+        }).length,
+      0
+    );
+  }, [filtered, filters.assistedBy]);
   const detailedTotals = useMemo(() => {
     const summaryMatches = includeUnofficialStats
       ? filtered
@@ -1293,7 +1316,15 @@ export default function MatchLogsPage() {
 
       <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
         <StatCard label="Matches" value={totals.matches} />
-        <StatCard label="Goals" value={totals.goals} />
+        <StatCard
+          label="Goals"
+          value={totals.goals}
+          detail={
+            assistedGoalCount !== null
+              ? `${assistedGoalCount} ${assistedGoalCount === 1 ? "goal" : "goals"} assisted by ${filters.assistedBy.trim()}`
+              : undefined
+          }
+        />
         <StatCard
           label="Assists"
           value={totals.assists}
