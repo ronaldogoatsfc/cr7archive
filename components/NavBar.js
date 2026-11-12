@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import { ChevronDown, Search } from "lucide-react";
+import { ChevronDown, Search, Menu, X } from "lucide-react";
 
 const primaryLinks = [{ href: "/", label: "Home" }];
 
@@ -25,7 +25,24 @@ const secondaryLinks = [
 
 export default function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const containerRef = useRef(null);
+
+  useEffect(() => {
+    function handleKeyDown(e) {
+      if (e.key === "Escape") {
+        setMenuOpen(false);
+        setSidebarOpen(false);
+      }
+    }
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, []);
+
+  useEffect(() => {
+    document.body.style.overflow = sidebarOpen ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [sidebarOpen]);
 
   useEffect(() => {
     function handleClickOutside(e) {
@@ -117,7 +134,68 @@ export default function NavBar() {
             <span>Search</span>
           </Link>
         </nav>
+
+        <button
+          type="button"
+          onClick={() => setSidebarOpen(true)}
+          aria-label="Open navigation menu"
+          aria-expanded={sidebarOpen}
+          className="ml-1 inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg text-gold transition hover:bg-pitch-raised hover:text-gold-bright focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+        >
+          <Menu size={27} strokeWidth={2.5} />
+        </button>
       </div>
+
+      {sidebarOpen && (
+        <div className="fixed inset-0 z-50">
+          <button
+            type="button"
+            aria-label="Close navigation menu"
+            onClick={() => setSidebarOpen(false)}
+            className="absolute inset-0 cursor-default bg-black/65 backdrop-blur-[2px]"
+          />
+          <aside
+            id="site-navigation-drawer"
+            aria-label="Site navigation"
+            className="absolute right-0 top-0 flex h-full w-[min(88vw,360px)] flex-col border-l border-line bg-pitch-raised shadow-2xl"
+          >
+            <div className="flex items-center justify-between border-b border-line px-6 py-5">
+              <span className="font-display text-lg font-semibold tracking-wide text-paper">THE RONALDO ARCHIVE</span>
+              <button
+                type="button"
+                onClick={() => setSidebarOpen(false)}
+                aria-label="Close navigation menu"
+                className="rounded-lg p-2 text-paper-dim transition hover:bg-pitch hover:text-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+              >
+                <X size={21} />
+              </button>
+            </div>
+            <nav className="flex-1 overflow-y-auto px-4 py-5" aria-label="Sidebar navigation">
+              <p className="px-3 pb-3 font-mono text-[10px] uppercase tracking-[0.25em] text-gold">Explore the archive</p>
+              <div className="space-y-1">
+                {[...primaryLinks, ...secondaryLinks.slice(0, 1)].map((link) => (
+                  <Link key={link.href} href={link.href} onClick={() => setSidebarOpen(false)} className="block rounded-lg px-3 py-3 text-sm text-paper-dim transition hover:bg-pitch hover:text-gold">
+                    {link.label}
+                  </Link>
+                ))}
+                <div className="rounded-lg px-3 py-2">
+                  <Link href="/match-logs" onClick={() => setSidebarOpen(false)} className="block py-1 text-sm font-medium text-paper transition hover:text-gold">Match Logs</Link>
+                  <Link href="/match-logs/unofficial" onClick={() => setSidebarOpen(false)} className="mt-2 block pl-3 text-sm text-paper-dim transition hover:text-gold">Unofficial matches</Link>
+                </div>
+                {secondaryLinks.slice(1).map((link) => (
+                  <Link key={link.href} href={link.href} onClick={() => setSidebarOpen(false)} className="block rounded-lg px-3 py-3 text-sm text-paper-dim transition hover:bg-pitch hover:text-gold">
+                    {link.label}
+                  </Link>
+                ))}
+                <Link href="/search" onClick={() => setSidebarOpen(false)} className="flex items-center gap-2 rounded-lg px-3 py-3 text-sm text-paper-dim transition hover:bg-pitch hover:text-gold">
+                  <Search size={16} /> Search
+                </Link>
+              </div>
+            </nav>
+            <div className="border-t border-line px-6 py-4 font-mono text-[10px] uppercase tracking-widest text-paper-dim">The Statistical Archive of Cristiano Ronaldo</div>
+          </aside>
+        </div>
+      )}
     </header>
   );
 }
