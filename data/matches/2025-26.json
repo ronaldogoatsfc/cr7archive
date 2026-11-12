@@ -166,7 +166,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Cancelo"
+        "assistedBy": "Joao Cancelo",
+        "goalkeeper": "Abduvokhid Nematov"
       },
       {
         "id": "ronaldo-goal-975",
@@ -175,7 +176,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Bruno Fernandes"
+        "assistedBy": "Bruno Fernandes",
+        "goalkeeper": "Abduvokhid Nematov"
       }
     ],
     "assistEvents": [],
@@ -1237,7 +1239,8 @@
         "goalNumber": 958,
         "minute": "81",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Ahmed Al-Kassar"
       }
     ],
     "assistEvents": []
@@ -1472,7 +1475,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nawaf Boushal"
+        "assistedBy": "Nawaf Boushal",
+        "goalkeeper": "Anthony Moris"
       }
     ],
     "assistEvents": []
@@ -1744,7 +1748,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Sadio Mané"
+        "assistedBy": "Sadio Mané",
+        "goalkeeper": "Amin Al-Bukhari"
       }
     ],
     "assistEvents": [
@@ -2148,7 +2153,8 @@
         "goalNumber": 940,
         "minute": "54",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Abdulquddus Atiah"
       }
     ],
     "assistEvents": [
