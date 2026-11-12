@@ -49,6 +49,8 @@ const DEFAULT_FILTERS = {
   minDribbles: "Any",
   minAerialDuelsWon: "Any",
   minThroughballs: "Any",
+  minFreeKickAttempts: "Any",
+  minXG: "Any",
   minRating: "Any",
   motm: "All",
   // footage
@@ -79,6 +81,12 @@ const BIG_CHANCE_THRESHOLDS = getCountThresholds((match) => match.stats?.bigChan
 const DRIBBLE_THRESHOLDS = getCountThresholds((match) => match.stats?.successfulDribbles);
 const AERIAL_DUEL_THRESHOLDS = getCountThresholds((match) => match.stats?.aerialDuelsWon);
 const THROUGHBALL_THRESHOLDS = getCountThresholds((match) => match.stats?.accurateThroughballs);
+const FREE_KICK_ATTEMPT_THRESHOLDS = getCountThresholds((match) => match.stats?.freeKickAttempts);
+const XG_MAX = matches.reduce((max, match) => Math.max(max, Number(match.stats?.xG) || 0), 0);
+const XG_THRESHOLDS = Array.from({ length: Math.ceil(XG_MAX * 2) }, (_, index) => {
+  const value = (index + 1) * 0.5;
+  return { value: String(value), label: `${value.toFixed(1)}+` };
+});
 const withExactZeroAndOne = (thresholds) => [
   { value: "=0", label: "0" },
   { value: "=1", label: "1" },
@@ -91,6 +99,7 @@ const BIG_CHANCE_OPTIONS = withExactZeroAndOne(BIG_CHANCE_THRESHOLDS);
 const DRIBBLE_OPTIONS = withExactZeroAndOne(DRIBBLE_THRESHOLDS);
 const AERIAL_DUEL_OPTIONS = withExactZeroAndOne(AERIAL_DUEL_THRESHOLDS);
 const THROUGHBALL_OPTIONS = withExactZeroAndOne(THROUGHBALL_THRESHOLDS);
+const FREE_KICK_ATTEMPT_OPTIONS = withExactZeroAndOne(FREE_KICK_ATTEMPT_THRESHOLDS);
 const RATING_THRESHOLDS = [
   "Below 6/10",
   "6/10+",
@@ -126,6 +135,7 @@ const STAT_GROUPS = [
     fields: [
       { key: "shots", label: "Shots" },
       { key: "shotsOnTarget", label: "On target" },
+      { key: "xG", label: "Expected goals (xG)", decimals: 2 },
     ],
   },
   {
@@ -135,6 +145,7 @@ const STAT_GROUPS = [
       { key: "bigChancesCreated", label: "Big chances created" },
       { key: "xA", label: "xA", decimals: 2 },
       { key: "accurateThroughballs", label: "Throughballs" },
+      { key: "freeKickAttempts", label: "Free kick attempts" },
     ],
   },
   {
@@ -278,11 +289,13 @@ function detailedStatsTotals(matches) {
     ...sumMetric(key),
   }));
   const xA = sumMetric("xA");
+  const xG = sumMetric("xG");
   const ratings = sumMetric("rating");
 
   return {
     totals,
     xA: { ...xA, value: xA.value.toFixed(2) },
+    xG: { ...xG, value: xG.value.toFixed(2) },
     averageRating: {
       value: ratings.recorded ? (ratings.value / ratings.recorded).toFixed(2) : "—",
       recorded: ratings.recorded,
@@ -385,6 +398,7 @@ function EventSection({ title, count, events, type }) {
           ["goalType", "Goal type"],
           ["bodyPart", "Finish"],
           ["shotLocation", "Shot location"],
+          ["goalkeeper", "Goalkeeper"],
           ["assistedBy", "Assisted by"],
           ["gameState", "Game state"],
           ["goalPeriod", "Goal period"],
@@ -1260,6 +1274,18 @@ export default function MatchLogsPage() {
                 options={AERIAL_DUEL_OPTIONS}
               />
               <MinSelect
+                label="Free Kick Attempts"
+                value={filters.minFreeKickAttempts}
+                onChange={(v) => updateFilter("minFreeKickAttempts", v)}
+                options={FREE_KICK_ATTEMPT_OPTIONS}
+              />
+              <MinSelect
+                label="Expected Goals (xG)"
+                value={filters.minXG}
+                onChange={(v) => updateFilter("minXG", v)}
+                options={XG_THRESHOLDS}
+              />
+              <MinSelect
                 label="Throughballs"
                 value={filters.minThroughballs}
                 onChange={(v) => updateFilter("minThroughballs", v)}
@@ -1412,6 +1438,11 @@ export default function MatchLogsPage() {
               detail={`Recorded for ${stat.recorded} matches`}
             />
           ))}
+          <SummaryStatCard
+            label="Expected Goals (xG)"
+            value={detailedTotals.xG.value}
+            detail={`Recorded for ${detailedTotals.xG.recorded} matches`}
+          />
           <SummaryStatCard
             label="Expected Assists (xA)"
             value={detailedTotals.xA.value}
