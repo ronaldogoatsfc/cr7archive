@@ -769,7 +769,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angelo"
+        "assistedBy": "Angelo",
+        "goalkeeper": "Abdullah Al-Oaisher"
       }
     ],
     "assistEvents": [
@@ -945,7 +946,8 @@
         "goalNumber": 922,
         "minute": "44",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Anas Zniti"
       },
       {
         "id": "ronaldo-goal-923",
@@ -954,7 +956,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sadio Mané"
+        "assistedBy": "Sadio Mané",
+        "goalkeeper": "Anas Zniti"
       }
     ],
     "assistEvents": []
@@ -1292,7 +1295,8 @@
         "goalNumber": 914,
         "minute": "17",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Amin Al-Bukhari"
       },
       {
         "id": "ronaldo-goal-915",
@@ -1301,7 +1305,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nawaf Boushal"
+        "assistedBy": "Nawaf Boushal",
+        "goalkeeper": "Amin Al-Bukhari"
       }
     ],
     "assistEvents": []
@@ -1796,7 +1801,8 @@
         "minute": "37",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Angus Gunn"
       }
     ],
     "assistEvents": [],
@@ -1945,7 +1951,8 @@
         "goalNumber": 903,
         "minute": "56",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Abdullah Al-Oaisher"
       }
     ],
     "assistEvents": []
@@ -2076,7 +2083,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nuno Mendes"
+        "assistedBy": "Nuno Mendes",
+        "goalkeeper": "Angus Gunn"
       }
     ],
     "assistEvents": [],
@@ -2173,7 +2181,8 @@
         "minute": "45",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Abdulraouf Al-Duqayl"
       }
     ],
     "assistEvents": [
