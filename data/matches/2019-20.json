@@ -41,7 +41,8 @@
         "goalNumber": 736,
         "minute": "43",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Anthony Lopes"
       },
       {
         "id": "ronaldo-goal-737",
@@ -50,7 +51,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Federico Bernardeschi"
+        "assistedBy": "Federico Bernardeschi",
+        "goalkeeper": "Anthony Lopes"
       }
     ],
     "assistEvents": []
@@ -985,7 +987,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Rodrigo Bentancur"
+        "assistedBy": "Rodrigo Bentancur",
+        "goalkeeper": "Alex Meret"
       }
     ],
     "assistEvents": []
@@ -1582,7 +1585,8 @@
         "minute": "86",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Anthony Moris"
       }
     ],
     "assistEvents": [],
@@ -1943,7 +1947,8 @@
         "goalNumber": 700,
         "minute": "72",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Andriy Pyatov"
       }
     ],
     "assistEvents": [],
@@ -1991,7 +1996,8 @@
         "minute": "65",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Anthony Moris"
       }
     ],
     "assistEvents": [],
@@ -2424,7 +2430,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Douglas Costa"
+        "assistedBy": "Douglas Costa",
+        "goalkeeper": "Alex Meret"
       }
     ],
     "assistEvents": []
