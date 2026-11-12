@@ -35,8 +35,11 @@ const DEFAULT_FILTERS = {
   scoredBy: "",
   assistedBy: "",
   goalType: "All",
+  goalTypeMin: "Any",
   finish: "All",
+  finishMin: "Any",
   shotLocation: "All",
+  shotLocationMin: "Any",
   // performance stats
   detailedStats: "All",
   minShots: "Any",
@@ -114,6 +117,8 @@ function getGoalEventOptions(key) {
 const GOAL_TYPE_OPTIONS = getGoalEventOptions("goalType");
 const FINISH_OPTIONS = getGoalEventOptions("bodyPart");
 const SHOT_LOCATION_OPTIONS = getGoalEventOptions("shotLocation");
+const GOAL_EVENT_COUNT_OPTIONS = getCountThresholds((match) => match.goalEvents?.length)
+  .map((value, index) => ({ value: String(index + 1), label: String(index + 1) + "+" }));
 
 const STAT_GROUPS = [
   {
@@ -1149,17 +1154,35 @@ export default function MatchLogsPage() {
                 onChange={(v) => updateFilter("goalType", v)}
                 options={GOAL_TYPE_OPTIONS}
               />
+              <MinSelect
+                label="Goal Type Count"
+                value={filters.goalTypeMin}
+                onChange={(v) => updateFilter("goalTypeMin", v)}
+                options={GOAL_EVENT_COUNT_OPTIONS}
+              />
               <Select
                 label="Finish"
                 value={filters.finish}
                 onChange={(v) => updateFilter("finish", v)}
                 options={FINISH_OPTIONS}
               />
+              <MinSelect
+                label="Finish Count"
+                value={filters.finishMin}
+                onChange={(v) => updateFilter("finishMin", v)}
+                options={GOAL_EVENT_COUNT_OPTIONS}
+              />
               <Select
                 label="Shot Location"
                 value={filters.shotLocation}
                 onChange={(v) => updateFilter("shotLocation", v)}
                 options={SHOT_LOCATION_OPTIONS}
+              />
+              <MinSelect
+                label="Shot Location Count"
+                value={filters.shotLocationMin}
+                onChange={(v) => updateFilter("shotLocationMin", v)}
+                options={GOAL_EVENT_COUNT_OPTIONS}
               />
             </FilterSection>
 
