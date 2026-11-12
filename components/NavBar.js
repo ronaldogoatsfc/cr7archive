@@ -57,7 +57,7 @@ export default function NavBar() {
             </Link>
           ))}
 
-          <div className="relative" ref={containerRef}>
+          <div className="relative shrink-0" ref={containerRef}>
             <div className="flex items-center rounded-full transition hover:bg-pitch-raised">
               <Link
                 href="/match-logs"
