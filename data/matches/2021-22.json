@@ -1210,7 +1210,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcus Rashford"
+        "assistedBy": "Marcus Rashford",
+        "goalkeeper": "Aaron Ramsdale"
       },
       {
         "id": "ronaldo-goal-801",
@@ -1741,14 +1742,16 @@
         "goalNumber": 792,
         "minute": "8",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Anthony Moris"
       },
       {
         "id": "ronaldo-goal-793",
         "goalNumber": 793,
         "minute": "13",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Anthony Moris"
       },
       {
         "id": "ronaldo-goal-794",
@@ -1757,7 +1760,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ruben Neves"
+        "assistedBy": "Ruben Neves",
+        "goalkeeper": "Anthony Moris"
       }
     ],
     "assistEvents": [],
