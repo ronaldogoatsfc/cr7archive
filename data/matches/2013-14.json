@@ -410,7 +410,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Andres Fernandez"
       },
       {
         "id": "ronaldo-goal-420",
@@ -419,7 +420,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Isco"
+        "assistedBy": "Isco",
+        "goalkeeper": "Andres Fernandez"
       }
     ],
     "assistEvents": []
@@ -1354,7 +1356,8 @@
         "minute": "22",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Andres Fernandez"
       }
     ],
     "assistEvents": []
@@ -1732,7 +1735,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Moutinho"
+        "assistedBy": "Joao Moutinho",
+        "goalkeeper": "Andreas Isaksson"
       },
       {
         "id": "ronaldo-goal-394",
@@ -1741,7 +1745,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Hugo Almeida"
+        "assistedBy": "Hugo Almeida",
+        "goalkeeper": "Andreas Isaksson"
       },
       {
         "id": "ronaldo-goal-395",
@@ -1750,7 +1755,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Moutinho"
+        "assistedBy": "Joao Moutinho",
+        "goalkeeper": "Andreas Isaksson"
       }
     ],
     "assistEvents": [],
@@ -1800,7 +1806,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Miguel Veloso"
+        "assistedBy": "Miguel Veloso",
+        "goalkeeper": "Andreas Isaksson"
       }
     ],
     "assistEvents": [],
@@ -2461,7 +2468,8 @@
         "goalNumber": 373,
         "minute": "34",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Angel Moya"
       },
       {
         "id": "ronaldo-goal-374",
@@ -2470,7 +2478,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sami Khedira"
+        "assistedBy": "Sami Khedira",
+        "goalkeeper": "Angel Moya"
       }
     ],
     "assistEvents": [
