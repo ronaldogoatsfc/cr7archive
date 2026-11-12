@@ -88,7 +88,6 @@ const BIG_CHANCE_OPTIONS = withExactZeroAndOne(BIG_CHANCE_THRESHOLDS);
 const DRIBBLE_OPTIONS = withExactZeroAndOne(DRIBBLE_THRESHOLDS);
 const AERIAL_DUEL_OPTIONS = withExactZeroAndOne(AERIAL_DUEL_THRESHOLDS);
 const THROUGHBALL_OPTIONS = withExactZeroAndOne(THROUGHBALL_THRESHOLDS);
-const XG_THRESHOLDS = ["0.5+", "1+", "1.5+", "2"];
 const RATING_THRESHOLDS = [
   "Below 6/10",
   "6/10+",
