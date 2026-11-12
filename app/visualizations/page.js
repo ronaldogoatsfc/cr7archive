@@ -707,6 +707,9 @@ export default function VisualizationsPage() {
   )[0];
 
   const leadingCompetition = competitionGoals[0];
+  const today = new Date();
+  const dayNumber = Math.floor(Date.UTC(today.getFullYear(), today.getMonth(), today.getDate()) / 86400000);
+  const visualizationOfTheDay = charts[dayNumber % charts.length];
 
   return (
     <main className="mx-auto max-w-6xl px-6 py-12">
@@ -725,6 +728,21 @@ export default function VisualizationsPage() {
         explanation of its calculation and limitations to help you interpret
         the data.
       </p>
+
+      <section className="mt-10">
+        <div className="mb-5">
+          <p className="font-mono text-xs uppercase tracking-[0.25em] text-gold">
+            Daily feature
+          </p>
+          <h2 className="mt-2 font-display text-2xl font-semibold text-paper">
+            Visualization of the day
+          </h2>
+          <p className="mt-2 max-w-2xl text-sm leading-6 text-paper-dim">
+            A featured chart selected for today. It changes once per day.
+          </p>
+        </div>
+        {visualizationOfTheDay && <ChartCard chart={visualizationOfTheDay} />}
+      </section>
 
       <section className="mt-10">
         <p className="font-mono text-xs uppercase tracking-[0.25em] text-gold">
