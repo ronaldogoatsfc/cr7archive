@@ -1410,7 +1410,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nemanja Vidic"
+        "assistedBy": "Nemanja Vidic",
+        "goalkeeper": "Antti Niemi"
       },
       {
         "id": "ronaldo-goal-88",
@@ -1419,7 +1420,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "John O'Shea"
+        "assistedBy": "John O'Shea",
+        "goalkeeper": "Antti Niemi"
       }
     ],
     "assistEvents": []
@@ -2069,7 +2071,8 @@
         "minute": "73",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Artur Boruc"
       }
     ],
     "assistEvents": [],
