@@ -201,11 +201,14 @@ function MinSelect({ label, value, onChange, options, infoTitle, infoContent }) 
         className="rounded-lg border border-line bg-pitch px-3 py-2 text-sm text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
       >
         <option value="Any">Any</option>
-        {options.map((opt) => (
-          <option key={opt} value={opt}>
-            {opt}
-          </option>
-        ))}
+        {options.map((opt) => {
+          const option = typeof opt === "string" ? { value: opt, label: opt } : opt;
+          return (
+            <option key={option.value} value={option.value}>
+              {option.label}
+            </option>
+          );
+        })}
       </select>
     </label>
   );
