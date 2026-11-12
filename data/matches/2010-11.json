@@ -1440,8 +1440,7 @@
         "minute": "79",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box",
-        "assistedBy": "Kaka"
+        "shotLocation": "Inside Box"
       }
     ],
     "assistEvents": [
@@ -2156,8 +2155,7 @@
         "minute": "82",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "shotLocation": "Inside Box"
       },
       {
         "id": "ronaldo-goal-193",
