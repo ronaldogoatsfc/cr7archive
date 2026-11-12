@@ -365,7 +365,8 @@
         "goalNumber": 300,
         "minute": "81",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Julio Cesar"
       }
     ],
     "assistEvents": []
