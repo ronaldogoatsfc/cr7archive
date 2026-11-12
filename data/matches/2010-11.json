@@ -1953,20 +1953,6 @@
     "assists": 0,
     "yellowCard": true,
     "redCard": null,
-    "stats": {
-      "shots": 1,
-      "shotsOnTarget": 1,
-      "keyPasses": 1,
-      "bigChancesCreated": null,
-      "successfulDribbles": 1,
-      "aerialDuelsWon": null,
-      "freeKickAttempts": null,
-      "accurateThroughballs": null,
-      "xG": null,
-      "xA": null,
-      "rating": null,
-      "motm": false
-    },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=xG1DZk7y1ZA",
     "hasFullMatch": true,
@@ -1980,8 +1966,6 @@
         "assistClarification": "GK rebound"
       }
     ],
-    "statsSource": "manual",
-    "statsStatus": "unofficial",
     "manager": "Paulo Bento"
   },
   {
@@ -2039,20 +2023,6 @@
     "assists": 0,
     "yellowCard": null,
     "redCard": null,
-    "stats": {
-      "shots": 7,
-      "shotsOnTarget": 2,
-      "keyPasses": null,
-      "bigChancesCreated": null,
-      "successfulDribbles": 1,
-      "aerialDuelsWon": 1,
-      "freeKickAttempts": null,
-      "accurateThroughballs": null,
-      "xG": null,
-      "xA": null,
-      "rating": null,
-      "motm": false
-    },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=wKHluvV4HVo",
     "hasFullMatch": true,
@@ -2068,9 +2038,7 @@
         "assistedBy": "Angel Di Maria"
       }
     ],
-    "assistEvents": [],
-    "statsSource": "manual",
-    "statsStatus": "unofficial"
+    "assistEvents": []
   },
   {
     "id": "2010-11-07",
