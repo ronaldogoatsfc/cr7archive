@@ -192,7 +192,21 @@ export default function NavBar() {
                   </Link>
                 </div>
               </nav>
-              <div className="border-t border-line px-6 py-4 font-mono text-[10px] uppercase tracking-widest text-paper-dim">The Statistical Archive of Cristiano Ronaldo</div>
+              <div className="mt-auto border-t border-line px-6 py-5">
+                <p className="mb-4 font-mono text-[10px] uppercase tracking-[0.2em] text-paper-dim">Follow the archive</p>
+                <div className="flex items-center gap-5">
+                  <a href="https://youtube.com/@soham-hd" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube" className="text-paper-dim transition hover:text-gold">
+                    <svg viewBox="0 0 24 24" width="23" height="23" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.2 3.6-6.2 3.6Z"/></svg>
+                  </a>
+                  <a href="https://x.com/ronaldogoatsfc" target="_blank" rel="noopener noreferrer" aria-label="X" title="X" className="text-paper-dim transition hover:text-gold">
+                    <svg viewBox="0 0 24 24" width="21" height="21" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3L12 14.6 5.6 22H2.4l7.3-8.4L1.9 2h6.5l4.5 6.8L18.9 2Zm-1.1 18h1.7L7.4 3.9H5.6L17.8 20Z"/></svg>
+                  </a>
+                  <a href="https://tiktok.com/@sohamftbl" target="_blank" rel="noopener noreferrer" aria-label="TikTok" title="TikTok" className="text-paper-dim transition hover:text-gold">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M19.6 6.2a5.5 5.5 0 0 1-3.4-1.1A5.6 5.6 0 0 1 14.4 2h-3.5v13.7a2.8 2.8 0 1 1-2.8-2.8c.3 0 .6 0 .9.1v-3.6a6.4 6.4 0 1 0 5.4 6.3V8.6a9 9 0 0 0 5.2 1.7V6.8c-.0 0 0-.4 0-.6Z"/></svg>
+                  </a>
+                </div>
+                <p className="mt-5 font-mono text-[10px] uppercase tracking-widest text-paper-dim">The Statistical Archive of Cristiano Ronaldo</p>
+              </div>
             </aside>
           </div>
       )}
