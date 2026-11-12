@@ -367,7 +367,7 @@
       "xG": 0.53,
       "xA": 0.05,
       "rating": 8,
-      "motm": false
+      "motm": true
     },
     "hasMatchComp": true,
     "matchCompUrl": "https://www.youtube.com/watch?v=m1pDq8bcj38",
