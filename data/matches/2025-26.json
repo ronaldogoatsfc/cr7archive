@@ -336,7 +336,8 @@
         "goalNumber": 972,
         "minute": "63",
         "goalType": "Free Kick",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "shotLocation": "Outside Box"
       },
       {
         "id": "ronaldo-goal-973",
