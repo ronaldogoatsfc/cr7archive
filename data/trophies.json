@@ -67,8 +67,7 @@
     "season": "2017/18",
     "year": 2017,
     "domestic": true,
-    "isFriendly": false,
-    "articleSlug": "ronaldo-2017-ballon-dor"
+    "isFriendly": false
   },
   {
     "id": "2018-19-italian-super-cup",
@@ -169,8 +168,7 @@
     "season": "2017/18",
     "year": 2017,
     "domestic": false,
-    "isFriendly": false,
-    "articleSlug": "ronaldo-2017-ballon-dor"
+    "isFriendly": false
   },
   {
     "id": "2018-19-uefa-nations-league",
@@ -211,8 +209,7 @@
     "season": "2017/18",
     "year": 2017,
     "domestic": false,
-    "isFriendly": false,
-    "articleSlug": "ronaldo-2017-ballon-dor"
+    "isFriendly": false
   },
   {
     "id": "2018-19-italian-league",
@@ -253,8 +250,7 @@
     "season": "2016/17",
     "year": 2017,
     "domestic": true,
-    "isFriendly": false,
-    "articleSlug": "ronaldo-2017-ballon-dor"
+    "isFriendly": false
   },
   {
     "id": "2006-07-english-league",
@@ -327,8 +323,7 @@
     "season": "2016/17",
     "year": 2017,
     "domestic": false,
-    "isFriendly": false,
-    "articleSlug": "ronaldo-2017-ballon-dor"
+    "isFriendly": false
   },
   {
     "id": "2016-uefa-euro-championship",
