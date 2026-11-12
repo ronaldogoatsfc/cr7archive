@@ -881,7 +881,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Xabi Alonso"
+        "assistedBy": "Xabi Alonso",
+        "goalkeeper": "Andres Fernandez"
       },
       {
         "id": "ronaldo-goal-288",
@@ -889,7 +890,8 @@
         "minute": "70",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Andres Fernandez"
       }
     ],
     "assistEvents": [
@@ -2162,7 +2164,8 @@
         "minute": "8",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Asmir Begovic"
       },
       {
         "id": "ronaldo-goal-258",
@@ -2171,7 +2174,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Moutinho"
+        "assistedBy": "Joao Moutinho",
+        "goalkeeper": "Asmir Begovic"
       }
     ],
     "assistEvents": [],
@@ -2245,14 +2249,16 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Andres Fernandez"
       },
       {
         "id": "ronaldo-goal-255",
         "goalNumber": 255,
         "minute": "55",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Andres Fernandez"
       },
       {
         "id": "ronaldo-goal-256",
@@ -2261,7 +2267,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Alvaro Arbeloa"
+        "assistedBy": "Alvaro Arbeloa",
+        "goalkeeper": "Andres Fernandez"
       }
     ],
     "assistEvents": []
@@ -2937,7 +2944,8 @@
         "goalNumber": 243,
         "minute": "59",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Angel Moya"
       }
     ],
     "assistEvents": [
@@ -2977,7 +2985,8 @@
         "goalNumber": 241,
         "minute": "35",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Antonis Georgallidis"
       },
       {
         "id": "ronaldo-goal-242",
@@ -2986,7 +2995,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nani"
+        "assistedBy": "Nani",
+        "goalkeeper": "Antonis Georgallidis"
       }
     ],
     "assistEvents": [
