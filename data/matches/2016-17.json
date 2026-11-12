@@ -166,7 +166,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "José Fonte"
+        "assistedBy": "José Fonte",
+        "goalkeeper": "Andris Vanins"
       },
       {
         "id": "ronaldo-goal-602",
@@ -175,7 +176,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ricardo Quaresma"
+        "assistedBy": "Ricardo Quaresma",
+        "goalkeeper": "Andris Vanins"
       }
     ],
     "assistEvents": [
@@ -976,7 +978,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Antonio Adan"
       }
     ],
     "assistEvents": []
@@ -1928,7 +1931,8 @@
         "goalNumber": 561,
         "minute": "28",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Andris Vanins"
       },
       {
         "id": "ronaldo-goal-562",
@@ -1937,7 +1941,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ricardo Quaresma"
+        "assistedBy": "Ricardo Quaresma",
+        "goalkeeper": "Andris Vanins"
       }
     ],
     "assistEvents": [],
@@ -2221,7 +2226,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Alvaro Morata"
+        "assistedBy": "Alvaro Morata",
+        "goalkeeper": "Antonio Adan"
       }
     ],
     "assistEvents": [
