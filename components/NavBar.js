@@ -39,19 +39,19 @@ export default function NavBar() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-pitch/90 backdrop-blur">
-      <div className="mx-auto flex max-w-7xl flex-nowrap items-center justify-between gap-x-3 px-6 py-4">
+      <div className="mx-auto flex max-w-7xl items-center gap-x-3 px-4 py-3 sm:px-6">
         <Link href="/" className="flex shrink-0 items-baseline gap-2 whitespace-nowrap">
-          <span className="font-display text-xl font-semibold tracking-tight text-paper xl:text-2xl">
+          <span className="font-display text-base font-semibold tracking-tight text-paper sm:text-xl xl:text-2xl">
             THE RONALDO ARCHIVE
           </span>
         </Link>
 
-        <nav className="ml-auto flex min-w-0 max-w-full flex-1 flex-nowrap items-center justify-end gap-0.5 overflow-x-auto whitespace-nowrap [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <nav aria-label="Main navigation" className="ml-auto flex min-w-0 flex-1 items-center justify-start gap-0.5 overflow-x-auto overscroll-x-contain whitespace-nowrap [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {primaryLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="rounded-full px-2 py-2 text-sm text-paper-dim transition hover:bg-pitch-raised hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+              className="shrink-0 rounded-full px-2 py-2 text-sm text-paper-dim transition hover:bg-pitch-raised hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
             >
               {link.label}
             </Link>
@@ -61,7 +61,7 @@ export default function NavBar() {
             <div className="flex items-center rounded-full transition hover:bg-pitch-raised">
               <Link
                 href="/match-logs"
-                className="rounded-l-full py-2 pl-2 pr-1 text-sm text-paper-dim transition hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+                className="shrink-0 rounded-l-full py-2 pl-2 pr-1 text-sm text-paper-dim transition hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
               >
                 Match Logs
               </Link>
@@ -69,7 +69,7 @@ export default function NavBar() {
                 onClick={() => setMenuOpen((v) => !v)}
                 aria-expanded={menuOpen}
                 aria-label="Toggle match logs menu"
-                className="rounded-r-full py-2 pl-1 pr-3 text-paper-dim transition hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+                className="shrink-0 rounded-r-full py-2 pl-1 pr-3 text-paper-dim transition hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
               >
                 <ChevronDown
                   size={16}
@@ -101,7 +101,7 @@ export default function NavBar() {
             <Link
               key={link.href}
               href={link.href}
-              className="whitespace-nowrap rounded-full px-2 py-2 text-sm text-paper-dim transition hover:bg-pitch-raised hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+              className="shrink-0 whitespace-nowrap rounded-full px-2 py-2 text-sm text-paper-dim transition hover:bg-pitch-raised hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
             >
               {link.label}
             </Link>
@@ -111,7 +111,7 @@ export default function NavBar() {
             href="/search"
             aria-label="Search the archive"
             title="Search the archive"
-            className="inline-flex items-center gap-1.5 rounded-full px-2 py-2 text-sm text-paper-dim transition hover:bg-pitch-raised hover:text-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+            className="inline-flex shrink-0 items-center gap-1.5 rounded-full px-2 py-2 text-sm text-paper-dim transition hover:bg-pitch-raised hover:text-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
           >
             <Search size={16} />
             <span>Search</span>
