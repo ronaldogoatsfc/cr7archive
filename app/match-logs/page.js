@@ -45,9 +45,7 @@ const DEFAULT_FILTERS = {
   minBigChancesCreated: "Any",
   minDribbles: "Any",
   minAerialDuelsWon: "Any",
-  minFreeKickAttempts: "Any",
   minThroughballs: "Any",
-  minXG: "Any",
   minRating: "Any",
   motm: "All",
   // footage
@@ -77,7 +75,6 @@ const KEY_PASS_THRESHOLDS = getCountThresholds((match) => match.stats?.keyPasses
 const BIG_CHANCE_THRESHOLDS = getCountThresholds((match) => match.stats?.bigChancesCreated);
 const DRIBBLE_THRESHOLDS = getCountThresholds((match) => match.stats?.successfulDribbles);
 const AERIAL_DUEL_THRESHOLDS = getCountThresholds((match) => match.stats?.aerialDuelsWon);
-const FREE_KICK_THRESHOLDS = getCountThresholds((match) => match.stats?.freeKickAttempts);
 const THROUGHBALL_THRESHOLDS = getCountThresholds((match) => match.stats?.accurateThroughballs);
 const withExactZeroAndOne = (thresholds) => [
   { value: "=0", label: "0" },
@@ -90,7 +87,6 @@ const KEY_PASS_OPTIONS = withExactZeroAndOne(KEY_PASS_THRESHOLDS);
 const BIG_CHANCE_OPTIONS = withExactZeroAndOne(BIG_CHANCE_THRESHOLDS);
 const DRIBBLE_OPTIONS = withExactZeroAndOne(DRIBBLE_THRESHOLDS);
 const AERIAL_DUEL_OPTIONS = withExactZeroAndOne(AERIAL_DUEL_THRESHOLDS);
-const FREE_KICK_OPTIONS = withExactZeroAndOne(FREE_KICK_THRESHOLDS);
 const THROUGHBALL_OPTIONS = withExactZeroAndOne(THROUGHBALL_THRESHOLDS);
 const XG_THRESHOLDS = ["0.5+", "1+", "1.5+", "2"];
 const RATING_THRESHOLDS = [
@@ -126,8 +122,6 @@ const STAT_GROUPS = [
     fields: [
       { key: "shots", label: "Shots" },
       { key: "shotsOnTarget", label: "On target" },
-      { key: "xG", label: "xG", decimals: 2 },
-      { key: "freeKickAttempts", label: "FK attempts" },
     ],
   },
   {
@@ -258,7 +252,6 @@ function detailedStatsTotals(matches) {
     ["bigChancesCreated", "Big Chances Created"],
     ["successfulDribbles", "Successful Dribbles"],
     ["aerialDuelsWon", "Aerial Duels Won"],
-    ["freeKickAttempts", "Free Kick Attempts"],
     ["accurateThroughballs", "Accurate Throughballs"],
   ];
 
@@ -280,13 +273,11 @@ function detailedStatsTotals(matches) {
     label,
     ...sumMetric(key),
   }));
-  const xG = sumMetric("xG");
   const xA = sumMetric("xA");
   const ratings = sumMetric("rating");
 
   return {
     totals,
-    xG: { ...xG, value: xG.value.toFixed(2) },
     xA: { ...xA, value: xA.value.toFixed(2) },
     averageRating: {
       value: ratings.recorded ? (ratings.value / ratings.recorded).toFixed(2) : "—",
@@ -295,6 +286,31 @@ function detailedStatsTotals(matches) {
     motm: matches.filter((match) => match.stats?.motm === true).length,
     matchesWithStats: matches.filter(hasRecordedDetailedStats).length,
   };
+}
+
+function goalEventSummary(matches) {
+  const definitions = [
+    { key: "goalType", title: "Goal Type" },
+    { key: "bodyPart", title: "Finish" },
+    { key: "shotLocation", title: "Shot Location" },
+  ];
+
+  return definitions.map(({ key, title }) => {
+    const counts = new Map();
+    for (const match of matches) {
+      for (const event of match.goalEvents || []) {
+        const value = event[key];
+        if (typeof value !== "string" || !value.trim()) continue;
+        counts.set(value, (counts.get(value) || 0) + 1);
+      }
+    }
+    return {
+      title,
+      items: [...counts.entries()]
+        .map(([label, count]) => ({ label, count }))
+        .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label)),
+    };
+  }).filter((group) => group.items.length > 0);
 }
 
 function SummaryStatCard({ label, value, detail }) {
@@ -948,6 +964,7 @@ export default function MatchLogsPage() {
       matchesWithStats: filtered.filter(hasRecordedDetailedStats).length,
     };
   }, [filtered, includeUnofficialStats]);
+  const goalSummary = useMemo(() => goalEventSummary(filtered), [filtered]);
   const nonOptaAssists = useMemo(() => nonOptaAssistCount(filtered), [filtered]);
   const unofficialStatsMatches = useMemo(
     () => filtered.filter((match) => match.statsStatus === "unofficial" && match.statsSource === "manual").length,
@@ -1195,26 +1212,10 @@ export default function MatchLogsPage() {
                 options={AERIAL_DUEL_OPTIONS}
               />
               <MinSelect
-                label="Free Kick Attempts"
-                value={filters.minFreeKickAttempts}
-                onChange={(v) => updateFilter("minFreeKickAttempts", v)}
-                options={FREE_KICK_OPTIONS}
-              />
-              <MinSelect
                 label="Throughballs"
                 value={filters.minThroughballs}
                 onChange={(v) => updateFilter("minThroughballs", v)}
                 options={THROUGHBALL_OPTIONS}
-              />
-              <MinSelect
-                label="xG"
-                value={filters.minXG}
-                onChange={(v) => updateFilter("minXG", v)}
-                options={XG_THRESHOLDS}
-                infoTitle="Expected Goals"
-                infoContent="Measures the quality of a shot based on variables like distance, angle, phase of play, 
-                and type of assist. An xG of 0.75 means a player would be expected to score that chance 75% of the 
-                time."
               />
               <MinSelect
                 label="Match Rating"
@@ -1356,11 +1357,6 @@ export default function MatchLogsPage() {
             />
           ))}
           <SummaryStatCard
-            label="Expected Goals (xG)"
-            value={detailedTotals.xG.value}
-            detail={`Recorded for ${detailedTotals.xG.recorded} matches`}
-          />
-          <SummaryStatCard
             label="Expected Assists (xA)"
             value={detailedTotals.xA.value}
             detail={`Recorded for ${detailedTotals.xA.recorded} matches`}
@@ -1376,6 +1372,31 @@ export default function MatchLogsPage() {
                 detail="Recorded awards"
               />
             </div>
+            {goalSummary.length > 0 && (
+              <section className="mt-6 border-t border-line pt-5">
+                <h3 className="font-display text-lg font-semibold text-paper">Goal Summary</h3>
+                <p className="mt-1 text-xs text-paper-dim">
+                  Breakdown of Ronaldo's recorded goals in the currently filtered matches.
+                </p>
+                <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-3">
+                  {goalSummary.map((group) => (
+                    <div key={group.title} className="rounded-xl border border-line bg-pitch-raised p-4">
+                      <h4 className="mb-3 border-b border-gold/60 pb-2 font-mono text-[10px] uppercase tracking-widest text-gold">
+                        {group.title}
+                      </h4>
+                      <dl className="space-y-2">
+                        {group.items.map((item) => (
+                          <div key={item.label} className="flex items-center justify-between gap-3">
+                            <dt className="text-xs text-paper-dim">{item.label}</dt>
+                            <dd className="data-mono text-sm font-medium text-paper">{item.count}</dd>
+                          </div>
+                        ))}
+                      </dl>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
           </>
         )}
       </section>
