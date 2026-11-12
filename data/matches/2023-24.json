@@ -1350,14 +1350,16 @@
         "goalNumber": 871,
         "minute": "19",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Abdullah Al-Mayouf"
       },
       {
         "id": "ronaldo-goal-872",
         "goalNumber": 872,
         "minute": "68",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Abdullah Al-Mayouf"
       }
     ],
     "assistEvents": []
@@ -2436,7 +2438,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Talisca"
+        "assistedBy": "Talisca",
+        "goalkeeper": "Andre Moreira"
       }
     ],
     "assistEvents": []
@@ -2522,7 +2525,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Abdulrahman Ghareeb"
+        "assistedBy": "Abdulrahman Ghareeb",
+        "goalkeeper": "Aymen Dahmen"
       }
     ],
     "assistEvents": [
@@ -2849,7 +2853,8 @@
         "goalNumber": 842,
         "minute": "75",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Ahmed Basil"
       }
     ],
     "assistEvents": []
@@ -2897,7 +2902,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Talisca"
+        "assistedBy": "Talisca",
+        "goalkeeper": "Anas Zniti"
       }
     ],
     "assistEvents": []
