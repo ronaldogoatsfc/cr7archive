@@ -390,7 +390,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Adrien Rabiot"
+        "assistedBy": "Adrien Rabiot",
+        "goalkeeper": "Andrea Consigli"
       }
     ],
     "assistEvents": []
@@ -649,7 +650,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Federico Chiesa"
+        "assistedBy": "Federico Chiesa",
+        "goalkeeper": "Alex Meret"
       }
     ],
     "assistEvents": []
@@ -745,7 +747,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Cancelo"
+        "assistedBy": "Joao Cancelo",
+        "goalkeeper": "Anthony Moris"
       }
     ],
     "assistEvents": [],
@@ -907,14 +910,16 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Juan Cuadrado"
+        "assistedBy": "Juan Cuadrado",
+        "goalkeeper": "Alessio Cragno"
       },
       {
         "id": "ronaldo-goal-769",
         "goalNumber": 769,
         "minute": "25",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Alessio Cragno"
       },
       {
         "id": "ronaldo-goal-770",
@@ -923,7 +928,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Federico Chiesa"
+        "assistedBy": "Federico Chiesa",
+        "goalkeeper": "Alessio Cragno"
       }
     ],
     "assistEvents": []
@@ -1150,7 +1156,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Alex Sandro"
+        "assistedBy": "Alex Sandro",
+        "goalkeeper": "Alex Cordaz"
       },
       {
         "id": "ronaldo-goal-765",
@@ -1159,7 +1166,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Aaron Ramsey"
+        "assistedBy": "Aaron Ramsey",
+        "goalkeeper": "Alex Cordaz"
       }
     ],
     "assistEvents": []
@@ -1626,7 +1634,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Danilo"
+        "assistedBy": "Danilo",
+        "goalkeeper": "Andrea Consigli"
       }
     ],
     "assistEvents": []
@@ -2146,7 +2155,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Alvaro Morata"
+        "assistedBy": "Alvaro Morata",
+        "goalkeeper": "Alessio Cragno"
       },
       {
         "id": "ronaldo-goal-748",
@@ -2155,7 +2165,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Merih Demiral"
+        "assistedBy": "Merih Demiral",
+        "goalkeeper": "Alessio Cragno"
       }
     ],
     "assistEvents": []
@@ -2542,7 +2553,8 @@
         "goalNumber": 741,
         "minute": "44",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Antonio Mirante"
       },
       {
         "id": "ronaldo-goal-742",
@@ -2551,7 +2563,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Danilo"
+        "assistedBy": "Danilo",
+        "goalkeeper": "Antonio Mirante"
       }
     ],
     "assistEvents": []
