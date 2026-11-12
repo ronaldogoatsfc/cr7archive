@@ -303,7 +303,10 @@ function goalEventSummary(matches) {
     const counts = new Map();
     for (const match of matches) {
       for (const event of match.goalEvents || []) {
-        const value = event[key];
+        const value =
+          key === "shotLocation" && event.goalType === "Penalty"
+            ? "Inside Box"
+            : event[key];
         if (typeof value !== "string" || !value.trim()) continue;
         counts.set(value, (counts.get(value) || 0) + 1);
       }
@@ -1429,7 +1432,7 @@ export default function MatchLogsPage() {
               <section className="mt-6 border-t border-line pt-5">
                 <h3 className="font-display text-lg font-semibold text-paper">Goal Summary</h3>
                 <p className="mt-1 text-xs text-paper-dim">
-                  Breakdown of Ronaldo's recorded goals in the currently filtered matches.
+                  Breakdown of Ronaldo's recorded goals in the currently filtered matches. Location totals combine open-play and penalty goals, with penalties counted as inside-box goals.
                 </p>
                 <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-3">
                   {goalSummary.map((group) => (
