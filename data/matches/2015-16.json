@@ -760,7 +760,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Jesé"
+        "assistedBy": "Jesé",
+        "goalkeeper": "Asier Riesgo"
       }
     ],
     "assistEvents": [
@@ -2046,7 +2047,8 @@
         "goalNumber": 507,
         "minute": "82",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Asier Riesgo"
       }
     ],
     "assistEvents": []
@@ -2094,7 +2096,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Andriy Pyatov"
       },
       {
         "id": "ronaldo-goal-506",
@@ -2103,7 +2106,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Andriy Pyatov"
       }
     ],
     "assistEvents": [
@@ -2707,14 +2711,16 @@
         "goalNumber": 497,
         "minute": "56",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Andriy Pyatov"
       },
       {
         "id": "ronaldo-goal-498",
         "goalNumber": 498,
         "minute": "64",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Andriy Pyatov"
       },
       {
         "id": "ronaldo-goal-499",
@@ -2722,7 +2728,8 @@
         "minute": "82",
         "goalType": "Open Play",
         "bodyPart": "Header",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Andriy Pyatov"
       }
     ],
     "assistEvents": []
