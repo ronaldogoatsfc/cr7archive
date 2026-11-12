@@ -511,7 +511,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nuno Mendes"
+        "assistedBy": "Nuno Mendes",
+        "goalkeeper": "Anthony Moris"
       },
       {
         "id": "ronaldo-goal-832",
@@ -520,7 +521,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Bruno Fernandes"
+        "assistedBy": "Bruno Fernandes",
+        "goalkeeper": "Anthony Moris"
       }
     ],
     "assistEvents": [],
@@ -898,7 +900,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Abdulrahman Ghareeb"
+        "assistedBy": "Abdulrahman Ghareeb",
+        "goalkeeper": "Abdulquddus Atiah"
       },
       {
         "id": "ronaldo-goal-822",
@@ -907,7 +910,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sami Al-Najei"
+        "assistedBy": "Sami Al-Najei",
+        "goalkeeper": "Abdulquddus Atiah"
       },
       {
         "id": "ronaldo-goal-823",
@@ -916,7 +920,8 @@
         "goalType": "Penalty",
         "bodyPart": "Right foot",
         "assistedBy": "Abdulrahman Ghareeb",
-        "description": "Penalty won by Abdulrahman Ghareeb (non-Opta assist)"
+        "description": "Penalty won by Abdulrahman Ghareeb (non-Opta assist)",
+        "goalkeeper": "Abdulquddus Atiah"
       },
       {
         "id": "ronaldo-goal-824",
@@ -924,7 +929,8 @@
         "minute": "61",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Abdulquddus Atiah"
       }
     ],
     "assistEvents": []
