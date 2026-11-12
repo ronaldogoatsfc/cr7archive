@@ -2651,8 +2651,7 @@
         "minute": "28",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box",
-        "assistedBy": "Nani"
+        "shotLocation": "Inside Box"
       }
     ],
     "assistEvents": [],
@@ -2743,7 +2742,8 @@
         "minute": "19",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "assistedBy": "Sami Khedira"
       }
     ],
     "assistEvents": []
