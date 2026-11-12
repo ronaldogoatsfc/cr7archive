@@ -712,7 +712,7 @@ export default function Home() {
                 href={section.href}
                 className="shrink-0 text-sm font-semibold text-gold transition hover:text-gold-bright"
               >
-                {section.cta}
+                {section.cta}{section.title === "Community" && " →"}
               </Link>
             </div>
 
