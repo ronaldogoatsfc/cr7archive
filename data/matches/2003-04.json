@@ -259,7 +259,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luís Figo"
+        "assistedBy": "Luís Figo",
+        "goalkeeper": "Antonis Nikopolidis"
       }
     ],
     "assistEvents": [],
@@ -342,7 +343,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gary Neville"
+        "assistedBy": "Gary Neville",
+        "goalkeeper": "Andy Marshall"
       }
     ],
     "assistEvents": []
@@ -864,7 +866,8 @@
         "minute": "74",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Arason"
       }
     ],
     "assistEvents": []
