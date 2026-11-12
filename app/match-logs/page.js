@@ -61,7 +61,9 @@ function getCountThresholds(getValue) {
     return Number.isFinite(value) ? Math.max(max, Math.floor(value)) : max;
   }, 0);
 
-  return Array.from({ length: maximum }, (_, index) => `${index + 1}+`);
+  return Array.from({ length: maximum }, (_, index) =>
+    index === maximum - 1 ? String(index + 1) : `${index + 1}+`
+  );
 }
 
 const GOAL_THRESHOLDS = getCountThresholds((match) => match.goals);
@@ -77,8 +79,19 @@ const DRIBBLE_THRESHOLDS = getCountThresholds((match) => match.stats?.successful
 const AERIAL_DUEL_THRESHOLDS = getCountThresholds((match) => match.stats?.aerialDuelsWon);
 const FREE_KICK_THRESHOLDS = getCountThresholds((match) => match.stats?.freeKickAttempts);
 const THROUGHBALL_THRESHOLDS = getCountThresholds((match) => match.stats?.accurateThroughballs);
-const XG_THRESHOLDS = ["0.5+", "1+", "1.5+", "2+"];
-const RATING_THRESHOLDS = ["6+", "7+", "7.5+", "8+", "9+"];
+const XG_THRESHOLDS = ["0.5+", "1+", "1.5+", "2"];
+const RATING_THRESHOLDS = [
+  "Below 6/10",
+  "6/10+",
+  "6.5/10+",
+  "7/10+",
+  "7.5/10+",
+  "8/10+",
+  "8.5/10+",
+  "9/10+",
+  "9.5/10+",
+  "10/10",
+];
 
 function getGoalEventOptions(key) {
   return [...new Set(
