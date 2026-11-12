@@ -146,8 +146,6 @@ export default function NavBar() {
         </button>
       </div>
 
-    </header>
-
       {sidebarOpen && (
           <div className="fixed inset-0 z-[100]">
             <button
@@ -198,5 +196,6 @@ export default function NavBar() {
             </aside>
           </div>
       )}
+    </header>
   );
 }
