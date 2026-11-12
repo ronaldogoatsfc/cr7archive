@@ -710,7 +710,7 @@ export default function Home() {
 
               <Link
                 href={section.href}
-                className="shrink-0 rounded-full border border-line px-5 py-2.5 text-sm font-semibold text-paper transition hover:border-gold hover:bg-pitch-raised"
+                className="shrink-0 text-sm font-semibold text-gold transition hover:text-gold-bright"
               >
                 {section.cta}
               </Link>
