@@ -200,13 +200,6 @@
         "assistClarification": "GK rebound"
       }
     ],
-    "stats": {
-      "shots": 4,
-      "shotsOnTarget": 2,
-      "successfulDribbles": 1
-    },
-    "statsSource": "manual",
-    "statsStatus": "unofficial",
     "manager": "Carlos Queiroz"
   },
   {
@@ -263,13 +256,6 @@
     "hasFullMatch": false,
     "fullMatchUrl": "",
     "assistEvents": [],
-    "stats": {
-      "shots": 8,
-      "shotsOnTarget": 3,
-      "successfulDribbles": 1
-    },
-    "statsSource": "manual",
-    "statsStatus": "unofficial",
     "manager": "Carlos Queiroz"
   },
   {
@@ -1042,15 +1028,6 @@
         "optaAssist": true
       }
     ],
-    "stats": {
-      "shots": 2,
-      "shotsOnTarget": 1,
-      "successfulDribbles": 1,
-      "bigChancesCreated": 1,
-      "keyPasses": 1
-    },
-    "statsSource": "manual",
-    "statsStatus": "unofficial",
     "manager": "Carlos Queiroz"
   },
   {
