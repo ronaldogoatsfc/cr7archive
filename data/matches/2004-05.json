@@ -28,7 +28,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luís Figo"
+        "assistedBy": "Luís Figo",
+        "goalkeeper": "Artur Kotenko"
       }
     ],
     "assistEvents": [],
@@ -1170,7 +1171,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Deco"
+        "assistedBy": "Deco",
+        "goalkeeper": "Alija Besic"
       }
     ],
     "assistEvents": [],
@@ -1688,7 +1690,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Jorge Andrade"
+        "assistedBy": "Jorge Andrade",
+        "goalkeeper": "Aleksandrs Kolinko"
       }
     ],
     "assistEvents": [
