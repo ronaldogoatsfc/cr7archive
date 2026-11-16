@@ -115,7 +115,8 @@
     "matchCompUrl": "https://vimeo.com/159697254",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/ac-milan-manchester-united-champions-league-2006-2007",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "AC Milan advanced 5–3 on aggregate."
   },
   {
     "id": "2007-04-28",
@@ -196,7 +197,8 @@
         "goalkeeper": "Dida"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Manchester United led 3–2 on aggregate."
   },
   {
     "id": "2007-04-21",
@@ -354,7 +356,8 @@
         "assistedPlayer": "Michael Carrick",
         "optaAssist": true
       }
-    ]
+    ],
+    "matchNote": "Manchester United advanced 8–3 on aggregate."
   },
   {
     "id": "2007-04-07",
@@ -415,7 +418,8 @@
     "matchCompUrl": "https://vimeo.com/643594657",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/as-roma-manchester-united-champions-league",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Roma led 2–1 on aggregate."
   },
   {
     "id": "2007-03-31",
@@ -690,7 +694,8 @@
         "assistedPlayer": "Henrik Larsson",
         "optaAssist": true
       }
-    ]
+    ],
+    "matchNote": "Manchester United advanced 2–0 on aggregate."
   },
   {
     "id": "2007-03-03",
@@ -818,7 +823,8 @@
     "matchCompUrl": "https://vimeo.com/198641173",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/lille-osc-manchester-united",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Manchester United led 1–0 on aggregate."
   },
   {
     "id": "2007-02-17",
