@@ -166,7 +166,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Luiz Gustavo"
+        "assistedBy": "Luiz Gustavo",
+        "goalkeeper": "Seung-gyu Kim"
       }
     ],
     "assistEvents": []
@@ -212,7 +213,8 @@
         "goalNumber": 836,
         "minute": "52",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Victor Braga"
       }
     ],
     "assistEvents": []
@@ -782,7 +784,8 @@
         "goalNumber": 825,
         "minute": "18",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Moustapha Zeghba"
       },
       {
         "id": "ronaldo-goal-826",
@@ -791,7 +794,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sultan Al-Ghannam"
+        "assistedBy": "Sultan Al-Ghannam",
+        "goalkeeper": "Moustapha Zeghba"
       },
       {
         "id": "ronaldo-goal-827",
@@ -800,7 +804,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Ayman Yahya"
+        "assistedBy": "Ayman Yahya",
+        "goalkeeper": "Moustapha Zeghba"
       }
     ],
     "assistEvents": []
@@ -976,7 +981,8 @@
         "goalNumber": 820,
         "minute": "90+",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Jacob Rinne"
       }
     ],
     "assistEvents": []
