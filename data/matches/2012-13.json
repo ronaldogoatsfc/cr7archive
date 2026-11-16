@@ -29,7 +29,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Silvestre Varela",
-        "goalkeeper": "Danijel Subasic"
+        "goalkeeper": "Danijel Subasic",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -262,7 +263,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Özil",
-        "goalkeeper": "Jaime Jimenez"
+        "goalkeeper": "Jaime Jimenez",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -349,7 +351,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Roman Weidenfeller"
+        "goalkeeper": "Roman Weidenfeller",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -442,7 +445,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Gorka Iraizoz"
+        "goalkeeper": "Gorka Iraizoz",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-357",
@@ -627,7 +631,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Özil",
-        "goalkeeper": "Fernando Muslera"
+        "goalkeeper": "Fernando Muslera",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -675,7 +680,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Roberto"
+        "goalkeeper": "Roberto",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -755,7 +761,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Özil"
+        "assistedBy": "Mesut Özil",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -812,7 +819,8 @@
         "minute": "71",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Javi Varas"
+        "goalkeeper": "Javi Varas",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -862,7 +870,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Gonzalo Higuaín",
-        "goalkeeper": "David de Gea"
+        "goalkeeper": "David de Gea",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -954,7 +963,8 @@
         "minute": "57",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1086,7 +1096,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Angel Di Maria",
-        "goalkeeper": "David de Gea"
+        "goalkeeper": "David de Gea",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -1135,7 +1146,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Kaká",
-        "goalkeeper": "Beto"
+        "goalkeeper": "Beto",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-342",
@@ -1198,7 +1210,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Fábio Coentrão",
-        "goalkeeper": "Maximo Banguera"
+        "goalkeeper": "Maximo Banguera",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": [],
@@ -1478,7 +1491,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Alvaro Arbeloa",
-        "goalkeeper": "Sergio Alvarez"
+        "goalkeeper": "Sergio Alvarez",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-333",
@@ -1488,7 +1502,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Luka Modric",
-        "goalkeeper": "Sergio Alvarez"
+        "goalkeeper": "Sergio Alvarez",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-334",
@@ -1564,7 +1579,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Claudio Bravo"
+        "goalkeeper": "Claudio Bravo",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1650,7 +1666,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Sami Khedira",
-        "goalkeeper": "Kiko Casilla"
+        "goalkeeper": "Kiko Casilla",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": [
@@ -1694,7 +1711,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Xabi Alonso",
-        "goalkeeper": "Sergio Alvarez"
+        "goalkeeper": "Sergio Alvarez",
+        "gameState": "Losing by 2"
       }
     ],
     "assistEvents": []
@@ -1835,7 +1853,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Thibaut Courtois"
+        "goalkeeper": "Thibaut Courtois",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -2191,7 +2210,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Mesut Özil",
-        "goalkeeper": "Roman Weidenfeller"
+        "goalkeeper": "Roman Weidenfeller",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -2359,7 +2379,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Özil",
-        "goalkeeper": "Seyed Hossein Hosseini"
+        "goalkeeper": "Seyed Hossein Hosseini",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -2472,7 +2493,8 @@
         "minute": "23",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Daniel Aranzubia"
+        "goalkeeper": "Daniel Aranzubia",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-314",
@@ -2586,7 +2608,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo",
-        "goalkeeper": "Joe Hart"
+        "goalkeeper": "Joe Hart",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2696,7 +2719,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Jonathan Joubert"
+        "goalkeeper": "Jonathan Joubert",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": [],
@@ -2745,7 +2769,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "José Callejón"
+        "assistedBy": "José Callejón",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-309",
