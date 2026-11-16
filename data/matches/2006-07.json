@@ -771,7 +771,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Patrice Evra"
+        "assistedBy": "Patrice Evra",
+        "goalkeeper": "Jan Lastuvka"
       }
     ],
     "assistEvents": []
@@ -1252,7 +1253,8 @@
         "minute": "84",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Nicky Weaver"
       }
     ],
     "assistEvents": [
@@ -1369,7 +1371,8 @@
         "minute": "39",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Richard Wright"
       }
     ],
     "assistEvents": []
