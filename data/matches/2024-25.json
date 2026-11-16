@@ -43,7 +43,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nuno Mendes",
-        "goalkeeper": "Unai Simon"
+        "goalkeeper": "Unai Simon",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": [],
@@ -93,7 +94,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nuno Mendes",
-        "goalkeeper": "Marc-André ter Stegen"
+        "goalkeeper": "Marc-André ter Stegen",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -398,7 +400,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Sadio Mané",
-        "goalkeeper": "Milan Borjan"
+        "goalkeeper": "Milan Borjan",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-933",
@@ -407,7 +410,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Milan Borjan"
+        "goalkeeper": "Milan Borjan",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -456,7 +460,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Sadio Mané",
-        "goalkeeper": "Bono"
+        "goalkeeper": "Bono",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-931",
@@ -513,7 +518,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Kasper Schmeichel"
+        "goalkeeper": "Kasper Schmeichel",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": [],
@@ -782,7 +788,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Angelo",
-        "goalkeeper": "Abdullah Al-Oaisher"
+        "goalkeeper": "Abdullah Al-Oaisher",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1219,7 +1226,8 @@
         "minute": "42",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Paulo Vitor"
+        "goalkeeper": "Paulo Vitor",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1268,7 +1276,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Angelo",
-        "goalkeeper": "Predrag Rajković"
+        "goalkeeper": "Predrag Rajković",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -1315,7 +1324,8 @@
         "minute": "17",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Amin Al-Bukhari"
+        "goalkeeper": "Amin Al-Bukhari",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-915",
@@ -1480,7 +1490,8 @@
         "minute": "72",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Marcin Bułka"
+        "goalkeeper": "Marcin Bułka",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-910",
@@ -1584,7 +1595,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Khalid Eisa"
+        "goalkeeper": "Khalid Eisa",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1742,7 +1754,8 @@
         "minute": "90+7",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Seung-gyu Kim"
+        "goalkeeper": "Seung-gyu Kim",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1828,7 +1841,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Angus Gunn"
+        "goalkeeper": "Angus Gunn",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -1876,7 +1890,8 @@
         "minute": "17",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Gaetan Coucke"
+        "goalkeeper": "Gaetan Coucke",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1933,7 +1948,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Abdulrahman Ghareeb",
-        "goalkeeper": "Paulo Victor"
+        "goalkeeper": "Paulo Victor",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2027,7 +2043,8 @@
         "minute": "33",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Marek Rodák"
+        "goalkeeper": "Marek Rodák",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2113,7 +2130,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nuno Mendes",
-        "goalkeeper": "Angus Gunn"
+        "goalkeeper": "Angus Gunn",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -2163,7 +2181,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nuno Mendes",
-        "goalkeeper": "Dominik Livaković"
+        "goalkeeper": "Dominik Livaković",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -2212,7 +2231,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Abdulraouf Al-Duqayl"
+        "goalkeeper": "Abdulraouf Al-Duqayl",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
