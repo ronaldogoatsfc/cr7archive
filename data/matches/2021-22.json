@@ -266,7 +266,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nemanja Matic"
+        "assistedBy": "Nemanja Matic",
+        "goalkeeper": "Edouard Mendy"
       }
     ],
     "assistEvents": []
@@ -363,7 +364,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Anthony Elanga"
+        "assistedBy": "Anthony Elanga",
+        "goalkeeper": "Tim Krul"
       },
       {
         "id": "ronaldo-goal-809",
@@ -372,7 +374,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Alex Telles"
+        "assistedBy": "Alex Telles",
+        "goalkeeper": "Tim Krul"
       },
       {
         "id": "ronaldo-goal-810",
@@ -380,7 +383,8 @@
         "minute": "76",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Tim Krul"
       }
     ],
     "assistEvents": []
@@ -1128,7 +1132,8 @@
         "goalNumber": 802,
         "minute": "75",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Tim Krul"
       }
     ],
     "assistEvents": []
@@ -1513,7 +1518,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Bruno Fernandes"
+        "assistedBy": "Bruno Fernandes",
+        "goalkeeper": "Juan Musso"
       },
       {
         "id": "ronaldo-goal-798",
@@ -1522,7 +1528,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Mason Greenwood"
+        "assistedBy": "Mason Greenwood",
+        "goalkeeper": "Juan Musso"
       }
     ],
     "assistEvents": []
@@ -1664,7 +1671,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luke Shaw"
+        "assistedBy": "Luke Shaw",
+        "goalkeeper": "Juan Musso"
       }
     ],
     "assistEvents": []
