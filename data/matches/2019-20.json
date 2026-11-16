@@ -532,7 +532,8 @@
         "goalNumber": 727,
         "minute": "62",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Gabriel"
       }
     ],
     "assistEvents": [
@@ -1525,7 +1526,8 @@
         "goalNumber": 707,
         "minute": "68",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Stefano Turati"
       }
     ],
     "assistEvents": []
