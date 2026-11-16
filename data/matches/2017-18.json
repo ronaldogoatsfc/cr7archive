@@ -524,7 +524,8 @@
         "goalNumber": 651,
         "minute": "90+7",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Wojciech Szczęsny"
       }
     ],
     "assistEvents": []
@@ -713,7 +714,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ricardo Quaresma"
+        "assistedBy": "Ricardo Quaresma",
+        "goalkeeper": "Mohamed El Shenawy"
       },
       {
         "id": "ronaldo-goal-646",
@@ -722,7 +724,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ricardo Quaresma"
+        "assistedBy": "Ricardo Quaresma",
+        "goalkeeper": "Mohamed El Shenawy"
       }
     ],
     "assistEvents": [],
@@ -857,7 +860,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luka Modric"
+        "assistedBy": "Luka Modric",
+        "goalkeeper": "Marko Dmitrovic"
       },
       {
         "id": "ronaldo-goal-641",
@@ -866,7 +870,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Dani Carvajal"
+        "assistedBy": "Dani Carvajal",
+        "goalkeeper": "Marko Dmitrovic"
       }
     ],
     "assistEvents": []
@@ -972,7 +977,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Emiliano Martinez"
       },
       {
         "id": "ronaldo-goal-638",
@@ -981,7 +987,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Emiliano Martinez"
       }
     ],
     "assistEvents": []
@@ -1305,14 +1312,16 @@
         "goalNumber": 627,
         "minute": "16",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Norberto Murara Neto"
       },
       {
         "id": "ronaldo-goal-628",
         "goalNumber": 628,
         "minute": "38",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Norberto Murara Neto"
       }
     ],
     "assistEvents": []
@@ -1523,7 +1532,8 @@
         "minute": "53",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Marcelo Grohe"
       }
     ],
     "assistEvents": []
@@ -1796,7 +1806,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Nauzet Perez"
       },
       {
         "id": "ronaldo-goal-618",
@@ -1805,7 +1816,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Nauzet Perez"
       }
     ],
     "assistEvents": [
