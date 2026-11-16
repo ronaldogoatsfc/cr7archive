@@ -218,7 +218,8 @@
         "assistedPlayer": "Marcelo",
         "optaAssist": true
       }
-    ]
+    ],
+    "matchNote": "Real Madrid won 4–1 after extra time (1–1 after 90 minutes)."
   },
   {
     "id": "2014-07-05",
@@ -372,7 +373,8 @@
         "goalkeeper": "Manuel Neuer"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid advanced 5–0 on aggregate."
   },
   {
     "id": "2014-04-26",
@@ -470,7 +472,8 @@
     "matchCompUrl": "https://vimeo.com/165106282",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/real-madrid-bayern-munchen-champions-league-2013-2014",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid led 1–0 on aggregate."
   },
   {
     "id": "2014-04-02",
@@ -520,7 +523,8 @@
         "goalkeeper": "Roman Weidenfeller"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid led 3–0 on aggregate."
   },
   {
     "id": "2014-03-29",
@@ -729,7 +733,8 @@
         "shotLocation": "Inside Box"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid advanced 9–2 on aggregate."
   },
   {
     "id": "2014-03-15",
@@ -1012,7 +1017,8 @@
         "optaAssist": false,
         "assistClarification": "Deflected assist"
       }
-    ]
+    ],
+    "matchNote": "Real Madrid led 6–1 on aggregate."
   },
   {
     "id": "2014-02-11",
