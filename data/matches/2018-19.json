@@ -220,7 +220,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Leonardo Spinazzola"
+        "assistedBy": "Leonardo Spinazzola",
+        "goalkeeper": "Salvatore Sirigu"
       }
     ],
     "assistEvents": []
@@ -268,7 +269,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Miralem Pjanic"
+        "assistedBy": "Miralem Pjanic",
+        "goalkeeper": "Samir Handanovic"
       }
     ],
     "assistEvents": []
@@ -836,7 +838,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Blaise Matuidi"
+        "assistedBy": "Blaise Matuidi",
+        "goalkeeper": "Luigi Sepe"
       },
       {
         "id": "ronaldo-goal-677",
@@ -845,7 +848,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mario Mandzukic"
+        "assistedBy": "Mario Mandzukic",
+        "goalkeeper": "Luigi Sepe"
       }
     ],
     "assistEvents": [
@@ -936,7 +940,8 @@
         "goalNumber": 675,
         "minute": "88",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Thomas Strakosha"
       }
     ],
     "assistEvents": []
@@ -1021,7 +1026,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Miralem Pjanic"
+        "assistedBy": "Miralem Pjanic",
+        "goalkeeper": "Gianluigi Donnarumma"
       }
     ],
     "assistEvents": []
@@ -1106,14 +1112,16 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Paulo Dybala"
+        "assistedBy": "Paulo Dybala",
+        "goalkeeper": "Emil Audero"
       },
       {
         "id": "ronaldo-goal-673",
         "goalNumber": 673,
         "minute": "65",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Emil Audero"
       }
     ],
     "assistEvents": []
@@ -1244,7 +1252,8 @@
         "goalNumber": 670,
         "minute": "70",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Salvatore Sirigu"
       }
     ],
     "assistEvents": []
@@ -1514,7 +1523,8 @@
         "minute": "81",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Gianluigi Donnarumma"
       }
     ],
     "assistEvents": []
@@ -1654,7 +1664,8 @@
         "goalNumber": 664,
         "minute": "54",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Ivan Provedel"
       },
       {
         "id": "ronaldo-goal-665",
@@ -1663,7 +1674,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Blaise Matuidi"
+        "assistedBy": "Blaise Matuidi",
+        "goalkeeper": "Ivan Provedel"
       }
     ],
     "assistEvents": []
