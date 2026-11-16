@@ -89,7 +89,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Moutinho",
-        "goalkeeper": "Petr Cech"
+        "goalkeeper": "Petr Cech",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -248,7 +249,8 @@
         "goalNumber": 116,
         "minute": "32",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -291,7 +293,8 @@
         "goalType": "Open Play",
         "bodyPart": "Other",
         "shotLocation": "Inside Box",
-        "assistedBy": "Owen Hargreaves"
+        "assistedBy": "Owen Hargreaves",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -454,7 +457,8 @@
         "minute": "53",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Jens Lehmann"
+        "goalkeeper": "Jens Lehmann",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -538,7 +542,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Paul Scholes",
-        "goalkeeper": "Doni"
+        "goalkeeper": "Doni",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -571,7 +576,8 @@
         "minute": "16",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -662,7 +668,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Gary Megson"
+        "goalkeeper": "Gary Megson",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-108",
@@ -705,7 +712,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Wayne Rooney"
+        "assistedBy": "Wayne Rooney",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -777,7 +785,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Grégory Coupet"
+        "goalkeeper": "Grégory Coupet",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -834,7 +843,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Michael Carrick"
+        "assistedBy": "Michael Carrick",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-104",
@@ -994,7 +1004,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nani",
-        "goalkeeper": "David James"
+        "goalkeeper": "David James",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-102",
@@ -1036,7 +1047,8 @@
         "minute": "69",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Radek Cerny"
+        "goalkeeper": "Radek Cerny",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-100",
@@ -1127,7 +1139,8 @@
         "minute": "48",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-96",
@@ -1179,7 +1192,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs",
-        "goalkeeper": "Scott Carson"
+        "goalkeeper": "Scott Carson",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1329,7 +1343,8 @@
         "minute": "87",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Tim Howard"
+        "goalkeeper": "Tim Howard",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1428,7 +1443,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nemanja Vidic",
-        "goalkeeper": "Antti Niemi"
+        "goalkeeper": "Antti Niemi",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-88",
@@ -1486,7 +1502,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Rui Patricio"
+        "goalkeeper": "Rui Patricio",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1576,7 +1593,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ryan Giggs"
+        "assistedBy": "Ryan Giggs",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-85",
@@ -1739,7 +1757,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Oleksandr Shovkovskiy"
+        "goalkeeper": "Oleksandr Shovkovskiy",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-81",
@@ -1805,7 +1824,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nani",
-        "goalkeeper": "David Loria"
+        "goalkeeper": "David Loria",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -1943,7 +1963,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Maik Taylor"
+        "goalkeeper": "Maik Taylor",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2015,7 +2036,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Wes Brown",
-        "goalkeeper": "Vladimir Stojković"
+        "goalkeeper": "Vladimir Stojković",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2130,7 +2152,8 @@
         "minute": "37",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": [],
