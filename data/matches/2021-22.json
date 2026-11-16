@@ -587,7 +587,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Fred"
+        "assistedBy": "Fred",
+        "goalkeeper": "Hugo Lloris"
       },
       {
         "id": "ronaldo-goal-806",
@@ -596,7 +597,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Jadon Sancho"
+        "assistedBy": "Jadon Sancho",
+        "goalkeeper": "Hugo Lloris"
       },
       {
         "id": "ronaldo-goal-807",
@@ -605,7 +607,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Alex Telles"
+        "assistedBy": "Alex Telles",
+        "goalkeeper": "Hugo Lloris"
       }
     ],
     "assistEvents": []
@@ -1303,7 +1306,8 @@
         "minute": "78",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Geronimo Rulli"
       }
     ],
     "assistEvents": []
@@ -1566,7 +1570,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Bruno Fernandes"
+        "assistedBy": "Bruno Fernandes",
+        "goalkeeper": "Hugo Lloris"
       }
     ],
     "assistEvents": [
@@ -1882,7 +1887,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Jesse Lingard"
+        "assistedBy": "Jesse Lingard",
+        "goalkeeper": "Geronimo Rulli"
       }
     ],
     "assistEvents": []
