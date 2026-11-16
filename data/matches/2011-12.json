@@ -414,7 +414,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Xabi Alonso"
+        "assistedBy": "Xabi Alonso",
+        "goalkeeper": "Gorka Iraizoz"
       }
     ],
     "assistEvents": [
@@ -470,7 +471,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Javi Varas"
       }
     ],
     "assistEvents": []
@@ -517,7 +519,8 @@
         "goalNumber": 296,
         "minute": "6",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Manuel Neuer"
       },
       {
         "id": "ronaldo-goal-297",
@@ -526,7 +529,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "Manuel Neuer"
       }
     ],
     "assistEvents": []
@@ -715,7 +719,8 @@
         "minute": "24",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Thibaut Courtois"
       },
       {
         "id": "ronaldo-goal-292",
@@ -724,14 +729,16 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Xabi Alonso"
+        "assistedBy": "Xabi Alonso",
+        "goalkeeper": "Thibaut Courtois"
       },
       {
         "id": "ronaldo-goal-293",
         "goalNumber": 293,
         "minute": "82",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Thibaut Courtois"
       }
     ],
     "assistEvents": [
@@ -992,7 +999,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Kaka"
+        "assistedBy": "Kaka",
+        "goalkeeper": "Claudio Bravo"
       },
       {
         "id": "ronaldo-goal-286",
@@ -1001,7 +1009,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonzalo Higuain"
+        "assistedBy": "Gonzalo Higuain",
+        "goalkeeper": "Claudio Bravo"
       }
     ],
     "assistEvents": []
@@ -1152,7 +1161,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Diego Lopez"
       }
     ],
     "assistEvents": []
@@ -1471,7 +1481,8 @@
         "goalNumber": 273,
         "minute": "45",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Geronimo Rulli"
       },
       {
         "id": "ronaldo-goal-274",
@@ -1480,7 +1491,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonzalo Higuain"
+        "assistedBy": "Gonzalo Higuain",
+        "goalkeeper": "Roberto"
       },
       {
         "id": "ronaldo-goal-275",
@@ -1489,7 +1501,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Fabio Coentrão"
+        "assistedBy": "Fabio Coentrão",
+        "goalkeeper": "Roberto"
       }
     ],
     "assistEvents": [
@@ -1582,7 +1595,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "Roberto"
       }
     ],
     "assistEvents": []
@@ -1663,14 +1677,16 @@
         "goalNumber": 269,
         "minute": "46",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Gorka Iraizoz"
       },
       {
         "id": "ronaldo-goal-270",
         "goalNumber": 270,
         "minute": "67",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Gorka Iraizoz"
       }
     ],
     "assistEvents": []
@@ -1885,7 +1901,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Javi Varas"
       },
       {
         "id": "ronaldo-goal-265",
@@ -1894,14 +1911,16 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Javi Varas"
       },
       {
         "id": "ronaldo-goal-266",
         "goalNumber": 266,
         "minute": "86",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Javi Varas"
       }
     ],
     "assistEvents": []
@@ -2067,14 +2086,16 @@
         "goalNumber": 260,
         "minute": "24",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Thibaut Courtois"
       },
       {
         "id": "ronaldo-goal-261",
         "goalNumber": 261,
         "minute": "82",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Thibaut Courtois"
       }
     ],
     "assistEvents": [
@@ -2130,7 +2151,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Pepe"
+        "assistedBy": "Pepe",
+        "goalkeeper": "Diego Alves"
       }
     ],
     "assistEvents": []
@@ -2315,14 +2337,16 @@
         "minute": "25",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Hugo Lloris"
       },
       {
         "id": "ronaldo-goal-253",
         "goalNumber": 253,
         "minute": "69",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Hugo Lloris"
       }
     ],
     "assistEvents": []
@@ -2444,7 +2468,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Ruben Martinez"
       },
       {
         "id": "ronaldo-goal-250",
@@ -2453,7 +2478,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Ruben Martinez"
       },
       {
         "id": "ronaldo-goal-251",
@@ -2462,7 +2488,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sergio Ramos"
+        "assistedBy": "Sergio Ramos",
+        "goalkeeper": "Ruben Martinez"
       }
     ],
     "assistEvents": []
@@ -3053,7 +3080,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "Roberto"
       },
       {
         "id": "ronaldo-goal-239",
@@ -3062,7 +3090,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Roberto"
       },
       {
         "id": "ronaldo-goal-240",
@@ -3071,7 +3100,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Kaka"
+        "assistedBy": "Kaka",
+        "goalkeeper": "Roberto"
       }
     ],
     "assistEvents": []
