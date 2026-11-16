@@ -80,7 +80,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Deco"
+        "assistedBy": "Deco",
+        "goalkeeper": "Edwin van der Sar"
       }
     ],
     "assistEvents": [
@@ -568,7 +569,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ryan Giggs"
+        "assistedBy": "Ryan Giggs",
+        "goalkeeper": "Maik Taylor"
       }
     ],
     "assistEvents": []
@@ -649,7 +651,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Roy Keane"
+        "assistedBy": "Roy Keane",
+        "goalkeeper": "Kasey Keller"
       }
     ],
     "assistEvents": []
