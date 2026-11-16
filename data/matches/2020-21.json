@@ -87,7 +87,8 @@
         "minute": "63",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Hugo Lloris"
+        "goalkeeper": "Hugo Lloris",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": [],
@@ -398,7 +399,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Adrien Rabiot",
-        "goalkeeper": "Andrea Consigli"
+        "goalkeeper": "Andrea Consigli",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -482,7 +484,8 @@
         "minute": "83",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Simone Scuffet"
+        "goalkeeper": "Simone Scuffet",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-775",
@@ -492,7 +495,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Adrien Rabiot",
-        "goalkeeper": "Simone Scuffet"
+        "goalkeeper": "Simone Scuffet",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -709,7 +713,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Giorgio Chiellini",
-        "goalkeeper": "Salvatore Sirigu"
+        "goalkeeper": "Salvatore Sirigu",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -758,7 +763,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Cancelo",
-        "goalkeeper": "Anthony Moris"
+        "goalkeeper": "Anthony Moris",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -929,7 +935,8 @@
         "minute": "25",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Alessio Cragno"
+        "goalkeeper": "Alessio Cragno",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-770",
@@ -1169,7 +1176,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Alex Sandro",
-        "goalkeeper": "Alex Cordaz"
+        "goalkeeper": "Alex Cordaz",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-765",
@@ -1341,7 +1349,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Alvaro Morata",
-        "goalkeeper": "Pau Lopez"
+        "goalkeeper": "Pau Lopez",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1389,7 +1398,8 @@
         "minute": "26",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Samir Handanovic"
+        "goalkeeper": "Samir Handanovic",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-762",
@@ -1398,7 +1408,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Samir Handanovic"
+        "goalkeeper": "Samir Handanovic",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1528,7 +1539,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "David Ospina"
+        "goalkeeper": "David Ospina",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1935,7 +1947,8 @@
         "minute": "78",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Mattia Perin"
+        "goalkeeper": "Mattia Perin",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-754",
@@ -1990,7 +2003,8 @@
         "minute": "13",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Marc-André ter Stegen"
+        "goalkeeper": "Marc-André ter Stegen",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-752",
@@ -2133,7 +2147,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Juan Cuadrado",
-        "goalkeeper": "Dénes Dibusz"
+        "goalkeeper": "Dénes Dibusz",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -2182,7 +2197,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Alvaro Morata",
-        "goalkeeper": "Alessio Cragno"
+        "goalkeeper": "Alessio Cragno",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-748",
@@ -2455,7 +2471,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Alvaro Morata",
-        "goalkeeper": "Ivan Provedel"
+        "goalkeeper": "Ivan Provedel",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-744",
@@ -2584,7 +2601,8 @@
         "minute": "44",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Antonio Mirante"
+        "goalkeeper": "Antonio Mirante",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-742",
@@ -2594,7 +2612,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Danilo",
-        "goalkeeper": "Antonio Mirante"
+        "goalkeeper": "Antonio Mirante",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -2699,7 +2718,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Robin Olsen"
+        "goalkeeper": "Robin Olsen",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-739",
