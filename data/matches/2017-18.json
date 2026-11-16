@@ -118,7 +118,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Moutinho"
+        "assistedBy": "Joao Moutinho",
+        "goalkeeper": "Munir"
       }
     ],
     "assistEvents": [],
@@ -477,7 +478,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luka Modric"
+        "assistedBy": "Luka Modric",
+        "goalkeeper": "Kepa"
       }
     ],
     "assistEvents": []
@@ -1567,7 +1569,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luka Modric"
+        "assistedBy": "Luka Modric",
+        "goalkeeper": "Khaled Saif Al Senani"
       }
     ],
     "assistEvents": []
