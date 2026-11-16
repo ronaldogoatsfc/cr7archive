@@ -145,7 +145,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Tonito"
+        "assistedBy": "Tonito",
+        "goalkeeper": "João Ricardo"
       },
       {
         "id": "ronaldo-goal-2",
@@ -154,7 +155,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Rui Jorge"
+        "assistedBy": "Rui Jorge",
+        "goalkeeper": "João Ricardo"
       }
     ],
     "assistEvents": []
