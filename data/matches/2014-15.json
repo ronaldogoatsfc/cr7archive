@@ -246,7 +246,8 @@
         "gameState": "Equalizer"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Juventus advanced 3–2 on aggregate."
   },
   {
     "id": "2015-05-09",
@@ -334,7 +335,8 @@
         "gameState": "Equalizer"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Juventus led 2–1 on aggregate."
   },
   {
     "id": "2015-02-05",
@@ -539,7 +541,8 @@
         "assistedPlayer": "Chicharito",
         "optaAssist": true
       }
-    ]
+    ],
+    "matchNote": "Real Madrid advanced 1–0 on aggregate."
   },
   {
     "id": "2015-04-18",
@@ -641,7 +644,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-champions-league-2014-2015",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "The tie was level 0–0 on aggregate."
   },
   {
     "id": "2015-04-11",
@@ -1016,7 +1020,8 @@
         "goalkeeper": "Timon Wellenreuther"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid advanced 5–4 on aggregate."
   },
   {
     "id": "2015-03-07",
@@ -1215,7 +1220,8 @@
         "assistedPlayer": "Marcelo",
         "optaAssist": true
       }
-    ]
+    ],
+    "matchNote": "Real Madrid led 2–0 on aggregate."
   },
   {
     "id": "2015-02-14",
