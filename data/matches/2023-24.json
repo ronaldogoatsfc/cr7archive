@@ -527,7 +527,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Munir El Kajoui"
+        "goalkeeper": "Munir El Kajoui",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-889",
@@ -765,7 +766,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Ciprian Tătărușanu"
+        "goalkeeper": "Ciprian Tătărușanu",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-884",
@@ -952,7 +954,8 @@
         "minute": "68",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Edouard Mendy"
+        "goalkeeper": "Edouard Mendy",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1000,7 +1003,8 @@
         "minute": "118",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Khalid Eisa"
+        "goalkeeper": "Khalid Eisa",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -1278,7 +1282,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Brozovic",
-        "goalkeeper": "Vladimir Stojković"
+        "goalkeeper": "Vladimir Stojković",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1374,7 +1379,8 @@
         "minute": "19",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Abdullah Al-Mayouf"
+        "goalkeeper": "Abdullah Al-Mayouf",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-872",
@@ -1382,7 +1388,8 @@
         "minute": "68",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Abdullah Al-Mayouf"
+        "goalkeeper": "Abdullah Al-Mayouf",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1769,7 +1776,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Diogo Jota",
-        "goalkeeper": "Benjamin Büchel"
+        "goalkeeper": "Benjamin Büchel",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -1867,7 +1875,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Abdulrahman Ghareeb",
-        "goalkeeper": "Marwan Al-Haidari"
+        "goalkeeper": "Marwan Al-Haidari",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -2016,7 +2025,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Sultan Al-Ghannam",
-        "goalkeeper": "Salah Zakaria"
+        "goalkeeper": "Salah Zakaria",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -2072,7 +2082,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Moustapha Zeghba"
+        "goalkeeper": "Moustapha Zeghba",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2119,7 +2130,8 @@
         "minute": "5",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Ibrahim Sehic"
+        "goalkeeper": "Ibrahim Sehic",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-859",
@@ -2195,7 +2207,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Bruno Fernandes",
-        "goalkeeper": "Martin Dúbravka"
+        "goalkeeper": "Martin Dúbravka",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -2281,7 +2294,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Rustam Yatimov"
+        "goalkeeper": "Rustam Yatimov",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -2328,7 +2342,8 @@
         "minute": "87",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Victor Braga"
+        "goalkeeper": "Victor Braga",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -2395,7 +2410,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Talisca",
-        "goalkeeper": "Edouard Mendy"
+        "goalkeeper": "Edouard Mendy",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2630,7 +2646,8 @@
         "minute": "13",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Seung-gyu Kim"
+        "goalkeeper": "Seung-gyu Kim",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-849",
@@ -2847,7 +2864,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Sultan Al-Ghannam",
-        "goalkeeper": "Mohammed Al-Owais"
+        "goalkeeper": "Mohammed Al-Owais",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-844",
@@ -2856,7 +2874,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Mohammed Al-Owais"
+        "goalkeeper": "Mohammed Al-Owais",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2903,7 +2922,8 @@
         "minute": "75",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Ahmed Basil"
+        "goalkeeper": "Ahmed Basil",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -3001,7 +3021,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Ghislain Konan",
-        "goalkeeper": "Mohamed Sobhi"
+        "goalkeeper": "Mohamed Sobhi",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -3049,7 +3070,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sultan Al-Ghannam"
+        "assistedBy": "Sultan Al-Ghannam",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
