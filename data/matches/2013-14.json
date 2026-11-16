@@ -42,7 +42,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Fatau Dauda"
+        "goalkeeper": "Fatau Dauda",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -300,7 +301,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Angel Di Maria",
-        "goalkeeper": "Diego Alves"
+        "goalkeeper": "Diego Alves",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": [
@@ -416,7 +418,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Angel Di Maria",
-        "goalkeeper": "Andres Fernandez"
+        "goalkeeper": "Andres Fernandez",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-420",
@@ -563,7 +566,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale",
-        "goalkeeper": "Ruben Martinez"
+        "goalkeeper": "Ruben Martinez",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -770,7 +774,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -819,7 +824,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Angel Di Maria",
-        "goalkeeper": "Keylor Navas"
+        "goalkeeper": "Keylor Navas",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1229,7 +1235,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Luka Modric",
-        "goalkeeper": "Roberto Fernández"
+        "goalkeeper": "Roberto Fernández",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1316,7 +1323,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Angel Di Maria",
-        "goalkeeper": "Stephan Andersen"
+        "goalkeeper": "Stephan Andersen",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1705,7 +1713,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Isco",
-        "goalkeeper": "Esteban"
+        "goalkeeper": "Esteban",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1765,7 +1774,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Hugo Almeida",
-        "goalkeeper": "Andreas Isaksson"
+        "goalkeeper": "Andreas Isaksson",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-395",
@@ -1826,7 +1836,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Miguel Veloso",
-        "goalkeeper": "Andreas Isaksson"
+        "goalkeeper": "Andreas Isaksson",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -1950,7 +1961,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema",
-        "goalkeeper": "Gianluigi Buffon"
+        "goalkeeper": "Gianluigi Buffon",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": [
@@ -2017,7 +2029,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale",
-        "goalkeeper": "Ruben Martinez"
+        "goalkeeper": "Ruben Martinez",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2186,7 +2199,8 @@
         "minute": "29",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Gianluigi Buffon"
+        "goalkeeper": "Gianluigi Buffon",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2305,7 +2319,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Luka Modric",
-        "goalkeeper": "Keylor Navas"
+        "goalkeeper": "Keylor Navas",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2354,7 +2369,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo",
-        "goalkeeper": "Johan Sellberg-Wiland"
+        "goalkeeper": "Johan Sellberg-Wiland",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-378",
@@ -2457,7 +2473,8 @@
         "minute": "90+6",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Manu Herrera"
+        "goalkeeper": "Manu Herrera",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2504,7 +2521,8 @@
         "minute": "34",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Angel Moya"
+        "goalkeeper": "Angel Moya",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-374",
@@ -2686,7 +2704,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Moutinho"
+        "assistedBy": "Joao Moutinho",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-367",
@@ -2695,7 +2714,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Fabio Coentrão"
+        "assistedBy": "Fabio Coentrão",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-368",
@@ -2753,7 +2773,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Angel Di Maria",
-        "goalkeeper": "Iago Herrerín"
+        "goalkeeper": "Iago Herrerín",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2884,7 +2905,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Pepe",
-        "goalkeeper": "Michel Vorm"
+        "goalkeeper": "Michel Vorm",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": [],
