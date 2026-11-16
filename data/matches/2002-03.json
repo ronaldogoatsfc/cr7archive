@@ -213,7 +213,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Carlos Martins"
+        "assistedBy": "Carlos Martins",
+        "goalkeeper": "Ricardo"
       }
     ],
     "assistEvents": []
@@ -450,7 +451,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Ricardo Fernandes"
+        "assistedBy": "Ricardo Fernandes",
+        "goalkeeper": "Vitorino"
       }
     ],
     "assistEvents": []
