@@ -137,7 +137,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Miralem Pjanic"
+        "assistedBy": "Miralem Pjanic",
+        "goalkeeper": "Emil Audero"
       }
     ],
     "assistEvents": [
@@ -228,7 +229,8 @@
         "goalNumber": 733,
         "minute": "51",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Thomas Strakosha"
       },
       {
         "id": "ronaldo-goal-734",
@@ -237,7 +239,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Paulo Dybala"
+        "assistedBy": "Paulo Dybala",
+        "goalkeeper": "Thomas Strakosha"
       }
     ],
     "assistEvents": []
@@ -375,7 +378,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Juan Cuadrado"
+        "assistedBy": "Juan Cuadrado",
+        "goalkeeper": "Gianluigi Donnarumma"
       }
     ],
     "assistEvents": []
@@ -422,7 +426,8 @@
         "minute": "61",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Salvatore Sirigu"
       }
     ],
     "assistEvents": [
@@ -838,7 +843,8 @@
         "goalNumber": 724,
         "minute": "90+1",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Gianluigi Donnarumma"
       }
     ],
     "assistEvents": []
@@ -1085,7 +1091,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Blaise Matuidi"
+        "assistedBy": "Blaise Matuidi",
+        "goalkeeper": "Luigi Sepe"
       },
       {
         "id": "ronaldo-goal-718",
@@ -1094,7 +1101,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Paulo Dybala"
+        "assistedBy": "Paulo Dybala",
+        "goalkeeper": "Luigi Sepe"
       }
     ],
     "assistEvents": []
@@ -1188,14 +1196,16 @@
         "minute": "49",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Robin Olsen"
       },
       {
         "id": "ronaldo-goal-714",
         "goalNumber": 714,
         "minute": "67",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Robin Olsen"
       },
       {
         "id": "ronaldo-goal-715",
@@ -1204,7 +1214,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Douglas Costa"
+        "assistedBy": "Douglas Costa",
+        "goalkeeper": "Robin Olsen"
       }
     ],
     "assistEvents": [
@@ -1305,7 +1316,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Alex Sandro"
+        "assistedBy": "Alex Sandro",
+        "goalkeeper": "Emil Audero"
       }
     ],
     "assistEvents": []
@@ -1352,7 +1364,8 @@
         "minute": "9",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Juan Musso"
       },
       {
         "id": "ronaldo-goal-711",
@@ -1361,7 +1374,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonzalo Higuain"
+        "assistedBy": "Gonzalo Higuain",
+        "goalkeeper": "Juan Musso"
       }
     ],
     "assistEvents": []
@@ -1457,7 +1471,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Rodrigo Bentancur"
+        "assistedBy": "Rodrigo Bentancur",
+        "goalkeeper": "Thomas Strakosha"
       }
     ],
     "assistEvents": []
@@ -1635,7 +1650,8 @@
         "goalNumber": 703,
         "minute": "7",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Ernestas Setkus"
       },
       {
         "id": "ronaldo-goal-704",
@@ -1644,7 +1660,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Gonçalo Paciencia"
+        "assistedBy": "Gonçalo Paciencia",
+        "goalkeeper": "Ernestas Setkus"
       },
       {
         "id": "ronaldo-goal-705",
@@ -1653,7 +1670,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Bernardo Silva"
+        "assistedBy": "Bernardo Silva",
+        "goalkeeper": "Ernestas Setkus"
       }
     ],
     "assistEvents": [],
@@ -2307,7 +2325,8 @@
         "goalNumber": 692,
         "minute": "7",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Ernestas Setkus"
       },
       {
         "id": "ronaldo-goal-693",
@@ -2316,7 +2335,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Rafa Silva"
+        "assistedBy": "Rafa Silva",
+        "goalkeeper": "Ernestas Setkus"
       },
       {
         "id": "ronaldo-goal-694",
@@ -2325,7 +2345,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Bernardo Silva"
+        "assistedBy": "Bernardo Silva",
+        "goalkeeper": "Ernestas Setkus"
       },
       {
         "id": "ronaldo-goal-695",
@@ -2334,7 +2355,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Bernardo Silva"
+        "assistedBy": "Bernardo Silva",
+        "goalkeeper": "Ernestas Setkus"
       }
     ],
     "assistEvents": [],
