@@ -419,7 +419,8 @@
     "matchCompUrl": "https://vimeo.com/182357003",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/real-madrid-atletico-de-madrid-champions-league-2015-2016",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid won 5–3 on penalties (1–1 after extra time)."
   },
   {
     "id": "2016-05-14",
@@ -577,7 +578,8 @@
     "matchCompUrl": "https://vimeo.com/165695381",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/real-madrid-manchester-city-liga-1-division",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid advanced 1–0 on aggregate."
   },
   {
     "id": "2016-04-20",
@@ -734,7 +736,8 @@
         "gameState": "Match winner"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid advanced 3–2 on aggregate."
   },
   {
     "id": "2016-04-09",
@@ -836,7 +839,8 @@
     "matchCompUrl": "https://vimeo.com/210295155",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/vfl-wolfsburg-real-madrid",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Wolfsburg led 2–0 on aggregate."
   },
   {
     "id": "2016-04-02",
@@ -1119,7 +1123,8 @@
         "assistedPlayer": "James Rodriguez",
         "optaAssist": true
       }
-    ]
+    ],
+    "matchNote": "Real Madrid advanced 4–0 on aggregate."
   },
   {
     "id": "2016-03-05",
@@ -1385,7 +1390,8 @@
         "gameState": "Match winner"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid led 2–0 on aggregate."
   },
   {
     "id": "2016-02-13",
