@@ -78,14 +78,16 @@
         "goalNumber": 782,
         "minute": "31",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Hugo Lloris"
       },
       {
         "id": "ronaldo-goal-783",
         "goalNumber": 783,
         "minute": "63",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Hugo Lloris"
       }
     ],
     "assistEvents": [],
@@ -134,7 +136,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Diogo Jota"
+        "assistedBy": "Diogo Jota",
+        "goalkeeper": "Manuel Neuer"
       }
     ],
     "assistEvents": [
@@ -1328,7 +1331,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Alvaro Morata"
+        "assistedBy": "Alvaro Morata",
+        "goalkeeper": "Pau Lopez"
       }
     ],
     "assistEvents": []
