@@ -213,7 +213,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ruud van Nistelrooy"
+        "assistedBy": "Ruud van Nistelrooy",
+        "goalkeeper": "Shay Given"
       }
     ],
     "assistEvents": [
@@ -665,7 +666,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ryan Giggs"
+        "assistedBy": "Ryan Giggs",
+        "goalkeeper": "Manuel Almunia"
       },
       {
         "id": "ronaldo-goal-23",
@@ -674,7 +676,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ryan Giggs"
+        "assistedBy": "Ryan Giggs",
+        "goalkeeper": "Manuel Almunia"
       }
     ],
     "assistEvents": []
@@ -755,7 +758,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Louis Saha"
+        "assistedBy": "Louis Saha",
+        "goalkeeper": "Thomas Sörensen"
       }
     ],
     "assistEvents": [
