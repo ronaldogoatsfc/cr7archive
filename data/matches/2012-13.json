@@ -1197,7 +1197,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Fábio Coentrão"
+        "assistedBy": "Fábio Coentrão",
+        "goalkeeper": "Maximo Banguera"
       }
     ],
     "assistEvents": [],
@@ -2123,7 +2124,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonzalo Higuaín"
+        "assistedBy": "Gonzalo Higuaín",
+        "goalkeeper": "Simon Mignolet"
       },
       {
         "id": "ronaldo-goal-324",
@@ -2346,7 +2348,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Sergio Romero"
       },
       {
         "id": "ronaldo-goal-320",
@@ -2355,7 +2358,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Özil"
+        "assistedBy": "Mesut Özil",
+        "goalkeeper": "Seyed Hossein Hosseini"
       }
     ],
     "assistEvents": []
@@ -2581,7 +2585,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Joe Hart"
       }
     ],
     "assistEvents": []
@@ -2926,7 +2931,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Raul Meireles"
+        "assistedBy": "Raul Meireles",
+        "goalkeeper": "Jaime Penedo"
       }
     ],
     "assistEvents": [],
