@@ -192,7 +192,8 @@
         "goalNumber": 44,
         "minute": "80",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Ebrahim Mirzapour"
       }
     ],
     "assistEvents": [],
@@ -1186,7 +1187,8 @@
         "goalNumber": 32,
         "minute": "12",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Russel Hoult"
       }
     ],
     "assistEvents": []
@@ -1864,7 +1866,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Paul Scholes"
+        "assistedBy": "Paul Scholes",
+        "goalkeeper": "Norbert Csernyánszki"
       }
     ],
     "assistEvents": []
