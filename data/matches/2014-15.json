@@ -1134,7 +1134,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Isco"
+        "assistedBy": "Isco",
+        "goalkeeper": "Przemysław Tytoń"
       }
     ],
     "assistEvents": [
@@ -2910,7 +2911,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Isco"
+        "assistedBy": "Isco",
+        "goalkeeper": "Juan Carlos"
       }
     ],
     "assistEvents": []
