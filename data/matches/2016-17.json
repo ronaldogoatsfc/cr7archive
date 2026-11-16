@@ -51,7 +51,8 @@
         "minute": "33",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Stefan Marinovic"
+        "goalkeeper": "Stefan Marinovic",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -87,7 +88,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Raphael Guerreiro",
-        "goalkeeper": "Igor Akinfeev"
+        "goalkeeper": "Igor Akinfeev",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -169,7 +171,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "José Fonte",
-        "goalkeeper": "Andris Vanins"
+        "goalkeeper": "Andris Vanins",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-602",
@@ -296,7 +299,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Isco",
-        "goalkeeper": "Carlos Kameni"
+        "goalkeeper": "Carlos Kameni",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -354,7 +358,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Isco",
-        "goalkeeper": "Sergio Alvarez"
+        "goalkeeper": "Sergio Alvarez",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -402,7 +407,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Sergio Rico"
+        "goalkeeper": "Sergio Rico",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-595",
@@ -500,7 +506,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Casemiro",
-        "goalkeeper": "Jan Oblak"
+        "goalkeeper": "Jan Oblak",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-592",
@@ -666,7 +673,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Casemiro",
-        "goalkeeper": "Manuel Neuer"
+        "goalkeeper": "Manuel Neuer",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-589",
@@ -726,7 +734,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Dani Carvajal",
-        "goalkeeper": "Manuel Neuer"
+        "goalkeeper": "Manuel Neuer",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-586",
@@ -736,7 +745,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Marco Asensio",
-        "goalkeeper": "Manuel Neuer"
+        "goalkeeper": "Manuel Neuer",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -998,7 +1008,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo",
-        "goalkeeper": "Antonio Adan"
+        "goalkeeper": "Antonio Adan",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -1091,7 +1102,8 @@
         "minute": "86",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Javi Varas"
+        "goalkeeper": "Javi Varas",
+        "gameState": "Losing by 2"
       },
       {
         "id": "ronaldo-goal-580",
@@ -1101,7 +1113,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "James Rodriguez",
-        "goalkeeper": "Javi Varas"
+        "goalkeeper": "Javi Varas",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -1147,7 +1160,8 @@
         "goalNumber": 578,
         "minute": "74",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -1196,7 +1210,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo",
-        "goalkeeper": "Diego Alves"
+        "goalkeeper": "Diego Alves",
+        "gameState": "Losing by 2"
       }
     ],
     "assistEvents": []
@@ -1433,7 +1448,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Sergio Alvarez"
+        "goalkeeper": "Sergio Alvarez",
+        "gameState": "Losing by 2"
       }
     ],
     "assistEvents": []
@@ -1637,7 +1653,8 @@
         "minute": "60",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Hitoshi Sogahata"
+        "goalkeeper": "Hitoshi Sogahata",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-570",
@@ -1647,7 +1664,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema",
-        "goalkeeper": "Hitoshi Sogahata"
+        "goalkeeper": "Hitoshi Sogahata",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-571",
@@ -1821,7 +1839,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nacho"
+        "assistedBy": "Nacho",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1914,7 +1933,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Jan Oblak"
+        "goalkeeper": "Jan Oblak",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-564",
@@ -2105,7 +2125,8 @@
         "minute": "17",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Fernando Pacheco"
+        "goalkeeper": "Fernando Pacheco",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-559",
@@ -2115,7 +2136,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Karim Benzema",
-        "goalkeeper": "Fernando Pacheco"
+        "goalkeeper": "Fernando Pacheco",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-560",
@@ -2339,7 +2361,8 @@
         "minute": "2",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-553",
@@ -2582,7 +2605,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Rui Patricio"
+        "goalkeeper": "Rui Patricio",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
