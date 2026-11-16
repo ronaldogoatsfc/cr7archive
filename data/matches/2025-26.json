@@ -554,7 +554,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Félix"
+        "assistedBy": "Joao Félix",
+        "goalkeeper": "Edouard Mendy"
       }
     ],
     "assistEvents": []
@@ -770,7 +771,8 @@
         "goalNumber": 966,
         "minute": "56",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Victor Braga"
       },
       {
         "id": "ronaldo-goal-967",
@@ -779,7 +781,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nawaf Boushal"
+        "assistedBy": "Nawaf Boushal",
+        "goalkeeper": "Victor Braga"
       }
     ],
     "assistEvents": []
@@ -862,7 +865,8 @@
         "goalNumber": 965,
         "minute": "7",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Victor Braga"
       }
     ],
     "assistEvents": [
@@ -975,7 +979,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sadio Mané"
+        "assistedBy": "Sadio Mané",
+        "goalkeeper": "Fernando Pacheco"
       }
     ],
     "assistEvents": []
@@ -1949,7 +1954,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Félix"
+        "assistedBy": "Joao Félix",
+        "goalkeeper": "Milan Borjan"
       },
       {
         "id": "ronaldo-goal-945",
@@ -1958,7 +1964,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Kingsley Coman"
+        "assistedBy": "Kingsley Coman",
+        "goalkeeper": "Milan Borjan"
       }
     ],
     "assistEvents": [
@@ -2208,7 +2215,8 @@
         "goalNumber": 939,
         "minute": "41",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Edouard Mendy"
       }
     ],
     "assistEvents": []
