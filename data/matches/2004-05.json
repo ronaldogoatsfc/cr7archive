@@ -437,7 +437,8 @@
     "matchCompUrl": "https://vimeo.com/202020015",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/ac-milan-manchester-united-champions-league",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "AC Milan advanced 2–0 on aggregate."
   },
   {
     "id": "2005-03-05",
@@ -521,7 +522,8 @@
     "matchCompUrl": "https://vimeo.com/196707565",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/manchester-united-ac-milan-champions-league-2004-2005",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "AC Milan led 1–0 on aggregate."
   },
   {
     "id": "2005-02-19",
