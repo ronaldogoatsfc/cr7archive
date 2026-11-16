@@ -313,7 +313,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ryan Giggs"
+        "assistedBy": "Ryan Giggs",
+        "goalkeeper": "Stephan Andersen"
       }
     ],
     "assistEvents": []
@@ -601,7 +602,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ruud van Nistelrooy"
+        "assistedBy": "Ruud van Nistelrooy",
+        "goalkeeper": "John Filan"
       }
     ],
     "assistEvents": []
@@ -635,7 +637,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luís Figo"
+        "assistedBy": "Luís Figo",
+        "goalkeeper": "Mohammad Al-Deayea"
       },
       {
         "id": "ronaldo-goal-41",
@@ -644,7 +647,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Hugo Viana"
+        "assistedBy": "Hugo Viana",
+        "goalkeeper": "Mohammad Al-Deayea"
       }
     ],
     "assistEvents": [],
@@ -679,7 +683,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Louis Saha"
+        "assistedBy": "Louis Saha",
+        "goalkeeper": "John Filan"
       }
     ],
     "assistEvents": []
@@ -735,7 +740,8 @@
         "minute": "38",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Dean Kiely"
       },
       {
         "id": "ronaldo-goal-38",
@@ -744,7 +750,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Wayne Rooney"
+        "assistedBy": "Wayne Rooney",
+        "goalkeeper": "Dean Kiely"
       }
     ],
     "assistEvents": []
