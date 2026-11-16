@@ -229,7 +229,8 @@
         "goalNumber": 482,
         "minute": "23",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Gianluigi Buffon"
       }
     ],
     "assistEvents": []
@@ -315,7 +316,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "James Rodriguez"
+        "assistedBy": "James Rodriguez",
+        "goalkeeper": "Gianluigi Buffon"
       }
     ],
     "assistEvents": []
@@ -363,7 +365,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Isco"
+        "assistedBy": "Isco",
+        "goalkeeper": "Sergio Rico"
       },
       {
         "id": "ronaldo-goal-479",
@@ -372,7 +375,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Chicharito"
+        "assistedBy": "Chicharito",
+        "goalkeeper": "Sergio Rico"
       },
       {
         "id": "ronaldo-goal-480",
@@ -381,7 +385,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Sergio Rico"
       }
     ],
     "assistEvents": []
@@ -875,7 +880,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Claudio Bravo"
       }
     ],
     "assistEvents": []
@@ -1399,7 +1405,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Jan Oblak"
       }
     ],
     "assistEvents": []
@@ -1528,7 +1535,8 @@
         "goalNumber": 460,
         "minute": "14",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Diego Alves"
       }
     ],
     "assistEvents": []
@@ -1637,7 +1645,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Ruben Martinez"
       },
       {
         "id": "ronaldo-goal-459",
@@ -1646,7 +1655,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Dani Carvajal"
+        "assistedBy": "Dani Carvajal",
+        "goalkeeper": "Ruben Martinez"
       }
     ],
     "assistEvents": []
@@ -1746,7 +1756,8 @@
         "goalNumber": 454,
         "minute": "36",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Sergio Alvarez"
       },
       {
         "id": "ronaldo-goal-455",
@@ -1754,7 +1765,8 @@
         "minute": "65",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Sergio Alvarez"
       },
       {
         "id": "ronaldo-goal-456",
@@ -1763,7 +1775,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Sergio Alvarez"
       }
     ],
     "assistEvents": []
@@ -2208,7 +2221,8 @@
         "goalNumber": 447,
         "minute": "35",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Claudio Bravo"
       }
     ],
     "assistEvents": []
@@ -2446,7 +2460,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Gorka Iraizoz"
       },
       {
         "id": "ronaldo-goal-441",
@@ -2455,7 +2470,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Gorka Iraizoz"
       },
       {
         "id": "ronaldo-goal-442",
@@ -2464,7 +2480,8 @@
         "goalType": "Open Play",
         "bodyPart": "Other",
         "shotLocation": "Inside Box",
-        "assistedBy": "Pepe"
+        "assistedBy": "Pepe",
+        "goalkeeper": "Gorka Iraizoz"
       }
     ],
     "assistEvents": [
@@ -2978,7 +2995,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Beto"
       },
       {
         "id": "ronaldo-goal-427",
@@ -2987,7 +3005,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Beto"
       }
     ],
     "assistEvents": []
