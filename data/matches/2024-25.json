@@ -1354,7 +1354,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sultan Al-Ghannam"
+        "assistedBy": "Sultan Al-Ghannam",
+        "goalkeeper": "Sergio Rico"
       },
       {
         "id": "ronaldo-goal-913",
@@ -1363,7 +1364,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angelo"
+        "assistedBy": "Angelo",
+        "goalkeeper": "Sergio Rico"
       }
     ],
     "assistEvents": []
