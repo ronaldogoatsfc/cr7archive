@@ -261,7 +261,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/real-madrid-liverpool-fc-champions-league",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid won 3–1 to claim a third consecutive Champions League title."
   },
   {
     "id": "2018-05-19",
@@ -398,7 +399,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/real-madrid-bayern-munchen-champions-league-2017-2018",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid advanced 4–3 on aggregate."
   },
   {
     "id": "2018-04-25",
@@ -436,7 +438,8 @@
     "matchCompUrl": "https://vimeo.com/467709326",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/bayern-munchen-real-madrid-champions-league-2017-2018",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid led 2–1 on aggregate."
   },
   {
     "id": "2018-04-18",
@@ -534,7 +537,8 @@
         "goalkeeper": "Wojciech Szczęsny"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid advanced 4–3 on aggregate."
   },
   {
     "id": "2018-04-08",
@@ -652,7 +656,8 @@
         "assistedPlayer": "Marcelo",
         "optaAssist": true
       }
-    ]
+    ],
+    "matchNote": "Real Madrid led 3–0 on aggregate."
   },
   {
     "id": "2018-03-26",
@@ -943,7 +948,8 @@
         "assistedPlayer": "Casemiro",
         "optaAssist": true
       }
-    ]
+    ],
+    "matchNote": "Real Madrid advanced 5–2 on aggregate."
   },
   {
     "id": "2018-03-03",
@@ -1172,7 +1178,8 @@
         "gameState": "Match winner"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid led 3–1 on aggregate."
   },
   {
     "id": "2018-02-10",
