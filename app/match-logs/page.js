@@ -388,6 +388,7 @@ function assistsToPlayerCount(matches, playerName) {
   return matches.reduce(
     (total, match) =>
       total + (match.assistEvents || []).filter((event) =>
+        event.optaAssist === true &&
         normalizeFilterName(event.assistedPlayer).includes(query)
       ).length,
     0
