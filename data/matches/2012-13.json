@@ -305,7 +305,8 @@
     "matchCompUrl": "https://vimeo.com/175274677",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/real-madrid-borussia-dortmund-champions-league-2012-2013",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Borussia Dortmund advanced 4–3 on aggregate."
   },
   {
     "id": "2013-04-24",
@@ -355,7 +356,8 @@
         "gameState": "Equalizer"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Borussia Dortmund led 4–1 on aggregate."
   },
   {
     "id": "2013-04-20",
@@ -527,7 +529,8 @@
         "goalkeeper": "Fernando Muslera"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid advanced 5–3 on aggregate."
   },
   {
     "id": "2013-04-06",
@@ -635,7 +638,8 @@
         "gameState": "Match winner"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid led 3–0 on aggregate."
   },
   {
     "id": "2013-03-30",
@@ -874,7 +878,8 @@
         "gameState": "Match winner"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid advanced 3–2 on aggregate."
   },
   {
     "id": "2013-03-02",
@@ -1100,7 +1105,8 @@
         "gameState": "Equalizer"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "The tie was level 1–1 on aggregate."
   },
   {
     "id": "2013-02-09",
