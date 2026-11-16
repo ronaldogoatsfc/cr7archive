@@ -1036,7 +1036,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonzalo Higuain"
+        "assistedBy": "Gonzalo Higuain",
+        "goalkeeper": "Pau Lopez"
       }
     ],
     "assistEvents": []
@@ -1139,7 +1140,8 @@
         "goalNumber": 716,
         "minute": "10",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Pau Lopez"
       }
     ],
     "assistEvents": []
