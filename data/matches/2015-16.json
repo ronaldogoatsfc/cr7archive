@@ -649,7 +649,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Jesé"
+        "assistedBy": "Jesé",
+        "goalkeeper": "Vicente Guaita"
       }
     ],
     "assistEvents": []
@@ -1309,7 +1310,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Toni Kroos"
+        "assistedBy": "Toni Kroos",
+        "goalkeeper": "Carlos Kameni"
       }
     ],
     "assistEvents": []
@@ -2006,7 +2008,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Toni Kroos"
+        "assistedBy": "Toni Kroos",
+        "goalkeeper": "Vicente Guaita"
       }
     ],
     "assistEvents": [
