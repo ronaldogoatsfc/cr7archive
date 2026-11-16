@@ -1227,7 +1227,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sultan Al-Ghannam"
+        "assistedBy": "Sultan Al-Ghannam",
+        "goalkeeper": "Raghid Najjar"
       }
     ],
     "assistEvents": []
@@ -1533,7 +1534,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sadio Mané"
+        "assistedBy": "Sadio Mané",
+        "goalkeeper": "Martín Campaña"
       }
     ],
     "assistEvents": [
@@ -1815,7 +1817,8 @@
         "minute": "49",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Monir El Kajoui"
       }
     ],
     "assistEvents": []
@@ -1863,7 +1866,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Abdulrahman Ghareeb"
+        "assistedBy": "Abdulrahman Ghareeb",
+        "goalkeeper": "Marwan Al-Haidari"
       }
     ],
     "assistEvents": [
@@ -2276,7 +2280,8 @@
         "minute": "66",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Rustam Yatimov"
       }
     ],
     "assistEvents": []
@@ -2995,7 +3000,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ghislain Konan"
+        "assistedBy": "Ghislain Konan",
+        "goalkeeper": "Mohamed Sobhi"
       }
     ],
     "assistEvents": []
