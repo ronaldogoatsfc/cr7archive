@@ -73,7 +73,8 @@
         "minute": "34",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Andreas Isaksson"
+        "goalkeeper": "Andreas Isaksson",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -281,7 +282,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Wayne Rooney",
-        "goalkeeper": "Richard Lee"
+        "goalkeeper": "Richard Lee",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -559,7 +561,8 @@
         "minute": "76",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Mark Schwarzer"
+        "goalkeeper": "Mark Schwarzer",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -637,7 +640,8 @@
         "minute": "68",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Mark Schwarzer"
+        "goalkeeper": "Mark Schwarzer",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -772,7 +776,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Patrice Evra",
-        "goalkeeper": "Jan Lastuvka"
+        "goalkeeper": "Jan Lastuvka",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -898,7 +903,8 @@
         "minute": "45",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Paul Robinson"
+        "goalkeeper": "Paul Robinson",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -939,7 +945,8 @@
         "minute": "12",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Richard Lee"
+        "goalkeeper": "Richard Lee",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1103,7 +1110,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs",
-        "goalkeeper": "Marcus Hahnemann"
+        "goalkeeper": "Marcus Hahnemann",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1155,7 +1163,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Chris Kirkland"
+        "goalkeeper": "Chris Kirkland",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1188,7 +1197,8 @@
         "minute": "58",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-55",
@@ -1372,7 +1382,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Richard Wright"
+        "goalkeeper": "Richard Wright",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1747,7 +1758,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Deco",
-        "goalkeeper": "Farhad Valiyev"
+        "goalkeeper": "Farhad Valiyev",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-48",
@@ -1877,7 +1889,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "John O'Shea",
-        "goalkeeper": "Marcus Hahnemann"
+        "goalkeeper": "Marcus Hahnemann",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
