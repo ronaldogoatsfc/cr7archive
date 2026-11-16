@@ -995,7 +995,8 @@
         "assistedPlayer": "Federico Chiesa",
         "optaAssist": true
       }
-    ]
+    ],
+    "matchNote": "The tie finished 4–4 on aggregate; FC Porto advanced on away goals after extra time."
   },
   {
     "id": "2021-03-06",
@@ -1228,7 +1229,8 @@
     "matchCompUrl": "https://vimeo.com/862911493",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/fc-porto-juventus-fc-champions-league-2020-2021",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "FC Porto led 2–1 on aggregate."
   },
   {
     "id": "2021-02-13",
