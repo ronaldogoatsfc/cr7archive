@@ -319,7 +319,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Dudu Aouate"
       }
     ],
     "assistEvents": []
@@ -578,7 +579,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "Victor Valdés"
       }
     ],
     "assistEvents": []
@@ -1266,7 +1268,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonzalo Higuain"
+        "assistedBy": "Gonzalo Higuain",
+        "goalkeeper": "Kiko Casilla"
       }
     ],
     "assistEvents": []
@@ -1435,7 +1438,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Kaka"
+        "assistedBy": "Kaka",
+        "goalkeeper": "Toño"
       }
     ],
     "assistEvents": []
@@ -1631,7 +1635,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "José Manuel Pinto"
       }
     ],
     "assistEvents": []
@@ -1721,7 +1726,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "José Manuel Pinto"
       }
     ],
     "assistEvents": []
@@ -2619,7 +2625,8 @@
         "minute": "90+2",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Thomas Sörensen"
       }
     ],
     "assistEvents": [],
@@ -3136,7 +3143,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Victor Valdés"
       }
     ],
     "assistEvents": []
