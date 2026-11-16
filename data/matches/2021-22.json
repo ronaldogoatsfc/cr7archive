@@ -552,7 +552,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/manchester-united-atletico-de-madrid-champions-league",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Atletico Madrid advanced 2–1 on aggregate."
   },
   {
     "id": "2022-03-12",
@@ -697,7 +698,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-manchester-united",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "The tie was level 1–1 on aggregate."
   },
   {
     "id": "2022-02-20",
