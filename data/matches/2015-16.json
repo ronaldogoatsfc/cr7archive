@@ -363,7 +363,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ricardo Quaresma"
+        "assistedBy": "Ricardo Quaresma",
+        "goalkeeper": "Pavel Londak"
       },
       {
         "id": "ronaldo-goal-545",
@@ -372,7 +373,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Mario"
+        "assistedBy": "Joao Mario",
+        "goalkeeper": "Pavel Londak"
       }
     ],
     "assistEvents": [],
@@ -458,7 +460,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Stipe Pletikosa"
       },
       {
         "id": "ronaldo-goal-543",
@@ -467,7 +470,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Toni Kroos"
+        "assistedBy": "Toni Kroos",
+        "goalkeeper": "Stipe Pletikosa"
       }
     ],
     "assistEvents": []
@@ -698,7 +702,8 @@
         "minute": "16",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Diego Benaglio"
       },
       {
         "id": "ronaldo-goal-537",
@@ -707,7 +712,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Dani Carvajal"
+        "assistedBy": "Dani Carvajal",
+        "goalkeeper": "Diego Benaglio"
       },
       {
         "id": "ronaldo-goal-538",
@@ -715,7 +721,8 @@
         "minute": "77",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Diego Benaglio"
       }
     ],
     "assistEvents": []
@@ -1089,7 +1096,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Lucas Vazquez"
+        "assistedBy": "Lucas Vazquez",
+        "goalkeeper": "Wojciech Szczęsny"
       }
     ],
     "assistEvents": [
@@ -1360,7 +1368,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Wojciech Szczęsny"
       }
     ],
     "assistEvents": []
@@ -1510,7 +1519,8 @@
         "goalNumber": 519,
         "minute": "12",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Giedrius Arlauskis"
       },
       {
         "id": "ronaldo-goal-520",
@@ -1518,7 +1528,8 @@
         "minute": "45",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Giedrius Arlauskis"
       },
       {
         "id": "ronaldo-goal-521",
@@ -1527,7 +1538,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Jesé"
+        "assistedBy": "Jesé",
+        "goalkeeper": "Giedrius Arlauskis"
       }
     ],
     "assistEvents": []
@@ -1612,7 +1624,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Iván Cuéllar"
       },
       {
         "id": "ronaldo-goal-518",
@@ -1621,7 +1634,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Dani Carvajal"
+        "assistedBy": "Dani Carvajal",
+        "goalkeeper": "Iván Cuéllar"
       }
     ],
     "assistEvents": []
