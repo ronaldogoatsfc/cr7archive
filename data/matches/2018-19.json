@@ -90,7 +90,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Bernardo Silva",
-        "goalkeeper": "Yann Sommer"
+        "goalkeeper": "Yann Sommer",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-689",
@@ -224,7 +225,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Leonardo Spinazzola",
-        "goalkeeper": "Salvatore Sirigu"
+        "goalkeeper": "Salvatore Sirigu",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -273,7 +275,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Miralem Pjanic",
-        "goalkeeper": "Samir Handanovic"
+        "goalkeeper": "Samir Handanovic",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -544,7 +547,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Federico Bernardeschi",
-        "goalkeeper": "Jan Oblak"
+        "goalkeeper": "Jan Oblak",
+        "gameState": "Losing by 2"
       },
       {
         "id": "ronaldo-goal-681",
@@ -554,7 +558,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Cancelo",
-        "goalkeeper": "Jan Oblak"
+        "goalkeeper": "Jan Oblak",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-682",
@@ -562,7 +567,8 @@
         "minute": "86",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Jan Oblak"
+        "goalkeeper": "Jan Oblak",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -945,7 +951,8 @@
         "minute": "88",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Thomas Strakosha"
+        "goalkeeper": "Thomas Strakosha",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1031,7 +1038,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Miralem Pjanic",
-        "goalkeeper": "Gianluigi Donnarumma"
+        "goalkeeper": "Gianluigi Donnarumma",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1125,7 +1133,8 @@
         "minute": "65",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Emil Audero"
+        "goalkeeper": "Emil Audero",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1174,7 +1183,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Giorgio Chiellini",
-        "goalkeeper": "Etrit Berisha"
+        "goalkeeper": "Etrit Berisha",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -1258,7 +1268,8 @@
         "minute": "70",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Salvatore Sirigu"
+        "goalkeeper": "Salvatore Sirigu",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1481,7 +1492,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Miralem Pjanic",
-        "goalkeeper": "Alfred Gomis"
+        "goalkeeper": "Alfred Gomis",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1670,7 +1682,8 @@
         "minute": "54",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Ivan Provedel"
+        "goalkeeper": "Ivan Provedel",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-665",
@@ -1680,7 +1693,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Blaise Matuidi",
-        "goalkeeper": "Ivan Provedel"
+        "goalkeeper": "Ivan Provedel",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1966,7 +1980,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Marco Sportiello"
+        "goalkeeper": "Marco Sportiello",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2061,7 +2076,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Emre Can",
-        "goalkeeper": "Andrea Consigli"
+        "goalkeeper": "Andrea Consigli",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
