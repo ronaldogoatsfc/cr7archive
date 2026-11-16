@@ -451,7 +451,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Fernando Gago"
+        "assistedBy": "Fernando Gago",
+        "goalkeeper": "Ricardo Lopez"
       },
       {
         "id": "ronaldo-goal-174",
@@ -460,7 +461,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonzalo Higuain"
+        "assistedBy": "Gonzalo Higuain",
+        "goalkeeper": "Ricardo Lopez"
       }
     ],
     "assistEvents": []
@@ -560,7 +562,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "César Sánchez"
       }
     ],
     "assistEvents": []
@@ -1948,7 +1951,8 @@
         "minute": "27",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Johnny Leoni"
       },
       {
         "id": "ronaldo-goal-149",
@@ -1956,7 +1960,8 @@
         "minute": "89",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Johnny Leoni"
       }
     ],
     "assistEvents": []
