@@ -58,7 +58,8 @@
     "matchCompUrl": "https://vimeo.com/315646498",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-manchester-united-champions-league",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Barcelona won 2–0 to claim the Champions League title."
   },
   {
     "id": "2009-05-16",
@@ -204,7 +205,8 @@
         "assistedPlayer": "Park Ji-sung",
         "optaAssist": true
       }
-    ]
+    ],
+    "matchNote": "Manchester United advanced 4–1 on aggregate."
   },
   {
     "id": "2009-04-29",
@@ -242,7 +244,8 @@
     "matchCompUrl": "https://vimeo.com/208572877",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/manchester-united-arsenal-fc-champions-league",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Manchester United led 1–0 on aggregate."
   },
   {
     "id": "2009-04-25",
@@ -367,7 +370,8 @@
         "gameState": "Match winner"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Manchester United advanced 3–2 on aggregate."
   },
   {
     "id": "2009-04-11",
@@ -428,7 +432,8 @@
     "matchCompUrl": "https://vimeo.com/170313033",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/manchester-united-fc-porto",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "The tie was level 2–2 on aggregate; FC Porto held the away-goals advantage."
   },
   {
     "id": "2009-04-05",
@@ -639,7 +644,8 @@
         "goalkeeper": "Julio Cesar"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Manchester United advanced 2–0 on aggregate."
   },
   {
     "id": "2009-03-04",
@@ -723,7 +729,8 @@
     "matchCompUrl": "https://vimeo.com/202898347",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/fc-internazionale-manchester-united-champions-league",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "The tie was level 0–0 on aggregate."
   },
   {
     "id": "2009-02-21",
