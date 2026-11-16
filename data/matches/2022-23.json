@@ -43,7 +43,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Gonçalo Inacio",
-        "goalkeeper": "Runar Alex Runarsson"
+        "goalkeeper": "Runar Alex Runarsson",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -168,7 +169,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Luiz Gustavo",
-        "goalkeeper": "Seung-gyu Kim"
+        "goalkeeper": "Seung-gyu Kim",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -215,7 +217,8 @@
         "minute": "52",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Victor Braga"
+        "goalkeeper": "Victor Braga",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -300,7 +303,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sultan Al-Ghannam"
+        "assistedBy": "Sultan Al-Ghannam",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -458,7 +462,8 @@
         "minute": "40",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Milan Mijatović"
+        "goalkeeper": "Milan Mijatović",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-834",
@@ -517,7 +522,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nuno Mendes",
-        "goalkeeper": "Anthony Moris"
+        "goalkeeper": "Anthony Moris",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-832",
@@ -633,7 +639,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Devis Epassy"
+        "goalkeeper": "Devis Epassy",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -791,7 +798,8 @@
         "minute": "18",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Moustapha Zeghba"
+        "goalkeeper": "Moustapha Zeghba",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-826",
@@ -912,7 +920,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Abdulrahman Ghareeb",
-        "goalkeeper": "Abdulquddus Atiah"
+        "goalkeeper": "Abdulquddus Atiah",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-822",
@@ -988,7 +997,8 @@
         "minute": "90+",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Jacob Rinne"
+        "goalkeeper": "Jacob Rinne",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -1552,7 +1562,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Casemiro",
-        "goalkeeper": "Jordan Pickford"
+        "goalkeeper": "Jordan Pickford",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
