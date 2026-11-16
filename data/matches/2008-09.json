@@ -134,7 +134,8 @@
         "minute": "17",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Shay Given"
       }
     ],
     "assistEvents": []
@@ -841,7 +842,8 @@
         "goalNumber": 133,
         "minute": "77",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Jussi Jääskeläinen"
       }
     ],
     "assistEvents": [],
@@ -1894,7 +1896,8 @@
         "goalNumber": 120,
         "minute": "59",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Jussi Jääskeläinen"
       }
     ],
     "assistEvents": [
