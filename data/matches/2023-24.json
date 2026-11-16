@@ -240,7 +240,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ruben Neves"
+        "assistedBy": "Ruben Neves",
+        "goalkeeper": "Caoimhin Kelleher"
       },
       {
         "id": "ronaldo-goal-895",
@@ -249,7 +250,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Diogo Jota"
+        "assistedBy": "Diogo Jota",
+        "goalkeeper": "Caoimhin Kelleher"
       }
     ],
     "assistEvents": [],
@@ -335,7 +337,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mohammed Al-Fatil"
+        "assistedBy": "Mohammed Al-Fatil",
+        "goalkeeper": "Mohammed Al-Mahasneh"
       },
       {
         "id": "ronaldo-goal-893",
@@ -344,7 +347,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Brozovic"
+        "assistedBy": "Brozovic",
+        "goalkeeper": "Mohammed Al-Mahasneh"
       }
     ],
     "assistEvents": []
@@ -522,7 +526,8 @@
         "minute": "5",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Munir Mohamedi"
       },
       {
         "id": "ronaldo-goal-889",
@@ -531,7 +536,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Brozovic"
+        "assistedBy": "Brozovic",
+        "goalkeeper": "Munir Mohamedi"
       },
       {
         "id": "ronaldo-goal-890",
@@ -540,7 +546,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sadio Mané"
+        "assistedBy": "Sadio Mané",
+        "goalkeeper": "Munir Mohamedi"
       }
     ],
     "assistEvents": []
@@ -757,7 +764,8 @@
         "minute": "11",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Ciprian Tătărușanu"
       },
       {
         "id": "ronaldo-goal-884",
@@ -765,7 +773,8 @@
         "minute": "21",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Ciprian Tătărușanu"
       },
       {
         "id": "ronaldo-goal-885",
@@ -774,7 +783,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Abdulrahman Ghareeb"
+        "assistedBy": "Abdulrahman Ghareeb",
+        "goalkeeper": "Ciprian Tătărușanu"
       }
     ],
     "assistEvents": [
@@ -837,7 +847,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sadio Mané"
+        "assistedBy": "Sadio Mané",
+        "goalkeeper": "Moataz Al-Baqaawi"
       },
       {
         "id": "ronaldo-goal-881",
@@ -845,7 +856,8 @@
         "minute": "67",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Moataz Al-Baqaawi"
       },
       {
         "id": "ronaldo-goal-882",
@@ -854,7 +866,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Abdulmajeed Al-Sulayhim"
+        "assistedBy": "Abdulmajeed Al-Sulayhim",
+        "goalkeeper": "Moataz Al-Baqaawi"
       }
     ],
     "assistEvents": []
@@ -986,7 +999,8 @@
         "goalNumber": 878,
         "minute": "118",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Khalid Eisa"
       }
     ],
     "assistEvents": []
@@ -1115,7 +1129,8 @@
         "goalNumber": 877,
         "minute": "21",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Mohammed Al-Absi"
       }
     ],
     "assistEvents": []
@@ -1163,7 +1178,8 @@
         "minute": "86",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Vladimir Stojković"
       }
     ],
     "assistEvents": []
@@ -1260,7 +1276,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Brozovic"
+        "assistedBy": "Brozovic",
+        "goalkeeper": "Vladimir Stojković"
       }
     ],
     "assistEvents": []
@@ -1308,7 +1325,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Seko Fofana"
+        "assistedBy": "Seko Fofana",
+        "goalkeeper": "Mohammed Al-Absi"
       }
     ],
     "assistEvents": []
@@ -1748,7 +1766,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Diogo Jota"
+        "assistedBy": "Diogo Jota",
+        "goalkeeper": "Benjamin Büchel"
       }
     ],
     "assistEvents": [],
@@ -1982,7 +2001,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Sultan Al-Ghannam"
+        "assistedBy": "Sultan Al-Ghannam",
+        "goalkeeper": "Salah Zakaria"
       },
       {
         "id": "ronaldo-goal-862",
@@ -1991,7 +2011,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sultan Al-Ghannam"
+        "assistedBy": "Sultan Al-Ghannam",
+        "goalkeeper": "Salah Zakaria"
       }
     ],
     "assistEvents": [
@@ -2159,7 +2180,8 @@
         "goalNumber": 856,
         "minute": "29",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Martin Dúbravka"
       },
       {
         "id": "ronaldo-goal-857",
@@ -2168,7 +2190,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Bruno Fernandes"
+        "assistedBy": "Bruno Fernandes",
+        "goalkeeper": "Martin Dúbravka"
       }
     ],
     "assistEvents": [],
@@ -2818,7 +2841,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sultan Al-Ghannam"
+        "assistedBy": "Sultan Al-Ghannam",
+        "goalkeeper": "Mohammed Al-Owais"
       },
       {
         "id": "ronaldo-goal-844",
@@ -2826,7 +2850,8 @@
         "minute": "98",
         "goalType": "Open Play",
         "bodyPart": "Header",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Mohammed Al-Owais"
       }
     ],
     "assistEvents": []
