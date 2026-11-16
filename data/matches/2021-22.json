@@ -775,7 +775,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Scott McTominay"
+        "assistedBy": "Scott McTominay",
+        "goalkeeper": "Robert Sanchez"
       }
     ],
     "assistEvents": []
@@ -1812,7 +1813,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Diogo Dalot"
+        "assistedBy": "Diogo Dalot",
+        "goalkeeper": "Saad Al-Sheeb"
       }
     ],
     "assistEvents": [],
@@ -1983,7 +1985,8 @@
         "minute": "35",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Lukasz Fabianski"
       }
     ],
     "assistEvents": []
