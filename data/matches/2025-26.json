@@ -644,7 +644,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nawaf Boushal"
+        "assistedBy": "Nawaf Boushal",
+        "goalkeeper": "Mohamed Ali"
       }
     ],
     "assistEvents": []
@@ -1035,7 +1036,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Félix"
+        "assistedBy": "Joao Félix",
+        "goalkeeper": "Juan Pablo Cozzani"
       }
     ],
     "assistEvents": []
@@ -1206,7 +1208,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Kingsley Coman"
+        "assistedBy": "Kingsley Coman",
+        "goalkeeper": "Mohammed Al-Yami"
       }
     ],
     "assistEvents": []
@@ -1576,7 +1579,8 @@
         "goalNumber": 953,
         "minute": "65",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Luís Maximiano"
       }
     ],
     "assistEvents": []
