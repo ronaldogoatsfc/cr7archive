@@ -135,7 +135,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Shay Given"
+        "goalkeeper": "Shay Given",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -270,7 +271,8 @@
         "goalNumber": 141,
         "minute": "57",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "gameState": "Losing by 2"
       },
       {
         "id": "ronaldo-goal-142",
@@ -279,7 +281,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Wayne Rooney"
+        "assistedBy": "Wayne Rooney",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -360,7 +363,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Anderson",
-        "goalkeeper": "Hélton"
+        "goalkeeper": "Hélton",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -463,7 +467,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Michael Carrick"
+        "assistedBy": "Michael Carrick",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -749,7 +754,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Paul Robinson"
+        "goalkeeper": "Paul Robinson",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -848,7 +854,8 @@
         "minute": "77",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Jussi Jääskeläinen"
+        "goalkeeper": "Jussi Jääskeläinen",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -905,7 +912,8 @@
         "minute": "43",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Tim Howard"
+        "goalkeeper": "Tim Howard",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1004,7 +1012,8 @@
         "goalNumber": 129,
         "minute": "89",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1439,7 +1448,8 @@
         "minute": "3",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-127",
@@ -1622,7 +1632,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nani"
+        "assistedBy": "Nani",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-123",
@@ -1904,7 +1915,8 @@
         "minute": "59",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Jussi Jääskeläinen"
+        "goalkeeper": "Jussi Jääskeläinen",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
