@@ -336,7 +336,8 @@
         "goalNumber": 178,
         "minute": "21",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Gorka Iraizoz"
       }
     ],
     "assistEvents": []
@@ -607,7 +608,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Guti"
+        "assistedBy": "Guti",
+        "goalkeeper": "Diego Alves"
       }
     ],
     "assistEvents": []
@@ -946,7 +948,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Guti"
+        "assistedBy": "Guti",
+        "goalkeeper": "Hugo Lloris"
       }
     ],
     "assistEvents": []
@@ -1119,7 +1122,8 @@
         "minute": "18",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Diego Lopez"
       }
     ],
     "assistEvents": [
@@ -1284,7 +1288,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Kaka"
+        "assistedBy": "Kaka",
+        "goalkeeper": "Geronimo Rulli"
       },
       {
         "id": "ronaldo-goal-160",
@@ -1293,7 +1298,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Guti"
+        "assistedBy": "Guti",
+        "goalkeeper": "Geronimo Rulli"
       }
     ],
     "assistEvents": []
@@ -1564,7 +1570,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonzalo Higuain"
+        "assistedBy": "Gonzalo Higuain",
+        "goalkeeper": "Diego Alves"
       }
     ],
     "assistEvents": [
@@ -1835,7 +1842,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Sergio Ramos"
+        "assistedBy": "Sergio Ramos",
+        "goalkeeper": "Diego Lopez"
       }
     ],
     "assistEvents": []
