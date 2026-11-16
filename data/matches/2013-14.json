@@ -204,7 +204,8 @@
         "goalNumber": 424,
         "minute": "120",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Thibaut Courtois"
       }
     ],
     "assistEvents": [
@@ -297,7 +298,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Diego Alves"
       }
     ],
     "assistEvents": [
@@ -354,7 +356,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Manuel Neuer"
       },
       {
         "id": "ronaldo-goal-422",
@@ -362,7 +365,8 @@
         "minute": "90",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Manuel Neuer"
       }
     ],
     "assistEvents": []
@@ -556,7 +560,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Ruben Martinez"
       }
     ],
     "assistEvents": [
@@ -611,7 +616,8 @@
         "minute": "14",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Beto"
       }
     ],
     "assistEvents": []
@@ -918,7 +924,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Thibaut Courtois"
       }
     ],
     "assistEvents": []
@@ -1638,7 +1645,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Pepe"
+        "assistedBy": "Pepe",
+        "goalkeeper": "Johan Sellberg-Wiland"
       }
     ],
     "assistEvents": []
@@ -1856,14 +1864,16 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Claudio Bravo"
       },
       {
         "id": "ronaldo-goal-390",
         "goalNumber": 390,
         "minute": "27",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Claudio Bravo"
       },
       {
         "id": "ronaldo-goal-391",
@@ -1871,7 +1881,8 @@
         "minute": "76",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Claudio Bravo"
       }
     ],
     "assistEvents": [
@@ -1927,7 +1938,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Gianluigi Buffon"
       }
     ],
     "assistEvents": [
@@ -1983,7 +1995,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luka Modric"
+        "assistedBy": "Luka Modric",
+        "goalkeeper": "Ruben Martinez"
       },
       {
         "id": "ronaldo-goal-387",
@@ -1992,7 +2005,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Ruben Martinez"
       }
     ],
     "assistEvents": []
@@ -2038,7 +2052,8 @@
         "goalNumber": 383,
         "minute": "31",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Beto"
       },
       {
         "id": "ronaldo-goal-384",
@@ -2047,7 +2062,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Beto"
       },
       {
         "id": "ronaldo-goal-385",
@@ -2056,7 +2072,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Beto"
       }
     ],
     "assistEvents": []
@@ -2149,14 +2166,16 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Gianluigi Buffon"
       },
       {
         "id": "ronaldo-goal-382",
         "goalNumber": 382,
         "minute": "29",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Gianluigi Buffon"
       }
     ],
     "assistEvents": []
@@ -2322,7 +2341,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Johan Sellberg-Wiland"
       },
       {
         "id": "ronaldo-goal-378",
@@ -2331,7 +2351,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Johan Sellberg-Wiland"
       }
     ],
     "assistEvents": []
