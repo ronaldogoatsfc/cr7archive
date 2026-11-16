@@ -378,7 +378,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Darren Fletcher"
+        "assistedBy": "Darren Fletcher",
+        "goalkeeper": "Thomas Sörensen"
       }
     ],
     "assistEvents": []
