@@ -191,7 +191,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ryan Giggs"
+        "assistedBy": "Ryan Giggs",
+        "goalkeeper": "Dida"
       }
     ],
     "assistEvents": []
@@ -279,7 +280,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Wayne Rooney"
+        "assistedBy": "Wayne Rooney",
+        "goalkeeper": "Richard Lee"
       }
     ],
     "assistEvents": []
@@ -328,7 +330,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ryan Giggs"
+        "assistedBy": "Ryan Giggs",
+        "goalkeeper": "Doni"
       },
       {
         "id": "ronaldo-goal-69",
@@ -337,7 +340,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ryan Giggs"
+        "assistedBy": "Ryan Giggs",
+        "goalkeeper": "Doni"
       }
     ],
     "assistEvents": [
@@ -502,7 +506,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ricardo Quaresma"
+        "assistedBy": "Ricardo Quaresma",
+        "goalkeeper": "Stijn Stijnen"
       },
       {
         "id": "ronaldo-goal-67",
@@ -511,7 +516,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Petit"
+        "assistedBy": "Petit",
+        "goalkeeper": "Stijn Stijnen"
       }
     ],
     "assistEvents": [
@@ -890,7 +896,8 @@
         "goalNumber": 62,
         "minute": "45",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Paul Robinson"
       }
     ],
     "assistEvents": [
@@ -930,7 +937,8 @@
         "goalNumber": 61,
         "minute": "12",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Richard Lee"
       }
     ],
     "assistEvents": [
@@ -1478,7 +1486,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Tiago Mendes"
+        "assistedBy": "Tiago Mendes",
+        "goalkeeper": "David Loria"
       }
     ],
     "assistEvents": [],
@@ -1558,7 +1567,8 @@
         "minute": "10",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "David James"
       }
     ],
     "assistEvents": []
@@ -1733,7 +1743,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Deco"
+        "assistedBy": "Deco",
+        "goalkeeper": "Farhad Valiyev"
       },
       {
         "id": "ronaldo-goal-48",
@@ -1742,7 +1753,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Simão"
+        "assistedBy": "Simão",
+        "goalkeeper": "Farhad Valiyev"
       }
     ],
     "assistEvents": [
