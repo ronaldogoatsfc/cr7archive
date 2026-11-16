@@ -365,7 +365,8 @@
     "matchCompUrl": "https://vimeo.com/166088733",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-real-madrid-champions-league",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Barcelona advanced 3–1 on aggregate."
   },
   {
     "id": "2011-04-27",
@@ -403,7 +404,8 @@
     "matchCompUrl": "https://vimeo.com/163583509",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/real-madrid-fc-barcelona-champions-league",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Barcelona led 2–0 on aggregate."
   },
   {
     "id": "2011-04-23",
@@ -587,7 +589,8 @@
         "assistedBy": "Sami Khedira"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid advanced 5–0 on aggregate."
   },
   {
     "id": "2011-04-09",
@@ -685,7 +688,8 @@
         "assistedBy": "Kaka"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid led 4–0 on aggregate."
   },
   {
     "id": "2011-03-19",
@@ -768,7 +772,8 @@
         "assistedPlayer": "Marcelo",
         "optaAssist": true
       }
-    ]
+    ],
+    "matchNote": "Real Madrid advanced 4–1 on aggregate."
   },
   {
     "id": "2011-03-03",
@@ -915,7 +920,8 @@
         "assistedPlayer": "Karim Benzema",
         "optaAssist": true
       }
-    ]
+    ],
+    "matchNote": "The tie was level 1–1 on aggregate."
   },
   {
     "id": "2011-02-19",
