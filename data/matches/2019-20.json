@@ -57,7 +57,8 @@
         "gameState": "Equalizer"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "The tie finished 2–2 on aggregate; Lyon advanced on away goals."
   },
   {
     "id": "2020-07-29",
@@ -764,7 +765,8 @@
     "matchCompUrl": "https://vimeo.com/434009532",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/olympique-lyonnais-juventus-fc-champions-league",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Lyon led 1–0 on aggregate."
   },
   {
     "id": "2020-02-22",
