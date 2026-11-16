@@ -720,7 +720,8 @@
     "matchCompUrl": "https://vimeo.com/170315903",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/manchester-united-fc-porto-champions-league",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "FC Porto advanced 3–2 on aggregate."
   },
   {
     "id": "2004-03-06",
@@ -820,7 +821,8 @@
     "matchCompUrl": "https://vimeo.com/168807064",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/fc-porto-manchester-united-champions-league",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "FC Porto led 2–1 on aggregate."
   },
   {
     "id": "2004-02-18",
