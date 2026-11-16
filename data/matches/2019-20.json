@@ -42,7 +42,8 @@
         "minute": "43",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Anthony Lopes"
+        "goalkeeper": "Anthony Lopes",
+        "gameState": "Losing by 2"
       },
       {
         "id": "ronaldo-goal-737",
@@ -52,7 +53,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Federico Bernardeschi",
-        "goalkeeper": "Anthony Lopes"
+        "goalkeeper": "Anthony Lopes",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -138,7 +140,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Miralem Pjanic",
-        "goalkeeper": "Emil Audero"
+        "goalkeeper": "Emil Audero",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -240,7 +243,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Paulo Dybala",
-        "goalkeeper": "Thomas Strakosha"
+        "goalkeeper": "Thomas Strakosha",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -324,7 +328,8 @@
         "minute": "55",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Pierluigi Gollini"
+        "goalkeeper": "Pierluigi Gollini",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-732",
@@ -332,7 +337,8 @@
         "minute": "90",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Pierluigi Gollini"
+        "goalkeeper": "Pierluigi Gollini",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -486,7 +492,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Miralem Pjanic",
-        "goalkeeper": "Mattia Perin"
+        "goalkeeper": "Mattia Perin",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -595,7 +602,8 @@
         "minute": "23",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Lukasz Skorupski"
+        "goalkeeper": "Lukasz Skorupski",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -850,7 +858,8 @@
         "minute": "90+1",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Gianluigi Donnarumma"
+        "goalkeeper": "Gianluigi Donnarumma",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -945,7 +954,8 @@
         "goalNumber": 721,
         "minute": "40",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-722",
@@ -1001,7 +1011,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Rodrigo Bentancur",
-        "goalkeeper": "Alex Meret"
+        "goalkeeper": "Alex Meret",
+        "gameState": "Losing by 2"
       }
     ],
     "assistEvents": []
@@ -1109,7 +1120,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Paulo Dybala",
-        "goalkeeper": "Luigi Sepe"
+        "goalkeeper": "Luigi Sepe",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1156,7 +1168,8 @@
         "minute": "10",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Pau Lopez"
+        "goalkeeper": "Pau Lopez",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1204,7 +1217,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Robin Olsen"
+        "goalkeeper": "Robin Olsen",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-714",
@@ -1324,7 +1338,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Alex Sandro",
-        "goalkeeper": "Emil Audero"
+        "goalkeeper": "Emil Audero",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1382,7 +1397,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Gonzalo Higuain",
-        "goalkeeper": "Juan Musso"
+        "goalkeeper": "Juan Musso",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1431,7 +1447,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Paulo Dybala",
-        "goalkeeper": "Lukas Hradecky"
+        "goalkeeper": "Lukas Hradecky",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1527,7 +1544,8 @@
         "minute": "68",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Stefano Turati"
+        "goalkeeper": "Stefano Turati",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -1660,7 +1678,8 @@
         "minute": "7",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Ernestas Setkus"
+        "goalkeeper": "Ernestas Setkus",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-704",
@@ -1847,7 +1866,8 @@
         "minute": "90+6",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Ionut Radu"
+        "goalkeeper": "Ionut Radu",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1979,7 +1999,8 @@
         "minute": "72",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Andriy Pyatov"
+        "goalkeeper": "Andriy Pyatov",
+        "gameState": "Losing by 2"
       }
     ],
     "assistEvents": [],
@@ -2211,7 +2232,8 @@
         "minute": "49",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Marco Silvestri"
+        "goalkeeper": "Marco Silvestri",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -2350,7 +2372,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Rafa Silva",
-        "goalkeeper": "Ernestas Setkus"
+        "goalkeeper": "Ernestas Setkus",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-694",
@@ -2420,7 +2443,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Bernardo Silva",
-        "goalkeeper": "Marko Dmitrovic"
+        "goalkeeper": "Marko Dmitrovic",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
