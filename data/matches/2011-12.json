@@ -541,7 +541,8 @@
         "goalkeeper": "Manuel Neuer"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "The tie was level 3–3 on aggregate; Bayern Munich won 3–1 on penalties."
   },
   {
     "id": "2012-04-21",
@@ -637,7 +638,8 @@
         "assistedPlayer": "Mesut Ozil",
         "optaAssist": true
       }
-    ]
+    ],
+    "matchNote": "Bayern Munich led 2–1 on aggregate."
   },
   {
     "id": "2012-04-14",
@@ -858,7 +860,8 @@
         "goalkeeper": "Urko Pardo"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid advanced 8–2 on aggregate."
   },
   {
     "id": "2012-03-31",
@@ -970,7 +973,8 @@
     "matchCompUrl": "https://vimeo.com/214310425",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/apoel-fc-real-madrid",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid led 3–0 on aggregate."
   },
   {
     "id": "2012-03-24",
@@ -1184,7 +1188,8 @@
         "goalkeeper": "Sergey Chepchugov"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid advanced 5–2 on aggregate."
   },
   {
     "id": "2012-03-10",
@@ -1417,7 +1422,8 @@
         "goalkeeper": "Sergey Chepchugov"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "The tie was level 1–1 on aggregate."
   },
   {
     "id": "2012-02-18",
