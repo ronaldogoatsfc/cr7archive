@@ -323,14 +323,16 @@
         "goalNumber": 731,
         "minute": "55",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Pierluigi Gollini"
       },
       {
         "id": "ronaldo-goal-732",
         "goalNumber": 732,
         "minute": "90",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Pierluigi Gollini"
       }
     ],
     "assistEvents": []
@@ -483,7 +485,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Miralem Pjanic"
+        "assistedBy": "Miralem Pjanic",
+        "goalkeeper": "Mattia Perin"
       }
     ],
     "assistEvents": []
@@ -590,7 +593,8 @@
         "goalNumber": 726,
         "minute": "23",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Lukasz Skorupski"
       }
     ],
     "assistEvents": []
@@ -796,7 +800,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Juan Cuadrado"
+        "assistedBy": "Juan Cuadrado",
+        "goalkeeper": "Etrit Berisha"
       }
     ],
     "assistEvents": []
@@ -892,7 +897,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Rodrigo Bentancur"
+        "assistedBy": "Rodrigo Bentancur",
+        "goalkeeper": "Marco Silvestri"
       }
     ],
     "assistEvents": []
@@ -1423,7 +1429,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Paulo Dybala"
+        "assistedBy": "Paulo Dybala",
+        "goalkeeper": "Lukas Hradecky"
       }
     ],
     "assistEvents": []
@@ -1837,7 +1844,8 @@
         "goalNumber": 702,
         "minute": "90+6",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Ionut Radu"
       }
     ],
     "assistEvents": []
@@ -1921,7 +1929,8 @@
         "minute": "19",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Lukasz Skorupski"
       }
     ],
     "assistEvents": []
@@ -2103,7 +2112,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Paulo Dybala"
+        "assistedBy": "Paulo Dybala",
+        "goalkeeper": "Lukas Hradecky"
       }
     ],
     "assistEvents": []
@@ -2151,7 +2161,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Paulo Dybala"
+        "assistedBy": "Paulo Dybala",
+        "goalkeeper": "Etrit Berisha"
       }
     ],
     "assistEvents": []
@@ -2197,7 +2208,8 @@
         "goalNumber": 696,
         "minute": "49",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Marco Silvestri"
       }
     ],
     "assistEvents": [
@@ -2405,7 +2417,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Bernardo Silva"
+        "assistedBy": "Bernardo Silva",
+        "goalkeeper": "Marko Dmitrovic"
       }
     ],
     "assistEvents": [],
