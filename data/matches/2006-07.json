@@ -552,7 +552,8 @@
         "goalNumber": 65,
         "minute": "76",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Mark Schwarzer"
       }
     ],
     "assistEvents": []
@@ -629,7 +630,8 @@
         "goalNumber": 64,
         "minute": "68",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Mark Schwarzer"
       }
     ],
     "assistEvents": []
@@ -993,7 +995,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Michael Carrick"
+        "assistedBy": "Michael Carrick",
+        "goalkeeper": "Thomas Sörensen"
       }
     ],
     "assistEvents": []
@@ -1080,7 +1083,8 @@
         "minute": "58",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Marcus Hahnemann"
       },
       {
         "id": "ronaldo-goal-59",
@@ -1089,7 +1093,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ryan Giggs"
+        "assistedBy": "Ryan Giggs",
+        "goalkeeper": "Marcus Hahnemann"
       }
     ],
     "assistEvents": [
@@ -1131,7 +1136,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Paul Scholes"
+        "assistedBy": "Paul Scholes",
+        "goalkeeper": "Chris Kirkland"
       },
       {
         "id": "ronaldo-goal-57",
@@ -1139,7 +1145,8 @@
         "minute": "50",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Chris Kirkland"
       }
     ],
     "assistEvents": []
@@ -1622,7 +1629,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Louis Saha"
+        "assistedBy": "Louis Saha",
+        "goalkeeper": "Jussi Jääskeläinen"
       }
     ],
     "assistEvents": []
@@ -1853,7 +1861,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "John O'Shea"
+        "assistedBy": "John O'Shea",
+        "goalkeeper": "Marcus Hahnemann"
       }
     ],
     "assistEvents": []
