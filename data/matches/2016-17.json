@@ -50,7 +50,8 @@
         "goalNumber": 604,
         "minute": "33",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Stefan Marinovic"
       }
     ],
     "assistEvents": [],
@@ -85,7 +86,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Raphael Guerreiro"
+        "assistedBy": "Raphael Guerreiro",
+        "goalkeeper": "Igor Akinfeev"
       }
     ],
     "assistEvents": [],
@@ -850,7 +852,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gelson Martins"
+        "assistedBy": "Gelson Martins",
+        "goalkeeper": "Johnsson"
       }
     ],
     "assistEvents": [],
@@ -1600,7 +1603,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Guillermo Ochoa"
       }
     ],
     "assistEvents": []
@@ -1687,7 +1691,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "James Rodriguez"
+        "assistedBy": "James Rodriguez",
+        "goalkeeper": "Moisés Muñoz"
       }
     ],
     "assistEvents": []
