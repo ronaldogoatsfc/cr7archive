@@ -474,7 +474,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ali Al-Hassan"
+        "assistedBy": "Ali Al-Hassan",
+        "goalkeeper": "Paulo Vitor"
       }
     ],
     "assistEvents": []
@@ -587,7 +588,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ayman Yahya"
+        "assistedBy": "Ayman Yahya",
+        "goalkeeper": "Ibrahim Sehic"
       },
       {
         "id": "ronaldo-goal-887",
@@ -596,7 +598,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ayman Yahya"
+        "assistedBy": "Ayman Yahya",
+        "goalkeeper": "Ibrahim Sehic"
       }
     ],
     "assistEvents": []
@@ -935,7 +938,8 @@
         "goalNumber": 879,
         "minute": "68",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Edouard Mendy"
       }
     ],
     "assistEvents": []
@@ -1405,7 +1409,8 @@
         "goalNumber": 870,
         "minute": "73",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Paulo Vitor"
       }
     ],
     "assistEvents": [
@@ -1461,7 +1466,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Otavio"
+        "assistedBy": "Otavio",
+        "goalkeeper": "Seung-gyu Kim"
       }
     ],
     "assistEvents": []
@@ -1638,7 +1644,8 @@
         "minute": "77",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Paulo Vitor"
       },
       {
         "id": "ronaldo-goal-867",
@@ -1646,7 +1653,8 @@
         "minute": "80",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Paulo Vitor"
       }
     ],
     "assistEvents": []
@@ -2038,7 +2046,8 @@
         "minute": "56",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Moustapha Zeghba"
       }
     ],
     "assistEvents": []
@@ -2084,7 +2093,8 @@
         "goalNumber": 858,
         "minute": "5",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Ibrahim Sehic"
       },
       {
         "id": "ronaldo-goal-859",
@@ -2093,7 +2103,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Félix"
+        "assistedBy": "Joao Félix",
+        "goalkeeper": "Ibrahim Sehic"
       }
     ],
     "assistEvents": [
@@ -2288,7 +2299,8 @@
         "goalNumber": 854,
         "minute": "87",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Victor Braga"
       }
     ],
     "assistEvents": [
@@ -2344,7 +2356,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Sadio Mané"
+        "assistedBy": "Sadio Mané",
+        "goalkeeper": "Edouard Mendy"
       },
       {
         "id": "ronaldo-goal-853",
@@ -2353,7 +2366,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Talisca"
+        "assistedBy": "Talisca",
+        "goalkeeper": "Edouard Mendy"
       }
     ],
     "assistEvents": []
@@ -2587,14 +2601,16 @@
         "goalNumber": 848,
         "minute": "13",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Seung-gyu Kim"
       },
       {
         "id": "ronaldo-goal-849",
         "goalNumber": 849,
         "minute": "38",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Seung-gyu Kim"
       }
     ],
     "assistEvents": [
@@ -2657,7 +2673,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sultan Al-Ghannam"
+        "assistedBy": "Sultan Al-Ghannam",
+        "goalkeeper": "Jacob Rinne"
       },
       {
         "id": "ronaldo-goal-846",
@@ -2666,7 +2683,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Abdulrahman Ghareeb"
+        "assistedBy": "Abdulrahman Ghareeb",
+        "goalkeeper": "Jacob Rinne"
       },
       {
         "id": "ronaldo-goal-847",
@@ -2675,7 +2693,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nawaf Boushal"
+        "assistedBy": "Nawaf Boushal",
+        "goalkeeper": "Jacob Rinne"
       }
     ],
     "assistEvents": [
