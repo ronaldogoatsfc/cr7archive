@@ -214,7 +214,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Carlos Martins",
-        "goalkeeper": "Ricardo"
+        "goalkeeper": "Ricardo",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
