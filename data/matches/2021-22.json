@@ -80,7 +80,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Diogo Jota"
+        "assistedBy": "Diogo Jota",
+        "goalkeeper": "Gregor Kobel"
       },
       {
         "id": "ronaldo-goal-815",
@@ -88,7 +89,8 @@
         "minute": "79",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Gregor Kobel"
       }
     ],
     "assistEvents": [
@@ -218,7 +220,8 @@
         "goalNumber": 813,
         "minute": "61",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "David Raya"
       }
     ],
     "assistEvents": []
@@ -2028,7 +2031,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Bruno Fernandes"
+        "assistedBy": "Bruno Fernandes",
+        "goalkeeper": "David von Ballmoos"
       }
     ],
     "assistEvents": []
@@ -2075,7 +2079,8 @@
         "minute": "45",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Freddie Woodman"
       },
       {
         "id": "ronaldo-goal-787",
@@ -2084,7 +2089,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luke Shaw"
+        "assistedBy": "Luke Shaw",
+        "goalkeeper": "Freddie Woodman"
       }
     ],
     "assistEvents": []
@@ -2132,7 +2138,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonçalo Guedes"
+        "assistedBy": "Gonçalo Guedes",
+        "goalkeeper": "Gavin Bazunu"
       },
       {
         "id": "ronaldo-goal-785",
@@ -2141,7 +2148,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Mario"
+        "assistedBy": "Joao Mario",
+        "goalkeeper": "Gavin Bazunu"
       }
     ],
     "assistEvents": [],
