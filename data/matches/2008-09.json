@@ -579,7 +579,8 @@
         "goalNumber": 137,
         "minute": "22",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Pepe Reina"
       }
     ],
     "assistEvents": []
@@ -745,7 +746,8 @@
         "minute": "60",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Paul Robinson"
       }
     ],
     "assistEvents": []
@@ -802,7 +804,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ryan Giggs"
+        "assistedBy": "Ryan Giggs",
+        "goalkeeper": "Stephen Bywater"
       }
     ],
     "assistEvents": [
@@ -899,7 +902,8 @@
         "goalNumber": 132,
         "minute": "43",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Tim Howard"
       }
     ],
     "assistEvents": []
