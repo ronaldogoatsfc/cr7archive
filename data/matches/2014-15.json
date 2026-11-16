@@ -26,7 +26,8 @@
         "goalNumber": 489,
         "minute": "29",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Roman Berezovskiy"
       },
       {
         "id": "ronaldo-goal-490",
@@ -35,7 +36,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Bruno Alves"
+        "assistedBy": "Bruno Alves",
+        "goalkeeper": "Roman Berezovskiy"
       },
       {
         "id": "ronaldo-goal-491",
@@ -44,7 +46,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Rui Patricio"
+        "assistedBy": "Rui Patricio",
+        "goalkeeper": "Roman Berezovskiy"
       }
     ],
     "assistEvents": [],
@@ -93,7 +96,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Jordi Codina"
       },
       {
         "id": "ronaldo-goal-487",
@@ -101,14 +105,16 @@
         "minute": "32",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Jordi Codina"
       },
       {
         "id": "ronaldo-goal-488",
         "goalNumber": 488,
         "minute": "34",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Jordi Codina"
       }
     ],
     "assistEvents": []
@@ -156,7 +162,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Kiko Casilla"
       },
       {
         "id": "ronaldo-goal-484",
@@ -165,7 +172,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Chicharito"
+        "assistedBy": "Chicharito",
+        "goalkeeper": "Kiko Casilla"
       },
       {
         "id": "ronaldo-goal-485",
@@ -174,7 +182,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "James Rodriguez"
+        "assistedBy": "James Rodriguez",
+        "goalkeeper": "Kiko Casilla"
       }
     ],
     "assistEvents": [
@@ -569,7 +578,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Chicharito"
+        "assistedBy": "Chicharito",
+        "goalkeeper": "Carlos Kameni"
       }
     ],
     "assistEvents": [
@@ -773,7 +783,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "James Rodriguez"
+        "assistedBy": "James Rodriguez",
+        "goalkeeper": "Oier Olazábal"
       },
       {
         "id": "ronaldo-goal-471",
@@ -781,7 +792,8 @@
         "minute": "36",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Oier Olazábal"
       },
       {
         "id": "ronaldo-goal-472",
@@ -790,7 +802,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Oier Olazábal"
       },
       {
         "id": "ronaldo-goal-473",
@@ -799,7 +812,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Oier Olazábal"
       },
       {
         "id": "ronaldo-goal-474",
@@ -808,7 +822,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luka Modric"
+        "assistedBy": "Luka Modric",
+        "goalkeeper": "Oier Olazábal"
       }
     ],
     "assistEvents": []
@@ -1347,7 +1362,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Jordi Codina"
       },
       {
         "id": "ronaldo-goal-463",
@@ -1356,7 +1372,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "James Rodriguez"
+        "assistedBy": "James Rodriguez",
+        "goalkeeper": "Jordi Codina"
       }
     ],
     "assistEvents": []
@@ -2011,7 +2028,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nani"
+        "assistedBy": "Nani",
+        "goalkeeper": "Roman Berezovskiy"
       }
     ],
     "assistEvents": [],
@@ -2629,7 +2647,8 @@
         "goalNumber": 434,
         "minute": "28",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Manu Herrera"
       },
       {
         "id": "ronaldo-goal-435",
@@ -2638,14 +2657,16 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Manu Herrera"
       },
       {
         "id": "ronaldo-goal-436",
         "goalNumber": 436,
         "minute": "80",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Manu Herrera"
       },
       {
         "id": "ronaldo-goal-437",
@@ -2654,7 +2675,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Manu Herrera"
       }
     ],
     "assistEvents": []
