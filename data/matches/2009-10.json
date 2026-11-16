@@ -118,7 +118,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Liedson"
+        "assistedBy": "Liedson",
+        "goalkeeper": "Myong Guk Ri"
       }
     ],
     "assistEvents": [
@@ -695,7 +696,8 @@
         "goalNumber": 170,
         "minute": "23",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Fabio Coltorti"
       }
     ],
     "assistEvents": []
@@ -889,7 +891,8 @@
         "minute": "29",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Justo Villar"
       }
     ],
     "assistEvents": [
@@ -1080,7 +1083,8 @@
         "goalNumber": 164,
         "minute": "78",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Sergio Aragoneses"
       }
     ],
     "assistEvents": []
@@ -1463,7 +1467,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ezequiel Garay"
+        "assistedBy": "Ezequiel Garay",
+        "goalkeeper": "Javier López Vallejo"
       }
     ],
     "assistEvents": []
