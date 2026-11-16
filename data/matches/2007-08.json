@@ -220,7 +220,8 @@
         "goalkeeper": "Petr Cech"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Manchester United won 6–5 on penalties (1–1 after extra time)."
   },
   {
     "id": "2008-05-11",
@@ -343,7 +344,8 @@
     "matchCompUrl": "https://vimeo.com/140503677",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/manchester-united-fc-barcelona-champions-league-2007-2008",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Manchester United advanced 1–0 on aggregate."
   },
   {
     "id": "2008-04-26",
@@ -404,7 +406,8 @@
     "matchCompUrl": "https://vimeo.com/163723775",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/fc-barcelona-manchester-united-champions-league-2007-2008",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "The tie was level 0–0 on aggregate."
   },
   {
     "id": "2008-04-19",
@@ -546,7 +549,8 @@
         "gameState": "Match winner"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Manchester United led 2–0 on aggregate."
   },
   {
     "id": "2008-03-29",
@@ -789,7 +793,8 @@
         "gameState": "Match winner"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Manchester United advanced 2–1 on aggregate."
   },
   {
     "id": "2008-03-01",
@@ -902,7 +907,8 @@
     "matchCompUrl": "https://vimeo.com/159695249",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/olympique-lyonnais-manchester-united",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "The tie was level 1–1 on aggregate."
   },
   {
     "id": "2008-02-10",
