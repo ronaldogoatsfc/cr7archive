@@ -79,7 +79,8 @@
         "minute": "25",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Yann Sommer"
       },
       {
         "id": "ronaldo-goal-688",
@@ -88,7 +89,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Bernardo Silva"
+        "assistedBy": "Bernardo Silva",
+        "goalkeeper": "Yann Sommer"
       },
       {
         "id": "ronaldo-goal-689",
@@ -97,7 +99,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonçalo Guedes"
+        "assistedBy": "Gonçalo Guedes",
+        "goalkeeper": "Yann Sommer"
       }
     ],
     "assistEvents": [],
@@ -719,7 +722,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mario Mandzukic"
+        "assistedBy": "Mario Mandzukic",
+        "goalkeeper": "Marco Sportiello"
       }
     ],
     "assistEvents": [
@@ -1169,7 +1173,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Giorgio Chiellini"
+        "assistedBy": "Giorgio Chiellini",
+        "goalkeeper": "Etrit Berisha"
       }
     ],
     "assistEvents": []
@@ -1759,7 +1764,8 @@
         "minute": "18",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Ionut Radu"
       }
     ],
     "assistEvents": []
@@ -1807,7 +1813,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mario Mandzukic"
+        "assistedBy": "Mario Mandzukic",
+        "goalkeeper": "Simone Scuffet"
       }
     ],
     "assistEvents": []
@@ -1958,7 +1965,8 @@
         "minute": "81",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Marco Sportiello"
       }
     ],
     "assistEvents": []
