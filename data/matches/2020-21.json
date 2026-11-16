@@ -192,7 +192,8 @@
         "goalNumber": 779,
         "minute": "87",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Peter Gulacsi"
       },
       {
         "id": "ronaldo-goal-780",
@@ -201,7 +202,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Rafa Silva"
+        "assistedBy": "Rafa Silva",
+        "goalkeeper": "Peter Gulacsi"
       }
     ],
     "assistEvents": [],
@@ -345,7 +347,8 @@
         "minute": "24",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Samir Handanovic"
       }
     ],
     "assistEvents": []
@@ -702,7 +705,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Giorgio Chiellini"
+        "assistedBy": "Giorgio Chiellini",
+        "goalkeeper": "Salvatore Sirigu"
       }
     ],
     "assistEvents": []
@@ -1063,7 +1067,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Rodrigo Bentancur"
+        "assistedBy": "Rodrigo Bentancur",
+        "goalkeeper": "Ivan Provedel"
       }
     ],
     "assistEvents": []
@@ -1379,7 +1384,8 @@
         "goalNumber": 761,
         "minute": "26",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Samir Handanovic"
       },
       {
         "id": "ronaldo-goal-762",
@@ -1387,7 +1393,8 @@
         "minute": "35",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Samir Handanovic"
       }
     ],
     "assistEvents": []
@@ -1724,7 +1731,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Aaron Ramsey"
+        "assistedBy": "Aaron Ramsey",
+        "goalkeeper": "Juan Musso"
       },
       {
         "id": "ronaldo-goal-758",
@@ -1733,7 +1741,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Rodrigo Bentancur"
+        "assistedBy": "Rodrigo Bentancur",
+        "goalkeeper": "Juan Musso"
       }
     ],
     "assistEvents": [
@@ -1826,7 +1835,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Alvaro Morata"
+        "assistedBy": "Alvaro Morata",
+        "goalkeeper": "Luigi Sepe"
       },
       {
         "id": "ronaldo-goal-756",
@@ -1835,7 +1845,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Aaron Ramsey"
+        "assistedBy": "Aaron Ramsey",
+        "goalkeeper": "Luigi Sepe"
       }
     ],
     "assistEvents": []
@@ -1971,14 +1982,16 @@
         "goalNumber": 751,
         "minute": "13",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Marc-André ter Stegen"
       },
       {
         "id": "ronaldo-goal-752",
         "goalNumber": 752,
         "minute": "52",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Marc-André ter Stegen"
       }
     ],
     "assistEvents": []
@@ -2280,7 +2293,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mario Rui"
+        "assistedBy": "Mario Rui",
+        "goalkeeper": "Josep Gomes"
       }
     ],
     "assistEvents": [
@@ -2430,14 +2444,16 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Alvaro Morata"
+        "assistedBy": "Alvaro Morata",
+        "goalkeeper": "Ivan Provedel"
       },
       {
         "id": "ronaldo-goal-744",
         "goalNumber": 744,
         "minute": "76",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Ivan Provedel"
       }
     ],
     "assistEvents": []
@@ -2616,7 +2632,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Aaron Ramsey"
+        "assistedBy": "Aaron Ramsey",
+        "goalkeeper": "Emil Audero"
       }
     ],
     "assistEvents": [
@@ -2671,7 +2688,8 @@
         "minute": "45",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Robin Olsen"
       },
       {
         "id": "ronaldo-goal-739",
@@ -2680,7 +2698,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Joao Félix"
+        "assistedBy": "Joao Félix",
+        "goalkeeper": "Robin Olsen"
       }
     ],
     "assistEvents": [],
