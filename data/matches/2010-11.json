@@ -165,7 +165,8 @@
         "minute": "22",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Diego Lopez"
       },
       {
         "id": "ronaldo-goal-233",
@@ -173,7 +174,8 @@
         "minute": "90",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Diego Lopez"
       }
     ],
     "assistEvents": []
@@ -285,7 +287,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Pepe"
+        "assistedBy": "Pepe",
+        "goalkeeper": "Javi Varas"
       },
       {
         "id": "ronaldo-goal-226",
@@ -293,7 +296,8 @@
         "minute": "64",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Javi Varas"
       },
       {
         "id": "ronaldo-goal-227",
@@ -302,7 +306,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "Javi Varas"
       },
       {
         "id": "ronaldo-goal-228",
@@ -311,7 +316,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Javi Varas"
       }
     ],
     "assistEvents": []
@@ -615,7 +621,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Esteban Granero"
+        "assistedBy": "Esteban Granero",
+        "goalkeeper": "Gorka Iraizoz"
       }
     ],
     "assistEvents": []
@@ -1081,7 +1088,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Kaka"
+        "assistedBy": "Kaka",
+        "goalkeeper": "Claudio Bravo"
       },
       {
         "id": "ronaldo-goal-215",
@@ -1090,7 +1098,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "Claudio Bravo"
       }
     ],
     "assistEvents": []
@@ -1289,7 +1298,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sergio Ramos"
+        "assistedBy": "Sergio Ramos",
+        "goalkeeper": "David de Gea"
       }
     ],
     "assistEvents": []
@@ -1375,7 +1385,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "David de Gea"
       }
     ],
     "assistEvents": []
@@ -1423,7 +1434,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "Diego Lopez"
       },
       {
         "id": "ronaldo-goal-210",
@@ -1432,7 +1444,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Xabi Alonso"
+        "assistedBy": "Xabi Alonso",
+        "goalkeeper": "Diego Lopez"
       },
       {
         "id": "ronaldo-goal-211",
@@ -1440,7 +1453,8 @@
         "minute": "79",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Diego Lopez"
       }
     ],
     "assistEvents": [
@@ -1552,7 +1566,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Geronimo Rulli"
       },
       {
         "id": "ronaldo-goal-205",
@@ -1561,7 +1576,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Geronimo Rulli"
       },
       {
         "id": "ronaldo-goal-206",
@@ -1570,7 +1586,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Geronimo Rulli"
       }
     ],
     "assistEvents": [
@@ -1915,7 +1932,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "Gorka Iraizoz"
       },
       {
         "id": "ronaldo-goal-196",
@@ -1923,14 +1941,16 @@
         "minute": "62",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Gorka Iraizoz"
       },
       {
         "id": "ronaldo-goal-197",
         "goalNumber": 197,
         "minute": "90+1",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Gorka Iraizoz"
       }
     ],
     "assistEvents": []
