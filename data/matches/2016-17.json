@@ -234,7 +234,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Dani Carvajal"
+        "assistedBy": "Dani Carvajal",
+        "goalkeeper": "Gianluigi Buffon"
       },
       {
         "id": "ronaldo-goal-600",
@@ -243,7 +244,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luka Modric"
+        "assistedBy": "Luka Modric",
+        "goalkeeper": "Gianluigi Buffon"
       }
     ],
     "assistEvents": []
@@ -338,7 +340,8 @@
         "minute": "10",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Sergio Alvarez"
       },
       {
         "id": "ronaldo-goal-597",
@@ -347,7 +350,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Isco"
+        "assistedBy": "Isco",
+        "goalkeeper": "Sergio Alvarez"
       }
     ],
     "assistEvents": []
@@ -394,7 +398,8 @@
         "minute": "23",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Sergio Rico"
       },
       {
         "id": "ronaldo-goal-595",
@@ -403,7 +408,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Toni Kroos"
+        "assistedBy": "Toni Kroos",
+        "goalkeeper": "Sergio Rico"
       }
     ],
     "assistEvents": []
@@ -490,7 +496,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Casemiro"
+        "assistedBy": "Casemiro",
+        "goalkeeper": "Jan Oblak"
       },
       {
         "id": "ronaldo-goal-592",
@@ -499,7 +506,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Jan Oblak"
       },
       {
         "id": "ronaldo-goal-593",
@@ -508,7 +516,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Lucas Vazquez"
+        "assistedBy": "Lucas Vazquez",
+        "goalkeeper": "Jan Oblak"
       }
     ],
     "assistEvents": []
@@ -556,7 +565,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Dani Carvajal"
+        "assistedBy": "Dani Carvajal",
+        "goalkeeper": "Diego Alves"
       }
     ],
     "assistEvents": []
@@ -642,7 +652,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Casemiro"
+        "assistedBy": "Casemiro",
+        "goalkeeper": "Manuel Neuer"
       },
       {
         "id": "ronaldo-goal-588",
@@ -651,7 +662,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Casemiro"
+        "assistedBy": "Casemiro",
+        "goalkeeper": "Manuel Neuer"
       },
       {
         "id": "ronaldo-goal-589",
@@ -660,7 +672,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Manuel Neuer"
       }
     ],
     "assistEvents": []
@@ -709,7 +722,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Dani Carvajal"
+        "assistedBy": "Dani Carvajal",
+        "goalkeeper": "Manuel Neuer"
       },
       {
         "id": "ronaldo-goal-586",
@@ -718,7 +732,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marco Asensio"
+        "assistedBy": "Marco Asensio",
+        "goalkeeper": "Manuel Neuer"
       }
     ],
     "assistEvents": []
@@ -1071,7 +1086,8 @@
         "goalNumber": 579,
         "minute": "86",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Javi Varas"
       },
       {
         "id": "ronaldo-goal-580",
@@ -1080,7 +1096,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "James Rodriguez"
+        "assistedBy": "James Rodriguez",
+        "goalkeeper": "Javi Varas"
       }
     ],
     "assistEvents": []
@@ -1174,7 +1191,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Diego Alves"
       }
     ],
     "assistEvents": []
@@ -1353,7 +1371,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mateo Kovacic"
+        "assistedBy": "Mateo Kovacic",
+        "goalkeeper": "Geronimo Rulli"
       }
     ],
     "assistEvents": [
@@ -1409,7 +1428,8 @@
         "minute": "62",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Sergio Alvarez"
       }
     ],
     "assistEvents": []
@@ -1530,7 +1550,8 @@
         "goalNumber": 573,
         "minute": "67",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Sergio Rico"
       }
     ],
     "assistEvents": []
@@ -1883,14 +1904,16 @@
         "minute": "23",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Jan Oblak"
       },
       {
         "id": "ronaldo-goal-564",
         "goalNumber": 564,
         "minute": "71",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Jan Oblak"
       },
       {
         "id": "ronaldo-goal-565",
@@ -1899,7 +1922,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Jan Oblak"
       }
     ],
     "assistEvents": []
