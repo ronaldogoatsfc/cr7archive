@@ -80,7 +80,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Raphael Guerreiro"
+        "assistedBy": "Raphael Guerreiro",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -221,7 +222,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Mario"
+        "assistedBy": "Joao Mario",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-547",
@@ -230,7 +232,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ricardo Quaresma"
+        "assistedBy": "Ricardo Quaresma",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": [
@@ -364,7 +367,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Ricardo Quaresma",
-        "goalkeeper": "Pavel Londak"
+        "goalkeeper": "Pavel Londak",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-545",
@@ -461,7 +465,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema",
-        "goalkeeper": "Stipe Pletikosa"
+        "goalkeeper": "Stipe Pletikosa",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-543",
@@ -530,7 +535,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "James Rodriguez",
-        "goalkeeper": "Diego Alves"
+        "goalkeeper": "Diego Alves",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -703,7 +709,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Diego Benaglio"
+        "goalkeeper": "Diego Benaglio",
+        "gameState": "Losing by 2"
       },
       {
         "id": "ronaldo-goal-537",
@@ -713,7 +720,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Dani Carvajal",
-        "goalkeeper": "Diego Benaglio"
+        "goalkeeper": "Diego Benaglio",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-538",
@@ -722,7 +730,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Diego Benaglio"
+        "goalkeeper": "Diego Benaglio",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -873,7 +882,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale",
-        "goalkeeper": "Claudio Bravo"
+        "goalkeeper": "Claudio Bravo",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -922,7 +932,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Mario",
-        "goalkeeper": "Thibaut Courtois"
+        "goalkeeper": "Thibaut Courtois",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -1153,7 +1164,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Sergio Ramos"
+        "assistedBy": "Sergio Ramos",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-528",
@@ -1369,7 +1381,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo",
-        "goalkeeper": "Wojciech Szczęsny"
+        "goalkeeper": "Wojciech Szczęsny",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1625,7 +1638,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema",
-        "goalkeeper": "Iván Cuéllar"
+        "goalkeeper": "Iván Cuéllar",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-518",
@@ -1789,7 +1803,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo",
-        "goalkeeper": "Geronimo Rulli"
+        "goalkeeper": "Geronimo Rulli",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1835,7 +1850,8 @@
         "goalNumber": 513,
         "minute": "30",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-514",
@@ -2137,7 +2153,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale",
-        "goalkeeper": "Andriy Pyatov"
+        "goalkeeper": "Andriy Pyatov",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -2312,7 +2329,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Marcelo",
-        "goalkeeper": "Javi Varas"
+        "goalkeeper": "Javi Varas",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2579,7 +2597,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Isco",
-        "goalkeeper": "Johan Sellberg-Wiland"
+        "goalkeeper": "Johan Sellberg-Wiland",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-501",
@@ -2813,7 +2832,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Luka Modric",
-        "goalkeeper": "Pau Lopez"
+        "goalkeeper": "Pau Lopez",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-493",
