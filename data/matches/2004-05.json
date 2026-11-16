@@ -29,7 +29,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Luís Figo",
-        "goalkeeper": "Artur Kotenko"
+        "goalkeeper": "Artur Kotenko",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -359,7 +360,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Roy Keane",
-        "goalkeeper": "Edwin van der Sar"
+        "goalkeeper": "Edwin van der Sar",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -671,7 +673,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs",
-        "goalkeeper": "Manuel Almunia"
+        "goalkeeper": "Manuel Almunia",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-23",
@@ -681,7 +684,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs",
-        "goalkeeper": "Manuel Almunia"
+        "goalkeeper": "Manuel Almunia",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -806,7 +810,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Paul Scholes",
-        "goalkeeper": "Paul Jones"
+        "goalkeeper": "Paul Jones",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1407,7 +1412,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Pauleta",
-        "goalkeeper": "Vyacheslav Malafeev"
+        "goalkeeper": "Vyacheslav Malafeev",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-17",
@@ -1653,7 +1659,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Deco",
-        "goalkeeper": "Mart Poom"
+        "goalkeeper": "Mart Poom",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1704,7 +1711,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Jorge Andrade",
-        "goalkeeper": "Aleksandrs Kolinko"
+        "goalkeeper": "Aleksandrs Kolinko",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
