@@ -12,7 +12,7 @@ import {
   hasRecordedDetailedStats,
 } from "@/lib/stats";
 import StatCard from "@/components/StatCard";
-import { GAME_STATE_FILTER_OPTIONS, getGameStateDisplay } from "@/lib/game-state";
+import { GAME_STATE_FILTER_OPTIONS, getGameStateCategories, getGameStateDisplay } from "@/lib/game-state";
 
 const DEFAULT_FILTERS = {
   // basic
@@ -313,18 +313,21 @@ function goalEventSummary(matches) {
     { key: "goalType", title: "Goal Type" },
     { key: "bodyPart", title: "Finish" },
     { key: "shotLocation", title: "Shot Location" },
+    { key: "gameState", title: "Game State" },
   ];
 
   return definitions.map(({ key, title }) => {
     const counts = new Map();
     for (const match of matches) {
       for (const event of match.goalEvents || []) {
-        const value =
-          key === "shotLocation" && event.goalType === "Penalty"
-            ? "Inside Box"
-            : event[key];
-        if (typeof value !== "string" || !value.trim()) continue;
-        counts.set(value, (counts.get(value) || 0) + 1);
+        const values =
+          key === "gameState"
+            ? getGameStateCategories(event)
+            : [key === "shotLocation" && event.goalType === "Penalty" ? "Inside Box" : event[key]];
+        for (const value of values) {
+          if (typeof value !== "string" || !value.trim()) continue;
+          counts.set(value, (counts.get(value) || 0) + 1);
+        }
       }
     }
     return {
@@ -334,6 +337,61 @@ function goalEventSummary(matches) {
         .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label)),
     };
   }).filter((group) => group.items.length > 0);
+}
+
+function normalizeFilterName(value) {
+  return String(value ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+}
+
+function goalFilterDetails(matches, filters) {
+  const definitions = [
+    filters.gameState !== "All" && {
+      label: `${filters.gameState} goals`,
+      matches: (event) => getGameStateCategories(event).includes(filters.gameState),
+    },
+    filters.goalType !== "All" && {
+      label: `${filters.goalType} goals`,
+      matches: (event) => event.goalType === filters.goalType,
+    },
+    filters.finish !== "All" && {
+      label: `${filters.finish} goals`,
+      matches: (event) => event.bodyPart === filters.finish,
+    },
+    filters.shotLocation !== "All" && {
+      label: `${filters.shotLocation} goals`,
+      matches: (event) =>
+        (event.goalType === "Penalty" ? "Inside Box" : event.shotLocation) === filters.shotLocation,
+    },
+    filters.assistedBy.trim() && {
+      label: `Goals assisted by ${filters.assistedBy.trim()}`,
+      matches: (event) => normalizeFilterName(event.assistedBy).includes(normalizeFilterName(filters.assistedBy)),
+    },
+  ].filter(Boolean);
+
+  return definitions.map(({ label, matches: matchesEvent }) => {
+    const count = matches.reduce(
+      (total, match) =>
+        total + (match.goalEvents || []).filter(matchesEvent).length,
+      0
+    );
+    return `${count.toLocaleString()} ${label}`;
+  });
+}
+
+function assistsToPlayerCount(matches, playerName) {
+  const query = normalizeFilterName(playerName);
+  if (!query) return null;
+  return matches.reduce(
+    (total, match) =>
+      total + (match.assistEvents || []).filter((event) =>
+        normalizeFilterName(event.assistedPlayer).includes(query)
+      ).length,
+    0
+  );
 }
 
 function SummaryStatCard({ label, value, detail }) {
@@ -974,29 +1032,14 @@ export default function MatchLogsPage() {
   );
 
   const totals = useMemo(() => careerTotals(filtered), [filtered]);
-  const assistedGoalCount = useMemo(() => {
-    const query = filters.assistedBy.trim();
-    if (!query) return null;
-
-    const normalizedQuery = query
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .toLowerCase();
-
-    return filtered.reduce(
-      (count, match) =>
-        count +
-        (match.goalEvents || []).filter((event) => {
-          const name = String(event.assistedBy || "")
-            .normalize("NFD")
-            .replace(/[\u0300-\u036f]/g, "")
-            .toLowerCase()
-            .trim();
-          return name.includes(normalizedQuery);
-        }).length,
-      0
-    );
-  }, [filtered, filters.assistedBy]);
+  const goalFilterCounts = useMemo(
+    () => goalFilterDetails(filtered, filters),
+    [filtered, filters]
+  );
+  const scoredByAssistCount = useMemo(
+    () => assistsToPlayerCount(filtered, filters.scoredBy),
+    [filtered, filters.scoredBy]
+  );
   const detailedTotals = useMemo(() => {
     const summaryMatches = includeUnofficialStats
       ? filtered
@@ -1358,16 +1401,17 @@ export default function MatchLogsPage() {
         <StatCard
           label="Goals"
           value={totals.goals}
-          detail={
-            assistedGoalCount !== null
-              ? `${assistedGoalCount} ${assistedGoalCount === 1 ? "goal" : "goals"} assisted by ${filters.assistedBy.trim()}`
-              : undefined
-          }
+          detail={goalFilterCounts.length > 0 ? goalFilterCounts.join(" · ") : undefined}
         />
         <StatCard
           label="Assists"
           value={totals.assists}
-          detail={`${nonOptaAssists} non-Opta involvements (not included in total)`}
+          detail={[
+            scoredByAssistCount !== null
+              ? `${scoredByAssistCount} ${scoredByAssistCount === 1 ? "assist" : "assists"} to ${filters.scoredBy.trim()}`
+              : null,
+            `${nonOptaAssists} non-Opta involvements (not included in total)`,
+          ].filter(Boolean).join(" · ")}
         />
         <div className="rounded-2xl border border-line bg-pitch-raised p-6">
           <p className="font-mono text-xs uppercase tracking-widest text-paper-dim">Record (W-D-L)</p>
@@ -1475,7 +1519,7 @@ export default function MatchLogsPage() {
                 <p className="mt-1 text-xs text-paper-dim">
                   Breakdown of Ronaldo's recorded goals in the currently filtered matches. Location totals combine open-play and penalty goals, with penalties counted as inside-box goals.
                 </p>
-                <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-3">
+                <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
                   {goalSummary.map((group) => (
                     <div key={group.title} className="rounded-xl border border-line bg-pitch-raised p-4">
                       <h4 className="mb-3 border-b border-gold/60 pb-2 font-mono text-[10px] uppercase tracking-widest text-gold">
@@ -1559,6 +1603,11 @@ export default function MatchLogsPage() {
                           <p className="mt-0.5 font-mono text-[9px] uppercase tracking-widest text-paper-dim">
                             {m.result === "W" ? "Win" : m.result === "D" ? "Draw" : m.result === "L" ? "Loss" : "Result"}
                           </p>
+                          {m.matchNote && (
+                            <p className="mt-1 max-w-48 text-center text-[10px] leading-4 text-paper-dim">
+                              {m.matchNote}
+                            </p>
+                          )}
                         </div>
                         <p className="truncate text-right font-display text-base font-semibold text-paper sm:text-lg">{m.opponent}</p>
                       </div>
