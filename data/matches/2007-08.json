@@ -88,7 +88,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Moutinho"
+        "assistedBy": "Joao Moutinho",
+        "goalkeeper": "Petr Cech"
       }
     ],
     "assistEvents": [
@@ -214,7 +215,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Wes Brown"
+        "assistedBy": "Wes Brown",
+        "goalkeeper": "Petr Cech"
       }
     ],
     "assistEvents": []
@@ -534,7 +536,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Paul Scholes"
+        "assistedBy": "Paul Scholes",
+        "goalkeeper": "Doni"
       }
     ],
     "assistEvents": []
@@ -623,7 +626,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nani"
+        "assistedBy": "Nani",
+        "goalkeeper": "Pepe Reina"
       }
     ],
     "assistEvents": []
@@ -656,7 +660,8 @@
         "minute": "8",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Gary Megson"
       },
       {
         "id": "ronaldo-goal-108",
@@ -664,7 +669,8 @@
         "minute": "19",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Gary Megson"
       }
     ],
     "assistEvents": []
@@ -985,7 +991,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nani"
+        "assistedBy": "Nani",
+        "goalkeeper": "David James"
       },
       {
         "id": "ronaldo-goal-102",
@@ -993,7 +1000,8 @@
         "minute": "12",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "David James"
       }
     ],
     "assistEvents": []
@@ -1025,7 +1033,8 @@
         "goalNumber": 99,
         "minute": "69",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Radek Cerny"
       },
       {
         "id": "ronaldo-goal-100",
@@ -1034,7 +1043,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ryan Giggs"
+        "assistedBy": "Ryan Giggs",
+        "goalkeeper": "Radek Cerny"
       }
     ],
     "assistEvents": []
@@ -1272,7 +1282,8 @@
         "minute": "45",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Craig Gordon"
       }
     ],
     "assistEvents": []
@@ -1306,14 +1317,16 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Carlos Tevez"
+        "assistedBy": "Carlos Tevez",
+        "goalkeeper": "Tim Howard"
       },
       {
         "id": "ronaldo-goal-91",
         "goalNumber": 91,
         "minute": "87",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Tim Howard"
       }
     ],
     "assistEvents": []
@@ -1368,7 +1381,8 @@
         "goalNumber": 89,
         "minute": "90",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Stephen Bywater"
       }
     ],
     "assistEvents": [
@@ -1468,7 +1482,8 @@
         "minute": "90+3",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Rui Patricio"
       }
     ],
     "assistEvents": [
@@ -1615,7 +1630,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Patrice Evra"
+        "assistedBy": "Patrice Evra",
+        "goalkeeper": "Oleksandr Shovkovskiy"
       }
     ],
     "assistEvents": []
@@ -1719,14 +1735,16 @@
         "minute": "41",
         "goalType": "Open Play",
         "bodyPart": "Header",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Oleksandr Shovkovskiy"
       },
       {
         "id": "ronaldo-goal-81",
         "goalNumber": 81,
         "minute": "68",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Oleksandr Shovkovskiy"
       }
     ],
     "assistEvents": []
@@ -1783,7 +1801,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nani"
+        "assistedBy": "Nani",
+        "goalkeeper": "David Loria"
       }
     ],
     "assistEvents": [],
@@ -1920,7 +1939,8 @@
         "minute": "51",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Maik Taylor"
       }
     ],
     "assistEvents": []
@@ -1991,7 +2011,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Wes Brown"
+        "assistedBy": "Wes Brown",
+        "goalkeeper": "Vladimir Stojković"
       }
     ],
     "assistEvents": []
