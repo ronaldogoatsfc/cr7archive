@@ -374,7 +374,8 @@
         "goalkeeper": "Andre Onana"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Ajax advanced 3–2 on aggregate."
   },
   {
     "id": "2019-04-10",
@@ -424,7 +425,8 @@
         "goalkeeper": "Andre Onana"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "The tie was level 1–1 on aggregate."
   },
   {
     "id": "2019-03-25",
@@ -571,7 +573,8 @@
         "gameState": "Match winner"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Juventus advanced 3–2 on aggregate."
   },
   {
     "id": "2019-03-03",
@@ -683,7 +686,8 @@
     "matchCompUrl": "",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-juventus-fc",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Atletico Madrid led 2–0 on aggregate."
   },
   {
     "id": "2019-02-15",
