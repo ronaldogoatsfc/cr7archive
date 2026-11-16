@@ -679,7 +679,8 @@
         "minute": "21",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Xabi Irurerta"
       }
     ],
     "assistEvents": []
@@ -727,7 +728,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Dani Carvajal"
+        "assistedBy": "Dani Carvajal",
+        "goalkeeper": "David Cabeno"
       }
     ],
     "assistEvents": [
@@ -990,7 +992,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Toni Kroos"
+        "assistedBy": "Toni Kroos",
+        "goalkeeper": "Timon Wellenreuther"
       },
       {
         "id": "ronaldo-goal-468",
@@ -999,7 +1002,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Fabio Coentrão"
+        "assistedBy": "Fabio Coentrão",
+        "goalkeeper": "Timon Wellenreuther"
       }
     ],
     "assistEvents": []
@@ -1187,7 +1191,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Dani Carvajal"
+        "assistedBy": "Dani Carvajal",
+        "goalkeeper": "Timon Wellenreuther"
       }
     ],
     "assistEvents": [
@@ -1719,7 +1724,8 @@
         "goalNumber": 457,
         "minute": "20",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Vladislav Stoyanov"
       }
     ],
     "assistEvents": [
@@ -1893,7 +1899,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Tomás Vaclik"
       }
     ],
     "assistEvents": []
@@ -1941,14 +1948,16 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Dani Carvajal"
+        "assistedBy": "Dani Carvajal",
+        "goalkeeper": "Xabi Irurerta"
       },
       {
         "id": "ronaldo-goal-452",
         "goalNumber": 452,
         "minute": "83",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Xabi Irurerta"
       }
     ],
     "assistEvents": [
@@ -2078,7 +2087,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Isco"
+        "assistedBy": "Isco",
+        "goalkeeper": "Cristian Alvarez"
       }
     ],
     "assistEvents": [
@@ -2178,7 +2188,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Roberto Fernández"
       }
     ],
     "assistEvents": [
@@ -2391,7 +2402,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ricardo Quaresma"
+        "assistedBy": "Ricardo Quaresma",
+        "goalkeeper": "Kasper Schmeichel"
       }
     ],
     "assistEvents": [],
@@ -2553,7 +2565,8 @@
         "goalNumber": 439,
         "minute": "25",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Vladislav Stoyanov"
       }
     ],
     "assistEvents": []
@@ -2724,7 +2737,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Alvaro Arbeloa"
+        "assistedBy": "Alvaro Arbeloa",
+        "goalkeeper": "Germán Lux"
       },
       {
         "id": "ronaldo-goal-432",
@@ -2733,7 +2747,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Germán Lux"
       },
       {
         "id": "ronaldo-goal-433",
@@ -2742,7 +2757,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "James Rodriguez"
+        "assistedBy": "James Rodriguez",
+        "goalkeeper": "Germán Lux"
       }
     ],
     "assistEvents": []
@@ -2790,7 +2806,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Tomás Vaclik"
       }
     ],
     "assistEvents": [
