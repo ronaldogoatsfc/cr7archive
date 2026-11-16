@@ -776,7 +776,8 @@
         "minute": "13",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Óscar Ustari"
       },
       {
         "id": "ronaldo-goal-169",
@@ -785,7 +786,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sergio Ramos"
+        "assistedBy": "Sergio Ramos",
+        "goalkeeper": "Óscar Ustari"
       }
     ],
     "assistEvents": []
