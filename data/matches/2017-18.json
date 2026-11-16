@@ -165,7 +165,8 @@
         "goalNumber": 655,
         "minute": "4",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "David de Gea"
       },
       {
         "id": "ronaldo-goal-656",
@@ -174,7 +175,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Gonçalo Guedes"
+        "assistedBy": "Gonçalo Guedes",
+        "goalkeeper": "David de Gea"
       },
       {
         "id": "ronaldo-goal-657",
@@ -182,7 +184,8 @@
         "minute": "88",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "David de Gea"
       }
     ],
     "assistEvents": [],
@@ -568,7 +571,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Jan Oblak"
       }
     ],
     "assistEvents": []
@@ -617,7 +621,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Isco"
+        "assistedBy": "Isco",
+        "goalkeeper": "Gianluigi Buffon"
       },
       {
         "id": "ronaldo-goal-649",
@@ -626,7 +631,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Dani Carvajal"
+        "assistedBy": "Dani Carvajal",
+        "goalkeeper": "Gianluigi Buffon"
       }
     ],
     "assistEvents": [
@@ -1181,7 +1187,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Geronimo Rulli"
       },
       {
         "id": "ronaldo-goal-630",
@@ -1190,7 +1197,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luka Modric"
+        "assistedBy": "Luka Modric",
+        "goalkeeper": "Geronimo Rulli"
       },
       {
         "id": "ronaldo-goal-631",
@@ -1198,7 +1206,8 @@
         "minute": "80",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Geronimo Rulli"
       }
     ],
     "assistEvents": [
@@ -1344,7 +1353,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Casemiro"
+        "assistedBy": "Casemiro",
+        "goalkeeper": "Ruben Martinez"
       },
       {
         "id": "ronaldo-goal-626",
@@ -1353,7 +1363,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Lucas Vazquez"
+        "assistedBy": "Lucas Vazquez",
+        "goalkeeper": "Ruben Martinez"
       }
     ],
     "assistEvents": [
@@ -1587,14 +1598,16 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marco Asensio"
+        "assistedBy": "Marco Asensio",
+        "goalkeeper": "Sergio Rico"
       },
       {
         "id": "ronaldo-goal-622",
         "goalNumber": 622,
         "minute": "31",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Sergio Rico"
       }
     ],
     "assistEvents": []
@@ -1726,7 +1739,8 @@
         "minute": "76",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Roberto"
       }
     ],
     "assistEvents": []
@@ -1921,7 +1935,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Borja Mayoral"
+        "assistedBy": "Borja Mayoral",
+        "goalkeeper": "Hugo Lloris"
       }
     ],
     "assistEvents": []
@@ -2041,7 +2056,8 @@
         "goalNumber": 615,
         "minute": "43",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Hugo Lloris"
       }
     ],
     "assistEvents": []
