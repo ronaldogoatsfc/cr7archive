@@ -41,7 +41,8 @@
         "minute": "80",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Fatau Dauda"
       }
     ],
     "assistEvents": [],
@@ -1703,7 +1704,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Isco"
+        "assistedBy": "Isco",
+        "goalkeeper": "Esteban"
       }
     ],
     "assistEvents": []
@@ -2750,7 +2752,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Iago Herrerín"
       }
     ],
     "assistEvents": []
@@ -2880,7 +2883,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Pepe"
+        "assistedBy": "Pepe",
+        "goalkeeper": "Michel Vorm"
       }
     ],
     "assistEvents": [],
