@@ -42,7 +42,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nuno Mendes"
+        "assistedBy": "Nuno Mendes",
+        "goalkeeper": "Unai Simon"
       }
     ],
     "assistEvents": [],
@@ -141,7 +142,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mohammed Al-Fatil"
+        "assistedBy": "Mohammed Al-Fatil",
+        "goalkeeper": "Nawaf Al-Aqidi"
       }
     ],
     "assistEvents": []
@@ -187,7 +189,8 @@
         "goalNumber": 935,
         "minute": "90+7",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Raed Ozaybi"
       }
     ],
     "assistEvents": []
@@ -308,7 +311,8 @@
         "minute": "38",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Il-gyu Park"
       }
     ],
     "assistEvents": []
@@ -1014,7 +1018,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Brozovic"
+        "assistedBy": "Brozovic",
+        "goalkeeper": "Mshari Sanyoor"
       }
     ],
     "assistEvents": [
@@ -1070,7 +1075,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sadio Mané"
+        "assistedBy": "Sadio Mané",
+        "goalkeeper": "Peter Szappanos"
       }
     ],
     "assistEvents": []
@@ -1426,7 +1432,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mohamed Simakan"
+        "assistedBy": "Mohamed Simakan",
+        "goalkeeper": "Koen Casteels"
       }
     ],
     "assistEvents": []
@@ -1868,7 +1875,8 @@
         "goalNumber": 905,
         "minute": "17",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Gaetan Coucke"
       }
     ],
     "assistEvents": [
@@ -1924,7 +1932,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Abdulrahman Ghareeb"
+        "assistedBy": "Abdulrahman Ghareeb",
+        "goalkeeper": "Paulo Victor"
       }
     ],
     "assistEvents": []
@@ -2259,7 +2268,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sadio Mané"
+        "assistedBy": "Sadio Mané",
+        "goalkeeper": "Meshary Sanyoor"
       }
     ],
     "assistEvents": []
