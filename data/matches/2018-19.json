@@ -538,7 +538,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Federico Bernardeschi"
+        "assistedBy": "Federico Bernardeschi",
+        "goalkeeper": "Jan Oblak"
       },
       {
         "id": "ronaldo-goal-681",
@@ -547,14 +548,16 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Cancelo"
+        "assistedBy": "Joao Cancelo",
+        "goalkeeper": "Jan Oblak"
       },
       {
         "id": "ronaldo-goal-682",
         "goalNumber": 682,
         "minute": "86",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Jan Oblak"
       }
     ],
     "assistEvents": []
@@ -1559,7 +1562,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Leonardo Bonucci"
+        "assistedBy": "Leonardo Bonucci",
+        "goalkeeper": "David de Gea"
       }
     ],
     "assistEvents": []
