@@ -480,7 +480,8 @@
         "goalNumber": 774,
         "minute": "83",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Simone Scuffet"
       },
       {
         "id": "ronaldo-goal-775",
@@ -489,7 +490,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Adrien Rabiot"
+        "assistedBy": "Adrien Rabiot",
+        "goalkeeper": "Simone Scuffet"
       }
     ],
     "assistEvents": []
@@ -1116,7 +1118,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Federico Chiesa"
+        "assistedBy": "Federico Chiesa",
+        "goalkeeper": "Marco Silvestri"
       }
     ],
     "assistEvents": []
@@ -1523,7 +1526,8 @@
         "minute": "64",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "David Ospina"
       }
     ],
     "assistEvents": []
@@ -1929,14 +1933,16 @@
         "goalNumber": 753,
         "minute": "78",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Mattia Perin"
       },
       {
         "id": "ronaldo-goal-754",
         "goalNumber": 754,
         "minute": "89",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Mattia Perin"
       }
     ],
     "assistEvents": []
@@ -2076,7 +2082,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Alvaro Morata"
+        "assistedBy": "Alvaro Morata",
+        "goalkeeper": "Georgiy Bushchan"
       }
     ],
     "assistEvents": []
@@ -2124,7 +2131,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Juan Cuadrado"
+        "assistedBy": "Juan Cuadrado",
+        "goalkeeper": "Dénes Dibusz"
       }
     ],
     "assistEvents": []
@@ -2351,7 +2359,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Juan Cuadrado"
+        "assistedBy": "Juan Cuadrado",
+        "goalkeeper": "Pepe Reina"
       }
     ],
     "assistEvents": []
