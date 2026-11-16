@@ -967,7 +967,8 @@
         "gameState": "Equalizer"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Lyon advanced 2–1 on aggregate."
   },
   {
     "id": "2010-03-06",
@@ -1203,7 +1204,8 @@
     "matchCompUrl": "https://vimeo.com/149513939",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/olympique-lyonnais-real-madrid-champions-league-2010-2011",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Lyon led 1–0 on aggregate."
   },
   {
     "id": "2010-02-13",
