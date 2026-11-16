@@ -945,7 +945,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Wayne Rooney"
+        "assistedBy": "Wayne Rooney",
+        "goalkeeper": "Jussi Jääskeläinen"
       },
       {
         "id": "ronaldo-goal-34",
@@ -954,7 +955,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ruud van Nistelrooy"
+        "assistedBy": "Ruud van Nistelrooy",
+        "goalkeeper": "Jussi Jääskeläinen"
       }
     ],
     "assistEvents": []
@@ -1403,7 +1405,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Paul Scholes"
+        "assistedBy": "Paul Scholes",
+        "goalkeeper": "Mark Schwarzer"
       }
     ],
     "assistEvents": []
