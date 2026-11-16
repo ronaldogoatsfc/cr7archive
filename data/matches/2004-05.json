@@ -63,7 +63,8 @@
         "minute": "42",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Kamil Contofalsky"
       }
     ],
     "assistEvents": [],
@@ -392,7 +393,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ruud van Nistelrooy"
+        "assistedBy": "Ruud van Nistelrooy",
+        "goalkeeper": "Paul Smith"
       }
     ],
     "assistEvents": []
@@ -547,7 +549,8 @@
         "minute": "58",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Nigel Martyn"
       }
     ],
     "assistEvents": [
@@ -802,7 +805,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Paul Scholes"
+        "assistedBy": "Paul Scholes",
+        "goalkeeper": "Paul Jones"
       }
     ],
     "assistEvents": []
@@ -1648,7 +1652,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Deco"
+        "assistedBy": "Deco",
+        "goalkeeper": "Mart Poom"
       }
     ],
     "assistEvents": [
