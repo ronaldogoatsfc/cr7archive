@@ -604,7 +604,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Ruud van Nistelrooy",
-        "goalkeeper": "John Filan"
+        "goalkeeper": "John Filan",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -639,7 +640,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Luís Figo",
-        "goalkeeper": "Mohammad Al-Deayea"
+        "goalkeeper": "Mohammad Al-Deayea",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-41",
@@ -742,7 +744,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Dean Kiely"
+        "goalkeeper": "Dean Kiely",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-38",
@@ -1415,7 +1418,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Paul Scholes",
-        "goalkeeper": "Mark Schwarzer"
+        "goalkeeper": "Mark Schwarzer",
+        "gameState": "Losing by 4"
       }
     ],
     "assistEvents": []
