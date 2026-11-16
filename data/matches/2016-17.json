@@ -293,7 +293,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Isco"
+        "assistedBy": "Isco",
+        "goalkeeper": "Carlos Kameni"
       }
     ],
     "assistEvents": []
@@ -2095,7 +2096,8 @@
         "goalNumber": 558,
         "minute": "17",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Fernando Pacheco"
       },
       {
         "id": "ronaldo-goal-559",
@@ -2104,7 +2106,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Fernando Pacheco"
       },
       {
         "id": "ronaldo-goal-560",
@@ -2113,7 +2116,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Fernando Pacheco"
       }
     ],
     "assistEvents": []
