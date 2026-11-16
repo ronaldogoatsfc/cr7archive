@@ -223,7 +223,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "Óscar Ustari"
       },
       {
         "id": "ronaldo-goal-230",
@@ -232,14 +233,16 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "Óscar Ustari"
       },
       {
         "id": "ronaldo-goal-231",
         "goalNumber": 231,
         "minute": "90+1",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Óscar Ustari"
       }
     ],
     "assistEvents": []
@@ -478,7 +481,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "José Manuel Pinto"
       }
     ],
     "assistEvents": []
@@ -524,7 +528,8 @@
         "goalNumber": 223,
         "minute": "82",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "José Manuel Pinto"
       }
     ],
     "assistEvents": []
@@ -1508,7 +1513,8 @@
         "goalNumber": 207,
         "minute": "11",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Jordi Codina"
       },
       {
         "id": "ronaldo-goal-208",
@@ -1517,7 +1523,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Jordi Codina"
       }
     ],
     "assistEvents": []
@@ -1783,7 +1790,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "Vicente Guaita"
       },
       {
         "id": "ronaldo-goal-201",
@@ -1792,7 +1800,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Lassana Diarra"
+        "assistedBy": "Lassana Diarra",
+        "goalkeeper": "Vicente Guaita"
       }
     ],
     "assistEvents": []
@@ -2278,7 +2287,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonzalo Higuain"
+        "assistedBy": "Gonzalo Higuain",
+        "goalkeeper": "Toño"
       },
       {
         "id": "ronaldo-goal-189",
@@ -2287,7 +2297,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "Toño"
       },
       {
         "id": "ronaldo-goal-190",
@@ -2296,14 +2307,16 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Toño"
       },
       {
         "id": "ronaldo-goal-191",
         "goalNumber": 191,
         "minute": "55",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Toño"
       }
     ],
     "assistEvents": []
@@ -2532,7 +2545,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nani"
+        "assistedBy": "Nani",
+        "goalkeeper": "Thomas Sörensen"
       }
     ],
     "assistEvents": [
