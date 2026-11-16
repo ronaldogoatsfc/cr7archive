@@ -357,7 +357,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Roy Keane"
+        "assistedBy": "Roy Keane",
+        "goalkeeper": "Edwin van der Sar"
       }
     ],
     "assistEvents": []
@@ -1081,7 +1082,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gary Neville"
+        "assistedBy": "Gary Neville",
+        "goalkeeper": "Kasey Keller"
       }
     ],
     "assistEvents": []
@@ -1400,7 +1402,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Pauleta"
+        "assistedBy": "Pauleta",
+        "goalkeeper": "Vyacheslav Malafeev"
       },
       {
         "id": "ronaldo-goal-17",
@@ -1409,7 +1412,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Maniche"
+        "assistedBy": "Maniche",
+        "goalkeeper": "Vyacheslav Malafeev"
       }
     ],
     "assistEvents": [
