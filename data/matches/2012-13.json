@@ -28,7 +28,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Silvestre Varela"
+        "assistedBy": "Silvestre Varela",
+        "goalkeeper": "Danijel Subasic"
       }
     ],
     "assistEvents": [],
@@ -250,7 +251,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Jaime Jimenez"
       },
       {
         "id": "ronaldo-goal-360",
@@ -259,7 +261,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Özil"
+        "assistedBy": "Mesut Özil",
+        "goalkeeper": "Jaime Jimenez"
       }
     ],
     "assistEvents": []
@@ -345,7 +348,8 @@
         "minute": "43",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Roman Weidenfeller"
       }
     ],
     "assistEvents": []
@@ -2184,7 +2188,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Mesut Özil"
+        "assistedBy": "Mesut Özil",
+        "goalkeeper": "Roman Weidenfeller"
       }
     ],
     "assistEvents": []
@@ -2685,7 +2690,8 @@
         "minute": "28",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Jonathan Joubert"
       }
     ],
     "assistEvents": [],
