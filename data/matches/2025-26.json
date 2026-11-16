@@ -168,7 +168,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Cancelo",
-        "goalkeeper": "Abduvokhid Nematov"
+        "goalkeeper": "Abduvokhid Nematov",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-975",
@@ -473,7 +474,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Sadio Mané",
-        "goalkeeper": "Marcelo Grohe"
+        "goalkeeper": "Marcelo Grohe",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -559,7 +561,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Félix",
-        "goalkeeper": "Edouard Mendy"
+        "goalkeeper": "Edouard Mendy",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -645,7 +648,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nawaf Boushal",
-        "goalkeeper": "Mohamed Ali"
+        "goalkeeper": "Mohamed Ali",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -731,7 +735,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nawaf Boushal",
-        "goalkeeper": "Samuel Portugal"
+        "goalkeeper": "Samuel Portugal",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -778,7 +783,8 @@
         "minute": "56",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Victor Braga"
+        "goalkeeper": "Victor Braga",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-967",
@@ -872,7 +878,8 @@
         "minute": "7",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Victor Braga"
+        "goalkeeper": "Victor Braga",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -929,7 +936,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Kingsley Coman",
-        "goalkeeper": "Ibrahim Zaied"
+        "goalkeeper": "Ibrahim Zaied",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-964",
@@ -988,7 +996,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Sadio Mané",
-        "goalkeeper": "Fernando Pacheco"
+        "goalkeeper": "Fernando Pacheco",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1037,7 +1046,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Félix",
-        "goalkeeper": "Juan Pablo Cozzani"
+        "goalkeeper": "Juan Pablo Cozzani",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1123,7 +1133,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Félix",
-        "goalkeeper": "Kewin"
+        "goalkeeper": "Kewin",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1256,7 +1267,8 @@
         "minute": "81",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Ahmed Al-Kassar"
+        "goalkeeper": "Ahmed Al-Kassar",
+        "gameState": "Losing by 2"
       }
     ],
     "assistEvents": []
@@ -1391,7 +1403,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Abdulelah Al-Amri",
-        "goalkeeper": "Samuel Portugal"
+        "goalkeeper": "Samuel Portugal",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-956",
@@ -1580,7 +1593,8 @@
         "minute": "65",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Luís Maximiano"
+        "goalkeeper": "Luís Maximiano",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1629,7 +1643,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Kingsley Coman",
-        "goalkeeper": "Orlando Mosquera"
+        "goalkeeper": "Orlando Mosquera",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-952",
@@ -1637,7 +1652,8 @@
         "minute": "90+14",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Orlando Mosquera"
+        "goalkeeper": "Orlando Mosquera",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1771,7 +1787,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Sadio Mané",
-        "goalkeeper": "Amin Al-Bukhari"
+        "goalkeeper": "Amin Al-Bukhari",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1828,7 +1845,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nelson Semedo",
-        "goalkeeper": "Balázs Tóth"
+        "goalkeeper": "Balázs Tóth",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-948",
