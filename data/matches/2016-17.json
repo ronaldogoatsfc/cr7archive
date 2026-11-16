@@ -253,7 +253,8 @@
         "goalkeeper": "Gianluigi Buffon"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid won 4–1 to retain the Champions League title."
   },
   {
     "id": "2017-05-21",
@@ -459,7 +460,8 @@
     "matchCompUrl": "https://vimeo.com/461806626",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/atletico-de-madrid-real-madrid-champions-league",
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid advanced 4–2 on aggregate."
   },
   {
     "id": "2017-05-02",
@@ -530,7 +532,8 @@
         "goalkeeper": "Jan Oblak"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid led 3–0 on aggregate."
   },
   {
     "id": "2017-04-29",
@@ -687,7 +690,8 @@
         "goalkeeper": "Manuel Neuer"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid advanced 6–3 on aggregate after extra time."
   },
   {
     "id": "2017-04-12",
@@ -749,7 +753,8 @@
         "gameState": "Match winner"
       }
     ],
-    "assistEvents": []
+    "assistEvents": [],
+    "matchNote": "Real Madrid led 2–1 on aggregate."
   },
   {
     "id": "2017-04-08",
@@ -1058,7 +1063,8 @@
         "optaAssist": false,
         "assistClarification": "GK rebound"
       }
-    ]
+    ],
+    "matchNote": "Real Madrid advanced 6–2 on aggregate."
   },
   {
     "id": "2017-03-01",
@@ -1297,7 +1303,8 @@
         "assistedPlayer": "Toni Kroos",
         "optaAssist": true
       }
-    ]
+    ],
+    "matchNote": "Real Madrid led 3–1 on aggregate."
   },
   {
     "id": "2017-02-11",
