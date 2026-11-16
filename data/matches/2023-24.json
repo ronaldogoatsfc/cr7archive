@@ -527,7 +527,7 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Munir Mohamedi"
+        "goalkeeper": "Munir El Kajoui"
       },
       {
         "id": "ronaldo-goal-889",
@@ -537,7 +537,7 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Brozovic",
-        "goalkeeper": "Munir Mohamedi"
+        "goalkeeper": "Munir El Kajoui"
       },
       {
         "id": "ronaldo-goal-890",
@@ -547,7 +547,7 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Sadio Mané",
-        "goalkeeper": "Munir Mohamedi"
+        "goalkeeper": "Munir El Kajoui"
       }
     ],
     "assistEvents": []
@@ -1818,7 +1818,7 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Monir El Kajoui"
+        "goalkeeper": "Munir El Kajoui"
       }
     ],
     "assistEvents": []
