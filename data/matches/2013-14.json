@@ -512,7 +512,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luka Modric"
+        "assistedBy": "Luka Modric",
+        "goalkeeper": "Roman Weidenfeller"
       }
     ],
     "assistEvents": []
@@ -816,7 +817,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Keylor Navas"
       }
     ],
     "assistEvents": [
@@ -858,7 +860,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Pereira"
+        "assistedBy": "Joao Pereira",
+        "goalkeeper": "Charles Itandje"
       },
       {
         "id": "ronaldo-goal-410",
@@ -867,7 +870,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Miguel Veloso"
+        "assistedBy": "Miguel Veloso",
+        "goalkeeper": "Charles Itandje"
       }
     ],
     "assistEvents": [
@@ -1223,7 +1227,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luka Modric"
+        "assistedBy": "Luka Modric",
+        "goalkeeper": "Roberto Fernández"
       }
     ],
     "assistEvents": []
@@ -1309,7 +1314,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Stephan Andersen"
       }
     ],
     "assistEvents": [
@@ -2296,7 +2302,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luka Modric"
+        "assistedBy": "Luka Modric",
+        "goalkeeper": "Keylor Navas"
       }
     ],
     "assistEvents": []
