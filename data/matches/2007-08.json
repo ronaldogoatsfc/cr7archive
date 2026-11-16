@@ -453,7 +453,8 @@
         "goalNumber": 113,
         "minute": "53",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Jens Lehmann"
       }
     ],
     "assistEvents": []
@@ -775,7 +776,8 @@
         "minute": "41",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Grégory Coupet"
       }
     ],
     "assistEvents": []
@@ -1176,7 +1178,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Ryan Giggs"
+        "assistedBy": "Ryan Giggs",
+        "goalkeeper": "Martin O'Neill"
       }
     ],
     "assistEvents": [
