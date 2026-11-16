@@ -101,7 +101,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luka Modric"
+        "assistedBy": "Luka Modric",
+        "goalkeeper": "Thibaut Courtois"
       }
     ],
     "assistEvents": []
@@ -436,7 +437,8 @@
         "minute": "2",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Gorka Iraizoz"
       },
       {
         "id": "ronaldo-goal-357",
@@ -445,7 +447,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Xabi Alonso"
+        "assistedBy": "Xabi Alonso",
+        "goalkeeper": "Gorka Iraizoz"
       }
     ],
     "assistEvents": [
@@ -559,7 +562,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonzalo Higuaín"
+        "assistedBy": "Gonzalo Higuaín",
+        "goalkeeper": "Geronimo Rulli"
       }
     ],
     "assistEvents": [
@@ -663,7 +667,8 @@
         "minute": "38",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Roberto"
       }
     ],
     "assistEvents": []
@@ -791,14 +796,16 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "José Callejón"
+        "assistedBy": "José Callejón",
+        "goalkeeper": "Javi Varas"
       },
       {
         "id": "ronaldo-goal-349",
         "goalNumber": 349,
         "minute": "71",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Javi Varas"
       }
     ],
     "assistEvents": []
@@ -847,7 +854,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonzalo Higuaín"
+        "assistedBy": "Gonzalo Higuaín",
+        "goalkeeper": "David de Gea"
       }
     ],
     "assistEvents": []
@@ -1070,7 +1078,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "David de Gea"
       }
     ],
     "assistEvents": []
@@ -1118,7 +1127,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Kaká"
+        "assistedBy": "Kaká",
+        "goalkeeper": "Beto"
       },
       {
         "id": "ronaldo-goal-342",
@@ -1127,7 +1137,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Alvaro Arbeloa"
+        "assistedBy": "Alvaro Arbeloa",
+        "goalkeeper": "Beto"
       },
       {
         "id": "ronaldo-goal-343",
@@ -1136,7 +1147,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonzalo Higuaín"
+        "assistedBy": "Gonzalo Higuaín",
+        "goalkeeper": "Beto"
       }
     ],
     "assistEvents": [
@@ -1379,7 +1391,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Fábio Coentrão"
+        "assistedBy": "Fábio Coentrão",
+        "goalkeeper": "Diego Alves"
       },
       {
         "id": "ronaldo-goal-336",
@@ -1388,7 +1401,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Özil"
+        "assistedBy": "Mesut Özil",
+        "goalkeeper": "Diego Alves"
       }
     ],
     "assistEvents": [
@@ -1455,7 +1469,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Alvaro Arbeloa"
+        "assistedBy": "Alvaro Arbeloa",
+        "goalkeeper": "Sergio Alvarez"
       },
       {
         "id": "ronaldo-goal-333",
@@ -1464,7 +1479,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luka Modric"
+        "assistedBy": "Luka Modric",
+        "goalkeeper": "Sergio Alvarez"
       },
       {
         "id": "ronaldo-goal-334",
@@ -1473,7 +1489,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonzalo Higuaín"
+        "assistedBy": "Gonzalo Higuaín",
+        "goalkeeper": "Sergio Alvarez"
       }
     ],
     "assistEvents": [
@@ -1529,7 +1546,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Claudio Bravo"
       },
       {
         "id": "ronaldo-goal-331",
@@ -1537,7 +1555,8 @@
         "minute": "70",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Claudio Bravo"
       }
     ],
     "assistEvents": []
@@ -1665,7 +1684,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Xabi Alonso"
+        "assistedBy": "Xabi Alonso",
+        "goalkeeper": "Sergio Alvarez"
       }
     ],
     "assistEvents": []
@@ -1805,7 +1825,8 @@
         "minute": "16",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Thibaut Courtois"
       }
     ],
     "assistEvents": [
@@ -1971,7 +1992,8 @@
         "minute": "20",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Geronimo Rulli"
       }
     ],
     "assistEvents": []
@@ -2204,7 +2226,8 @@
         "goalNumber": 321,
         "minute": "67",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Sergio Alvarez"
       }
     ],
     "assistEvents": []
@@ -2497,7 +2520,8 @@
         "goalNumber": 312,
         "minute": "69",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Ruben Martinez"
       }
     ],
     "assistEvents": []
