@@ -456,7 +456,8 @@
         "goalNumber": 833,
         "minute": "40",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Milan Mijatović"
       },
       {
         "id": "ronaldo-goal-834",
@@ -465,7 +466,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Talisca"
+        "assistedBy": "Talisca",
+        "goalkeeper": "Milan Mijatović"
       }
     ],
     "assistEvents": []
@@ -571,7 +573,8 @@
         "goalNumber": 829,
         "minute": "51",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Benjamin Büchel"
       },
       {
         "id": "ronaldo-goal-830",
@@ -579,7 +582,8 @@
         "minute": "63",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Benjamin Büchel"
       }
     ],
     "assistEvents": [],
@@ -627,7 +631,8 @@
         "minute": "79",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Devis Epassy"
       }
     ],
     "assistEvents": []
@@ -1421,7 +1426,8 @@
         "minute": "81",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Maksym Koval"
       }
     ],
     "assistEvents": []
@@ -1718,7 +1724,8 @@
         "goalNumber": 816,
         "minute": "39",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Maksym Koval"
       }
     ],
     "assistEvents": []
