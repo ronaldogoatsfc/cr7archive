@@ -168,7 +168,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Diego Lopez"
+        "goalkeeper": "Diego Lopez",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-233",
@@ -226,7 +227,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Ozil",
-        "goalkeeper": "Óscar Ustari"
+        "goalkeeper": "Óscar Ustari",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-230",
@@ -484,7 +486,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Angel Di Maria",
-        "goalkeeper": "José Manuel Pinto"
+        "goalkeeper": "José Manuel Pinto",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -531,7 +534,8 @@
         "minute": "82",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "José Manuel Pinto"
+        "goalkeeper": "José Manuel Pinto",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -1046,7 +1050,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Hugo Almeida"
+        "assistedBy": "Hugo Almeida",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": [],
@@ -1096,7 +1101,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Kaka",
-        "goalkeeper": "Claudio Bravo"
+        "goalkeeper": "Claudio Bravo",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-215",
@@ -1393,7 +1399,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Ozil",
-        "goalkeeper": "David de Gea"
+        "goalkeeper": "David de Gea",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1442,7 +1449,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Ozil",
-        "goalkeeper": "Diego Lopez"
+        "goalkeeper": "Diego Lopez",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-210",
@@ -1452,7 +1460,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Xabi Alonso",
-        "goalkeeper": "Diego Lopez"
+        "goalkeeper": "Diego Lopez",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-211",
@@ -1461,7 +1470,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Diego Lopez"
+        "goalkeeper": "Diego Lopez",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1526,7 +1536,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema",
-        "goalkeeper": "Jordi Codina"
+        "goalkeeper": "Jordi Codina",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1689,7 +1700,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Leo Franco"
+        "goalkeeper": "Leo Franco",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1795,7 +1807,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Ozil",
-        "goalkeeper": "Vicente Guaita"
+        "goalkeeper": "Vicente Guaita",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-201",
@@ -1946,7 +1959,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Mesut Ozil",
-        "goalkeeper": "Gorka Iraizoz"
+        "goalkeeper": "Gorka Iraizoz",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-196",
@@ -2190,7 +2204,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Juan Calatayud"
+        "goalkeeper": "Juan Calatayud",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-193",
@@ -2295,7 +2310,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Gonzalo Higuain",
-        "goalkeeper": "Toño"
+        "goalkeeper": "Toño",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-189",
@@ -2371,7 +2387,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Marco Amelia"
+        "goalkeeper": "Marco Amelia",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -2428,7 +2445,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Ozil",
-        "goalkeeper": "Galatto"
+        "goalkeeper": "Galatto",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-186",
@@ -2745,7 +2763,8 @@
         "goalNumber": 180,
         "minute": "28",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
