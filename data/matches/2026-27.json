@@ -36,8 +36,8 @@
     "fullMatchUrl": "",
     "goalEvents": [
       {
-        "id": "ronaldo-goal-983",
-        "goalNumber": 983,
+        "id": "ronaldo-goal-982",
+        "goalNumber": 982,
         "minute": "66",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
@@ -46,8 +46,8 @@
         "goalkeeper": "Hamed Al-Shanqity"
       },
       {
-        "id": "ronaldo-goal-984",
-        "goalNumber": 984,
+        "id": "ronaldo-goal-983",
+        "goalNumber": 983,
         "minute": "72",
         "goalType": "Open Play",
         "bodyPart": "Header",
@@ -57,8 +57,8 @@
         "gameState": "Match winner"
       },
       {
-        "id": "ronaldo-goal-985",
-        "goalNumber": 985,
+        "id": "ronaldo-goal-984",
+        "goalNumber": 984,
         "minute": "81",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
