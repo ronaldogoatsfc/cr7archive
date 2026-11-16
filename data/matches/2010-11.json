@@ -1688,7 +1688,8 @@
         "minute": "43",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Leo Franco"
       }
     ],
     "assistEvents": []
@@ -1736,7 +1737,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Olivier Sorin"
       }
     ],
     "assistEvents": [
@@ -2368,7 +2370,8 @@
         "minute": "13",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Marco Amelia"
       }
     ],
     "assistEvents": [
@@ -2495,7 +2498,8 @@
         "minute": "3",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Gunnleifsson"
       }
     ],
     "assistEvents": [
