@@ -42,7 +42,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gonçalo Inacio"
+        "assistedBy": "Gonçalo Inacio",
+        "goalkeeper": "Runar Alex Runarsson"
       }
     ],
     "assistEvents": [],
@@ -1259,7 +1260,8 @@
         "goalNumber": 819,
         "minute": "65",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Lawrence Ati-Zigi"
       }
     ],
     "assistEvents": [],
@@ -1549,7 +1551,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Casemiro"
+        "assistedBy": "Casemiro",
+        "goalkeeper": "Jordan Pickford"
       }
     ],
     "assistEvents": []
