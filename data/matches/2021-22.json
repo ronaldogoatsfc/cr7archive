@@ -270,7 +270,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nemanja Matic",
-        "goalkeeper": "Edouard Mendy"
+        "goalkeeper": "Edouard Mendy",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -319,7 +320,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nemanja Matic",
-        "goalkeeper": "Aaron Ramsdale"
+        "goalkeeper": "Aaron Ramsdale",
+        "gameState": "Losing by 2"
       }
     ],
     "assistEvents": []
@@ -387,7 +389,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Tim Krul"
+        "goalkeeper": "Tim Krul",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -615,7 +618,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Alex Telles",
-        "goalkeeper": "Hugo Lloris"
+        "goalkeeper": "Hugo Lloris",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -776,7 +780,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Scott McTominay",
-        "goalkeeper": "Robert Sanchez"
+        "goalkeeper": "Robert Sanchez",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1137,7 +1142,8 @@
         "minute": "75",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Tim Krul"
+        "goalkeeper": "Tim Krul",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1231,7 +1237,8 @@
         "minute": "70",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Aaron Ramsdale"
+        "goalkeeper": "Aaron Ramsdale",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1316,7 +1323,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Geronimo Rulli"
+        "goalkeeper": "Geronimo Rulli",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1523,7 +1531,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Bruno Fernandes",
-        "goalkeeper": "Juan Musso"
+        "goalkeeper": "Juan Musso",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-798",
@@ -1533,7 +1542,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Mason Greenwood",
-        "goalkeeper": "Juan Musso"
+        "goalkeeper": "Juan Musso",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -1582,7 +1592,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Bruno Fernandes",
-        "goalkeeper": "Hugo Lloris"
+        "goalkeeper": "Hugo Lloris",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1676,7 +1687,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Luke Shaw",
-        "goalkeeper": "Juan Musso"
+        "goalkeeper": "Juan Musso",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1760,7 +1772,8 @@
         "minute": "8",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Anthony Moris"
+        "goalkeeper": "Anthony Moris",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-793",
@@ -1814,7 +1827,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Diogo Dalot",
-        "goalkeeper": "Saad Al-Sheeb"
+        "goalkeeper": "Saad Al-Sheeb",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -1901,7 +1915,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Jesse Lingard",
-        "goalkeeper": "Geronimo Rulli"
+        "goalkeeper": "Geronimo Rulli",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1986,7 +2001,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Lukasz Fabianski"
+        "goalkeeper": "Lukasz Fabianski",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -2093,7 +2109,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Luke Shaw",
-        "goalkeeper": "Freddie Woodman"
+        "goalkeeper": "Freddie Woodman",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2142,7 +2159,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Gonçalo Guedes",
-        "goalkeeper": "Gavin Bazunu"
+        "goalkeeper": "Gavin Bazunu",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-785",
@@ -2152,7 +2170,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Mario",
-        "goalkeeper": "Gavin Bazunu"
+        "goalkeeper": "Gavin Bazunu",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
