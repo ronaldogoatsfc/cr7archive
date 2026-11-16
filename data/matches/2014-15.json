@@ -27,7 +27,8 @@
         "minute": "29",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Roman Berezovskiy"
+        "goalkeeper": "Roman Berezovskiy",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-490",
@@ -47,7 +48,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Rui Patricio",
-        "goalkeeper": "Roman Berezovskiy"
+        "goalkeeper": "Roman Berezovskiy",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -106,7 +108,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Jordi Codina"
+        "goalkeeper": "Jordi Codina",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-488",
@@ -239,7 +242,8 @@
         "minute": "23",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Gianluigi Buffon"
+        "goalkeeper": "Gianluigi Buffon",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -326,7 +330,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "James Rodriguez",
-        "goalkeeper": "Gianluigi Buffon"
+        "goalkeeper": "Gianluigi Buffon",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -395,7 +400,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale",
-        "goalkeeper": "Sergio Rico"
+        "goalkeeper": "Sergio Rico",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -680,7 +686,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Xabi Irurerta"
+        "goalkeeper": "Xabi Irurerta",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -729,7 +736,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Dani Carvajal",
-        "goalkeeper": "David Cabeno"
+        "goalkeeper": "David Cabeno",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -786,7 +794,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "James Rodriguez",
-        "goalkeeper": "Oier Olazábal"
+        "goalkeeper": "Oier Olazábal",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-471",
@@ -898,7 +907,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema",
-        "goalkeeper": "Claudio Bravo"
+        "goalkeeper": "Claudio Bravo",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -1193,7 +1203,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Dani Carvajal",
-        "goalkeeper": "Timon Wellenreuther"
+        "goalkeeper": "Timon Wellenreuther",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1369,7 +1380,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema",
-        "goalkeeper": "Jordi Codina"
+        "goalkeeper": "Jordi Codina",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-463",
@@ -1429,7 +1441,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale",
-        "goalkeeper": "Jan Oblak"
+        "goalkeeper": "Jan Oblak",
+        "gameState": "Losing by 3"
       }
     ],
     "assistEvents": []
@@ -1726,7 +1739,8 @@
         "minute": "20",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Vladislav Stoyanov"
+        "goalkeeper": "Vladislav Stoyanov",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1781,7 +1795,8 @@
         "minute": "36",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Sergio Alvarez"
+        "goalkeeper": "Sergio Alvarez",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-455",
@@ -1901,7 +1916,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema",
-        "goalkeeper": "Tomás Vaclik"
+        "goalkeeper": "Tomás Vaclik",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2039,7 +2055,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Nani",
-        "goalkeeper": "Roman Berezovskiy"
+        "goalkeeper": "Roman Berezovskiy",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -2190,7 +2207,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema",
-        "goalkeeper": "Roberto Fernández"
+        "goalkeeper": "Roberto Fernández",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -2252,7 +2270,8 @@
         "minute": "35",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Claudio Bravo"
+        "goalkeeper": "Claudio Bravo",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -2300,7 +2319,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "James Rodriguez"
+        "assistedBy": "James Rodriguez",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2346,7 +2366,8 @@
         "goalNumber": 444,
         "minute": "13",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-445",
@@ -2404,7 +2425,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Ricardo Quaresma",
-        "goalkeeper": "Kasper Schmeichel"
+        "goalkeeper": "Kasper Schmeichel",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -2492,7 +2514,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale",
-        "goalkeeper": "Gorka Iraizoz"
+        "goalkeeper": "Gorka Iraizoz",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-441",
@@ -2567,7 +2590,8 @@
         "minute": "25",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Vladislav Stoyanov"
+        "goalkeeper": "Vladislav Stoyanov",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -2662,7 +2686,8 @@
         "minute": "28",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Manu Herrera"
+        "goalkeeper": "Manu Herrera",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-435",
@@ -2749,7 +2774,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Karim Benzema",
-        "goalkeeper": "Germán Lux"
+        "goalkeeper": "Germán Lux",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-433",
@@ -2863,7 +2889,8 @@
         "minute": "25",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Angel Moya"
+        "goalkeeper": "Angel Moya",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -3037,7 +3064,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Gareth Bale",
-        "goalkeeper": "Beto"
+        "goalkeeper": "Beto",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-427",
