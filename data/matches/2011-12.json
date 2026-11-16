@@ -81,7 +81,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Moutinho",
-        "goalkeeper": "Petr Cech"
+        "goalkeeper": "Petr Cech",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -130,7 +131,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Pereira"
+        "assistedBy": "Joao Pereira",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-303",
@@ -139,7 +141,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Nani"
+        "assistedBy": "Nani",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -368,7 +371,8 @@
         "minute": "81",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Julio Cesar"
+        "goalkeeper": "Julio Cesar",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -474,7 +478,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema",
-        "goalkeeper": "Javi Varas"
+        "goalkeeper": "Javi Varas",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -522,7 +527,8 @@
         "minute": "6",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Manuel Neuer"
+        "goalkeeper": "Manuel Neuer",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-297",
@@ -581,7 +587,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Ozil",
-        "goalkeeper": "Victor Valdés"
+        "goalkeeper": "Victor Valdés",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -676,7 +683,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Angel Di Maria",
-        "goalkeeper": "Juan Pablo"
+        "goalkeeper": "Juan Pablo",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -734,7 +742,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Xabi Alonso",
-        "goalkeeper": "Thibaut Courtois"
+        "goalkeeper": "Thibaut Courtois",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-293",
@@ -895,7 +904,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Xabi Alonso",
-        "goalkeeper": "Andres Fernandez"
+        "goalkeeper": "Andres Fernandez",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-288",
@@ -1006,7 +1016,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Kaka",
-        "goalkeeper": "Claudio Bravo"
+        "goalkeeper": "Claudio Bravo",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-286",
@@ -1159,7 +1170,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Sergio Ramos",
-        "goalkeeper": "Sergey Chepchugov"
+        "goalkeeper": "Sergey Chepchugov",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-283",
@@ -1227,7 +1239,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Fabri"
+        "goalkeeper": "Fabri",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1276,7 +1289,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Gonzalo Higuain",
-        "goalkeeper": "Kiko Casilla"
+        "goalkeeper": "Kiko Casilla",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1349,7 +1363,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Sami Khedira",
-        "goalkeeper": "Joel Robles"
+        "goalkeeper": "Joel Robles",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1448,7 +1463,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Kaka",
-        "goalkeeper": "Toño"
+        "goalkeeper": "Toño",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1495,7 +1511,8 @@
         "minute": "45",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Geronimo Rulli"
+        "goalkeeper": "Geronimo Rulli",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-274",
@@ -1515,7 +1532,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Fabio Coentrão",
-        "goalkeeper": "Roberto"
+        "goalkeeper": "Roberto",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -1609,7 +1627,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Ozil",
-        "goalkeeper": "Roberto"
+        "goalkeeper": "Roberto",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -1645,7 +1664,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Ozil",
-        "goalkeeper": "José Manuel Pinto"
+        "goalkeeper": "José Manuel Pinto",
+        "gameState": "Losing by 3"
       }
     ],
     "assistEvents": []
@@ -1692,7 +1712,8 @@
         "minute": "46",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Gorka Iraizoz"
+        "goalkeeper": "Gorka Iraizoz",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-270",
@@ -1928,7 +1949,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Angel Di Maria",
-        "goalkeeper": "Javi Varas"
+        "goalkeeper": "Javi Varas",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-266",
@@ -2105,7 +2127,8 @@
         "minute": "24",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Thibaut Courtois"
+        "goalkeeper": "Thibaut Courtois",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-261",
@@ -2170,7 +2193,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Pepe",
-        "goalkeeper": "Diego Alves"
+        "goalkeeper": "Diego Alves",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -2215,7 +2239,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Joao Moutinho",
-        "goalkeeper": "Asmir Begovic"
+        "goalkeeper": "Asmir Begovic",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [],
@@ -2356,7 +2381,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Hugo Lloris"
+        "goalkeeper": "Hugo Lloris",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-253",
@@ -2638,7 +2664,8 @@
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "goalkeeper": "Thomas Sörensen"
+        "goalkeeper": "Thomas Sörensen",
+        "gameState": "Losing by 2"
       }
     ],
     "assistEvents": [],
@@ -2763,7 +2790,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": [
@@ -2820,7 +2848,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Kaka",
-        "goalkeeper": "Dani Giménez"
+        "goalkeeper": "Dani Giménez",
+        "gameState": "Equalizer"
       },
       {
         "id": "ronaldo-goal-245",
@@ -2828,7 +2857,8 @@
         "minute": "51",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Dani Giménez"
+        "goalkeeper": "Dani Giménez",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-246",
@@ -3035,7 +3065,8 @@
         "minute": "35",
         "goalType": "Penalty",
         "bodyPart": "Right foot",
-        "goalkeeper": "Antonis Georgallidis"
+        "goalkeeper": "Antonis Georgallidis",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-242",
@@ -3103,7 +3134,8 @@
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Mesut Ozil",
-        "goalkeeper": "Roberto"
+        "goalkeeper": "Roberto",
+        "gameState": "Match winner"
       },
       {
         "id": "ronaldo-goal-239",
@@ -3159,7 +3191,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
         "assistedBy": "Karim Benzema",
-        "goalkeeper": "Victor Valdés"
+        "goalkeeper": "Victor Valdés",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
