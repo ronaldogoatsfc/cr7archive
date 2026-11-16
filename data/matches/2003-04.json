@@ -261,7 +261,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Luís Figo",
-        "goalkeeper": "Antonis Nikopolidis"
+        "goalkeeper": "Antonis Nikopolidis",
+        "gameState": "Losing by 2"
       }
     ],
     "assistEvents": [],
@@ -345,7 +346,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Gary Neville",
-        "goalkeeper": "Andy Marshall"
+        "goalkeeper": "Andy Marshall",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -380,7 +382,8 @@
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
         "assistedBy": "Darren Fletcher",
-        "goalkeeper": "Thomas Sörensen"
+        "goalkeeper": "Thomas Sörensen",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
@@ -570,7 +573,8 @@
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
         "assistedBy": "Ryan Giggs",
-        "goalkeeper": "Maik Taylor"
+        "goalkeeper": "Maik Taylor",
+        "gameState": "Equalizer"
       }
     ],
     "assistEvents": []
@@ -871,7 +875,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "goalkeeper": "Arason"
+        "goalkeeper": "Arason",
+        "gameState": "Match winner"
       }
     ],
     "assistEvents": []
