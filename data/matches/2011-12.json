@@ -80,7 +80,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Moutinho"
+        "assistedBy": "Joao Moutinho",
+        "goalkeeper": "Petr Cech"
       }
     ],
     "assistEvents": [],
@@ -834,7 +835,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Urko Pardo"
       },
       {
         "id": "ronaldo-goal-290",
@@ -842,7 +844,8 @@
         "minute": "75",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Urko Pardo"
       }
     ],
     "assistEvents": []
@@ -1154,7 +1157,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Sergio Ramos"
+        "assistedBy": "Sergio Ramos",
+        "goalkeeper": "Sergey Chepchugov"
       },
       {
         "id": "ronaldo-goal-283",
@@ -1212,7 +1216,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Fabri"
       },
       {
         "id": "ronaldo-goal-281",
@@ -1220,7 +1225,8 @@
         "minute": "73",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Fabri"
       }
     ],
     "assistEvents": []
@@ -1390,7 +1396,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Fabio Coentrão"
+        "assistedBy": "Fabio Coentrão",
+        "goalkeeper": "Sergey Chepchugov"
       }
     ],
     "assistEvents": []
@@ -1835,7 +1842,8 @@
         "minute": "89",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Roberto Fernández"
       }
     ],
     "assistEvents": []
@@ -2046,7 +2054,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Iván Cuéllar"
       }
     ],
     "assistEvents": []
@@ -2807,21 +2816,24 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Kaka"
+        "assistedBy": "Kaka",
+        "goalkeeper": "Dani Giménez"
       },
       {
         "id": "ronaldo-goal-245",
         "goalNumber": 245,
         "minute": "51",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Dani Giménez"
       },
       {
         "id": "ronaldo-goal-246",
         "goalNumber": 246,
         "minute": "84",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Dani Giménez"
       }
     ],
     "assistEvents": []
@@ -3201,7 +3213,8 @@
         "minute": "43",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Jonathan Joubert"
       }
     ],
     "assistEvents": [
