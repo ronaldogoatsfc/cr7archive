@@ -1045,14 +1045,16 @@
         "goalNumber": 404,
         "minute": "6",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Daniel Aranzubia"
       },
       {
         "id": "ronaldo-goal-405",
         "goalNumber": 405,
         "minute": "15",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Daniel Aranzubia"
       }
     ],
     "assistEvents": []
@@ -1552,7 +1554,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Vicente Guaita"
       }
     ],
     "assistEvents": []
@@ -2436,14 +2439,16 @@
         "minute": "51",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Manu Herrera"
       },
       {
         "id": "ronaldo-goal-376",
         "goalNumber": 376,
         "minute": "90+6",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Manu Herrera"
       }
     ],
     "assistEvents": []
@@ -2563,7 +2568,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Isco"
+        "assistedBy": "Isco",
+        "goalkeeper": "Fernando Muslera"
       },
       {
         "id": "ronaldo-goal-371",
@@ -2571,7 +2577,8 @@
         "minute": "66",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Fernando Muslera"
       },
       {
         "id": "ronaldo-goal-372",
@@ -2580,7 +2587,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Fernando Muslera"
       }
     ],
     "assistEvents": [
