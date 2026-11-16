@@ -505,7 +505,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sami Khedira"
+        "assistedBy": "Sami Khedira",
+        "goalkeeper": "Fernando Muslera"
       },
       {
         "id": "ronaldo-goal-355",
@@ -514,7 +515,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Fernando Muslera"
       }
     ],
     "assistEvents": []
@@ -620,7 +622,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Özil"
+        "assistedBy": "Mesut Özil",
+        "goalkeeper": "Fernando Muslera"
       }
     ],
     "assistEvents": []
@@ -1641,7 +1644,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sami Khedira"
+        "assistedBy": "Sami Khedira",
+        "goalkeeper": "Kiko Casilla"
       }
     ],
     "assistEvents": [
@@ -2458,7 +2462,8 @@
         "goalNumber": 313,
         "minute": "23",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Daniel Aranzubia"
       },
       {
         "id": "ronaldo-goal-314",
@@ -2467,14 +2472,16 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sergio Ramos"
+        "assistedBy": "Sergio Ramos",
+        "goalkeeper": "Daniel Aranzubia"
       },
       {
         "id": "ronaldo-goal-315",
         "goalNumber": 315,
         "minute": "84",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Daniel Aranzubia"
       }
     ],
     "assistEvents": []
