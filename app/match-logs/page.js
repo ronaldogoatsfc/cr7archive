@@ -12,6 +12,7 @@ import {
   hasRecordedDetailedStats,
 } from "@/lib/stats";
 import StatCard from "@/components/StatCard";
+import { GAME_STATE_FILTER_OPTIONS, getGameStateDisplay } from "@/lib/game-state";
 
 const DEFAULT_FILTERS = {
   // basic
@@ -40,6 +41,7 @@ const DEFAULT_FILTERS = {
   finishMin: "Any",
   shotLocation: "All",
   shotLocationMin: "Any",
+  gameState: "All",
   // performance stats
   detailedStats: "All",
   minShots: "Any",
@@ -450,7 +452,8 @@ function EventSection({ title, count, events, type }) {
                   ([key]) =>
                     event[key] !== undefined &&
                     event[key] !== null &&
-                    event[key] !== ""
+                    event[key] !== "" ||
+                    (key === "gameState" && getGameStateDisplay(event))
                 );
 
                 return (
@@ -476,7 +479,7 @@ function EventSection({ title, count, events, type }) {
                               {label}
                             </dt>
                             <dd className="mt-0.5 text-sm text-paper">
-                              {key === "optaAssist" ? (event[key] ? "Yes" : "No") : event[key]}
+                              {key === "optaAssist" ? (event[key] ? "Yes" : "No") : key === "gameState" ? (getGameStateDisplay(event) || event[key]) : event[key]}
                             </dd>
                           </div>
                         ))}
@@ -1158,6 +1161,12 @@ export default function MatchLogsPage() {
                 value={filters.minAssists}
                 onChange={(v) => updateFilter("minAssists", v)}
                 options={ASSIST_THRESHOLDS}
+              />
+              <Select
+                label="Game State"
+                value={filters.gameState}
+                onChange={(v) => updateFilter("gameState", v)}
+                options={GAME_STATE_FILTER_OPTIONS}
               />
               <MinSelect
                 label="Goal Contributions"
