@@ -352,7 +352,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Marc-André ter Stegen"
       }
     ],
     "assistEvents": []
@@ -770,7 +771,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Toni Kroos"
+        "assistedBy": "Toni Kroos",
+        "goalkeeper": "Bono"
       },
       {
         "id": "ronaldo-goal-643",
@@ -779,7 +781,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Bono"
       },
       {
         "id": "ronaldo-goal-644",
@@ -787,7 +790,8 @@
         "minute": "64",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Bono"
       },
       {
         "id": "ronaldo-goal-645",
@@ -796,7 +800,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Toni Kroos"
+        "assistedBy": "Toni Kroos",
+        "goalkeeper": "Bono"
       }
     ],
     "assistEvents": [
@@ -1024,7 +1029,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Fernando Pacheco"
       },
       {
         "id": "ronaldo-goal-636",
@@ -1033,7 +1039,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Lucas Vazquez"
+        "assistedBy": "Lucas Vazquez",
+        "goalkeeper": "Fernando Pacheco"
       }
     ],
     "assistEvents": []
@@ -1655,7 +1662,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Mateo Kovacic"
+        "assistedBy": "Mateo Kovacic",
+        "goalkeeper": "Roman Burki"
       }
     ],
     "assistEvents": []
@@ -2105,7 +2113,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Isco"
+        "assistedBy": "Isco",
+        "goalkeeper": "Vicente Guaita"
       }
     ],
     "assistEvents": []
@@ -2190,7 +2199,8 @@
         "minute": "63",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Josep Gomes"
       }
     ],
     "assistEvents": [],
@@ -2284,7 +2294,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Roman Burki"
       },
       {
         "id": "ronaldo-goal-612",
@@ -2293,7 +2304,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luka Modric"
+        "assistedBy": "Luka Modric",
+        "goalkeeper": "Roman Burki"
       }
     ],
     "assistEvents": []
@@ -2516,14 +2528,16 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Bernardo Silva"
+        "assistedBy": "Bernardo Silva",
+        "goalkeeper": "Gunnar Nielsen"
       },
       {
         "id": "ronaldo-goal-607",
         "goalNumber": 607,
         "minute": "29",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Gunnar Nielsen"
       },
       {
         "id": "ronaldo-goal-608",
@@ -2532,7 +2546,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "William Carvalho"
+        "assistedBy": "William Carvalho",
+        "goalkeeper": "Gunnar Nielsen"
       }
     ],
     "assistEvents": [
@@ -2590,7 +2605,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Isco"
+        "assistedBy": "Isco",
+        "goalkeeper": "Marc-André ter Stegen"
       }
     ],
     "assistEvents": []
