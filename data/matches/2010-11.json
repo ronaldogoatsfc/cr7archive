@@ -80,7 +80,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sergio Ramos"
+        "assistedBy": "Sergio Ramos",
+        "goalkeeper": "Jerzy Dudek"
       },
       {
         "id": "ronaldo-goal-235",
@@ -89,7 +90,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Sergio Ramos"
+        "assistedBy": "Sergio Ramos",
+        "goalkeeper": "Jerzy Dudek"
       }
     ],
     "assistEvents": [
@@ -2063,7 +2065,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Angel Di Maria"
+        "assistedBy": "Angel Di Maria",
+        "goalkeeper": "Dani Hernández"
       }
     ],
     "assistEvents": []
@@ -2184,7 +2187,8 @@
         "minute": "82",
         "goalType": "Open Play",
         "bodyPart": "Right foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Juan Calatayud"
       },
       {
         "id": "ronaldo-goal-193",
@@ -2193,7 +2197,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Juan Calatayud"
       }
     ],
     "assistEvents": [
@@ -2419,14 +2424,16 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "Galatto"
       },
       {
         "id": "ronaldo-goal-186",
         "goalNumber": 186,
         "minute": "50",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Galatto"
       }
     ],
     "assistEvents": [
@@ -2603,7 +2610,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Mesut Ozil"
+        "assistedBy": "Mesut Ozil",
+        "goalkeeper": "Manu Fernández"
       },
       {
         "id": "ronaldo-goal-182",
@@ -2612,7 +2620,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Xabi Alonso"
+        "assistedBy": "Xabi Alonso",
+        "goalkeeper": "Manu Fernández"
       }
     ],
     "assistEvents": []
