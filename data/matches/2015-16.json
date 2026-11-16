@@ -515,7 +515,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Diego Alves"
       },
       {
         "id": "ronaldo-goal-541",
@@ -524,7 +525,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "James Rodriguez"
+        "assistedBy": "James Rodriguez",
+        "goalkeeper": "Diego Alves"
       }
     ],
     "assistEvents": []
@@ -862,7 +864,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Claudio Bravo"
       }
     ],
     "assistEvents": []
@@ -910,7 +913,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Joao Mario"
+        "assistedBy": "Joao Mario",
+        "goalkeeper": "Thibaut Courtois"
       }
     ],
     "assistEvents": [],
@@ -997,7 +1001,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Danilo"
+        "assistedBy": "Danilo",
+        "goalkeeper": "Sergio Rico"
       }
     ],
     "assistEvents": []
@@ -1401,7 +1406,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Karim Benzema"
+        "assistedBy": "Karim Benzema",
+        "goalkeeper": "Gorka Iraizoz"
       },
       {
         "id": "ronaldo-goal-523",
@@ -1410,7 +1416,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Lucas Vazquez"
+        "assistedBy": "Lucas Vazquez",
+        "goalkeeper": "Gorka Iraizoz"
       }
     ],
     "assistEvents": [
@@ -1755,7 +1762,8 @@
         "goalNumber": 515,
         "minute": "42",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Geronimo Rulli"
       },
       {
         "id": "ronaldo-goal-516",
@@ -1764,7 +1772,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Geronimo Rulli"
       }
     ],
     "assistEvents": []
@@ -1911,7 +1920,8 @@
         "minute": "39",
         "goalType": "Free Kick",
         "bodyPart": "Right foot",
-        "shotLocation": "Outside Box"
+        "shotLocation": "Outside Box",
+        "goalkeeper": "Johan Sellberg-Wiland"
       },
       {
         "id": "ronaldo-goal-510",
@@ -1919,7 +1929,8 @@
         "minute": "47",
         "goalType": "Open Play",
         "bodyPart": "Left foot",
-        "shotLocation": "Inside Box"
+        "shotLocation": "Inside Box",
+        "goalkeeper": "Johan Sellberg-Wiland"
       },
       {
         "id": "ronaldo-goal-511",
@@ -1928,7 +1939,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Danilo"
+        "assistedBy": "Danilo",
+        "goalkeeper": "Johan Sellberg-Wiland"
       },
       {
         "id": "ronaldo-goal-512",
@@ -1937,7 +1949,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Isco"
+        "assistedBy": "Isco",
+        "goalkeeper": "Johan Sellberg-Wiland"
       }
     ],
     "assistEvents": [
@@ -2281,7 +2294,8 @@
         "goalType": "Open Play",
         "bodyPart": "Header",
         "shotLocation": "Inside Box",
-        "assistedBy": "Marcelo"
+        "assistedBy": "Marcelo",
+        "goalkeeper": "Javi Varas"
       }
     ],
     "assistEvents": []
@@ -2329,7 +2343,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Lucas Vazquez"
+        "assistedBy": "Lucas Vazquez",
+        "goalkeeper": "Sergio Alvarez"
       }
     ],
     "assistEvents": []
@@ -2414,7 +2429,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Outside Box",
-        "assistedBy": "Toni Kroos"
+        "assistedBy": "Toni Kroos",
+        "goalkeeper": "Ruben Martinez"
       }
     ],
     "assistEvents": [
@@ -2545,7 +2561,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Isco"
+        "assistedBy": "Isco",
+        "goalkeeper": "Johan Sellberg-Wiland"
       },
       {
         "id": "ronaldo-goal-501",
@@ -2554,7 +2571,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Lucas Vazquez"
+        "assistedBy": "Lucas Vazquez",
+        "goalkeeper": "Johan Sellberg-Wiland"
       }
     ],
     "assistEvents": []
@@ -2777,14 +2795,16 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Luka Modric"
+        "assistedBy": "Luka Modric",
+        "goalkeeper": "Pau Lopez"
       },
       {
         "id": "ronaldo-goal-493",
         "goalNumber": 493,
         "minute": "17",
         "goalType": "Penalty",
-        "bodyPart": "Right foot"
+        "bodyPart": "Right foot",
+        "goalkeeper": "Pau Lopez"
       },
       {
         "id": "ronaldo-goal-494",
@@ -2793,7 +2813,8 @@
         "goalType": "Open Play",
         "bodyPart": "Left foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Pau Lopez"
       },
       {
         "id": "ronaldo-goal-495",
@@ -2802,7 +2823,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Gareth Bale"
+        "assistedBy": "Gareth Bale",
+        "goalkeeper": "Pau Lopez"
       },
       {
         "id": "ronaldo-goal-496",
@@ -2811,7 +2833,8 @@
         "goalType": "Open Play",
         "bodyPart": "Right foot",
         "shotLocation": "Inside Box",
-        "assistedBy": "Lucas Vazquez"
+        "assistedBy": "Lucas Vazquez",
+        "goalkeeper": "Pau Lopez"
       }
     ],
     "assistEvents": [
