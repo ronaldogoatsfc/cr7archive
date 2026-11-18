@@ -115,6 +115,7 @@ const ronaldo200809PremierLeague = {
     {
       type: "table",
       headers: ["Season", "Apps", "Goals", "Opta Assists", "Non-Opta Contributions"],
+      highlightRows: false,
       rows: [
         ["2006/07", "34", "17", "8", "8"],
         ["2007/08", "34", "31", "6", "1"],
