@@ -143,7 +143,7 @@ function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }
   );
 }
 
-function ArticleCompetitionStats({ team, competition }) {
+function ArticleCompetitionStats({ team, competition, season }) {
   const isLaDecimaSeason = team === "Real Madrid" && competition === "UEFA Champions League";
   const isPremierLeagueSeason = team === "Manchester United" && competition === "Premier League";
   const is200708PremierLeague = isPremierLeagueSeason && season === "2007/08";
@@ -277,7 +277,7 @@ function ArticleBlock({ block }) {
   }
 
   if (block.type === "competitionStats") {
-    return <ArticleCompetitionStats team={block.team} competition={block.competition} />;
+    return <ArticleCompetitionStats team={block.team} competition={block.competition} season={block.season} />;
   }
 
   if (block.type === "table") {
