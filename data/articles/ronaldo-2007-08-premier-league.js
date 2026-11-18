@@ -130,8 +130,7 @@ const ronaldo200708PremierLeague = {
     {
       type: "paragraph",
       text: "Manchester United's 2007/08 title was the culmination of a campaign in which Ronaldo reached a new level. His 31 league goals, 12 game-winning goals, and decisive performances against direct rivals helped United withstand Chelsea's challenge and finish as champions. It was the most prolific Premier League season of his career at the time, and a defining chapter in his rise from exciting young winger to one of the world's best players."
-    },
-    { type: "competitionStats", team: "Manchester United", competition: "Premier League", season: "2007/08" }
+    }
   ]
 };
 
