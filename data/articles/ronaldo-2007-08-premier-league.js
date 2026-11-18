@@ -105,7 +105,7 @@ const ronaldo200708PremierLeague = {
     {
       type: "sources",
       items: [
-        { label: "Football Writers' Association — Footballer of the Year", url: "https://footballwriters.co.uk/" }
+        { label: "Football Writers' Association — Footballer of the Year", url: "https://footballwriters.co.uk/news/cristiano-ronaldo-footballer-of-the-year-2007-08/" }
       ]
     },
 
