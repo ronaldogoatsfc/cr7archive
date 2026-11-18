@@ -79,7 +79,7 @@ const ronaldo200809PremierLeague = {
     { type: "heading", text: "Ronaldo's Premier League Season" },
     {
       type: "paragraph",
-      text: "Ronaldo finished the 2008/09 Premier League campaign with 18 goals in 33 appearances. He was Manchester United's leading league scorer and the second-highest scorer in the division, behind Nicolas Anelka's 19 goals. He also recorded seven assists in total: six official assists and one non-Opta assist."
+      text: "Ronaldo finished the 2008/09 Premier League campaign with 18 goals in 33 appearances. He was Manchester United's leading league scorer and the second-highest scorer in the division, behind Nicolas Anelka's 19 goals. He also recorded six official Opta assists and one additional non-Opta contribution."
     },
     {
       type: "stats",
@@ -93,7 +93,7 @@ const ronaldo200809PremierLeague = {
     },
     {
       type: "paragraph",
-      text: "*The total of seven assists includes six official assists and one non-Opta assist. Ronaldo's 18 league goals placed him second in the Premier League scoring charts."
+      text: "*The six official assists are listed separately from one additional non-Opta contribution recorded in the archive. Ronaldo's 18 league goals placed him second in the Premier League scoring charts."
     },
 
     { type: "heading", text: "Three Consecutive Premier League Titles" },
@@ -110,6 +110,21 @@ const ronaldo200809PremierLeague = {
         ["2008/09", "28", "6", "4", "90"],
         ["Total", "83", "17", "14", "266"]
       ]
+    },
+    { type: "heading", text: "Ronaldo's Stats Across the Threepeat" },
+    {
+      type: "table",
+      headers: ["Season", "Apps", "Goals", "Opta Assists", "Non-Opta Contributions"],
+      rows: [
+        ["2006/07", "34", "17", "8", "8"],
+        ["2007/08", "34", "31", "6", "1"],
+        ["2008/09", "33", "18", "6", "1"],
+        ["Total", "101", "66", "20", "10"]
+      ]
+    },
+    {
+      type: "paragraph",
+      text: "Across the three title-winning seasons, Ronaldo made 101 Premier League appearances and scored 66 goals. The table separates his official Opta assists from additional non-Opta contributions recorded in the archive; those contributions are not included in the official assist totals."
     },
     {
       type: "paragraph",
