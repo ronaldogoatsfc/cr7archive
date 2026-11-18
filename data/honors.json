@@ -241,7 +241,8 @@
     "season": "2007/08",
     "year": 2008,
     "domestic": false,
-    "notes": ""
+    "notes": "",
+    "articleSlug": "ronaldo-2007-08-premier-league"
   },
   {
     "id": "2011-european-golden-shoe",
@@ -352,7 +353,8 @@
     "season": "2007/08",
     "year": 2008,
     "domestic": true,
-    "notes": ""
+    "notes": "",
+    "articleSlug": "ronaldo-2007-08-premier-league"
   },
   {
     "id": "2011-pichichi-trophy",
@@ -1025,7 +1027,8 @@
     "season": "2007/08",
     "year": 2008,
     "domestic": true,
-    "notes": ""
+    "notes": "",
+    "articleSlug": "ronaldo-2007-08-premier-league"
   },
   {
     "id": "2006-07-pfa-fpoty",
@@ -1046,7 +1049,8 @@
     "season": "2007/08",
     "year": 2008,
     "domestic": true,
-    "notes": ""
+    "notes": "",
+    "articleSlug": "ronaldo-2007-08-premier-league"
   },
   {
     "id": "2006-07-fwa-foty",
@@ -1067,7 +1071,8 @@
     "season": "2007/08",
     "year": 2008,
     "domestic": true,
-    "notes": ""
+    "notes": "",
+    "articleSlug": "ronaldo-2007-08-premier-league"
   },
   {
     "id": "2006-07-pl-pots",
@@ -1120,7 +1125,8 @@
     "season": "2007/08",
     "year": 2008,
     "domestic": true,
-    "notes": "January 2008"
+    "notes": "January 2008",
+    "articleSlug": "ronaldo-2007-08-premier-league"
   },
   {
     "id": "2008-mar-pl-potm",
@@ -1130,7 +1136,8 @@
     "season": "2007/08",
     "year": 2008,
     "domestic": true,
-    "notes": "March 2008"
+    "notes": "March 2008",
+    "articleSlug": "ronaldo-2007-08-premier-league"
   },
   {
     "id": "2021-sep-pl-potm",
