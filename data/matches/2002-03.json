@@ -53,7 +53,16 @@
     "matchCompUrl": "https://www.youtube.com/watch?v=BD-JrESn88Q",
     "hasFullMatch": true,
     "fullMatchUrl": "https://footballia.net/matches/sporting-cp-fk-partizan",
-    "assistEvents": []
+    "assistEvents": [],
+    "ronaldo_starting_xi": "Tiago | Quiroga, Beto, Hugo | Rui Jorge*, César Prates***, Paulo Bento, Toñito | Pedro Barbosa*, Quaresma, Niculae",
+    "ronaldo_team_subs": "*Cristiano Ronaldo, **Rodrigo Tello, ***Danny",
+    "ronaldo_team_formation": "3-4-3 Diamond",
+    "opponent_starting_xi": "Radaković | Bajić, Savić, Ognjanović, Duljaj | Trobok, Mišković, Saša Ilić** | Vukić | Iliev*, Delibašić***",
+    "opponent_team_subs": "*Damir Čakar, **Dejan Rusmir, ***Milan Stojanoski",
+    "opponent_formation": "4-3-1-2",
+    "teamManager": "László Bölöni",
+    "opponent_manager": "Ljubiša Tumbaković",
+    "matchNote": "Cristiano Ronaldo made his European competition debut, entering at halftime for Pedro Barbosa. Sporting lost 1–3 in the first leg."
   },
   {
     "id": "2002-09-29",
