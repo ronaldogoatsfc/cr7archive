@@ -271,7 +271,8 @@
     "season": "2007/08",
     "year": 2008,
     "domestic": true,
-    "isFriendly": false
+    "isFriendly": false,
+    "articleSlug": "ronaldo-2007-08-premier-league"
   },
   {
     "id": "2008-09-english-league",
@@ -281,7 +282,8 @@
     "season": "2008/09",
     "year": 2009,
     "domestic": true,
-    "isFriendly": false
+    "isFriendly": false,
+    "articleSlug": "ronaldo-2008-09-premier-league"
   },
   {
     "id": "2007-08-uefa-champions-league",
