@@ -75,14 +75,14 @@ const ronaldo200708PremierLeague = {
     { type: "heading", text: "A Record-Breaking Premier League Season" },
     {
       type: "paragraph",
-      text: "Ronaldo finished the league campaign with 31 goals in 34 appearances. It was a Manchester United single-season Premier League record and equalled the best return in a 38-game Premier League season at the time. He also registered six assists, including one non-Opta assist, and his 12 game-winning goals were the most in the league."
+      text: "Ronaldo finished the league campaign with 31 goals in 34 appearances. It was a Manchester United single-season Premier League record and equalled the best return in a 38-game Premier League season at the time. He also registered seven assists in total: six official assists and one non-Opta assist. His 12 game-winning goals were the most in the league."
     },
     {
       type: "stats",
       items: [
         { label: "Appearances", value: "34" },
         { label: "Goals", value: "31" },
-        { label: "Assists", value: "6*" },
+        { label: "Assists", value: "7*" },
         { label: "Goals per appearance", value: "0.91" },
         { label: "Game-winning goals", value: "12" },
         { label: "Premier League Golden Boot", value: "Winner" }
@@ -90,7 +90,7 @@ const ronaldo200708PremierLeague = {
     },
     {
       type: "paragraph",
-      text: "*The six assists include one non-Opta assist. Ronaldo's 31 goals earned him the Premier League Golden Boot and the European Golden Shoe, recognising him as the leading goalscorer in Europe's domestic leagues."
+      text: "*The total of seven assists includes six official assists and one non-Opta assist. Ronaldo's 31 goals earned him the Premier League Golden Boot and the European Golden Shoe, recognising him as the leading goalscorer in Europe's domestic leagues."
     },
 
     { type: "heading", text: "Individual Awards" },
