@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { ChevronDown, Search, Menu, X } from "lucide-react";
 
@@ -27,6 +28,9 @@ export default function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const containerRef = useRef(null);
+  const menuButtonRef = useRef(null);
+  const menuPanelRef = useRef(null);
+  const [menuPosition, setMenuPosition] = useState({ top: 0, right: 16 });
 
   useEffect(() => {
     function handleKeyDown(e) {
@@ -46,7 +50,9 @@ export default function NavBar() {
 
   useEffect(() => {
     function handleClickOutside(e) {
-      if (containerRef.current && !containerRef.current.contains(e.target)) {
+      const clickedTrigger = containerRef.current?.contains(e.target);
+      const clickedMenu = menuPanelRef.current?.contains(e.target);
+      if (!clickedTrigger && !clickedMenu) {
         setMenuOpen(false);
       }
     }
@@ -95,8 +101,12 @@ export default function NavBar() {
               </button>
             </div>
 
-            {menuOpen && (
-              <div className="absolute right-0 mt-2 w-64 overflow-hidden rounded-xl border border-line bg-pitch-raised shadow-xl">
+            {menuOpen && typeof document !== "undefined" && createPortal(
+              <div
+                ref={menuPanelRef}
+                style={{ top: menuPosition.top, right: menuPosition.right }}
+                className="fixed z-[60] w-64 overflow-hidden rounded-xl border border-line bg-pitch-raised shadow-xl"
+              >
                 {matchLogsMenu.map((item) => (
                   <Link
                     key={item.href}
@@ -110,7 +120,8 @@ export default function NavBar() {
                     </p>
                   </Link>
                 ))}
-              </div>
+              </div>,
+              document.body
             )}
           </div>
 
