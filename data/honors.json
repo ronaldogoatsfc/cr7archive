@@ -221,7 +221,7 @@
     "year": 2017,
     "domestic": false,
     "notes": "",
-    "articleSlug": "ronaldo-2017-ballon-dor"
+    "articleSlug": "ronaldo-2016-17-champions-league"
   },
   {
     "id": "2018-uefa-cl-top-scorer",
@@ -825,7 +825,7 @@
     "year": 2017,
     "domestic": false,
     "notes": "",
-    "articleSlug": "ronaldo-2017-ballon-dor"
+    "articleSlug": "ronaldo-2016-17-champions-league"
   },
   {
     "id": "2019-20-r16-2l-ucl-potw",
@@ -895,7 +895,8 @@
     "season": "2016/17",
     "year": 2017,
     "domestic": false,
-    "notes": "Final vs Juventus"
+    "notes": "Final vs Juventus",
+    "articleSlug": "ronaldo-2016-17-champions-league"
   },
   {
     "id": "2016-17-sf-1l-ucl-potw",
@@ -905,7 +906,8 @@
     "season": "2016/17",
     "year": 2017,
     "domestic": false,
-    "notes": ""
+    "notes": "",
+    "articleSlug": "ronaldo-2016-17-champions-league"
   },
   {
     "id": "2016-17-qf-1l-ucl-potw",
@@ -915,7 +917,8 @@
     "season": "2016/17",
     "year": 2017,
     "domestic": false,
-    "notes": ""
+    "notes": "",
+    "articleSlug": "ronaldo-2016-17-champions-league"
   },
   {
     "id": "2015-16-sf-2l-ucl-potw",
