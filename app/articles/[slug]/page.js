@@ -89,13 +89,13 @@ function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }
   return (
     <details className="my-4 overflow-hidden rounded-xl border border-line bg-pitch-raised/70 open:border-gold/50">
       <summary className="cursor-pointer list-none px-4 py-4 marker:hidden [&::-webkit-details-marker]:hidden">
-        <div className="flex flex-wrap items-center justify-between gap-3">
+        <div className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-3">
           <div className="min-w-0">
             <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">{match.date} · {match.venue}</p>
-            <div className="mt-2 grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-2 sm:gap-3">
-              <span className="min-w-0 truncate text-right font-display text-sm font-semibold text-paper">{match.team}</span>
+            <div className="mt-2 flex min-w-0 items-center justify-start gap-3">
+              <span className="max-w-[42%] truncate text-left font-display text-sm font-semibold text-paper">{match.team}</span>
               <span className="data-mono shrink-0 text-xl font-bold text-paper">{match.scoreFor}–{opponentScore}</span>
-              <span className="min-w-0 truncate text-left font-display text-sm font-semibold text-paper">{match.opponent}</span>
+              <span className="max-w-[42%] truncate text-left font-display text-sm font-semibold text-paper">{match.opponent}</span>
             </div>
           </div>
           <div className="flex items-center gap-3 font-mono text-xs">
@@ -292,10 +292,10 @@ function ArticleCompetitionStats({ team, competition, season }) {
 function ArticleBlock({ block }) {
   if (block.type === "scoreline") {
     return (
-      <div className="my-5 grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-2 rounded-xl border border-line bg-pitch-raised/70 px-4 py-3 sm:gap-3">
-        <span className="min-w-0 truncate text-right font-display text-sm font-semibold text-paper">{block.home}</span>
+      <div className="my-5 flex min-w-0 items-center justify-start gap-3 rounded-xl border border-line bg-pitch-raised/70 px-4 py-3">
+        <span className="max-w-[42%] truncate text-left font-display text-sm font-semibold text-paper">{block.home}</span>
         <span className="data-mono shrink-0 text-xl font-bold text-gold">{block.homeScore}–{block.awayScore}</span>
-        <span className="min-w-0 truncate text-left font-display text-sm font-semibold text-paper">{block.away}</span>
+        <span className="max-w-[42%] truncate text-left font-display text-sm font-semibold text-paper">{block.away}</span>
       </div>
     );
   }
