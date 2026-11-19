@@ -315,7 +315,8 @@
     "season": "2015/16",
     "year": 2016,
     "domestic": false,
-    "isFriendly": false
+    "isFriendly": false,
+    "articleSlug": "ronaldo-2015-16-champions-league"
   },
   {
     "id": "2016-17-uefa-champions-league",
@@ -347,7 +348,8 @@
     "season": "2017/18",
     "year": 2018,
     "domestic": false,
-    "isFriendly": false
+    "isFriendly": false,
+    "articleSlug": "ronaldo-2017-18-champions-league"
   },
   {
     "id": "2023-arab-club-champions-cup",
