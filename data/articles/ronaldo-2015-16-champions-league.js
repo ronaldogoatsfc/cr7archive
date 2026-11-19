@@ -261,6 +261,10 @@ const ronaldo201516ChampionsLeague = {
           "url": "https://www.uefa.com/uefachampionsleague/news/022d-0e947ece185b-093dd2b4ded8-1000--cristiano-ronaldo-takes-scoring-prize-again/"
         },
         {
+          "label": "UEFA — 2015/16 Season Statistics",
+          "url": "https://www.uefa.com/uefachampionsleague/history/seasons/2016/statistics/"
+        },
+        {
           "label": "UEFA — 2015/16 Season Review",
           "url": "https://www.uefa.com/MultimediaFiles/Download/uefaorg/Administration/02/45/50/22/2455022_DOWNLOAD.pdf"
         }
