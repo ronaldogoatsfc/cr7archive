@@ -45,8 +45,26 @@ const ronaldo201617ChampionsLeague = {
       "competition": "UEFA Champions League"
     },
     {
+      "type": "matchLog",
+      "date": "2016-11-02",
+      "team": "Real Madrid",
+      "competition": "UEFA Champions League"
+    },
+    {
+      "type": "matchLog",
+      "date": "2016-11-22",
+      "team": "Real Madrid",
+      "competition": "UEFA Champions League"
+    },
+    {
+      "type": "matchLog",
+      "date": "2016-12-07",
+      "team": "Real Madrid",
+      "competition": "UEFA Champions League"
+    },
+    {
       "type": "paragraph",
-      "text": "Ronaldo's final group-stage appearance came in the 2–2 draw with Dortmund. He did not score, and his Champions League total remained at two goals after six group matches. Madrid progressed, but the individual scoring race was already looking one-sided."
+      "text": "Ronaldo's final group-stage appearance came in the 2–2 draw with Dortmund. He did not score, and his Champions League total remained at two goals after six group matches. Across the group stage, he recorded two goals and four assists. Madrid progressed, but the individual scoring race was already looking one-sided."
     },
     {
       "type": "heading",
@@ -166,6 +184,10 @@ const ronaldo201617ChampionsLeague = {
         {
           "label": "Goals",
           "value": "12"
+        },
+        {
+          "label": "Group stage",
+          "value": "2 goals, 4 assists"
         },
         {
           "label": "Group stage to round of 16",
