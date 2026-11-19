@@ -177,7 +177,7 @@ const ronaldo201617ChampionsLeague = {
         },
         {
           "label": "Player of the Week wins",
-          "value": "2"
+          "value": "3"
         },
         {
           "label": "UCL goals",
