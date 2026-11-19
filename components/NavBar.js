@@ -32,6 +32,22 @@ export default function NavBar() {
   const menuPanelRef = useRef(null);
   const [menuPosition, setMenuPosition] = useState({ top: 0, right: 16 });
 
+  function toggleMatchMenu() {
+    if (menuOpen) {
+      setMenuOpen(false);
+      return;
+    }
+
+    const buttonRect = menuButtonRef.current?.getBoundingClientRect();
+    if (buttonRect) {
+      setMenuPosition({
+        top: buttonRect.bottom + 8,
+        right: Math.max(8, window.innerWidth - buttonRect.right),
+      });
+    }
+    setMenuOpen(true);
+  }
+
   useEffect(() => {
     function handleKeyDown(e) {
       if (e.key === "Escape") {
@@ -89,7 +105,7 @@ export default function NavBar() {
                 Match Logs
               </Link>
               <button
-                onClick={() => setMenuOpen((v) => !v)}
+                ref={menuButtonRef}\n                onClick={toggleMatchMenu}
                 aria-expanded={menuOpen}
                 aria-label="Toggle match logs menu"
                 className="shrink-0 rounded-r-full py-2 pl-1 pr-3 text-paper-dim transition hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
