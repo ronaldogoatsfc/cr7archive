@@ -140,13 +140,7 @@ const ronaldo201516ChampionsLeague = {
     },
     {
       "type": "paragraph",
-      "text": "Ronaldo missed the first leg against Manchester City after suffering a thigh injury shortly before kick-off. The match in England finished 0–0, leaving the tie open for the return at the Bernabéu. He returned for the second leg but had a quieter evening by his standards, playing the full 90 minutes without scoring or assisting. Gareth Bale's effort took a deflection off Fernando and gave Madrid a 1–0 win, sending them through to the final."
-    },
-    {
-      "type": "matchLog",
-      "date": "2016-05-04",
-      "team": "Real Madrid",
-      "competition": "UEFA Champions League"
+      "text": "The semi-final against Manchester City ended 0–0 in the first leg, before Real Madrid won 1–0 at the Bernabéu to advance 1–0 on aggregate."
     },
     {
       "type": "heading",
@@ -221,52 +215,8 @@ const ronaldo201516ChampionsLeague = {
       "type": "sources",
       "items": [
         {
-          "label": "UEFA — Ronaldo reaches 80 goals as Madrid fell Shakhtar",
-          "url": "https://www.uefa.com/uefachampionsleague/news/0225-0e91a963c678-dee34c931cf8-1000--ronaldo-reaches-80-goals-as-madrid-fell-shakhtar/"
-        },
-        {
-          "label": "UEFA — New Ronaldo milestones as Madrid edge Malmö",
-          "url": "https://www.uefa.com/uefachampionsleague/news/0225-0e91f313b368-03511d3650be-1000--new-ronaldo-milestones-as-madrid-edge-malmo/"
-        },
-        {
-          "label": "UEFA — Ronaldo rampant as Madrid put eight past Malmö",
-          "url": "https://www.uefa.com/uefachampionsleague/news/0228-0e92cb1b045d-13a834dc2ded-1000--ronaldo-rampant-as-madrid-put-eight-past-malmo/"
-        },
-        {
           "label": "UEFA — Every Champions League Player of the Week",
           "url": "https://www.uefa.com/uefachampionsleague/news/0251-0e99a979155e-e86c7ecba464-1000--every-uefa-champions-league-player-of-the-week/"
-        },
-        {
-          "label": "UEFA — Zidane replaces Benítez at Real Madrid",
-          "url": "https://www.uefa.com/uefachampionsleague/news/0229-0e930f484246-2c717a89d01b-1000--zidane-replaces-benitez-at-real-madrid/"
-        },
-        {
-          "label": "UEFA — Madrid weather Roma storm to reach last eight",
-          "url": "https://www.uefa.com/uefachampionsleague/news/022b-0e93955135f5-02fbd298182a-1000--madrid-weather-roma-storm-to-reach-last-eight/"
-        },
-        {
-          "label": "UEFA — Ronaldo hat-trick inspires Madrid to comeback win",
-          "url": "https://www.uefa.com/uefachampionsleague/news/022c-0e93fa8a4963-8b14fd14f141-1000--ronaldo-hat-trick-inspires-madrid-to-comeback-win/"
-        },
-        {
-          "label": "UEFA — Manchester City resist late Real Madrid surge",
-          "url": "https://www.uefa.com/uefachampionsleague/news/022c-0e9429c4d32d-e81633da53c8-1000--manchester-city-resist-late-real-madrid-surge/"
-        },
-        {
-          "label": "UEFA — Spot-on Real Madrid defeat Atlético in final again",
-          "url": "https://www.uefa.com/uefachampionsleague/news/022d-0e957c5979eb-37493cb53cd0-1000--spot-on-real-madrid-defeat-atletico-in-final-again/"
-        },
-        {
-          "label": "UEFA — Cristiano Ronaldo takes scoring prize again",
-          "url": "https://www.uefa.com/uefachampionsleague/news/022d-0e947ece185b-093dd2b4ded8-1000--cristiano-ronaldo-takes-scoring-prize-again/"
-        },
-        {
-          "label": "UEFA — 2015/16 Season Statistics",
-          "url": "https://www.uefa.com/uefachampionsleague/history/seasons/2016/statistics/"
-        },
-        {
-          "label": "UEFA — 2015/16 Season Review",
-          "url": "https://www.uefa.com/MultimediaFiles/Download/uefaorg/Administration/02/45/50/22/2455022_DOWNLOAD.pdf"
         }
       ]
     }
