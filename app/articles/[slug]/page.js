@@ -5,6 +5,7 @@ import madrid2016_17Matches from "@/data/matches/2016-17.json";
 import madrid2017_18Matches from "@/data/matches/2017-18.json";
 import seasonMatches from "@/data/matches/2011-12.json";
 import madridLaDecimaMatches from "@/data/matches/2013-14.json";
+import madrid2015_16Matches from "@/data/matches/2015-16.json";
 import unitedCupMatches from "@/data/matches/2003-04.json";
 import unitedUclMatches from "@/data/matches/2007-08.json";
 import portugalEuroMatches from "@/data/matches/2015-16.json";
@@ -41,12 +42,15 @@ const MATCH_STAT_GROUPS = [
 
 function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }) {
   const is2017MadridMatch = team === "Real Madrid" && date >= "2017-01-01" && date <= "2017-12-31";
+  const is201516MadridUclMatch = team === "Real Madrid" && competition === "UEFA Champions League" && date >= "2015-09-01" && date <= "2016-05-31";
   const is200708PremierLeague = team === "Manchester United" && competition === "Premier League" && date >= "2007-08-01" && date <= "2008-07-31";
   const is200809PremierLeague = team === "Manchester United" && competition === "Premier League" && date >= "2008-08-01" && date <= "2009-07-31";
   const matchSource = is2017MadridMatch
     ? date <= "2017-06-30" ? madrid2016_17Matches : madrid2017_18Matches
-    : team === "Real Madrid" && competition === "UEFA Champions League"
-    ? madridLaDecimaMatches
+    : is201516MadridUclMatch
+      ? madrid2015_16Matches
+      : team === "Real Madrid" && competition === "UEFA Champions League"
+        ? madridLaDecimaMatches
     : team === "Manchester United" && competition === "FA Cup"
     ? unitedCupMatches
     : team === "Manchester United" && competition === "UEFA Champions League"
@@ -148,13 +152,16 @@ function ArticleMatchLog({ date, team = "Real Madrid", competition = "La Liga" }
 }
 
 function ArticleCompetitionStats({ team, competition, season }) {
-  const isLaDecimaSeason = team === "Real Madrid" && competition === "UEFA Champions League";
+  const is201516UclSeason = team === "Real Madrid" && competition === "UEFA Champions League" && season === "2015/16";
+  const isLaDecimaSeason = team === "Real Madrid" && competition === "UEFA Champions League" && !is201516UclSeason;
   const isPremierLeagueSeason = team === "Manchester United" && competition === "Premier League";
   const is200708PremierLeague = isPremierLeagueSeason && season === "2007/08";
   const is200809PremierLeague = isPremierLeagueSeason && season === "2008/09";
-  const matchSource = isLaDecimaSeason
-    ? madridLaDecimaMatches
-    : is200809PremierLeague
+  const matchSource = is201516UclSeason
+    ? madrid2015_16Matches
+    : isLaDecimaSeason
+      ? madridLaDecimaMatches
+      : is200809PremierLeague
     ? unitedPremierLeague200809Matches
     : is200708PremierLeague
       ? unitedPremierLeague200708Matches
@@ -211,7 +218,7 @@ function ArticleCompetitionStats({ team, competition, season }) {
             ["Minutes played", matches.reduce((total, match) => total + match.minutesPlayed, 0)],
             ["Goals", matches.reduce((total, match) => total + match.goals, 0)],
             ["Assists", matches.reduce((total, match) => total + match.assists, 0)],
-            ["Man of the Match awards", matches.filter((match) => match.stats?.motm).length]
+            [is201516UclSeason ? "Rating-app MOTM tags" : "Man of the Match awards", matches.filter((match) => match.stats?.motm).length]
           ]
         },
         {
@@ -236,7 +243,7 @@ function ArticleCompetitionStats({ team, competition, season }) {
     <section className="my-4 overflow-hidden rounded-xl border border-line bg-pitch-raised/70">
       <div className="flex flex-wrap items-center justify-between gap-3 px-4 py-4">
         <div>
-          <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">{isLaDecimaSeason ? "2013/14 UEFA Champions League" : is200809PremierLeague ? "2008/09 Premier League" : is200708PremierLeague ? "2007/08 Premier League" : isPremierLeagueSeason ? "2006/07 Premier League" : team === "Portugal" ? "2015/16 UEFA European Championship" : "2007/08 UEFA Champions League"}</p>
+          <p className="font-mono text-[10px] uppercase tracking-widest text-paper-dim">{is201516UclSeason ? "2015/16 UEFA Champions League" : isLaDecimaSeason ? "2013/14 UEFA Champions League" : is200809PremierLeague ? "2008/09 Premier League" : is200708PremierLeague ? "2007/08 Premier League" : isPremierLeagueSeason ? "2006/07 Premier League" : team === "Portugal" ? "2015/16 UEFA European Championship" : "2007/08 UEFA Champions League"}</p>
           <p className="mt-1 font-display text-base font-semibold text-paper">Cristiano Ronaldo · Competition totals</p>
         </div>
         <div className="flex flex-wrap items-center gap-3 font-mono text-xs">
