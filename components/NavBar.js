@@ -105,7 +105,8 @@ export default function NavBar() {
                 Match Logs
               </Link>
               <button
-                ref={menuButtonRef}\n                onClick={toggleMatchMenu}
+                ref={menuButtonRef}
+                onClick={toggleMatchMenu}
                 aria-expanded={menuOpen}
                 aria-label="Toggle match logs menu"
                 className="shrink-0 rounded-r-full py-2 pl-1 pr-3 text-paper-dim transition hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
