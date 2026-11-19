@@ -176,7 +176,7 @@ const ronaldo201516ChampionsLeague = {
     },
     {
       "type": "paragraph",
-      "text": "He also recorded four assists and led the competition in attempts on target, with 40. UEFA's match report named him Man of the Match after the opening-night hat-trick against Shakhtar. Separately, the archive's match-rating data marks him as Man of the Match in seven of his 12 appearances; these app-based tags should not be confused with UEFA's official match recognition."
+      "text": "He also recorded four assists. UEFA's season statistics credited him with 40 attempts on target, while the archive's match-by-match records currently add up to 39; the detailed panel below uses the archive's recorded totals. UEFA's match report named him Man of the Match after the opening-night hat-trick against Shakhtar. Separately, the archive's match-rating data marks him as Man of the Match in seven of his 12 appearances; these app-based tags should not be confused with UEFA's official match recognition."
     },
     {
       "type": "stats",
