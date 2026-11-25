@@ -1,5 +1,51 @@
 [
   {
+    "id": "2026-11-24",
+    "date": "2026-11-24",
+    "season": "2026/27",
+    "team": "Al Nassr",
+    "competition": "AFC Champions League",
+    "stage": "League Stage",
+    "opponent": "Al-Sadd",
+    "venue": "Home",
+    "result": "W",
+    "scoreFor": 2,
+    "scoreAgainst": 1,
+    "minutesPlayed": 90,
+    "goals": 1,
+    "assists": 0,
+    "yellowCard": null,
+    "redCard": null,
+    "stats": {
+      "shots": 5,
+      "shotsOnTarget": 1,
+      "keyPasses": 0,
+      "bigChancesCreated": 0,
+      "successfulDribbles": 0,
+      "aerialDuelsWon": 0,
+      "freeKickAttempts": 0,
+      "accurateThroughballs": null,
+      "xG": 1.09,
+      "xA": 0.04,
+      "rating": 7.5,
+      "motm": false
+    },
+    "hasMatchComp": false,
+    "matchCompUrl": "",
+    "hasFullMatch": false,
+    "fullMatchUrl": "",
+    "goalEvents": [
+      {
+        "id": "ronaldo-goal-986",
+        "goalNumber": 986,
+        "minute": "13",
+        "goalType": "Penalty",
+        "bodyPart": "Right foot",
+        "shotLocation": "Penalty Spot"
+      }
+    ]
+  },
+  {
     "id": "2026-11-20",
     "date": "2026-11-20",
     "season": "2026/27",
